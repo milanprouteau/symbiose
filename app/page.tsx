@@ -1,31 +1,18 @@
 import { promises as fs } from "fs";
 import path from "path";
-import PlayerHero from "@/components/dashboard/PlayerHero";
-import ShotChart from "@/components/dashboard/ShotChart";
-import PercentileRanks from "@/components/dashboard/PercentileRanks";
-import { mapPlaysToShots } from "@/lib/mapShots";
-import type { PlayRaw } from "@/lib/api";
-import type { PlayerDataBundle } from "@/types/stats";
+import PlayerTable, { type PlayerEntry } from "@/components/dashboard/PlayerTable";
 
-const AJ_DYBANTSA_ID = 198382;
-
-export default async function DashboardPage() {
-  const dataDir = path.join(process.cwd(), "data");
-
-  const [shotsRaw, statsRaw] = await Promise.all([
-    fs.readFile(path.join(dataDir, "aj-dybantsa-shots.json"), "utf-8"),
-    fs.readFile(path.join(dataDir, "aj-dybantsa-stats.json"), "utf-8"),
-  ]);
-
-  const plays: PlayRaw[] = JSON.parse(shotsRaw);
-  const shots = mapPlaysToShots(plays, AJ_DYBANTSA_ID);
-  const stats: PlayerDataBundle = JSON.parse(statsRaw);
+export default async function HomePage() {
+  const indexPath = path.join(process.cwd(), "data", "players", "index.json");
+  const raw = await fs.readFile(indexPath, "utf-8");
+  const players: PlayerEntry[] = JSON.parse(raw);
 
   return (
-    <div>
-      <PlayerHero stats={stats} />
-      <ShotChart shots={shots} />
-      <PercentileRanks stats={stats} />
+    <div className="max-w-7xl mx-auto px-6 py-10">
+      <h1 className="font-display text-4xl text-primary-orange mb-2">
+        Top NCAA Prospects
+      </h1>
+      <PlayerTable players={players} />
     </div>
   );
 }
