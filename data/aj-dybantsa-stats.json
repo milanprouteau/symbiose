@@ -1,0 +1,239 @@
+{
+  "playerStats": {
+    "season": 2026,
+    "seasonLabel": "20252026",
+    "teamId": 18,
+    "team": "BYU",
+    "conference": "Big 12",
+    "athleteId": 198382,
+    "athleteSourceId": "5142718",
+    "name": "AJ Dybantsa",
+    "position": "F",
+    "games": 35,
+    "starts": 35,
+    "minutes": 1208,
+    "points": 894,
+    "turnovers": 108,
+    "fouls": 43,
+    "assists": 130,
+    "steals": 37,
+    "blocks": 11,
+    "offensiveRating": 122.2,
+    "defensiveRating": 109.7,
+    "netRating": 12.5,
+    "PORPAG": 6.6,
+    "usage": 34.3,
+    "assistsTurnoverRatio": 1.2,
+    "offensiveReboundPct": 21.3,
+    "freeThrowRate": 49,
+    "effectiveFieldGoalPct": 55,
+    "trueShootingPct": 0.609,
+    "fieldGoals": {
+      "made": 308,
+      "attempted": 604,
+      "pct": 51
+    },
+    "twoPointFieldGoals": {
+      "made": 259,
+      "attempted": 456,
+      "pct": 56.8
+    },
+    "threePointFieldGoals": {
+      "made": 49,
+      "attempted": 148,
+      "pct": 33.1
+    },
+    "freeThrows": {
+      "made": 229,
+      "attempted": 296,
+      "pct": 77.4
+    },
+    "rebounds": {
+      "offensive": 51,
+      "defensive": 188,
+      "total": 239
+    },
+    "winShares": {
+      "offensive": 5.9,
+      "defensive": 1,
+      "total": 6.9,
+      "totalPer40": 0.228
+    }
+  },
+  "shootingStats": {
+    "season": 2026,
+    "teamId": 18,
+    "team": "BYU",
+    "conference": "Big 12",
+    "athleteId": 198382,
+    "athleteName": "AJ Dybantsa",
+    "trackedShots": 604,
+    "freeThrowRate": 49,
+    "assistedPct": 12.1,
+    "dunks": {
+      "attempted": 44,
+      "made": 39,
+      "pct": 88.6,
+      "assisted": 13,
+      "assistedPct": 33.3
+    },
+    "layups": {
+      "attempted": 129,
+      "made": 84,
+      "pct": 65.1,
+      "assisted": 13,
+      "assistedPct": 15.5
+    },
+    "tipIns": {
+      "attempted": 11,
+      "made": 10,
+      "pct": 90.9
+    },
+    "twoPointJumpers": {
+      "attempted": 272,
+      "made": 126,
+      "pct": 46.3,
+      "assisted": 14,
+      "assistedPct": 11.1
+    },
+    "threePointJumpers": {
+      "attempted": 148,
+      "made": 49,
+      "pct": 33.1,
+      "assisted": 33,
+      "assistedPct": 67.3
+    },
+    "freeThrows": {
+      "attempted": 296,
+      "made": 229,
+      "pct": 77.4
+    },
+    "attemptsBreakdown": {
+      "dunks": 7.3,
+      "layups": 21.4,
+      "tipIns": 1.8,
+      "twoPointJumpers": 45,
+      "threePointJumpers": 24.5
+    }
+  },
+  "teamStats": {
+    "season": 2026,
+    "seasonLabel": "20252026",
+    "teamId": 18,
+    "team": "BYU",
+    "conference": "Big 12",
+    "games": 35,
+    "wins": 23,
+    "losses": 12,
+    "totalMinutes": 1415,
+    "pace": 67.5,
+    "teamStats": {
+      "assists": 464,
+      "blocks": 155,
+      "steals": 251,
+      "possessions": 2388,
+      "trueShooting": 58.5,
+      "rating": 122.4,
+      "fieldGoals": {
+        "made": 1034,
+        "attempted": 2172,
+        "pct": 47.6
+      },
+      "twoPointFieldGoals": {
+        "made": 735,
+        "attempted": 1307,
+        "pct": 56.2
+      },
+      "threePointFieldGoals": {
+        "made": 299,
+        "attempted": 865,
+        "pct": 34.6
+      },
+      "freeThrows": {
+        "made": 557,
+        "attempted": 746,
+        "pct": 74.7
+      },
+      "rebounds": {
+        "offensive": 429,
+        "defensive": 905,
+        "total": 1334
+      },
+      "turnovers": {
+        "total": 377,
+        "teamTotal": 11
+      },
+      "fouls": {
+        "total": 556,
+        "technical": 3,
+        "flagrant": 1
+      },
+      "points": {
+        "total": 2924,
+        "inPaint": 1322,
+        "offTurnovers": 493,
+        "fastBreak": 458
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 54.5,
+        "turnoverRatio": 0.16,
+        "offensiveReboundPct": 32.2,
+        "freeThrowRate": 34.3
+      }
+    },
+    "opponentStats": {
+      "assists": 515,
+      "blocks": 106,
+      "steals": 221,
+      "possessions": 2391,
+      "trueShooting": 54.5,
+      "rating": 110.4,
+      "fieldGoals": {
+        "made": 953,
+        "attempted": 2148,
+        "pct": 44.4
+      },
+      "twoPointFieldGoals": {
+        "made": 657,
+        "attempted": 1310,
+        "pct": 50.2
+      },
+      "threePointFieldGoals": {
+        "made": 296,
+        "attempted": 838,
+        "pct": 35.3
+      },
+      "freeThrows": {
+        "made": 438,
+        "attempted": 620,
+        "pct": 70.6
+      },
+      "rebounds": {
+        "offensive": 379,
+        "defensive": 820,
+        "total": 1199
+      },
+      "turnovers": {
+        "total": 405,
+        "teamTotal": 20
+      },
+      "fouls": {
+        "total": 647,
+        "technical": 4,
+        "flagrant": 3
+      },
+      "points": {
+        "total": 2640,
+        "inPaint": 1102,
+        "offTurnovers": 407,
+        "fastBreak": 329
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 51.3,
+        "turnoverRatio": 0.17,
+        "offensiveReboundPct": 31.6,
+        "freeThrowRate": 28.9
+      }
+    }
+  }
+}
