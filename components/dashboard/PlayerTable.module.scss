@@ -1,0 +1,84 @@
+.wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.headerRow {
+  border-bottom: 1px solid #333;
+}
+
+.rankHeader {
+  width: 2.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  font-family: var(--font-heading);
+  font-size: 10px;
+  color: #888884;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.colHeader {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  font-family: var(--font-heading);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s;
+  color: #888884;
+
+  &:hover {
+    color: var(--color-primary-orange);
+  }
+}
+
+.colHeaderActive {
+  color: var(--color-primary-orange);
+}
+
+.bodyRow {
+  border-bottom: 1px solid #222;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #252523;
+  }
+}
+
+.rankCell {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--color-primary-yellow);
+}
+
+.cell {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  color: var(--color-primary-white);
+}
+
+.nameLink {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  color: var(--color-primary-white);
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--color-primary-orange);
+  }
+}
+
+/* Column widths */
+.w44 { width: 11rem; }
+.w12 { width: 3rem; }
+.w28 { width: 7rem; }
+.w14 { width: 3.5rem; }

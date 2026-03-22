@@ -5,6 +5,7 @@ import PercentileRadialChart, {
   type CategoryStyle,
 } from "./PercentileRadialChart";
 import type { PlayerDataBundle } from "@/types/stats";
+import styles from "./PercentileRanks.module.scss";
 
 type Props = { stats: PlayerDataBundle };
 
@@ -112,13 +113,13 @@ export default function PercentileRanks({ stats }: Props) {
   const rightStats = buildRightStats(stats);
 
   return (
-    <section className="w-full py-10">
-      <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-display text-2xl text-primary-orange text-center mb-8">
+    <section className={styles.section}>
+      <div className={styles.inner}>
+        <h2 className={styles.title}>
           Percentile Ranks
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center">
+        <div className={styles.chartsGrid}>
           <PercentileRadialChart
             title="Skills"
             stats={leftStats}
@@ -134,7 +135,7 @@ export default function PercentileRanks({ stats }: Props) {
         </div>
 
         {/* Disclaimer */}
-        <p className="text-center text-[10px] text-[#666] font-heading mt-4">
+        <p className={styles.disclaimer}>
           Percentile ranks are estimated — a full NCAA player dataset is needed
           for real rankings. Play-type data requires Synergy tracking (not
           available in current API).

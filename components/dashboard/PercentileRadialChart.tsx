@@ -2,6 +2,7 @@
 
 import { useMemo } from "react";
 import * as d3 from "d3";
+import styles from "./PercentileRadialChart.module.scss";
 
 /* ── Types ── */
 export type PercentileStat = {
@@ -116,12 +117,12 @@ export default function PercentileRadialChart({
   }, [stats, categories]);
 
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div className={styles.container}>
       <svg
         width={size}
         height={size}
         viewBox={`0 0 ${size} ${size}`}
-        className="overflow-visible"
+        className={styles.svg}
       >
         <g transform={`translate(${cx},${cy})`}>
           {slices.map((s, i) => (
@@ -144,10 +145,10 @@ export default function PercentileRadialChart({
                 y={s.numY}
                 textAnchor="middle"
                 dominantBaseline="central"
-                className="font-heading"
                 fill="#fff"
                 fontSize={9}
                 fontWeight={600}
+                fontFamily="var(--font-heading)"
               >
                 {s.value}
               </text>
@@ -159,9 +160,9 @@ export default function PercentileRadialChart({
                 textAnchor="middle"
                 dominantBaseline="central"
                 transform={`rotate(${s.textAngle}, ${s.labelX}, ${s.labelY})`}
-                className="font-heading"
                 fill="#888884"
                 fontSize={7}
+                fontFamily="var(--font-heading)"
               >
                 {s.label}
               </text>
@@ -171,11 +172,11 @@ export default function PercentileRadialChart({
       </svg>
 
       {/* Legend */}
-      <div className="flex items-center gap-4 text-[10px] font-heading text-[#888884]">
+      <div className={styles.legend}>
         {legendEntries.map((e) => (
-          <div key={e.category} className="flex items-center gap-1.5">
+          <div key={e.category} className={styles.legendItem}>
             <span
-              className="w-2.5 h-2.5 rounded-sm inline-block"
+              className={styles.legendSwatch}
               style={{ backgroundColor: e.style.fill }}
             />
             <span>{e.category}</span>

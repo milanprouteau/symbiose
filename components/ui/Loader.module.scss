@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotatingContainer {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 0.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.textContainer {
+  display: flex;
+  font-weight: bold;
+  color: var(--color-primary-orange);
+  letter-spacing: 0.1em;
+}
+
+.char {
+  transition: opacity 0.1s;
+}
+
+.charVisible {
+  opacity: 1;
+}
+
+.charHidden {
+  opacity: 0;
+}

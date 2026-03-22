@@ -3,10 +3,13 @@ import path from "path";
 import { notFound } from "next/navigation";
 import PlayerHero from "@/components/dashboard/PlayerHero";
 import ShotChart from "@/components/dashboard/ShotChart";
-import PercentileRanks from "@/components/dashboard/PercentileRanks";
+import RadarChart from "@/components/dashboard/RadarChart";
+import type { RadarPlayer } from "@/components/dashboard/RadarChart";
+
 import { mapPlaysToShots } from "@/lib/mapShots";
 import type { PlayRaw } from "@/lib/api";
 import type { PlayerDataBundle } from "@/types/stats";
+import styles from "./page.module.scss";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -45,11 +48,29 @@ export default async function PlayerPage({ params }: Props) {
   const plays: PlayRaw[] = data.shots ?? [];
   const shots = mapPlaysToShots(plays, Number(id));
 
+  const ps = stats.playerStats;
+  const radarPlayer: RadarPlayer = {
+    name: ps.name,
+    color: "#FF8C42",
+    values: {
+      fg: ps.fieldGoals.pct,
+      three: ps.threePointFieldGoals.pct,
+      ft: ps.freeThrows.pct,
+      ts: ps.trueShootingPct < 1 ? ps.trueShootingPct * 100 : ps.trueShootingPct,
+      usage: ps.usage,
+    },
+  };
+
   return (
     <div>
       <PlayerHero stats={stats} />
-      <ShotChart shots={shots} />
-      <PercentileRanks stats={stats} />
+      <ShotChart shots={shots} shootingStats={stats.shootingStats} />
+      <div className={styles.radarSection}>
+        <h2 className={styles.radarTitle}>
+          Player Profile
+        </h2>
+        <RadarChart players={[radarPlayer]} />
+      </div>
     </div>
   );
 }

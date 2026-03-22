@@ -1,6 +1,5 @@
-@import "tailwindcss";
-
-@theme {
+/* ── Design Tokens ── */
+:root {
   /* Couleurs */
   --color-primary-black:  #1D1D1B;
   --color-primary-orange: #FF6C22;
@@ -19,18 +18,24 @@
   --font-body:    var(--font-alfabet-hairline), sans-serif;
 }
 
-@layer base {
-  html {
-    background-color: var(--color-primary-black);
-    color: var(--color-primary-white);
-  }
+/* ── Base ── */
+html {
+  background-color: var(--color-primary-black);
+  color: var(--color-primary-white);
+}
 
-  body {
-    font-family: var(--font-heading);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+body {
+  font-family: var(--font-heading);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  h1 { font-family: var(--font-display); }
-  h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+h1 { font-family: var(--font-display); }
+h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+
+/* ── Reset / utility ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

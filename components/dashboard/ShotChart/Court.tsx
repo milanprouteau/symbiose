@@ -5,15 +5,16 @@ export default function Court() {
   /* Coordonnées calées sur les zone-paths */
   const cx = 254;          // centre du terrain
   const baseline = 278.9;  // ligne de fond
-  const paintL = 166.33;   // bord gauche raquette
-  const paintR = 341.67;   // bord droit raquette
+  const paintL = 209.77;   // bord gauche raquette (cx - 44.23, matches raquette circle)
+  const paintR = 298.23;   // bord droit raquette (cx + 44.23)
   const ftLine = 172.44;   // ligne lancers francs
   const cornerL = 94.61;   // corner gauche 3pts
   const cornerR = 413.39;  // corner droit 3pts
 
-  const paintW = paintR - paintL;           // 175.34
-  const ftRadius = paintW / 2;              // 87.67
-  const arcRadius = (cornerR - cornerL) / 2; // 159.39
+  const paintW = paintR - paintL;           // 88.46
+  const ftRadius = paintW / 2;              // 44.23
+  const arcRadius = 164;                    // 3PT arc radius (matches zone boundaries)
+  const arcStartY = 201.7;                  // where arc meets corner straight lines
 
   return (
     <g>
@@ -36,7 +37,7 @@ export default function Court() {
 
       {/* Arc 3 points */}
       <path
-        d={`M ${cornerL} ${baseline} L ${cornerL} ${baseline - 50} A ${arcRadius} ${arcRadius} 0 0 1 ${cornerR} ${baseline - 50} L ${cornerR} ${baseline}`}
+        d={`M ${cornerL} ${baseline} L ${cornerL} ${arcStartY} A ${arcRadius} ${arcRadius} 0 0 1 ${cornerR} ${arcStartY} L ${cornerR} ${baseline}`}
         fill="none"
         stroke={stroke}
         strokeWidth={sw}

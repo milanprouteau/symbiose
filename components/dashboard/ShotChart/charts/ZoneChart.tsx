@@ -6,6 +6,7 @@ import { Shot } from "@/types/player";
 import { VIEW_BOX } from "../utils/scales";
 import { computeZoneStats } from "../utils/zones";
 import Court from "../Court";
+import styles from "./ZoneChart.module.scss";
 
 type Props = { shots: Shot[] };
 
@@ -15,73 +16,72 @@ export default function ZoneChart({ shots }: Props) {
   const colorScale = useMemo(
     () =>
       d3.scaleLinear<string>()
-        .domain([0, 35, 50, 65, 100])
-        .range(["#F794D9", "#D8D1C5", "#FFCD01", "#62E862", "#74D0ED"]),
+        .domain([0, 25, 50, 75, 100])
+        .range(["#FFCCCC", "#FF8888", "#E04040", "#B81D1D", "#7A0000"]),
     []
   );
 
+  const emptyFill = "#FFCCCC";
+
   return (
-    <div className="flex flex-col items-center gap-3">
-      <h3 className="font-heading text-xs uppercase tracking-widest text-[#888884]">
+    <div className={styles.container}>
+      <h3 className={styles.title}>
         % par zone
       </h3>
 
       <svg
         viewBox={VIEW_BOX}
         preserveAspectRatio="xMidYMid meet"
-        className="w-full max-w-lg"
+        className={styles.svg}
       >
         <Court />
 
         {zoneStats.map((zone) => {
           const hasStat = zone.total > 0;
-          const fill = hasStat ? colorScale(zone.pct) : "#2a2a28";
+          const fill = hasStat ? colorScale(zone.pct) : emptyFill;
 
           return (
             <g key={zone.id}>
               <path
                 d={zone.path}
                 fill={fill}
-                fillOpacity={hasStat ? 0.45 : 0.25}
+                fillOpacity={0.55}
                 stroke="#555"
                 strokeWidth={2}
               />
-              {hasStat && (
-                <>
-                  <text
-                    x={zone.centerX}
-                    y={zone.centerY - 6}
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                    fill={colorScale(zone.pct)}
-                    fontSize={11}
-                    fontWeight="600"
-                  >
-                    {zone.pct}%
-                  </text>
-                  <text
-                    x={zone.centerX}
-                    y={zone.centerY + 8}
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                    fill="#888884"
-                    fontSize={8}
-                  >
-                    {zone.made}/{zone.total}
-                  </text>
-                </>
-              )}
+              <text
+                x={zone.centerX}
+                y={zone.centerY - 6}
+                textAnchor="middle"
+                dominantBaseline="middle"
+                fill="#fff"
+                fontSize={11}
+                fontWeight="600"
+              >
+                {hasStat ? `${zone.pct}%` : "0%"}
+              </text>
+              <text
+                x={zone.centerX}
+                y={zone.centerY + 8}
+                textAnchor="middle"
+                dominantBaseline="middle"
+                fill="#ffffffaa"
+                fontSize={8}
+              >
+                {zone.made}/{zone.total}
+              </text>
             </g>
           );
         })}
       </svg>
 
       {/* Légende */}
-      <div className="flex items-center gap-3 text-[10px] font-heading text-[#888884]">
-        <span style={{ color: "#F794D9" }}>■</span> Faible
-        <span style={{ color: "#FFCD01" }}>■</span> Moyen
-        <span style={{ color: "#62E862" }}>■</span> Bon
-        <span style={{ color: "#74D0ED" }}>■</span> Excellent
+      <div className={styles.legend}>
+        <span style={{ color: "#FFCCCC" }}>■</span> 0%
+        <span style={{ color: "#FF8888" }}>■</span> 25%
+        <span style={{ color: "#E04040" }}>■</span> 50%
+        <span style={{ color: "#B81D1D" }}>■</span> 75%
+        <span style={{ color: "#7A0000" }}>■</span> 100%
       </div>
     </div>
   );

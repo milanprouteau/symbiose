@@ -6,6 +6,7 @@ import { Shot } from "@/types/player";
 import { VIEW_BOX } from "../utils/scales";
 import { computeHexBins, computePlayerFgPct, hexPath, HEX_MIN_R, HEX_MAX_R } from "../utils/hex-bins";
 import Court from "../Court";
+import styles from "./HexChart.module.scss";
 
 type Props = { shots: Shot[] };
 
@@ -24,15 +25,15 @@ export default function HexChart({ shots }: Props) {
   );
 
   return (
-    <div className="flex flex-col items-center gap-3">
-      <h3 className="font-heading text-xs uppercase tracking-widest text-[#888884]">
+    <div className={styles.container}>
+      <h3 className={styles.title}>
         Hex Map
       </h3>
 
       <svg
         viewBox={VIEW_BOX}
         preserveAspectRatio="xMidYMid meet"
-        className="w-full max-w-lg"
+        className={styles.svg}
       >
         <Court />
 
@@ -52,17 +53,11 @@ export default function HexChart({ shots }: Props) {
       </svg>
 
       {/* Legend */}
-      <div className="flex items-center gap-2 text-[10px] font-heading text-[#888884]">
+      <div className={styles.legend}>
         <span style={{ color: "#1565c0" }}>●</span> Below avg
-        <span
-          className="w-14 h-1.5 rounded-full mx-1"
-          style={{
-            background:
-              "linear-gradient(to right, #1565c0, #e8e8e8, #c62828)",
-          }}
-        />
+        <span className={styles.gradientBar} />
         <span style={{ color: "#c62828" }}>●</span> Above avg
-        <span className="ml-2 text-primary-yellow">
+        <span className={styles.fgNote}>
           ({Math.round(playerFgPct)}% FG)
         </span>
       </div>

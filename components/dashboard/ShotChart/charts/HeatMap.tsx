@@ -6,6 +6,7 @@ import { VIEW_BOX, VB_X, VB_Y, VB_W, VB_H } from "../utils/scales";
 import { renderHeatmapCanvas } from "../utils/heatmap";
 import { computePlayerFgPct } from "../utils/hex-bins";
 import Court from "../Court";
+import styles from "./HeatMap.module.scss";
 
 type Props = { shots: Shot[] };
 
@@ -18,15 +19,15 @@ export default function HeatMap({ shots }: Props) {
   }, [shots]);
 
   return (
-    <div className="flex flex-col items-center gap-3">
-      <h3 className="font-heading text-xs uppercase tracking-widest text-[#888884]">
+    <div className={styles.container}>
+      <h3 className={styles.title}>
         Heat Map
       </h3>
 
       <svg
         viewBox={VIEW_BOX}
         preserveAspectRatio="xMidYMid meet"
-        className="w-full max-w-lg"
+        className={styles.svg}
       >
         {dataUrl && (
           <image
@@ -43,17 +44,11 @@ export default function HeatMap({ shots }: Props) {
       </svg>
 
       {/* Legend */}
-      <div className="flex items-center gap-2 text-[10px] font-heading text-[#888884]">
+      <div className={styles.legend}>
         <span>Faible</span>
-        <span
-          className="w-20 h-1.5 rounded-full"
-          style={{
-            background:
-              "linear-gradient(to right, #0000b4, #00b4eb, #00d250, #ffdc00, #ff7800, #dc1e00)",
-          }}
-        />
+        <span className={styles.gradientBar} />
         <span>Fort</span>
-        <span className="ml-2 text-primary-yellow">{Math.round(playerFgPct)}% FG</span>
+        <span className={styles.fgNote}>{Math.round(playerFgPct)}% FG</span>
       </div>
     </div>
   );

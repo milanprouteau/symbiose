@@ -1,10 +1,12 @@
+import styles from "./page.module.scss";
+
 export default function DashboardPage() {
   return (
     <div>
-      <h1 className="font-display text-primary-orange text-4xl">
+      <h1 className={styles.title}>
         Symbiose
       </h1>
-      <h2 className="font-display text-primary-yellow text-4xl">
+      <h2 className={styles.subtitle}>
         Dashboard basket stat
       </h2>
     </div>

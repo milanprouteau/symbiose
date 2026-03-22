@@ -1,0 +1,141 @@
+.container {
+  width: 100%;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888884;
+  margin-bottom: 2rem;
+}
+
+.selectGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.selectGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.label {
+  font-family: var(--font-heading);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888884;
+}
+
+.select {
+  background-color: #2a2a28;
+  color: white;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #333;
+  font-family: var(--font-heading);
+  outline: none;
+
+  &:focus {
+    border-color: var(--color-primary-orange);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.radarWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Stats comparison table */
+.table {
+  width: 100%;
+  font-size: 0.875rem;
+  font-family: var(--font-heading);
+  border-collapse: collapse;
+}
+
+.tableHeaderRow {
+  border-bottom: 1px solid #333;
+}
+
+.thPlayer1 {
+  padding: 0.75rem 0;
+  text-align: right;
+  color: var(--color-primary-orange);
+  font-weight: 600;
+  width: 38%;
+}
+
+.thStat {
+  padding: 0.75rem 0;
+  text-align: center;
+  color: #888884;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  width: 24%;
+}
+
+.thPlayer2 {
+  padding: 0.75rem 0;
+  text-align: left;
+  color: #3B6EC9;
+  font-weight: 600;
+  width: 38%;
+}
+
+.dataRow {
+  border-bottom: 1px solid #2a2a28;
+}
+
+.tdRight {
+  padding: 0.625rem 0;
+  text-align: right;
+}
+
+.tdCenter {
+  padding: 0.625rem 0;
+  text-align: center;
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.tdLeft {
+  padding: 0.625rem 0;
+  text-align: left;
+}
+
+.better {
+  color: white;
+  font-weight: 600;
+}
+
+.notBetter {
+  color: #888884;
+}
+
+.emptyState {
+  text-align: center;
+  color: #888884;
+  font-family: var(--font-heading);
+  padding: 5rem 0;
+}

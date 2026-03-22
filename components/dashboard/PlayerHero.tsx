@@ -1,10 +1,12 @@
 import type { PlayerDataBundle } from "@/types/stats";
+import Image from "next/image";
+import styles from "./PlayerHero.module.scss";
 
 type Props = { stats: PlayerDataBundle };
 
 export default function PlayerHero({ stats }: Props) {
   const p = stats.playerStats;
-  const s = stats.shootingStats;
+  console.log('p', p);
   const games = p.games || 1;
 
   const ppg = (p.points / games).toFixed(1);
@@ -13,93 +15,92 @@ export default function PlayerHero({ stats }: Props) {
   const mpg = (p.minutes / games).toFixed(1);
 
   const overview = [
-    `${p.position} · ${p.team} (${p.conference}) — ${p.games} matchs, ${p.starts} titulaire.`,
+    `${p.position} · ${p.team} (${p.conference}) — ${p.games} games, ${p.starts} as starter.`,
     `${ppg} PPG, ${rpg} RPG, ${apg} APG en ${mpg} MPG.`,
     `Shooting: ${p.fieldGoals.pct}% FG, ${p.threePointFieldGoals.pct}% 3PT, ${p.freeThrows.pct}% FT.`,
     `TS% ${(p.trueShootingPct * 100).toFixed(1)}% · Usage ${p.usage}% · Net Rating +${p.netRating}.`,
   ];
 
+  const uniSlug = p.team.toLowerCase().replace(/ /g, "-");
+
   return (
-    <section className="w-full border-b border-(--color-border) bg-(--color-surface)">
-      <div className="max-w-7xl mx-auto px-6 py-8 flex gap-10 items-start">
+    <section className={styles.section}>
+      <div className={styles.inner}>
 
-        {/* Infos principales */}
-        <div className="flex-1 min-w-0">
-          {/* Nom + badges */}
-          <div className="flex items-baseline gap-4 flex-wrap">
-            <h1 className="font-display text-3xl text-primary-orange leading-none">
-              {p.name}
-            </h1>
-            <span className="font-heading text-sm text-primary-white uppercase tracking-widest">
-              {p.position} · {p.team}
-            </span>
+        {/* Layout desktop : 3 colonnes | Layout mobile : empilé */}
+        <div className={styles.grid}>
+
+          {/* ── Colonne gauche : Photo joueur ── */}
+          <div className={styles.photoCol}>
+            {/* Logo université en watermark */}
+            <Image
+              src={`/uni/${uniSlug}.png`}
+              alt={p.team}
+              fill
+              className={styles.uniLogo}
+            />
+            {/* Dégradé bas pour fondu */}
+            <div className={styles.fadeBottom} />
+            {/* Photo joueur coupée en bas */}
+            <Image
+              src={`/players/${p.athleteId}.png`}
+              alt={p.name}
+              width={220}
+              height={280}
+              className={styles.playerImg}
+              style={{ maskImage: "linear-gradient(to top, transparent 0%, black 30%)" }}
+            />
           </div>
 
-          {/* Métadonnées */}
-          <div className="mt-1 flex gap-4 font-heading text-xs text-primary-white">
-            <span>{p.conference}</span>
-            <span>·</span>
-            <span>{p.games}G / {p.starts}GS</span>
-            <span>·</span>
-            <span>Season {p.seasonLabel}</span>
-          </div>
-
-          {/* Stats clés */}
-          <div className="mt-5 flex gap-6">
-            {[
-              { label: "PPG", value: ppg },
-              { label: "RPG", value: rpg },
-              { label: "APG", value: apg },
-              { label: "MPG", value: mpg },
-            ].map((stat) => (
-              <div key={stat.label} className="flex flex-col items-center">
-                <span className="font-display text-2xl text-primary-yellow leading-none">
-                  {stat.value}
-                </span>
-                <span className="font-heading text-[10px] text-primary-white uppercase tracking-widest mt-1">
-                  {stat.label}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Shooting splits */}
-        <div className="shrink-0 flex gap-4">
-          {[
-            { label: "FG%", value: p.fieldGoals.pct },
-            { label: "3PT%", value: p.threePointFieldGoals.pct },
-            { label: "FT%", value: p.freeThrows.pct },
-          ].map((stat) => (
-            <div key={stat.label} className="flex flex-col items-center">
-              <span className="font-display text-xl text-primary-yellow leading-none">
-                {stat.value}
-              </span>
-              <span className="font-heading text-[10px] text-primary-white uppercase tracking-widest mt-1">
-                {stat.label}
+          {/* ── Colonne centre : Infos principales ── */}
+          <div className={styles.infoCol}>
+            <div className={styles.nameRow}>
+              <h1 className={styles.playerName}>
+                {p.name}
+              </h1>
+              <span className={styles.playerMeta}>
+                {p.position} · {p.team}
               </span>
             </div>
-          ))}
-        </div>
 
-        {/* Overview */}
-        <div className="hidden lg:block w-80 shrink-0 border-l border-(--color-border) pl-8">
-          <h2 className="font-heading text-xs uppercase tracking-widest text-primary-white mb-3">
-            Aperçu
-          </h2>
-          <ul className="space-y-2">
-            {overview.map((line, i) => (
-              <li
-                key={i}
-                className="font-heading text-xs text-primary-white leading-relaxed flex gap-2"
-              >
-                <span className="text-primary-orange mt-0.5">—</span>
-                <span>{line}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+            <div className={styles.statsRow}>
+              {[
+                { label: "PPG", value: ppg },
+                { label: "RPG", value: rpg },
+                { label: "APG", value: apg },
+                { label: "MPG", value: mpg },
+              ].map((stat) => (
+                <div key={stat.label} className={styles.statItem}>
+                  <span className={styles.statValue}>
+                    {stat.value}
+                  </span>
+                  <span className={styles.statLabel}>
+                    {stat.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
 
+          {/* ── Colonne droite : Overview ── */}
+          <div className={styles.overviewCol}>
+            <h2 className={styles.overviewTitle}>
+              Overview
+            </h2>
+            <ul className={styles.overviewList}>
+              {overview.map((line, i) => (
+                <li
+                  key={i}
+                  className={styles.overviewItem}
+                >
+                  <span className={styles.overviewDash}>—</span>
+                  <span>{line}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+        </div>
       </div>
     </section>
   );

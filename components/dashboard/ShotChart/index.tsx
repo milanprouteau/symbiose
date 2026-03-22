@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useMemo } from "react";
 import { Shot } from "@/types/player";
 import { mockShots } from "@/constants/mock-shots";
 import { scaleX, scaleY, VIEW_BOX } from "./utils/scales";
@@ -8,57 +9,81 @@ import ScatterChart from "./charts/ScatterChart";
 import ZoneChart from "./charts/ZoneChart";
 import HexChart from "./charts/HexChart";
 import HeatMap from "./charts/HeatMap";
+import ShotStatsPanel from "./ShotStatsPanel";
+import type { PlayerShootingStats } from "@/types/stats";
+import styles from "./ShotChart.module.scss";
 
 type Props = {
   shots?: Shot[];
+  shootingStats?: PlayerShootingStats | null;
 };
 
-export default function ShotChart({ shots = mockShots }: Props) {
-  const made  = shots.filter((s) => s.made).length;
+const TABS = ["Scatter", "Zones", "Hex", "Heat"] as const;
+type Tab = (typeof TABS)[number];
+
+export default function ShotChart({ shots = mockShots, shootingStats }: Props) {
+  const [activeTab, setActiveTab] = useState<Tab>("Scatter");
+
+  const made  = useMemo(() => shots.filter((s) => s.made).length, [shots]);
   const total = shots.length;
   const pct   = total > 0 ? Math.round((made / total) * 100) : 0;
 
   return (
-    <div className="w-full py-8 px-6">
-      <h2 className="font-heading text-sm uppercase tracking-widest text-[#888884] mb-6">
+    <div className={styles.wrapper}>
+      <h2 className={styles.sectionTitle}>
         Shot Chart
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-        {/* Chart 1 — Scatter */}
-        <div className="flex flex-col items-center gap-3">
-          <h3 className="font-heading text-xs uppercase tracking-widest text-[#888884]">
-            Tirs individuels
-          </h3>
-          <div className="flex items-center gap-6 font-heading text-xs text-[#888884]">
-            <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-primary-orange inline-block" />
-              <span>Rentré ({made})</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-secondary-beige">×</span>
-              <span>Raté ({total - made})</span>
-            </div>
-            <span className="text-primary-yellow">{pct}% FG</span>
-          </div>
-          <svg viewBox={VIEW_BOX} preserveAspectRatio="xMidYMid meet" className="w-full max-w-lg">
-            <Court />
-            {shots.map((shot) => (
-              <ScatterChart key={shot.id} shot={shot} scaleX={scaleX} scaleY={scaleY} />
+      <div className={styles.layout}>
+        {/* Left — Chart with tabs */}
+        <div className={styles.chartSide}>
+          {/* Tab bar */}
+          <div className={styles.tabBar}>
+            {TABS.map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`${styles.tab} ${
+                  activeTab === tab ? styles.tabActive : ""
+                }`}
+              >
+                {tab}
+              </button>
             ))}
-          </svg>
+          </div>
+
+          {/* Active chart */}
+          {activeTab === "Scatter" && (
+            <div className={styles.scatterContainer}>
+              <div className={styles.scatterLegend}>
+                <div className={styles.legendDot}>
+                  <span className={styles.madeDot} />
+                  <span>Rentré ({made})</span>
+                </div>
+                <div className={styles.legendDot}>
+                  <span className={styles.missedX}>×</span>
+                  <span>Raté ({total - made})</span>
+                </div>
+                <span className={styles.fgPct}>{pct}% FG</span>
+              </div>
+              <svg viewBox={VIEW_BOX} preserveAspectRatio="xMidYMid meet" className={styles.svgChart}>
+                <Court />
+                {shots.map((shot) => (
+                  <ScatterChart key={shot.id} shot={shot} scaleX={scaleX} scaleY={scaleY} />
+                ))}
+              </svg>
+            </div>
+          )}
+
+          {activeTab === "Zones" && <ZoneChart shots={shots} />}
+          {activeTab === "Hex" && <HexChart shots={shots} />}
+          {activeTab === "Heat" && <HeatMap shots={shots} />}
         </div>
 
-        {/* Chart 2 — Zones */}
-        <ZoneChart shots={shots} />
-
-        {/* Chart 3 — Hex Map */}
-        <HexChart shots={shots} />
-
-        {/* Chart 4 — Heat Map */}
-        <HeatMap shots={shots} />
-
+        {/* Right — Stats panel */}
+        <div className={styles.statsSide}>
+          <ShotStatsPanel shots={shots} shootingStats={shootingStats} />
+        </div>
       </div>
     </div>
   );

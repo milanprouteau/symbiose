@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Bowlby_One } from "next/font/google";
 import localFont from "next/font/local";
 import Header from "@/components/layout/Header";
-import "./globals.css";
+import NavigationLoaderWrapper from "@/components/layout/NavigationLoaderWrapper";
+import "./globals.scss";
+import styles from "./layout.module.scss";
 
 const bowlby = Bowlby_One({
   weight: "400",
@@ -40,9 +42,10 @@ export default function RootLayout({
       lang="fr"
       className={`${bowlby.variable} ${alfabetHairline.variable} ${alfabetSemiBold.variable}`}
     >
-      <body className="min-h-screen flex flex-col bg-[var(--color-background)]">
+      <body className={styles.body}>
         <Header />
-        <main className="flex-1 p-6">
+        <main className={styles.main}>
+          <NavigationLoaderWrapper />
           {children}
         </main>
       </body>
