@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import styles from "./Loader.module.scss";
 
 export default function Loader() {
-  const text = "Loading...";
+  const text = "Chargement...";
   const [visibleChars, setVisibleChars] = useState(0);
 
   useEffect(() => {

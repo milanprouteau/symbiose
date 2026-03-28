@@ -1,21 +1,23 @@
 .wrapper {
   width: 100%;
-  padding: 2rem 1.5rem;
+  padding-top: 2rem;
 }
 
 .sectionTitle {
   font-family: var(--font-heading);
-  font-size: 0.875rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888884;
+  color: var(--color-secondary-beige);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .layout {
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: flex-start;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -25,6 +27,11 @@
 .chartSide {
   width: 100%;
   min-width: 0;
+  background: rgb(26, 29, 33);
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.95) 0px 10px 28px;
+  margin: 10px;
+  padding: 20px;
 
   @media (min-width: 768px) {
     width: 50%;
@@ -34,6 +41,11 @@
 .statsSide {
   width: 100%;
   min-width: 0;
+  background: rgb(26, 29, 33);
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.95) 0px 10px 28px;
+  margin: 10px;
+  padding: 20px;
 
   @media (min-width: 768px) {
     width: 50%;
@@ -113,5 +125,66 @@
 
 .svgChart {
   width: 100%;
-  max-width: 32rem;
+  max-width: 44rem;
+}
+
+/* Stats Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+}
+
+.tableHead {
+  border-bottom: 1px solid #333;
+}
+
+.thLeft {
+  padding: 0.5rem 0;
+  text-align: left;
+  color: #888884;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.thCenter {
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #888884;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.thRight {
+  padding: 0.5rem 0;
+  text-align: right;
+  color: #888884;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tableRow {
+  border-bottom: 1px solid #222;
+}
+
+.tdLabel {
+  padding: 0.5rem 0;
+  color: var(--color-primary-white);
+}
+
+.tdCenter {
+  padding: 0.5rem 0;
+  text-align: center;
+  color: var(--color-primary-white);
+}
+
+.tdRight {
+  padding: 0.5rem 0;
+  text-align: right;
+  color: var(--color-primary-yellow);
 }

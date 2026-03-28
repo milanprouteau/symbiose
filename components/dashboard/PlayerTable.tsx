@@ -19,6 +19,7 @@ export type PlayerEntry = {
   threePct: number;
   ftPct: number;
   usage: number;
+  mockDraftPick?: number;
 };
 
 type SortKey = keyof PlayerEntry;
@@ -32,10 +33,10 @@ const COL_WIDTH_MAP: Record<string, string> = {
 };
 
 const COLUMNS: { key: SortKey; label: string; w: string }[] = [
-  { key: "name",     label: "Player",  w: "w44" },
+  { key: "name",     label: "Joueur",  w: "w44" },
   { key: "position", label: "Pos",     w: "w12" },
-  { key: "team",     label: "Team",    w: "w28" },
-  { key: "games",    label: "GP",      w: "w12" },
+  { key: "team",     label: "Équipe",    w: "w28" },
+  { key: "games",    label: "MJ",      w: "w12" },
   { key: "ppg",      label: "PPG",     w: "w14" },
   { key: "rpg",      label: "RPG",     w: "w14" },
   { key: "apg",      label: "APG",     w: "w14" },
@@ -54,6 +55,14 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
     return [...players].sort((a, b) => {
       const av = a[sortKey];
       const bv = b[sortKey];
+      
+      // Special handling for mockDraftPick - players without picks go to the end
+      if (sortKey === "mockDraftPick") {
+        const aPick = a.mockDraftPick ?? Infinity;
+        const bPick = b.mockDraftPick ?? Infinity;
+        return sortDir === "asc" ? aPick - bPick : bPick - aPick;
+      }
+      
       if (typeof av === "string" && typeof bv === "string") {
         return sortDir === "asc"
           ? av.localeCompare(bv)
@@ -70,7 +79,7 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
       setSortDir((d) => (d === "asc" ? "desc" : "asc"));
     } else {
       setSortKey(key);
-      setSortDir(key === "name" || key === "team" || key === "position" ? "asc" : "desc");
+      setSortDir(key === "name" || key === "team" || key === "position" || key === "mockDraftPick" ? "asc" : "desc");
     }
   }
 
@@ -84,8 +93,13 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
       <table className={styles.table}>
         <thead>
           <tr className={styles.headerRow}>
-            <th className={styles.rankHeader}>
-              #
+            <th
+              onClick={() => handleSort("mockDraftPick")}
+              className={`${styles.rankHeader} ${
+                sortKey === "mockDraftPick" ? styles.colHeaderActive : ""
+              }`}
+            >
+              Prediction{arrow("mockDraftPick")}
             </th>
             {COLUMNS.map((col) => (
               <th
@@ -107,7 +121,7 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
               className={styles.bodyRow}
             >
               <td className={styles.rankCell}>
-                {i + 1}
+                {p.mockDraftPick ? `#${p.mockDraftPick}` : "—"}
               </td>
               {COLUMNS.map((col) => {
                 const val = p[col.key];

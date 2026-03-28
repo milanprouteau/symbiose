@@ -3,10 +3,10 @@ import path from "path";
 import { notFound } from "next/navigation";
 import PlayerHero from "@/components/dashboard/PlayerHero";
 import ShotChart from "@/components/dashboard/ShotChart";
-import RadarChart from "@/components/dashboard/RadarChart";
 import type { RadarPlayer } from "@/components/dashboard/RadarChart";
 
 import { mapPlaysToShots } from "@/lib/mapShots";
+import { calculatePlayerRankings } from "@/lib/playerRankings";
 import type { PlayRaw } from "@/lib/api";
 import type { PlayerDataBundle } from "@/types/stats";
 import styles from "./page.module.scss";
@@ -45,6 +45,25 @@ export default async function PlayerPage({ params }: Props) {
     teamStats: data.teamStats,
   };
 
+  // Load all player data for rankings
+  const indexPath = path.join(process.cwd(), "data", "players", "index.json");
+  const indexRaw = await fs.readFile(indexPath, "utf-8");
+  const playerIndex: { id: number }[] = JSON.parse(indexRaw);
+  
+  // Load all player stats
+  const allPlayerStats = await Promise.all(
+    playerIndex.map(async (player) => {
+      const playerFilePath = path.join(process.cwd(), "data", "players", `${player.id}.json`);
+      const playerRaw = await fs.readFile(playerFilePath, "utf-8");
+      const playerData = JSON.parse(playerRaw);
+      return playerData.playerStats;
+    })
+  );
+
+  // Calculate rankings
+  const rankings = calculatePlayerRankings(allPlayerStats);
+  const playerRankings = rankings.get(Number(id));
+
   const plays: PlayRaw[] = data.shots ?? [];
   const shots = mapPlaysToShots(plays, Number(id));
 
@@ -63,14 +82,8 @@ export default async function PlayerPage({ params }: Props) {
 
   return (
     <div>
-      <PlayerHero stats={stats} />
-      <ShotChart shots={shots} shootingStats={stats.shootingStats} />
-      <div className={styles.radarSection}>
-        <h2 className={styles.radarTitle}>
-          Player Profile
-        </h2>
-        <RadarChart players={[radarPlayer]} />
-      </div>
+      <PlayerHero stats={stats} rankings={playerRankings} />
+      <ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />
     </div>
   );
 }

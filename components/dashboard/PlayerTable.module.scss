@@ -20,6 +20,13 @@
   color: #888884;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--color-primary-orange);
+  }
 }
 
 .colHeader {

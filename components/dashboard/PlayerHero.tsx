@@ -1,10 +1,14 @@
 import type { PlayerDataBundle } from "@/types/stats";
+import type { StatRanking } from "@/lib/playerRankings";
 import Image from "next/image";
 import styles from "./PlayerHero.module.scss";
 
-type Props = { stats: PlayerDataBundle };
+type Props = { 
+  stats: PlayerDataBundle;
+  rankings?: StatRanking;
+};
 
-export default function PlayerHero({ stats }: Props) {
+export default function PlayerHero({ stats, rankings }: Props) {
   const p = stats.playerStats;
   console.log('p', p);
   const games = p.games || 1;
@@ -15,9 +19,9 @@ export default function PlayerHero({ stats }: Props) {
   const mpg = (p.minutes / games).toFixed(1);
 
   const overview = [
-    `${p.position} · ${p.team} (${p.conference}) — ${p.games} games, ${p.starts} as starter.`,
+    `${p.position} · ${p.team} (${p.conference}) — ${p.games} matchs, ${p.starts} titulaires.`,
     `${ppg} PPG, ${rpg} RPG, ${apg} APG en ${mpg} MPG.`,
-    `Shooting: ${p.fieldGoals.pct}% FG, ${p.threePointFieldGoals.pct}% 3PT, ${p.freeThrows.pct}% FT.`,
+    `Tirs: ${p.fieldGoals.pct}% FG, ${p.threePointFieldGoals.pct}% 3PT, ${p.freeThrows.pct}% FT.`,
     `TS% ${(p.trueShootingPct * 100).toFixed(1)}% · Usage ${p.usage}% · Net Rating +${p.netRating}.`,
   ];
 
@@ -65,17 +69,17 @@ export default function PlayerHero({ stats }: Props) {
 
             <div className={styles.statsRow}>
               {[
-                { label: "PPG", value: ppg },
-                { label: "RPG", value: rpg },
-                { label: "APG", value: apg },
-                { label: "MPG", value: mpg },
+                { label: "PPG", value: ppg, rank: rankings?.ppg },
+                { label: "RPG", value: rpg, rank: rankings?.rpg },
+                { label: "APG", value: apg, rank: rankings?.apg },
+                { label: "MPG", value: mpg, rank: rankings?.mpg },
               ].map((stat) => (
                 <div key={stat.label} className={styles.statItem}>
                   <span className={styles.statValue}>
                     {stat.value}
                   </span>
                   <span className={styles.statLabel}>
-                    {stat.label}
+                    {stat.label}{stat.rank ? ` (#${stat.rank})` : ""}
                   </span>
                 </div>
               ))}
@@ -85,7 +89,7 @@ export default function PlayerHero({ stats }: Props) {
           {/* ── Colonne droite : Overview ── */}
           <div className={styles.overviewCol}>
             <h2 className={styles.overviewTitle}>
-              Overview
+              Resumé
             </h2>
             <ul className={styles.overviewList}>
               {overview.map((line, i) => (

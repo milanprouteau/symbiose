@@ -36,6 +36,7 @@ function polarToXY(angle: number, radius: number, cx: number, cy: number) {
 }
 
 export default function RadarChart({ players, size = 280 }: Props) {
+  console.log('players', players);
   const cx = size / 2;
   const cy = size / 2;
   const maxR = size * 0.38;

@@ -29,7 +29,7 @@ export default function Header() {
             className={styles.navLink}
           >
             {/* Desktop */}
-            <span className={styles.desktopLabel}>Compare tool</span>
+            <span className={styles.desktopLabel}>Comparer joueurs</span>
 
             {/* Mobile */}
             <Scale className={styles.mobileIcon} />
