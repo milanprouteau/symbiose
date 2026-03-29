@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "2",
+    "position": "Guard",
+    "height": 74,
+    "weight": 215,
+    "hometown": {
+      "city": "Fairburn",
+      "state": "GA"
+    },
+    "dateOfBirth": null
+  },
   "shots": [
     {
       "gameId": 212759,
@@ -1583,8 +1594,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595272,
-      "sourceId": "401823374113619732",
+      "id": 37595271,
+      "sourceId": "401823374113619430",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -1595,16 +1606,16 @@
       "opponent": "IU Indianapolis",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 93,
+      "homeScore": 92,
       "awayScore": 76,
-      "homeWinProbability": 0.935,
+      "homeWinProbability": 0.91,
       "period": 2,
       "clock": "10:03",
       "secondsRemaining": 603,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:16:50.000Z",
+      "wallclock": "2025-11-04T01:16:36.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -1690,8 +1701,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595271,
-      "sourceId": "401823374113619430",
+      "id": 37595272,
+      "sourceId": "401823374113619732",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -1702,16 +1713,16 @@
       "opponent": "IU Indianapolis",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 93,
       "awayScore": 76,
-      "homeWinProbability": 0.91,
+      "homeWinProbability": 0.935,
       "period": 2,
       "clock": "10:03",
       "secondsRemaining": 603,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:16:36.000Z",
+      "wallclock": "2025-11-04T01:16:50.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -1908,113 +1919,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595286,
-      "sourceId": "401823374113622371",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 216,
-      "team": "Ohio State",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 115,
-      "opponent": "IU Indianapolis",
-      "opponentConference": "Horizon",
-      "opponentSeed": null,
-      "homeScore": 97,
-      "awayScore": 81,
-      "homeWinProbability": 0.996,
-      "period": 2,
-      "clock": "8:36",
-      "secondsRemaining": 516,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T01:19:54.000Z",
-      "playText": "Bruce Thornton made Free Throw.",
-      "participants": [
-        {
-          "id": 420,
-          "name": "Bruce Thornton"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 420,
-          "name": "Bruce Thornton"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 823,
-          "name": "Christoph Tilly",
-          "team": "Ohio State"
-        },
-        {
-          "id": 427,
-          "name": "Colin White",
-          "team": "Ohio State"
-        },
-        {
-          "id": 199805,
-          "name": "Kameron Tinsley",
-          "team": "IU Indianapolis"
-        },
-        {
-          "id": 211501,
-          "name": "JP Dragas",
-          "team": "IU Indianapolis"
-        },
-        {
-          "id": 12192,
-          "name": "Matt Compas",
-          "team": "IU Indianapolis"
-        },
-        {
-          "id": 422,
-          "name": "Devin Royal",
-          "team": "Ohio State"
-        },
-        {
-          "id": 420,
-          "name": "Bruce Thornton",
-          "team": "Ohio State"
-        },
-        {
-          "id": 199802,
-          "name": "Maguire Mitchell",
-          "team": "IU Indianapolis"
-        },
-        {
-          "id": 199806,
-          "name": "Finley Woodward",
-          "team": "IU Indianapolis"
-        }
-      ]
-    },
-    {
-      "gameId": 212759,
-      "gameSourceId": "401823374",
-      "gameStartDate": "2025-11-03T23:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 37595293,
       "sourceId": "401823374113622686",
       "playType": "MadeFreeThrow",
@@ -2122,8 +2026,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595329,
-      "sourceId": "401823374113629687",
+      "id": 37595286,
+      "sourceId": "401823374113622371",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -2134,16 +2038,123 @@
       "opponent": "IU Indianapolis",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 102,
+      "homeScore": 97,
+      "awayScore": 81,
+      "homeWinProbability": 0.996,
+      "period": 2,
+      "clock": "8:36",
+      "secondsRemaining": 516,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T01:19:54.000Z",
+      "playText": "Bruce Thornton made Free Throw.",
+      "participants": [
+        {
+          "id": 420,
+          "name": "Bruce Thornton"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 420,
+          "name": "Bruce Thornton"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 823,
+          "name": "Christoph Tilly",
+          "team": "Ohio State"
+        },
+        {
+          "id": 427,
+          "name": "Colin White",
+          "team": "Ohio State"
+        },
+        {
+          "id": 199805,
+          "name": "Kameron Tinsley",
+          "team": "IU Indianapolis"
+        },
+        {
+          "id": 211501,
+          "name": "JP Dragas",
+          "team": "IU Indianapolis"
+        },
+        {
+          "id": 12192,
+          "name": "Matt Compas",
+          "team": "IU Indianapolis"
+        },
+        {
+          "id": 422,
+          "name": "Devin Royal",
+          "team": "Ohio State"
+        },
+        {
+          "id": 420,
+          "name": "Bruce Thornton",
+          "team": "Ohio State"
+        },
+        {
+          "id": 199802,
+          "name": "Maguire Mitchell",
+          "team": "IU Indianapolis"
+        },
+        {
+          "id": 199806,
+          "name": "Finley Woodward",
+          "team": "IU Indianapolis"
+        }
+      ]
+    },
+    {
+      "gameId": 212759,
+      "gameSourceId": "401823374",
+      "gameStartDate": "2025-11-03T23:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 37595332,
+      "sourceId": "401823374113629955",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 216,
+      "team": "Ohio State",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 115,
+      "opponent": "IU Indianapolis",
+      "opponentConference": "Horizon",
+      "opponentSeed": null,
+      "homeScore": 103,
       "awayScore": 87,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "6:12",
       "secondsRemaining": 372,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:28:24.000Z",
+      "wallclock": "2025-11-04T01:28:41.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -2229,8 +2240,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595332,
-      "sourceId": "401823374113629955",
+      "id": 37595329,
+      "sourceId": "401823374113629687",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -2241,16 +2252,16 @@
       "opponent": "IU Indianapolis",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 103,
+      "homeScore": 102,
       "awayScore": 87,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.994,
       "period": 2,
       "clock": "6:12",
       "secondsRemaining": 372,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:28:41.000Z",
+      "wallclock": "2025-11-04T01:28:24.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -2443,8 +2454,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595403,
-      "sourceId": "401823374113644653",
+      "id": 37595404,
+      "sourceId": "401823374113644770",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -2455,7 +2466,7 @@
       "opponent": "IU Indianapolis",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 114,
+      "homeScore": 115,
       "awayScore": 97,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -2464,7 +2475,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:45:08.000Z",
+      "wallclock": "2025-11-04T01:45:23.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -2550,8 +2561,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37595404,
-      "sourceId": "401823374113644770",
+      "id": 37595403,
+      "sourceId": "401823374113644653",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -2562,7 +2573,7 @@
       "opponent": "IU Indianapolis",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 115,
+      "homeScore": 114,
       "awayScore": 97,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -2571,7 +2582,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:45:23.000Z",
+      "wallclock": "2025-11-04T01:45:08.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -3957,9 +3968,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38214939,
-      "sourceId": "401823392113878553",
-      "playType": "LayUpShot",
+      "id": 38214943,
+      "sourceId": "401823392113878765",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -3969,17 +3980,17 @@
       "opponent": "Purdue Fort Wayne",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 27,
-      "homeWinProbability": 0.947,
+      "homeWinProbability": 0.958,
       "period": 1,
       "clock": "0:59",
       "secondsRemaining": 59,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T00:12:29.000Z",
-      "playText": "Bruce Thornton made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T00:13:22.000Z",
+      "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
           "id": 420,
@@ -3992,15 +4003,15 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -4064,9 +4075,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38214943,
-      "sourceId": "401823392113878765",
-      "playType": "MadeFreeThrow",
+      "id": 38214939,
+      "sourceId": "401823392113878553",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -4076,17 +4087,17 @@
       "opponent": "Purdue Fort Wayne",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 27,
-      "homeWinProbability": 0.958,
+      "homeWinProbability": 0.947,
       "period": 1,
       "clock": "0:59",
       "secondsRemaining": 59,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T00:13:22.000Z",
-      "playText": "Bruce Thornton made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T00:12:29.000Z",
+      "playText": "Bruce Thornton made Layup.",
       "participants": [
         {
           "id": 420,
@@ -4099,15 +4110,15 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 250
         }
       },
       "onFloor": [
@@ -4718,8 +4729,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38215064,
-      "sourceId": "401823392113895577",
+      "id": 38215063,
+      "sourceId": "401823392113895512",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -4730,16 +4741,16 @@
       "opponent": "Purdue Fort Wayne",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 53,
-      "homeWinProbability": 0.943,
+      "homeWinProbability": 0.932,
       "period": 2,
       "clock": "10:49",
       "secondsRemaining": 649,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T00:59:06.000Z",
+      "wallclock": "2025-11-08T00:58:43.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -4825,8 +4836,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38215063,
-      "sourceId": "401823392113895512",
+      "id": 38215064,
+      "sourceId": "401823392113895577",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -4837,16 +4848,16 @@
       "opponent": "Purdue Fort Wayne",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 53,
-      "homeWinProbability": 0.932,
+      "homeWinProbability": 0.943,
       "period": 2,
       "clock": "10:49",
       "secondsRemaining": 649,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T00:58:43.000Z",
+      "wallclock": "2025-11-08T00:59:06.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -5903,8 +5914,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38684216,
-      "sourceId": "401826733114120009",
+      "id": 38684215,
+      "sourceId": "401826733114119943",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -5915,16 +5926,16 @@
       "opponent": "App State",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 10,
-      "homeWinProbability": 0.41,
+      "homeWinProbability": 0.385,
       "period": 1,
       "clock": "13:30",
       "secondsRemaining": 810,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-11T23:46:17.000Z",
+      "wallclock": "2025-11-11T23:45:52.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -6010,8 +6021,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38684215,
-      "sourceId": "401826733114119943",
+      "id": 38684216,
+      "sourceId": "401826733114120009",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -6022,16 +6033,16 @@
       "opponent": "App State",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 10,
-      "homeWinProbability": 0.385,
+      "homeWinProbability": 0.41,
       "period": 1,
       "clock": "13:30",
       "secondsRemaining": 810,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-11T23:45:52.000Z",
+      "wallclock": "2025-11-11T23:46:17.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -6767,8 +6778,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38684442,
-      "sourceId": "401826733114140795",
+      "id": 38684441,
+      "sourceId": "401826733114140778",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -6779,16 +6790,16 @@
       "opponent": "App State",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 52,
       "awayScore": 32,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.995,
       "period": 2,
       "clock": "11:17",
       "secondsRemaining": 677,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:00:20.000Z",
+      "wallclock": "2025-11-12T01:00:02.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -6874,8 +6885,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38684441,
-      "sourceId": "401826733114140778",
+      "id": 38684442,
+      "sourceId": "401826733114140795",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -6886,16 +6897,16 @@
       "opponent": "App State",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 53,
       "awayScore": 32,
-      "homeWinProbability": 0.995,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "11:17",
       "secondsRemaining": 677,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:00:02.000Z",
+      "wallclock": "2025-11-12T01:00:20.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -15871,8 +15882,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41092635,
-      "sourceId": "401825399115538156",
+      "id": 41092634,
+      "sourceId": "401825399115538096",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -15884,15 +15895,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 56,
-      "homeWinProbability": 0.688,
+      "awayScore": 55,
+      "homeWinProbability": 0.753,
       "period": 2,
       "clock": "13:25",
       "secondsRemaining": 805,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T20:21:17.000Z",
+      "wallclock": "2025-12-06T20:21:02.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -15978,8 +15989,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41092634,
-      "sourceId": "401825399115538096",
+      "id": 41092635,
+      "sourceId": "401825399115538156",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -15991,15 +16002,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 55,
-      "homeWinProbability": 0.753,
+      "awayScore": 56,
+      "homeWinProbability": 0.688,
       "period": 2,
       "clock": "13:25",
       "secondsRemaining": 805,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T20:21:02.000Z",
+      "wallclock": "2025-12-06T20:21:17.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -17167,8 +17178,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41092785,
-      "sourceId": "401825399115550595",
+      "id": 41092790,
+      "sourceId": "401825399115550714",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -17180,15 +17191,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 81,
-      "awayScore": 83,
-      "homeWinProbability": 0.207,
+      "awayScore": 84,
+      "homeWinProbability": 0.127,
       "period": 2,
       "clock": "0:24",
       "secondsRemaining": 24,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:08:12.000Z",
+      "wallclock": "2025-12-06T21:08:32.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -17274,8 +17285,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41092790,
-      "sourceId": "401825399115550714",
+      "id": 41092785,
+      "sourceId": "401825399115550595",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -17287,15 +17298,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 81,
-      "awayScore": 84,
-      "homeWinProbability": 0.127,
+      "awayScore": 83,
+      "homeWinProbability": 0.207,
       "period": 2,
       "clock": "0:24",
       "secondsRemaining": 24,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:08:32.000Z",
+      "wallclock": "2025-12-06T21:08:12.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -22761,8 +22772,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41704650,
-      "sourceId": "401819921115871460",
+      "id": 41704653,
+      "sourceId": "401819921115871473",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 277,
@@ -22773,16 +22784,16 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 79,
-      "homeWinProbability": 0.475,
+      "homeWinProbability": 0.521,
       "period": 4,
       "clock": "3:24",
       "secondsRemaining": 204,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T03:42:00.000Z",
+      "wallclock": "2025-12-14T03:42:21.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -22873,8 +22884,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41704653,
-      "sourceId": "401819921115871473",
+      "id": 41704650,
+      "sourceId": "401819921115871460",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 277,
@@ -22885,16 +22896,16 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 79,
-      "homeWinProbability": 0.521,
+      "homeWinProbability": 0.475,
       "period": 4,
       "clock": "3:24",
       "secondsRemaining": 204,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T03:42:21.000Z",
+      "wallclock": "2025-12-14T03:42:00.000Z",
       "playText": "Bruce Thornton made Free Throw.",
       "participants": [
         {
@@ -26349,8 +26360,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625525,
-      "sourceId": "401827093116356199",
+      "id": 42625524,
+      "sourceId": "401827093116356194",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -26361,17 +26372,17 @@
       "opponent": "Grambling",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 18,
-      "homeWinProbability": 0.911,
+      "homeWinProbability": 0.884,
       "period": 1,
       "clock": "2:23",
       "secondsRemaining": 143,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T19:44:50.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2025-12-23T19:44:32.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -26456,8 +26467,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625524,
-      "sourceId": "401827093116356194",
+      "id": 42625525,
+      "sourceId": "401827093116356199",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -26468,17 +26479,17 @@
       "opponent": "Grambling",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 18,
-      "homeWinProbability": 0.884,
+      "homeWinProbability": 0.911,
       "period": 1,
       "clock": "2:23",
       "secondsRemaining": 143,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T19:44:32.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2025-12-23T19:44:50.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -26674,9 +26685,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625542,
-      "sourceId": "401827093116356244",
-      "playType": "MadeFreeThrow",
+      "id": 42625538,
+      "sourceId": "401827093116356236",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -26686,17 +26697,17 @@
       "opponent": "Grambling",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 22,
-      "homeWinProbability": 0.948,
+      "homeWinProbability": 0.931,
       "period": 1,
       "clock": "0:36",
       "secondsRemaining": 36,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-23T19:48:59.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-23T19:48:18.000Z",
+      "playText": "Bruce Thornton makes layup",
       "participants": [
         {
           "id": 420,
@@ -26709,7 +26720,7 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -26781,9 +26792,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625538,
-      "sourceId": "401827093116356236",
-      "playType": "LayUpShot",
+      "id": 42625542,
+      "sourceId": "401827093116356244",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -26793,17 +26804,17 @@
       "opponent": "Grambling",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 22,
-      "homeWinProbability": 0.931,
+      "homeWinProbability": 0.948,
       "period": 1,
       "clock": "0:36",
       "secondsRemaining": 36,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-23T19:48:18.000Z",
-      "playText": "Bruce Thornton makes layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-23T19:48:59.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 1",
       "participants": [
         {
           "id": 420,
@@ -26816,7 +26827,7 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -27106,8 +27117,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625574,
-      "sourceId": "401827093116356455",
+      "id": 42625573,
+      "sourceId": "401827093116356453",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -27124,11 +27135,11 @@
       "period": 2,
       "clock": "17:23",
       "secondsRemaining": 1043,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T20:11:50.000Z",
-      "playText": "Bruce Thornton misses free throw 2 of 2",
+      "wallclock": "2025-12-23T20:11:33.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -27140,7 +27151,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27213,8 +27224,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625573,
-      "sourceId": "401827093116356453",
+      "id": 42625574,
+      "sourceId": "401827093116356455",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -27231,11 +27242,11 @@
       "period": 2,
       "clock": "17:23",
       "secondsRemaining": 1043,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T20:11:33.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2025-12-23T20:11:50.000Z",
+      "playText": "Bruce Thornton misses free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -27247,7 +27258,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27641,8 +27652,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625736,
-      "sourceId": "401827093116357116",
+      "id": 42625737,
+      "sourceId": "401827093116357117",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -27653,7 +27664,7 @@
       "opponent": "Grambling",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 82,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -27662,8 +27673,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T20:49:49.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2025-12-23T20:50:04.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -27748,8 +27759,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42625737,
-      "sourceId": "401827093116357117",
+      "id": 42625736,
+      "sourceId": "401827093116357116",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -27760,7 +27771,7 @@
       "opponent": "Grambling",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 81,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -27769,8 +27780,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T20:50:04.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2025-12-23T20:49:49.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -34660,8 +34671,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44159608,
-      "sourceId": "401825437117254536",
+      "id": 44159612,
+      "sourceId": "401825437117254566",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -34673,16 +34684,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 47,
-      "homeWinProbability": 0.861,
+      "awayScore": 48,
+      "homeWinProbability": 0.838,
       "period": 2,
       "clock": "13:10",
       "secondsRemaining": 790,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-12T00:18:57.000Z",
-      "playText": "Bruce Thornton misses free throw 1 of 2",
+      "wallclock": "2026-01-12T00:19:30.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -34694,7 +34705,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34767,8 +34778,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44159612,
-      "sourceId": "401825437117254566",
+      "id": 44159608,
+      "sourceId": "401825437117254536",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -34780,16 +34791,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 48,
-      "homeWinProbability": 0.838,
+      "awayScore": 47,
+      "homeWinProbability": 0.861,
       "period": 2,
       "clock": "13:10",
       "secondsRemaining": 790,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-12T00:19:30.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-01-12T00:18:57.000Z",
+      "playText": "Bruce Thornton misses free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -34801,7 +34812,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35734,8 +35745,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44159734,
-      "sourceId": "401825437117255241",
+      "id": 44159735,
+      "sourceId": "401825437117255245",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -35747,16 +35758,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 66,
-      "homeWinProbability": 0.862,
+      "awayScore": 67,
+      "homeWinProbability": 0.79,
       "period": 2,
       "clock": "3:15",
       "secondsRemaining": 195,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-12T00:52:33.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-01-12T00:52:54.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -35841,8 +35852,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44159735,
-      "sourceId": "401825437117255245",
+      "id": 44159734,
+      "sourceId": "401825437117255241",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -35854,16 +35865,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 67,
-      "homeWinProbability": 0.79,
+      "awayScore": 66,
+      "homeWinProbability": 0.862,
       "period": 2,
       "clock": "3:15",
       "secondsRemaining": 195,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-12T00:52:54.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-01-12T00:52:33.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -37351,8 +37362,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515750,
-      "sourceId": "401825449117459731",
+      "id": 44515749,
+      "sourceId": "401825449117459728",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -37363,9 +37374,9 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 36,
-      "homeWinProbability": 0.983,
+      "homeWinProbability": 0.982,
       "period": 2,
       "clock": "16:35",
       "secondsRemaining": 995,
@@ -37373,7 +37384,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-17T19:25:42.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -37458,8 +37469,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515749,
-      "sourceId": "401825449117459728",
+      "id": 44515750,
+      "sourceId": "401825449117459731",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -37470,9 +37481,9 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 36,
-      "homeWinProbability": 0.982,
+      "homeWinProbability": 0.983,
       "period": 2,
       "clock": "16:35",
       "secondsRemaining": 995,
@@ -37480,7 +37491,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-17T19:25:42.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -37672,9 +37683,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515786,
-      "sourceId": "401825449117464599",
-      "playType": "MadeFreeThrow",
+      "id": 44515780,
+      "sourceId": "401825449117464272",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -37684,17 +37695,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 59,
       "awayScore": 43,
-      "homeWinProbability": 0.981,
+      "homeWinProbability": 0.978,
       "period": 2,
       "clock": "13:22",
       "secondsRemaining": 802,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T19:33:07.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T19:32:27.000Z",
+      "playText": "Bruce Thornton makes layup",
       "participants": [
         {
           "id": 420,
@@ -37707,15 +37718,15 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 285
         }
       },
       "onFloor": [
@@ -37779,9 +37790,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515780,
-      "sourceId": "401825449117464272",
-      "playType": "LayUpShot",
+      "id": 44515786,
+      "sourceId": "401825449117464599",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -37791,17 +37802,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 60,
       "awayScore": 43,
-      "homeWinProbability": 0.978,
+      "homeWinProbability": 0.981,
       "period": 2,
       "clock": "13:22",
       "secondsRemaining": 802,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T19:32:27.000Z",
-      "playText": "Bruce Thornton makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T19:33:07.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 1",
       "participants": [
         {
           "id": 420,
@@ -37814,15 +37825,15 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -39495,8 +39506,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44902420,
-      "sourceId": "401825457117645457",
+      "id": 44902418,
+      "sourceId": "401825457117645411",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -39507,17 +39518,17 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 30,
-      "homeWinProbability": 0.903,
+      "homeWinProbability": 0.874,
       "period": 2,
       "clock": "17:01",
       "secondsRemaining": 1021,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T00:40:55.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-01-21T00:40:33.000Z",
+      "playText": "Bruce Thornton misses free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -39529,7 +39540,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39602,8 +39613,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44902418,
-      "sourceId": "401825457117645411",
+      "id": 44902420,
+      "sourceId": "401825457117645457",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -39614,17 +39625,17 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 30,
-      "homeWinProbability": 0.874,
+      "homeWinProbability": 0.903,
       "period": 2,
       "clock": "17:01",
       "secondsRemaining": 1021,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T00:40:33.000Z",
-      "playText": "Bruce Thornton misses free throw 1 of 2",
+      "wallclock": "2026-01-21T00:40:55.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -39636,7 +39647,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41112,8 +41123,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44902633,
-      "sourceId": "401825457117653286",
+      "id": 44902632,
+      "sourceId": "401825457117653250",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -41124,17 +41135,17 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 74,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.982,
       "period": 3,
       "clock": "0:25",
       "secondsRemaining": 25,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T01:44:52.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-01-21T01:44:33.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -41219,8 +41230,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44902632,
-      "sourceId": "401825457117653250",
+      "id": 44902633,
+      "sourceId": "401825457117653286",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -41231,17 +41242,17 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 74,
-      "homeWinProbability": 0.982,
+      "homeWinProbability": 0.994,
       "period": 3,
       "clock": "0:25",
       "secondsRemaining": 25,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T01:44:33.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-01-21T01:44:52.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -44025,9 +44036,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474121,
-      "sourceId": "401825472117977710",
-      "playType": "MadeFreeThrow",
+      "id": 45474118,
+      "sourceId": "401825472117977574",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -44043,11 +44054,11 @@
       "period": 2,
       "clock": "11:42",
       "secondsRemaining": 702,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-27T01:37:05.000Z",
-      "playText": "Bruce Thornton misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-27T01:32:54.000Z",
+      "playText": "Bruce Thornton makes driving layup",
       "participants": [
         {
           "id": 420,
@@ -44059,16 +44070,16 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -44132,9 +44143,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474118,
-      "sourceId": "401825472117977574",
-      "playType": "LayUpShot",
+      "id": 45474121,
+      "sourceId": "401825472117977710",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -44150,11 +44161,11 @@
       "period": 2,
       "clock": "11:42",
       "secondsRemaining": 702,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-27T01:32:54.000Z",
-      "playText": "Bruce Thornton makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-27T01:37:05.000Z",
+      "playText": "Bruce Thornton misses free throw 1 of 1",
       "participants": [
         {
           "id": 420,
@@ -44166,16 +44177,16 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -48131,8 +48142,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46344230,
-      "sourceId": "401825495118501118",
+      "id": 46344232,
+      "sourceId": "401825495118501195",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -48144,16 +48155,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 59,
-      "homeWinProbability": 0.066,
+      "awayScore": 60,
+      "homeWinProbability": 0.058,
       "period": 2,
       "clock": "10:12",
       "secondsRemaining": 612,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-06T03:15:11.000Z",
-      "playText": "Bruce Thornton misses free throw 1 of 2",
+      "wallclock": "2026-02-06T03:15:28.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -48165,7 +48176,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48238,8 +48249,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46344232,
-      "sourceId": "401825495118501195",
+      "id": 46344230,
+      "sourceId": "401825495118501118",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -48251,16 +48262,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 60,
-      "homeWinProbability": 0.058,
+      "awayScore": 59,
+      "homeWinProbability": 0.066,
       "period": 2,
       "clock": "10:12",
       "secondsRemaining": 612,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-06T03:15:28.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-02-06T03:15:11.000Z",
+      "playText": "Bruce Thornton misses free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -48272,7 +48283,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -52792,8 +52803,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46840423,
-      "sourceId": "401825510118765558",
+      "id": 46840425,
+      "sourceId": "401825510118765604",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -52804,7 +52815,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
@@ -52813,8 +52824,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:23:40.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-02-12T01:23:58.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -52899,8 +52910,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46840425,
-      "sourceId": "401825510118765604",
+      "id": 46840423,
+      "sourceId": "401825510118765558",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -52911,7 +52922,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 75,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
@@ -52920,8 +52931,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:23:58.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-02-12T01:23:40.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -53117,8 +53128,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46840476,
-      "sourceId": "401825510118771689",
+      "id": 46840475,
+      "sourceId": "401825510118771598",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -53129,7 +53140,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 81,
       "awayScore": 78,
       "homeWinProbability": null,
       "period": 2,
@@ -53138,8 +53149,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:48:20.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-02-12T01:48:02.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -53224,8 +53235,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46840475,
-      "sourceId": "401825510118771598",
+      "id": 46840476,
+      "sourceId": "401825510118771689",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -53236,7 +53247,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 82,
       "awayScore": 78,
       "homeWinProbability": null,
       "period": 2,
@@ -53245,8 +53256,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:48:02.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-02-12T01:48:20.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -53545,8 +53556,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46840562,
-      "sourceId": "401825510118772381",
+      "id": 46840565,
+      "sourceId": "401825510118772426",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -53557,7 +53568,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 87,
       "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
@@ -53566,8 +53577,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:52:30.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-02-12T01:52:49.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -53652,8 +53663,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46840565,
-      "sourceId": "401825510118772426",
+      "id": 46840562,
+      "sourceId": "401825510118772381",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -53664,7 +53675,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 86,
       "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
@@ -53673,8 +53684,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:52:49.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-02-12T01:52:30.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -54829,9 +54840,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47152467,
-      "sourceId": "401817516119017170",
-      "playType": "MadeFreeThrow",
+      "id": 47152465,
+      "sourceId": "401817516119017089",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -54847,11 +54858,11 @@
       "period": 2,
       "clock": "18:37",
       "secondsRemaining": 1117,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-15T02:17:25.000Z",
-      "playText": "Bruce Thornton misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-15T02:16:42.000Z",
+      "playText": "Bruce Thornton makes layup",
       "participants": [
         {
           "id": 420,
@@ -54863,16 +54874,16 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 270
         }
       },
       "onFloor": [
@@ -54946,9 +54957,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47152465,
-      "sourceId": "401817516119017089",
-      "playType": "LayUpShot",
+      "id": 47152467,
+      "sourceId": "401817516119017170",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -54964,11 +54975,11 @@
       "period": 2,
       "clock": "18:37",
       "secondsRemaining": 1117,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-15T02:16:42.000Z",
-      "playText": "Bruce Thornton makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-15T02:17:25.000Z",
+      "playText": "Bruce Thornton misses free throw 1 of 1",
       "participants": [
         {
           "id": 420,
@@ -54980,16 +54991,16 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -62652,8 +62663,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47920081,
-      "sourceId": "401825534119413686",
+      "id": 47920082,
+      "sourceId": "401825534119413687",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -62665,8 +62676,8 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 50,
-      "homeWinProbability": 0.86,
+      "awayScore": 51,
+      "homeWinProbability": 0.784,
       "period": 2,
       "clock": "4:41",
       "secondsRemaining": 281,
@@ -62674,7 +62685,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-02-22T19:58:36.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -62759,8 +62770,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47920082,
-      "sourceId": "401825534119413687",
+      "id": 47920081,
+      "sourceId": "401825534119413686",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -62772,8 +62783,8 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 51,
-      "homeWinProbability": 0.784,
+      "awayScore": 50,
+      "homeWinProbability": 0.86,
       "period": 2,
       "clock": "4:41",
       "secondsRemaining": 281,
@@ -62781,7 +62792,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-02-22T19:58:36.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -62973,8 +62984,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47920102,
-      "sourceId": "401825534119414239",
+      "id": 47920097,
+      "sourceId": "401825534119414203",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -62986,16 +62997,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 53,
-      "homeWinProbability": 0.982,
+      "awayScore": 52,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "2:32",
       "secondsRemaining": 152,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T20:05:24.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-02-22T20:05:04.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -63080,8 +63091,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47920097,
-      "sourceId": "401825534119414203",
+      "id": 47920102,
+      "sourceId": "401825534119414239",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -63093,16 +63104,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 52,
-      "homeWinProbability": 0.993,
+      "awayScore": 53,
+      "homeWinProbability": 0.982,
       "period": 2,
       "clock": "2:32",
       "secondsRemaining": 152,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T20:05:04.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-02-22T20:05:24.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -64907,113 +64918,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48045476,
-      "sourceId": "401825540119514583",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 216,
-      "team": "Ohio State",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 124,
-      "opponent": "Iowa",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 70,
-      "awayScore": 50,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "5:00",
-      "secondsRemaining": 300,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-26T03:54:06.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 420,
-          "name": "Bruce Thornton"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 420,
-          "name": "Bruce Thornton"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3302,
-          "name": "Alvaro Folgueiras",
-          "team": "Iowa"
-        },
-        {
-          "id": 7844,
-          "name": "Gabe Cupps",
-          "team": "Ohio State"
-        },
-        {
-          "id": 420,
-          "name": "Bruce Thornton",
-          "team": "Ohio State"
-        },
-        {
-          "id": 427,
-          "name": "Colin White",
-          "team": "Ohio State"
-        },
-        {
-          "id": 201240,
-          "name": "Amare Bynum",
-          "team": "Ohio State"
-        },
-        {
-          "id": 422,
-          "name": "Devin Royal",
-          "team": "Ohio State"
-        },
-        {
-          "id": 3603,
-          "name": "Tavion Banks",
-          "team": "Iowa"
-        },
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz",
-          "team": "Iowa"
-        },
-        {
-          "id": 199776,
-          "name": "Tate Sage",
-          "team": "Iowa"
-        },
-        {
-          "id": 3600,
-          "name": "Kael Combs",
-          "team": "Iowa"
-        }
-      ]
-    },
-    {
-      "gameId": 215089,
-      "gameSourceId": "401825540",
-      "gameStartDate": "2026-02-26T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48045477,
       "sourceId": "401825540119514589",
       "playType": "MadeFreeThrow",
@@ -65121,8 +65025,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48045493,
-      "sourceId": "401825540119514891",
+      "id": 48045476,
+      "sourceId": "401825540119514583",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 216,
+      "team": "Ohio State",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 124,
+      "opponent": "Iowa",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 50,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "5:00",
+      "secondsRemaining": 300,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-26T03:54:06.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 420,
+          "name": "Bruce Thornton"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 420,
+          "name": "Bruce Thornton"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3302,
+          "name": "Alvaro Folgueiras",
+          "team": "Iowa"
+        },
+        {
+          "id": 7844,
+          "name": "Gabe Cupps",
+          "team": "Ohio State"
+        },
+        {
+          "id": 420,
+          "name": "Bruce Thornton",
+          "team": "Ohio State"
+        },
+        {
+          "id": 427,
+          "name": "Colin White",
+          "team": "Ohio State"
+        },
+        {
+          "id": 201240,
+          "name": "Amare Bynum",
+          "team": "Ohio State"
+        },
+        {
+          "id": 422,
+          "name": "Devin Royal",
+          "team": "Ohio State"
+        },
+        {
+          "id": 3603,
+          "name": "Tavion Banks",
+          "team": "Iowa"
+        },
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz",
+          "team": "Iowa"
+        },
+        {
+          "id": 199776,
+          "name": "Tate Sage",
+          "team": "Iowa"
+        },
+        {
+          "id": 3600,
+          "name": "Kael Combs",
+          "team": "Iowa"
+        }
+      ]
+    },
+    {
+      "gameId": 215089,
+      "gameSourceId": "401825540",
+      "gameStartDate": "2026-02-26T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48045500,
+      "sourceId": "401825540119514922",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -65134,7 +65145,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 72,
-      "awayScore": 54,
+      "awayScore": 55,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:36",
@@ -65142,8 +65153,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T04:01:06.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-02-26T04:01:24.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -65228,8 +65239,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48045500,
-      "sourceId": "401825540119514922",
+      "id": 48045493,
+      "sourceId": "401825540119514891",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -65241,7 +65252,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 72,
-      "awayScore": 55,
+      "awayScore": 54,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:36",
@@ -65249,8 +65260,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T04:01:24.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-02-26T04:01:06.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -66635,8 +66646,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528552,
-      "sourceId": "401825552119778670",
+      "id": 48528549,
+      "sourceId": "401825552119778608",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -66647,7 +66658,7 @@
       "opponent": "Purdue",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -66656,8 +66667,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T20:42:22.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-03-01T20:41:53.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -66742,8 +66753,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528549,
-      "sourceId": "401825552119778608",
+      "id": 48528552,
+      "sourceId": "401825552119778670",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -66754,7 +66765,7 @@
       "opponent": "Purdue",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -66763,8 +66774,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T20:41:53.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-03-01T20:42:22.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -67063,8 +67074,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528572,
-      "sourceId": "401825552119779358",
+      "id": 48528573,
+      "sourceId": "401825552119779374",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -67081,11 +67092,11 @@
       "period": 2,
       "clock": "0:19",
       "secondsRemaining": 19,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T20:46:38.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-03-01T20:46:53.000Z",
+      "playText": "Bruce Thornton misses free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -67097,7 +67108,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -67170,8 +67181,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528573,
-      "sourceId": "401825552119779374",
+      "id": 48528572,
+      "sourceId": "401825552119779358",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -67188,11 +67199,11 @@
       "period": 2,
       "clock": "0:19",
       "secondsRemaining": 19,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T20:46:53.000Z",
-      "playText": "Bruce Thornton misses free throw 2 of 2",
+      "wallclock": "2026-03-01T20:46:38.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -67204,7 +67215,7 @@
           "id": 420,
           "name": "Bruce Thornton"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70967,113 +70978,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48953398,
-      "sourceId": "401825563120064511",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 216,
-      "team": "Ohio State",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 121,
-      "opponent": "Indiana",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 75,
-      "awayScore": 58,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "6:59",
-      "secondsRemaining": 419,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-08T00:22:05.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 420,
-          "name": "Bruce Thornton"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 420,
-          "name": "Bruce Thornton"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 422,
-          "name": "Devin Royal",
-          "team": "Ohio State"
-        },
-        {
-          "id": 7045,
-          "name": "Lamar Wilkerson",
-          "team": "Indiana"
-        },
-        {
-          "id": 432,
-          "name": "Taison Chatman",
-          "team": "Ohio State"
-        },
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 501,
-          "name": "Sam Alexis",
-          "team": "Indiana"
-        },
-        {
-          "id": 420,
-          "name": "Bruce Thornton",
-          "team": "Ohio State"
-        },
-        {
-          "id": 5389,
-          "name": "Conor Enright",
-          "team": "Indiana"
-        },
-        {
-          "id": 2331,
-          "name": "Reed Bailey",
-          "team": "Indiana"
-        },
-        {
-          "id": 3319,
-          "name": "Tucker DeVries",
-          "team": "Indiana"
-        },
-        {
-          "id": 429,
-          "name": "Ivan Njegovan",
-          "team": "Ohio State"
-        }
-      ]
-    },
-    {
-      "gameId": 215218,
-      "gameSourceId": "401825563",
-      "gameStartDate": "2026-03-07T22:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48953396,
       "sourceId": "401825563120064505",
       "playType": "MadeFreeThrow",
@@ -71181,8 +71085,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48953403,
-      "sourceId": "401825563120064633",
+      "id": 48953398,
+      "sourceId": "401825563120064511",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -71193,17 +71097,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 76,
-      "awayScore": 60,
+      "homeScore": 75,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "6:34",
-      "secondsRemaining": 394,
+      "clock": "6:59",
+      "secondsRemaining": 419,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T00:24:01.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-03-08T00:22:05.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -71311,6 +71215,113 @@
       "scoreValue": 1,
       "wallclock": "2026-03-08T00:24:22.000Z",
       "playText": "Bruce Thornton makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 420,
+          "name": "Bruce Thornton"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 420,
+          "name": "Bruce Thornton"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 422,
+          "name": "Devin Royal",
+          "team": "Ohio State"
+        },
+        {
+          "id": 7045,
+          "name": "Lamar Wilkerson",
+          "team": "Indiana"
+        },
+        {
+          "id": 432,
+          "name": "Taison Chatman",
+          "team": "Ohio State"
+        },
+        {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 501,
+          "name": "Sam Alexis",
+          "team": "Indiana"
+        },
+        {
+          "id": 420,
+          "name": "Bruce Thornton",
+          "team": "Ohio State"
+        },
+        {
+          "id": 5389,
+          "name": "Conor Enright",
+          "team": "Indiana"
+        },
+        {
+          "id": 2331,
+          "name": "Reed Bailey",
+          "team": "Indiana"
+        },
+        {
+          "id": 3319,
+          "name": "Tucker DeVries",
+          "team": "Indiana"
+        },
+        {
+          "id": 429,
+          "name": "Ivan Njegovan",
+          "team": "Ohio State"
+        }
+      ]
+    },
+    {
+      "gameId": 215218,
+      "gameSourceId": "401825563",
+      "gameStartDate": "2026-03-07T22:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48953403,
+      "sourceId": "401825563120064633",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 216,
+      "team": "Ohio State",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 121,
+      "opponent": "Indiana",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 76,
+      "awayScore": 60,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "6:34",
+      "secondsRemaining": 394,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-08T00:24:01.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -71506,8 +71517,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48953453,
-      "sourceId": "401825563120066422",
+      "id": 48953452,
+      "sourceId": "401825563120066374",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -71518,7 +71529,7 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 91,
+      "homeScore": 90,
       "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
@@ -71527,8 +71538,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T00:45:09.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-03-08T00:44:50.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -71613,8 +71624,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48953452,
-      "sourceId": "401825563120066374",
+      "id": 48953453,
+      "sourceId": "401825563120066422",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -71625,7 +71636,7 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 90,
+      "homeScore": 91,
       "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
@@ -71634,8 +71645,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T00:44:50.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-03-08T00:45:09.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -72156,9 +72167,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49298379,
-      "sourceId": "401851375120193983",
-      "playType": "MadeFreeThrow",
+      "id": 49298377,
+      "sourceId": "401851375120193945",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -72168,7 +72179,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
@@ -72176,9 +72187,9 @@
       "secondsRemaining": 148,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-12T16:48:16.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-12T16:47:35.000Z",
+      "playText": "Bruce Thornton makes 7-foot floating jump shot",
       "participants": [
         {
           "id": 420,
@@ -72191,15 +72202,15 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 190
         }
       },
       "onFloor": [
@@ -72263,9 +72274,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49298377,
-      "sourceId": "401851375120193945",
-      "playType": "JumpShot",
+      "id": 49298379,
+      "sourceId": "401851375120193983",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
       "team": "Ohio State",
@@ -72275,7 +72286,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
@@ -72283,9 +72294,9 @@
       "secondsRemaining": 148,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-12T16:47:35.000Z",
-      "playText": "Bruce Thornton makes 7-foot floating jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-03-12T16:48:16.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 1",
       "participants": [
         {
           "id": 420,
@@ -72298,15 +72309,15 @@
           "name": "Bruce Thornton"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 94,
-          "y": 190
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -75505,8 +75516,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49385006,
-      "sourceId": "401851380120233331",
+      "id": 49385005,
+      "sourceId": "401851380120233322",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -75518,7 +75529,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 56,
+      "awayScore": 55,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:43",
@@ -75526,8 +75537,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T17:47:05.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-03-13T17:46:48.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -75612,8 +75623,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49385005,
-      "sourceId": "401851380120233322",
+      "id": 49385006,
+      "sourceId": "401851380120233331",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 216,
@@ -75625,7 +75636,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 55,
+      "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:43",
@@ -75633,8 +75644,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T17:46:48.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-03-13T17:47:05.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,
@@ -76365,8 +76376,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49536703,
-      "sourceId": "401856479120295110",
+      "id": 49536704,
+      "sourceId": "401856479120295114",
       "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 216,
@@ -76386,8 +76397,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 3,
-      "wallclock": "2026-03-19T16:16:41.000Z",
-      "playText": "Bruce Thornton makes 24-foot three point jumper (Christoph Tilly assists)",
+      "wallclock": "2026-03-19T16:16:40.000Z",
+      "playText": "Bruce Thornton makes 25-foot three point jumper (Christoph Tilly assists)",
       "participants": [
         {
           "id": 823,
@@ -76411,8 +76422,8 @@
           "name": "Christoph Tilly"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 742.6,
+          "y": 450
         }
       },
       "onFloor": [
@@ -76476,8 +76487,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49536704,
-      "sourceId": "401856479120295114",
+      "id": 49536703,
+      "sourceId": "401856479120295110",
       "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 216,
@@ -76497,8 +76508,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 3,
-      "wallclock": "2026-03-19T16:16:40.000Z",
-      "playText": "Bruce Thornton makes 25-foot three point jumper (Christoph Tilly assists)",
+      "wallclock": "2026-03-19T16:16:41.000Z",
+      "playText": "Bruce Thornton makes 24-foot three point jumper (Christoph Tilly assists)",
       "participants": [
         {
           "id": 823,
@@ -76522,8 +76533,8 @@
           "name": "Christoph Tilly"
         },
         "location": {
-          "x": 742.6,
-          "y": 450
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -76968,6 +76979,26 @@
       },
       "onFloor": [
         {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 823,
+          "name": "Christoph Tilly",
+          "team": "Ohio State"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
           "id": 201240,
           "name": "Amare Bynum",
           "team": "Ohio State"
@@ -76996,26 +77027,6 @@
           "id": 420,
           "name": "Bruce Thornton",
           "team": "Ohio State"
-        },
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 5675,
-          "name": "Micah Robinson",
-          "team": "TCU"
-        },
-        {
-          "id": 823,
-          "name": "Christoph Tilly",
-          "team": "Ohio State"
-        },
-        {
-          "id": 4438,
-          "name": "Tanner Toolson",
-          "team": "TCU"
         }
       ]
     },
@@ -77075,31 +77086,6 @@
       },
       "onFloor": [
         {
-          "id": 201240,
-          "name": "Amare Bynum",
-          "team": "Ohio State"
-        },
-        {
-          "id": 422,
-          "name": "Devin Royal",
-          "team": "Ohio State"
-        },
-        {
-          "id": 420,
-          "name": "Bruce Thornton",
-          "team": "Ohio State"
-        },
-        {
-          "id": 3136,
-          "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 202414,
-          "name": "Xavier Edmonds",
-          "team": "TCU"
-        },
-        {
           "id": 425,
           "name": "John Mobley Jr.",
           "team": "Ohio State"
@@ -77122,6 +77108,31 @@
         {
           "id": 4438,
           "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 201240,
+          "name": "Amare Bynum",
+          "team": "Ohio State"
+        },
+        {
+          "id": 422,
+          "name": "Devin Royal",
+          "team": "Ohio State"
+        },
+        {
+          "id": 420,
+          "name": "Bruce Thornton",
+          "team": "Ohio State"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
           "team": "TCU"
         }
       ]
@@ -77182,31 +77193,6 @@
       },
       "onFloor": [
         {
-          "id": 201240,
-          "name": "Amare Bynum",
-          "team": "Ohio State"
-        },
-        {
-          "id": 422,
-          "name": "Devin Royal",
-          "team": "Ohio State"
-        },
-        {
-          "id": 420,
-          "name": "Bruce Thornton",
-          "team": "Ohio State"
-        },
-        {
-          "id": 3136,
-          "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 202414,
-          "name": "Xavier Edmonds",
-          "team": "TCU"
-        },
-        {
           "id": 425,
           "name": "John Mobley Jr.",
           "team": "Ohio State"
@@ -77229,6 +77215,31 @@
         {
           "id": 4438,
           "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 201240,
+          "name": "Amare Bynum",
+          "team": "Ohio State"
+        },
+        {
+          "id": 422,
+          "name": "Devin Royal",
+          "team": "Ohio State"
+        },
+        {
+          "id": 420,
+          "name": "Bruce Thornton",
+          "team": "Ohio State"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
           "team": "TCU"
         }
       ]
@@ -77289,6 +77300,21 @@
       },
       "onFloor": [
         {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 547,
+          "name": "Brandon Noel",
+          "team": "Ohio State"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
           "id": 201240,
           "name": "Amare Bynum",
           "team": "Ohio State"
@@ -77321,21 +77347,6 @@
         {
           "id": 3136,
           "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 547,
-          "name": "Brandon Noel",
-          "team": "Ohio State"
-        },
-        {
-          "id": 5675,
-          "name": "Micah Robinson",
           "team": "TCU"
         }
       ]
@@ -77400,6 +77411,21 @@
       },
       "onFloor": [
         {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 547,
+          "name": "Brandon Noel",
+          "team": "Ohio State"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
           "id": 201240,
           "name": "Amare Bynum",
           "team": "Ohio State"
@@ -77432,21 +77458,6 @@
         {
           "id": 5482,
           "name": "Brock Harding",
-          "team": "TCU"
-        },
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 547,
-          "name": "Brandon Noel",
-          "team": "Ohio State"
-        },
-        {
-          "id": 5675,
-          "name": "Micah Robinson",
           "team": "TCU"
         }
       ]
@@ -77511,6 +77522,21 @@
       },
       "onFloor": [
         {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 823,
+          "name": "Christoph Tilly",
+          "team": "Ohio State"
+        },
+        {
           "id": 201240,
           "name": "Amare Bynum",
           "team": "Ohio State"
@@ -77544,21 +77570,6 @@
           "id": 4438,
           "name": "Tanner Toolson",
           "team": "TCU"
-        },
-        {
-          "id": 3136,
-          "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 823,
-          "name": "Christoph Tilly",
-          "team": "Ohio State"
         }
       ]
     },
@@ -77895,8 +77906,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537146,
-      "sourceId": "401856479120296786",
+      "id": 49537145,
+      "sourceId": "401856479120296785",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -77907,7 +77918,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
@@ -77916,8 +77927,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T18:17:21.000Z",
-      "playText": "Bruce Thornton makes free throw 2 of 2",
+      "wallclock": "2026-03-19T18:16:59.000Z",
+      "playText": "Bruce Thornton makes free throw 1 of 2",
       "participants": [
         {
           "id": 420,
@@ -78002,8 +78013,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537145,
-      "sourceId": "401856479120296785",
+      "id": 49537146,
+      "sourceId": "401856479120296786",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 216,
@@ -78014,7 +78025,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
@@ -78023,8 +78034,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T18:16:59.000Z",
-      "playText": "Bruce Thornton makes free throw 1 of 2",
+      "wallclock": "2026-03-19T18:17:21.000Z",
+      "playText": "Bruce Thornton makes free throw 2 of 2",
       "participants": [
         {
           "id": 420,

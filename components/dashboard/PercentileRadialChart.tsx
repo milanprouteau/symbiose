@@ -34,7 +34,7 @@ function arcPath(
   endAngle: number,
 ): string {
   const arc = d3.arc().innerRadius(innerR).outerRadius(outerR).cornerRadius(0);
-  return arc({ startAngle, endAngle } as any) ?? "";
+  return arc({ startAngle, endAngle, innerRadius: innerR, outerRadius: outerR }) ?? "";
 }
 
 export default function PercentileRadialChart({

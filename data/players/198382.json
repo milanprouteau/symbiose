@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "3",
+    "position": "Forward",
+    "height": 81,
+    "weight": 200,
+    "hometown": {
+      "city": "Brockton",
+      "state": "MA"
+    },
+    "dateOfBirth": "2007-01-29"
+  },
   "shots": [
     {
       "gameId": 212782,
@@ -1276,8 +1287,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37759167,
-      "sourceId": "401819834113702557",
+      "id": 37759166,
+      "sourceId": "401819834113702520",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -1288,7 +1299,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 29,
       "homeWinProbability": 0.843,
       "period": 1,
@@ -1297,7 +1308,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T03:49:37.000Z",
+      "wallclock": "2025-11-04T03:49:25.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -1383,8 +1394,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37759166,
-      "sourceId": "401819834113702520",
+      "id": 37759167,
+      "sourceId": "401819834113702557",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -1395,7 +1406,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 29,
       "homeWinProbability": 0.843,
       "period": 1,
@@ -1404,7 +1415,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T03:49:25.000Z",
+      "wallclock": "2025-11-04T03:49:37.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -3103,68 +3114,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38426025,
-      "sourceId": "401812660114002530",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 111,
-      "opponent": "Holy Cross",
-      "opponentConference": "Patriot",
-      "opponentSeed": null,
-      "homeScore": 12,
-      "awayScore": 2,
-      "homeWinProbability": 0.871,
-      "period": 1,
-      "clock": "16:44",
-      "secondsRemaining": 1004,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-09T02:08:34.000Z",
-      "playText": "AJ Dybantsa made Layup.",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 270
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5410,
-          "name": "DeAndre Williams",
-          "team": "Holy Cross"
-        }
-      ]
-    },
-    {
-      "gameId": 209835,
-      "gameSourceId": "401812660",
-      "gameStartDate": "2025-11-09T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38426027,
       "sourceId": "401812660114002540",
       "playType": "MadeFreeThrow",
@@ -3209,6 +3158,68 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5410,
+          "name": "DeAndre Williams",
+          "team": "Holy Cross"
+        }
+      ]
+    },
+    {
+      "gameId": 209835,
+      "gameSourceId": "401812660",
+      "gameStartDate": "2025-11-09T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38426025,
+      "sourceId": "401812660114002530",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 111,
+      "opponent": "Holy Cross",
+      "opponentConference": "Patriot",
+      "opponentSeed": null,
+      "homeScore": 12,
+      "awayScore": 2,
+      "homeWinProbability": 0.871,
+      "period": 1,
+      "clock": "16:44",
+      "secondsRemaining": 1004,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-11-09T02:08:34.000Z",
+      "playText": "AJ Dybantsa made Layup.",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 270
         }
       },
       "onFloor": [
@@ -3599,8 +3610,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38426102,
-      "sourceId": "401812660114003949",
+      "id": 38426105,
+      "sourceId": "401812660114003956",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -3611,16 +3622,16 @@
       "opponent": "Holy Cross",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 13,
-      "homeWinProbability": 0.956,
+      "homeWinProbability": 0.968,
       "period": 1,
       "clock": "9:32",
       "secondsRemaining": 572,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-09T02:27:09.000Z",
+      "wallclock": "2025-11-09T02:27:34.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -3701,8 +3712,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38426105,
-      "sourceId": "401812660114003956",
+      "id": 38426102,
+      "sourceId": "401812660114003949",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -3713,16 +3724,16 @@
       "opponent": "Holy Cross",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 13,
-      "homeWinProbability": 0.968,
+      "homeWinProbability": 0.956,
       "period": 1,
       "clock": "9:32",
       "secondsRemaining": 572,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-09T02:27:34.000Z",
+      "wallclock": "2025-11-09T02:27:09.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -6514,8 +6525,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39140199,
-      "sourceId": "401812788114402697",
+      "id": 39140198,
+      "sourceId": "401812788114402669",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -6532,11 +6543,11 @@
       "period": 1,
       "clock": "18:58",
       "secondsRemaining": 1138,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T00:12:20.000Z",
-      "playText": "AJ Dybantsa missed Free Throw.",
+      "wallclock": "2025-11-16T00:12:06.000Z",
+      "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -6548,7 +6559,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6621,8 +6632,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39140198,
-      "sourceId": "401812788114402669",
+      "id": 39140199,
+      "sourceId": "401812788114402697",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -6639,11 +6650,11 @@
       "period": 1,
       "clock": "18:58",
       "secondsRemaining": 1138,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T00:12:06.000Z",
-      "playText": "AJ Dybantsa made Free Throw.",
+      "wallclock": "2025-11-16T00:12:20.000Z",
+      "playText": "AJ Dybantsa missed Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -6655,7 +6666,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9737,8 +9748,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39728749,
-      "sourceId": "401819836114710610",
+      "id": 39728746,
+      "sourceId": "401819836114710580",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -9749,16 +9760,16 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 23,
       "awayScore": 14,
-      "homeWinProbability": 0.878,
+      "homeWinProbability": 0.853,
       "period": 1,
       "clock": "9:41",
       "secondsRemaining": 581,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T21:24:48.000Z",
+      "wallclock": "2025-11-21T21:24:31.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -9844,8 +9855,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39728746,
-      "sourceId": "401819836114710580",
+      "id": 39728749,
+      "sourceId": "401819836114710610",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -9856,16 +9867,16 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 24,
       "awayScore": 14,
-      "homeWinProbability": 0.853,
+      "homeWinProbability": 0.878,
       "period": 1,
       "clock": "9:41",
       "secondsRemaining": 581,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T21:24:31.000Z",
+      "wallclock": "2025-11-21T21:24:48.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -11136,8 +11147,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39729127,
-      "sourceId": "401819836114714045",
+      "id": 39729130,
+      "sourceId": "401819836114714070",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -11148,7 +11159,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 87,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -11157,7 +11168,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T22:55:41.000Z",
+      "wallclock": "2025-11-21T22:55:58.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -11243,8 +11254,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39729130,
-      "sourceId": "401819836114714070",
+      "id": 39729127,
+      "sourceId": "401819836114714045",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -11255,7 +11266,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 86,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -11264,7 +11275,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T22:55:58.000Z",
+      "wallclock": "2025-11-21T22:55:41.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -13177,8 +13188,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40398554,
-      "sourceId": "401809419115095133",
+      "id": 40398559,
+      "sourceId": "401809419115095138",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -13190,15 +13201,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 53,
-      "homeWinProbability": 0.118,
+      "awayScore": 54,
+      "homeWinProbability": 0.111,
       "period": 2,
       "clock": "9:04",
       "secondsRemaining": 544,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T23:30:52.000Z",
+      "wallclock": "2025-11-27T23:31:15.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -13284,8 +13295,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40398559,
-      "sourceId": "401809419115095138",
+      "id": 40398554,
+      "sourceId": "401809419115095133",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -13297,15 +13308,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 54,
-      "homeWinProbability": 0.111,
+      "awayScore": 53,
+      "homeWinProbability": 0.118,
       "period": 2,
       "clock": "9:04",
       "secondsRemaining": 544,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T23:31:15.000Z",
+      "wallclock": "2025-11-27T23:30:52.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -13605,8 +13616,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40398582,
-      "sourceId": "401809419115095454",
+      "id": 40398581,
+      "sourceId": "401809419115095438",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -13623,11 +13634,11 @@
       "period": 2,
       "clock": "6:52",
       "secondsRemaining": 412,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T23:39:00.000Z",
-      "playText": "AJ Dybantsa missed Free Throw.",
+      "wallclock": "2025-11-27T23:38:43.000Z",
+      "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -13639,7 +13650,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13712,8 +13723,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40398581,
-      "sourceId": "401809419115095438",
+      "id": 40398582,
+      "sourceId": "401809419115095454",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -13730,11 +13741,11 @@
       "period": 2,
       "clock": "6:52",
       "secondsRemaining": 412,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T23:38:43.000Z",
-      "playText": "AJ Dybantsa made Free Throw.",
+      "wallclock": "2025-11-27T23:39:00.000Z",
+      "playText": "AJ Dybantsa missed Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -13746,7 +13757,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14358,8 +14369,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40472659,
-      "sourceId": "401830886115172505",
+      "id": 40472664,
+      "sourceId": "401830886115172514",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -14371,15 +14382,15 @@
       "opponentConference": "A-10",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 17,
-      "homeWinProbability": 0.739,
+      "awayScore": 18,
+      "homeWinProbability": 0.738,
       "period": 1,
       "clock": "9:45",
       "secondsRemaining": 585,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T02:53:32.000Z",
+      "wallclock": "2025-11-29T02:53:55.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -14465,8 +14476,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40472664,
-      "sourceId": "401830886115172514",
+      "id": 40472659,
+      "sourceId": "401830886115172505",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -14478,15 +14489,15 @@
       "opponentConference": "A-10",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 18,
-      "homeWinProbability": 0.738,
+      "awayScore": 17,
+      "homeWinProbability": 0.739,
       "period": 1,
       "clock": "9:45",
       "secondsRemaining": 585,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T02:53:55.000Z",
+      "wallclock": "2025-11-29T02:53:32.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -16843,9 +16854,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40893877,
-      "sourceId": "401819837115438356",
-      "playType": "LayUpShot",
+      "id": 40893884,
+      "sourceId": "401819837115438728",
+      "playType": "DunkShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -16855,17 +16866,17 @@
       "opponent": "California Baptist",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 21,
-      "awayScore": 13,
-      "homeWinProbability": 0.852,
+      "homeScore": 25,
+      "awayScore": 16,
+      "homeWinProbability": 0.847,
       "period": 1,
       "clock": "11:53",
       "secondsRemaining": 713,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-12-04T02:29:03.000Z",
-      "playText": "AJ Dybantsa made Layup. Assisted by Robert Wright III.",
+      "wallclock": "2025-12-04T02:30:32.000Z",
+      "playText": "AJ Dybantsa made Dunk. Assisted by Robert Wright III.",
       "participants": [
         {
           "id": 165,
@@ -16954,9 +16965,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40893884,
-      "sourceId": "401819837115438728",
-      "playType": "DunkShot",
+      "id": 40893877,
+      "sourceId": "401819837115438356",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -16966,17 +16977,17 @@
       "opponent": "California Baptist",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 25,
-      "awayScore": 16,
-      "homeWinProbability": 0.847,
+      "homeScore": 21,
+      "awayScore": 13,
+      "homeWinProbability": 0.852,
       "period": 1,
       "clock": "11:53",
       "secondsRemaining": 713,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-12-04T02:30:32.000Z",
-      "playText": "AJ Dybantsa made Dunk. Assisted by Robert Wright III.",
+      "wallclock": "2025-12-04T02:29:03.000Z",
+      "playText": "AJ Dybantsa made Layup. Assisted by Robert Wright III.",
       "participants": [
         {
           "id": 165,
@@ -18838,8 +18849,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41435983,
-      "sourceId": "401812923115696922",
+      "id": 41435981,
+      "sourceId": "401812923115696889",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -18850,17 +18861,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 15,
-      "homeWinProbability": 0.673,
+      "homeWinProbability": 0.638,
       "period": 1,
       "clock": "9:14",
       "secondsRemaining": 554,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T00:02:05.000Z",
-      "playText": "AJ Dybantsa made Free Throw.",
+      "wallclock": "2025-12-10T00:01:51.000Z",
+      "playText": "AJ Dybantsa missed Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -18872,7 +18883,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18945,8 +18956,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41435981,
-      "sourceId": "401812923115696889",
+      "id": 41435983,
+      "sourceId": "401812923115696922",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -18957,17 +18968,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 15,
-      "homeWinProbability": 0.638,
+      "homeWinProbability": 0.673,
       "period": 1,
       "clock": "9:14",
       "secondsRemaining": 554,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T00:01:51.000Z",
-      "playText": "AJ Dybantsa missed Free Throw.",
+      "wallclock": "2025-12-10T00:02:05.000Z",
+      "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -18979,7 +18990,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19702,9 +19713,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41436133,
-      "sourceId": "401812923115703992",
-      "playType": "MadeFreeThrow",
+      "id": 41436127,
+      "sourceId": "401812923115703933",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -19714,18 +19725,22 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 44,
-      "homeWinProbability": 0.13,
+      "homeWinProbability": 0.097,
       "period": 2,
       "clock": "16:23",
       "secondsRemaining": 983,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-10T00:52:49.000Z",
-      "playText": "AJ Dybantsa made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-10T00:52:10.000Z",
+      "playText": "AJ Dybantsa made Layup. Assisted by Robert Wright III.",
       "participants": [
+        {
+          "id": 165,
+          "name": "Robert Wright III"
+        },
         {
           "id": 198382,
           "name": "AJ Dybantsa"
@@ -19737,15 +19752,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 165,
+          "name": "Robert Wright III"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 270
         }
       },
       "onFloor": [
@@ -19809,9 +19824,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41436127,
-      "sourceId": "401812923115703933",
-      "playType": "LayUpShot",
+      "id": 41436133,
+      "sourceId": "401812923115703992",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -19821,22 +19836,18 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 44,
-      "homeWinProbability": 0.097,
+      "homeWinProbability": 0.13,
       "period": 2,
       "clock": "16:23",
       "secondsRemaining": 983,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-10T00:52:10.000Z",
-      "playText": "AJ Dybantsa made Layup. Assisted by Robert Wright III.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-10T00:52:49.000Z",
+      "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
-        {
-          "id": 165,
-          "name": "Robert Wright III"
-        },
         {
           "id": 198382,
           "name": "AJ Dybantsa"
@@ -19848,15 +19859,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 165,
-          "name": "Robert Wright III"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -20134,8 +20145,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41436161,
-      "sourceId": "401812923115704626",
+      "id": 41436158,
+      "sourceId": "401812923115704561",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -20146,16 +20157,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 47,
-      "homeWinProbability": 0.134,
+      "homeWinProbability": 0.112,
       "period": 2,
       "clock": "14:22",
       "secondsRemaining": 862,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T01:00:49.000Z",
+      "wallclock": "2025-12-10T01:00:25.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -20241,8 +20252,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41436158,
-      "sourceId": "401812923115704561",
+      "id": 41436161,
+      "sourceId": "401812923115704626",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -20253,16 +20264,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 47,
-      "homeWinProbability": 0.112,
+      "homeWinProbability": 0.134,
       "period": 2,
       "clock": "14:22",
       "secondsRemaining": 862,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T01:00:25.000Z",
+      "wallclock": "2025-12-10T01:00:49.000Z",
       "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
@@ -20776,9 +20787,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41436217,
-      "sourceId": "401812923115708843",
-      "playType": "LayUpShot",
+      "id": 41436222,
+      "sourceId": "401812923115709384",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -20788,17 +20799,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 45,
       "awayScore": 50,
-      "homeWinProbability": 0.196,
+      "homeWinProbability": 0.273,
       "period": 2,
       "clock": "7:57",
       "secondsRemaining": 477,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-10T01:27:41.000Z",
-      "playText": "AJ Dybantsa made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-10T01:31:23.000Z",
+      "playText": "AJ Dybantsa made Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -20811,15 +20822,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 150.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -20883,9 +20894,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41436222,
-      "sourceId": "401812923115709384",
-      "playType": "MadeFreeThrow",
+      "id": 41436217,
+      "sourceId": "401812923115708843",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -20895,17 +20906,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 44,
       "awayScore": 50,
-      "homeWinProbability": 0.273,
+      "homeWinProbability": 0.196,
       "period": 2,
       "clock": "7:57",
       "secondsRemaining": 477,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-10T01:31:23.000Z",
-      "playText": "AJ Dybantsa made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-10T01:27:41.000Z",
+      "playText": "AJ Dybantsa made Layup.",
       "participants": [
         {
           "id": 198382,
@@ -20918,15 +20929,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 150.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -23915,8 +23926,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41703888,
-      "sourceId": "401819838115870243",
+      "id": 41703890,
+      "sourceId": "401819838115870257",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -23936,7 +23947,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T03:14:39.000Z",
+      "wallclock": "2025-12-14T03:15:00.000Z",
       "playText": "AJ Dybantsa missed Free Throw.",
       "participants": [
         {
@@ -24022,8 +24033,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41703890,
-      "sourceId": "401819838115870257",
+      "id": 41703888,
+      "sourceId": "401819838115870243",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -24043,7 +24054,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T03:15:00.000Z",
+      "wallclock": "2025-12-14T03:14:39.000Z",
       "playText": "AJ Dybantsa missed Free Throw.",
       "participants": [
         {
@@ -24565,9 +24576,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41703933,
-      "sourceId": "401819838115870909",
-      "playType": "MadeFreeThrow",
+      "id": 41703929,
+      "sourceId": "401819838115870889",
+      "playType": "TipShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -24583,11 +24594,11 @@
       "period": 2,
       "clock": "12:56",
       "secondsRemaining": 776,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-14T03:27:56.000Z",
-      "playText": "AJ Dybantsa missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-14T03:27:23.000Z",
+      "playText": "AJ Dybantsa made Two Point Tip Shot.",
       "participants": [
         {
           "id": 198382,
@@ -24599,16 +24610,16 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -24672,9 +24683,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41703929,
-      "sourceId": "401819838115870889",
-      "playType": "TipShot",
+      "id": 41703933,
+      "sourceId": "401819838115870909",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -24690,11 +24701,11 @@
       "period": 2,
       "clock": "12:56",
       "secondsRemaining": 776,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-14T03:27:23.000Z",
-      "playText": "AJ Dybantsa made Two Point Tip Shot.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-14T03:27:56.000Z",
+      "playText": "AJ Dybantsa missed Free Throw.",
       "participants": [
         {
           "id": 198382,
@@ -24706,16 +24717,16 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -28556,118 +28567,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42210896,
-      "sourceId": "401819840116134496",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 1,
-      "opponent": "Abilene Christian",
-      "opponentConference": "WAC",
-      "opponentSeed": null,
-      "homeScore": 13,
-      "awayScore": 17,
-      "homeWinProbability": 0.469,
-      "period": 1,
-      "clock": "10:01",
-      "secondsRemaining": 601,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-20T02:57:41.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6052,
-          "name": "Ma'Shy Hill",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 197824,
-          "name": "Isaac Dye",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 6053,
-          "name": "Cade Hornecker",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 13998,
-          "name": "Zy Wright",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 6056,
-          "name": "Rich Smith",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 165,
-          "name": "Robert Wright III",
-          "team": "BYU"
-        },
-        {
-          "id": 6209,
-          "name": "Cbo Newton",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 15031,
-          "name": "Khadim Mboup",
-          "team": "BYU"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        }
-      ]
-    },
-    {
-      "gameId": 214065,
-      "gameSourceId": "401819840",
-      "gameStartDate": "2025-12-20T02:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42210895,
       "sourceId": "401819840116134493",
       "playType": "MadeFreeThrow",
@@ -28780,8 +28679,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42210904,
-      "sourceId": "401819840116134518",
+      "id": 42210896,
+      "sourceId": "401819840116134496",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -28792,17 +28691,17 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 13,
       "awayScore": 17,
-      "homeWinProbability": 0.559,
+      "homeWinProbability": 0.469,
       "period": 1,
-      "clock": "9:34",
-      "secondsRemaining": 574,
+      "clock": "10:01",
+      "secondsRemaining": 601,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T03:00:31.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "wallclock": "2025-12-20T02:57:41.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -28827,6 +28726,11 @@
         }
       },
       "onFloor": [
+        {
+          "id": 6052,
+          "name": "Ma'Shy Hill",
+          "team": "Abilene Christian"
+        },
         {
           "id": 197824,
           "name": "Isaac Dye",
@@ -28931,6 +28835,113 @@
         "location": {
           "x": 864.8,
           "y": 235
+        }
+      },
+      "onFloor": [
+        {
+          "id": 197824,
+          "name": "Isaac Dye",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 6053,
+          "name": "Cade Hornecker",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 13998,
+          "name": "Zy Wright",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 6056,
+          "name": "Rich Smith",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 165,
+          "name": "Robert Wright III",
+          "team": "BYU"
+        },
+        {
+          "id": 6209,
+          "name": "Cbo Newton",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 15031,
+          "name": "Khadim Mboup",
+          "team": "BYU"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        }
+      ]
+    },
+    {
+      "gameId": 214065,
+      "gameSourceId": "401819840",
+      "gameStartDate": "2025-12-20T02:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42210904,
+      "sourceId": "401819840116134518",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 1,
+      "opponent": "Abilene Christian",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 16,
+      "awayScore": 17,
+      "homeWinProbability": 0.559,
+      "period": 1,
+      "clock": "9:34",
+      "secondsRemaining": 574,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-20T03:00:31.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -30944,113 +30955,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42211199,
-      "sourceId": "401819840116138034",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 1,
-      "opponent": "Abilene Christian",
-      "opponentConference": "WAC",
-      "opponentSeed": null,
-      "homeScore": 71,
-      "awayScore": 57,
-      "homeWinProbability": 0.992,
-      "period": 2,
-      "clock": "6:26",
-      "secondsRemaining": 386,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-20T04:19:46.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 6053,
-          "name": "Cade Hornecker",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 6050,
-          "name": "Bradyn Hubbard",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 6549,
-          "name": "Tyler Mrus",
-          "team": "BYU"
-        },
-        {
-          "id": 6048,
-          "name": "Joseph Venzant",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 6209,
-          "name": "Cbo Newton",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 6056,
-          "name": "Rich Smith",
-          "team": "Abilene Christian"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        },
-        {
-          "id": 15031,
-          "name": "Khadim Mboup",
-          "team": "BYU"
-        },
-        {
-          "id": 165,
-          "name": "Robert Wright III",
-          "team": "BYU"
-        }
-      ]
-    },
-    {
-      "gameId": 214065,
-      "gameSourceId": "401819840",
-      "gameStartDate": "2025-12-20T02:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42211198,
       "sourceId": "401819840116138029",
       "playType": "MadeFreeThrow",
@@ -31158,8 +31062,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42211287,
-      "sourceId": "401819840116138164",
+      "id": 42211199,
+      "sourceId": "401819840116138034",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -31170,16 +31074,16 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 74,
-      "awayScore": 59,
-      "homeWinProbability": 0.998,
+      "homeScore": 71,
+      "awayScore": 57,
+      "homeWinProbability": 0.992,
       "period": 2,
-      "clock": "4:46",
-      "secondsRemaining": 286,
+      "clock": "6:26",
+      "secondsRemaining": 386,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T04:23:23.000Z",
+      "wallclock": "2025-12-20T04:19:46.000Z",
       "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
@@ -31205,6 +31109,11 @@
         }
       },
       "onFloor": [
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
         {
           "id": 6053,
           "name": "Cade Hornecker",
@@ -31234,11 +31143,6 @@
           "id": 6056,
           "name": "Rich Smith",
           "team": "Abilene Christian"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
         },
         {
           "id": 198382,
@@ -31372,8 +31276,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42211297,
-      "sourceId": "401819840116138217",
+      "id": 42211287,
+      "sourceId": "401819840116138164",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -31384,17 +31288,124 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 74,
+      "awayScore": 59,
+      "homeWinProbability": 0.998,
+      "period": 2,
+      "clock": "4:46",
+      "secondsRemaining": 286,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-20T04:23:23.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6053,
+          "name": "Cade Hornecker",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 6050,
+          "name": "Bradyn Hubbard",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 6549,
+          "name": "Tyler Mrus",
+          "team": "BYU"
+        },
+        {
+          "id": 6048,
+          "name": "Joseph Venzant",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 6209,
+          "name": "Cbo Newton",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 6056,
+          "name": "Rich Smith",
+          "team": "Abilene Christian"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        },
+        {
+          "id": 15031,
+          "name": "Khadim Mboup",
+          "team": "BYU"
+        },
+        {
+          "id": 165,
+          "name": "Robert Wright III",
+          "team": "BYU"
+        }
+      ]
+    },
+    {
+      "gameId": 214065,
+      "gameSourceId": "401819840",
+      "gameStartDate": "2025-12-20T02:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42211294,
+      "sourceId": "401819840116138210",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 1,
+      "opponent": "Abilene Christian",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 75,
       "awayScore": 61,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "4:11",
       "secondsRemaining": 251,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T04:24:41.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2025-12-20T04:24:26.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -31479,8 +31490,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42211294,
-      "sourceId": "401819840116138210",
+      "id": 42211297,
+      "sourceId": "401819840116138217",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -31491,17 +31502,17 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 61,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "4:11",
       "secondsRemaining": 251,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T04:24:26.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2025-12-20T04:24:41.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -32232,8 +32243,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42542646,
-      "sourceId": "401819841116347276",
+      "id": 42542645,
+      "sourceId": "401819841116347268",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -32244,17 +32255,17 @@
       "opponent": "Eastern Washington",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 4,
-      "homeWinProbability": 0.731,
+      "homeWinProbability": 0.695,
       "period": 1,
       "clock": "16:52",
       "secondsRemaining": 1012,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:07:55.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2025-12-23T02:07:41.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -32339,8 +32350,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42542645,
-      "sourceId": "401819841116347268",
+      "id": 42542646,
+      "sourceId": "401819841116347276",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -32351,17 +32362,17 @@
       "opponent": "Eastern Washington",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 4,
-      "homeWinProbability": 0.695,
+      "homeWinProbability": 0.731,
       "period": 1,
       "clock": "16:52",
       "secondsRemaining": 1012,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:07:41.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2025-12-23T02:07:55.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -33203,8 +33214,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42542710,
-      "sourceId": "401819841116348495",
+      "id": 42542711,
+      "sourceId": "401819841116348504",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -33215,17 +33226,17 @@
       "opponent": "Eastern Washington",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 24,
       "awayScore": 20,
-      "homeWinProbability": 0.726,
+      "homeWinProbability": 0.743,
       "period": 1,
       "clock": "11:04",
       "secondsRemaining": 664,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:25:57.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2025-12-23T02:26:06.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -33310,8 +33321,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42542711,
-      "sourceId": "401819841116348504",
+      "id": 42542710,
+      "sourceId": "401819841116348495",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -33322,17 +33333,17 @@
       "opponent": "Eastern Washington",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 23,
       "awayScore": 20,
-      "homeWinProbability": 0.743,
+      "homeWinProbability": 0.726,
       "period": 1,
       "clock": "11:04",
       "secondsRemaining": 664,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:26:06.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2025-12-23T02:25:57.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -35819,8 +35830,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199024,
-      "sourceId": "401827596116701322",
+      "id": 43199023,
+      "sourceId": "401827596116701288",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -35832,16 +35843,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 9,
-      "awayScore": 7,
-      "homeWinProbability": 0.699,
+      "awayScore": 6,
+      "homeWinProbability": 0.725,
       "period": 1,
       "clock": "16:00",
       "secondsRemaining": 960,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:45:42.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-03T18:45:28.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -35926,8 +35937,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199023,
-      "sourceId": "401827596116701288",
+      "id": 43199024,
+      "sourceId": "401827596116701322",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -35939,16 +35950,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 9,
-      "awayScore": 6,
-      "homeWinProbability": 0.725,
+      "awayScore": 7,
+      "homeWinProbability": 0.699,
       "period": 1,
       "clock": "16:00",
       "secondsRemaining": 960,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:45:28.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-03T18:45:42.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -36358,9 +36369,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199068,
-      "sourceId": "401827596116701994",
-      "playType": "LayUpShot",
+      "id": 43199072,
+      "sourceId": "401827596116702018",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
       "team": "BYU",
@@ -36371,16 +36382,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 19,
-      "homeWinProbability": 0.528,
+      "awayScore": 20,
+      "homeWinProbability": 0.515,
       "period": 1,
       "clock": "13:01",
       "secondsRemaining": 781,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-03T18:51:17.000Z",
-      "playText": "AJ Dybantsa makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T18:51:42.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
         {
           "id": 198382,
@@ -36393,15 +36404,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36465,9 +36476,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199072,
-      "sourceId": "401827596116702018",
-      "playType": "MadeFreeThrow",
+      "id": 43199068,
+      "sourceId": "401827596116701994",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 18,
       "team": "BYU",
@@ -36478,16 +36489,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 20,
-      "homeWinProbability": 0.515,
+      "awayScore": 19,
+      "homeWinProbability": 0.528,
       "period": 1,
       "clock": "13:01",
       "secondsRemaining": 781,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T18:51:42.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-03T18:51:17.000Z",
+      "playText": "AJ Dybantsa makes driving layup",
       "participants": [
         {
           "id": 198382,
@@ -36500,15 +36511,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 265
         }
       },
       "onFloor": [
@@ -36683,8 +36694,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199132,
-      "sourceId": "401827596116703295",
+      "id": 43199128,
+      "sourceId": "401827596116703081",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -36704,8 +36715,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T19:03:00.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-01-03T19:02:34.000Z",
+      "playText": "AJ Dybantsa misses free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -36790,8 +36801,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199128,
-      "sourceId": "401827596116703081",
+      "id": 43199132,
+      "sourceId": "401827596116703295",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -36811,8 +36822,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T19:02:34.000Z",
-      "playText": "AJ Dybantsa misses free throw 1 of 2",
+      "wallclock": "2026-01-03T19:03:00.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -37761,8 +37772,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199425,
-      "sourceId": "401827596116736778",
+      "id": 43199422,
+      "sourceId": "401827596116736544",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -37779,11 +37790,11 @@
       "period": 2,
       "clock": "6:10",
       "secondsRemaining": 370,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:21:59.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-01-03T20:21:24.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -37795,7 +37806,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -37868,8 +37879,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43199422,
-      "sourceId": "401827596116736544",
+      "id": 43199425,
+      "sourceId": "401827596116736778",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -37886,11 +37897,11 @@
       "period": 2,
       "clock": "6:10",
       "secondsRemaining": 370,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:21:24.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-03T20:21:59.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -37902,7 +37913,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39061,8 +39072,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627471,
-      "sourceId": "401827606116951592",
+      "id": 43627469,
+      "sourceId": "401827606116951514",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -39073,17 +39084,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 14,
       "awayScore": 6,
-      "homeWinProbability": 0.869,
+      "homeWinProbability": 0.828,
       "period": 1,
       "clock": "15:36",
       "secondsRemaining": 936,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T02:12:15.000Z",
-      "playText": "AJ Dybantsa makes free throw 3 of 3",
+      "wallclock": "2026-01-08T02:11:54.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 3",
       "participants": [
         {
           "id": 198382,
@@ -39275,8 +39286,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627469,
-      "sourceId": "401827606116951514",
+      "id": 43627471,
+      "sourceId": "401827606116951592",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -39287,17 +39298,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 16,
       "awayScore": 6,
-      "homeWinProbability": 0.828,
+      "homeWinProbability": 0.869,
       "period": 1,
       "clock": "15:36",
       "secondsRemaining": 936,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T02:11:54.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 3",
+      "wallclock": "2026-01-08T02:12:15.000Z",
+      "playText": "AJ Dybantsa makes free throw 3 of 3",
       "participants": [
         {
           "id": 198382,
@@ -40131,9 +40142,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627699,
-      "sourceId": "401827606116958738",
-      "playType": "MadeFreeThrow",
+      "id": 43627697,
+      "sourceId": "401827606116958720",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -40143,17 +40154,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 30,
-      "homeWinProbability": 0.989,
+      "homeWinProbability": 0.981,
       "period": 2,
       "clock": "19:44",
       "secondsRemaining": 1184,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-08T03:05:14.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-08T03:04:49.000Z",
+      "playText": "AJ Dybantsa makes layup",
       "participants": [
         {
           "id": 198382,
@@ -40166,15 +40177,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 250
         }
       },
       "onFloor": [
@@ -40238,9 +40249,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627697,
-      "sourceId": "401827606116958720",
-      "playType": "LayUpShot",
+      "id": 43627699,
+      "sourceId": "401827606116958738",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -40250,17 +40261,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 30,
-      "homeWinProbability": 0.981,
+      "homeWinProbability": 0.989,
       "period": 2,
       "clock": "19:44",
       "secondsRemaining": 1184,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-08T03:04:49.000Z",
-      "playText": "AJ Dybantsa makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-08T03:05:14.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
         {
           "id": 198382,
@@ -40273,15 +40284,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -40781,8 +40792,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627773,
-      "sourceId": "401827606116959939",
+      "id": 43627770,
+      "sourceId": "401827606116959931",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -40793,7 +40804,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 40,
       "homeWinProbability": 0.997,
       "period": 2,
@@ -40802,8 +40813,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:20:48.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-08T03:20:39.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -40888,8 +40899,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627770,
-      "sourceId": "401827606116959931",
+      "id": 43627773,
+      "sourceId": "401827606116959939",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -40900,7 +40911,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 40,
       "homeWinProbability": 0.997,
       "period": 2,
@@ -40909,8 +40920,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:20:39.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-08T03:20:48.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -41974,113 +41985,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43983628,
-      "sourceId": "401827613117216829",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 331,
-      "opponent": "Utah",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 11,
-      "awayScore": 13,
-      "homeWinProbability": 0.56,
-      "period": 1,
-      "clock": "13:28",
-      "secondsRemaining": 808,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-11T03:25:33.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 202984,
-          "name": "Kendyl Sanders",
-          "team": "Utah"
-        },
-        {
-          "id": 222984,
-          "name": "Lucas Langarita",
-          "team": "Utah"
-        },
-        {
-          "id": 7677,
-          "name": "Mihailo Bošković",
-          "team": "BYU"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        },
-        {
-          "id": 17258,
-          "name": "Josh Hayes",
-          "team": "Utah"
-        },
-        {
-          "id": 216784,
-          "name": "Abdullah Ahmed",
-          "team": "BYU"
-        },
-        {
-          "id": 202971,
-          "name": "Obomate Abbey",
-          "team": "Utah"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 3062,
-          "name": "Terrence Brown",
-          "team": "Utah"
-        }
-      ]
-    },
-    {
-      "gameId": 214379,
-      "gameSourceId": "401827613",
-      "gameStartDate": "2026-01-11T03:10:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43983624,
       "sourceId": "401827613117216812",
       "playType": "MadeFreeThrow",
@@ -42188,8 +42092,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43983690,
-      "sourceId": "401827613117217083",
+      "id": 43983628,
+      "sourceId": "401827613117216829",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 331,
+      "opponent": "Utah",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 13,
+      "homeWinProbability": 0.56,
+      "period": 1,
+      "clock": "13:28",
+      "secondsRemaining": 808,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-11T03:25:33.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202984,
+          "name": "Kendyl Sanders",
+          "team": "Utah"
+        },
+        {
+          "id": 222984,
+          "name": "Lucas Langarita",
+          "team": "Utah"
+        },
+        {
+          "id": 7677,
+          "name": "Mihailo Bošković",
+          "team": "BYU"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        },
+        {
+          "id": 17258,
+          "name": "Josh Hayes",
+          "team": "Utah"
+        },
+        {
+          "id": 216784,
+          "name": "Abdullah Ahmed",
+          "team": "BYU"
+        },
+        {
+          "id": 202971,
+          "name": "Obomate Abbey",
+          "team": "Utah"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 3062,
+          "name": "Terrence Brown",
+          "team": "Utah"
+        }
+      ]
+    },
+    {
+      "gameId": 214379,
+      "gameSourceId": "401827613",
+      "gameStartDate": "2026-01-11T03:10:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43983691,
+      "sourceId": "401827613117217085",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -42201,16 +42212,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 24,
-      "awayScore": 21,
-      "homeWinProbability": 0.718,
+      "awayScore": 22,
+      "homeWinProbability": 0.657,
       "period": 1,
       "clock": "9:18",
       "secondsRemaining": 558,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:38:22.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-11T03:38:36.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -42295,8 +42306,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43983691,
-      "sourceId": "401827613117217085",
+      "id": 43983690,
+      "sourceId": "401827613117217083",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -42308,16 +42319,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 24,
-      "awayScore": 22,
-      "homeWinProbability": 0.657,
+      "awayScore": 21,
+      "homeWinProbability": 0.718,
       "period": 1,
       "clock": "9:18",
       "secondsRemaining": 558,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:38:36.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-11T03:38:22.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -42945,6 +42956,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 43983752,
+      "sourceId": "401827613117217433",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 331,
+      "opponent": "Utah",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 34,
+      "homeWinProbability": 0.364,
+      "period": 1,
+      "clock": "4:56",
+      "secondsRemaining": 296,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-11T03:48:46.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 15031,
+          "name": "Khadim Mboup",
+          "team": "BYU"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 4654,
+          "name": "Don McHenry",
+          "team": "Utah"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        },
+        {
+          "id": 4961,
+          "name": "James Okonkwo",
+          "team": "Utah"
+        },
+        {
+          "id": 3062,
+          "name": "Terrence Brown",
+          "team": "Utah"
+        },
+        {
+          "id": 202971,
+          "name": "Obomate Abbey",
+          "team": "Utah"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 202984,
+          "name": "Kendyl Sanders",
+          "team": "Utah"
+        },
+        {
+          "id": 165,
+          "name": "Robert Wright III",
+          "team": "BYU"
+        }
+      ]
+    },
+    {
+      "gameId": 214379,
+      "gameSourceId": "401827613",
+      "gameStartDate": "2026-01-11T03:10:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 43983749,
       "sourceId": "401827613117217430",
       "playType": "MadeFreeThrow",
@@ -43052,8 +43170,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43983752,
-      "sourceId": "401827613117217433",
+      "id": 43983806,
+      "sourceId": "401827613117217622",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -43064,17 +43182,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 29,
-      "awayScore": 34,
-      "homeWinProbability": 0.364,
+      "homeScore": 43,
+      "awayScore": 45,
+      "homeWinProbability": 0.36,
       "period": 1,
-      "clock": "4:56",
-      "secondsRemaining": 296,
-      "scoringPlay": true,
+      "clock": "0:00",
+      "secondsRemaining": 0,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:48:46.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-11T04:02:02.000Z",
+      "playText": "AJ Dybantsa misses free throw 3 of 3",
       "participants": [
         {
           "id": 198382,
@@ -43086,7 +43204,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -43100,9 +43218,19 @@
       },
       "onFloor": [
         {
-          "id": 15031,
-          "name": "Khadim Mboup",
+          "id": 3062,
+          "name": "Terrence Brown",
+          "team": "Utah"
+        },
+        {
+          "id": 7677,
+          "name": "Mihailo Bošković",
           "team": "BYU"
+        },
+        {
+          "id": 5491,
+          "name": "Seydou Traore",
+          "team": "Utah"
         },
         {
           "id": 748,
@@ -43110,28 +43238,18 @@
           "team": "BYU"
         },
         {
-          "id": 4654,
-          "name": "Don McHenry",
+          "id": 202971,
+          "name": "Obomate Abbey",
           "team": "Utah"
         },
         {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
+          "id": 202984,
+          "name": "Kendyl Sanders",
+          "team": "Utah"
         },
         {
           "id": 4961,
           "name": "James Okonkwo",
-          "team": "Utah"
-        },
-        {
-          "id": 3062,
-          "name": "Terrence Brown",
-          "team": "Utah"
-        },
-        {
-          "id": 202971,
-          "name": "Obomate Abbey",
           "team": "Utah"
         },
         {
@@ -43140,9 +43258,9 @@
           "team": "BYU"
         },
         {
-          "id": 202984,
-          "name": "Kendyl Sanders",
-          "team": "Utah"
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
         },
         {
           "id": 165,
@@ -43301,113 +43419,6 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3062,
-          "name": "Terrence Brown",
-          "team": "Utah"
-        },
-        {
-          "id": 7677,
-          "name": "Mihailo Bošković",
-          "team": "BYU"
-        },
-        {
-          "id": 5491,
-          "name": "Seydou Traore",
-          "team": "Utah"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
-        },
-        {
-          "id": 202971,
-          "name": "Obomate Abbey",
-          "team": "Utah"
-        },
-        {
-          "id": 202984,
-          "name": "Kendyl Sanders",
-          "team": "Utah"
-        },
-        {
-          "id": 4961,
-          "name": "James Okonkwo",
-          "team": "Utah"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        },
-        {
-          "id": 165,
-          "name": "Robert Wright III",
-          "team": "BYU"
-        }
-      ]
-    },
-    {
-      "gameId": 214379,
-      "gameSourceId": "401827613",
-      "gameStartDate": "2026-01-11T03:10:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 43983806,
-      "sourceId": "401827613117217622",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 331,
-      "opponent": "Utah",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 43,
-      "awayScore": 45,
-      "homeWinProbability": 0.36,
-      "period": 1,
-      "clock": "0:00",
-      "secondsRemaining": 0,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-11T04:02:02.000Z",
-      "playText": "AJ Dybantsa misses free throw 3 of 3",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45097,8 +45108,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359044,
-      "sourceId": "401827620117350522",
+      "id": 44359045,
+      "sourceId": "401827620117350524",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -45109,17 +45120,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 16,
-      "homeWinProbability": 0.575,
+      "homeWinProbability": 0.61,
       "period": 1,
       "clock": "10:19",
       "secondsRemaining": 619,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:35:54.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-15T04:36:10.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -45204,8 +45215,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359045,
-      "sourceId": "401827620117350524",
+      "id": 44359044,
+      "sourceId": "401827620117350522",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -45216,17 +45227,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 16,
-      "homeWinProbability": 0.61,
+      "homeWinProbability": 0.575,
       "period": 1,
       "clock": "10:19",
       "secondsRemaining": 619,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:36:10.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-15T04:35:54.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -46611,9 +46622,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359293,
-      "sourceId": "401827620117351976",
-      "playType": "MadeFreeThrow",
+      "id": 44359291,
+      "sourceId": "401827620117351966",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -46623,17 +46634,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 45,
       "awayScore": 46,
-      "homeWinProbability": 0.573,
+      "homeWinProbability": 0.495,
       "period": 2,
       "clock": "14:52",
       "secondsRemaining": 892,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T05:42:01.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T05:41:36.000Z",
+      "playText": "AJ Dybantsa makes 13-foot jumper",
       "participants": [
         {
           "id": 198382,
@@ -46646,15 +46657,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 188,
+          "y": 265
         }
       },
       "onFloor": [
@@ -46718,9 +46729,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359291,
-      "sourceId": "401827620117351966",
-      "playType": "JumpShot",
+      "id": 44359293,
+      "sourceId": "401827620117351976",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -46730,17 +46741,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 46,
       "awayScore": 46,
-      "homeWinProbability": 0.495,
+      "homeWinProbability": 0.573,
       "period": 2,
       "clock": "14:52",
       "secondsRemaining": 892,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T05:41:36.000Z",
-      "playText": "AJ Dybantsa makes 13-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T05:42:01.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
         {
           "id": 198382,
@@ -46753,15 +46764,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 188,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -50150,8 +50161,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45378079,
-      "sourceId": "401827642117924319",
+      "id": 45378081,
+      "sourceId": "401827642117924403",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -50168,11 +50179,11 @@
       "period": 1,
       "clock": "16:59",
       "secondsRemaining": 1019,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T22:39:42.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-24T22:40:00.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -50184,7 +50195,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50257,8 +50268,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45378081,
-      "sourceId": "401827642117924403",
+      "id": 45378079,
+      "sourceId": "401827642117924319",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -50275,11 +50286,11 @@
       "period": 1,
       "clock": "16:59",
       "secondsRemaining": 1019,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T22:40:00.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-01-24T22:39:42.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -50291,7 +50302,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -52734,8 +52745,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45379135,
-      "sourceId": "401827642117937568",
+      "id": 45379140,
+      "sourceId": "401827642117937591",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -52746,17 +52757,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 56,
-      "homeWinProbability": 0.876,
+      "homeWinProbability": 0.9,
       "period": 2,
       "clock": "10:35",
       "secondsRemaining": 635,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:06:26.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-25T00:06:42.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -52841,8 +52852,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45379140,
-      "sourceId": "401827642117937591",
+      "id": 45379135,
+      "sourceId": "401827642117937568",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -52853,17 +52864,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 56,
-      "homeWinProbability": 0.9,
+      "homeWinProbability": 0.876,
       "period": 2,
       "clock": "10:35",
       "secondsRemaining": 635,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:06:42.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-25T00:06:26.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -53931,113 +53942,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474855,
-      "sourceId": "401820816117978646",
-      "playType": "JumpShot",
-      "isHomeTeam": true,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 11,
-      "opponent": "Arizona",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 12,
-      "awayScore": 14,
-      "homeWinProbability": 0.567,
-      "period": 1,
-      "clock": "15:28",
-      "secondsRemaining": 928,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-27T02:18:42.000Z",
-      "playText": "AJ Dybantsa makes 12-foot pullup jump shot",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": true,
-        "range": "jumper",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 365
-        }
-      },
-      "onFloor": [
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
-          "team": "Arizona"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 7677,
-          "name": "Mihailo Bošković",
-          "team": "BYU"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 216784,
-          "name": "Abdullah Ahmed",
-          "team": "BYU"
-        }
-      ]
-    },
-    {
-      "gameId": 214659,
-      "gameSourceId": "401820816",
-      "gameStartDate": "2026-01-27T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45474857,
       "sourceId": "401820816117978652",
       "playType": "MadeFreeThrow",
@@ -54145,8 +54049,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474864,
-      "sourceId": "401820816117978676",
+      "id": 45474855,
+      "sourceId": "401820816117978646",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 12,
+      "awayScore": 14,
+      "homeWinProbability": 0.567,
+      "period": 1,
+      "clock": "15:28",
+      "secondsRemaining": 928,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-01-27T02:18:42.000Z",
+      "playText": "AJ Dybantsa makes 12-foot pullup jump shot",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 365
+        }
+      },
+      "onFloor": [
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 197982,
+          "name": "Brayden Burries",
+          "team": "Arizona"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 7677,
+          "name": "Mihailo Bošković",
+          "team": "BYU"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
+        },
+        {
+          "id": 216784,
+          "name": "Abdullah Ahmed",
+          "team": "BYU"
+        }
+      ]
+    },
+    {
+      "gameId": 214659,
+      "gameSourceId": "401820816",
+      "gameStartDate": "2026-01-27T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45474867,
+      "sourceId": "401820816117978681",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -54157,7 +54168,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 16,
       "homeWinProbability": 0.577,
       "period": 1,
@@ -54166,8 +54177,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T02:21:03.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-27T02:21:22.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -54252,8 +54263,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474867,
-      "sourceId": "401820816117978681",
+      "id": 45474864,
+      "sourceId": "401820816117978676",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -54264,7 +54275,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 16,
       "homeWinProbability": 0.577,
       "period": 1,
@@ -54273,8 +54284,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T02:21:22.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-27T02:21:03.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -54894,8 +54905,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474960,
-      "sourceId": "401820816117978870",
+      "id": 45474963,
+      "sourceId": "401820816117978890",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -54906,17 +54917,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 26,
       "awayScore": 24,
-      "homeWinProbability": 0.671,
+      "homeWinProbability": 0.685,
       "period": 1,
       "clock": "7:05",
       "secondsRemaining": 425,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T02:40:59.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-27T02:41:16.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -55001,8 +55012,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45474963,
-      "sourceId": "401820816117978890",
+      "id": 45474960,
+      "sourceId": "401820816117978870",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -55013,17 +55024,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 25,
       "awayScore": 24,
-      "homeWinProbability": 0.685,
+      "homeWinProbability": 0.671,
       "period": 1,
       "clock": "7:05",
       "secondsRemaining": 425,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T02:41:16.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-27T02:40:59.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -56289,8 +56300,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475123,
-      "sourceId": "401820816117979275",
+      "id": 45475129,
+      "sourceId": "401820816117979281",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -56310,8 +56321,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T03:39:38.000Z",
-      "playText": "AJ Dybantsa misses free throw 1 of 2",
+      "wallclock": "2026-01-27T03:39:57.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -56396,8 +56407,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475129,
-      "sourceId": "401820816117979281",
+      "id": 45475123,
+      "sourceId": "401820816117979275",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -56417,8 +56428,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T03:39:57.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-01-27T03:39:38.000Z",
+      "playText": "AJ Dybantsa misses free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -57367,8 +57378,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475200,
-      "sourceId": "401820816117979370",
+      "id": 45475197,
+      "sourceId": "401820816117979367",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -57379,17 +57390,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 71,
-      "homeWinProbability": 0.041,
+      "homeWinProbability": 0.026,
       "period": 2,
       "clock": "6:51",
       "secondsRemaining": 411,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T03:58:37.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-01-27T03:58:21.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -57474,8 +57485,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475197,
-      "sourceId": "401820816117979367",
+      "id": 45475200,
+      "sourceId": "401820816117979370",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -57486,17 +57497,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 71,
-      "homeWinProbability": 0.026,
+      "homeWinProbability": 0.041,
       "period": 2,
       "clock": "6:51",
       "secondsRemaining": 411,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T03:58:21.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-01-27T03:58:37.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -58017,8 +58028,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475262,
-      "sourceId": "401820816117979438",
+      "id": 45475265,
+      "sourceId": "401820816117979441",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -58035,11 +58046,11 @@
       "period": 2,
       "clock": "1:01",
       "secondsRemaining": 61,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T04:19:07.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 3",
+      "wallclock": "2026-01-27T04:19:35.000Z",
+      "playText": "AJ Dybantsa misses free throw 3 of 3",
       "participants": [
         {
           "id": 198382,
@@ -58051,7 +58062,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -58124,8 +58135,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475265,
-      "sourceId": "401820816117979441",
+      "id": 45475262,
+      "sourceId": "401820816117979438",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -58142,11 +58153,11 @@
       "period": 2,
       "clock": "1:01",
       "secondsRemaining": 61,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T04:19:35.000Z",
-      "playText": "AJ Dybantsa misses free throw 3 of 3",
+      "wallclock": "2026-01-27T04:19:07.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 3",
       "participants": [
         {
           "id": 198382,
@@ -58158,7 +58169,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -61457,8 +61468,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46283978,
-      "sourceId": "401827662118423907",
+      "id": 46283976,
+      "sourceId": "401827662118423875",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -61470,16 +61481,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 39,
-      "homeWinProbability": 0.639,
+      "awayScore": 38,
+      "homeWinProbability": 0.675,
       "period": 1,
       "clock": "1:44",
       "secondsRemaining": 104,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T02:55:09.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-05T02:54:50.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -61564,8 +61575,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46283976,
-      "sourceId": "401827662118423875",
+      "id": 46283978,
+      "sourceId": "401827662118423907",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -61577,16 +61588,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 38,
-      "homeWinProbability": 0.675,
+      "awayScore": 39,
+      "homeWinProbability": 0.639,
       "period": 1,
       "clock": "1:44",
       "secondsRemaining": 104,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T02:54:50.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-05T02:55:09.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -62321,8 +62332,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46284198,
-      "sourceId": "401827662118427114",
+      "id": 46284196,
+      "sourceId": "401827662118427063",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -62334,16 +62345,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 51,
-      "awayScore": 51,
-      "homeWinProbability": 0.588,
+      "awayScore": 50,
+      "homeWinProbability": 0.679,
       "period": 2,
       "clock": "15:00",
       "secondsRemaining": 900,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T03:27:50.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-05T03:27:32.000Z",
+      "playText": "AJ Dybantsa misses free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -62355,7 +62366,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -62428,8 +62439,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46284196,
-      "sourceId": "401827662118427063",
+      "id": 46284198,
+      "sourceId": "401827662118427114",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -62441,16 +62452,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 51,
-      "awayScore": 50,
-      "homeWinProbability": 0.679,
+      "awayScore": 51,
+      "homeWinProbability": 0.588,
       "period": 2,
       "clock": "15:00",
       "secondsRemaining": 900,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T03:27:32.000Z",
-      "playText": "AJ Dybantsa misses free throw 1 of 2",
+      "wallclock": "2026-02-05T03:27:50.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -62462,7 +62473,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -66643,8 +66654,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46566759,
-      "sourceId": "401827666118675918",
+      "id": 46566755,
+      "sourceId": "401827666118675754",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -66655,17 +66666,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 63,
-      "homeWinProbability": 0.218,
+      "homeWinProbability": 0.29,
       "period": 2,
       "clock": "5:07",
       "secondsRemaining": 307,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T05:37:03.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-08T05:37:27.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -66750,8 +66761,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46566755,
-      "sourceId": "401827666118675754",
+      "id": 46566759,
+      "sourceId": "401827666118675918",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -66762,17 +66773,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 63,
-      "homeWinProbability": 0.29,
+      "homeWinProbability": 0.218,
       "period": 2,
       "clock": "5:07",
       "secondsRemaining": 307,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T05:37:27.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-08T05:37:03.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -68593,8 +68604,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781806,
-      "sourceId": "401827674118723193",
+      "id": 46781809,
+      "sourceId": "401827674118723224",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -68606,7 +68617,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 38,
+      "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:52",
@@ -68614,8 +68625,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T00:50:32.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-11T00:50:51.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -68700,8 +68711,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781809,
-      "sourceId": "401827674118723224",
+      "id": 46781806,
+      "sourceId": "401827674118723193",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -68713,7 +68724,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 39,
+      "awayScore": 38,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:52",
@@ -68721,8 +68732,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T00:50:51.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-11T00:50:32.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -69893,9 +69904,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781936,
-      "sourceId": "401827674118728321",
-      "playType": "DunkShot",
+      "id": 46781938,
+      "sourceId": "401827674118728378",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
       "team": "BYU",
@@ -69906,16 +69917,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 72,
+      "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:34",
       "secondsRemaining": 514,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T01:40:24.000Z",
-      "playText": "AJ Dybantsa makes 2-foot dunk",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T01:40:59.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
         {
           "id": 198382,
@@ -69928,15 +69939,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -70000,9 +70011,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781938,
-      "sourceId": "401827674118728378",
-      "playType": "MadeFreeThrow",
+      "id": 46781936,
+      "sourceId": "401827674118728321",
+      "playType": "DunkShot",
       "isHomeTeam": false,
       "teamId": 18,
       "team": "BYU",
@@ -70013,16 +70024,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 73,
+      "awayScore": 72,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:34",
       "secondsRemaining": 514,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T01:40:59.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T01:40:24.000Z",
+      "playText": "AJ Dybantsa makes 2-foot dunk",
       "participants": [
         {
           "id": 198382,
@@ -70035,15 +70046,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 250
         }
       },
       "onFloor": [
@@ -70864,8 +70875,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47141820,
-      "sourceId": "401827680118954149",
+      "id": 47141819,
+      "sourceId": "401827680118954081",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -70876,17 +70887,17 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 4,
-      "homeWinProbability": 0.613,
+      "homeWinProbability": 0.572,
       "period": 1,
       "clock": "16:31",
       "secondsRemaining": 991,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:12:02.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-14T21:11:48.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -70971,8 +70982,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47141819,
-      "sourceId": "401827680118954081",
+      "id": 47141820,
+      "sourceId": "401827680118954149",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -70983,17 +70994,17 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 4,
-      "homeWinProbability": 0.572,
+      "homeWinProbability": 0.613,
       "period": 1,
       "clock": "16:31",
       "secondsRemaining": 991,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:11:48.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-14T21:12:02.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -73674,8 +73685,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47142833,
-      "sourceId": "401827680118982728",
+      "id": 47142831,
+      "sourceId": "401827680118982661",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -73686,17 +73697,17 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 61,
       "awayScore": 60,
-      "homeWinProbability": 0.626,
+      "homeWinProbability": 0.609,
       "period": 2,
       "clock": "9:23",
       "secondsRemaining": 563,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T22:41:52.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-14T22:41:37.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -73781,8 +73792,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47142831,
-      "sourceId": "401827680118982661",
+      "id": 47142833,
+      "sourceId": "401827680118982728",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -73793,17 +73804,17 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 62,
       "awayScore": 60,
-      "homeWinProbability": 0.609,
+      "homeWinProbability": 0.626,
       "period": 2,
       "clock": "9:23",
       "secondsRemaining": 563,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T22:41:37.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-14T22:41:52.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -74752,8 +74763,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47143971,
-      "sourceId": "401827680118995135",
+      "id": 47143969,
+      "sourceId": "401827680118995058",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -74770,11 +74781,11 @@
       "period": 3,
       "clock": "0:23",
       "secondsRemaining": 23,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T23:30:05.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-02-14T23:29:53.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -74786,7 +74797,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -74859,8 +74870,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47143969,
-      "sourceId": "401827680118995058",
+      "id": 47143971,
+      "sourceId": "401827680118995135",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -74877,11 +74888,11 @@
       "period": 3,
       "clock": "0:23",
       "secondsRemaining": 23,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T23:29:53.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-14T23:30:05.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -74893,7 +74904,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -77007,8 +77018,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47479124,
-      "sourceId": "401827689119151452",
+      "id": 47479125,
+      "sourceId": "401827689119151480",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -77020,16 +77031,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 34,
-      "homeWinProbability": 0.777,
+      "awayScore": 35,
+      "homeWinProbability": 0.74,
       "period": 1,
       "clock": "0:30",
       "secondsRemaining": 30,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:51:06.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-19T02:51:26.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -77114,8 +77125,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47479125,
-      "sourceId": "401827689119151480",
+      "id": 47479124,
+      "sourceId": "401827689119151452",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -77127,16 +77138,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 35,
-      "homeWinProbability": 0.74,
+      "awayScore": 34,
+      "homeWinProbability": 0.777,
       "period": 1,
       "clock": "0:30",
       "secondsRemaining": 30,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:51:26.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-19T02:51:06.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -77990,8 +78001,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47479196,
-      "sourceId": "401827689119154336",
+      "id": 47479195,
+      "sourceId": "401827689119154327",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -78008,11 +78019,11 @@
       "period": 2,
       "clock": "12:56",
       "secondsRemaining": 776,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T03:26:20.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-02-19T03:26:08.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -78024,7 +78035,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -78097,8 +78108,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47479195,
-      "sourceId": "401827689119154327",
+      "id": 47479196,
+      "sourceId": "401827689119154336",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -78115,11 +78126,11 @@
       "period": 2,
       "clock": "12:56",
       "secondsRemaining": 776,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T03:26:08.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-19T03:26:20.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -78131,7 +78142,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -80689,8 +80700,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47756728,
-      "sourceId": "401827693119393569",
+      "id": 47756734,
+      "sourceId": "401827693119393575",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -80701,17 +80712,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 25,
-      "homeWinProbability": 0.846,
+      "homeWinProbability": 0.888,
       "period": 1,
       "clock": "1:31",
       "secondsRemaining": 91,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T04:26:28.000Z",
-      "playText": "AJ Dybantsa misses free throw 1 of 2",
+      "wallclock": "2026-02-22T04:26:45.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -80723,7 +80734,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -80796,8 +80807,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47756734,
-      "sourceId": "401827693119393575",
+      "id": 47756728,
+      "sourceId": "401827693119393569",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -80808,17 +80819,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 25,
-      "homeWinProbability": 0.888,
+      "homeWinProbability": 0.846,
       "period": 1,
       "clock": "1:31",
       "secondsRemaining": 91,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T04:26:45.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-22T04:26:28.000Z",
+      "playText": "AJ Dybantsa misses free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -80830,7 +80841,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -82088,8 +82099,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47756940,
-      "sourceId": "401827693119395432",
+      "id": 47756939,
+      "sourceId": "401827693119395431",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -82100,17 +82111,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 55,
-      "homeWinProbability": 0.99,
+      "homeWinProbability": 0.988,
       "period": 2,
       "clock": "4:08",
       "secondsRemaining": 248,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T05:33:59.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-22T05:33:38.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -82195,8 +82206,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47756939,
-      "sourceId": "401827693119395431",
+      "id": 47756940,
+      "sourceId": "401827693119395432",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -82207,17 +82218,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 55,
-      "homeWinProbability": 0.988,
+      "homeWinProbability": 0.99,
       "period": 2,
       "clock": "4:08",
       "secondsRemaining": 248,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T05:33:38.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-02-22T05:33:59.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -85421,9 +85432,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48002133,
-      "sourceId": "401827701119460404",
-      "playType": "MadeFreeThrow",
+      "id": 48002128,
+      "sourceId": "401827701119460398",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -85433,7 +85444,7 @@
       "opponent": "UCF",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 95,
       "homeWinProbability": null,
       "period": 2,
@@ -85441,10 +85452,14 @@
       "secondsRemaining": 44,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-25T06:13:03.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-25T06:12:33.000Z",
+      "playText": "AJ Dybantsa makes driving layup (Robert Wright III assists)",
       "participants": [
+        {
+          "id": 165,
+          "name": "Robert Wright III"
+        },
         {
           "id": 198382,
           "name": "AJ Dybantsa"
@@ -85456,15 +85471,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 165,
+          "name": "Robert Wright III"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -85528,9 +85543,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48002128,
-      "sourceId": "401827701119460398",
-      "playType": "LayUpShot",
+      "id": 48002133,
+      "sourceId": "401827701119460404",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -85540,7 +85555,7 @@
       "opponent": "UCF",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 95,
       "homeWinProbability": null,
       "period": 2,
@@ -85548,14 +85563,10 @@
       "secondsRemaining": 44,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-25T06:12:33.000Z",
-      "playText": "AJ Dybantsa makes driving layup (Robert Wright III assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-25T06:13:03.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 165,
-          "name": "Robert Wright III"
-        },
         {
           "id": 198382,
           "name": "AJ Dybantsa"
@@ -85567,15 +85578,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 165,
-          "name": "Robert Wright III"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -86289,8 +86300,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48320269,
-      "sourceId": "401827714119721873",
+      "id": 48320275,
+      "sourceId": "401827714119722013",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -86302,16 +86313,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 21,
+      "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
       "clock": "7:07",
       "secondsRemaining": 427,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T23:07:47.000Z",
-      "playText": "AJ Dybantsa misses free throw 1 of 2",
+      "wallclock": "2026-02-28T23:08:13.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -86323,7 +86334,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -86396,8 +86407,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48320275,
-      "sourceId": "401827714119722013",
+      "id": 48320269,
+      "sourceId": "401827714119721873",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -86409,16 +86420,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 22,
+      "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
       "clock": "7:07",
       "secondsRemaining": 427,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T23:08:13.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-02-28T23:07:47.000Z",
+      "playText": "AJ Dybantsa misses free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -86430,7 +86441,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -87573,8 +87584,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48320474,
-      "sourceId": "401827714119737326",
+      "id": 48320475,
+      "sourceId": "401827714119737360",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -87586,7 +87597,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 48,
+      "awayScore": 49,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:10",
@@ -87594,8 +87605,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T00:16:15.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-01T00:16:30.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -87680,8 +87691,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48320475,
-      "sourceId": "401827714119737360",
+      "id": 48320474,
+      "sourceId": "401827714119737326",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -87693,7 +87704,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 49,
+      "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:10",
@@ -87701,8 +87712,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T00:16:30.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-01T00:16:15.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -89191,8 +89202,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660215,
-      "sourceId": "401827717119840099",
+      "id": 48660212,
+      "sourceId": "401827717119840031",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -89204,7 +89215,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 21,
+      "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
       "clock": "5:12",
@@ -89212,8 +89223,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T02:52:08.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-04T02:51:50.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -89298,8 +89309,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660212,
-      "sourceId": "401827717119840031",
+      "id": 48660215,
+      "sourceId": "401827717119840099",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -89311,7 +89322,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 20,
+      "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
       "clock": "5:12",
@@ -89319,8 +89330,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T02:51:50.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-04T02:52:08.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -90919,113 +90930,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660372,
-      "sourceId": "401827717119844277",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 51,
-      "opponent": "Cincinnati",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 61,
-      "awayScore": 44,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "12:52",
-      "secondsRemaining": 772,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-04T03:44:59.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198382,
-          "name": "AJ Dybantsa"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 478,
-          "name": "Day Day Thomas",
-          "team": "Cincinnati"
-        },
-        {
-          "id": 3921,
-          "name": "Baba Miller",
-          "team": "Cincinnati"
-        },
-        {
-          "id": 333,
-          "name": "Moustapha Thiam",
-          "team": "Cincinnati"
-        },
-        {
-          "id": 467,
-          "name": "Jizzle James",
-          "team": "Cincinnati"
-        },
-        {
-          "id": 7677,
-          "name": "Mihailo Bošković",
-          "team": "BYU"
-        },
-        {
-          "id": 198384,
-          "name": "Aleksej Kostić",
-          "team": "BYU"
-        },
-        {
-          "id": 166,
-          "name": "Jalen Celestine",
-          "team": "Cincinnati"
-        },
-        {
-          "id": 15083,
-          "name": "Dominique Diomande",
-          "team": "BYU"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        }
-      ]
-    },
-    {
-      "gameId": 215167,
-      "gameSourceId": "401827717",
-      "gameStartDate": "2026-03-04T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48660366,
       "sourceId": "401827717119844258",
       "playType": "MadeFreeThrow",
@@ -91133,8 +91037,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660406,
-      "sourceId": "401827717119844609",
+      "id": 48660372,
+      "sourceId": "401827717119844277",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -91146,7 +91050,114 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 45,
+      "awayScore": 44,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "12:52",
+      "secondsRemaining": 772,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-04T03:44:59.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198382,
+          "name": "AJ Dybantsa"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 478,
+          "name": "Day Day Thomas",
+          "team": "Cincinnati"
+        },
+        {
+          "id": 3921,
+          "name": "Baba Miller",
+          "team": "Cincinnati"
+        },
+        {
+          "id": 333,
+          "name": "Moustapha Thiam",
+          "team": "Cincinnati"
+        },
+        {
+          "id": 467,
+          "name": "Jizzle James",
+          "team": "Cincinnati"
+        },
+        {
+          "id": 7677,
+          "name": "Mihailo Bošković",
+          "team": "BYU"
+        },
+        {
+          "id": 198384,
+          "name": "Aleksej Kostić",
+          "team": "BYU"
+        },
+        {
+          "id": 166,
+          "name": "Jalen Celestine",
+          "team": "Cincinnati"
+        },
+        {
+          "id": 15083,
+          "name": "Dominique Diomande",
+          "team": "BYU"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        }
+      ]
+    },
+    {
+      "gameId": 215167,
+      "gameSourceId": "401827717",
+      "gameStartDate": "2026-03-04T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48660410,
+      "sourceId": "401827717119844639",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 51,
+      "opponent": "Cincinnati",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 61,
+      "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:59",
@@ -91154,8 +91165,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T03:50:32.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-04T03:50:44.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -91240,8 +91251,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660410,
-      "sourceId": "401827717119844639",
+      "id": 48660406,
+      "sourceId": "401827717119844609",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -91253,7 +91264,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 46,
+      "awayScore": 45,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:59",
@@ -91261,8 +91272,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T03:50:44.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-04T03:50:32.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -91668,8 +91679,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660577,
-      "sourceId": "401827717119845408",
+      "id": 48660576,
+      "sourceId": "401827717119845406",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -91681,7 +91692,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 77,
-      "awayScore": 55,
+      "awayScore": 54,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:47",
@@ -91689,8 +91700,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T04:07:56.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-04T04:07:40.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -91775,8 +91786,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48660576,
-      "sourceId": "401827717119845406",
+      "id": 48660577,
+      "sourceId": "401827717119845408",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -91788,7 +91799,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 77,
-      "awayScore": 54,
+      "awayScore": 55,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:47",
@@ -91796,8 +91807,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T04:07:40.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-04T04:07:56.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -94787,9 +94798,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49056503,
-      "sourceId": "401827724120086005",
-      "playType": "MadeFreeThrow",
+      "id": 49056498,
+      "sourceId": "401827724120085992",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -94799,7 +94810,7 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
@@ -94807,10 +94818,14 @@
       "secondsRemaining": 683,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-08T05:11:36.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-08T05:11:09.000Z",
+      "playText": "AJ Dybantsa makes 10-foot jumper (Kennard Davis Jr. assists)",
       "participants": [
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr."
+        },
         {
           "id": 198382,
           "name": "AJ Dybantsa"
@@ -94822,15 +94837,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 748,
+          "name": "Kennard Davis Jr."
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 141,
+          "y": 220
         }
       },
       "onFloor": [
@@ -94894,9 +94909,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49056498,
-      "sourceId": "401827724120085992",
-      "playType": "JumpShot",
+      "id": 49056503,
+      "sourceId": "401827724120086005",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -94906,7 +94921,7 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
@@ -94914,14 +94929,10 @@
       "secondsRemaining": 683,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-08T05:11:09.000Z",
-      "playText": "AJ Dybantsa makes 10-foot jumper (Kennard Davis Jr. assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-08T05:11:36.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr."
-        },
         {
           "id": 198382,
           "name": "AJ Dybantsa"
@@ -94933,15 +94944,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 748,
-          "name": "Kennard Davis Jr."
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 141,
-          "y": 220
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -97054,8 +97065,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188333,
-      "sourceId": "401851285120152041",
+      "id": 49188334,
+      "sourceId": "401851285120152054",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -97072,11 +97083,11 @@
       "period": 1,
       "clock": "5:08",
       "secondsRemaining": 308,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T23:38:42.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-10T23:39:05.000Z",
+      "playText": "AJ Dybantsa misses free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -97088,7 +97099,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -97161,8 +97172,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188334,
-      "sourceId": "401851285120152054",
+      "id": 49188333,
+      "sourceId": "401851285120152041",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -97179,11 +97190,11 @@
       "period": 1,
       "clock": "5:08",
       "secondsRemaining": 308,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T23:39:05.000Z",
-      "playText": "AJ Dybantsa misses free throw 2 of 2",
+      "wallclock": "2026-03-10T23:38:42.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -97195,7 +97206,7 @@
           "id": 198382,
           "name": "AJ Dybantsa"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -98461,9 +98472,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188470,
-      "sourceId": "401851285120153883",
-      "playType": "MadeFreeThrow",
+      "id": 49188465,
+      "sourceId": "401851285120153758",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -98473,7 +98484,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 75,
       "awayScore": 67,
       "homeWinProbability": null,
       "period": 2,
@@ -98481,9 +98492,9 @@
       "secondsRemaining": 711,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-11T00:32:40.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-11T00:28:26.000Z",
+      "playText": "AJ Dybantsa makes layup",
       "participants": [
         {
           "id": 198382,
@@ -98496,15 +98507,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 220
         }
       },
       "onFloor": [
@@ -98568,9 +98579,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188465,
-      "sourceId": "401851285120153758",
-      "playType": "LayUpShot",
+      "id": 49188470,
+      "sourceId": "401851285120153883",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -98580,7 +98591,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 67,
       "homeWinProbability": null,
       "period": 2,
@@ -98588,9 +98599,9 @@
       "secondsRemaining": 711,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-11T00:28:26.000Z",
-      "playText": "AJ Dybantsa makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-11T00:32:40.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 1",
       "participants": [
         {
           "id": 198382,
@@ -98603,15 +98614,15 @@
           "name": "AJ Dybantsa"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 220
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -99004,8 +99015,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188517,
-      "sourceId": "401851285120154331",
+      "id": 49188518,
+      "sourceId": "401851285120154332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -99016,7 +99027,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
@@ -99025,8 +99036,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T00:42:26.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-11T00:42:41.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -99111,8 +99122,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188518,
-      "sourceId": "401851285120154332",
+      "id": 49188517,
+      "sourceId": "401851285120154331",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -99123,7 +99134,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
@@ -99132,8 +99143,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T00:42:41.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-11T00:42:26.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -99761,8 +99772,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188572,
-      "sourceId": "401851285120154876",
+      "id": 49188571,
+      "sourceId": "401851285120154875",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -99773,7 +99784,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 100,
+      "homeScore": 99,
       "awayScore": 78,
       "homeWinProbability": null,
       "period": 2,
@@ -99782,8 +99793,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T00:57:43.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-11T00:57:30.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -99868,8 +99879,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49188571,
-      "sourceId": "401851285120154875",
+      "id": 49188572,
+      "sourceId": "401851285120154876",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -99880,7 +99891,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 99,
+      "homeScore": 100,
       "awayScore": 78,
       "homeWinProbability": null,
       "period": 2,
@@ -99889,8 +99900,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T00:57:30.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-11T00:57:43.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -104925,8 +104936,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49315882,
-      "sourceId": "401851300120214601",
+      "id": 49315883,
+      "sourceId": "401851300120214623",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -104938,7 +104949,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 27,
+      "awayScore": 28,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:28",
@@ -104946,8 +104957,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:41:00.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-12T23:41:19.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -105032,8 +105043,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49315883,
-      "sourceId": "401851300120214623",
+      "id": 49315882,
+      "sourceId": "401851300120214601",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -105045,7 +105056,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 28,
+      "awayScore": 27,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:28",
@@ -105053,8 +105064,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:41:19.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-12T23:41:00.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -107176,8 +107187,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541524,
-      "sourceId": "401856484120304704",
+      "id": 49541521,
+      "sourceId": "401856484120304669",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -107188,7 +107199,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 14,
+      "homeScore": 13,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -107197,8 +107208,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T23:46:17.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-19T23:45:59.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -107283,8 +107294,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541521,
-      "sourceId": "401856484120304669",
+      "id": 49541524,
+      "sourceId": "401856484120304704",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -107295,7 +107306,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 13,
+      "homeScore": 14,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -107304,8 +107315,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T23:45:59.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-19T23:46:17.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -107818,8 +107829,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541595,
-      "sourceId": "401856484120305632",
+      "id": 49541588,
+      "sourceId": "401856484120305598",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -107830,7 +107841,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 23,
+      "homeScore": 22,
       "awayScore": 28,
       "homeWinProbability": null,
       "period": 1,
@@ -107839,8 +107850,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:02:45.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-20T00:02:13.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -107925,8 +107936,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541588,
-      "sourceId": "401856484120305598",
+      "id": 49541595,
+      "sourceId": "401856484120305632",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -107937,7 +107948,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 22,
+      "homeScore": 23,
       "awayScore": 28,
       "homeWinProbability": null,
       "period": 1,
@@ -107946,8 +107957,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:02:13.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-20T00:02:45.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -108139,8 +108150,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541619,
-      "sourceId": "401856484120306206",
+      "id": 49541618,
+      "sourceId": "401856484120306177",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -108151,7 +108162,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
@@ -108160,8 +108171,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:09:29.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-20T00:09:16.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -108246,8 +108257,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541618,
-      "sourceId": "401856484120306177",
+      "id": 49541619,
+      "sourceId": "401856484120306206",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -108258,7 +108269,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
@@ -108267,8 +108278,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:09:16.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-20T00:09:29.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -109423,8 +109434,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541790,
-      "sourceId": "401856484120311327",
+      "id": 49541787,
+      "sourceId": "401856484120311315",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -109435,7 +109446,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 53,
+      "homeScore": 52,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -109444,8 +109455,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T01:12:06.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-20T01:11:51.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -109530,8 +109541,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541787,
-      "sourceId": "401856484120311315",
+      "id": 49541790,
+      "sourceId": "401856484120311327",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -109542,7 +109553,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 52,
+      "homeScore": 53,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -109551,8 +109562,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T01:11:51.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-20T01:12:06.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -109958,8 +109969,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541815,
-      "sourceId": "401856484120311704",
+      "id": 49541822,
+      "sourceId": "401856484120311748",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -109970,7 +109981,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -109979,8 +109990,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T01:16:41.000Z",
-      "playText": "AJ Dybantsa makes free throw 1 of 2",
+      "wallclock": "2026-03-20T01:17:07.000Z",
+      "playText": "AJ Dybantsa makes free throw 2 of 2",
       "participants": [
         {
           "id": 198382,
@@ -110065,8 +110076,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541822,
-      "sourceId": "401856484120311748",
+      "id": 49541815,
+      "sourceId": "401856484120311704",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -110077,7 +110088,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -110086,8 +110097,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T01:17:07.000Z",
-      "playText": "AJ Dybantsa makes free throw 2 of 2",
+      "wallclock": "2026-03-20T01:16:41.000Z",
+      "playText": "AJ Dybantsa makes free throw 1 of 2",
       "participants": [
         {
           "id": 198382,
@@ -110813,6 +110824,743 @@
           "team": "Texas"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-04",
+      "opponent": "Villanova",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 21,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 9,
+      "fgAttempted": 18,
+      "threeMade": 1,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-11-09",
+      "opponent": "Holy Cross",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 17,
+      "rebounds": 8,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 7,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2025-11-12",
+      "opponent": "Delaware",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 18,
+      "rebounds": 7,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2025-11-16",
+      "opponent": "UConn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 25,
+      "rebounds": 6,
+      "assists": 0,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 8,
+      "fgAttempted": 14,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 7,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2025-11-21",
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 18,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 11,
+      "ftAttempted": 12,
+      "starter": true
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "Miami",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 16,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 14,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-11-29",
+      "opponent": "Dayton",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 18,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 1,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "California Baptist",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 17,
+      "points": 22,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 10,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2025-12-09",
+      "opponent": "Clemson",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 28,
+      "rebounds": 9,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 9,
+      "fgAttempted": 17,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 9,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "UC Riverside",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 26,
+      "rebounds": 8,
+      "assists": 7,
+      "steals": 5,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 11,
+      "fgAttempted": 17,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 4,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2025-12-17",
+      "opponent": "Pacific",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 23,
+      "rebounds": 10,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Abilene Christian",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 35,
+      "rebounds": 6,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 0,
+      "fgMade": 9,
+      "fgAttempted": 12,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 17,
+      "ftAttempted": 20,
+      "starter": true
+    },
+    {
+      "date": "2025-12-23",
+      "opponent": "Eastern Washington",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 33,
+      "rebounds": 10,
+      "assists": 10,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 11,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 9,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Kansas State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 24,
+      "rebounds": 8,
+      "assists": 3,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 7,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 7,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-01-08",
+      "opponent": "Arizona State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 23,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 5,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 7,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2026-01-11",
+      "opponent": "Utah",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 20,
+      "rebounds": 6,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 8,
+      "ftAttempted": 12,
+      "starter": true
+    },
+    {
+      "date": "2026-01-15",
+      "opponent": "TCU",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 25,
+      "rebounds": 6,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 22,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 7,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Texas Tech",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 13,
+      "rebounds": 3,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 17,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-01-24",
+      "opponent": "Utah",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 43,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 15,
+      "fgAttempted": 24,
+      "threeMade": 4,
+      "threeAttempted": 5,
+      "ftMade": 9,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-01-27",
+      "opponent": "Arizona",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 24,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 24,
+      "threeMade": 1,
+      "threeAttempted": 8,
+      "ftMade": 11,
+      "ftAttempted": 16,
+      "starter": true
+    },
+    {
+      "date": "2026-01-31",
+      "opponent": "Kansas",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 17,
+      "rebounds": 1,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-05",
+      "opponent": "Oklahoma State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 36,
+      "rebounds": 7,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 3,
+      "fgMade": 13,
+      "fgAttempted": 20,
+      "threeMade": 5,
+      "threeAttempted": 8,
+      "ftMade": 5,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Houston",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 28,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 9,
+      "fgAttempted": 14,
+      "threeMade": 3,
+      "threeAttempted": 4,
+      "ftMade": 7,
+      "ftAttempted": 12,
+      "starter": true
+    },
+    {
+      "date": "2026-02-11",
+      "opponent": "Baylor",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 36,
+      "rebounds": 5,
+      "assists": 7,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 14,
+      "fgAttempted": 20,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 7,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Colorado",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 43,
+      "points": 20,
+      "rebounds": 13,
+      "assists": 8,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 7,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 20,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 7,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "Arizona",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 35,
+      "rebounds": 7,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 13,
+      "fgAttempted": 28,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 7,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-02-22",
+      "opponent": "Iowa State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 29,
+      "rebounds": 10,
+      "assists": 9,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 10,
+      "fgAttempted": 17,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 7,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-02-25",
+      "opponent": "UCF",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 29,
+      "rebounds": 8,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 11,
+      "fgAttempted": 22,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "West Virginia",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 20,
+      "rebounds": 7,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-04",
+      "opponent": "Cincinnati",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 23,
+      "rebounds": 6,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 21,
+      "threeMade": 1,
+      "threeAttempted": 8,
+      "ftMade": 8,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 21,
+      "rebounds": 6,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 25,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-10",
+      "opponent": "Kansas State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 40,
+      "rebounds": 9,
+      "assists": 6,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 0,
+      "fgMade": 15,
+      "fgAttempted": 21,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 8,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-03-11",
+      "opponent": "West Virginia",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 27,
+      "rebounds": 7,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 11,
+      "fgAttempted": 24,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-12",
+      "opponent": "Houston",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 26,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 18,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 9,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-03-19",
+      "opponent": "Texas",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 40,
+      "points": 35,
+      "rebounds": 10,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 1,
+      "fgMade": 11,
+      "fgAttempted": 25,
+      "threeMade": 1,
+      "threeAttempted": 7,
+      "ftMade": 12,
+      "ftAttempted": 12,
+      "starter": true
     }
   ]
 }

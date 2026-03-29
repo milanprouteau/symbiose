@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "13",
+    "position": "Forward",
+    "height": 84,
+    "weight": 225,
+    "hometown": {
+      "city": "Tallin",
+      "state": "EST"
+    },
+    "dateOfBirth": null
+  },
   "shots": [
     {
       "gameId": 209757,
@@ -2935,8 +2946,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38223383,
-      "sourceId": "401817263113920760",
+      "id": 38223384,
+      "sourceId": "401817263113920867",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -2947,16 +2958,16 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 85,
       "awayScore": 71,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "1:58",
       "secondsRemaining": 118,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T02:02:36.000Z",
+      "wallclock": "2025-11-08T02:02:56.000Z",
       "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
@@ -3042,8 +3053,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38223384,
-      "sourceId": "401817263113920867",
+      "id": 38223383,
+      "sourceId": "401817263113920760",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -3054,16 +3065,16 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 84,
       "awayScore": 71,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "1:58",
       "secondsRemaining": 118,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T02:02:56.000Z",
+      "wallclock": "2025-11-08T02:02:36.000Z",
       "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
@@ -4013,8 +4024,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697742,
-      "sourceId": "401817264114139881",
+      "id": 38697741,
+      "sourceId": "401817264114139844",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -4031,11 +4042,11 @@
       "period": 1,
       "clock": "3:32",
       "secondsRemaining": 212,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:54:47.000Z",
-      "playText": "Henri Veesaar missed Free Throw.",
+      "wallclock": "2025-11-12T00:54:34.000Z",
+      "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
           "id": 270,
@@ -4047,7 +4058,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4120,8 +4131,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697741,
-      "sourceId": "401817264114139844",
+      "id": 38697742,
+      "sourceId": "401817264114139881",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -4138,11 +4149,11 @@
       "period": 1,
       "clock": "3:32",
       "secondsRemaining": 212,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:54:34.000Z",
-      "playText": "Henri Veesaar made Free Throw.",
+      "wallclock": "2025-11-12T00:54:47.000Z",
+      "playText": "Henri Veesaar missed Free Throw.",
       "participants": [
         {
           "id": 270,
@@ -4154,7 +4165,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4334,8 +4345,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697768,
-      "sourceId": "401817264114140583",
+      "id": 38697771,
+      "sourceId": "401817264114140654",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -4352,11 +4363,11 @@
       "period": 1,
       "clock": "1:48",
       "secondsRemaining": 108,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:59:00.000Z",
-      "playText": "Henri Veesaar made Free Throw.",
+      "wallclock": "2025-11-12T00:59:18.000Z",
+      "playText": "Henri Veesaar missed Free Throw.",
       "participants": [
         {
           "id": 270,
@@ -4368,7 +4379,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4441,8 +4452,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697771,
-      "sourceId": "401817264114140654",
+      "id": 38697768,
+      "sourceId": "401817264114140583",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -4459,11 +4470,11 @@
       "period": 1,
       "clock": "1:48",
       "secondsRemaining": 108,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:59:18.000Z",
-      "playText": "Henri Veesaar missed Free Throw.",
+      "wallclock": "2025-11-12T00:59:00.000Z",
+      "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
           "id": 270,
@@ -4475,7 +4486,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4980,8 +4991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697954,
-      "sourceId": "401817264114163834",
+      "id": 38697953,
+      "sourceId": "401817264114163785",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -4992,7 +5003,7 @@
       "opponent": "Radford",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 54,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -5001,7 +5012,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:54:33.000Z",
+      "wallclock": "2025-11-12T01:54:17.000Z",
       "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
@@ -5087,8 +5098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697953,
-      "sourceId": "401817264114163785",
+      "id": 38697954,
+      "sourceId": "401817264114163834",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -5099,7 +5110,7 @@
       "opponent": "Radford",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 54,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -5108,7 +5119,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:54:17.000Z",
+      "wallclock": "2025-11-12T01:54:33.000Z",
       "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
@@ -9423,8 +9434,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124494,
-      "sourceId": "401817198114974961",
+      "id": 40124495,
+      "sourceId": "401817198114975052",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -9435,7 +9446,7 @@
       "opponent": "St. Bonaventure",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 43,
       "homeWinProbability": 0.96,
       "period": 2,
@@ -9444,7 +9455,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T00:32:27.000Z",
+      "wallclock": "2025-11-26T00:32:42.000Z",
       "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
@@ -9530,8 +9541,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124495,
-      "sourceId": "401817198114975052",
+      "id": 40124494,
+      "sourceId": "401817198114974961",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -9542,7 +9553,7 @@
       "opponent": "St. Bonaventure",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 43,
       "homeWinProbability": 0.96,
       "period": 2,
@@ -9551,7 +9562,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T00:32:42.000Z",
+      "wallclock": "2025-11-26T00:32:27.000Z",
       "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
@@ -10509,8 +10520,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124627,
-      "sourceId": "401817198114982939",
+      "id": 40124619,
+      "sourceId": "401817198114982834",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -10530,7 +10541,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T01:08:22.000Z",
+      "wallclock": "2025-11-26T01:07:56.000Z",
       "playText": "Henri Veesaar missed Free Throw.",
       "participants": [
         {
@@ -10616,8 +10627,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124619,
-      "sourceId": "401817198114982834",
+      "id": 40124627,
+      "sourceId": "401817198114982939",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -10637,7 +10648,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T01:07:56.000Z",
+      "wallclock": "2025-11-26T01:08:22.000Z",
       "playText": "Henri Veesaar missed Free Throw.",
       "participants": [
         {
@@ -13874,9 +13885,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333263,
-      "sourceId": "401817268115671223",
-      "playType": "LayUpShot",
+      "id": 41333271,
+      "sourceId": "401817268115671410",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -13886,17 +13897,17 @@
       "opponent": "Georgetown",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 30,
-      "homeWinProbability": 0.767,
+      "homeWinProbability": 0.779,
       "period": 1,
       "clock": "4:15",
       "secondsRemaining": 255,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-07T22:40:29.000Z",
-      "playText": "Henri Veesaar made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-07T22:41:32.000Z",
+      "playText": "Henri Veesaar made Free Throw.",
       "participants": [
         {
           "id": 270,
@@ -13909,15 +13920,15 @@
           "name": "Henri Veesaar"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -13981,9 +13992,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333271,
-      "sourceId": "401817268115671410",
-      "playType": "MadeFreeThrow",
+      "id": 41333263,
+      "sourceId": "401817268115671223",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -13993,17 +14004,17 @@
       "opponent": "Georgetown",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 30,
-      "homeWinProbability": 0.779,
+      "homeWinProbability": 0.767,
       "period": 1,
       "clock": "4:15",
       "secondsRemaining": 255,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-07T22:41:32.000Z",
-      "playText": "Henri Veesaar made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-07T22:40:29.000Z",
+      "playText": "Henri Veesaar made Layup.",
       "participants": [
         {
           "id": 270,
@@ -14016,15 +14027,15 @@
           "name": "Henri Veesaar"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 245
         }
       },
       "onFloor": [
@@ -14849,8 +14860,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333448,
-      "sourceId": "401817268115678227",
+      "id": 41333444,
+      "sourceId": "401817268115678181",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -14870,7 +14881,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T23:40:22.000Z",
+      "wallclock": "2025-12-07T23:39:50.000Z",
       "playText": "Henri Veesaar missed Free Throw.",
       "participants": [
         {
@@ -14956,8 +14967,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333444,
-      "sourceId": "401817268115678181",
+      "id": 41333448,
+      "sourceId": "401817268115678227",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -14977,7 +14988,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T23:39:50.000Z",
+      "wallclock": "2025-12-07T23:40:22.000Z",
       "playText": "Henri Veesaar missed Free Throw.",
       "participants": [
         {
@@ -18543,8 +18554,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921611,
-      "sourceId": "401817270115986566",
+      "id": 41921610,
+      "sourceId": "401817270115986550",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -18555,17 +18566,17 @@
       "opponent": "East Tennessee State",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 54,
       "awayScore": 39,
-      "homeWinProbability": 0.991,
+      "homeWinProbability": 0.985,
       "period": 2,
       "clock": "12:01",
       "secondsRemaining": 721,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:31:55.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2025-12-17T02:31:39.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -18650,8 +18661,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921610,
-      "sourceId": "401817270115986550",
+      "id": 41921611,
+      "sourceId": "401817270115986566",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -18662,17 +18673,17 @@
       "opponent": "East Tennessee State",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 55,
       "awayScore": 39,
-      "homeWinProbability": 0.985,
+      "homeWinProbability": 0.991,
       "period": 2,
       "clock": "12:01",
       "secondsRemaining": 721,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:31:39.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2025-12-17T02:31:55.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -20945,8 +20956,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42245476,
-      "sourceId": "401809307116206688",
+      "id": 42245474,
+      "sourceId": "401809307116206634",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 153,
@@ -20958,16 +20969,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 67,
-      "homeWinProbability": 0.254,
+      "awayScore": 66,
+      "homeWinProbability": 0.351,
       "period": 2,
       "clock": "2:37",
       "secondsRemaining": 157,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T22:21:40.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2025-12-20T22:21:22.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -20979,7 +20990,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -21052,8 +21063,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42245474,
-      "sourceId": "401809307116206634",
+      "id": 42245476,
+      "sourceId": "401809307116206688",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 153,
@@ -21065,16 +21076,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 66,
-      "homeWinProbability": 0.351,
+      "awayScore": 67,
+      "homeWinProbability": 0.254,
       "period": 2,
       "clock": "2:37",
       "secondsRemaining": 157,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T22:21:22.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 2",
+      "wallclock": "2025-12-20T22:21:40.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -21086,7 +21097,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25305,8 +25316,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43207421,
-      "sourceId": "401820648116758002",
+      "id": 43207418,
+      "sourceId": "401820648116757888",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -25318,7 +25329,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 92,
-      "awayScore": 79,
+      "awayScore": 78,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "1:52",
@@ -25326,8 +25337,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T21:16:22.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-01-03T21:16:03.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -25412,8 +25423,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43207418,
-      "sourceId": "401820648116757888",
+      "id": 43207421,
+      "sourceId": "401820648116758002",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -25425,7 +25436,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 92,
-      "awayScore": 78,
+      "awayScore": 79,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "1:52",
@@ -25433,8 +25444,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T21:16:03.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-01-03T21:16:22.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -25741,9 +25752,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923832,
-      "sourceId": "401820661117189839",
-      "playType": "MadeFreeThrow",
+      "id": 43923830,
+      "sourceId": "401820661117189720",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -25753,17 +25764,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 9,
       "awayScore": 4,
-      "homeWinProbability": 0.806,
+      "homeWinProbability": 0.79,
       "period": 1,
       "clock": "17:39",
       "secondsRemaining": 1059,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T23:14:26.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-10T23:13:53.000Z",
+      "playText": "Henri Veesaar makes layup",
       "participants": [
         {
           "id": 270,
@@ -25776,15 +25787,15 @@
           "name": "Henri Veesaar"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 230
         }
       },
       "onFloor": [
@@ -25848,9 +25859,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923830,
-      "sourceId": "401820661117189720",
-      "playType": "LayUpShot",
+      "id": 43923832,
+      "sourceId": "401820661117189839",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -25860,17 +25871,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 10,
       "awayScore": 4,
-      "homeWinProbability": 0.79,
+      "homeWinProbability": 0.806,
       "period": 1,
       "clock": "17:39",
       "secondsRemaining": 1059,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-10T23:13:53.000Z",
-      "playText": "Henri Veesaar makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-10T23:14:26.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 1",
       "participants": [
         {
           "id": 270,
@@ -25883,15 +25894,15 @@
           "name": "Henri Veesaar"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -26609,8 +26620,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923996,
-      "sourceId": "401820661117198622",
+      "id": 43923994,
+      "sourceId": "401820661117198588",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -26630,8 +26641,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T23:52:23.000Z",
-      "playText": "Henri Veesaar misses free throw 2 of 2",
+      "wallclock": "2026-01-10T23:52:06.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -26716,8 +26727,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923994,
-      "sourceId": "401820661117198588",
+      "id": 43923996,
+      "sourceId": "401820661117198622",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -26737,8 +26748,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T23:52:06.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 2",
+      "wallclock": "2026-01-10T23:52:23.000Z",
+      "playText": "Henri Veesaar misses free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -27596,8 +27607,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43924177,
-      "sourceId": "401820661117205379",
+      "id": 43924176,
+      "sourceId": "401820661117205378",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -27608,17 +27619,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 68,
-      "homeWinProbability": 0.924,
+      "homeWinProbability": 0.908,
       "period": 2,
       "clock": "6:12",
       "secondsRemaining": 372,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T00:53:51.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-01-11T00:53:36.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -27703,8 +27714,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43924176,
-      "sourceId": "401820661117205378",
+      "id": 43924177,
+      "sourceId": "401820661117205379",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -27715,17 +27726,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 68,
-      "homeWinProbability": 0.908,
+      "homeWinProbability": 0.924,
       "period": 2,
       "clock": "6:12",
       "secondsRemaining": 372,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T00:53:36.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-01-11T00:53:51.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -29423,8 +29434,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44308321,
-      "sourceId": "401820672117346259",
+      "id": 44308319,
+      "sourceId": "401820672117346250",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -29436,16 +29447,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 48,
-      "awayScore": 56,
-      "homeWinProbability": 0.24,
+      "awayScore": 55,
+      "homeWinProbability": 0.322,
       "period": 2,
       "clock": "17:06",
       "secondsRemaining": 1026,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:23:41.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-01-15T03:23:21.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -29457,7 +29468,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29530,8 +29541,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44308319,
-      "sourceId": "401820672117346250",
+      "id": 44308321,
+      "sourceId": "401820672117346259",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -29543,16 +29554,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 48,
-      "awayScore": 55,
-      "homeWinProbability": 0.322,
+      "awayScore": 56,
+      "homeWinProbability": 0.24,
       "period": 2,
       "clock": "17:06",
       "secondsRemaining": 1026,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:23:21.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 2",
+      "wallclock": "2026-01-15T03:23:41.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -29564,7 +29575,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30287,118 +30298,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44308504,
-      "sourceId": "401820672117349583",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 281,
-      "opponent": "Stanford",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 91,
-      "awayScore": 88,
-      "homeWinProbability": 0.98,
-      "period": 2,
-      "clock": "0:16",
-      "secondsRemaining": 16,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T04:14:51.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 270,
-          "name": "Henri Veesaar"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 270,
-          "name": "Henri Veesaar"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 17177,
-          "name": "AJ Rohosy",
-          "team": "Stanford"
-        },
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 6786,
-          "name": "Kyan Evans",
-          "team": "North Carolina"
-        },
-        {
-          "id": 918,
-          "name": "Ryan Agarwal",
-          "team": "Stanford"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
-          "id": 906,
-          "name": "Aidan Cammann",
-          "team": "Stanford"
-        },
-        {
-          "id": 19347,
-          "name": "Jeremy Dent-Smith",
-          "team": "Stanford"
-        },
-        {
-          "id": 909,
-          "name": "Benny Gealer",
-          "team": "Stanford"
-        },
-        {
-          "id": 83,
-          "name": "Jarin Stevenson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 214459,
-      "gameSourceId": "401820672",
-      "gameStartDate": "2026-01-15T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 44308496,
       "sourceId": "401820672117349562",
       "playType": "MadeFreeThrow",
@@ -30504,6 +30403,118 @@
       ]
     },
     {
+      "gameId": 214459,
+      "gameSourceId": "401820672",
+      "gameStartDate": "2026-01-15T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 44308504,
+      "sourceId": "401820672117349583",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 281,
+      "opponent": "Stanford",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 91,
+      "awayScore": 88,
+      "homeWinProbability": 0.98,
+      "period": 2,
+      "clock": "0:16",
+      "secondsRemaining": 16,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T04:14:51.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 270,
+          "name": "Henri Veesaar"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 270,
+          "name": "Henri Veesaar"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 17177,
+          "name": "AJ Rohosy",
+          "team": "Stanford"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 6786,
+          "name": "Kyan Evans",
+          "team": "North Carolina"
+        },
+        {
+          "id": 918,
+          "name": "Ryan Agarwal",
+          "team": "Stanford"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
+        },
+        {
+          "id": 906,
+          "name": "Aidan Cammann",
+          "team": "Stanford"
+        },
+        {
+          "id": 19347,
+          "name": "Jeremy Dent-Smith",
+          "team": "Stanford"
+        },
+        {
+          "id": 909,
+          "name": "Benny Gealer",
+          "team": "Stanford"
+        },
+        {
+          "id": 83,
+          "name": "Jarin Stevenson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        }
+      ]
+    },
+    {
       "gameId": 214530,
       "gameSourceId": "401820675",
       "gameStartDate": "2026-01-17T21:00:00.000Z",
@@ -30511,9 +30522,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44541196,
-      "sourceId": "401820675117510069",
-      "playType": "LayUpShot",
+      "id": 44541200,
+      "sourceId": "401820675117510308",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
       "team": "North Carolina",
@@ -30529,16 +30540,12 @@
       "period": 1,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T21:09:49.000Z",
-      "playText": "Henri Veesaar makes layup (Seth Trimble assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T21:10:27.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 238,
-          "name": "Seth Trimble"
-        },
         {
           "id": 270,
           "name": "Henri Veesaar"
@@ -30549,16 +30556,16 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 238,
-          "name": "Seth Trimble"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 270
         }
       },
       "onFloor": [
@@ -30622,9 +30629,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44541200,
-      "sourceId": "401820675117510308",
-      "playType": "MadeFreeThrow",
+      "id": 44541196,
+      "sourceId": "401820675117510069",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 200,
       "team": "North Carolina",
@@ -30640,12 +30647,16 @@
       "period": 1,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T21:10:27.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T21:09:49.000Z",
+      "playText": "Henri Veesaar makes layup (Seth Trimble assists)",
       "participants": [
+        {
+          "id": 238,
+          "name": "Seth Trimble"
+        },
         {
           "id": 270,
           "name": "Henri Veesaar"
@@ -30656,16 +30667,16 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 238,
+          "name": "Seth Trimble"
         },
         "location": {
-          "x": 56.4,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -31050,8 +31061,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44541317,
-      "sourceId": "401820675117519067",
+      "id": 44541316,
+      "sourceId": "401820675117518956",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -31063,16 +31074,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 26,
-      "homeWinProbability": 0.775,
+      "awayScore": 25,
+      "homeWinProbability": 0.799,
       "period": 1,
       "clock": "6:51",
       "secondsRemaining": 411,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:38:07.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-01-17T21:37:52.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -31157,8 +31168,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44541316,
-      "sourceId": "401820675117518956",
+      "id": 44541317,
+      "sourceId": "401820675117519067",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -31170,16 +31181,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 25,
-      "homeWinProbability": 0.799,
+      "awayScore": 26,
+      "homeWinProbability": 0.775,
       "period": 1,
       "clock": "6:51",
       "secondsRemaining": 411,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:37:52.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-01-17T21:38:07.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -31478,8 +31489,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44541411,
-      "sourceId": "401820675117529209",
+      "id": 44541408,
+      "sourceId": "401820675117529104",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -31496,11 +31507,11 @@
       "period": 2,
       "clock": "16:57",
       "secondsRemaining": 1017,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T22:16:02.000Z",
-      "playText": "Henri Veesaar misses free throw 2 of 2",
+      "wallclock": "2026-01-17T22:15:39.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -31512,7 +31523,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31585,8 +31596,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44541408,
-      "sourceId": "401820675117529104",
+      "id": 44541411,
+      "sourceId": "401820675117529209",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -31603,11 +31614,11 @@
       "period": 2,
       "clock": "16:57",
       "secondsRemaining": 1017,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T22:15:39.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-01-17T22:16:02.000Z",
+      "playText": "Henri Veesaar misses free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -31619,7 +31630,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33749,113 +33760,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973415,
-      "sourceId": "401820687117689706",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 213,
-      "opponent": "Notre Dame",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 53,
-      "awayScore": 35,
-      "homeWinProbability": 0.982,
-      "period": 2,
-      "clock": "16:37",
-      "secondsRemaining": 997,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T01:16:11.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 270,
-          "name": "Henri Veesaar"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 270,
-          "name": "Henri Veesaar"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 201200,
-          "name": "Jalen Haralson",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 201202,
-          "name": "Brady Koehler",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 3326,
-          "name": "Jonathan Powell",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200978,
-          "name": "Derek Dixon",
-          "team": "North Carolina"
-        },
-        {
-          "id": 8158,
-          "name": "Braeden Shrewsberry",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 8163,
-          "name": "Cole Certa",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 5034,
-          "name": "Carson Towt",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 214571,
-      "gameSourceId": "401820687",
-      "gameStartDate": "2026-01-22T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 44973409,
       "sourceId": "401820687117689557",
       "playType": "MadeFreeThrow",
@@ -33963,9 +33867,116 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973466,
-      "sourceId": "401820687117692557",
-      "playType": "LayUpShot",
+      "id": 44973415,
+      "sourceId": "401820687117689706",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 213,
+      "opponent": "Notre Dame",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 35,
+      "homeWinProbability": 0.982,
+      "period": 2,
+      "clock": "16:37",
+      "secondsRemaining": 997,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T01:16:11.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 270,
+          "name": "Henri Veesaar"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 270,
+          "name": "Henri Veesaar"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 201200,
+          "name": "Jalen Haralson",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 201202,
+          "name": "Brady Koehler",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 3326,
+          "name": "Jonathan Powell",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200978,
+          "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
+          "id": 8158,
+          "name": "Braeden Shrewsberry",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 8163,
+          "name": "Cole Certa",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 5034,
+          "name": "Carson Towt",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        }
+      ]
+    },
+    {
+      "gameId": 214571,
+      "gameSourceId": "401820687",
+      "gameStartDate": "2026-01-22T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 44973474,
+      "sourceId": "401820687117692712",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -33981,11 +33992,11 @@
       "period": 2,
       "clock": "12:01",
       "secondsRemaining": 721,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-22T01:26:42.000Z",
-      "playText": "Henri Veesaar makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T01:27:10.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 1",
       "participants": [
         {
           "id": 270,
@@ -33997,16 +34008,16 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -34070,9 +34081,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973474,
-      "sourceId": "401820687117692712",
-      "playType": "MadeFreeThrow",
+      "id": 44973466,
+      "sourceId": "401820687117692557",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -34088,11 +34099,11 @@
       "period": 2,
       "clock": "12:01",
       "secondsRemaining": 721,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T01:27:10.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-22T01:26:42.000Z",
+      "playText": "Henri Veesaar makes layup",
       "participants": [
         {
           "id": 270,
@@ -34104,16 +34115,16 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 255
         }
       },
       "onFloor": [
@@ -36781,9 +36792,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45818029,
-      "sourceId": "401820709118200884",
-      "playType": "MadeFreeThrow",
+      "id": 45818025,
+      "sourceId": "401820709118200585",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 200,
       "team": "North Carolina",
@@ -36794,17 +36805,21 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 59,
-      "homeWinProbability": 0.062,
+      "awayScore": 58,
+      "homeWinProbability": 0.096,
       "period": 2,
       "clock": "16:55",
       "secondsRemaining": 1015,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T20:14:30.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T20:13:54.000Z",
+      "playText": "Henri Veesaar makes layup (Seth Trimble assists)",
       "participants": [
+        {
+          "id": 238,
+          "name": "Seth Trimble"
+        },
         {
           "id": 270,
           "name": "Henri Veesaar"
@@ -36816,15 +36831,15 @@
           "name": "Henri Veesaar"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 238,
+          "name": "Seth Trimble"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 245
         }
       },
       "onFloor": [
@@ -36888,9 +36903,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45818025,
-      "sourceId": "401820709118200585",
-      "playType": "LayUpShot",
+      "id": 45818029,
+      "sourceId": "401820709118200884",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
       "team": "North Carolina",
@@ -36901,21 +36916,17 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 58,
-      "homeWinProbability": 0.096,
+      "awayScore": 59,
+      "homeWinProbability": 0.062,
       "period": 2,
       "clock": "16:55",
       "secondsRemaining": 1015,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T20:13:54.000Z",
-      "playText": "Henri Veesaar makes layup (Seth Trimble assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T20:14:30.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 238,
-          "name": "Seth Trimble"
-        },
         {
           "id": 270,
           "name": "Henri Veesaar"
@@ -36927,15 +36938,15 @@
           "name": "Henri Veesaar"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 238,
-          "name": "Seth Trimble"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -39282,8 +39293,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46121854,
-      "sourceId": "401820714118341093",
+      "id": 46121856,
+      "sourceId": "401820714118341096",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -39294,17 +39305,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 54,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "5:09",
       "secondsRemaining": 309,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-03T01:55:50.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 2",
+      "wallclock": "2026-02-03T01:56:06.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -39316,7 +39327,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39389,8 +39400,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46121856,
-      "sourceId": "401820714118341096",
+      "id": 46121854,
+      "sourceId": "401820714118341093",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -39401,17 +39412,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 54,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "5:09",
       "secondsRemaining": 309,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-03T01:56:06.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-02-03T01:55:50.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -39423,7 +39434,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47634,8 +47645,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48371472,
-      "sourceId": "401820774119755657",
+      "id": 48371473,
+      "sourceId": "401820774119755687",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -47652,11 +47663,11 @@
       "period": 2,
       "clock": "0:21",
       "secondsRemaining": 21,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:48:31.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-03-01T03:48:46.000Z",
+      "playText": "Henri Veesaar misses free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -47668,7 +47679,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47741,8 +47752,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48371473,
-      "sourceId": "401820774119755687",
+      "id": 48371472,
+      "sourceId": "401820774119755657",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -47759,11 +47770,11 @@
       "period": 2,
       "clock": "0:21",
       "secondsRemaining": 21,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:48:46.000Z",
-      "playText": "Henri Veesaar misses free throw 2 of 2",
+      "wallclock": "2026-03-01T03:48:31.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -47775,7 +47786,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50904,8 +50915,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49330787,
-      "sourceId": "401851180120223165",
+      "id": 49330788,
+      "sourceId": "401851180120223170",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -50922,11 +50933,11 @@
       "period": 1,
       "clock": "7:42",
       "secondsRemaining": 462,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T02:14:12.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-03-13T02:14:25.000Z",
+      "playText": "Henri Veesaar misses free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -50938,7 +50949,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51011,8 +51022,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49330788,
-      "sourceId": "401851180120223170",
+      "id": 49330787,
+      "sourceId": "401851180120223165",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -51029,11 +51040,11 @@
       "period": 1,
       "clock": "7:42",
       "secondsRemaining": 462,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T02:14:25.000Z",
-      "playText": "Henri Veesaar misses free throw 2 of 2",
+      "wallclock": "2026-03-13T02:14:12.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -51045,7 +51056,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51554,8 +51565,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49330910,
-      "sourceId": "401851180120225531",
+      "id": 49330909,
+      "sourceId": "401851180120225523",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -51566,7 +51577,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
@@ -51575,8 +51586,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T03:05:25.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-03-13T03:05:11.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -51661,8 +51672,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49330909,
-      "sourceId": "401851180120225523",
+      "id": 49330910,
+      "sourceId": "401851180120225531",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -51673,7 +51684,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
@@ -51682,8 +51693,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T03:05:11.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-03-13T03:05:25.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -51875,9 +51886,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49330942,
-      "sourceId": "401851180120225753",
-      "playType": "MadeFreeThrow",
+      "id": 49330943,
+      "sourceId": "401851180120225759",
+      "playType": "TipShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -51893,11 +51904,11 @@
       "period": 2,
       "clock": "12:02",
       "secondsRemaining": 722,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-13T03:11:08.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-13T03:10:40.000Z",
+      "playText": "Henri Veesaar makes 0-foot tip in layup",
       "participants": [
         {
           "id": 270,
@@ -51909,16 +51920,16 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -51982,9 +51993,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49330943,
-      "sourceId": "401851180120225759",
-      "playType": "TipShot",
+      "id": 49330942,
+      "sourceId": "401851180120225753",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -52000,11 +52011,11 @@
       "period": 2,
       "clock": "12:02",
       "secondsRemaining": 722,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-13T03:10:40.000Z",
-      "playText": "Henri Veesaar makes 0-foot tip in layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-13T03:11:08.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 1",
       "participants": [
         {
           "id": 270,
@@ -52016,16 +52027,16 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -52850,8 +52861,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49331037,
-      "sourceId": "401851180120226896",
+      "id": 49331036,
+      "sourceId": "401851180120226893",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -52862,7 +52873,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 61,
       "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
@@ -52871,8 +52882,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T03:39:19.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-03-13T03:39:06.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -52957,8 +52968,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49331036,
-      "sourceId": "401851180120226893",
+      "id": 49331037,
+      "sourceId": "401851180120226896",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -52969,7 +52980,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 62,
       "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
@@ -52978,8 +52989,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T03:39:06.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-03-13T03:39:19.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -53286,113 +53297,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541008,
-      "sourceId": "401856490120300505",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": 6,
-      "opponentId": 333,
-      "opponent": "VCU",
-      "opponentConference": "A-10",
-      "opponentSeed": 11,
-      "homeScore": 1,
-      "awayScore": 0,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "19:35",
-      "secondsRemaining": 1175,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-19T22:51:58.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 270,
-          "name": "Henri Veesaar"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 270,
-          "name": "Henri Veesaar"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
-          "id": 7247,
-          "name": "Jadrian Tracey",
-          "team": "VCU"
-        },
-        {
-          "id": 203149,
-          "name": "Nyk Lewis",
-          "team": "VCU"
-        },
-        {
-          "id": 728,
-          "name": "Lazar Djokovic",
-          "team": "VCU"
-        },
-        {
-          "id": 83,
-          "name": "Jarin Stevenson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 4704,
-          "name": "Barry Evans",
-          "team": "VCU"
-        },
-        {
-          "id": 3485,
-          "name": "Brandon Jennings",
-          "team": "VCU"
-        },
-        {
-          "id": 200978,
-          "name": "Derek Dixon",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 372524,
-      "gameSourceId": "401856490",
-      "gameStartDate": "2026-03-19T22:50:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49541009,
       "sourceId": "401856490120300506",
       "playType": "MadeFreeThrow",
@@ -53441,6 +53345,41 @@
       },
       "onFloor": [
         {
+          "id": 7247,
+          "name": "Jadrian Tracey",
+          "team": "VCU"
+        },
+        {
+          "id": 203149,
+          "name": "Nyk Lewis",
+          "team": "VCU"
+        },
+        {
+          "id": 728,
+          "name": "Lazar Djokovic",
+          "team": "VCU"
+        },
+        {
+          "id": 83,
+          "name": "Jarin Stevenson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 4704,
+          "name": "Barry Evans",
+          "team": "VCU"
+        },
+        {
+          "id": 3485,
+          "name": "Brandon Jennings",
+          "team": "VCU"
+        },
+        {
+          "id": 200978,
+          "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
           "id": 270,
           "name": "Henri Veesaar",
           "team": "North Carolina"
@@ -53454,7 +53393,64 @@
           "id": 238,
           "name": "Seth Trimble",
           "team": "North Carolina"
+        }
+      ]
+    },
+    {
+      "gameId": 372524,
+      "gameSourceId": "401856490",
+      "gameStartDate": "2026-03-19T22:50:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49541008,
+      "sourceId": "401856490120300505",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": 6,
+      "opponentId": 333,
+      "opponent": "VCU",
+      "opponentConference": "A-10",
+      "opponentSeed": 11,
+      "homeScore": 1,
+      "awayScore": 0,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "19:35",
+      "secondsRemaining": 1175,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-19T22:51:58.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 270,
+          "name": "Henri Veesaar"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 270,
+          "name": "Henri Veesaar"
         },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
         {
           "id": 7247,
           "name": "Jadrian Tracey",
@@ -53488,6 +53484,21 @@
         {
           "id": 200978,
           "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
           "team": "North Carolina"
         }
       ]
@@ -53548,21 +53559,6 @@
       },
       "onFloor": [
         {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
           "id": 7247,
           "name": "Jadrian Tracey",
           "team": "VCU"
@@ -53595,6 +53591,21 @@
         {
           "id": 200978,
           "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
           "team": "North Carolina"
         }
       ]
@@ -53655,21 +53666,6 @@
       },
       "onFloor": [
         {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
           "id": 7247,
           "name": "Jadrian Tracey",
           "team": "VCU"
@@ -53702,6 +53698,21 @@
         {
           "id": 200978,
           "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
           "team": "North Carolina"
         }
       ]
@@ -53762,21 +53773,6 @@
       },
       "onFloor": [
         {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
           "id": 728,
           "name": "Lazar Djokovic",
           "team": "VCU"
@@ -53810,6 +53806,21 @@
           "id": 3488,
           "name": "Terrence Hill Jr.",
           "team": "VCU"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
         }
       ]
     },
@@ -53873,21 +53884,6 @@
       },
       "onFloor": [
         {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
           "id": 728,
           "name": "Lazar Djokovic",
           "team": "VCU"
@@ -53921,6 +53917,21 @@
           "id": 3488,
           "name": "Terrence Hill Jr.",
           "team": "VCU"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
         }
       ]
     },
@@ -53980,21 +53991,6 @@
       },
       "onFloor": [
         {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
           "id": 728,
           "name": "Lazar Djokovic",
           "team": "VCU"
@@ -54028,6 +54024,21 @@
           "id": 3488,
           "name": "Terrence Hill Jr.",
           "team": "VCU"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
         }
       ]
     },
@@ -54101,16 +54112,6 @@
           "team": "VCU"
         },
         {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
           "id": 200978,
           "name": "Derek Dixon",
           "team": "North Carolina"
@@ -54139,6 +54140,16 @@
           "id": 3488,
           "name": "Terrence Hill Jr.",
           "team": "VCU"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
         }
       ]
     },
@@ -54232,6 +54243,11 @@
           "team": "VCU"
         },
         {
+          "id": 3488,
+          "name": "Terrence Hill Jr.",
+          "team": "VCU"
+        },
+        {
           "id": 238,
           "name": "Seth Trimble",
           "team": "North Carolina"
@@ -54245,11 +54261,6 @@
           "id": 200973,
           "name": "Luka Bogavac",
           "team": "North Carolina"
-        },
-        {
-          "id": 3488,
-          "name": "Terrence Hill Jr.",
-          "team": "VCU"
         }
       ]
     },
@@ -54339,6 +54350,11 @@
           "team": "VCU"
         },
         {
+          "id": 3488,
+          "name": "Terrence Hill Jr.",
+          "team": "VCU"
+        },
+        {
           "id": 238,
           "name": "Seth Trimble",
           "team": "North Carolina"
@@ -54352,11 +54368,6 @@
           "id": 200973,
           "name": "Luka Bogavac",
           "team": "North Carolina"
-        },
-        {
-          "id": 3488,
-          "name": "Terrence Hill Jr.",
-          "team": "VCU"
         }
       ]
     },
@@ -54446,6 +54457,11 @@
           "team": "VCU"
         },
         {
+          "id": 3488,
+          "name": "Terrence Hill Jr.",
+          "team": "VCU"
+        },
+        {
           "id": 238,
           "name": "Seth Trimble",
           "team": "North Carolina"
@@ -54459,11 +54475,6 @@
           "id": 200973,
           "name": "Luka Bogavac",
           "team": "North Carolina"
-        },
-        {
-          "id": 3488,
-          "name": "Terrence Hill Jr.",
-          "team": "VCU"
         }
       ]
     },
@@ -54562,6 +54573,11 @@
           "team": "VCU"
         },
         {
+          "id": 3488,
+          "name": "Terrence Hill Jr.",
+          "team": "VCU"
+        },
+        {
           "id": 3326,
           "name": "Jonathan Powell",
           "team": "North Carolina"
@@ -54570,11 +54586,6 @@
           "id": 200973,
           "name": "Luka Bogavac",
           "team": "North Carolina"
-        },
-        {
-          "id": 3488,
-          "name": "Terrence Hill Jr.",
-          "team": "VCU"
         }
       ]
     },
@@ -54668,6 +54679,11 @@
           "team": "VCU"
         },
         {
+          "id": 3488,
+          "name": "Terrence Hill Jr.",
+          "team": "VCU"
+        },
+        {
           "id": 5706,
           "name": "Jaydon Young",
           "team": "North Carolina"
@@ -54681,11 +54697,6 @@
           "id": 200973,
           "name": "Luka Bogavac",
           "team": "North Carolina"
-        },
-        {
-          "id": 3488,
-          "name": "Terrence Hill Jr.",
-          "team": "VCU"
         }
       ]
     },
@@ -54804,8 +54815,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541226,
-      "sourceId": "401856490120305652",
+      "id": 49541225,
+      "sourceId": "401856490120305638",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -54816,7 +54827,7 @@
       "opponent": "VCU",
       "opponentConference": "A-10",
       "opponentSeed": 11,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 2,
@@ -54825,8 +54836,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:03:04.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-03-20T00:02:59.000Z",
+      "playText": "Henri Veesaar makes free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -54911,8 +54922,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541225,
-      "sourceId": "401856490120305638",
+      "id": 49541226,
+      "sourceId": "401856490120305652",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -54923,7 +54934,7 @@
       "opponent": "VCU",
       "opponentConference": "A-10",
       "opponentSeed": 11,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 2,
@@ -54932,8 +54943,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:02:59.000Z",
-      "playText": "Henri Veesaar makes free throw 1 of 2",
+      "wallclock": "2026-03-20T00:03:04.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -56005,8 +56016,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541374,
-      "sourceId": "401856490120309665",
+      "id": 49541372,
+      "sourceId": "401856490120309640",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -56017,17 +56028,17 @@
       "opponent": "VCU",
       "opponentConference": "A-10",
       "opponentSeed": 11,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:59",
       "secondsRemaining": 119,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:51:05.000Z",
-      "playText": "Henri Veesaar makes free throw 2 of 2",
+      "wallclock": "2026-03-20T00:50:47.000Z",
+      "playText": "Henri Veesaar misses free throw 1 of 2",
       "participants": [
         {
           "id": 270,
@@ -56039,7 +56050,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -56112,8 +56123,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541372,
-      "sourceId": "401856490120309640",
+      "id": 49541374,
+      "sourceId": "401856490120309665",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -56124,17 +56135,17 @@
       "opponent": "VCU",
       "opponentConference": "A-10",
       "opponentSeed": 11,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:59",
       "secondsRemaining": 119,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T00:50:47.000Z",
-      "playText": "Henri Veesaar misses free throw 1 of 2",
+      "wallclock": "2026-03-20T00:51:05.000Z",
+      "playText": "Henri Veesaar makes free throw 2 of 2",
       "participants": [
         {
           "id": 270,
@@ -56146,7 +56157,7 @@
           "id": 270,
           "name": "Henri Veesaar"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {

@@ -48,8 +48,8 @@ const COLUMNS: { key: SortKey; label: string; w: string }[] = [
 ];
 
 export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
-  const [sortKey, setSortKey] = useState<SortKey>("ppg");
-  const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const [sortKey, setSortKey] = useState<SortKey>("mockDraftPick");
+  const [sortDir, setSortDir] = useState<SortDir>("asc");
 
   const sorted = useMemo(() => {
     return [...players].sort((a, b) => {

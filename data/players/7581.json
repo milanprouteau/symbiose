@@ -125,119 +125,130 @@
     "teamId": 298,
     "team": "Texas Tech",
     "conference": "Big 12",
-    "games": 33,
+    "games": 34,
     "wins": 23,
-    "losses": 10,
-    "totalMinutes": 1335,
+    "losses": 11,
+    "totalMinutes": 1375,
     "pace": 67.1,
     "teamStats": {
-      "assists": 515,
-      "blocks": 124,
-      "steals": 194,
-      "possessions": 2235,
-      "trueShooting": 59.2,
-      "rating": 119.2,
+      "assists": 523,
+      "blocks": 128,
+      "steals": 203,
+      "possessions": 2305,
+      "trueShooting": 58.8,
+      "rating": 118.4,
       "fieldGoals": {
-        "made": 947,
-        "attempted": 2007,
-        "pct": 47.2
+        "made": 968,
+        "attempted": 2068,
+        "pct": 46.8
       },
       "twoPointFieldGoals": {
-        "made": 567,
-        "attempted": 1049,
-        "pct": 54.1
+        "made": 584,
+        "attempted": 1085,
+        "pct": 53.8
       },
       "threePointFieldGoals": {
-        "made": 380,
-        "attempted": 958,
-        "pct": 39.7
+        "made": 384,
+        "attempted": 983,
+        "pct": 39.1
       },
       "freeThrows": {
-        "made": 390,
-        "attempted": 548,
-        "pct": 71.2
+        "made": 409,
+        "attempted": 572,
+        "pct": 71.5
       },
       "rebounds": {
-        "offensive": 376,
-        "defensive": 838,
-        "total": 1214
+        "offensive": 390,
+        "defensive": 859,
+        "total": 1249
       },
       "turnovers": {
-        "total": 356,
+        "total": 366,
         "teamTotal": 19
       },
       "fouls": {
-        "total": 541,
+        "total": 555,
         "technical": 2,
         "flagrant": 1
       },
       "points": {
-        "total": 2664,
-        "inPaint": 968,
-        "offTurnovers": 380,
-        "fastBreak": 230
+        "total": 2729,
+        "inPaint": 998,
+        "offTurnovers": 396,
+        "fastBreak": 235
       },
       "fourFactors": {
-        "effectiveFieldGoalPct": 56.7,
+        "effectiveFieldGoalPct": 56.1,
         "turnoverRatio": 0.16,
-        "offensiveReboundPct": 31,
-        "freeThrowRate": 27.3
+        "offensiveReboundPct": 31.2,
+        "freeThrowRate": 27.7
       }
     },
     "opponentStats": {
-      "assists": 363,
-      "blocks": 78,
-      "steals": 198,
-      "possessions": 2241,
-      "trueShooting": 53,
-      "rating": 106.9,
+      "assists": 388,
+      "blocks": 83,
+      "steals": 206,
+      "possessions": 2311,
+      "trueShooting": 53.3,
+      "rating": 107.5,
       "fieldGoals": {
-        "made": 870,
-        "attempted": 1982,
+        "made": 900,
+        "attempted": 2050,
         "pct": 43.9
       },
       "twoPointFieldGoals": {
-        "made": 653,
-        "attempted": 1289,
-        "pct": 50.7
+        "made": 664,
+        "attempted": 1315,
+        "pct": 50.5
       },
       "threePointFieldGoals": {
-        "made": 217,
-        "attempted": 693,
-        "pct": 31.3
+        "made": 236,
+        "attempted": 735,
+        "pct": 32.1
       },
       "freeThrows": {
-        "made": 438,
-        "attempted": 628,
-        "pct": 69.7
+        "made": 449,
+        "attempted": 643,
+        "pct": 69.8
       },
       "rebounds": {
-        "offensive": 361,
-        "defensive": 754,
-        "total": 1115
+        "offensive": 379,
+        "defensive": 783,
+        "total": 1162
       },
       "turnovers": {
-        "total": 330,
+        "total": 343,
         "teamTotal": 12
       },
       "fouls": {
-        "total": 531,
+        "total": 552,
         "technical": 6,
         "flagrant": 2
       },
       "points": {
-        "total": 2395,
-        "inPaint": 1076,
-        "offTurnovers": 407,
-        "fastBreak": 220
+        "total": 2485,
+        "inPaint": 1098,
+        "offTurnovers": 425,
+        "fastBreak": 235
       },
       "fourFactors": {
-        "effectiveFieldGoalPct": 49.4,
+        "effectiveFieldGoalPct": 49.7,
         "turnoverRatio": 0.15,
-        "offensiveReboundPct": 32.4,
-        "freeThrowRate": 31.7
+        "offensiveReboundPct": 32.6,
+        "freeThrowRate": 31.4
       }
     }
+  },
+  "profile": {
+    "jersey": "15",
+    "position": "Forward",
+    "height": 81,
+    "weight": 230,
+    "hometown": {
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -522,9 +533,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239661,
-      "sourceId": "401819899113904272",
-      "playType": "MadeFreeThrow",
+      "id": 38239653,
+      "sourceId": "401819899113903922",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -542,9 +553,9 @@
       "secondsRemaining": 720,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T01:20:10.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T01:19:24.000Z",
+      "playText": "JT Toppin missed Layup.",
       "participants": [
         {
           "id": 7581,
@@ -557,15 +568,15 @@
           "name": "JT Toppin"
         },
         "made": false,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 285
         }
       },
       "onFloor": [
@@ -624,9 +635,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239653,
-      "sourceId": "401819899113903922",
-      "playType": "LayUpShot",
+      "id": 38239661,
+      "sourceId": "401819899113904272",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -644,9 +655,9 @@
       "secondsRemaining": 720,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T01:19:24.000Z",
-      "playText": "JT Toppin missed Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T01:20:10.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -659,15 +670,15 @@
           "name": "JT Toppin"
         },
         "made": false,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -1148,8 +1159,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239727,
-      "sourceId": "401819899113912386",
+      "id": 38239726,
+      "sourceId": "401819899113912325",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -1160,16 +1171,16 @@
       "opponent": "Sam Houston",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 25,
       "awayScore": 26,
-      "homeWinProbability": 0.632,
+      "homeWinProbability": 0.617,
       "period": 1,
       "clock": "5:57",
       "secondsRemaining": 357,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T01:39:08.000Z",
+      "wallclock": "2025-11-08T01:38:54.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -1255,8 +1266,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239726,
-      "sourceId": "401819899113912325",
+      "id": 38239727,
+      "sourceId": "401819899113912386",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -1267,16 +1278,16 @@
       "opponent": "Sam Houston",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 26,
       "awayScore": 26,
-      "homeWinProbability": 0.617,
+      "homeWinProbability": 0.632,
       "period": 1,
       "clock": "5:57",
       "secondsRemaining": 357,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T01:38:54.000Z",
+      "wallclock": "2025-11-08T01:39:08.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -2440,8 +2451,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239863,
-      "sourceId": "401819899113928113",
+      "id": 38239865,
+      "sourceId": "401819899113928115",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -2547,8 +2558,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239865,
-      "sourceId": "401819899113928115",
+      "id": 38239863,
+      "sourceId": "401819899113928113",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -2979,8 +2990,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239946,
-      "sourceId": "401819899113931693",
+      "id": 38239943,
+      "sourceId": "401819899113931642",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -2991,16 +3002,16 @@
       "opponent": "Sam Houston",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 59,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "9:10",
       "secondsRemaining": 550,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T02:49:55.000Z",
+      "wallclock": "2025-11-08T02:49:38.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -3086,8 +3097,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38239943,
-      "sourceId": "401819899113931642",
+      "id": 38239946,
+      "sourceId": "401819899113931693",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -3098,16 +3109,16 @@
       "opponent": "Sam Houston",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 59,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "9:10",
       "secondsRemaining": 550,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T02:49:38.000Z",
+      "wallclock": "2025-11-08T02:49:55.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -4053,8 +4064,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38240044,
-      "sourceId": "401819899113934656",
+      "id": 38240047,
+      "sourceId": "401819899113934711",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -4065,7 +4076,7 @@
       "opponent": "Sam Houston",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 94,
+      "homeScore": 95,
       "awayScore": 69,
       "homeWinProbability": 1,
       "period": 2,
@@ -4074,7 +4085,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T03:12:47.000Z",
+      "wallclock": "2025-11-08T03:13:07.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -4160,8 +4171,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38240047,
-      "sourceId": "401819899113934711",
+      "id": 38240044,
+      "sourceId": "401819899113934656",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -4172,7 +4183,7 @@
       "opponent": "Sam Houston",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 95,
+      "homeScore": 94,
       "awayScore": 69,
       "homeWinProbability": 1,
       "period": 2,
@@ -4181,7 +4192,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T03:13:07.000Z",
+      "wallclock": "2025-11-08T03:12:47.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -8072,9 +8083,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39035988,
-      "sourceId": "401819900114323183",
-      "playType": "MadeFreeThrow",
+      "id": 39035986,
+      "sourceId": "401819900114323113",
+      "playType": "TipShot",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -8084,17 +8095,17 @@
       "opponent": "Milwaukee",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 20,
       "awayScore": 23,
-      "homeWinProbability": 0.548,
+      "homeWinProbability": 0.528,
       "period": 1,
       "clock": "8:04",
       "secondsRemaining": 484,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-15T01:28:00.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-15T01:27:32.000Z",
+      "playText": "JT Toppin made Two Point Tip Shot.",
       "participants": [
         {
           "id": 7581,
@@ -8107,15 +8118,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -8179,9 +8190,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39035986,
-      "sourceId": "401819900114323113",
-      "playType": "TipShot",
+      "id": 39035988,
+      "sourceId": "401819900114323183",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -8191,17 +8202,17 @@
       "opponent": "Milwaukee",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 21,
       "awayScore": 23,
-      "homeWinProbability": 0.528,
+      "homeWinProbability": 0.548,
       "period": 1,
       "clock": "8:04",
       "secondsRemaining": 484,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-15T01:27:32.000Z",
-      "playText": "JT Toppin made Two Point Tip Shot.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-15T01:28:00.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -8214,15 +8225,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -12088,8 +12099,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 39757893,
-      "sourceId": "401823637114755145",
+      "id": 39757887,
+      "sourceId": "401823637114755089",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -12101,16 +12112,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 15,
-      "awayScore": 15,
-      "homeWinProbability": 0.604,
+      "awayScore": 14,
+      "homeWinProbability": 0.64,
       "period": 1,
       "clock": "12:05",
       "secondsRemaining": 725,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T03:07:49.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "wallclock": "2025-11-22T03:07:26.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -12122,7 +12133,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12195,8 +12206,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 39757887,
-      "sourceId": "401823637114755089",
+      "id": 39757893,
+      "sourceId": "401823637114755145",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -12208,16 +12219,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 15,
-      "awayScore": 14,
-      "homeWinProbability": 0.64,
+      "awayScore": 15,
+      "homeWinProbability": 0.604,
       "period": 1,
       "clock": "12:05",
       "secondsRemaining": 725,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T03:07:26.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "wallclock": "2025-11-22T03:07:49.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -12229,7 +12240,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13598,8 +13609,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 39758122,
-      "sourceId": "401823637114762781",
+      "id": 39758124,
+      "sourceId": "401823637114762828",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -13611,16 +13622,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 40,
-      "homeWinProbability": 1,
+      "awayScore": 41,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "8:50",
       "secondsRemaining": 530,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T04:23:26.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "wallclock": "2025-11-22T04:23:43.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -13632,7 +13643,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13705,8 +13716,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 39758124,
-      "sourceId": "401823637114762828",
+      "id": 39758122,
+      "sourceId": "401823637114762781",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -13718,16 +13729,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 41,
-      "homeWinProbability": 0.999,
+      "awayScore": 40,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "8:50",
       "secondsRemaining": 530,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T04:23:43.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "wallclock": "2025-11-22T04:23:26.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -13739,7 +13750,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -16729,8 +16740,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40686697,
-      "sourceId": "401819901115275086",
+      "id": 40686702,
+      "sourceId": "401819901115275177",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -16741,16 +16752,16 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 14,
-      "homeWinProbability": 0.64,
+      "homeWinProbability": 0.673,
       "period": 1,
       "clock": "13:04",
       "secondsRemaining": 784,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-30T20:13:26.000Z",
+      "wallclock": "2025-11-30T20:13:44.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -16836,8 +16847,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40686702,
-      "sourceId": "401819901115275177",
+      "id": 40686697,
+      "sourceId": "401819901115275086",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -16848,16 +16859,16 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 14,
-      "homeWinProbability": 0.673,
+      "homeWinProbability": 0.64,
       "period": 1,
       "clock": "13:04",
       "secondsRemaining": 784,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-30T20:13:44.000Z",
+      "wallclock": "2025-11-30T20:13:26.000Z",
       "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
@@ -17379,8 +17390,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40686792,
-      "sourceId": "401819901115279883",
+      "id": 40686789,
+      "sourceId": "401819901115279801",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -17397,11 +17408,11 @@
       "period": 1,
       "clock": "4:10",
       "secondsRemaining": 250,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-30T20:34:51.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "wallclock": "2025-11-30T20:34:33.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -17413,7 +17424,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17486,8 +17497,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40686789,
-      "sourceId": "401819901115279801",
+      "id": 40686792,
+      "sourceId": "401819901115279883",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -17504,11 +17515,11 @@
       "period": 1,
       "clock": "4:10",
       "secondsRemaining": 250,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-30T20:34:33.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "wallclock": "2025-11-30T20:34:51.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -17520,7 +17531,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19206,8 +19217,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40687073,
-      "sourceId": "401819901115291303",
+      "id": 40687076,
+      "sourceId": "401819901115291328",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -19224,11 +19235,11 @@
       "period": 2,
       "clock": "1:42",
       "secondsRemaining": 102,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-30T21:57:24.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "wallclock": "2025-11-30T21:57:41.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -19240,7 +19251,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19313,8 +19324,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40687076,
-      "sourceId": "401819901115291328",
+      "id": 40687073,
+      "sourceId": "401819901115291303",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -19331,11 +19342,11 @@
       "period": 2,
       "clock": "1:42",
       "secondsRemaining": 102,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-30T21:57:41.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "wallclock": "2025-11-30T21:57:24.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -19347,7 +19358,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20498,8 +20509,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41354819,
-      "sourceId": "401819902115661508",
+      "id": 41354821,
+      "sourceId": "401819902115661577",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -20516,11 +20527,11 @@
       "period": 2,
       "clock": "11:25",
       "secondsRemaining": 685,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T21:36:22.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "wallclock": "2025-12-07T21:36:35.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -20532,7 +20543,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20605,8 +20616,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41354821,
-      "sourceId": "401819902115661577",
+      "id": 41354819,
+      "sourceId": "401819902115661508",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -20623,11 +20634,11 @@
       "period": 2,
       "clock": "11:25",
       "secondsRemaining": 685,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T21:36:35.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "wallclock": "2025-12-07T21:36:22.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -20639,7 +20650,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -21362,8 +21373,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647218,
-      "sourceId": "401826789115790930",
+      "id": 41647216,
+      "sourceId": "401826789115790919",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -21375,16 +21386,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 7,
-      "homeWinProbability": 0.517,
+      "awayScore": 6,
+      "homeWinProbability": 0.579,
       "period": 1,
       "clock": "16:52",
       "secondsRemaining": 1012,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T17:07:48.000Z",
-      "playText": "JT Toppin made Free Throw.",
+      "wallclock": "2025-12-13T17:07:35.000Z",
+      "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -21396,7 +21407,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -21469,8 +21480,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647216,
-      "sourceId": "401826789115790919",
+      "id": 41647218,
+      "sourceId": "401826789115790930",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -21482,16 +21493,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 6,
-      "homeWinProbability": 0.579,
+      "awayScore": 7,
+      "homeWinProbability": 0.517,
       "period": 1,
       "clock": "16:52",
       "secondsRemaining": 1012,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T17:07:35.000Z",
-      "playText": "JT Toppin missed Free Throw.",
+      "wallclock": "2025-12-13T17:07:48.000Z",
+      "playText": "JT Toppin made Free Throw.",
       "participants": [
         {
           "id": 7581,
@@ -21503,7 +21514,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -22012,8 +22023,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647284,
-      "sourceId": "401826789115792078",
+      "id": 41647291,
+      "sourceId": "401826789115792099",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -22033,7 +22044,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T17:26:40.000Z",
+      "wallclock": "2025-12-13T17:27:06.000Z",
       "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
@@ -22119,8 +22130,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647291,
-      "sourceId": "401826789115792099",
+      "id": 41647284,
+      "sourceId": "401826789115792078",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -22140,7 +22151,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T17:27:06.000Z",
+      "wallclock": "2025-12-13T17:26:40.000Z",
       "playText": "JT Toppin missed Free Throw.",
       "participants": [
         {
@@ -25258,8 +25269,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41939901,
-      "sourceId": "401819903115985225",
+      "id": 41939902,
+      "sourceId": "401819903115985268",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -25276,11 +25287,11 @@
       "period": 2,
       "clock": "14:46",
       "secondsRemaining": 886,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:19:40.000Z",
-      "playText": "JT Toppin makes free throw 1 of 2",
+      "wallclock": "2025-12-17T02:19:54.000Z",
+      "playText": "JT Toppin misses free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -25292,7 +25303,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25365,8 +25376,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41939902,
-      "sourceId": "401819903115985268",
+      "id": 41939901,
+      "sourceId": "401819903115985225",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -25383,11 +25394,11 @@
       "period": 2,
       "clock": "14:46",
       "secondsRemaining": 886,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:19:54.000Z",
-      "playText": "JT Toppin misses free throw 2 of 2",
+      "wallclock": "2025-12-17T02:19:40.000Z",
+      "playText": "JT Toppin makes free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -25399,7 +25410,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27089,8 +27100,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299306,
-      "sourceId": "401817237116225530",
+      "id": 42299304,
+      "sourceId": "401817237116225528",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -27102,16 +27113,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 21,
-      "homeWinProbability": 0.616,
+      "awayScore": 20,
+      "homeWinProbability": 0.667,
       "period": 1,
       "clock": "7:46",
       "secondsRemaining": 466,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-21T01:49:00.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "playText": "JT Toppin misses free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -27123,7 +27134,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27196,8 +27207,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299304,
-      "sourceId": "401817237116225528",
+      "id": 42299306,
+      "sourceId": "401817237116225530",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -27209,16 +27220,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 20,
-      "homeWinProbability": 0.667,
+      "awayScore": 21,
+      "homeWinProbability": 0.616,
       "period": 1,
       "clock": "7:46",
       "secondsRemaining": 466,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-21T01:49:00.000Z",
-      "playText": "JT Toppin misses free throw 1 of 2",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -27230,7 +27241,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27517,113 +27528,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299429,
-      "sourceId": "401817237116228409",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 298,
-      "team": "Texas Tech",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 72,
-      "opponent": "Duke",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 56,
-      "awayScore": 41,
-      "homeWinProbability": 0.96,
-      "period": 2,
-      "clock": "16:58",
-      "secondsRemaining": 1018,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-21T02:33:06.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 7581,
-          "name": "JT Toppin"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 7581,
-          "name": "JT Toppin"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2239,
-          "name": "Donovan Atwell",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 216,
-          "name": "Patrick Ngongba II",
-          "team": "Duke"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 7581,
-          "name": "JT Toppin",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 7323,
-          "name": "LeJuan Watts",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 7593,
-          "name": "Christian Anderson",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 202578,
-          "name": "Jaylen Petty",
-          "team": "Texas Tech"
-        }
-      ]
-    },
-    {
-      "gameId": 210361,
-      "gameSourceId": "401817237",
-      "gameStartDate": "2025-12-21T01:10:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42299425,
       "sourceId": "401817237116228398",
       "playType": "MadeFreeThrow",
@@ -27731,9 +27635,116 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299511,
-      "sourceId": "401817237116229947",
+      "id": 42299429,
+      "sourceId": "401817237116228409",
       "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 298,
+      "team": "Texas Tech",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 56,
+      "awayScore": 41,
+      "homeWinProbability": 0.96,
+      "period": 2,
+      "clock": "16:58",
+      "secondsRemaining": 1018,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-21T02:33:06.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 7581,
+          "name": "JT Toppin"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 7581,
+          "name": "JT Toppin"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2239,
+          "name": "Donovan Atwell",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 7581,
+          "name": "JT Toppin",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 7323,
+          "name": "LeJuan Watts",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 7593,
+          "name": "Christian Anderson",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 202578,
+          "name": "Jaylen Petty",
+          "team": "Texas Tech"
+        }
+      ]
+    },
+    {
+      "gameId": 210361,
+      "gameSourceId": "401817237",
+      "gameStartDate": "2025-12-21T01:10:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42299509,
+      "sourceId": "401817237116229908",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -27749,12 +27760,16 @@
       "period": 2,
       "clock": "10:33",
       "secondsRemaining": 633,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-21T03:01:18.000Z",
-      "playText": "JT Toppin misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-21T03:00:43.000Z",
+      "playText": "JT Toppin makes 9-foot hook shot (Christian Anderson assists)",
       "participants": [
+        {
+          "id": 7593,
+          "name": "Christian Anderson"
+        },
         {
           "id": 7581,
           "name": "JT Toppin"
@@ -27765,16 +27780,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7593,
+          "name": "Christian Anderson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 799,
+          "y": 255
         }
       },
       "onFloor": [
@@ -27838,9 +27853,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299509,
-      "sourceId": "401817237116229908",
-      "playType": "JumpShot",
+      "id": 42299511,
+      "sourceId": "401817237116229947",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -27856,16 +27871,12 @@
       "period": 2,
       "clock": "10:33",
       "secondsRemaining": 633,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-21T03:00:43.000Z",
-      "playText": "JT Toppin makes 9-foot hook shot (Christian Anderson assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-21T03:01:18.000Z",
+      "playText": "JT Toppin misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 7593,
-          "name": "Christian Anderson"
-        },
         {
           "id": 7581,
           "name": "JT Toppin"
@@ -27876,16 +27887,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7593,
-          "name": "Christian Anderson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 799,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -29360,9 +29371,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42655162,
-      "sourceId": "401819904116370643",
-      "playType": "JumpShot",
+      "id": 42655160,
+      "sourceId": "401819904116370639",
+      "playType": "TipShot",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -29372,17 +29383,17 @@
       "opponent": "Winthrop",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 27,
       "awayScore": 4,
-      "homeWinProbability": 0.992,
+      "homeWinProbability": 0.987,
       "period": 1,
       "clock": "10:11",
       "secondsRemaining": 611,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-12-28T19:23:41.000Z",
-      "playText": "JT Toppin makes 8-foot jumper",
+      "wallclock": "2025-12-28T19:23:36.000Z",
+      "playText": "JT Toppin misses tip in layup",
       "participants": [
         {
           "id": 7581,
@@ -29394,16 +29405,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 94,
-          "y": 185
+          "x": 56.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -29467,9 +29478,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42655160,
-      "sourceId": "401819904116370639",
-      "playType": "TipShot",
+      "id": 42655162,
+      "sourceId": "401819904116370643",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -29479,17 +29490,17 @@
       "opponent": "Winthrop",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 29,
       "awayScore": 4,
-      "homeWinProbability": 0.987,
+      "homeWinProbability": 0.992,
       "period": 1,
       "clock": "10:11",
       "secondsRemaining": 611,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-12-28T19:23:36.000Z",
-      "playText": "JT Toppin misses tip in layup",
+      "wallclock": "2025-12-28T19:23:41.000Z",
+      "playText": "JT Toppin makes 8-foot jumper",
       "participants": [
         {
           "id": 7581,
@@ -29501,16 +29512,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
-        "range": "rim",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 250
+          "x": 94,
+          "y": 185
         }
       },
       "onFloor": [
@@ -30434,8 +30445,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42655533,
-      "sourceId": "401819904116386775",
+      "id": 42655529,
+      "sourceId": "401819904116386725",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -30446,17 +30457,17 @@
       "opponent": "Winthrop",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 84,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "2:45",
       "secondsRemaining": 165,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-28T21:00:11.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "wallclock": "2025-12-28T20:59:51.000Z",
+      "playText": "JT Toppin misses free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -30468,7 +30479,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30541,8 +30552,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42655529,
-      "sourceId": "401819904116386725",
+      "id": 42655533,
+      "sourceId": "401819904116386775",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -30553,17 +30564,17 @@
       "opponent": "Winthrop",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 85,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "2:45",
       "secondsRemaining": 165,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-28T20:59:51.000Z",
-      "playText": "JT Toppin misses free throw 1 of 2",
+      "wallclock": "2025-12-28T21:00:11.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -30575,7 +30586,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31936,9 +31947,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43196852,
-      "sourceId": "401827598116718943",
-      "playType": "MadeFreeThrow",
+      "id": 43196850,
+      "sourceId": "401827598116718788",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -31948,17 +31959,17 @@
       "opponent": "Oklahoma State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 67,
       "awayScore": 51,
-      "homeWinProbability": 0.987,
+      "homeWinProbability": 0.989,
       "period": 2,
       "clock": "10:10",
       "secondsRemaining": 610,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T19:34:13.000Z",
-      "playText": "JT Toppin makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-03T19:33:56.000Z",
+      "playText": "JT Toppin makes layup",
       "participants": [
         {
           "id": 7581,
@@ -31971,15 +31982,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 240
         }
       },
       "onFloor": [
@@ -32043,9 +32054,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43196850,
-      "sourceId": "401827598116718788",
-      "playType": "LayUpShot",
+      "id": 43196852,
+      "sourceId": "401827598116718943",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -32055,17 +32066,17 @@
       "opponent": "Oklahoma State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 68,
       "awayScore": 51,
-      "homeWinProbability": 0.989,
+      "homeWinProbability": 0.987,
       "period": 2,
       "clock": "10:10",
       "secondsRemaining": 610,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-03T19:33:56.000Z",
-      "playText": "JT Toppin makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T19:34:13.000Z",
+      "playText": "JT Toppin makes free throw 1 of 1",
       "participants": [
         {
           "id": 7581,
@@ -32078,15 +32089,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -32261,9 +32272,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43196877,
-      "sourceId": "401827598116722782",
-      "playType": "MadeFreeThrow",
+      "id": 43196872,
+      "sourceId": "401827598116720824",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -32279,12 +32290,16 @@
       "period": 2,
       "clock": "7:53",
       "secondsRemaining": 473,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T19:42:09.000Z",
-      "playText": "JT Toppin misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-03T19:38:07.000Z",
+      "playText": "JT Toppin makes 6-foot jumper (Christian Anderson assists)",
       "participants": [
+        {
+          "id": 7593,
+          "name": "Christian Anderson"
+        },
         {
           "id": 7581,
           "name": "JT Toppin"
@@ -32295,16 +32310,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7593,
+          "name": "Christian Anderson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 827.2,
+          "y": 245
         }
       },
       "onFloor": [
@@ -32368,9 +32383,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43196872,
-      "sourceId": "401827598116720824",
-      "playType": "JumpShot",
+      "id": 43196877,
+      "sourceId": "401827598116722782",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
       "team": "Texas Tech",
@@ -32386,16 +32401,12 @@
       "period": 2,
       "clock": "7:53",
       "secondsRemaining": 473,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-03T19:38:07.000Z",
-      "playText": "JT Toppin makes 6-foot jumper (Christian Anderson assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T19:42:09.000Z",
+      "playText": "JT Toppin misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 7593,
-          "name": "Christian Anderson"
-        },
         {
           "id": 7581,
           "name": "JT Toppin"
@@ -32406,16 +32417,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7593,
-          "name": "Christian Anderson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 827.2,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36609,8 +36620,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43926919,
-      "sourceId": "401827610117209808",
+      "id": 43926917,
+      "sourceId": "401827610117209736",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -36622,16 +36633,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 61,
-      "homeWinProbability": 0.025,
+      "awayScore": 60,
+      "homeWinProbability": 0.027,
       "period": 2,
       "clock": "8:20",
       "secondsRemaining": 500,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:33:58.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "wallclock": "2026-01-11T01:33:41.000Z",
+      "playText": "JT Toppin misses free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -36643,7 +36654,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36716,8 +36727,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43926917,
-      "sourceId": "401827610117209736",
+      "id": 43926919,
+      "sourceId": "401827610117209808",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -36729,16 +36740,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 60,
-      "homeWinProbability": 0.027,
+      "awayScore": 61,
+      "homeWinProbability": 0.025,
       "period": 2,
       "clock": "8:20",
       "secondsRemaining": 500,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:33:41.000Z",
-      "playText": "JT Toppin misses free throw 1 of 2",
+      "wallclock": "2026-01-11T01:33:58.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -36750,7 +36761,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41274,8 +41285,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44636254,
-      "sourceId": "401827628117567222",
+      "id": 44636250,
+      "sourceId": "401827628117567190",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -41286,17 +41297,17 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 25,
       "awayScore": 29,
-      "homeWinProbability": 0.517,
+      "homeWinProbability": 0.453,
       "period": 1,
       "clock": "2:03",
       "secondsRemaining": 123,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:56:34.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "wallclock": "2026-01-18T01:56:14.000Z",
+      "playText": "JT Toppin misses free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -41308,7 +41319,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41381,8 +41392,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44636250,
-      "sourceId": "401827628117567190",
+      "id": 44636254,
+      "sourceId": "401827628117567222",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -41393,17 +41404,17 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 26,
       "awayScore": 29,
-      "homeWinProbability": 0.453,
+      "homeWinProbability": 0.517,
       "period": 1,
       "clock": "2:03",
       "secondsRemaining": 123,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:56:14.000Z",
-      "playText": "JT Toppin misses free throw 1 of 2",
+      "wallclock": "2026-01-18T01:56:34.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -41415,7 +41426,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44100,9 +44111,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44913635,
-      "sourceId": "401827632117660773",
-      "playType": "JumpShot",
+      "id": 44913642,
+      "sourceId": "401827632117660973",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -44113,16 +44124,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 68,
-      "homeWinProbability": 0.001,
+      "awayScore": 69,
+      "homeWinProbability": 0.002,
       "period": 2,
       "clock": "13:13",
       "secondsRemaining": 793,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-21T03:21:35.000Z",
-      "playText": "JT Toppin makes 4-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-21T03:25:19.000Z",
+      "playText": "JT Toppin makes free throw 1 of 1",
       "participants": [
         {
           "id": 7581,
@@ -44135,15 +44146,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -44207,9 +44218,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44913642,
-      "sourceId": "401827632117660973",
-      "playType": "MadeFreeThrow",
+      "id": 44913635,
+      "sourceId": "401827632117660773",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -44220,16 +44231,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 69,
-      "homeWinProbability": 0.002,
+      "awayScore": 68,
+      "homeWinProbability": 0.001,
       "period": 2,
       "clock": "13:13",
       "secondsRemaining": 793,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-21T03:25:19.000Z",
-      "playText": "JT Toppin makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-21T03:21:35.000Z",
+      "playText": "JT Toppin makes 4-foot jumper",
       "participants": [
         {
           "id": 7581,
@@ -44242,15 +44253,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 270
         }
       },
       "onFloor": [
@@ -45717,113 +45728,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231765,
-      "sourceId": "401827646117867777",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 298,
-      "team": "Texas Tech",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 113,
-      "opponent": "Houston",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 25,
-      "awayScore": 30,
-      "homeWinProbability": 0.394,
-      "period": 1,
-      "clock": "10:11",
-      "secondsRemaining": 611,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T19:27:16.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 7581,
-          "name": "JT Toppin"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 7581,
-          "name": "JT Toppin"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 114,
-          "name": "Milos Uzan",
-          "team": "Houston"
-        },
-        {
-          "id": 7593,
-          "name": "Christian Anderson",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 2239,
-          "name": "Donovan Atwell",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 7323,
-          "name": "LeJuan Watts",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 199595,
-          "name": "Chris Cenac Jr.",
-          "team": "Houston"
-        },
-        {
-          "id": 199597,
-          "name": "Isiah Harwell",
-          "team": "Houston"
-        },
-        {
-          "id": 7581,
-          "name": "JT Toppin",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 202578,
-          "name": "Jaylen Petty",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 7041,
-          "name": "Kalifa Sakho",
-          "team": "Houston"
-        },
-        {
-          "id": 115,
-          "name": "Emanuel Sharp",
-          "team": "Houston"
-        }
-      ]
-    },
-    {
-      "gameId": 214599,
-      "gameSourceId": "401827646",
-      "gameStartDate": "2026-01-24T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45231764,
       "sourceId": "401827646117867669",
       "playType": "MadeFreeThrow",
@@ -45931,8 +45835,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231793,
-      "sourceId": "401827646117870952",
+      "id": 45231765,
+      "sourceId": "401827646117867777",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 298,
+      "team": "Texas Tech",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 113,
+      "opponent": "Houston",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 25,
+      "awayScore": 30,
+      "homeWinProbability": 0.394,
+      "period": 1,
+      "clock": "10:11",
+      "secondsRemaining": 611,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T19:27:16.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 7581,
+          "name": "JT Toppin"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 7581,
+          "name": "JT Toppin"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 114,
+          "name": "Milos Uzan",
+          "team": "Houston"
+        },
+        {
+          "id": 7593,
+          "name": "Christian Anderson",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 2239,
+          "name": "Donovan Atwell",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 7323,
+          "name": "LeJuan Watts",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 199595,
+          "name": "Chris Cenac Jr.",
+          "team": "Houston"
+        },
+        {
+          "id": 199597,
+          "name": "Isiah Harwell",
+          "team": "Houston"
+        },
+        {
+          "id": 7581,
+          "name": "JT Toppin",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 202578,
+          "name": "Jaylen Petty",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 7041,
+          "name": "Kalifa Sakho",
+          "team": "Houston"
+        },
+        {
+          "id": 115,
+          "name": "Emanuel Sharp",
+          "team": "Houston"
+        }
+      ]
+    },
+    {
+      "gameId": 214599,
+      "gameSourceId": "401827646",
+      "gameStartDate": "2026-01-24T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45231794,
+      "sourceId": "401827646117871112",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -45949,11 +45960,11 @@
       "period": 1,
       "clock": "8:08",
       "secondsRemaining": 488,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:34:44.000Z",
-      "playText": "JT Toppin makes free throw 1 of 2",
+      "wallclock": "2026-01-24T19:35:00.000Z",
+      "playText": "JT Toppin misses free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -45965,7 +45976,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46038,8 +46049,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231794,
-      "sourceId": "401827646117871112",
+      "id": 45231793,
+      "sourceId": "401827646117870952",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 298,
@@ -46056,11 +46067,11 @@
       "period": 1,
       "clock": "8:08",
       "secondsRemaining": 488,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:35:00.000Z",
-      "playText": "JT Toppin misses free throw 2 of 2",
+      "wallclock": "2026-01-24T19:34:44.000Z",
+      "playText": "JT Toppin makes free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -46072,7 +46083,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -49708,9 +49719,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45808614,
-      "sourceId": "401827653118165101",
-      "playType": "MadeFreeThrow",
+      "id": 45808612,
+      "sourceId": "401827653118164969",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -49726,12 +49737,16 @@
       "period": 2,
       "clock": "17:28",
       "secondsRemaining": 1048,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T18:13:09.000Z",
-      "playText": "JT Toppin misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T18:12:34.000Z",
+      "playText": "JT Toppin makes layup (Christian Anderson assists)",
       "participants": [
+        {
+          "id": 7593,
+          "name": "Christian Anderson"
+        },
         {
           "id": 7581,
           "name": "JT Toppin"
@@ -49742,16 +49757,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7593,
+          "name": "Christian Anderson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 235
         }
       },
       "onFloor": [
@@ -49815,9 +49830,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45808612,
-      "sourceId": "401827653118164969",
-      "playType": "LayUpShot",
+      "id": 45808614,
+      "sourceId": "401827653118165101",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -49833,16 +49848,12 @@
       "period": 2,
       "clock": "17:28",
       "secondsRemaining": 1048,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T18:12:34.000Z",
-      "playText": "JT Toppin makes layup (Christian Anderson assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T18:13:09.000Z",
+      "playText": "JT Toppin misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 7593,
-          "name": "Christian Anderson"
-        },
         {
           "id": 7581,
           "name": "JT Toppin"
@@ -49853,16 +49864,16 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7593,
-          "name": "Christian Anderson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -54790,8 +54801,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46707018,
-      "sourceId": "401827672118688843",
+      "id": 46707017,
+      "sourceId": "401827672118688835",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -54803,7 +54814,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 56,
+      "awayScore": 55,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:50",
@@ -54811,8 +54822,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T19:41:50.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "wallclock": "2026-02-08T19:41:33.000Z",
+      "playText": "JT Toppin makes free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -54897,8 +54908,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46707017,
-      "sourceId": "401827672118688835",
+      "id": 46707018,
+      "sourceId": "401827672118688843",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -54910,7 +54921,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 55,
+      "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:50",
@@ -54918,8 +54929,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T19:41:33.000Z",
-      "playText": "JT Toppin makes free throw 1 of 2",
+      "wallclock": "2026-02-08T19:41:50.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -58583,8 +58594,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47107383,
-      "sourceId": "401827679119007182",
+      "id": 47107385,
+      "sourceId": "401827679119007228",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -58596,16 +58607,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 35,
-      "homeWinProbability": 0.457,
+      "awayScore": 36,
+      "homeWinProbability": 0.454,
       "period": 2,
       "clock": "19:28",
       "secondsRemaining": 1168,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:42:18.000Z",
-      "playText": "JT Toppin misses free throw 1 of 2",
+      "wallclock": "2026-02-15T00:42:32.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -58617,7 +58628,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -58690,8 +58701,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47107385,
-      "sourceId": "401827679119007228",
+      "id": 47107383,
+      "sourceId": "401827679119007182",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -58703,16 +58714,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 36,
-      "homeWinProbability": 0.454,
+      "awayScore": 35,
+      "homeWinProbability": 0.457,
       "period": 2,
       "clock": "19:28",
       "secondsRemaining": 1168,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:42:32.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "wallclock": "2026-02-15T00:42:18.000Z",
+      "playText": "JT Toppin misses free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -58724,7 +58735,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59332,8 +59343,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47107516,
-      "sourceId": "401827679119011673",
+      "id": 47107515,
+      "sourceId": "401827679119011613",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -59350,11 +59361,11 @@
       "period": 2,
       "clock": "5:04",
       "secondsRemaining": 304,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T01:25:58.000Z",
-      "playText": "JT Toppin misses free throw 2 of 2",
+      "wallclock": "2026-02-15T01:25:40.000Z",
+      "playText": "JT Toppin makes free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -59366,7 +59377,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59439,8 +59450,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47107515,
-      "sourceId": "401827679119011613",
+      "id": 47107516,
+      "sourceId": "401827679119011673",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -59457,11 +59468,11 @@
       "period": 2,
       "clock": "5:04",
       "secondsRemaining": 304,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T01:25:40.000Z",
-      "playText": "JT Toppin makes free throw 1 of 2",
+      "wallclock": "2026-02-15T01:25:58.000Z",
+      "playText": "JT Toppin misses free throw 2 of 2",
       "participants": [
         {
           "id": 7581,
@@ -59473,7 +59484,7 @@
           "id": 7581,
           "name": "JT Toppin"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -60941,9 +60952,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47428154,
-      "sourceId": "401827686119099581",
-      "playType": "MadeFreeThrow",
+      "id": 47428145,
+      "sourceId": "401827686119099551",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -60954,16 +60965,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 21,
-      "homeWinProbability": 0.597,
+      "awayScore": 20,
+      "homeWinProbability": 0.625,
       "period": 1,
       "clock": "7:55",
       "secondsRemaining": 475,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T04:40:38.000Z",
-      "playText": "JT Toppin makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-18T04:36:42.000Z",
+      "playText": "JT Toppin makes 7-foot hook shot",
       "participants": [
         {
           "id": 7581,
@@ -60976,15 +60987,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 817.8,
+          "y": 250
         }
       },
       "onFloor": [
@@ -61048,9 +61059,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47428145,
-      "sourceId": "401827686119099551",
-      "playType": "JumpShot",
+      "id": 47428154,
+      "sourceId": "401827686119099581",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -61061,16 +61072,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 20,
-      "homeWinProbability": 0.625,
+      "awayScore": 21,
+      "homeWinProbability": 0.597,
       "period": 1,
       "clock": "7:55",
       "secondsRemaining": 475,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-18T04:36:42.000Z",
-      "playText": "JT Toppin makes 7-foot hook shot",
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T04:40:38.000Z",
+      "playText": "JT Toppin makes free throw 1 of 1",
       "participants": [
         {
           "id": 7581,
@@ -61083,15 +61094,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 817.8,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -62031,9 +62042,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47428245,
-      "sourceId": "401827686119100136",
-      "playType": "MadeFreeThrow",
+      "id": 47428239,
+      "sourceId": "401827686119100125",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -62044,16 +62055,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 42,
-      "homeWinProbability": 0.551,
+      "awayScore": 41,
+      "homeWinProbability": 0.567,
       "period": 2,
       "clock": "16:18",
       "secondsRemaining": 978,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T05:17:52.000Z",
-      "playText": "JT Toppin makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-18T05:17:18.000Z",
+      "playText": "JT Toppin makes layup",
       "participants": [
         {
           "id": 7581,
@@ -62066,15 +62077,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 240
         }
       },
       "onFloor": [
@@ -62138,9 +62149,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47428239,
-      "sourceId": "401827686119100125",
-      "playType": "LayUpShot",
+      "id": 47428245,
+      "sourceId": "401827686119100136",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
       "team": "Texas Tech",
@@ -62151,16 +62162,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 41,
-      "homeWinProbability": 0.567,
+      "awayScore": 42,
+      "homeWinProbability": 0.551,
       "period": 2,
       "clock": "16:18",
       "secondsRemaining": 978,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-18T05:17:18.000Z",
-      "playText": "JT Toppin makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T05:17:52.000Z",
+      "playText": "JT Toppin makes free throw 1 of 1",
       "participants": [
         {
           "id": 7581,
@@ -62173,15 +62184,15 @@
           "name": "JT Toppin"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -63006,8 +63017,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47428346,
-      "sourceId": "401827686119100320",
+      "id": 47428345,
+      "sourceId": "401827686119100319",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -63019,16 +63030,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 56,
-      "homeWinProbability": 0.755,
+      "awayScore": 55,
+      "homeWinProbability": 0.81,
       "period": 2,
       "clock": "7:07",
       "secondsRemaining": 427,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T05:50:27.000Z",
-      "playText": "JT Toppin makes free throw 2 of 2",
+      "wallclock": "2026-02-18T05:50:12.000Z",
+      "playText": "JT Toppin makes free throw 1 of 2",
       "participants": [
         {
           "id": 7581,
@@ -63113,8 +63124,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47428345,
-      "sourceId": "401827686119100319",
+      "id": 47428346,
+      "sourceId": "401827686119100320",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 298,
@@ -63126,16 +63137,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 55,
-      "homeWinProbability": 0.81,
+      "awayScore": 56,
+      "homeWinProbability": 0.755,
       "period": 2,
       "clock": "7:07",
       "secondsRemaining": 427,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T05:50:12.000Z",
-      "playText": "JT Toppin makes free throw 1 of 2",
+      "wallclock": "2026-02-18T05:50:27.000Z",
+      "playText": "JT Toppin makes free throw 2 of 2",
       "participants": [
         {
           "id": 7581,

@@ -163,10 +163,50 @@ export type TeamSeasonStats = {
   opponentStats: TeamStatsBlock;
 };
 
+// ── Player Profile (from /teams/roster) ──
+
+export type PlayerProfile = {
+  jersey: string | null;
+  position: string | null;
+  height: number | null;       // in inches
+  weight: number | null;       // in lbs
+  hometown: {
+    city: string | null;
+    state: string | null;
+  } | null;
+  dateOfBirth: string | null;
+};
+
+// ── Game Log Entry (from /games/players) ──
+
+export type GameLogEntry = {
+  date: string | null;
+  opponent: string | null;
+  isHome: boolean;
+  seasonType: "regular" | "postseason";
+  minutes: number;
+  points: number;
+  rebounds: number;
+  assists: number;
+  steals: number;
+  blocks: number;
+  turnovers: number;
+  fouls: number;
+  fgMade: number;
+  fgAttempted: number;
+  threeMade: number;
+  threeAttempted: number;
+  ftMade: number;
+  ftAttempted: number;
+  starter: boolean;
+};
+
 // ── Combined player data bundle (what we cache locally) ──
 
 export type PlayerDataBundle = {
   playerStats: PlayerSeasonStats;
   shootingStats: PlayerShootingStats;
   teamStats: TeamSeasonStats;
+  profile?: PlayerProfile | null;
+  gameLog?: GameLogEntry[];
 };

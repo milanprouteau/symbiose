@@ -5,7 +5,17 @@ import type { Shot } from "@/types/player";
 import type { PlayerShootingStats } from "@/types/stats";
 import { buildRows, buildRowsFromShots, type ShotStatRow } from "@/lib/shotStats";
 import styles from "./ShotStatsPanel.module.scss";
-import RadarChart, { RadarPlayer } from "../RadarChart";
+import RadarChart, { type RadarAxis, type RadarPlayer } from "../RadarChart";
+
+export const OFFENSIVE_AXES: RadarAxis[] = [
+  { key: "ppg",   label: "PPG",   max: 30 },
+  { key: "rpg",   label: "REB",   max: 12 },
+  { key: "apg",   label: "AST",   max: 8 },
+  { key: "spg",   label: "STL",   max: 3 },
+  { key: "bpg",   label: "BLK",   max: 3 },
+  { key: "fgPct", label: "FG%",   max: 70 },
+  { key: "usage", label: "Usage", max: 40 },
+];
 
 type Props = {
   shots?: Shot[];
@@ -91,7 +101,7 @@ export default function ShotStatsPanel({ shots, shootingStats, radarPlayer }: Pr
         </div>
       </div>
       <div>
-        <RadarChart players={[radarPlayer]} />
+        <RadarChart players={[radarPlayer]} axes={OFFENSIVE_AXES} />
       </div>
     </div>
   );

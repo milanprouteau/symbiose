@@ -79,6 +79,16 @@ export async function getPlayerSeasonStats(team: string, season = 2026) {
   return apiFetch(`/stats/player/season`, { season: String(season), team });
 }
 
+/** Get player profile overview */
+export async function getPlayerOverview(team: string, season = 2026) {
+  return apiFetch(`/teams/roster`, { season: String(season), team });
+}
+
+/** Get team game-level player stats */
+export async function getPlayerGameLog(team: string, season = 2026) {
+  return apiFetch(`/games/players`, { season: String(season), team, seasonType: "regular" });
+}
+
 /** Get player shooting stats for a team */
 export async function getPlayerShootingStats(team: string, season = 2026) {
   return apiFetch(`/stats/player/shooting/season`, {

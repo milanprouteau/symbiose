@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "24",
+    "position": "Guard",
+    "height": 77,
+    "weight": 215,
+    "hometown": {
+      "city": "Cotonou",
+      "state": "BEN"
+    },
+    "dateOfBirth": null
+  },
   "shots": [
     {
       "gameId": 212783,
@@ -742,9 +753,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637218,
-      "sourceId": "401819823113632047",
-      "playType": "LayUpShot",
+      "id": 37637220,
+      "sourceId": "401819823113632413",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -760,16 +771,12 @@
       "period": 1,
       "clock": "8:13",
       "secondsRemaining": 493,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-04T01:31:25.000Z",
-      "playText": "Tounde Yessoufou made Layup. Assisted by Michael Rataj.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T01:31:51.000Z",
+      "playText": "Tounde Yessoufou missed Free Throw.",
       "participants": [
-        {
-          "id": 6854,
-          "name": "Michael Rataj"
-        },
         {
           "id": 198155,
           "name": "Tounde Yessoufou"
@@ -780,16 +787,16 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 6854,
-          "name": "Michael Rataj"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -853,9 +860,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637220,
-      "sourceId": "401819823113632413",
-      "playType": "MadeFreeThrow",
+      "id": 37637218,
+      "sourceId": "401819823113632047",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -871,12 +878,16 @@
       "period": 1,
       "clock": "8:13",
       "secondsRemaining": 493,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T01:31:51.000Z",
-      "playText": "Tounde Yessoufou missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-04T01:31:25.000Z",
+      "playText": "Tounde Yessoufou made Layup. Assisted by Michael Rataj.",
       "participants": [
+        {
+          "id": 6854,
+          "name": "Michael Rataj"
+        },
         {
           "id": 198155,
           "name": "Tounde Yessoufou"
@@ -887,16 +898,16 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 6854,
+          "name": "Michael Rataj"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 230
         }
       },
       "onFloor": [
@@ -3938,113 +3949,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38559930,
-      "sourceId": "401819824114065760",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 343,
-      "opponent": "Washington",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 75,
-      "awayScore": 68,
-      "homeWinProbability": 0.993,
-      "period": 2,
-      "clock": "0:55",
-      "secondsRemaining": 55,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-10T03:42:18.000Z",
-      "playText": "Tounde Yessoufou made Free Throw.",
-      "participants": [
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198155,
-          "name": "Tounde Yessoufou"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7095,
-          "name": "Wesley Yates III",
-          "team": "Washington"
-        },
-        {
-          "id": 7420,
-          "name": "Caden Powell",
-          "team": "Baylor"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo",
-          "team": "Washington"
-        },
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 6762,
-          "name": "Obi Agbim",
-          "team": "Baylor"
-        },
-        {
-          "id": 2792,
-          "name": "Quimari Peterson",
-          "team": "Washington"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 203270,
-          "name": "JJ Mandaquit",
-          "team": "Washington"
-        },
-        {
-          "id": 468,
-          "name": "Dan Skillings Jr.",
-          "team": "Baylor"
-        },
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou",
-          "team": "Baylor"
-        }
-      ]
-    },
-    {
-      "gameId": 213001,
-      "gameSourceId": "401819824",
-      "gameStartDate": "2025-11-10T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38559936,
       "sourceId": "401819824114065900",
       "playType": "MadeFreeThrow",
@@ -4145,6 +4049,113 @@
       ]
     },
     {
+      "gameId": 213001,
+      "gameSourceId": "401819824",
+      "gameStartDate": "2025-11-10T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38559930,
+      "sourceId": "401819824114065760",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 343,
+      "opponent": "Washington",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 75,
+      "awayScore": 68,
+      "homeWinProbability": 0.993,
+      "period": 2,
+      "clock": "0:55",
+      "secondsRemaining": 55,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-10T03:42:18.000Z",
+      "playText": "Tounde Yessoufou made Free Throw.",
+      "participants": [
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198155,
+          "name": "Tounde Yessoufou"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7095,
+          "name": "Wesley Yates III",
+          "team": "Washington"
+        },
+        {
+          "id": 7420,
+          "name": "Caden Powell",
+          "team": "Baylor"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo",
+          "team": "Washington"
+        },
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 6762,
+          "name": "Obi Agbim",
+          "team": "Baylor"
+        },
+        {
+          "id": 2792,
+          "name": "Quimari Peterson",
+          "team": "Washington"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 203270,
+          "name": "JJ Mandaquit",
+          "team": "Washington"
+        },
+        {
+          "id": 468,
+          "name": "Dan Skillings Jr.",
+          "team": "Baylor"
+        },
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou",
+          "team": "Baylor"
+        }
+      ]
+    },
+    {
       "gameId": 213154,
       "gameSourceId": "401819825",
       "gameStartDate": "2025-11-15T02:00:00.000Z",
@@ -4152,8 +4163,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019013,
-      "sourceId": "401819825114332374",
+      "id": 39019008,
+      "sourceId": "401819825114332322",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -4164,16 +4175,16 @@
       "opponent": "Tarleton State",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 19,
       "awayScore": 16,
-      "homeWinProbability": 0.754,
+      "homeWinProbability": 0.697,
       "period": 1,
       "clock": "13:13",
       "secondsRemaining": 793,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:16:14.000Z",
+      "wallclock": "2025-11-15T02:15:56.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -4259,8 +4270,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019008,
-      "sourceId": "401819825114332322",
+      "id": 39019013,
+      "sourceId": "401819825114332374",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -4271,16 +4282,16 @@
       "opponent": "Tarleton State",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 20,
       "awayScore": 16,
-      "homeWinProbability": 0.697,
+      "homeWinProbability": 0.754,
       "period": 1,
       "clock": "13:13",
       "secondsRemaining": 793,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:15:56.000Z",
+      "wallclock": "2025-11-15T02:16:14.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -4687,8 +4698,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019099,
-      "sourceId": "401819825114336032",
+      "id": 39019096,
+      "sourceId": "401819825114335940",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -4699,16 +4710,16 @@
       "opponent": "Tarleton State",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 26,
-      "homeWinProbability": 0.938,
+      "homeWinProbability": 0.93,
       "period": 1,
       "clock": "7:30",
       "secondsRemaining": 450,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:36:03.000Z",
+      "wallclock": "2025-11-15T02:35:48.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -4794,8 +4805,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019096,
-      "sourceId": "401819825114335940",
+      "id": 39019099,
+      "sourceId": "401819825114336032",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -4806,16 +4817,16 @@
       "opponent": "Tarleton State",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 26,
-      "homeWinProbability": 0.93,
+      "homeWinProbability": 0.938,
       "period": 1,
       "clock": "7:30",
       "secondsRemaining": 450,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:35:48.000Z",
+      "wallclock": "2025-11-15T02:36:03.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -6308,8 +6319,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060188,
-      "sourceId": "401819826114888557",
+      "id": 40060186,
+      "sourceId": "401819826114888525",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -6320,17 +6331,17 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 24,
-      "homeWinProbability": 0.858,
+      "homeWinProbability": 0.838,
       "period": 1,
       "clock": "6:03",
       "secondsRemaining": 363,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T19:37:10.000Z",
-      "playText": "Tounde Yessoufou made Free Throw.",
+      "wallclock": "2025-11-24T19:36:57.000Z",
+      "playText": "Tounde Yessoufou missed Free Throw.",
       "participants": [
         {
           "id": 198155,
@@ -6342,7 +6353,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6415,8 +6426,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060186,
-      "sourceId": "401819826114888525",
+      "id": 40060188,
+      "sourceId": "401819826114888557",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -6427,17 +6438,17 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 24,
-      "homeWinProbability": 0.838,
+      "homeWinProbability": 0.858,
       "period": 1,
       "clock": "6:03",
       "secondsRemaining": 363,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T19:36:57.000Z",
-      "playText": "Tounde Yessoufou missed Free Throw.",
+      "wallclock": "2025-11-24T19:37:10.000Z",
+      "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
           "id": 198155,
@@ -6449,7 +6460,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9110,9 +9121,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116267,
-      "sourceId": "401819827114961898",
-      "playType": "MadeFreeThrow",
+      "id": 40116263,
+      "sourceId": "401819827114961826",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -9122,17 +9133,17 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 71,
-      "homeWinProbability": 0.036,
+      "homeWinProbability": 0.038,
       "period": 2,
       "clock": "8:50",
       "secondsRemaining": 530,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T23:18:01.000Z",
-      "playText": "Tounde Yessoufou made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-25T23:17:26.000Z",
+      "playText": "Tounde Yessoufou made Layup.",
       "participants": [
         {
           "id": 198155,
@@ -9145,15 +9156,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 270
         }
       },
       "onFloor": [
@@ -9217,9 +9228,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116263,
-      "sourceId": "401819827114961826",
-      "playType": "LayUpShot",
+      "id": 40116267,
+      "sourceId": "401819827114961898",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -9229,17 +9240,17 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 71,
-      "homeWinProbability": 0.038,
+      "homeWinProbability": 0.036,
       "period": 2,
       "clock": "8:50",
       "secondsRemaining": 530,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-25T23:17:26.000Z",
-      "playText": "Tounde Yessoufou made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T23:18:01.000Z",
+      "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
           "id": 198155,
@@ -9252,15 +9263,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -10624,8 +10635,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317857,
-      "sourceId": "401831219115077405",
+      "id": 40317859,
+      "sourceId": "401831219115077409",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -10637,16 +10648,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 42,
-      "homeWinProbability": 0.499,
+      "awayScore": 43,
+      "homeWinProbability": 0.467,
       "period": 2,
       "clock": "18:30",
       "secondsRemaining": 1110,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:43:21.000Z",
-      "playText": "Tounde Yessoufou missed Free Throw.",
+      "wallclock": "2025-11-27T04:43:37.000Z",
+      "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
           "id": 198155,
@@ -10658,7 +10669,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10731,8 +10742,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317859,
-      "sourceId": "401831219115077409",
+      "id": 40317857,
+      "sourceId": "401831219115077405",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -10744,16 +10755,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 43,
-      "homeWinProbability": 0.467,
+      "awayScore": 42,
+      "homeWinProbability": 0.499,
       "period": 2,
       "clock": "18:30",
       "secondsRemaining": 1110,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:43:37.000Z",
-      "playText": "Tounde Yessoufou made Free Throw.",
+      "wallclock": "2025-11-27T04:43:21.000Z",
+      "playText": "Tounde Yessoufou missed Free Throw.",
       "participants": [
         {
           "id": 198155,
@@ -10765,7 +10776,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14187,9 +14198,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40771184,
-      "sourceId": "401819828115358093",
-      "playType": "JumpShot",
+      "id": 40771190,
+      "sourceId": "401819828115358131",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -14199,7 +14210,7 @@
       "opponent": "Sacramento State",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 98,
+      "homeScore": 99,
       "awayScore": 74,
       "homeWinProbability": 1,
       "period": 2,
@@ -14207,9 +14218,9 @@
       "secondsRemaining": 276,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-03T02:57:33.000Z",
-      "playText": "Tounde Yessoufou made Jumper.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-03T02:58:08.000Z",
+      "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
           "id": 198155,
@@ -14222,15 +14233,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -14294,9 +14305,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40771190,
-      "sourceId": "401819828115358131",
-      "playType": "MadeFreeThrow",
+      "id": 40771184,
+      "sourceId": "401819828115358093",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -14306,7 +14317,7 @@
       "opponent": "Sacramento State",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 99,
+      "homeScore": 98,
       "awayScore": 74,
       "homeWinProbability": 1,
       "period": 2,
@@ -14314,9 +14325,9 @@
       "secondsRemaining": 276,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-03T02:58:08.000Z",
-      "playText": "Tounde Yessoufou made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-03T02:57:33.000Z",
+      "playText": "Tounde Yessoufou made Jumper.",
       "participants": [
         {
           "id": 198155,
@@ -14329,15 +14340,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 250
         }
       },
       "onFloor": [
@@ -16343,8 +16354,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41108560,
-      "sourceId": "401819829115579296",
+      "id": 41108561,
+      "sourceId": "401819829115579303",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -16356,15 +16367,15 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 57,
-      "homeWinProbability": 0.547,
+      "awayScore": 58,
+      "homeWinProbability": 0.433,
       "period": 2,
       "clock": "8:16",
       "secondsRemaining": 496,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T23:21:52.000Z",
+      "wallclock": "2025-12-06T23:22:08.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -16450,8 +16461,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41108561,
-      "sourceId": "401819829115579303",
+      "id": 41108560,
+      "sourceId": "401819829115579296",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -16463,15 +16474,15 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 58,
-      "homeWinProbability": 0.433,
+      "awayScore": 57,
+      "homeWinProbability": 0.547,
       "period": 2,
       "clock": "8:16",
       "secondsRemaining": 496,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T23:22:08.000Z",
+      "wallclock": "2025-12-06T23:21:52.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -18404,8 +18415,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41494216,
-      "sourceId": "401819830115723032",
+      "id": 41494215,
+      "sourceId": "401819830115723031",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -18416,7 +18427,7 @@
       "opponent": "Norfolk State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 91,
       "awayScore": 53,
       "homeWinProbability": 1,
       "period": 2,
@@ -18425,7 +18436,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T18:56:16.000Z",
+      "wallclock": "2025-12-10T18:55:52.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -18511,8 +18522,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41494215,
-      "sourceId": "401819830115723031",
+      "id": 41494216,
+      "sourceId": "401819830115723032",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -18523,7 +18534,7 @@
       "opponent": "Norfolk State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 91,
+      "homeScore": 92,
       "awayScore": 53,
       "homeWinProbability": 1,
       "period": 2,
@@ -18532,7 +18543,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T18:55:52.000Z",
+      "wallclock": "2025-12-10T18:56:16.000Z",
       "playText": "Tounde Yessoufou made Free Throw.",
       "participants": [
         {
@@ -21967,8 +21978,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42386687,
-      "sourceId": "401819832116252139",
+      "id": 42386682,
+      "sourceId": "401819832116252088",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -21979,7 +21990,7 @@
       "opponent": "Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 29,
       "homeWinProbability": 0.84,
       "period": 1,
@@ -21988,8 +21999,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T18:50:36.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2025-12-21T18:50:04.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -22074,8 +22085,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42386682,
-      "sourceId": "401819832116252088",
+      "id": 42386687,
+      "sourceId": "401819832116252139",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -22086,7 +22097,7 @@
       "opponent": "Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 29,
       "homeWinProbability": 0.84,
       "period": 1,
@@ -22095,8 +22106,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T18:50:04.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2025-12-21T18:50:36.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -23929,8 +23940,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738172,
-      "sourceId": "401819833116426415",
+      "id": 42738171,
+      "sourceId": "401819833116426411",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -23941,17 +23952,17 @@
       "opponent": "Arlington Baptist",
       "opponentConference": null,
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 8,
       "awayScore": 5,
-      "homeWinProbability": 0.783,
+      "homeWinProbability": 0.745,
       "period": 1,
       "clock": "18:04",
       "secondsRemaining": 1084,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-29T21:05:34.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2025-12-29T21:05:21.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -24036,8 +24047,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738171,
-      "sourceId": "401819833116426411",
+      "id": 42738172,
+      "sourceId": "401819833116426415",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -24048,17 +24059,17 @@
       "opponent": "Arlington Baptist",
       "opponentConference": null,
       "opponentSeed": null,
-      "homeScore": 8,
+      "homeScore": 9,
       "awayScore": 5,
-      "homeWinProbability": 0.745,
+      "homeWinProbability": 0.783,
       "period": 1,
       "clock": "18:04",
       "secondsRemaining": 1084,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-29T21:05:21.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2025-12-29T21:05:34.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -25899,8 +25910,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738524,
-      "sourceId": "401819833116433542",
+      "id": 42738529,
+      "sourceId": "401819833116433592",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -25911,7 +25922,7 @@
       "opponent": "Arlington Baptist",
       "opponentConference": null,
       "opponentSeed": null,
-      "homeScore": 102,
+      "homeScore": 103,
       "awayScore": 52,
       "homeWinProbability": 1,
       "period": 2,
@@ -25920,8 +25931,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-29T22:27:15.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2025-12-29T22:27:37.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -26006,8 +26017,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738529,
-      "sourceId": "401819833116433592",
+      "id": 42738524,
+      "sourceId": "401819833116433542",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -26018,7 +26029,7 @@
       "opponent": "Arlington Baptist",
       "opponentConference": null,
       "opponentSeed": null,
-      "homeScore": 103,
+      "homeScore": 102,
       "awayScore": 52,
       "homeWinProbability": 1,
       "period": 2,
@@ -26027,8 +26038,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-29T22:27:37.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2025-12-29T22:27:15.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -28602,113 +28613,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43624841,
-      "sourceId": "401827605116952648",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 125,
-      "opponent": "Iowa State",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 25,
-      "awayScore": 32,
-      "homeWinProbability": 0.305,
-      "period": 2,
-      "clock": "17:36",
-      "secondsRemaining": 1056,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-08T02:17:56.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198155,
-          "name": "Tounde Yessoufou"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 468,
-          "name": "Dan Skillings Jr.",
-          "team": "Baylor"
-        },
-        {
-          "id": 352,
-          "name": "Isaac Williams IV",
-          "team": "Baylor"
-        },
-        {
-          "id": 199789,
-          "name": "Dominykas Pleta",
-          "team": "Iowa State"
-        },
-        {
-          "id": 222965,
-          "name": "James Nnaji",
-          "team": "Baylor"
-        },
-        {
-          "id": 149,
-          "name": "Milan Momcilovic",
-          "team": "Iowa State"
-        },
-        {
-          "id": 142,
-          "name": "Joshua Jefferson",
-          "team": "Iowa State"
-        },
-        {
-          "id": 199791,
-          "name": "Killyan Toure",
-          "team": "Iowa State"
-        },
-        {
-          "id": 6762,
-          "name": "Obi Agbim",
-          "team": "Baylor"
-        },
-        {
-          "id": 144,
-          "name": "Tamin Lipsey",
-          "team": "Iowa State"
-        },
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou",
-          "team": "Baylor"
-        }
-      ]
-    },
-    {
-      "gameId": 214353,
-      "gameSourceId": "401827605",
-      "gameStartDate": "2026-01-08T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43624842,
       "sourceId": "401827605116952679",
       "playType": "MadeFreeThrow",
@@ -28816,8 +28720,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43624874,
-      "sourceId": "401827605116953814",
+      "id": 43624841,
+      "sourceId": "401827605116952648",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -28828,17 +28732,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 29,
-      "awayScore": 39,
-      "homeWinProbability": 0.151,
+      "homeScore": 25,
+      "awayScore": 32,
+      "homeWinProbability": 0.305,
       "period": 2,
-      "clock": "14:16",
-      "secondsRemaining": 856,
-      "scoringPlay": false,
+      "clock": "17:36",
+      "secondsRemaining": 1056,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T02:26:01.000Z",
-      "playText": "Tounde Yessoufou misses free throw 1 of 1",
+      "wallclock": "2026-01-08T02:17:56.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -28850,7 +28754,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28864,18 +28768,8 @@
       },
       "onFloor": [
         {
-          "id": 155,
-          "name": "Nate Heise",
-          "team": "Iowa State"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 6854,
-          "name": "Michael Rataj",
+          "id": 468,
+          "name": "Dan Skillings Jr.",
           "team": "Baylor"
         },
         {
@@ -28884,13 +28778,18 @@
           "team": "Baylor"
         },
         {
-          "id": 7420,
-          "name": "Caden Powell",
+          "id": 199789,
+          "name": "Dominykas Pleta",
+          "team": "Iowa State"
+        },
+        {
+          "id": 222965,
+          "name": "James Nnaji",
           "team": "Baylor"
         },
         {
-          "id": 199789,
-          "name": "Dominykas Pleta",
+          "id": 149,
+          "name": "Milan Momcilovic",
           "team": "Iowa State"
         },
         {
@@ -28902,6 +28801,11 @@
           "id": 199791,
           "name": "Killyan Toure",
           "team": "Iowa State"
+        },
+        {
+          "id": 6762,
+          "name": "Obi Agbim",
+          "team": "Baylor"
         },
         {
           "id": 144,
@@ -28971,6 +28875,113 @@
         "location": {
           "x": 817.8,
           "y": 240
+        }
+      },
+      "onFloor": [
+        {
+          "id": 155,
+          "name": "Nate Heise",
+          "team": "Iowa State"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 6854,
+          "name": "Michael Rataj",
+          "team": "Baylor"
+        },
+        {
+          "id": 352,
+          "name": "Isaac Williams IV",
+          "team": "Baylor"
+        },
+        {
+          "id": 7420,
+          "name": "Caden Powell",
+          "team": "Baylor"
+        },
+        {
+          "id": 199789,
+          "name": "Dominykas Pleta",
+          "team": "Iowa State"
+        },
+        {
+          "id": 142,
+          "name": "Joshua Jefferson",
+          "team": "Iowa State"
+        },
+        {
+          "id": 199791,
+          "name": "Killyan Toure",
+          "team": "Iowa State"
+        },
+        {
+          "id": 144,
+          "name": "Tamin Lipsey",
+          "team": "Iowa State"
+        },
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou",
+          "team": "Baylor"
+        }
+      ]
+    },
+    {
+      "gameId": 214353,
+      "gameSourceId": "401827605",
+      "gameStartDate": "2026-01-08T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43624874,
+      "sourceId": "401827605116953814",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 39,
+      "homeWinProbability": 0.151,
+      "period": 2,
+      "clock": "14:16",
+      "secondsRemaining": 856,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-08T02:26:01.000Z",
+      "playText": "Tounde Yessoufou misses free throw 1 of 1",
+      "participants": [
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198155,
+          "name": "Tounde Yessoufou"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -30544,8 +30555,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859668,
-      "sourceId": "401827609117117283",
+      "id": 43859665,
+      "sourceId": "401827609117117133",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -30556,7 +30567,7 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -30565,8 +30576,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:03:17.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-01-10T20:02:56.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -30651,8 +30662,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859665,
-      "sourceId": "401827609117117133",
+      "id": 43859668,
+      "sourceId": "401827609117117283",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -30663,7 +30674,7 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -30672,8 +30683,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:02:56.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2026-01-10T20:03:17.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -33568,8 +33579,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44495732,
-      "sourceId": "401827624117429382",
+      "id": 44495731,
+      "sourceId": "401827624117429348",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -33581,16 +33592,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 19,
-      "homeWinProbability": 0.809,
+      "awayScore": 18,
+      "homeWinProbability": 0.811,
       "period": 1,
       "clock": "9:49",
       "secondsRemaining": 589,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T01:31:09.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-01-17T01:30:56.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -33675,8 +33686,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44495731,
-      "sourceId": "401827624117429348",
+      "id": 44495732,
+      "sourceId": "401827624117429382",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -33688,16 +33699,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 18,
-      "homeWinProbability": 0.811,
+      "awayScore": 19,
+      "homeWinProbability": 0.809,
       "period": 1,
       "clock": "9:49",
       "secondsRemaining": 589,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T01:30:56.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2026-01-17T01:31:09.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -34539,8 +34550,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44495886,
-      "sourceId": "401827624117431387",
+      "id": 44495884,
+      "sourceId": "401827624117431385",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -34552,16 +34563,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 41,
-      "homeWinProbability": 0.973,
+      "awayScore": 40,
+      "homeWinProbability": 0.98,
       "period": 2,
       "clock": "15:33",
       "secondsRemaining": 933,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T02:29:57.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-01-17T02:29:44.000Z",
+      "playText": "Tounde Yessoufou misses free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -34573,7 +34584,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34646,8 +34657,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44495884,
-      "sourceId": "401827624117431385",
+      "id": 44495886,
+      "sourceId": "401827624117431387",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -34659,16 +34670,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 40,
-      "homeWinProbability": 0.98,
+      "awayScore": 41,
+      "homeWinProbability": 0.973,
       "period": 2,
       "clock": "15:33",
       "secondsRemaining": 933,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T02:29:44.000Z",
-      "playText": "Tounde Yessoufou misses free throw 1 of 2",
+      "wallclock": "2026-01-17T02:29:57.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -34680,7 +34691,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38633,9 +38644,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45382452,
-      "sourceId": "401827641117944835",
-      "playType": "JumpShot",
+      "id": 45382460,
+      "sourceId": "401827641117944914",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -38645,17 +38656,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 72,
       "awayScore": 81,
-      "homeWinProbability": 0.009,
+      "homeWinProbability": 0.012,
       "period": 2,
       "clock": "1:54",
       "secondsRemaining": 114,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-25T01:26:31.000Z",
-      "playText": "Tounde Yessoufou makes 5-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-25T01:27:17.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 1",
       "participants": [
         {
           "id": 198155,
@@ -38668,15 +38679,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -38740,9 +38751,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45382460,
-      "sourceId": "401827641117944914",
-      "playType": "MadeFreeThrow",
+      "id": 45382452,
+      "sourceId": "401827641117944835",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -38752,17 +38763,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 71,
       "awayScore": 81,
-      "homeWinProbability": 0.012,
+      "homeWinProbability": 0.009,
       "period": 2,
       "clock": "1:54",
       "secondsRemaining": 114,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-25T01:27:17.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-25T01:26:31.000Z",
+      "playText": "Tounde Yessoufou makes 5-foot jumper",
       "participants": [
         {
           "id": 198155,
@@ -38775,15 +38786,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 230
         }
       },
       "onFloor": [
@@ -49009,8 +49020,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781773,
-      "sourceId": "401827674118722190",
+      "id": 46781778,
+      "sourceId": "401827674118722268",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -49021,7 +49032,7 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
@@ -49030,8 +49041,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T00:40:46.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 3",
+      "wallclock": "2026-02-11T00:41:14.000Z",
+      "playText": "Tounde Yessoufou makes free throw 3 of 3",
       "participants": [
         {
           "id": 198155,
@@ -49116,8 +49127,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781778,
-      "sourceId": "401827674118722268",
+      "id": 46781773,
+      "sourceId": "401827674118722190",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -49128,7 +49139,7 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
@@ -49137,8 +49148,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T00:41:14.000Z",
-      "playText": "Tounde Yessoufou makes free throw 3 of 3",
+      "wallclock": "2026-02-11T00:40:46.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 3",
       "participants": [
         {
           "id": 198155,
@@ -49663,113 +49674,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781916,
-      "sourceId": "401827674118727915",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 18,
-      "opponent": "BYU",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 57,
-      "awayScore": 67,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "10:14",
-      "secondsRemaining": 614,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T01:37:14.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 3",
-      "participants": [
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198155,
-          "name": "Tounde Yessoufou"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6762,
-          "name": "Obi Agbim",
-          "team": "Baylor"
-        },
-        {
-          "id": 198382,
-          "name": "AJ Dybantsa",
-          "team": "BYU"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 7677,
-          "name": "Mihailo Bošković",
-          "team": "BYU"
-        },
-        {
-          "id": 15031,
-          "name": "Khadim Mboup",
-          "team": "BYU"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 165,
-          "name": "Robert Wright III",
-          "team": "BYU"
-        },
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou",
-          "team": "Baylor"
-        },
-        {
-          "id": 6854,
-          "name": "Michael Rataj",
-          "team": "Baylor"
-        },
-        {
-          "id": 222965,
-          "name": "James Nnaji",
-          "team": "Baylor"
-        }
-      ]
-    },
-    {
-      "gameId": 214865,
-      "gameSourceId": "401827674",
-      "gameStartDate": "2026-02-11T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46781917,
       "sourceId": "401827674118728004",
       "playType": "MadeFreeThrow",
@@ -49900,6 +49804,113 @@
       "scoreValue": 1,
       "wallclock": "2026-02-11T01:37:41.000Z",
       "playText": "Tounde Yessoufou makes free throw 3 of 3",
+      "participants": [
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198155,
+          "name": "Tounde Yessoufou"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6762,
+          "name": "Obi Agbim",
+          "team": "Baylor"
+        },
+        {
+          "id": 198382,
+          "name": "AJ Dybantsa",
+          "team": "BYU"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 7677,
+          "name": "Mihailo Bošković",
+          "team": "BYU"
+        },
+        {
+          "id": 15031,
+          "name": "Khadim Mboup",
+          "team": "BYU"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 165,
+          "name": "Robert Wright III",
+          "team": "BYU"
+        },
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou",
+          "team": "Baylor"
+        },
+        {
+          "id": 6854,
+          "name": "Michael Rataj",
+          "team": "Baylor"
+        },
+        {
+          "id": 222965,
+          "name": "James Nnaji",
+          "team": "Baylor"
+        }
+      ]
+    },
+    {
+      "gameId": 214865,
+      "gameSourceId": "401827674",
+      "gameStartDate": "2026-02-11T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46781916,
+      "sourceId": "401827674118727915",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 18,
+      "opponent": "BYU",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 67,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "10:14",
+      "secondsRemaining": 614,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T01:37:14.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 3",
       "participants": [
         {
           "id": 198155,
@@ -50416,9 +50427,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781998,
-      "sourceId": "401827674118730122",
-      "playType": "JumpShot",
+      "id": 46782000,
+      "sourceId": "401827674118730198",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -50428,7 +50439,7 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 87,
       "homeWinProbability": null,
       "period": 2,
@@ -50436,9 +50447,9 @@
       "secondsRemaining": 168,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T01:57:54.000Z",
-      "playText": "Tounde Yessoufou makes 11-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T01:58:38.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 1",
       "participants": [
         {
           "id": 198155,
@@ -50451,15 +50462,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 789.6,
-          "y": 295
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -50523,9 +50534,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782000,
-      "sourceId": "401827674118730198",
-      "playType": "MadeFreeThrow",
+      "id": 46781998,
+      "sourceId": "401827674118730122",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -50535,7 +50546,7 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 87,
       "homeWinProbability": null,
       "period": 2,
@@ -50543,9 +50554,9 @@
       "secondsRemaining": 168,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T01:58:38.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T01:57:54.000Z",
+      "playText": "Tounde Yessoufou makes 11-foot jumper",
       "participants": [
         {
           "id": 198155,
@@ -50558,15 +50569,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 789.6,
+          "y": 295
         }
       },
       "onFloor": [
@@ -53769,9 +53780,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47418208,
-      "sourceId": "401827688119094654",
-      "playType": "LayUpShot",
+      "id": 47418212,
+      "sourceId": "401827688119094690",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
       "team": "Baylor",
@@ -53782,16 +53793,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 23,
-      "homeWinProbability": 0.905,
+      "awayScore": 24,
+      "homeWinProbability": 0.899,
       "period": 1,
       "clock": "4:49",
       "secondsRemaining": 289,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-18T02:42:40.000Z",
-      "playText": "Tounde Yessoufou makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T02:43:08.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 1",
       "participants": [
         {
           "id": 198155,
@@ -53804,15 +53815,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -53876,9 +53887,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47418212,
-      "sourceId": "401827688119094690",
-      "playType": "MadeFreeThrow",
+      "id": 47418208,
+      "sourceId": "401827688119094654",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 20,
       "team": "Baylor",
@@ -53889,16 +53900,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 24,
-      "homeWinProbability": 0.899,
+      "awayScore": 23,
+      "homeWinProbability": 0.905,
       "period": 1,
       "clock": "4:49",
       "secondsRemaining": 289,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T02:43:08.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-18T02:42:40.000Z",
+      "playText": "Tounde Yessoufou makes layup",
       "participants": [
         {
           "id": 198155,
@@ -53911,15 +53922,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 225
         }
       },
       "onFloor": [
@@ -55275,8 +55286,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47710549,
-      "sourceId": "401827692119321372",
+      "id": 47710554,
+      "sourceId": "401827692119321504",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -55287,17 +55298,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 18,
       "awayScore": 17,
-      "homeWinProbability": 0.603,
+      "homeWinProbability": 0.612,
       "period": 1,
       "clock": "9:58",
       "secondsRemaining": 598,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:27:04.000Z",
-      "playText": "Tounde Yessoufou misses free throw 1 of 3",
+      "wallclock": "2026-02-21T21:27:32.000Z",
+      "playText": "Tounde Yessoufou misses free throw 3 of 3",
       "participants": [
         {
           "id": 198155,
@@ -55489,8 +55500,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47710554,
-      "sourceId": "401827692119321504",
+      "id": 47710549,
+      "sourceId": "401827692119321372",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -55501,17 +55512,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 17,
       "awayScore": 17,
-      "homeWinProbability": 0.612,
+      "homeWinProbability": 0.603,
       "period": 1,
       "clock": "9:58",
       "secondsRemaining": 598,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:27:32.000Z",
-      "playText": "Tounde Yessoufou misses free throw 3 of 3",
+      "wallclock": "2026-02-21T21:27:04.000Z",
+      "playText": "Tounde Yessoufou misses free throw 1 of 3",
       "participants": [
         {
           "id": 198155,
@@ -58295,8 +58306,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47975614,
-      "sourceId": "401827700119455057",
+      "id": 47975612,
+      "sourceId": "401827700119455037",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -58316,8 +58327,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T02:52:20.000Z",
-      "playText": "Tounde Yessoufou misses free throw 2 of 2",
+      "wallclock": "2026-02-25T02:52:05.000Z",
+      "playText": "Tounde Yessoufou misses free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -58402,8 +58413,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47975612,
-      "sourceId": "401827700119455037",
+      "id": 47975614,
+      "sourceId": "401827700119455057",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -58423,8 +58434,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T02:52:05.000Z",
-      "playText": "Tounde Yessoufou misses free throw 1 of 2",
+      "wallclock": "2026-02-25T02:52:20.000Z",
+      "playText": "Tounde Yessoufou misses free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -60015,8 +60026,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370474,
-      "sourceId": "401827709119752047",
+      "id": 48370473,
+      "sourceId": "401827709119752038",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -60028,7 +60039,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 62,
+      "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:18",
@@ -60036,8 +60047,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:43:09.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-03-01T02:42:44.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -60122,8 +60133,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370473,
-      "sourceId": "401827709119752038",
+      "id": 48370474,
+      "sourceId": "401827709119752047",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -60135,7 +60146,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 61,
+      "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:18",
@@ -60143,8 +60154,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:42:44.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2026-03-01T02:43:09.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -60772,8 +60783,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713026,
-      "sourceId": "401827721119883625",
+      "id": 48713024,
+      "sourceId": "401827721119883620",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -60785,16 +60796,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 15,
+      "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:56",
       "secondsRemaining": 836,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T02:24:25.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 3",
+      "wallclock": "2026-03-05T02:24:05.000Z",
+      "playText": "Tounde Yessoufou misses free throw 1 of 3",
       "participants": [
         {
           "id": 198155,
@@ -60806,7 +60817,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -60879,8 +60890,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713024,
-      "sourceId": "401827721119883620",
+      "id": 48713026,
+      "sourceId": "401827721119883625",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -60892,16 +60903,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 14,
+      "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:56",
       "secondsRemaining": 836,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T02:24:05.000Z",
-      "playText": "Tounde Yessoufou misses free throw 1 of 3",
+      "wallclock": "2026-03-05T02:24:25.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 3",
       "participants": [
         {
           "id": 198155,
@@ -60913,7 +60924,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -61743,8 +61754,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713193,
-      "sourceId": "401827721119887186",
+      "id": 48713192,
+      "sourceId": "401827721119887185",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -61756,7 +61767,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 42,
+      "awayScore": 41,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:18",
@@ -61764,8 +61775,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:20:21.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-03-05T03:20:03.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -61850,8 +61861,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713192,
-      "sourceId": "401827721119887185",
+      "id": 48713193,
+      "sourceId": "401827721119887186",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -61863,7 +61874,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 41,
+      "awayScore": 42,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:18",
@@ -61871,8 +61882,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:20:03.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2026-03-05T03:20:21.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -62504,9 +62515,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713329,
-      "sourceId": "401827721119888773",
-      "playType": "MadeFreeThrow",
+      "id": 48713327,
+      "sourceId": "401827721119888727",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 20,
       "team": "Baylor",
@@ -62517,17 +62528,21 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 61,
+      "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:18",
       "secondsRemaining": 318,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-05T04:00:13.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-05T03:59:34.000Z",
+      "playText": "Tounde Yessoufou makes 12-foot floating jump shot (Isaac Williams IV assists)",
       "participants": [
+        {
+          "id": 352,
+          "name": "Isaac Williams IV"
+        },
         {
           "id": 198155,
           "name": "Tounde Yessoufou"
@@ -62539,15 +62554,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 352,
+          "name": "Isaac Williams IV"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 140
         }
       },
       "onFloor": [
@@ -62611,9 +62626,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713327,
-      "sourceId": "401827721119888727",
-      "playType": "JumpShot",
+      "id": 48713329,
+      "sourceId": "401827721119888773",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
       "team": "Baylor",
@@ -62624,21 +62639,17 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 60,
+      "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:18",
       "secondsRemaining": 318,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-05T03:59:34.000Z",
-      "playText": "Tounde Yessoufou makes 12-foot floating jump shot (Isaac Williams IV assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-05T04:00:13.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 352,
-          "name": "Isaac Williams IV"
-        },
         {
           "id": 198155,
           "name": "Tounde Yessoufou"
@@ -62650,15 +62661,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 352,
-          "name": "Isaac Williams IV"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 94,
-          "y": 140
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -63594,9 +63605,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48936503,
-      "sourceId": "401827723120053550",
-      "playType": "MadeFreeThrow",
+      "id": 48936500,
+      "sourceId": "401827723120053084",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -63606,7 +63617,7 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
@@ -63614,9 +63625,9 @@
       "secondsRemaining": 479,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-07T22:33:38.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-07T22:29:47.000Z",
+      "playText": "Tounde Yessoufou makes 22-foot jumper",
       "participants": [
         {
           "id": 198155,
@@ -63629,15 +63640,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 272.6,
+          "y": 270
         }
       },
       "onFloor": [
@@ -63701,9 +63712,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48936500,
-      "sourceId": "401827723120053084",
-      "playType": "JumpShot",
+      "id": 48936503,
+      "sourceId": "401827723120053550",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -63713,7 +63724,7 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
@@ -63721,9 +63732,9 @@
       "secondsRemaining": 479,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-07T22:29:47.000Z",
-      "playText": "Tounde Yessoufou makes 22-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-03-07T22:33:38.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 1",
       "participants": [
         {
           "id": 198155,
@@ -63736,15 +63747,15 @@
           "name": "Tounde Yessoufou"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 272.6,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -64787,8 +64798,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48936691,
-      "sourceId": "401827723120060181",
+      "id": 48936686,
+      "sourceId": "401827723120060110",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -64799,7 +64810,7 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
@@ -64808,8 +64819,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T23:32:03.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-03-07T23:31:46.000Z",
+      "playText": "Tounde Yessoufou makes free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -64894,8 +64905,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48936686,
-      "sourceId": "401827723120060110",
+      "id": 48936691,
+      "sourceId": "401827723120060181",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -64906,7 +64917,7 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
@@ -64915,8 +64926,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T23:31:46.000Z",
-      "playText": "Tounde Yessoufou makes free throw 1 of 2",
+      "wallclock": "2026-03-07T23:32:03.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -66729,8 +66740,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49181960,
-      "sourceId": "401851282120142550",
+      "id": 49181964,
+      "sourceId": "401851282120142561",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -66742,16 +66753,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 44,
+      "awayScore": 45,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:41",
       "secondsRemaining": 761,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T17:50:43.000Z",
-      "playText": "Tounde Yessoufou misses free throw 1 of 2",
+      "wallclock": "2026-03-10T17:51:06.000Z",
+      "playText": "Tounde Yessoufou makes free throw 2 of 2",
       "participants": [
         {
           "id": 198155,
@@ -66763,7 +66774,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -66836,8 +66847,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49181964,
-      "sourceId": "401851282120142561",
+      "id": 49181960,
+      "sourceId": "401851282120142550",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -66849,16 +66860,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 45,
+      "awayScore": 44,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:41",
       "secondsRemaining": 761,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T17:51:06.000Z",
-      "playText": "Tounde Yessoufou makes free throw 2 of 2",
+      "wallclock": "2026-03-10T17:50:43.000Z",
+      "playText": "Tounde Yessoufou misses free throw 1 of 2",
       "participants": [
         {
           "id": 198155,
@@ -66870,7 +66881,7 @@
           "id": 198155,
           "name": "Tounde Yessoufou"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {

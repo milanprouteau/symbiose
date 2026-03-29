@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "2",
+    "position": "Guard",
+    "height": 77,
+    "weight": 190,
+    "hometown": {
+      "city": "Rockingham",
+      "state": "NC"
+    },
+    "dateOfBirth": null
+  },
   "shots": [
     {
       "gameId": 209758,
@@ -909,103 +920,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37612104,
-      "sourceId": "401817252113620677",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 185,
-      "team": "NC State",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 199,
-      "opponent": "North Carolina Central",
-      "opponentConference": "MEAC",
-      "opponentSeed": null,
-      "homeScore": 66,
-      "awayScore": 35,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "15:19",
-      "secondsRemaining": 919,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T01:17:48.000Z",
-      "playText": "Paul McNeil made Free Throw.",
-      "participants": [
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2481,
-          "name": "Tre Holloman",
-          "team": "NC State"
-        },
-        {
-          "id": 3403,
-          "name": "Khouri Carvey",
-          "team": "North Carolina Central"
-        },
-        {
-          "id": 4142,
-          "name": "Kyric Davis",
-          "team": "North Carolina Central"
-        },
-        {
-          "id": 200773,
-          "name": "Matt Able",
-          "team": "NC State"
-        },
-        {
-          "id": 2937,
-          "name": "Kelechi Okworogwo",
-          "team": "North Carolina Central"
-        },
-        {
-          "id": 240,
-          "name": "Ven-Allen Lubin",
-          "team": "NC State"
-        },
-        {
-          "id": 7582,
-          "name": "Darrion Williams",
-          "team": "NC State"
-        },
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr.",
-          "team": "NC State"
-        }
-      ]
-    },
-    {
-      "gameId": 209758,
-      "gameSourceId": "401817252",
-      "gameStartDate": "2025-11-04T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 37612102,
       "sourceId": "401817252113620320",
       "playType": "MadeFreeThrow",
@@ -1125,6 +1039,103 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-11-04T01:18:04.000Z",
+      "playText": "Paul McNeil made Free Throw.",
+      "participants": [
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2481,
+          "name": "Tre Holloman",
+          "team": "NC State"
+        },
+        {
+          "id": 3403,
+          "name": "Khouri Carvey",
+          "team": "North Carolina Central"
+        },
+        {
+          "id": 4142,
+          "name": "Kyric Davis",
+          "team": "North Carolina Central"
+        },
+        {
+          "id": 200773,
+          "name": "Matt Able",
+          "team": "NC State"
+        },
+        {
+          "id": 2937,
+          "name": "Kelechi Okworogwo",
+          "team": "North Carolina Central"
+        },
+        {
+          "id": 240,
+          "name": "Ven-Allen Lubin",
+          "team": "NC State"
+        },
+        {
+          "id": 7582,
+          "name": "Darrion Williams",
+          "team": "NC State"
+        },
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr.",
+          "team": "NC State"
+        }
+      ]
+    },
+    {
+      "gameId": 209758,
+      "gameSourceId": "401817252",
+      "gameStartDate": "2025-11-04T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 37612104,
+      "sourceId": "401817252113620677",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 185,
+      "team": "NC State",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 199,
+      "opponent": "North Carolina Central",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 35,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "15:19",
+      "secondsRemaining": 919,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T01:17:48.000Z",
       "playText": "Paul McNeil made Free Throw.",
       "participants": [
         {
@@ -1630,6 +1641,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 38858196,
+      "sourceId": "401817254114225593",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 185,
+      "team": "NC State",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 320,
+      "opponent": "UNC Greensboro",
+      "opponentConference": "SoCon",
+      "opponentSeed": null,
+      "homeScore": 13,
+      "awayScore": 13,
+      "homeWinProbability": 0.571,
+      "period": 1,
+      "clock": "15:38",
+      "secondsRemaining": 938,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-13T01:23:27.000Z",
+      "playText": "Paul McNeil Jr. made Free Throw.",
+      "participants": [
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202922,
+          "name": "KJ Younger",
+          "team": "UNC Greensboro"
+        },
+        {
+          "id": 1282,
+          "name": "Quadir Copeland",
+          "team": "NC State"
+        },
+        {
+          "id": 2899,
+          "name": "Valentino Pinedo",
+          "team": "UNC Greensboro"
+        },
+        {
+          "id": 240,
+          "name": "Ven-Allen Lubin",
+          "team": "NC State"
+        },
+        {
+          "id": 2481,
+          "name": "Tre Holloman",
+          "team": "NC State"
+        },
+        {
+          "id": 4768,
+          "name": "Justin Neely",
+          "team": "UNC Greensboro"
+        },
+        {
+          "id": 202917,
+          "name": "Lilian Marville",
+          "team": "UNC Greensboro"
+        },
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr.",
+          "team": "NC State"
+        },
+        {
+          "id": 7582,
+          "name": "Darrion Williams",
+          "team": "NC State"
+        },
+        {
+          "id": 202921,
+          "name": "Donald Whitehead Jr.",
+          "team": "UNC Greensboro"
+        }
+      ]
+    },
+    {
+      "gameId": 209883,
+      "gameSourceId": "401817254",
+      "gameStartDate": "2025-11-13T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 38858197,
       "sourceId": "401817254114225595",
       "playType": "MadeFreeThrow",
@@ -1752,113 +1870,6 @@
       "homeScore": 15,
       "awayScore": 13,
       "homeWinProbability": 0.686,
-      "period": 1,
-      "clock": "15:38",
-      "secondsRemaining": 938,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-13T01:23:27.000Z",
-      "playText": "Paul McNeil Jr. made Free Throw.",
-      "participants": [
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 202922,
-          "name": "KJ Younger",
-          "team": "UNC Greensboro"
-        },
-        {
-          "id": 1282,
-          "name": "Quadir Copeland",
-          "team": "NC State"
-        },
-        {
-          "id": 2899,
-          "name": "Valentino Pinedo",
-          "team": "UNC Greensboro"
-        },
-        {
-          "id": 240,
-          "name": "Ven-Allen Lubin",
-          "team": "NC State"
-        },
-        {
-          "id": 2481,
-          "name": "Tre Holloman",
-          "team": "NC State"
-        },
-        {
-          "id": 4768,
-          "name": "Justin Neely",
-          "team": "UNC Greensboro"
-        },
-        {
-          "id": 202917,
-          "name": "Lilian Marville",
-          "team": "UNC Greensboro"
-        },
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr.",
-          "team": "NC State"
-        },
-        {
-          "id": 7582,
-          "name": "Darrion Williams",
-          "team": "NC State"
-        },
-        {
-          "id": 202921,
-          "name": "Donald Whitehead Jr.",
-          "team": "UNC Greensboro"
-        }
-      ]
-    },
-    {
-      "gameId": 209883,
-      "gameSourceId": "401817254",
-      "gameStartDate": "2025-11-13T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 38858196,
-      "sourceId": "401817254114225593",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 185,
-      "team": "NC State",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 320,
-      "opponent": "UNC Greensboro",
-      "opponentConference": "SoCon",
-      "opponentSeed": null,
-      "homeScore": 13,
-      "awayScore": 13,
-      "homeWinProbability": 0.571,
       "period": 1,
       "clock": "15:38",
       "secondsRemaining": 938,
@@ -5316,8 +5327,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40050099,
-      "sourceId": "401817256114893116",
+      "id": 40050098,
+      "sourceId": "401817256114893110",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -5328,16 +5339,16 @@
       "opponent": "Seton Hall",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 59,
-      "homeWinProbability": 0.08,
+      "homeWinProbability": 0.074,
       "period": 2,
       "clock": "9:13",
       "secondsRemaining": 553,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T21:07:17.000Z",
+      "wallclock": "2025-11-24T21:06:59.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -5423,8 +5434,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40050098,
-      "sourceId": "401817256114893110",
+      "id": 40050099,
+      "sourceId": "401817256114893116",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -5435,16 +5446,16 @@
       "opponent": "Seton Hall",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 59,
-      "homeWinProbability": 0.074,
+      "homeWinProbability": 0.08,
       "period": 2,
       "clock": "9:13",
       "secondsRemaining": 553,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T21:06:59.000Z",
+      "wallclock": "2025-11-24T21:07:17.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -6822,8 +6833,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40113454,
-      "sourceId": "401831198114956108",
+      "id": 40113453,
+      "sourceId": "401831198114956107",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -6835,15 +6846,15 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 69,
-      "homeWinProbability": 0.028,
+      "awayScore": 68,
+      "homeWinProbability": 0.027,
       "period": 2,
       "clock": "3:01",
       "secondsRemaining": 181,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T21:46:44.000Z",
+      "wallclock": "2025-11-25T21:46:30.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -6929,8 +6940,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40113453,
-      "sourceId": "401831198114956107",
+      "id": 40113454,
+      "sourceId": "401831198114956108",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -6942,15 +6953,15 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 68,
-      "homeWinProbability": 0.027,
+      "awayScore": 69,
+      "homeWinProbability": 0.028,
       "period": 2,
       "clock": "3:01",
       "secondsRemaining": 181,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T21:46:30.000Z",
+      "wallclock": "2025-11-25T21:46:44.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -7254,8 +7265,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316806,
-      "sourceId": "401831202115073050",
+      "id": 40316795,
+      "sourceId": "401831202115073011",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -7267,15 +7278,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 14,
-      "awayScore": 15,
-      "homeWinProbability": 0.604,
+      "awayScore": 14,
+      "homeWinProbability": 0.623,
       "period": 1,
       "clock": "12:20",
       "secondsRemaining": 740,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T02:48:02.000Z",
+      "wallclock": "2025-11-27T02:47:31.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -7361,8 +7372,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316795,
-      "sourceId": "401831202115073011",
+      "id": 40316806,
+      "sourceId": "401831202115073050",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -7374,15 +7385,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 14,
-      "awayScore": 14,
-      "homeWinProbability": 0.623,
+      "awayScore": 15,
+      "homeWinProbability": 0.604,
       "period": 1,
       "clock": "12:20",
       "secondsRemaining": 740,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T02:47:31.000Z",
+      "wallclock": "2025-11-27T02:48:02.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -8550,8 +8561,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317139,
-      "sourceId": "401831202115077278",
+      "id": 40317138,
+      "sourceId": "401831202115077276",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -8563,15 +8574,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 93,
-      "awayScore": 86,
-      "homeWinProbability": 0.993,
+      "awayScore": 85,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "1:06",
       "secondsRemaining": 66,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:37:08.000Z",
+      "wallclock": "2025-11-27T04:36:57.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -8657,8 +8668,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317138,
-      "sourceId": "401831202115077276",
+      "id": 40317139,
+      "sourceId": "401831202115077278",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -8670,15 +8681,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 93,
-      "awayScore": 85,
-      "homeWinProbability": 0.996,
+      "awayScore": 86,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "1:06",
       "secondsRemaining": 66,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:36:57.000Z",
+      "wallclock": "2025-11-27T04:37:08.000Z",
       "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
@@ -11899,8 +11910,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41662627,
-      "sourceId": "401817259115853393",
+      "id": 41662625,
+      "sourceId": "401817259115853354",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -11911,17 +11922,17 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 32,
-      "homeWinProbability": 0.694,
+      "homeWinProbability": 0.602,
       "period": 2,
       "clock": "17:38",
       "secondsRemaining": 1058,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T23:39:32.000Z",
-      "playText": "Paul McNeil Jr. made Free Throw.",
+      "wallclock": "2025-12-13T23:39:16.000Z",
+      "playText": "Paul McNeil Jr. missed Free Throw.",
       "participants": [
         {
           "id": 2862,
@@ -11933,7 +11944,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12006,8 +12017,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41662625,
-      "sourceId": "401817259115853354",
+      "id": 41662627,
+      "sourceId": "401817259115853393",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -12018,17 +12029,17 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 32,
-      "homeWinProbability": 0.602,
+      "homeWinProbability": 0.694,
       "period": 2,
       "clock": "17:38",
       "secondsRemaining": 1058,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T23:39:16.000Z",
-      "playText": "Paul McNeil Jr. missed Free Throw.",
+      "wallclock": "2025-12-13T23:39:32.000Z",
+      "playText": "Paul McNeil Jr. made Free Throw.",
       "participants": [
         {
           "id": 2862,
@@ -12040,7 +12051,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13409,8 +13420,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006102,
-      "sourceId": "401817260116018119",
+      "id": 42006099,
+      "sourceId": "401817260116018075",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -13421,17 +13432,17 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 13,
-      "homeWinProbability": 0.981,
+      "homeWinProbability": 0.979,
       "period": 1,
       "clock": "8:48",
       "secondsRemaining": 528,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T00:30:23.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
+      "wallclock": "2025-12-18T00:30:03.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
       "participants": [
         {
           "id": 2862,
@@ -13516,8 +13527,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006099,
-      "sourceId": "401817260116018075",
+      "id": 42006102,
+      "sourceId": "401817260116018119",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -13528,17 +13539,17 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 13,
-      "homeWinProbability": 0.979,
+      "homeWinProbability": 0.981,
       "period": 1,
       "clock": "8:48",
       "secondsRemaining": 528,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T00:30:03.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "wallclock": "2025-12-18T00:30:23.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 2862,
@@ -13956,9 +13967,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006235,
-      "sourceId": "401817260116030597",
-      "playType": "JumpShot",
+      "id": 42006241,
+      "sourceId": "401817260116031587",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
       "team": "NC State",
@@ -13968,7 +13979,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 43,
       "homeWinProbability": 1,
       "period": 2,
@@ -13976,14 +13987,10 @@
       "secondsRemaining": 940,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2025-12-18T01:15:13.000Z",
-      "playText": "Paul McNeil Jr. makes 29-foot three point jumper (Ven-Allen Lubin assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-18T01:18:26.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 240,
-          "name": "Ven-Allen Lubin"
-        },
         {
           "id": 2862,
           "name": "Paul McNeil Jr."
@@ -13995,15 +14002,15 @@
           "name": "Paul McNeil Jr."
         },
         "made": true,
-        "range": "three_pointer",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 240,
-          "name": "Ven-Allen Lubin"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 601.6,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -14067,9 +14074,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006241,
-      "sourceId": "401817260116031587",
-      "playType": "MadeFreeThrow",
+      "id": 42006235,
+      "sourceId": "401817260116030597",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 185,
       "team": "NC State",
@@ -14079,7 +14086,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 43,
       "homeWinProbability": 1,
       "period": 2,
@@ -14087,10 +14094,14 @@
       "secondsRemaining": 940,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-18T01:18:26.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 1",
+      "scoreValue": 3,
+      "wallclock": "2025-12-18T01:15:13.000Z",
+      "playText": "Paul McNeil Jr. makes 29-foot three point jumper (Ven-Allen Lubin assists)",
       "participants": [
+        {
+          "id": 240,
+          "name": "Ven-Allen Lubin"
+        },
         {
           "id": 2862,
           "name": "Paul McNeil Jr."
@@ -14102,15 +14113,15 @@
           "name": "Paul McNeil Jr."
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "three_pointer",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 240,
+          "name": "Ven-Allen Lubin"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 601.6,
+          "y": 235
         }
       },
       "onFloor": [
@@ -14388,113 +14399,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006370,
-      "sourceId": "401817260116040534",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 185,
-      "team": "NC State",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 296,
-      "opponent": "Texas Southern",
-      "opponentConference": "SWAC",
-      "opponentSeed": null,
-      "homeScore": 92,
-      "awayScore": 52,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "6:49",
-      "secondsRemaining": 409,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-18T01:47:10.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5928,
-          "name": "Jordan Hamilton",
-          "team": "Texas Southern"
-        },
-        {
-          "id": 4057,
-          "name": "Duane Posey",
-          "team": "Texas Southern"
-        },
-        {
-          "id": 2481,
-          "name": "Tre Holloman",
-          "team": "NC State"
-        },
-        {
-          "id": 200773,
-          "name": "Matt Able",
-          "team": "NC State"
-        },
-        {
-          "id": 6761,
-          "name": "Scottie Ebube",
-          "team": "NC State"
-        },
-        {
-          "id": 118,
-          "name": "Terrance Arceneaux",
-          "team": "NC State"
-        },
-        {
-          "id": 4053,
-          "name": "Oumar Koureissi",
-          "team": "Texas Southern"
-        },
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr.",
-          "team": "NC State"
-        },
-        {
-          "id": 4062,
-          "name": "Jaylen Wysinger",
-          "team": "Texas Southern"
-        },
-        {
-          "id": 4055,
-          "name": "Zaire Hayes",
-          "team": "Texas Southern"
-        }
-      ]
-    },
-    {
-      "gameId": 210297,
-      "gameSourceId": "401817260",
-      "gameStartDate": "2025-12-18T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42006365,
       "sourceId": "401817260116040413",
       "playType": "MadeFreeThrow",
@@ -14602,8 +14506,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006389,
-      "sourceId": "401817260116041635",
+      "id": 42006370,
+      "sourceId": "401817260116040534",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -14614,7 +14518,114 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 97,
+      "homeScore": 92,
+      "awayScore": 52,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "6:49",
+      "secondsRemaining": 409,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-18T01:47:10.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5928,
+          "name": "Jordan Hamilton",
+          "team": "Texas Southern"
+        },
+        {
+          "id": 4057,
+          "name": "Duane Posey",
+          "team": "Texas Southern"
+        },
+        {
+          "id": 2481,
+          "name": "Tre Holloman",
+          "team": "NC State"
+        },
+        {
+          "id": 200773,
+          "name": "Matt Able",
+          "team": "NC State"
+        },
+        {
+          "id": 6761,
+          "name": "Scottie Ebube",
+          "team": "NC State"
+        },
+        {
+          "id": 118,
+          "name": "Terrance Arceneaux",
+          "team": "NC State"
+        },
+        {
+          "id": 4053,
+          "name": "Oumar Koureissi",
+          "team": "Texas Southern"
+        },
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr.",
+          "team": "NC State"
+        },
+        {
+          "id": 4062,
+          "name": "Jaylen Wysinger",
+          "team": "Texas Southern"
+        },
+        {
+          "id": 4055,
+          "name": "Zaire Hayes",
+          "team": "Texas Southern"
+        }
+      ]
+    },
+    {
+      "gameId": 210297,
+      "gameSourceId": "401817260",
+      "gameStartDate": "2025-12-18T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42006390,
+      "sourceId": "401817260116041643",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 185,
+      "team": "NC State",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 296,
+      "opponent": "Texas Southern",
+      "opponentConference": "SWAC",
+      "opponentSeed": null,
+      "homeScore": 98,
       "awayScore": 60,
       "homeWinProbability": 1,
       "period": 2,
@@ -14623,8 +14634,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T01:51:45.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-18T01:51:59.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -14709,8 +14720,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006390,
-      "sourceId": "401817260116041643",
+      "id": 42006389,
+      "sourceId": "401817260116041635",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -14721,7 +14732,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 98,
+      "homeScore": 97,
       "awayScore": 60,
       "homeWinProbability": 1,
       "period": 2,
@@ -14730,8 +14741,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T01:51:59.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2025-12-18T01:51:45.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -15145,8 +15156,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006420,
-      "sourceId": "401817260116043359",
+      "id": 42006421,
+      "sourceId": "401817260116043412",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -15157,7 +15168,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 107,
+      "homeScore": 108,
       "awayScore": 66,
       "homeWinProbability": 1,
       "period": 2,
@@ -15166,8 +15177,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T01:59:49.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-18T02:00:02.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -15252,8 +15263,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42006421,
-      "sourceId": "401817260116043412",
+      "id": 42006420,
+      "sourceId": "401817260116043359",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -15264,7 +15275,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 108,
+      "homeScore": 107,
       "awayScore": 66,
       "homeWinProbability": 1,
       "period": 2,
@@ -15273,8 +15284,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T02:00:02.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2025-12-18T01:59:49.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -16885,9 +16896,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42388118,
-      "sourceId": "401817261116260032",
-      "playType": "MadeFreeThrow",
+      "id": 42388116,
+      "sourceId": "401817261116259883",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 185,
       "team": "NC State",
@@ -16903,11 +16914,11 @@
       "period": 2,
       "clock": "13:47",
       "secondsRemaining": 827,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-21T19:27:09.000Z",
-      "playText": "Paul McNeil Jr. misses free throw 1 of 1",
+      "scoreValue": 3,
+      "wallclock": "2025-12-21T19:26:38.000Z",
+      "playText": "Paul McNeil Jr. makes 24-foot three point jumper",
       "participants": [
         {
           "id": 2862,
@@ -16919,16 +16930,16 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "three_pointer",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 10
         }
       },
       "onFloor": [
@@ -16992,9 +17003,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42388116,
-      "sourceId": "401817261116259883",
-      "playType": "JumpShot",
+      "id": 42388118,
+      "sourceId": "401817261116260032",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
       "team": "NC State",
@@ -17010,11 +17021,11 @@
       "period": 2,
       "clock": "13:47",
       "secondsRemaining": 827,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2025-12-21T19:26:38.000Z",
-      "playText": "Paul McNeil Jr. makes 24-foot three point jumper",
+      "scoreValue": 1,
+      "wallclock": "2025-12-21T19:27:09.000Z",
+      "playText": "Paul McNeil Jr. misses free throw 1 of 1",
       "participants": [
         {
           "id": 2862,
@@ -17026,16 +17037,16 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": true,
-        "range": "three_pointer",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 10
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -18823,8 +18834,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43190274,
-      "sourceId": "401820646116689990",
+      "id": 43190272,
+      "sourceId": "401820646116689988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -18844,8 +18855,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T16:43:17.000Z",
-      "playText": "Paul McNeil Jr. misses free throw 2 of 3",
+      "wallclock": "2026-01-03T16:43:03.000Z",
+      "playText": "Paul McNeil Jr. misses free throw 1 of 3",
       "participants": [
         {
           "id": 2862,
@@ -18930,8 +18941,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43190272,
-      "sourceId": "401820646116689988",
+      "id": 43190274,
+      "sourceId": "401820646116689990",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -18951,8 +18962,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T16:43:03.000Z",
-      "playText": "Paul McNeil Jr. misses free throw 1 of 3",
+      "wallclock": "2026-01-03T16:43:17.000Z",
+      "playText": "Paul McNeil Jr. misses free throw 2 of 3",
       "participants": [
         {
           "id": 2862,
@@ -19468,8 +19479,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43190367,
-      "sourceId": "401820646116691179",
+      "id": 43190368,
+      "sourceId": "401820646116691200",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -19480,17 +19491,17 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 44,
-      "homeWinProbability": 0.174,
+      "homeWinProbability": 0.205,
       "period": 2,
       "clock": "16:41",
       "secondsRemaining": 1001,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T17:20:03.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-03T17:20:18.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -19575,8 +19586,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43190368,
-      "sourceId": "401820646116691200",
+      "id": 43190367,
+      "sourceId": "401820646116691179",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -19587,17 +19598,17 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 44,
-      "homeWinProbability": 0.205,
+      "homeWinProbability": 0.174,
       "period": 2,
       "clock": "16:41",
       "secondsRemaining": 1001,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T17:20:18.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-03T17:20:03.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -19900,8 +19911,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43190518,
-      "sourceId": "401820646116693245",
+      "id": 43190513,
+      "sourceId": "401820646116693235",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -19912,7 +19923,7 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 74,
       "homeWinProbability": 0.001,
       "period": 2,
@@ -19921,8 +19932,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:00:03.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-03T17:59:38.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -20007,8 +20018,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43190513,
-      "sourceId": "401820646116693235",
+      "id": 43190518,
+      "sourceId": "401820646116693245",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -20019,7 +20030,7 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 74,
       "homeWinProbability": 0.001,
       "period": 2,
@@ -20028,8 +20039,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T17:59:38.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-03T18:00:03.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -22936,8 +22947,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43852911,
-      "sourceId": "401820658117080882",
+      "id": 43852916,
+      "sourceId": "401820658117080971",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -22949,16 +22960,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 74,
+      "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:34",
       "secondsRemaining": 814,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T18:33:53.000Z",
-      "playText": "Paul McNeil Jr. misses free throw 1 of 3",
+      "wallclock": "2026-01-10T18:34:28.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 2862,
@@ -22970,7 +22981,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -23150,8 +23161,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43852916,
-      "sourceId": "401820658117080971",
+      "id": 43852911,
+      "sourceId": "401820658117080882",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -23163,16 +23174,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 76,
+      "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:34",
       "secondsRemaining": 814,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T18:34:28.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
+      "wallclock": "2026-01-10T18:33:53.000Z",
+      "playText": "Paul McNeil Jr. misses free throw 1 of 3",
       "participants": [
         {
           "id": 2862,
@@ -23184,7 +23195,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -24767,8 +24778,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44511763,
-      "sourceId": "401820678117451716",
+      "id": 44511764,
+      "sourceId": "401820678117451926",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -24779,17 +24790,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 74,
       "awayScore": 77,
-      "homeWinProbability": 0.062,
+      "homeWinProbability": 0.099,
       "period": 2,
       "clock": "0:39",
       "secondsRemaining": 39,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:13:42.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-17T19:14:01.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -24874,8 +24885,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44511764,
-      "sourceId": "401820678117451926",
+      "id": 44511763,
+      "sourceId": "401820678117451716",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -24886,17 +24897,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 73,
       "awayScore": 77,
-      "homeWinProbability": 0.099,
+      "homeWinProbability": 0.062,
       "period": 2,
       "clock": "0:39",
       "secondsRemaining": 39,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:14:01.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-17T19:13:42.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -30181,9 +30192,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45807507,
-      "sourceId": "401820713118171691",
-      "playType": "LayUpShot",
+      "id": 45807511,
+      "sourceId": "401820713118171793",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
       "team": "NC State",
@@ -30194,16 +30205,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 83,
-      "homeWinProbability": 0.006,
+      "awayScore": 84,
+      "homeWinProbability": 0.008,
       "period": 2,
       "clock": "3:47",
       "secondsRemaining": 227,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T18:48:45.000Z",
-      "playText": "Paul McNeil Jr. makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T18:49:44.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 2862,
@@ -30216,15 +30227,15 @@
           "name": "Paul McNeil Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 215
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -30288,9 +30299,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45807511,
-      "sourceId": "401820713118171793",
-      "playType": "MadeFreeThrow",
+      "id": 45807507,
+      "sourceId": "401820713118171691",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 185,
       "team": "NC State",
@@ -30301,16 +30312,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 84,
-      "homeWinProbability": 0.008,
+      "awayScore": 83,
+      "homeWinProbability": 0.006,
       "period": 2,
       "clock": "3:47",
       "secondsRemaining": 227,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T18:49:44.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T18:48:45.000Z",
+      "playText": "Paul McNeil Jr. makes layup",
       "participants": [
         {
           "id": 2862,
@@ -30323,15 +30334,15 @@
           "name": "Paul McNeil Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 215
         }
       },
       "onFloor": [
@@ -32135,8 +32146,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46442096,
-      "sourceId": "401820723118525206",
+      "id": 46442095,
+      "sourceId": "401820723118525129",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -32147,17 +32158,17 @@
       "opponent": "Virginia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 27,
-      "homeWinProbability": 0.921,
+      "homeWinProbability": 0.901,
       "period": 2,
       "clock": "18:58",
       "secondsRemaining": 1138,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:13:32.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "wallclock": "2026-02-07T18:13:13.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 3",
       "participants": [
         {
           "id": 2862,
@@ -32349,8 +32360,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46442095,
-      "sourceId": "401820723118525129",
+      "id": 46442096,
+      "sourceId": "401820723118525206",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -32361,17 +32372,17 @@
       "opponent": "Virginia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 27,
-      "homeWinProbability": 0.901,
+      "homeWinProbability": 0.921,
       "period": 2,
       "clock": "18:58",
       "secondsRemaining": 1138,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:13:13.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 3",
+      "wallclock": "2026-02-07T18:13:32.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
       "participants": [
         {
           "id": 2862,
@@ -33102,8 +33113,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46442227,
-      "sourceId": "401820723118534162",
+      "id": 46442228,
+      "sourceId": "401820723118534171",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -33114,17 +33125,17 @@
       "opponent": "Virginia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 57,
-      "homeWinProbability": 0.982,
+      "homeWinProbability": 0.992,
       "period": 2,
       "clock": "6:19",
       "secondsRemaining": 379,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:49:08.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-07T18:49:30.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -33209,8 +33220,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46442228,
-      "sourceId": "401820723118534171",
+      "id": 46442227,
+      "sourceId": "401820723118534162",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -33221,17 +33232,17 @@
       "opponent": "Virginia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 57,
-      "homeWinProbability": 0.992,
+      "homeWinProbability": 0.982,
       "period": 2,
       "clock": "6:19",
       "secondsRemaining": 379,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:49:30.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-07T18:49:08.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -36352,8 +36363,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47983534,
-      "sourceId": "401820763119441624",
+      "id": 47983528,
+      "sourceId": "401820763119441547",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -36365,7 +36376,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 18,
+      "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
       "clock": "5:46",
@@ -36373,8 +36384,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:36:38.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
+      "wallclock": "2026-02-25T00:36:02.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 3",
       "participants": [
         {
           "id": 2862,
@@ -36566,8 +36577,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47983528,
-      "sourceId": "401820763119441547",
+      "id": 47983534,
+      "sourceId": "401820763119441624",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -36579,7 +36590,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 16,
+      "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
       "clock": "5:46",
@@ -36587,8 +36598,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:36:02.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 3",
+      "wallclock": "2026-02-25T00:36:38.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 2862,
@@ -37212,8 +37223,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47983807,
-      "sourceId": "401820763119447727",
+      "id": 47983812,
+      "sourceId": "401820763119447772",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -37225,7 +37236,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 40,
+      "awayScore": 41,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:50",
@@ -37233,8 +37244,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:33:05.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-25T01:33:25.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -37319,8 +37330,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47983812,
-      "sourceId": "401820763119447772",
+      "id": 47983807,
+      "sourceId": "401820763119447727",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -37332,7 +37343,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 41,
+      "awayScore": 40,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:50",
@@ -37340,8 +37351,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:33:25.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-25T01:33:05.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -40036,8 +40047,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48572192,
-      "sourceId": "401820778119798147",
+      "id": 48572195,
+      "sourceId": "401820778119798170",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -40048,7 +40059,7 @@
       "opponent": "Duke",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 42,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -40057,8 +40068,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-03T01:28:37.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "wallclock": "2026-03-03T01:28:56.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 2862,
@@ -40143,8 +40154,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48572195,
-      "sourceId": "401820778119798170",
+      "id": 48572192,
+      "sourceId": "401820778119798147",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -40155,7 +40166,7 @@
       "opponent": "Duke",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 41,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -40164,8 +40175,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-03T01:28:56.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
+      "wallclock": "2026-03-03T01:28:37.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
       "participants": [
         {
           "id": 2862,
@@ -40793,8 +40804,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48928673,
-      "sourceId": "401820791120021828",
+      "id": 48928672,
+      "sourceId": "401820791120021775",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -40805,7 +40816,7 @@
       "opponent": "Stanford",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
@@ -40814,8 +40825,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T19:43:02.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
+      "wallclock": "2026-03-07T19:42:49.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
       "participants": [
         {
           "id": 2862,
@@ -41007,8 +41018,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48928672,
-      "sourceId": "401820791120021775",
+      "id": 48928673,
+      "sourceId": "401820791120021828",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -41019,7 +41030,7 @@
       "opponent": "Stanford",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
@@ -41028,8 +41039,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T19:42:49.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "wallclock": "2026-03-07T19:43:02.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 2862,
@@ -41546,8 +41557,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48928965,
-      "sourceId": "401820791120041240",
+      "id": 48928966,
+      "sourceId": "401820791120041302",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -41558,7 +41569,7 @@
       "opponent": "Stanford",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 70,
       "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
@@ -41567,8 +41578,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T21:13:35.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "wallclock": "2026-03-07T21:13:51.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 2862,
@@ -41653,8 +41664,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48928966,
-      "sourceId": "401820791120041302",
+      "id": 48928965,
+      "sourceId": "401820791120041240",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -41665,7 +41676,7 @@
       "opponent": "Stanford",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 69,
       "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
@@ -41674,8 +41685,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T21:13:51.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 3 of 3",
+      "wallclock": "2026-03-07T21:13:35.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
       "participants": [
         {
           "id": 2862,
@@ -42299,8 +42310,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49231554,
-      "sourceId": "401851173120162229",
+      "id": 49231523,
+      "sourceId": "401851173120162221",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -42311,17 +42322,17 @@
       "opponent": "Pittsburgh",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:57",
       "secondsRemaining": 417,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T16:34:26.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-11T16:34:11.000Z",
+      "playText": "Paul McNeil Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 2862,
@@ -42333,7 +42344,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42406,8 +42417,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49231523,
-      "sourceId": "401851173120162221",
+      "id": 49231554,
+      "sourceId": "401851173120162229",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 185,
@@ -42418,17 +42429,17 @@
       "opponent": "Pittsburgh",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:57",
       "secondsRemaining": 417,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T16:34:11.000Z",
-      "playText": "Paul McNeil Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-11T16:34:26.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -42440,7 +42451,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45014,113 +45025,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49304716,
-      "sourceId": "401851177120197117",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 185,
-      "team": "NC State",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 339,
-      "opponent": "Virginia",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 72,
-      "awayScore": 66,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "2:00",
-      "secondsRemaining": 120,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-12T18:04:13.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 2862,
-          "name": "Paul McNeil Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7614,
-          "name": "Ugonna Onyenso",
-          "team": "Virginia"
-        },
-        {
-          "id": 240,
-          "name": "Ven-Allen Lubin",
-          "team": "NC State"
-        },
-        {
-          "id": 2862,
-          "name": "Paul McNeil Jr.",
-          "team": "NC State"
-        },
-        {
-          "id": 7709,
-          "name": "Malik Thomas",
-          "team": "Virginia"
-        },
-        {
-          "id": 203190,
-          "name": "Thijs De Ridder",
-          "team": "Virginia"
-        },
-        {
-          "id": 2481,
-          "name": "Tre Holloman",
-          "team": "NC State"
-        },
-        {
-          "id": 7582,
-          "name": "Darrion Williams",
-          "team": "NC State"
-        },
-        {
-          "id": 7686,
-          "name": "Dallin Hall",
-          "team": "Virginia"
-        },
-        {
-          "id": 1282,
-          "name": "Quadir Copeland",
-          "team": "NC State"
-        },
-        {
-          "id": 203196,
-          "name": "Chance Mallory",
-          "team": "Virginia"
-        }
-      ]
-    },
-    {
-      "gameId": 372363,
-      "gameSourceId": "401851177",
-      "gameStartDate": "2026-03-12T16:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49304715,
       "sourceId": "401851177120197116",
       "playType": "MadeFreeThrow",
@@ -45228,8 +45132,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49304733,
-      "sourceId": "401851177120197349",
+      "id": 49304716,
+      "sourceId": "401851177120197117",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -45240,17 +45144,17 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 76,
-      "awayScore": 69,
+      "homeScore": 72,
+      "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "0:55",
-      "secondsRemaining": 55,
-      "scoringPlay": false,
+      "clock": "2:00",
+      "secondsRemaining": 120,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T18:08:22.000Z",
-      "playText": "Paul McNeil Jr. misses free throw 1 of 3",
+      "wallclock": "2026-03-12T18:04:13.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 2862,
@@ -45262,7 +45166,114 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": false,
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7614,
+          "name": "Ugonna Onyenso",
+          "team": "Virginia"
+        },
+        {
+          "id": 240,
+          "name": "Ven-Allen Lubin",
+          "team": "NC State"
+        },
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr.",
+          "team": "NC State"
+        },
+        {
+          "id": 7709,
+          "name": "Malik Thomas",
+          "team": "Virginia"
+        },
+        {
+          "id": 203190,
+          "name": "Thijs De Ridder",
+          "team": "Virginia"
+        },
+        {
+          "id": 2481,
+          "name": "Tre Holloman",
+          "team": "NC State"
+        },
+        {
+          "id": 7582,
+          "name": "Darrion Williams",
+          "team": "NC State"
+        },
+        {
+          "id": 7686,
+          "name": "Dallin Hall",
+          "team": "Virginia"
+        },
+        {
+          "id": 1282,
+          "name": "Quadir Copeland",
+          "team": "NC State"
+        },
+        {
+          "id": 203196,
+          "name": "Chance Mallory",
+          "team": "Virginia"
+        }
+      ]
+    },
+    {
+      "gameId": 372363,
+      "gameSourceId": "401851177",
+      "gameStartDate": "2026-03-12T16:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49304735,
+      "sourceId": "401851177120197351",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 185,
+      "team": "NC State",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 339,
+      "opponent": "Virginia",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 76,
+      "awayScore": 70,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:55",
+      "secondsRemaining": 55,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-12T18:08:37.000Z",
+      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "participants": [
+        {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 2862,
+          "name": "Paul McNeil Jr."
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45335,8 +45346,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49304735,
-      "sourceId": "401851177120197351",
+      "id": 49304733,
+      "sourceId": "401851177120197349",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 185,
@@ -45348,16 +45359,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 70,
+      "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:55",
       "secondsRemaining": 55,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T18:08:37.000Z",
-      "playText": "Paul McNeil Jr. makes free throw 2 of 3",
+      "wallclock": "2026-03-12T18:08:22.000Z",
+      "playText": "Paul McNeil Jr. misses free throw 1 of 3",
       "participants": [
         {
           "id": 2862,
@@ -45369,7 +45380,7 @@
           "id": 2862,
           "name": "Paul McNeil Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45811,8 +45822,8 @@
       },
       "onFloor": [
         {
-          "id": 448,
-          "name": "Tramon Mark",
+          "id": 2862,
+          "name": "Paul McNeil Jr.",
           "team": "Saint Joseph's"
         },
         {
@@ -45821,13 +45832,8 @@
           "team": "Saint Joseph's"
         },
         {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 240,
-          "name": "Ven-Allen Lubin",
+          "id": 371,
+          "name": "Camden Heide",
           "team": "Saint Joseph's"
         },
         {
@@ -45836,13 +45842,23 @@
           "team": "Saint Joseph's"
         },
         {
-          "id": 371,
-          "name": "Camden Heide",
+          "id": 240,
+          "name": "Ven-Allen Lubin",
           "team": "Saint Joseph's"
         },
         {
-          "id": 2862,
-          "name": "Paul McNeil Jr.",
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 200773,
+          "name": "Matt Able",
           "team": "Saint Joseph's"
         },
         {
@@ -45853,11 +45869,6 @@
         {
           "id": 7582,
           "name": "Darrion Williams",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 200773,
-          "name": "Matt Able",
           "team": "Saint Joseph's"
         }
       ]
@@ -45918,13 +45929,18 @@
       },
       "onFloor": [
         {
+          "id": 2862,
+          "name": "Paul McNeil Jr.",
+          "team": "Saint Joseph's"
+        },
+        {
           "id": 6761,
           "name": "Scottie Ebube",
           "team": "Saint Joseph's"
         },
         {
-          "id": 2862,
-          "name": "Paul McNeil Jr.",
+          "id": 200773,
+          "name": "Matt Able",
           "team": "Saint Joseph's"
         },
         {
@@ -45933,28 +45949,8 @@
           "team": "Saint Joseph's"
         },
         {
-          "id": 1428,
-          "name": "Simeon Wilcher",
-          "team": "Saint Joseph's"
-        },
-        {
           "id": 4065,
           "name": "Dailyn Swain",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 118,
-          "name": "Terrance Arceneaux",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
           "team": "Saint Joseph's"
         },
         {
@@ -45963,8 +45959,23 @@
           "team": "Saint Joseph's"
         },
         {
-          "id": 200773,
-          "name": "Matt Able",
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 1428,
+          "name": "Simeon Wilcher",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 118,
+          "name": "Terrance Arceneaux",
           "team": "Saint Joseph's"
         }
       ]
@@ -46025,36 +46036,6 @@
       },
       "onFloor": [
         {
-          "id": 240,
-          "name": "Ven-Allen Lubin",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 7582,
-          "name": "Darrion Williams",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 1282,
-          "name": "Quadir Copeland",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 200773,
-          "name": "Matt Able",
-          "team": "Saint Joseph's"
-        },
-        {
           "id": 3922,
           "name": "Matas Vokietaitis",
           "team": "Saint Joseph's"
@@ -46072,6 +46053,36 @@
         {
           "id": 436,
           "name": "Jordan Pope",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 200773,
+          "name": "Matt Able",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 1282,
+          "name": "Quadir Copeland",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 7582,
+          "name": "Darrion Williams",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 240,
+          "name": "Ven-Allen Lubin",
           "team": "Saint Joseph's"
         }
       ]
@@ -46132,31 +46143,6 @@
       },
       "onFloor": [
         {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 7582,
-          "name": "Darrion Williams",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 1282,
-          "name": "Quadir Copeland",
-          "team": "Saint Joseph's"
-        },
-        {
-          "id": 200773,
-          "name": "Matt Able",
-          "team": "Saint Joseph's"
-        },
-        {
           "id": 3922,
           "name": "Matas Vokietaitis",
           "team": "Saint Joseph's"
@@ -46179,6 +46165,31 @@
         {
           "id": 436,
           "name": "Jordan Pope",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 200773,
+          "name": "Matt Able",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 1282,
+          "name": "Quadir Copeland",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 7582,
+          "name": "Darrion Williams",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Saint Joseph's"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
           "team": "Saint Joseph's"
         }
       ]

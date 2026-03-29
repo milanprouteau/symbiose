@@ -30,7 +30,8 @@ export default function NavigationLoader() {
 
   // Stop le loader quand l'URL change (nouvelle page rendue)
   useEffect(() => {
-    setLoading(false);
+    const id = setTimeout(() => setLoading(false), 0);
+    return () => clearTimeout(id);
   }, [pathname]);
 
   useEffect(() => {

@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "21",
+    "position": "Guard",
+    "height": 78,
+    "weight": 190,
+    "hometown": {
+      "city": "Stockton",
+      "state": "CA"
+    },
+    "dateOfBirth": null
+  },
   "shots": [
     {
       "gameId": 212833,
@@ -3039,8 +3050,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39479928,
-      "sourceId": "401823763114577804",
+      "id": 39479927,
+      "sourceId": "401823763114577778",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -3051,16 +3062,16 @@
       "opponent": "Troy",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 17,
       "awayScore": 23,
-      "homeWinProbability": 0.494,
+      "homeWinProbability": 0.463,
       "period": 1,
       "clock": "10:04",
       "secondsRemaining": 604,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T03:27:18.000Z",
+      "wallclock": "2025-11-19T03:27:02.000Z",
       "playText": "Miles Byrd made Free Throw.",
       "participants": [
         {
@@ -3146,8 +3157,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39479927,
-      "sourceId": "401823763114577778",
+      "id": 39479928,
+      "sourceId": "401823763114577804",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -3158,16 +3169,16 @@
       "opponent": "Troy",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 18,
       "awayScore": 23,
-      "homeWinProbability": 0.463,
+      "homeWinProbability": 0.494,
       "period": 1,
       "clock": "10:04",
       "secondsRemaining": 604,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T03:27:02.000Z",
+      "wallclock": "2025-11-19T03:27:18.000Z",
       "playText": "Miles Byrd made Free Throw.",
       "participants": [
         {
@@ -4232,6 +4243,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 39480511,
+      "sourceId": "401823763114584197",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 257,
+      "team": "San Diego State",
+      "conference": "Mountain West",
+      "teamSeed": null,
+      "opponentId": 302,
+      "opponent": "Troy",
+      "opponentConference": "Sun Belt",
+      "opponentSeed": null,
+      "homeScore": 85,
+      "awayScore": 88,
+      "homeWinProbability": 0.068,
+      "period": 2,
+      "clock": "0:02",
+      "secondsRemaining": 2,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-19T05:16:33.000Z",
+      "playText": "Miles Byrd made Free Throw.",
+      "participants": [
+        {
+          "id": 8457,
+          "name": "Miles Byrd"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 8457,
+          "name": "Miles Byrd"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2543,
+          "name": "Austin Cross",
+          "team": "Troy"
+        },
+        {
+          "id": 8457,
+          "name": "Miles Byrd",
+          "team": "San Diego State"
+        },
+        {
+          "id": 8462,
+          "name": "Taj DeGourville",
+          "team": "San Diego State"
+        },
+        {
+          "id": 3633,
+          "name": "Sean Newman Jr.",
+          "team": "San Diego State"
+        },
+        {
+          "id": 2545,
+          "name": "Cobi Campbell",
+          "team": "Troy"
+        },
+        {
+          "id": 8454,
+          "name": "Magoon Gwath",
+          "team": "San Diego State"
+        },
+        {
+          "id": 2541,
+          "name": "Cooper Campbell",
+          "team": "Troy"
+        },
+        {
+          "id": 2532,
+          "name": "Thomas Dowd",
+          "team": "Troy"
+        },
+        {
+          "id": 201880,
+          "name": "Reese Dixon-Waters",
+          "team": "San Diego State"
+        },
+        {
+          "id": 2539,
+          "name": "Theo Seng",
+          "team": "Troy"
+        }
+      ]
+    },
+    {
+      "gameId": 213274,
+      "gameSourceId": "401823763",
+      "gameStartDate": "2025-11-19T03:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 39480513,
       "sourceId": "401823763114584204",
       "playType": "MadeFreeThrow",
@@ -4361,113 +4479,6 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-11-19T05:16:46.000Z",
-      "playText": "Miles Byrd made Free Throw.",
-      "participants": [
-        {
-          "id": 8457,
-          "name": "Miles Byrd"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 8457,
-          "name": "Miles Byrd"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2543,
-          "name": "Austin Cross",
-          "team": "Troy"
-        },
-        {
-          "id": 8457,
-          "name": "Miles Byrd",
-          "team": "San Diego State"
-        },
-        {
-          "id": 8462,
-          "name": "Taj DeGourville",
-          "team": "San Diego State"
-        },
-        {
-          "id": 3633,
-          "name": "Sean Newman Jr.",
-          "team": "San Diego State"
-        },
-        {
-          "id": 2545,
-          "name": "Cobi Campbell",
-          "team": "Troy"
-        },
-        {
-          "id": 8454,
-          "name": "Magoon Gwath",
-          "team": "San Diego State"
-        },
-        {
-          "id": 2541,
-          "name": "Cooper Campbell",
-          "team": "Troy"
-        },
-        {
-          "id": 2532,
-          "name": "Thomas Dowd",
-          "team": "Troy"
-        },
-        {
-          "id": 201880,
-          "name": "Reese Dixon-Waters",
-          "team": "San Diego State"
-        },
-        {
-          "id": 2539,
-          "name": "Theo Seng",
-          "team": "Troy"
-        }
-      ]
-    },
-    {
-      "gameId": 213274,
-      "gameSourceId": "401823763",
-      "gameStartDate": "2025-11-19T03:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 39480511,
-      "sourceId": "401823763114584197",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 257,
-      "team": "San Diego State",
-      "conference": "Mountain West",
-      "teamSeed": null,
-      "opponentId": 302,
-      "opponent": "Troy",
-      "opponentConference": "Sun Belt",
-      "opponentSeed": null,
-      "homeScore": 85,
-      "awayScore": 88,
-      "homeWinProbability": 0.068,
-      "period": 2,
-      "clock": "0:02",
-      "secondsRemaining": 2,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-19T05:16:33.000Z",
       "playText": "Miles Byrd made Free Throw.",
       "participants": [
         {
@@ -8042,9 +8053,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40318049,
-      "sourceId": "401831219115078176",
-      "playType": "MadeFreeThrow",
+      "id": 40318047,
+      "sourceId": "401831219115078173",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 257,
       "team": "San Diego State",
@@ -8054,7 +8065,7 @@
       "opponent": "Baylor",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 80,
       "homeWinProbability": 0.001,
       "period": 2,
@@ -8062,9 +8073,9 @@
       "secondsRemaining": 115,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-27T05:34:58.000Z",
-      "playText": "Miles Byrd made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-27T05:34:32.000Z",
+      "playText": "Miles Byrd made Layup.",
       "participants": [
         {
           "id": 8457,
@@ -8077,15 +8088,15 @@
           "name": "Miles Byrd"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 275
         }
       },
       "onFloor": [
@@ -8149,9 +8160,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40318047,
-      "sourceId": "401831219115078173",
-      "playType": "LayUpShot",
+      "id": 40318049,
+      "sourceId": "401831219115078176",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
       "team": "San Diego State",
@@ -8161,7 +8172,7 @@
       "opponent": "Baylor",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 80,
       "homeWinProbability": 0.001,
       "period": 2,
@@ -8169,9 +8180,9 @@
       "secondsRemaining": 115,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-27T05:34:32.000Z",
-      "playText": "Miles Byrd made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-27T05:34:58.000Z",
+      "playText": "Miles Byrd made Free Throw.",
       "participants": [
         {
           "id": 8457,
@@ -8184,15 +8195,15 @@
           "name": "Miles Byrd"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -10103,8 +10114,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41537855,
-      "sourceId": "401823767115754126",
+      "id": 41537860,
+      "sourceId": "401823767115754140",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -10115,16 +10126,16 @@
       "opponent": "Lamar",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 30,
-      "homeWinProbability": 0.817,
+      "homeWinProbability": 0.874,
       "period": 1,
       "clock": "5:28",
       "secondsRemaining": 328,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-11T03:41:45.000Z",
+      "wallclock": "2025-12-11T03:42:13.000Z",
       "playText": "Miles Byrd made Free Throw.",
       "participants": [
         {
@@ -10210,8 +10221,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41537860,
-      "sourceId": "401823767115754140",
+      "id": 41537855,
+      "sourceId": "401823767115754126",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -10222,16 +10233,16 @@
       "opponent": "Lamar",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 30,
-      "homeWinProbability": 0.874,
+      "homeWinProbability": 0.817,
       "period": 1,
       "clock": "5:28",
       "secondsRemaining": 328,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-11T03:42:13.000Z",
+      "wallclock": "2025-12-11T03:41:45.000Z",
       "playText": "Miles Byrd made Free Throw.",
       "participants": [
         {
@@ -21125,9 +21136,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44101704,
-      "sourceId": "401823773117219722",
-      "playType": "LayUpShot",
+      "id": 44101708,
+      "sourceId": "401823773117219725",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
       "team": "San Diego State",
@@ -21143,11 +21154,11 @@
       "period": 2,
       "clock": "2:20",
       "secondsRemaining": 140,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-11T06:00:31.000Z",
-      "playText": "Miles Byrd makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-11T06:01:00.000Z",
+      "playText": "Miles Byrd misses free throw 1 of 1",
       "participants": [
         {
           "id": 8457,
@@ -21159,16 +21170,16 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -21232,9 +21243,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44101708,
-      "sourceId": "401823773117219725",
-      "playType": "MadeFreeThrow",
+      "id": 44101704,
+      "sourceId": "401823773117219722",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 257,
       "team": "San Diego State",
@@ -21250,11 +21261,11 @@
       "period": 2,
       "clock": "2:20",
       "secondsRemaining": 140,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-11T06:01:00.000Z",
-      "playText": "Miles Byrd misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-11T06:00:31.000Z",
+      "playText": "Miles Byrd makes driving layup",
       "participants": [
         {
           "id": 8457,
@@ -21266,16 +21277,16 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 285
         }
       },
       "onFloor": [
@@ -23511,113 +23522,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44697961,
-      "sourceId": "401823775117565420",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 257,
-      "team": "San Diego State",
-      "conference": "Mountain West",
-      "teamSeed": null,
-      "opponentId": 191,
-      "opponent": "New Mexico",
-      "opponentConference": "Mountain West",
-      "opponentSeed": null,
-      "homeScore": 30,
-      "awayScore": 28,
-      "homeWinProbability": 0.665,
-      "period": 1,
-      "clock": "7:52",
-      "secondsRemaining": 472,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-18T01:38:32.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 8457,
-          "name": "Miles Byrd"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 8457,
-          "name": "Miles Byrd"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 200860,
-          "name": "Jake Hall",
-          "team": "New Mexico"
-        },
-        {
-          "id": 8462,
-          "name": "Taj DeGourville",
-          "team": "San Diego State"
-        },
-        {
-          "id": 200861,
-          "name": "Luke Haupt",
-          "team": "New Mexico"
-        },
-        {
-          "id": 201883,
-          "name": "Elzie Harrington",
-          "team": "San Diego State"
-        },
-        {
-          "id": 8457,
-          "name": "Miles Byrd",
-          "team": "San Diego State"
-        },
-        {
-          "id": 200870,
-          "name": "Uriah Tenette",
-          "team": "New Mexico"
-        },
-        {
-          "id": 151,
-          "name": "JT Rock",
-          "team": "New Mexico"
-        },
-        {
-          "id": 8459,
-          "name": "Miles Heide",
-          "team": "San Diego State"
-        },
-        {
-          "id": 4371,
-          "name": "Tajavis Miller",
-          "team": "New Mexico"
-        },
-        {
-          "id": 201880,
-          "name": "Reese Dixon-Waters",
-          "team": "San Diego State"
-        }
-      ]
-    },
-    {
-      "gameId": 214518,
-      "gameSourceId": "401823775",
-      "gameStartDate": "2026-01-18T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 44697956,
       "sourceId": "401823775117565352",
       "playType": "MadeFreeThrow",
@@ -23725,8 +23629,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44697998,
-      "sourceId": "401823775117565795",
+      "id": 44697961,
+      "sourceId": "401823775117565420",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -23737,17 +23641,17 @@
       "opponent": "New Mexico",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 30,
       "awayScore": 28,
-      "homeWinProbability": 0.754,
+      "homeWinProbability": 0.665,
       "period": 1,
-      "clock": "6:04",
-      "secondsRemaining": 364,
+      "clock": "7:52",
+      "secondsRemaining": 472,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:41:59.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-01-18T01:38:32.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -23778,6 +23682,11 @@
           "team": "New Mexico"
         },
         {
+          "id": 8462,
+          "name": "Taj DeGourville",
+          "team": "San Diego State"
+        },
+        {
           "id": 200861,
           "name": "Luke Haupt",
           "team": "New Mexico"
@@ -23785,11 +23694,6 @@
         {
           "id": 201883,
           "name": "Elzie Harrington",
-          "team": "San Diego State"
-        },
-        {
-          "id": 8456,
-          "name": "BJ Davis",
           "team": "San Diego State"
         },
         {
@@ -23803,14 +23707,14 @@
           "team": "New Mexico"
         },
         {
+          "id": 151,
+          "name": "JT Rock",
+          "team": "New Mexico"
+        },
+        {
           "id": 8459,
           "name": "Miles Heide",
           "team": "San Diego State"
-        },
-        {
-          "id": 200858,
-          "name": "Tomislav Buljan",
-          "team": "New Mexico"
         },
         {
           "id": 4371,
@@ -23939,8 +23843,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44698336,
-      "sourceId": "401823775117566450",
+      "id": 44697998,
+      "sourceId": "401823775117565795",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -23951,17 +23855,124 @@
       "opponent": "New Mexico",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 33,
       "awayScore": 28,
-      "homeWinProbability": 0.872,
+      "homeWinProbability": 0.754,
+      "period": 1,
+      "clock": "6:04",
+      "secondsRemaining": 364,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-18T01:41:59.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 8457,
+          "name": "Miles Byrd"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 8457,
+          "name": "Miles Byrd"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 200860,
+          "name": "Jake Hall",
+          "team": "New Mexico"
+        },
+        {
+          "id": 200861,
+          "name": "Luke Haupt",
+          "team": "New Mexico"
+        },
+        {
+          "id": 201883,
+          "name": "Elzie Harrington",
+          "team": "San Diego State"
+        },
+        {
+          "id": 8456,
+          "name": "BJ Davis",
+          "team": "San Diego State"
+        },
+        {
+          "id": 8457,
+          "name": "Miles Byrd",
+          "team": "San Diego State"
+        },
+        {
+          "id": 200870,
+          "name": "Uriah Tenette",
+          "team": "New Mexico"
+        },
+        {
+          "id": 8459,
+          "name": "Miles Heide",
+          "team": "San Diego State"
+        },
+        {
+          "id": 200858,
+          "name": "Tomislav Buljan",
+          "team": "New Mexico"
+        },
+        {
+          "id": 4371,
+          "name": "Tajavis Miller",
+          "team": "New Mexico"
+        },
+        {
+          "id": 201880,
+          "name": "Reese Dixon-Waters",
+          "team": "San Diego State"
+        }
+      ]
+    },
+    {
+      "gameId": 214518,
+      "gameSourceId": "401823775",
+      "gameStartDate": "2026-01-18T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 44698120,
+      "sourceId": "401823775117566429",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 257,
+      "team": "San Diego State",
+      "conference": "Mountain West",
+      "teamSeed": null,
+      "opponentId": 191,
+      "opponent": "New Mexico",
+      "opponentConference": "Mountain West",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 28,
+      "homeWinProbability": 0.823,
       "period": 1,
       "clock": "5:05",
       "secondsRemaining": 305,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:47:15.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-01-18T01:46:58.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -24046,8 +24057,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44698120,
-      "sourceId": "401823775117566429",
+      "id": 44698336,
+      "sourceId": "401823775117566450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -24058,17 +24069,17 @@
       "opponent": "New Mexico",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 28,
-      "homeWinProbability": 0.823,
+      "homeWinProbability": 0.872,
       "period": 1,
       "clock": "5:05",
       "secondsRemaining": 305,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:46:58.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-01-18T01:47:15.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -25346,113 +25357,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011409,
-      "sourceId": "401823776117716888",
-      "playType": "JumpShot",
-      "isHomeTeam": false,
-      "teamId": 257,
-      "team": "San Diego State",
-      "conference": "Mountain West",
-      "teamSeed": null,
-      "opponentId": 104,
-      "opponent": "Grand Canyon",
-      "opponentConference": "Mountain West",
-      "opponentSeed": null,
-      "homeScore": 3,
-      "awayScore": 2,
-      "homeWinProbability": 0.669,
-      "period": 1,
-      "clock": "18:51",
-      "secondsRemaining": 1131,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2026-01-22T04:17:24.000Z",
-      "playText": "Miles Byrd misses 23-foot three point jumper",
-      "participants": [
-        {
-          "id": 8457,
-          "name": "Miles Byrd"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 8457,
-          "name": "Miles Byrd"
-        },
-        "made": false,
-        "range": "three_pointer",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7354,
-          "name": "Jaden Henley",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 199471,
-          "name": "Efe Demirel",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 8459,
-          "name": "Miles Heide",
-          "team": "San Diego State"
-        },
-        {
-          "id": 201880,
-          "name": "Reese Dixon-Waters",
-          "team": "San Diego State"
-        },
-        {
-          "id": 5123,
-          "name": "Jeremiah Oden",
-          "team": "San Diego State"
-        },
-        {
-          "id": 8457,
-          "name": "Miles Byrd",
-          "team": "San Diego State"
-        },
-        {
-          "id": 2735,
-          "name": "Nana Owusu-Anane",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 6412,
-          "name": "Caleb Shaw",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 4531,
-          "name": "Brian Moore Jr.",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 201883,
-          "name": "Elzie Harrington",
-          "team": "San Diego State"
-        }
-      ]
-    },
-    {
-      "gameId": 214567,
-      "gameSourceId": "401823776",
-      "gameStartDate": "2026-01-22T04:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45011422,
       "sourceId": "401823776117716970",
       "playType": "JumpShot",
@@ -25560,9 +25464,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46212565,
-      "sourceId": "401823776117719910",
-      "playType": "MadeFreeThrow",
+      "id": 45011409,
+      "sourceId": "401823776117716888",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 257,
       "team": "San Diego State",
@@ -25572,17 +25476,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 6,
-      "awayScore": 8,
-      "homeWinProbability": 0.563,
+      "homeScore": 3,
+      "awayScore": 2,
+      "homeWinProbability": 0.669,
       "period": 1,
-      "clock": "17:37",
-      "secondsRemaining": 1057,
-      "scoringPlay": true,
+      "clock": "18:51",
+      "secondsRemaining": 1131,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T09:35:12.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "scoreValue": 3,
+      "wallclock": "2026-01-22T04:17:24.000Z",
+      "playText": "Miles Byrd misses 23-foot three point jumper",
       "participants": [
         {
           "id": 8457,
@@ -25594,8 +25498,8 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
-        "range": "free_throw",
+        "made": false,
+        "range": "three_pointer",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -25774,8 +25678,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011525,
-      "sourceId": "401823776117717913",
+      "id": 46212565,
+      "sourceId": "401823776117719910",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 257,
+      "team": "San Diego State",
+      "conference": "Mountain West",
+      "teamSeed": null,
+      "opponentId": 104,
+      "opponent": "Grand Canyon",
+      "opponentConference": "Mountain West",
+      "opponentSeed": null,
+      "homeScore": 6,
+      "awayScore": 8,
+      "homeWinProbability": 0.563,
+      "period": 1,
+      "clock": "17:37",
+      "secondsRemaining": 1057,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T09:35:12.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 8457,
+          "name": "Miles Byrd"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 8457,
+          "name": "Miles Byrd"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7354,
+          "name": "Jaden Henley",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 199471,
+          "name": "Efe Demirel",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 8459,
+          "name": "Miles Heide",
+          "team": "San Diego State"
+        },
+        {
+          "id": 201880,
+          "name": "Reese Dixon-Waters",
+          "team": "San Diego State"
+        },
+        {
+          "id": 5123,
+          "name": "Jeremiah Oden",
+          "team": "San Diego State"
+        },
+        {
+          "id": 8457,
+          "name": "Miles Byrd",
+          "team": "San Diego State"
+        },
+        {
+          "id": 2735,
+          "name": "Nana Owusu-Anane",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 6412,
+          "name": "Caleb Shaw",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 4531,
+          "name": "Brian Moore Jr.",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 201883,
+          "name": "Elzie Harrington",
+          "team": "San Diego State"
+        }
+      ]
+    },
+    {
+      "gameId": 214567,
+      "gameSourceId": "401823776",
+      "gameStartDate": "2026-01-22T04:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45011433,
+      "sourceId": "401823776117717060",
       "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -25795,7 +25806,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-22T09:37:37.000Z",
+      "wallclock": "2026-01-22T04:20:58.000Z",
       "playText": "Miles Byrd misses 19-foot jumper",
       "participants": [
         {
@@ -25881,8 +25892,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011433,
-      "sourceId": "401823776117717060",
+      "id": 45011525,
+      "sourceId": "401823776117717913",
       "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -25902,7 +25913,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-22T04:20:58.000Z",
+      "wallclock": "2026-01-22T09:37:37.000Z",
       "playText": "Miles Byrd misses 19-foot jumper",
       "participants": [
         {
@@ -26202,8 +26213,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46212795,
-      "sourceId": "401823776117719993",
+      "id": 45011551,
+      "sourceId": "401823776117718102",
       "playType": "DunkShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -26223,8 +26234,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-22T10:07:49.000Z",
-      "playText": "Pharaoh Compton makes 1-foot alley oop dunk (Miles Byrd assists)",
+      "wallclock": "2026-01-22T04:46:59.000Z",
+      "playText": "Pharaoh Compton makes 3-foot alley oop dunk (Miles Byrd assists)",
       "participants": [
         {
           "id": 8457,
@@ -26313,8 +26324,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011551,
-      "sourceId": "401823776117718102",
+      "id": 46212795,
+      "sourceId": "401823776117719993",
       "playType": "DunkShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -26334,8 +26345,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-22T04:46:59.000Z",
-      "playText": "Pharaoh Compton makes 3-foot alley oop dunk (Miles Byrd assists)",
+      "wallclock": "2026-01-22T10:07:49.000Z",
+      "playText": "Pharaoh Compton makes 1-foot alley oop dunk (Miles Byrd assists)",
       "participants": [
         {
           "id": 8457,
@@ -26638,113 +26649,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46212894,
-      "sourceId": "401823776117720040",
-      "playType": "JumpShot",
-      "isHomeTeam": false,
-      "teamId": 257,
-      "team": "San Diego State",
-      "conference": "Mountain West",
-      "teamSeed": null,
-      "opponentId": 104,
-      "opponent": "Grand Canyon",
-      "opponentConference": "Mountain West",
-      "opponentSeed": null,
-      "homeScore": 31,
-      "awayScore": 34,
-      "homeWinProbability": 0.47,
-      "period": 1,
-      "clock": "1:31",
-      "secondsRemaining": 91,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2026-01-22T10:18:47.000Z",
-      "playText": "Miles Byrd misses 23-foot three point jumper",
-      "participants": [
-        {
-          "id": 8457,
-          "name": "Miles Byrd"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 8457,
-          "name": "Miles Byrd"
-        },
-        "made": false,
-        "range": "three_pointer",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2735,
-          "name": "Nana Owusu-Anane",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 4531,
-          "name": "Brian Moore Jr.",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 201880,
-          "name": "Reese Dixon-Waters",
-          "team": "San Diego State"
-        },
-        {
-          "id": 8457,
-          "name": "Miles Byrd",
-          "team": "San Diego State"
-        },
-        {
-          "id": 181,
-          "name": "Dusty Stromer",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 199471,
-          "name": "Efe Demirel",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 6412,
-          "name": "Caleb Shaw",
-          "team": "Grand Canyon"
-        },
-        {
-          "id": 3633,
-          "name": "Sean Newman Jr.",
-          "team": "San Diego State"
-        },
-        {
-          "id": 201889,
-          "name": "Tae Simmons",
-          "team": "San Diego State"
-        },
-        {
-          "id": 8462,
-          "name": "Taj DeGourville",
-          "team": "San Diego State"
-        }
-      ]
-    },
-    {
-      "gameId": 214567,
-      "gameSourceId": "401823776",
-      "gameStartDate": "2026-01-22T04:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45011612,
       "sourceId": "401823776117718386",
       "playType": "JumpShot",
@@ -26852,9 +26756,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011659,
-      "sourceId": "401823776117718831",
-      "playType": "MadeFreeThrow",
+      "id": 46212894,
+      "sourceId": "401823776117720040",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 257,
       "team": "San Diego State",
@@ -26864,17 +26768,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 60,
-      "awayScore": 56,
-      "homeWinProbability": 0.624,
-      "period": 2,
-      "clock": "20:00",
-      "secondsRemaining": 1200,
-      "scoringPlay": true,
+      "homeScore": 31,
+      "awayScore": 34,
+      "homeWinProbability": 0.47,
+      "period": 1,
+      "clock": "1:31",
+      "secondsRemaining": 91,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T05:49:08.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "scoreValue": 3,
+      "wallclock": "2026-01-22T10:18:47.000Z",
+      "playText": "Miles Byrd misses 23-foot three point jumper",
       "participants": [
         {
           "id": 8457,
@@ -26886,8 +26790,8 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
-        "range": "free_throw",
+        "made": false,
+        "range": "three_pointer",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -26908,11 +26812,6 @@
           "id": 4531,
           "name": "Brian Moore Jr.",
           "team": "Grand Canyon"
-        },
-        {
-          "id": 201883,
-          "name": "Elzie Harrington",
-          "team": "San Diego State"
         },
         {
           "id": 201880,
@@ -26938,6 +26837,11 @@
           "id": 6412,
           "name": "Caleb Shaw",
           "team": "Grand Canyon"
+        },
+        {
+          "id": 3633,
+          "name": "Sean Newman Jr.",
+          "team": "San Diego State"
         },
         {
           "id": 201889,
@@ -27066,8 +26970,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011643,
-      "sourceId": "401823776117718609",
+      "id": 45011660,
+      "sourceId": "401823776117718832",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -27078,16 +26982,16 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 60,
-      "awayScore": 57,
-      "homeWinProbability": 0.641,
+      "homeScore": 67,
+      "awayScore": 60,
+      "homeWinProbability": 0.969,
       "period": 2,
       "clock": "20:00",
       "secondsRemaining": 1200,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T05:34:10.000Z",
+      "wallclock": "2026-01-22T05:49:08.000Z",
       "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
@@ -27280,8 +27184,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45011660,
-      "sourceId": "401823776117718832",
+      "id": 45011643,
+      "sourceId": "401823776117718609",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -27292,16 +27196,16 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 67,
-      "awayScore": 60,
-      "homeWinProbability": 0.969,
+      "homeScore": 60,
+      "awayScore": 57,
+      "homeWinProbability": 0.641,
       "period": 2,
       "clock": "20:00",
       "secondsRemaining": 1200,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T05:49:08.000Z",
+      "wallclock": "2026-01-22T05:34:10.000Z",
       "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
@@ -27387,9 +27291,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46212942,
-      "sourceId": "401823776117719678",
-      "playType": "DunkShot",
+      "id": 45011659,
+      "sourceId": "401823776117718831",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
       "team": "San Diego State",
@@ -27399,17 +27303,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 35,
-      "awayScore": 41,
-      "homeWinProbability": 0.4,
+      "homeScore": 60,
+      "awayScore": 56,
+      "homeWinProbability": 0.624,
       "period": 2,
-      "clock": "19:17",
-      "secondsRemaining": 1157,
+      "clock": "20:00",
+      "secondsRemaining": 1200,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-22T06:51:41.000Z",
-      "playText": "Miles Byrd makes 82-foot dunk",
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T05:49:08.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -27422,7 +27326,7 @@
           "name": "Miles Byrd"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -27601,8 +27505,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46213040,
-      "sourceId": "401823776117720143",
+      "id": 46212942,
+      "sourceId": "401823776117719678",
       "playType": "DunkShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -27613,38 +27517,34 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 50,
-      "awayScore": 47,
-      "homeWinProbability": 0.757,
+      "homeScore": 35,
+      "awayScore": 41,
+      "homeWinProbability": 0.4,
       "period": 2,
-      "clock": "14:06",
-      "secondsRemaining": 846,
+      "clock": "19:17",
+      "secondsRemaining": 1157,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-22T10:36:13.000Z",
-      "playText": "Pharaoh Compton makes 2-foot dunk (Miles Byrd assists)",
+      "wallclock": "2026-01-22T06:51:41.000Z",
+      "playText": "Miles Byrd makes 82-foot dunk",
       "participants": [
         {
           "id": 8457,
           "name": "Miles Byrd"
-        },
-        {
-          "id": 8460,
-          "name": "Pharaoh Compton"
         }
       ],
       "shotInfo": {
         "shooter": {
-          "id": 8460,
-          "name": "Pharaoh Compton"
+          "id": 8457,
+          "name": "Miles Byrd"
         },
         "made": true,
         "range": "rim",
-        "assisted": true,
+        "assisted": false,
         "assistedBy": {
-          "id": 8457,
-          "name": "Miles Byrd"
+          "id": null,
+          "name": null
         },
         "location": {
           "x": null,
@@ -27735,6 +27635,117 @@
       "scoreValue": 2,
       "wallclock": "2026-01-22T07:20:54.000Z",
       "playText": "Pharaoh Compton makes 83-foot dunk (Miles Byrd assists)",
+      "participants": [
+        {
+          "id": 8457,
+          "name": "Miles Byrd"
+        },
+        {
+          "id": 8460,
+          "name": "Pharaoh Compton"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 8460,
+          "name": "Pharaoh Compton"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 8457,
+          "name": "Miles Byrd"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2735,
+          "name": "Nana Owusu-Anane",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 4531,
+          "name": "Brian Moore Jr.",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 201883,
+          "name": "Elzie Harrington",
+          "team": "San Diego State"
+        },
+        {
+          "id": 201880,
+          "name": "Reese Dixon-Waters",
+          "team": "San Diego State"
+        },
+        {
+          "id": 8457,
+          "name": "Miles Byrd",
+          "team": "San Diego State"
+        },
+        {
+          "id": 181,
+          "name": "Dusty Stromer",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 199471,
+          "name": "Efe Demirel",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 6412,
+          "name": "Caleb Shaw",
+          "team": "Grand Canyon"
+        },
+        {
+          "id": 201889,
+          "name": "Tae Simmons",
+          "team": "San Diego State"
+        },
+        {
+          "id": 8462,
+          "name": "Taj DeGourville",
+          "team": "San Diego State"
+        }
+      ]
+    },
+    {
+      "gameId": 214567,
+      "gameSourceId": "401823776",
+      "gameStartDate": "2026-01-22T04:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46213040,
+      "sourceId": "401823776117720143",
+      "playType": "DunkShot",
+      "isHomeTeam": false,
+      "teamId": 257,
+      "team": "San Diego State",
+      "conference": "Mountain West",
+      "teamSeed": null,
+      "opponentId": 104,
+      "opponent": "Grand Canyon",
+      "opponentConference": "Mountain West",
+      "opponentSeed": null,
+      "homeScore": 50,
+      "awayScore": 47,
+      "homeWinProbability": 0.757,
+      "period": 2,
+      "clock": "14:06",
+      "secondsRemaining": 846,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-01-22T10:36:13.000Z",
+      "playText": "Pharaoh Compton makes 2-foot dunk (Miles Byrd assists)",
       "participants": [
         {
           "id": 8457,
@@ -28255,8 +28266,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46213205,
-      "sourceId": "401823776117719821",
+      "id": 46213206,
+      "sourceId": "401823776117720280",
       "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -28276,8 +28287,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 3,
-      "wallclock": "2026-01-22T07:51:20.000Z",
-      "playText": "BJ Davis makes 69-foot three point jumper (Miles Byrd assists)",
+      "wallclock": "2026-01-22T10:52:58.000Z",
+      "playText": "BJ Davis makes 23-foot three point jumper (Miles Byrd assists)",
       "participants": [
         {
           "id": 8457,
@@ -28366,8 +28377,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46213206,
-      "sourceId": "401823776117720280",
+      "id": 46213205,
+      "sourceId": "401823776117719821",
       "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 257,
@@ -28387,8 +28398,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 3,
-      "wallclock": "2026-01-22T10:52:58.000Z",
-      "playText": "BJ Davis makes 23-foot three point jumper (Miles Byrd assists)",
+      "wallclock": "2026-01-22T07:51:20.000Z",
+      "playText": "BJ Davis makes 69-foot three point jumper (Miles Byrd assists)",
       "participants": [
         {
           "id": 8457,
@@ -28691,8 +28702,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244986,
-      "sourceId": "401823777117904080",
+      "id": 45244987,
+      "sourceId": "401823777117904130",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -28704,16 +28715,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 1,
-      "homeWinProbability": 0.625,
+      "awayScore": 2,
+      "homeWinProbability": 0.633,
       "period": 1,
       "clock": "18:19",
       "secondsRemaining": 1099,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:18:31.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-01-24T21:18:42.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -28798,8 +28809,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244987,
-      "sourceId": "401823777117904130",
+      "id": 45244986,
+      "sourceId": "401823777117904080",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -28811,16 +28822,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 2,
-      "homeWinProbability": 0.633,
+      "awayScore": 1,
+      "homeWinProbability": 0.625,
       "period": 1,
       "clock": "18:19",
       "secondsRemaining": 1099,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:18:42.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-01-24T21:18:31.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -33566,8 +33577,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46188091,
-      "sourceId": "401823780118367565",
+      "id": 46188088,
+      "sourceId": "401823780118367563",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -33578,17 +33589,17 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 5,
       "awayScore": 5,
-      "homeWinProbability": 0.676,
+      "homeWinProbability": 0.618,
       "period": 1,
       "clock": "15:24",
       "secondsRemaining": 924,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T04:25:30.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-04T04:25:16.000Z",
+      "playText": "Miles Byrd misses free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -33600,7 +33611,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33673,8 +33684,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46188088,
-      "sourceId": "401823780118367563",
+      "id": 46188091,
+      "sourceId": "401823780118367565",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -33685,17 +33696,17 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 5,
-      "homeWinProbability": 0.618,
+      "homeWinProbability": 0.676,
       "period": 1,
       "clock": "15:24",
       "secondsRemaining": 924,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T04:25:16.000Z",
-      "playText": "Miles Byrd misses free throw 1 of 2",
+      "wallclock": "2026-02-04T04:25:30.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -33707,7 +33718,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34430,8 +34441,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46189261,
-      "sourceId": "401823780118368459",
+      "id": 46189265,
+      "sourceId": "401823780118368463",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -34442,17 +34453,17 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 46,
       "awayScore": 35,
-      "homeWinProbability": 0.943,
+      "homeWinProbability": 0.956,
       "period": 2,
       "clock": "10:55",
       "secondsRemaining": 655,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T05:50:32.000Z",
-      "playText": "Miles Byrd misses free throw 1 of 2",
+      "wallclock": "2026-02-04T05:50:49.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -34464,7 +34475,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34537,8 +34548,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46189265,
-      "sourceId": "401823780118368463",
+      "id": 46189261,
+      "sourceId": "401823780118368459",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -34549,17 +34560,17 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 45,
       "awayScore": 35,
-      "homeWinProbability": 0.956,
+      "homeWinProbability": 0.943,
       "period": 2,
       "clock": "10:55",
       "secondsRemaining": 655,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T05:50:49.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-04T05:50:32.000Z",
+      "playText": "Miles Byrd misses free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -34571,7 +34582,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34973,8 +34984,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46189472,
-      "sourceId": "401823780118368732",
+      "id": 46189473,
+      "sourceId": "401823780118368735",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -34985,7 +34996,7 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 72,
       "awayScore": 57,
       "homeWinProbability": 1,
       "period": 2,
@@ -34994,8 +35005,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T06:23:59.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-04T06:24:12.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -35080,8 +35091,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46189473,
-      "sourceId": "401823780118368735",
+      "id": 46189472,
+      "sourceId": "401823780118368732",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -35092,7 +35103,7 @@
       "opponent": "Wyoming",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 71,
       "awayScore": 57,
       "homeWinProbability": 1,
       "period": 2,
@@ -35101,8 +35112,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T06:24:12.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-04T06:23:59.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -36923,8 +36934,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47157872,
-      "sourceId": "401823781119025790",
+      "id": 47157875,
+      "sourceId": "401823781119025821",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -36935,17 +36946,17 @@
       "opponent": "Nevada",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 46,
       "awayScore": 38,
-      "homeWinProbability": 0.851,
+      "homeWinProbability": 0.888,
       "period": 2,
       "clock": "13:52",
       "secondsRemaining": 832,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T04:36:33.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-15T04:36:50.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -37030,8 +37041,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47157875,
-      "sourceId": "401823781119025821",
+      "id": 47157872,
+      "sourceId": "401823781119025790",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -37042,17 +37053,17 @@
       "opponent": "Nevada",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 45,
       "awayScore": 38,
-      "homeWinProbability": 0.888,
+      "homeWinProbability": 0.851,
       "period": 2,
       "clock": "13:52",
       "secondsRemaining": 832,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T04:36:50.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-15T04:36:33.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -37997,9 +38008,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47437400,
-      "sourceId": "401823782119099468",
-      "playType": "LayUpShot",
+      "id": 47437404,
+      "sourceId": "401823782119099476",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
       "team": "San Diego State",
@@ -38009,17 +38020,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 41,
       "awayScore": 43,
-      "homeWinProbability": 0.443,
+      "homeWinProbability": 0.518,
       "period": 2,
       "clock": "14:22",
       "secondsRemaining": 862,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-18T04:32:31.000Z",
-      "playText": "Miles Byrd makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T04:33:12.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 1",
       "participants": [
         {
           "id": 8457,
@@ -38032,15 +38043,15 @@
           "name": "Miles Byrd"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -38104,9 +38115,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47437404,
-      "sourceId": "401823782119099476",
-      "playType": "MadeFreeThrow",
+      "id": 47437400,
+      "sourceId": "401823782119099468",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 257,
       "team": "San Diego State",
@@ -38116,17 +38127,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 40,
       "awayScore": 43,
-      "homeWinProbability": 0.518,
+      "homeWinProbability": 0.443,
       "period": 2,
       "clock": "14:22",
       "secondsRemaining": 862,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T04:33:12.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-18T04:32:31.000Z",
+      "playText": "Miles Byrd makes driving layup",
       "participants": [
         {
           "id": 8457,
@@ -38139,15 +38150,15 @@
           "name": "Miles Byrd"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 285
         }
       },
       "onFloor": [
@@ -38647,8 +38658,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47437549,
-      "sourceId": "401823782119100013",
+      "id": 47437553,
+      "sourceId": "401823782119100025",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -38659,17 +38670,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 61,
       "awayScore": 66,
-      "homeWinProbability": 0.084,
+      "homeWinProbability": 0.134,
       "period": 2,
       "clock": "1:49",
       "secondsRemaining": 109,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T05:07:44.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-18T05:09:11.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -38754,8 +38765,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47437553,
-      "sourceId": "401823782119100025",
+      "id": 47437549,
+      "sourceId": "401823782119100013",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -38766,17 +38777,17 @@
       "opponent": "Grand Canyon",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 60,
       "awayScore": 66,
-      "homeWinProbability": 0.134,
+      "homeWinProbability": 0.084,
       "period": 2,
       "clock": "1:49",
       "secondsRemaining": 109,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T05:09:11.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-18T05:07:44.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -40157,8 +40168,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47741685,
-      "sourceId": "401823783119368463",
+      "id": 47741682,
+      "sourceId": "401823783119368425",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -40170,16 +40181,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 42,
-      "awayScore": 29,
-      "homeWinProbability": 0.945,
+      "awayScore": 28,
+      "homeWinProbability": 0.961,
       "period": 2,
       "clock": "18:20",
       "secondsRemaining": 1100,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T00:12:12.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-22T00:11:58.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -40264,8 +40275,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47741682,
-      "sourceId": "401823783119368425",
+      "id": 47741685,
+      "sourceId": "401823783119368463",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -40277,16 +40288,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 42,
-      "awayScore": 28,
-      "homeWinProbability": 0.961,
+      "awayScore": 29,
+      "homeWinProbability": 0.945,
       "period": 2,
       "clock": "18:20",
       "secondsRemaining": 1100,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T00:11:58.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-22T00:12:12.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -41029,8 +41040,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47741880,
-      "sourceId": "401823783119375550",
+      "id": 47741879,
+      "sourceId": "401823783119375494",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -41042,16 +41053,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 67,
-      "homeWinProbability": 0.994,
+      "awayScore": 66,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "1:23",
       "secondsRemaining": 83,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T01:05:21.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-22T01:05:04.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -41136,8 +41147,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47741879,
-      "sourceId": "401823783119375494",
+      "id": 47741880,
+      "sourceId": "401823783119375550",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -41149,16 +41160,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 66,
-      "homeWinProbability": 0.999,
+      "awayScore": 67,
+      "homeWinProbability": 0.994,
       "period": 2,
       "clock": "1:23",
       "secondsRemaining": 83,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T01:05:04.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-22T01:05:21.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -42329,8 +42340,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48084387,
-      "sourceId": "401823784119517804",
+      "id": 48084397,
+      "sourceId": "401823784119517811",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -42341,17 +42352,17 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 37,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:14",
       "secondsRemaining": 974,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T05:32:27.000Z",
-      "playText": "Miles Byrd misses free throw 1 of 2",
+      "wallclock": "2026-02-26T05:32:51.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -42363,7 +42374,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42436,8 +42447,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48084397,
-      "sourceId": "401823784119517811",
+      "id": 48084387,
+      "sourceId": "401823784119517804",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -42448,17 +42459,17 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 37,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:14",
       "secondsRemaining": 974,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T05:32:51.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-26T05:32:27.000Z",
+      "playText": "Miles Byrd misses free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -42470,7 +42481,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42650,8 +42661,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48084561,
-      "sourceId": "401823784119518203",
+      "id": 48084560,
+      "sourceId": "401823784119518202",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -42662,7 +42673,7 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
@@ -42671,8 +42682,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T05:54:37.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-02-26T05:54:24.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -42757,8 +42768,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48084560,
-      "sourceId": "401823784119518202",
+      "id": 48084561,
+      "sourceId": "401823784119518203",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 257,
@@ -42769,7 +42780,7 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
@@ -42778,8 +42789,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T05:54:24.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-26T05:54:37.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -43621,8 +43632,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48280446,
-      "sourceId": "401823785119653599",
+      "id": 48280447,
+      "sourceId": "401823785119653641",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -43639,11 +43650,11 @@
       "period": 1,
       "clock": "3:28",
       "secondsRemaining": 208,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T19:48:49.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-02-28T19:49:00.000Z",
+      "playText": "Miles Byrd misses free throw 2 of 2",
       "participants": [
         {
           "id": 8457,
@@ -43655,7 +43666,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -43728,8 +43739,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48280447,
-      "sourceId": "401823785119653641",
+      "id": 48280446,
+      "sourceId": "401823785119653599",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -43746,11 +43757,11 @@
       "period": 1,
       "clock": "3:28",
       "secondsRemaining": 208,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T19:49:00.000Z",
-      "playText": "Miles Byrd misses free throw 2 of 2",
+      "wallclock": "2026-02-28T19:48:49.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -43762,7 +43773,7 @@
           "id": 8457,
           "name": "Miles Byrd"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50263,8 +50274,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459319,
-      "sourceId": "401851505120273086",
+      "id": 49459318,
+      "sourceId": "401851505120273085",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -50276,7 +50287,7 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 26,
+      "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:55",
@@ -50284,8 +50295,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T22:47:22.000Z",
-      "playText": "Miles Byrd makes free throw 2 of 2",
+      "wallclock": "2026-03-14T22:47:00.000Z",
+      "playText": "Miles Byrd makes free throw 1 of 2",
       "participants": [
         {
           "id": 8457,
@@ -50370,8 +50381,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459318,
-      "sourceId": "401851505120273085",
+      "id": 49459319,
+      "sourceId": "401851505120273086",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 257,
@@ -50383,7 +50394,7 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 25,
+      "awayScore": 26,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:55",
@@ -50391,8 +50402,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T22:47:00.000Z",
-      "playText": "Miles Byrd makes free throw 1 of 2",
+      "wallclock": "2026-03-14T22:47:22.000Z",
+      "playText": "Miles Byrd makes free throw 2 of 2",
       "participants": [
         {
           "id": 8457,

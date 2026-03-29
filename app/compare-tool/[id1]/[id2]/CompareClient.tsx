@@ -3,9 +3,19 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import RadarChart from "@/components/dashboard/RadarChart";
-import type { RadarPlayer } from "@/components/dashboard/RadarChart";
+import type { RadarAxis, RadarPlayer } from "@/components/dashboard/RadarChart";
 import type { PlayerDataBundle, PlayerSeasonStats } from "@/types/stats";
 import styles from "./CompareClient.module.scss";
+
+export const COMPARE_AXES: RadarAxis[] = [
+  { key: "ppg",   label: "PPG",   max: 30 },
+  { key: "rpg",   label: "REB",   max: 12 },
+  { key: "apg",   label: "AST",   max: 8 },
+  { key: "spg",   label: "STL",   max: 3 },
+  { key: "bpg",   label: "BLK",   max: 3 },
+  { key: "fgPct", label: "FG%",   max: 70 },
+  { key: "usage", label: "Usage", max: 40 },
+];
 
 type IndexEntry = { id: number; name: string; team: string };
 
@@ -22,10 +32,12 @@ function toRadar(ps: PlayerSeasonStats, color: string): RadarPlayer {
     name: ps.name,
     color,
     values: {
-      fg: ps.fieldGoals.pct,
-      three: ps.threePointFieldGoals.pct,
-      ft: ps.freeThrows.pct,
-      ts: ps.trueShootingPct < 1 ? ps.trueShootingPct * 100 : ps.trueShootingPct,
+      ppg: ps.points / (ps.games || 1),
+      rpg: ps.rebounds.total / (ps.games || 1),
+      apg: ps.assists / (ps.games || 1),
+      spg: ps.steals / (ps.games || 1),
+      bpg: ps.blocks / (ps.games || 1),
+      fgPct: ps.fieldGoals.pct,
       usage: ps.usage,
     },
   };
@@ -53,12 +65,18 @@ function buildStatRows(
   const apg2 = p2.assists / (p2.games || 1);
   const mpg1 = p1.minutes / (p1.games || 1);
   const mpg2 = p2.minutes / (p2.games || 1);
+  const spg1 = p1.steals / (p1.games || 1);
+  const spg2 = p2.steals / (p2.games || 1);
+  const bpg1 = p1.blocks / (p1.games || 1);
+  const bpg2 = p2.blocks / (p2.games || 1);
 
   return [
     { label: "Games", v1: p1.games, v2: p2.games, better: null },
     { label: "PPG", v1: ppg1.toFixed(1), v2: ppg2.toFixed(1), better: cmp(ppg1, ppg2) },
     { label: "RPG", v1: rpg1.toFixed(1), v2: rpg2.toFixed(1), better: cmp(rpg1, rpg2) },
     { label: "APG", v1: apg1.toFixed(1), v2: apg2.toFixed(1), better: cmp(apg1, apg2) },
+    { label: "SPG", v1: spg1.toFixed(1), v2: spg2.toFixed(1), better: cmp(spg1, spg2) },
+    { label: "BPG", v1: bpg1.toFixed(1), v2: bpg2.toFixed(1), better: cmp(bpg1, bpg2) },
     { label: "MPG", v1: mpg1.toFixed(1), v2: mpg2.toFixed(1), better: null },
     { label: "FG%", v1: `${p1.fieldGoals.pct}%`, v2: `${p2.fieldGoals.pct}%`, better: cmp(p1.fieldGoals.pct, p2.fieldGoals.pct) },
     { label: "3PT%", v1: `${p1.threePointFieldGoals.pct}%`, v2: `${p2.threePointFieldGoals.pct}%`, better: cmp(p1.threePointFieldGoals.pct, p2.threePointFieldGoals.pct) },
@@ -110,6 +128,8 @@ export default function CompareClient({
   allPlayers,
 }: Props) {
   const router = useRouter();
+  console.log('player1', player1)
+  console.log('player2', player2)
   const [sel1, setSel1] = useState(id1);
   const [sel2, setSel2] = useState(id2);
 
@@ -163,7 +183,7 @@ export default function CompareClient({
         <div className={styles.content}>
           {/* Radar Chart */}
           <div className={styles.radarWrapper}>
-            <RadarChart players={radarPlayers} size={320} />
+            <RadarChart players={radarPlayers} axes={COMPARE_AXES} size={320} />
           </div>
 
           {/* Stats comparison table */}

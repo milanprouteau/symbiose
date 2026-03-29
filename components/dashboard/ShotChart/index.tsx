@@ -37,10 +37,6 @@ export default function ShotChart({ shots = [], shootingStats, radarPlayer }: Pr
 
   return (
     <div className={styles.wrapper}>
-      <h2 className={styles.sectionTitle}>
-        Sélection des tirs
-      </h2>
-
       <div className={styles.layout}>
         {/* Left — Chart with tabs */}
         <div className={styles.chartSide}>
@@ -113,7 +109,7 @@ export default function ShotChart({ shots = [], shootingStats, radarPlayer }: Pr
 
         {/* Right — Stats panel */}
         <div className={styles.statsSide}>
-          <ShotStatsPanel shots={shots} shootingStats={shootingStats} radarPlayer={radarPlayer} />
+          {radarPlayer && <ShotStatsPanel shots={shots} shootingStats={shootingStats} radarPlayer={radarPlayer} />}
         </div>
       </div>
     </div>

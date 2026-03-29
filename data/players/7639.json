@@ -125,119 +125,130 @@
     "teamId": 135,
     "team": "Kentucky",
     "conference": "SEC",
-    "games": 35,
+    "games": 36,
     "wins": 22,
-    "losses": 13,
-    "totalMinutes": 1415,
+    "losses": 14,
+    "totalMinutes": 1455,
     "pace": 68.7,
     "teamStats": {
-      "assists": 562,
-      "blocks": 161,
-      "steals": 245,
-      "possessions": 2432,
-      "trueShooting": 57.4,
-      "rating": 116.6,
+      "assists": 573,
+      "blocks": 164,
+      "steals": 249,
+      "possessions": 2500,
+      "trueShooting": 57.5,
+      "rating": 115.9,
       "fieldGoals": {
-        "made": 987,
-        "attempted": 2120,
+        "made": 1008,
+        "attempted": 2165,
         "pct": 46.6
       },
       "twoPointFieldGoals": {
-        "made": 702,
-        "attempted": 1286,
-        "pct": 54.6
+        "made": 714,
+        "attempted": 1306,
+        "pct": 54.7
       },
       "threePointFieldGoals": {
-        "made": 285,
-        "attempted": 834,
+        "made": 294,
+        "attempted": 859,
         "pct": 34.2
       },
       "freeThrows": {
-        "made": 576,
-        "attempted": 792,
+        "made": 588,
+        "attempted": 809,
         "pct": 72.7
       },
       "rebounds": {
-        "offensive": 415,
-        "defensive": 900,
-        "total": 1315
+        "offensive": 420,
+        "defensive": 925,
+        "total": 1345
       },
       "turnovers": {
-        "total": 368,
-        "teamTotal": 20
+        "total": 388,
+        "teamTotal": 21
       },
       "fouls": {
-        "total": 646,
+        "total": 664,
         "technical": 11,
         "flagrant": 5
       },
       "points": {
-        "total": 2835,
-        "inPaint": 1276,
-        "offTurnovers": 486,
-        "fastBreak": 550
+        "total": 2898,
+        "inPaint": 1296,
+        "offTurnovers": 498,
+        "fastBreak": 557
       },
       "fourFactors": {
         "effectiveFieldGoalPct": 53.3,
-        "turnoverRatio": 0.15,
-        "offensiveReboundPct": 31.6,
+        "turnoverRatio": 0.16,
+        "offensiveReboundPct": 31.2,
         "freeThrowRate": 37.4
       }
     },
     "opponentStats": {
-      "assists": 490,
+      "assists": 507,
       "blocks": 111,
-      "steals": 233,
-      "possessions": 2428,
-      "trueShooting": 53.6,
-      "rating": 106.8,
+      "steals": 245,
+      "possessions": 2497,
+      "trueShooting": 53.7,
+      "rating": 107.2,
       "fieldGoals": {
-        "made": 887,
-        "attempted": 2088,
-        "pct": 42.5
+        "made": 915,
+        "attempted": 2149,
+        "pct": 42.6
       },
       "twoPointFieldGoals": {
-        "made": 623,
-        "attempted": 1258,
-        "pct": 49.5
+        "made": 642,
+        "attempted": 1291,
+        "pct": 49.7
       },
       "threePointFieldGoals": {
-        "made": 264,
-        "attempted": 830,
+        "made": 273,
+        "attempted": 858,
         "pct": 31.8
       },
       "freeThrows": {
-        "made": 556,
-        "attempted": 758,
-        "pct": 73.4
+        "made": 573,
+        "attempted": 782,
+        "pct": 73.3
       },
       "rebounds": {
-        "offensive": 386,
-        "defensive": 822,
-        "total": 1208
+        "offensive": 395,
+        "defensive": 844,
+        "total": 1239
       },
       "turnovers": {
-        "total": 383,
+        "total": 390,
         "teamTotal": 20
       },
       "fouls": {
-        "total": 635,
+        "total": 651,
         "technical": 9,
         "flagrant": 4
       },
       "points": {
-        "total": 2594,
-        "inPaint": 1078,
-        "offTurnovers": 446,
-        "fastBreak": 307
+        "total": 2676,
+        "inPaint": 1112,
+        "offTurnovers": 471,
+        "fastBreak": 320
       },
       "fourFactors": {
-        "effectiveFieldGoalPct": 48.8,
+        "effectiveFieldGoalPct": 48.9,
         "turnoverRatio": 0.16,
-        "offensiveReboundPct": 32,
-        "freeThrowRate": 36.3
+        "offensiveReboundPct": 31.9,
+        "freeThrowRate": 36.4
       }
     }
+  },
+  "profile": {
+    "jersey": "21",
+    "position": "Forward",
+    "height": 82,
+    "weight": 255,
+    "hometown": {
+      "city": "Cleveland",
+      "state": "OH"
+    },
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -1219,8 +1230,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42621194,
-      "sourceId": "401823223116354833",
+      "id": 42621196,
+      "sourceId": "401823223116354838",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 135,
@@ -1231,17 +1242,17 @@
       "opponent": "Bellarmine",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 15,
-      "homeWinProbability": 0.638,
+      "homeWinProbability": 0.673,
       "period": 1,
       "clock": "12:06",
       "secondsRemaining": 726,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T18:15:16.000Z",
-      "playText": "Jayden Quaintance misses free throw 1 of 2",
+      "wallclock": "2025-12-23T18:15:29.000Z",
+      "playText": "Jayden Quaintance makes free throw 2 of 2",
       "participants": [
         {
           "id": 7639,
@@ -1253,7 +1264,7 @@
           "id": 7639,
           "name": "Jayden Quaintance"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -1326,8 +1337,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42621196,
-      "sourceId": "401823223116354838",
+      "id": 42621194,
+      "sourceId": "401823223116354833",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 135,
@@ -1338,17 +1349,17 @@
       "opponent": "Bellarmine",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 15,
-      "homeWinProbability": 0.673,
+      "homeWinProbability": 0.638,
       "period": 1,
       "clock": "12:06",
       "secondsRemaining": 726,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T18:15:29.000Z",
-      "playText": "Jayden Quaintance makes free throw 2 of 2",
+      "wallclock": "2025-12-23T18:15:16.000Z",
+      "playText": "Jayden Quaintance misses free throw 1 of 2",
       "participants": [
         {
           "id": 7639,
@@ -1360,7 +1371,7 @@
           "id": 7639,
           "name": "Jayden Quaintance"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -1540,8 +1551,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42621436,
-      "sourceId": "401823223116355912",
+      "id": 42621433,
+      "sourceId": "401823223116355909",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 135,
@@ -1558,11 +1569,11 @@
       "period": 2,
       "clock": "12:31",
       "secondsRemaining": 751,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T19:24:36.000Z",
-      "playText": "Jayden Quaintance misses free throw 2 of 2",
+      "wallclock": "2025-12-23T19:24:18.000Z",
+      "playText": "Jayden Quaintance makes free throw 1 of 2",
       "participants": [
         {
           "id": 7639,
@@ -1574,7 +1585,7 @@
           "id": 7639,
           "name": "Jayden Quaintance"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -1647,8 +1658,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42621433,
-      "sourceId": "401823223116355909",
+      "id": 42621436,
+      "sourceId": "401823223116355912",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 135,
@@ -1665,11 +1676,11 @@
       "period": 2,
       "clock": "12:31",
       "secondsRemaining": 751,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T19:24:18.000Z",
-      "playText": "Jayden Quaintance makes free throw 1 of 2",
+      "wallclock": "2025-12-23T19:24:36.000Z",
+      "playText": "Jayden Quaintance misses free throw 2 of 2",
       "participants": [
         {
           "id": 7639,
@@ -1681,7 +1692,7 @@
           "id": 7639,
           "name": "Jayden Quaintance"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -2190,9 +2201,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194158,
-      "sourceId": "401808152116701885",
-      "playType": "LayUpShot",
+      "id": 43194163,
+      "sourceId": "401808152116702187",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 135,
       "team": "Kentucky",
@@ -2208,19 +2219,15 @@
       "period": 2,
       "clock": "7:10",
       "secondsRemaining": 430,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-03T18:50:07.000Z",
-      "playText": "Jayden Quaintance makes layup (Otega Oweh assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T18:54:01.000Z",
+      "playText": "Jayden Quaintance misses free throw 1 of 1",
       "participants": [
         {
           "id": 7639,
           "name": "Jayden Quaintance"
-        },
-        {
-          "id": 562,
-          "name": "Otega Oweh"
         }
       ],
       "shotInfo": {
@@ -2228,16 +2235,16 @@
           "id": 7639,
           "name": "Jayden Quaintance"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 562,
-          "name": "Otega Oweh"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -2301,9 +2308,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194163,
-      "sourceId": "401808152116702187",
-      "playType": "MadeFreeThrow",
+      "id": 43194158,
+      "sourceId": "401808152116701885",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 135,
       "team": "Kentucky",
@@ -2319,15 +2326,19 @@
       "period": 2,
       "clock": "7:10",
       "secondsRemaining": 430,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T18:54:01.000Z",
-      "playText": "Jayden Quaintance misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-03T18:50:07.000Z",
+      "playText": "Jayden Quaintance makes layup (Otega Oweh assists)",
       "participants": [
         {
           "id": 7639,
           "name": "Jayden Quaintance"
+        },
+        {
+          "id": 562,
+          "name": "Otega Oweh"
         }
       ],
       "shotInfo": {
@@ -2335,16 +2346,16 @@
           "id": 7639,
           "name": "Jayden Quaintance"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 562,
+          "name": "Otega Oweh"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 260
         }
       },
       "onFloor": [
@@ -2729,8 +2740,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43619367,
-      "sourceId": "401808157116924020",
+      "id": 43619369,
+      "sourceId": "401808157116924115",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 135,
@@ -2750,8 +2761,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T00:25:59.000Z",
-      "playText": "Jayden Quaintance misses free throw 1 of 2",
+      "wallclock": "2026-01-08T00:26:12.000Z",
+      "playText": "Jayden Quaintance misses free throw 2 of 2",
       "participants": [
         {
           "id": 7639,
@@ -2836,8 +2847,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43619369,
-      "sourceId": "401808157116924115",
+      "id": 43619367,
+      "sourceId": "401808157116924020",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 135,
@@ -2857,8 +2868,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T00:26:12.000Z",
-      "playText": "Jayden Quaintance misses free throw 2 of 2",
+      "wallclock": "2026-01-08T00:25:59.000Z",
+      "playText": "Jayden Quaintance misses free throw 1 of 2",
       "participants": [
         {
           "id": 7639,

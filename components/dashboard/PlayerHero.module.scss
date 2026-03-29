@@ -17,7 +17,7 @@
 
   @media (min-width: 1024px) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto 1fr;
   }
 }
 
@@ -126,6 +126,10 @@
   flex-direction: column;
   gap: 0.5rem;
   list-style: none;
+
+  @media (min-width: 768px) {
+    width: 250px;
+  }
 }
 
 .overviewItem {
@@ -134,11 +138,23 @@
   color: var(--color-primary-white);
   line-height: 1.625;
   display: flex;
-  gap: 0.5rem;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.overviewDash {
-  color: var(--color-primary-orange);
-  margin-top: 0.125rem;
+.overviewLabel {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   flex-shrink: 0;
+}
+
+.overviewValue {
+  color: var(--color-primary-white);
+  text-align: right;
+}
+
+.jersey {
+  color: var(--color-primary-yellow);
+  margin-right: 0.5rem;
 }

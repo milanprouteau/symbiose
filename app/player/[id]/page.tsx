@@ -2,14 +2,18 @@ import { promises as fs } from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 import PlayerHero from "@/components/dashboard/PlayerHero";
+import PlayerTabs from "@/components/dashboard/PlayerTabs";
+import Overview from "@/components/dashboard/Overview";
 import ShotChart from "@/components/dashboard/ShotChart";
+import Defensive from "@/components/dashboard/Defensive";
+import GameLog from "@/components/dashboard/GameLog";
 import type { RadarPlayer } from "@/components/dashboard/RadarChart";
 
 import { mapPlaysToShots } from "@/lib/mapShots";
+import { buildPlayer } from "@/lib/buildPlayer";
 import { calculatePlayerRankings } from "@/lib/playerRankings";
 import type { PlayRaw } from "@/lib/api";
-import type { PlayerDataBundle } from "@/types/stats";
-import styles from "./page.module.scss";
+import type { PlayerDataBundle, GameLogEntry } from "@/types/stats";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -43,6 +47,7 @@ export default async function PlayerPage({ params }: Props) {
     playerStats: data.playerStats,
     shootingStats: data.shootingStats,
     teamStats: data.teamStats,
+    profile: data.profile ?? null,
   };
 
   // Load all player data for rankings
@@ -64,26 +69,43 @@ export default async function PlayerPage({ params }: Props) {
   const rankings = calculatePlayerRankings(allPlayerStats);
   const playerRankings = rankings.get(Number(id));
 
+  // Build centralized player model
+  const player = buildPlayer(stats);
+
   const plays: PlayRaw[] = data.shots ?? [];
   const shots = mapPlaysToShots(plays, Number(id));
 
-  const ps = stats.playerStats;
   const radarPlayer: RadarPlayer = {
-    name: ps.name,
+    name: player.name,
     color: "#FF8C42",
     values: {
-      fg: ps.fieldGoals.pct,
-      three: ps.threePointFieldGoals.pct,
-      ft: ps.freeThrows.pct,
-      ts: ps.trueShootingPct < 1 ? ps.trueShootingPct * 100 : ps.trueShootingPct,
-      usage: ps.usage,
+      ppg: parseFloat(player.ppg),
+      rpg: parseFloat(player.rpg),
+      apg: parseFloat(player.apg),
+      mpg: parseFloat(player.mpg),
+      spg: parseFloat(player.spg),
+      bpg: parseFloat(player.bpg),
+      fgPct: player.fgPct,
+      threePtPct: player.threePtPct,
+      ftPct: player.ftPct,
+      trueShootingPct: player.trueShootingPct,
+      usage: player.usage,
+      defensiveRating: player.defensiveRating,
+      reboundsDefensive: player.reboundsDefensive,
+      steals: player.steals,
+      blocks: player.blocks,
     },
   };
 
   return (
     <div>
-      <PlayerHero stats={stats} rankings={playerRankings} />
-      <ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />
+      <PlayerHero player={player} />
+      <PlayerTabs
+        overview={<Overview player={player} rankings={playerRankings} />}
+        offensive={<ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />}
+        defensive={<Defensive player={player} radarPlayer={radarPlayer} />}
+        gameLog={<GameLog gameLog={data.gameLog ?? []} />}
+      />
     </div>
   );
 }

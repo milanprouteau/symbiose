@@ -8,6 +8,7 @@ export default async function HomePage() {
   const indexPath = path.join(process.cwd(), "data", "players", "index.json");
   const raw = await fs.readFile(indexPath, "utf-8");
   const players: PlayerEntry[] = JSON.parse(raw);
+  console.log('players', players);
 
   // Enrich players with mock draft predictions
   const enrichedPlayers = players.map(player => ({

@@ -3,30 +3,23 @@
 import { useMemo } from "react";
 import styles from "./RadarChart.module.scss";
 
+export type RadarAxis = {
+  key: string;
+  label: string;
+  max: number;
+};
+
 export type RadarPlayer = {
   name: string;
   color: string;
-  values: {
-    fg: number;    // FG%
-    three: number; // 3PT%
-    ft: number;    // FT%
-    ts: number;    // TS%
-    usage: number; // Usage%
-  };
+  values: Record<string, number>;
 };
 
 type Props = {
   players: RadarPlayer[];
+  axes: RadarAxis[];
   size?: number;
 };
-
-const AXES = [
-  { key: "fg" as const, label: "FG%", max: 70 },
-  { key: "three" as const, label: "3PT%", max: 50 },
-  { key: "ft" as const, label: "FT%", max: 100 },
-  { key: "ts" as const, label: "TS%", max: 70 },
-  { key: "usage" as const, label: "Usage", max: 40 },
-];
 
 const RINGS = [0.25, 0.5, 0.75, 1];
 
@@ -35,17 +28,16 @@ function polarToXY(angle: number, radius: number, cx: number, cy: number) {
   return { x: cx + radius * Math.cos(rad), y: cy + radius * Math.sin(rad) };
 }
 
-export default function RadarChart({ players, size = 280 }: Props) {
-  console.log('players', players);
+export default function RadarChart({ players, axes, size = 280 }: Props) {
   const cx = size / 2;
   const cy = size / 2;
   const maxR = size * 0.38;
-  const angleStep = 360 / AXES.length;
+  const angleStep = 360 / axes.length;
 
   const polygons = useMemo(() => {
     return players.map((player) => {
-      const points = AXES.map((axis, i) => {
-        const raw = player.values[axis.key];
+      const points = axes.map((axis, i) => {
+        const raw = player.values[axis.key] ?? 0;
         const norm = Math.min(raw / axis.max, 1);
         const r = norm * maxR;
         const angle = i * angleStep;
@@ -53,7 +45,7 @@ export default function RadarChart({ players, size = 280 }: Props) {
       });
       return { ...player, points };
     });
-  }, [players, cx, cy, maxR, angleStep]);
+  }, [players, axes, cx, cy, maxR, angleStep]);
 
   return (
     <div className={styles.container}>
@@ -61,7 +53,7 @@ export default function RadarChart({ players, size = 280 }: Props) {
         {/* Background rings */}
         {RINGS.map((pct) => {
           const r = pct * maxR;
-          const pts = AXES.map((_, i) => {
+          const pts = axes.map((_, i) => {
             const p = polarToXY(i * angleStep, r, cx, cy);
             return `${p.x},${p.y}`;
           }).join(" ");
@@ -77,7 +69,7 @@ export default function RadarChart({ players, size = 280 }: Props) {
         })}
 
         {/* Axis lines + labels */}
-        {AXES.map((axis, i) => {
+        {axes.map((axis, i) => {
           const angle = i * angleStep;
           const end = polarToXY(angle, maxR, cx, cy);
           const labelPos = polarToXY(angle, maxR + 18, cx, cy);

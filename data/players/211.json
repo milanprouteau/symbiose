@@ -12,55 +12,55 @@
     "athleteSourceId": "5061585",
     "name": "Isaiah Evans",
     "position": "G",
-    "games": 35,
-    "starts": 35,
-    "minutes": 983,
-    "points": 522,
-    "turnovers": 39,
-    "fouls": 41,
-    "assists": 48,
+    "games": 37,
+    "starts": 37,
+    "minutes": 1046,
+    "points": 564,
+    "turnovers": 41,
+    "fouls": 43,
+    "assists": 49,
     "steals": 28,
     "blocks": 23,
-    "offensiveRating": 125.8,
-    "defensiveRating": 97.5,
+    "offensiveRating": 126.5,
+    "defensiveRating": 98.2,
     "netRating": 28.3,
-    "PORPAG": 4.4,
-    "usage": 24.9,
-    "assistsTurnoverRatio": 1.23,
-    "offensiveReboundPct": 13.8,
-    "freeThrowRate": 26.8,
-    "effectiveFieldGoalPct": 54.4,
-    "trueShootingPct": 0.591,
+    "PORPAG": 4.5,
+    "usage": 25.1,
+    "assistsTurnoverRatio": 1.2,
+    "offensiveReboundPct": 13,
+    "freeThrowRate": 26.4,
+    "effectiveFieldGoalPct": 55.2,
+    "trueShootingPct": 0.596,
     "fieldGoals": {
-      "made": 168,
-      "attempted": 395,
-      "pct": 42.5
+      "made": 184,
+      "attempted": 424,
+      "pct": 43.4
     },
     "twoPointFieldGoals": {
-      "made": 74,
-      "attempted": 135,
-      "pct": 54.8
+      "made": 84,
+      "attempted": 148,
+      "pct": 56.8
     },
     "threePointFieldGoals": {
-      "made": 94,
-      "attempted": 260,
+      "made": 100,
+      "attempted": 276,
       "pct": 36.2
     },
     "freeThrows": {
-      "made": 92,
-      "attempted": 106,
-      "pct": 86.8
+      "made": 96,
+      "attempted": 112,
+      "pct": 85.7
     },
     "rebounds": {
       "offensive": 16,
-      "defensive": 100,
-      "total": 116
+      "defensive": 107,
+      "total": 123
     },
     "winShares": {
-      "offensive": 3.4,
+      "offensive": 3.7,
       "defensive": 1.9,
-      "total": 5.3,
-      "totalPer40": 0.216
+      "total": 5.6,
+      "totalPer40": 0.214
     }
   },
   "shootingStats": {
@@ -70,22 +70,22 @@
     "conference": "ACC",
     "athleteId": 211,
     "athleteName": "Isaiah Evans",
-    "trackedShots": 396,
-    "freeThrowRate": 26.8,
-    "assistedPct": 28.8,
+    "trackedShots": 425,
+    "freeThrowRate": 26.4,
+    "assistedPct": 28.2,
     "dunks": {
-      "attempted": 23,
-      "made": 21,
-      "pct": 91.3,
-      "assisted": 13,
-      "assistedPct": 61.9
+      "attempted": 24,
+      "made": 22,
+      "pct": 91.7,
+      "assisted": 14,
+      "assistedPct": 63.6
     },
     "layups": {
-      "attempted": 59,
-      "made": 34,
-      "pct": 57.6,
-      "assisted": 9,
-      "assistedPct": 26.5
+      "attempted": 64,
+      "made": 39,
+      "pct": 60.9,
+      "assisted": 10,
+      "assistedPct": 25.6
     },
     "tipIns": {
       "attempted": 2,
@@ -93,30 +93,30 @@
       "pct": 100
     },
     "twoPointJumpers": {
-      "attempted": 52,
-      "made": 18,
-      "pct": 34.6,
+      "attempted": 59,
+      "made": 22,
+      "pct": 37.3,
       "assisted": 7,
-      "assistedPct": 38.9
+      "assistedPct": 31.8
     },
     "threePointJumpers": {
-      "attempted": 260,
-      "made": 94,
+      "attempted": 276,
+      "made": 100,
       "pct": 36.2,
-      "assisted": 85,
-      "assistedPct": 90.4
+      "assisted": 89,
+      "assistedPct": 89
     },
     "freeThrows": {
-      "attempted": 106,
-      "made": 92,
-      "pct": 86.8
+      "attempted": 112,
+      "made": 96,
+      "pct": 85.7
     },
     "attemptsBreakdown": {
-      "dunks": 5.8,
-      "layups": 14.9,
+      "dunks": 5.6,
+      "layups": 15.1,
       "tipIns": 0.5,
-      "twoPointJumpers": 13.1,
-      "threePointJumpers": 65.7
+      "twoPointJumpers": 13.9,
+      "threePointJumpers": 64.9
     }
   },
   "teamStats": {
@@ -125,119 +125,130 @@
     "teamId": 72,
     "team": "Duke",
     "conference": "ACC",
-    "games": 35,
-    "wins": 33,
+    "games": 37,
+    "wins": 35,
     "losses": 2,
-    "totalMinutes": 1400,
-    "pace": 66.7,
+    "totalMinutes": 1480,
+    "pace": 66.6,
     "teamStats": {
-      "assists": 578,
-      "blocks": 114,
-      "steals": 264,
-      "possessions": 2332,
-      "trueShooting": 60.2,
-      "rating": 123,
+      "assists": 608,
+      "blocks": 123,
+      "steals": 273,
+      "possessions": 2460,
+      "trueShooting": 60.4,
+      "rating": 123.2,
       "fieldGoals": {
-        "made": 997,
-        "attempted": 2044,
-        "pct": 48.8
+        "made": 1054,
+        "attempted": 2149,
+        "pct": 49
       },
       "twoPointFieldGoals": {
-        "made": 683,
-        "attempted": 1137,
-        "pct": 60.1
+        "made": 728,
+        "attempted": 1207,
+        "pct": 60.3
       },
       "threePointFieldGoals": {
-        "made": 314,
-        "attempted": 907,
+        "made": 326,
+        "attempted": 942,
         "pct": 34.6
       },
       "freeThrows": {
-        "made": 561,
-        "attempted": 771,
-        "pct": 72.8
+        "made": 596,
+        "attempted": 818,
+        "pct": 72.9
       },
       "rebounds": {
-        "offensive": 439,
-        "defensive": 973,
-        "total": 1412
+        "offensive": 460,
+        "defensive": 1034,
+        "total": 1494
       },
       "turnovers": {
-        "total": 366,
-        "teamTotal": 12
+        "total": 392,
+        "teamTotal": 14
       },
       "fouls": {
-        "total": 544,
+        "total": 572,
         "technical": 3,
-        "flagrant": 2
+        "flagrant": 5
       },
       "points": {
-        "total": 2869,
-        "inPaint": 1300,
-        "offTurnovers": 489,
-        "fastBreak": 352
+        "total": 3030,
+        "inPaint": 1378,
+        "offTurnovers": 508,
+        "fastBreak": 371
       },
       "fourFactors": {
-        "effectiveFieldGoalPct": 56.5,
+        "effectiveFieldGoalPct": 56.6,
         "turnoverRatio": 0.16,
-        "offensiveReboundPct": 31.1,
-        "freeThrowRate": 37.7
+        "offensiveReboundPct": 30.8,
+        "freeThrowRate": 38.1
       }
     },
     "opponentStats": {
-      "assists": 411,
-      "blocks": 104,
-      "steals": 220,
-      "possessions": 2337,
-      "trueShooting": 49.5,
-      "rating": 94.7,
+      "assists": 442,
+      "blocks": 110,
+      "steals": 239,
+      "possessions": 2466,
+      "trueShooting": 49.3,
+      "rating": 95.1,
       "fieldGoals": {
-        "made": 795,
-        "attempted": 2028,
+        "made": 847,
+        "attempted": 2161,
         "pct": 39.2
       },
       "twoPointFieldGoals": {
-        "made": 513,
-        "attempted": 1105,
-        "pct": 46.4
+        "made": 545,
+        "attempted": 1182,
+        "pct": 46.1
       },
       "threePointFieldGoals": {
-        "made": 282,
-        "attempted": 923,
-        "pct": 30.6
+        "made": 302,
+        "attempted": 979,
+        "pct": 30.8
       },
       "freeThrows": {
-        "made": 340,
-        "attempted": 472,
-        "pct": 72
+        "made": 349,
+        "attempted": 490,
+        "pct": 71.2
       },
       "rebounds": {
-        "offensive": 323,
-        "defensive": 709,
-        "total": 1032
+        "offensive": 344,
+        "defensive": 740,
+        "total": 1084
       },
       "turnovers": {
-        "total": 420,
-        "teamTotal": 23
+        "total": 434,
+        "teamTotal": 26
       },
       "fouls": {
-        "total": 634,
-        "technical": 3,
-        "flagrant": 2
+        "total": 674,
+        "technical": 4,
+        "flagrant": 6
       },
       "points": {
-        "total": 2212,
-        "inPaint": 858,
-        "offTurnovers": 368,
-        "fastBreak": 275
+        "total": 2345,
+        "inPaint": 914,
+        "offTurnovers": 397,
+        "fastBreak": 298
       },
       "fourFactors": {
         "effectiveFieldGoalPct": 46.2,
         "turnoverRatio": 0.18,
-        "offensiveReboundPct": 31.3,
-        "freeThrowRate": 23.3
+        "offensiveReboundPct": 31.7,
+        "freeThrowRate": 22.7
       }
     }
+  },
+  "profile": {
+    "jersey": "3",
+    "position": "Guard",
+    "height": 78,
+    "weight": 180,
+    "hometown": {
+      "city": "Fayetteville",
+      "state": "NC"
+    },
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -1380,8 +1391,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039100,
-      "sourceId": "401817228113753984",
+      "id": 38039105,
+      "sourceId": "401817228113754226",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1392,16 +1403,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 49,
       "awayScore": 41,
-      "homeWinProbability": 0.856,
+      "homeWinProbability": 0.889,
       "period": 2,
       "clock": "12:21",
       "secondsRemaining": 741,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:31:37.000Z",
+      "wallclock": "2025-11-05T03:31:57.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -1487,8 +1498,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039105,
-      "sourceId": "401817228113754226",
+      "id": 38039100,
+      "sourceId": "401817228113753984",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1499,16 +1510,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 48,
       "awayScore": 41,
-      "homeWinProbability": 0.889,
+      "homeWinProbability": 0.856,
       "period": 2,
       "clock": "12:21",
       "secondsRemaining": 741,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:31:57.000Z",
+      "wallclock": "2025-11-05T03:31:37.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -1701,8 +1712,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039156,
-      "sourceId": "401817228113755634",
+      "id": 38039155,
+      "sourceId": "401817228113755633",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1713,16 +1724,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 48,
-      "homeWinProbability": 0.943,
+      "homeWinProbability": 0.912,
       "period": 2,
       "clock": "8:26",
       "secondsRemaining": 506,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:46:15.000Z",
+      "wallclock": "2025-11-05T03:46:09.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -1808,8 +1819,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039155,
-      "sourceId": "401817228113755633",
+      "id": 38039156,
+      "sourceId": "401817228113755634",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1820,16 +1831,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 48,
-      "homeWinProbability": 0.912,
+      "homeWinProbability": 0.943,
       "period": 2,
       "clock": "8:26",
       "secondsRemaining": 506,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:46:09.000Z",
+      "wallclock": "2025-11-05T03:46:15.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -4999,8 +5010,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745686,
-      "sourceId": "401817230114149478",
+      "id": 38745664,
+      "sourceId": "401817230114149275",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -5012,7 +5023,7 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 58,
+      "awayScore": 57,
       "homeWinProbability": 0.002,
       "period": 2,
       "clock": "16:43",
@@ -5020,7 +5031,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:20:46.000Z",
+      "wallclock": "2025-11-12T01:20:19.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -5106,8 +5117,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745664,
-      "sourceId": "401817230114149275",
+      "id": 38745686,
+      "sourceId": "401817230114149478",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -5119,7 +5130,7 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 57,
+      "awayScore": 58,
       "homeWinProbability": 0.002,
       "period": 2,
       "clock": "16:43",
@@ -5127,7 +5138,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:20:19.000Z",
+      "wallclock": "2025-11-12T01:20:46.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -9571,9 +9582,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39740865,
-      "sourceId": "401813377114742854",
-      "playType": "MadeFreeThrow",
+      "id": 39740861,
+      "sourceId": "401813377114742741",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -9583,7 +9594,7 @@
       "opponent": "Niagara",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 86,
       "awayScore": 32,
       "homeWinProbability": 1,
       "period": 2,
@@ -9591,10 +9602,14 @@
       "secondsRemaining": 344,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-22T01:49:36.000Z",
-      "playText": "Isaiah Evans made Free Throw.",
+      "scoreValue": 3,
+      "wallclock": "2025-11-22T01:48:58.000Z",
+      "playText": "Isaiah Evans made Three Point Jumper. Assisted by Nikolas Khamenia.",
       "participants": [
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia"
+        },
         {
           "id": 211,
           "name": "Isaiah Evans"
@@ -9606,15 +9621,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "three_pointer",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 198983,
+          "name": "Nikolas Khamenia"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 206.8,
+          "y": 435
         }
       },
       "onFloor": [
@@ -9678,9 +9693,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39740861,
-      "sourceId": "401813377114742741",
-      "playType": "JumpShot",
+      "id": 39740865,
+      "sourceId": "401813377114742854",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -9690,7 +9705,7 @@
       "opponent": "Niagara",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 87,
       "awayScore": 32,
       "homeWinProbability": 1,
       "period": 2,
@@ -9698,14 +9713,10 @@
       "secondsRemaining": 344,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2025-11-22T01:48:58.000Z",
-      "playText": "Isaiah Evans made Three Point Jumper. Assisted by Nikolas Khamenia.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-22T01:49:36.000Z",
+      "playText": "Isaiah Evans made Free Throw.",
       "participants": [
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia"
-        },
         {
           "id": 211,
           "name": "Isaiah Evans"
@@ -9717,15 +9728,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "three_pointer",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 198983,
-          "name": "Nikolas Khamenia"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 206.8,
-          "y": 435
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -18984,8 +18995,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967531,
-      "sourceId": "401820636116573538",
+      "id": 42967530,
+      "sourceId": "401820636116573499",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -18996,17 +19007,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 32,
       "awayScore": 35,
-      "homeWinProbability": 0.513,
+      "homeWinProbability": 0.487,
       "period": 1,
       "clock": "4:22",
       "secondsRemaining": 262,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T21:42:16.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2025-12-31T21:41:59.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -19091,8 +19102,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967530,
-      "sourceId": "401820636116573499",
+      "id": 42967531,
+      "sourceId": "401820636116573538",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -19103,17 +19114,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 33,
       "awayScore": 35,
-      "homeWinProbability": 0.487,
+      "homeWinProbability": 0.513,
       "period": 1,
       "clock": "4:22",
       "secondsRemaining": 262,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T21:41:59.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2025-12-31T21:42:16.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -20722,8 +20733,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215516,
-      "sourceId": "401820644116764511",
+      "id": 43215515,
+      "sourceId": "401820644116764406",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -20735,16 +20746,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 35,
-      "homeWinProbability": 0.649,
+      "awayScore": 34,
+      "homeWinProbability": 0.693,
       "period": 1,
       "clock": "3:55",
       "secondsRemaining": 235,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T21:35:30.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-03T21:35:18.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -20829,8 +20840,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215515,
-      "sourceId": "401820644116764406",
+      "id": 43215516,
+      "sourceId": "401820644116764511",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -20842,16 +20853,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 34,
-      "homeWinProbability": 0.693,
+      "awayScore": 35,
+      "homeWinProbability": 0.649,
       "period": 1,
       "clock": "3:55",
       "secondsRemaining": 235,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T21:35:18.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-03T21:35:30.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -22240,8 +22251,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215784,
-      "sourceId": "401820644116788835",
+      "id": 43215785,
+      "sourceId": "401820644116788901",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -22253,16 +22264,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 88,
-      "homeWinProbability": 0.088,
+      "awayScore": 89,
+      "homeWinProbability": 0.06,
       "period": 2,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:55:43.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-03T22:56:04.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -22347,8 +22358,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215785,
-      "sourceId": "401820644116788901",
+      "id": 43215784,
+      "sourceId": "401820644116788835",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -22360,16 +22371,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 89,
-      "homeWinProbability": 0.06,
+      "awayScore": 88,
+      "homeWinProbability": 0.088,
       "period": 2,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:56:04.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:55:43.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -24174,113 +24185,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554465,
-      "sourceId": "401820650116896152",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 150,
-      "opponent": "Louisville",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 53,
-      "awayScore": 48,
-      "homeWinProbability": 0.802,
-      "period": 2,
-      "clock": "16:04",
-      "secondsRemaining": 964,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-07T01:19:04.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 211,
-          "name": "Isaiah Evans"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 211,
-          "name": "Isaiah Evans"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3428,
-          "name": "Aly Khalifa",
-          "team": "Louisville"
-        },
-        {
-          "id": 3429,
-          "name": "Kobe Rodgers",
-          "team": "Louisville"
-        },
-        {
-          "id": 4066,
-          "name": "Ryan Conwell",
-          "team": "Louisville"
-        },
-        {
-          "id": 3416,
-          "name": "J'Vonne Hadley",
-          "team": "Louisville"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 8193,
-          "name": "Isaac McKneely",
-          "team": "Louisville"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 214348,
-      "gameSourceId": "401820650",
-      "gameStartDate": "2026-01-07T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43554470,
       "sourceId": "401820650116896177",
       "playType": "MadeFreeThrow",
@@ -24388,9 +24292,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554515,
-      "sourceId": "401820650116897892",
-      "playType": "LayUpShot",
+      "id": 43554465,
+      "sourceId": "401820650116896152",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -24400,17 +24304,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 55,
-      "awayScore": 58,
-      "homeWinProbability": 0.438,
+      "homeScore": 53,
+      "awayScore": 48,
+      "homeWinProbability": 0.802,
       "period": 2,
-      "clock": "11:46",
-      "secondsRemaining": 706,
+      "clock": "16:04",
+      "secondsRemaining": 964,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-07T01:36:31.000Z",
-      "playText": "Isaiah Evans makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-07T01:19:04.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -24423,15 +24327,122 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 235
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3428,
+          "name": "Aly Khalifa",
+          "team": "Louisville"
+        },
+        {
+          "id": 3429,
+          "name": "Kobe Rodgers",
+          "team": "Louisville"
+        },
+        {
+          "id": 4066,
+          "name": "Ryan Conwell",
+          "team": "Louisville"
+        },
+        {
+          "id": 3416,
+          "name": "J'Vonne Hadley",
+          "team": "Louisville"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 8193,
+          "name": "Isaac McKneely",
+          "team": "Louisville"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 214348,
+      "gameSourceId": "401820650",
+      "gameStartDate": "2026-01-07T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43554520,
+      "sourceId": "401820650116898341",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 150,
+      "opponent": "Louisville",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 59,
+      "homeWinProbability": 0.389,
+      "period": 2,
+      "clock": "11:46",
+      "secondsRemaining": 706,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-07T01:41:12.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -24495,9 +24506,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554520,
-      "sourceId": "401820650116898341",
-      "playType": "MadeFreeThrow",
+      "id": 43554515,
+      "sourceId": "401820650116897892",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -24508,16 +24519,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 59,
-      "homeWinProbability": 0.389,
+      "awayScore": 58,
+      "homeWinProbability": 0.438,
       "period": 2,
       "clock": "11:46",
       "secondsRemaining": 706,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-07T01:41:12.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-07T01:36:31.000Z",
+      "playText": "Isaiah Evans makes driving layup",
       "participants": [
         {
           "id": 211,
@@ -24530,15 +24541,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 235
         }
       },
       "onFloor": [
@@ -26552,8 +26563,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43870319,
-      "sourceId": "401820657117153980",
+      "id": 43870318,
+      "sourceId": "401820657117153828",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -26564,17 +26575,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 73,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.99,
       "period": 2,
       "clock": "0:20",
       "secondsRemaining": 20,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T21:17:13.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-10T21:16:57.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -26659,8 +26670,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43870318,
-      "sourceId": "401820657117153828",
+      "id": 43870319,
+      "sourceId": "401820657117153980",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -26671,17 +26682,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 73,
-      "homeWinProbability": 0.99,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "0:20",
       "secondsRemaining": 20,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T21:16:57.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-10T21:17:13.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -26980,8 +26991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310445,
-      "sourceId": "401820666117349586",
+      "id": 44310447,
+      "sourceId": "401820666117349588",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -26993,16 +27004,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 2,
-      "homeWinProbability": 0.663,
+      "awayScore": 3,
+      "homeWinProbability": 0.618,
       "period": 1,
       "clock": "17:24",
       "secondsRemaining": 1044,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:14:55.000Z",
-      "playText": "Isaiah Evans misses free throw 1 of 2",
+      "wallclock": "2026-01-15T04:14:59.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -27014,7 +27025,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27087,8 +27098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310447,
-      "sourceId": "401820666117349588",
+      "id": 44310445,
+      "sourceId": "401820666117349586",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -27100,16 +27111,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 3,
-      "homeWinProbability": 0.618,
+      "awayScore": 2,
+      "homeWinProbability": 0.663,
       "period": 1,
       "clock": "17:24",
       "secondsRemaining": 1044,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:14:59.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-15T04:14:55.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -27121,7 +27132,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28165,9 +28176,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310659,
-      "sourceId": "401820666117351547",
-      "playType": "JumpShot",
+      "id": 44310661,
+      "sourceId": "401820666117351553",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -28183,19 +28194,15 @@
       "period": 2,
       "clock": "18:32",
       "secondsRemaining": 1112,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T05:16:21.000Z",
-      "playText": "Isaiah Evans makes 13-foot floating jump shot (Cameron Boozer assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T05:16:48.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 1",
       "participants": [
         {
           "id": 211,
           "name": "Isaiah Evans"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
         }
       ],
       "shotInfo": {
@@ -28203,12 +28210,12 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 198977,
-          "name": "Cameron Boozer"
+          "id": null,
+          "name": null
         },
         "location": {
           "x": null,
@@ -28276,9 +28283,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310661,
-      "sourceId": "401820666117351553",
-      "playType": "MadeFreeThrow",
+      "id": 44310659,
+      "sourceId": "401820666117351547",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -28294,15 +28301,19 @@
       "period": 2,
       "clock": "18:32",
       "secondsRemaining": 1112,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T05:16:48.000Z",
-      "playText": "Isaiah Evans misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T05:16:21.000Z",
+      "playText": "Isaiah Evans makes 13-foot floating jump shot (Cameron Boozer assists)",
       "participants": [
         {
           "id": 211,
           "name": "Isaiah Evans"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
         }
       ],
       "shotInfo": {
@@ -28310,12 +28321,12 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 198977,
+          "name": "Cameron Boozer"
         },
         "location": {
           "x": null,
@@ -31625,8 +31636,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208603,
-      "sourceId": "401820689117850209",
+      "id": 45208602,
+      "sourceId": "401820689117850167",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -31637,17 +31648,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 53,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "7:56",
       "secondsRemaining": 476,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T18:37:47.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-24T18:37:34.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -31732,8 +31743,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208602,
-      "sourceId": "401820689117850167",
+      "id": 45208603,
+      "sourceId": "401820689117850209",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -31744,17 +31755,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 53,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "7:56",
       "secondsRemaining": 476,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T18:37:34.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-24T18:37:47.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -32814,8 +32825,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45473244,
-      "sourceId": "401820698117976108",
+      "id": 45473242,
+      "sourceId": "401820698117976095",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -32826,17 +32837,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 36,
       "awayScore": 28,
-      "homeWinProbability": 0.916,
+      "homeWinProbability": 0.876,
       "period": 1,
       "clock": "0:39",
       "secondsRemaining": 39,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T00:51:25.000Z",
-      "playText": "Isaiah Evans makes free throw 3 of 3",
+      "wallclock": "2026-01-27T00:50:59.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 3",
       "participants": [
         {
           "id": 211,
@@ -33028,8 +33039,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45473242,
-      "sourceId": "401820698117976095",
+      "id": 45473244,
+      "sourceId": "401820698117976108",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -33040,17 +33051,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 38,
       "awayScore": 28,
-      "homeWinProbability": 0.876,
+      "homeWinProbability": 0.916,
       "period": 1,
       "clock": "0:39",
       "secondsRemaining": 39,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T00:50:59.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 3",
+      "wallclock": "2026-01-27T00:51:25.000Z",
+      "playText": "Isaiah Evans makes free throw 3 of 3",
       "participants": [
         {
           "id": 211,
@@ -34106,9 +34117,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45806291,
-      "sourceId": "401820712118167771",
-      "playType": "JumpShot",
+      "id": 45806293,
+      "sourceId": "401820712118167860",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -34119,16 +34130,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 57,
-      "homeWinProbability": 0.155,
+      "awayScore": 58,
+      "homeWinProbability": 0.114,
       "period": 2,
       "clock": "10:20",
       "secondsRemaining": 620,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T18:27:17.000Z",
-      "playText": "Isaiah Evans makes 11-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T18:27:45.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
       "participants": [
         {
           "id": 211,
@@ -34141,15 +34152,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 94,
-          "y": 350
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -34213,9 +34224,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45806293,
-      "sourceId": "401820712118167860",
-      "playType": "MadeFreeThrow",
+      "id": 45806291,
+      "sourceId": "401820712118167771",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -34226,16 +34237,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 58,
-      "homeWinProbability": 0.114,
+      "awayScore": 57,
+      "homeWinProbability": 0.155,
       "period": 2,
       "clock": "10:20",
       "secondsRemaining": 620,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T18:27:45.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T18:27:17.000Z",
+      "playText": "Isaiah Evans makes 11-foot pullup jump shot",
       "participants": [
         {
           "id": 211,
@@ -34248,15 +34259,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 350
         }
       },
       "onFloor": [
@@ -36484,8 +36495,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46509068,
-      "sourceId": "401820724118644048",
+      "id": 46509069,
+      "sourceId": "401820724118644106",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -36497,16 +36508,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 3,
-      "homeWinProbability": 0.603,
+      "awayScore": 4,
+      "homeWinProbability": 0.557,
       "period": 1,
       "clock": "18:59",
       "secondsRemaining": 1139,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T23:38:27.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-02-07T23:38:47.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -36591,8 +36602,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46509069,
-      "sourceId": "401820724118644106",
+      "id": 46509068,
+      "sourceId": "401820724118644048",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -36604,16 +36615,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 4,
-      "homeWinProbability": 0.557,
+      "awayScore": 3,
+      "homeWinProbability": 0.603,
       "period": 1,
       "clock": "18:59",
       "secondsRemaining": 1139,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T23:38:47.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-07T23:38:27.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -40632,8 +40643,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049285,
-      "sourceId": "401820740118895312",
+      "id": 47049211,
+      "sourceId": "401820740118895179",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -40644,17 +40655,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 60,
       "awayScore": 40,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "7:10",
       "secondsRemaining": 430,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:42:36.000Z",
-      "playText": "Isaiah Evans makes free throw 3 of 3",
+      "wallclock": "2026-02-14T18:42:07.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 3",
       "participants": [
         {
           "id": 211,
@@ -40846,8 +40857,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049211,
-      "sourceId": "401820740118895179",
+      "id": 47049285,
+      "sourceId": "401820740118895312",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -40858,17 +40869,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 62,
       "awayScore": 40,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "7:10",
       "secondsRemaining": 430,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:42:07.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 3",
+      "wallclock": "2026-02-14T18:42:36.000Z",
+      "playText": "Isaiah Evans makes free throw 3 of 3",
       "participants": [
         {
           "id": 211,
@@ -41381,8 +41392,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363384,
-      "sourceId": "401820747119066715",
+      "id": 47363387,
+      "sourceId": "401820747119066742",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -41393,17 +41404,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 2,
-      "homeWinProbability": 0.565,
+      "homeWinProbability": 0.649,
       "period": 1,
       "clock": "19:23",
       "secondsRemaining": 1163,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T00:02:20.000Z",
-      "playText": "Isaiah Evans misses free throw 1 of 2",
+      "wallclock": "2026-02-17T00:02:34.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -41415,7 +41426,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41488,8 +41499,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363387,
-      "sourceId": "401820747119066742",
+      "id": 47363384,
+      "sourceId": "401820747119066715",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -41500,17 +41511,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 1,
+      "homeScore": 0,
       "awayScore": 2,
-      "homeWinProbability": 0.649,
+      "homeWinProbability": 0.565,
       "period": 1,
       "clock": "19:23",
       "secondsRemaining": 1163,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T00:02:34.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-17T00:02:20.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -41522,7 +41533,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41809,9 +41820,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363617,
-      "sourceId": "401820747119067614",
-      "playType": "LayUpShot",
+      "id": 47363622,
+      "sourceId": "401820747119067647",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -41821,17 +41832,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 9,
-      "homeWinProbability": 0.791,
+      "homeWinProbability": 0.822,
       "period": 1,
       "clock": "10:53",
       "secondsRemaining": 653,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-17T00:20:56.000Z",
-      "playText": "Isaiah Evans makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-17T00:21:20.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
       "participants": [
         {
           "id": 211,
@@ -41844,15 +41855,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 300
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41916,9 +41927,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363622,
-      "sourceId": "401820747119067647",
-      "playType": "MadeFreeThrow",
+      "id": 47363617,
+      "sourceId": "401820747119067614",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -41928,17 +41939,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 9,
-      "homeWinProbability": 0.822,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "10:53",
       "secondsRemaining": 653,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-17T00:21:20.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-17T00:20:56.000Z",
+      "playText": "Isaiah Evans makes driving layup",
       "participants": [
         {
           "id": 211,
@@ -41951,15 +41962,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 300
         }
       },
       "onFloor": [
@@ -45162,8 +45173,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967864,
-      "sourceId": "401820767119438841",
+      "id": 47967865,
+      "sourceId": "401820767119438846",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -45175,7 +45186,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 10,
+      "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:36",
@@ -45183,8 +45194,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:12:08.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-02-25T00:12:14.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -45269,8 +45280,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967865,
-      "sourceId": "401820767119438846",
+      "id": 47967864,
+      "sourceId": "401820767119438841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -45282,7 +45293,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 11,
+      "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:36",
@@ -45290,8 +45301,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:12:14.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-25T00:12:08.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -46030,8 +46041,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47968080,
-      "sourceId": "401820767119446064",
+      "id": 47968079,
+      "sourceId": "401820767119446049",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -46043,7 +46054,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 24,
-      "awayScore": 56,
+      "awayScore": 55,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:56",
@@ -46051,8 +46062,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:17:39.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-25T01:17:22.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -46137,8 +46148,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47968079,
-      "sourceId": "401820767119446049",
+      "id": 47968080,
+      "sourceId": "401820767119446064",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -46150,7 +46161,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 24,
-      "awayScore": 55,
+      "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:56",
@@ -46158,8 +46169,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:17:22.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-02-25T01:17:39.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -51682,8 +51693,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49342997,
-      "sourceId": "401851179120212574",
+      "id": 49343000,
+      "sourceId": "401851179120212638",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -51694,7 +51705,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -51703,8 +51714,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:19:04.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-03-12T23:19:27.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -51789,8 +51800,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343000,
-      "sourceId": "401851179120212638",
+      "id": 49342997,
+      "sourceId": "401851179120212574",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -51801,7 +51812,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -51810,8 +51821,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:19:27.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-03-12T23:19:04.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -54500,8 +54511,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49407993,
-      "sourceId": "401851182120255960",
+      "id": 49407996,
+      "sourceId": "401851182120255963",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -54512,7 +54523,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 26,
       "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
@@ -54521,8 +54532,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:13:37.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-03-14T02:13:56.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -54607,8 +54618,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49407996,
-      "sourceId": "401851182120255963",
+      "id": 49407993,
+      "sourceId": "401851182120255960",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -54619,7 +54630,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 25,
       "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
@@ -54628,8 +54639,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:13:56.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-03-14T02:13:37.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -59359,6 +59370,113 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
+      "id": 49539948,
+      "sourceId": "401856478120298350",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 264,
+      "opponent": "Siena",
+      "opponentConference": "MAAC",
+      "opponentSeed": 16,
+      "homeScore": 68,
+      "awayScore": 63,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:16",
+      "secondsRemaining": 16,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-19T21:01:06.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2739,
+          "name": "Brendan Coyle",
+          "team": "Siena"
+        },
+        {
+          "id": 2748,
+          "name": "Justice Shoats",
+          "team": "Siena"
+        },
+        {
+          "id": 201990,
+          "name": "Francis Folefac",
+          "team": "Siena"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5487,
+          "name": "Riley Mulvey",
+          "team": "Siena"
+        },
+        {
+          "id": 2747,
+          "name": "Gavin Doty",
+          "team": "Siena"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372515,
+      "gameSourceId": "401856478",
+      "gameStartDate": "2026-03-19T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
       "id": 49539950,
       "sourceId": "401856478120298351",
       "playType": "MadeFreeThrow",
@@ -59459,35 +59577,471 @@
       ]
     },
     {
-      "gameId": 372515,
-      "gameSourceId": "401856478",
-      "gameStartDate": "2026-03-19T19:00:00.000Z",
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
       "season": 2026,
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539948,
-      "sourceId": "401856478120298350",
+      "id": 49592068,
+      "sourceId": "401856530120345764",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 2,
+      "awayScore": 5,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "17:49",
+      "secondsRemaining": 1069,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T21:29:04.000Z",
+      "playText": "Isaiah Evans misses 13-foot floating jump shot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 169.2,
+          "y": 190
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592095,
+      "sourceId": "401856530120345931",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 9,
+      "awayScore": 7,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "15:29",
+      "secondsRemaining": 929,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T21:35:51.000Z",
+      "playText": "Patrick Ngongba II makes layup (Isaiah Evans assists)",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 216,
+          "name": "Patrick Ngongba II"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "location": {
+          "x": 65.8,
+          "y": 260
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592154,
+      "sourceId": "401856530120346307",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 19,
+      "awayScore": 15,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "11:04",
+      "secondsRemaining": 664,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T21:48:00.000Z",
+      "playText": "Isaiah Evans makes 25-foot three point jumper (Maliq Brown assists)",
+      "participants": [
+        {
+          "id": 209,
+          "name": "Maliq Brown"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 209,
+          "name": "Maliq Brown"
+        },
+        "location": {
+          "x": 244.4,
+          "y": 410
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592156,
+      "sourceId": "401856530120346323",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 19,
+      "awayScore": 18,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "10:29",
+      "secondsRemaining": 629,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T21:48:35.000Z",
+      "playText": "Isaiah Evans misses 14-foot pullup jump shot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 169.2,
+          "y": 185
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592168,
+      "sourceId": "401856530120346394",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
       "conference": "ACC",
       "teamSeed": 1,
-      "opponentId": 264,
-      "opponent": "Siena",
-      "opponentConference": "MAAC",
-      "opponentSeed": 16,
-      "homeScore": 68,
-      "awayScore": 63,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 20,
+      "awayScore": 20,
       "homeWinProbability": null,
-      "period": 2,
-      "clock": "0:16",
-      "secondsRemaining": 16,
+      "period": 1,
+      "clock": "9:48",
+      "secondsRemaining": 588,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T21:01:06.000Z",
+      "wallclock": "2026-03-21T21:49:48.000Z",
       "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
@@ -59514,19 +60068,34 @@
       },
       "onFloor": [
         {
-          "id": 2739,
-          "name": "Brendan Coyle",
-          "team": "Siena"
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
         },
         {
-          "id": 2748,
-          "name": "Justice Shoats",
-          "team": "Siena"
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
         },
         {
-          "id": 201990,
-          "name": "Francis Folefac",
-          "team": "Siena"
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
         },
         {
           "id": 198985,
@@ -59534,14 +60103,2046 @@
           "team": "Duke"
         },
         {
-          "id": 5487,
-          "name": "Riley Mulvey",
-          "team": "Siena"
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
         },
         {
-          "id": 2747,
-          "name": "Gavin Doty",
-          "team": "Siena"
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592169,
+      "sourceId": "401856530120346395",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 21,
+      "awayScore": 20,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "9:48",
+      "secondsRemaining": 588,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-21T21:50:04.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592175,
+      "sourceId": "401856530120346415",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 23,
+      "awayScore": 20,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "8:43",
+      "secondsRemaining": 523,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T21:51:34.000Z",
+      "playText": "Isaiah Evans makes driving layup",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 75.2,
+          "y": 260
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592186,
+      "sourceId": "401856530120346444",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 26,
+      "awayScore": 22,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "8:09",
+      "secondsRemaining": 489,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T21:52:58.000Z",
+      "playText": "Isaiah Evans makes 26-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 291.4,
+          "y": 155
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7405,
+          "name": "Vianney Salatchoum",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592188,
+      "sourceId": "401856530120346452",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 27,
+      "awayScore": 22,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "8:09",
+      "secondsRemaining": 489,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-21T21:53:23.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7405,
+          "name": "Vianney Salatchoum",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592191,
+      "sourceId": "401856530120346460",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 27,
+      "awayScore": 22,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "7:36",
+      "secondsRemaining": 456,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T21:54:01.000Z",
+      "playText": "Isaiah Evans misses 28-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 263.2,
+          "y": 75
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7405,
+          "name": "Vianney Salatchoum",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592214,
+      "sourceId": "401856530120346604",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 29,
+      "awayScore": 23,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "5:34",
+      "secondsRemaining": 334,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T22:02:11.000Z",
+      "playText": "Isaiah Evans misses 24-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 56.4,
+          "y": 485
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592216,
+      "sourceId": "401856530120346606",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 31,
+      "awayScore": 23,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "5:26",
+      "secondsRemaining": 326,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T22:02:19.000Z",
+      "playText": "Isaiah Evans makes driving layup",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 65.8,
+          "y": 265
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592238,
+      "sourceId": "401856530120346858",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 33,
+      "awayScore": 27,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "3:29",
+      "secondsRemaining": 209,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T22:16:09.000Z",
+      "playText": "Isaiah Evans misses 23-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 47,
+          "y": 25
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592242,
+      "sourceId": "401856530120346893",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 33,
+      "awayScore": 27,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "3:07",
+      "secondsRemaining": 187,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T22:17:15.000Z",
+      "playText": "Isaiah Evans misses 24-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 47,
+          "y": 485
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592272,
+      "sourceId": "401856530120347063",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 38,
+      "awayScore": 34,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "0:10",
+      "secondsRemaining": 10,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T22:24:44.000Z",
+      "playText": "Isaiah Evans misses 23-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 94,
+          "y": 475
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7405,
+          "name": "Vianney Salatchoum",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592353,
+      "sourceId": "401856530120347640",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 44,
+      "awayScore": 42,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "14:27",
+      "secondsRemaining": 867,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T23:02:48.000Z",
+      "playText": "Isaiah Evans makes 7-foot hook shot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 874.2,
+          "y": 320
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592357,
+      "sourceId": "401856530120347647",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 44,
+      "awayScore": 42,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "14:26",
+      "secondsRemaining": 866,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-21T23:03:27.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 1",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592419,
+      "sourceId": "401856530120348047",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 61,
+      "awayScore": 50,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "8:38",
+      "secondsRemaining": 518,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T23:17:54.000Z",
+      "playText": "Isaiah Evans misses 24-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 799,
+          "y": 30
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 4438,
+          "name": "Tanner Toolson",
+          "team": "TCU"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592468,
+      "sourceId": "401856530120348387",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 72,
+      "awayScore": 52,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "3:40",
+      "secondsRemaining": 220,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T23:31:39.000Z",
+      "playText": "Isaiah Evans makes layup (Cameron Boozer assists)",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "location": {
+          "x": 874.2,
+          "y": 265
+        }
+      },
+      "onFloor": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649785,
+      "sourceId": "401856570120392784",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "19:02",
+      "secondsRemaining": 1142,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T23:12:11.000Z",
+      "playText": "Isaiah Evans makes driving layup",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 75.2,
+          "y": 225
+        }
+      },
+      "onFloor": [
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649805,
+      "sourceId": "401856570120392854",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 6,
+      "awayScore": 4,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "16:16",
+      "secondsRemaining": 976,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-27T23:15:55.000Z",
+      "playText": "Isaiah Evans misses 24-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 169.2,
+          "y": 460
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649841,
+      "sourceId": "401856570120392979",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 15,
+      "awayScore": 16,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "12:39",
+      "secondsRemaining": 759,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T23:24:45.000Z",
+      "playText": "Isaiah Evans makes 10-foot floating jump shot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 103.4,
+          "y": 335
+        }
+      },
+      "onFloor": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649856,
+      "sourceId": "401856570120393038",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 15,
+      "awayScore": 20,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "11:08",
+      "secondsRemaining": 668,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-27T23:31:28.000Z",
+      "playText": "Isaiah Evans misses 26-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 310.2,
+          "y": 270
+        }
+      },
+      "onFloor": [
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649885,
+      "sourceId": "401856570120393125",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 17,
+      "awayScore": 20,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "9:54",
+      "secondsRemaining": 594,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T23:34:18.000Z",
+      "playText": "Isaiah Evans makes 9-foot jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 122.2,
+          "y": 300
+        }
+      },
+      "onFloor": [
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
         },
         {
           "id": 198978,
@@ -59552,6 +62153,82 @@
           "id": 198977,
           "name": "Cameron Boozer",
           "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649892,
+      "sourceId": "401856570120393152",
+      "playType": "DunkShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 21,
+      "awayScore": 23,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "9:01",
+      "secondsRemaining": 541,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T23:35:11.000Z",
+      "playText": "Isaiah Evans makes 1-foot dunk (Dame Sarr assists)",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 198985,
+          "name": "Dame Sarr"
+        },
+        "location": {
+          "x": 56.4,
+          "y": 250
+        }
+      },
+      "onFloor": [
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
         },
         {
           "id": 211,
@@ -59559,8 +62236,1222 @@
           "team": "Duke"
         },
         {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649926,
+      "sourceId": "401856570120393347",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 30,
+      "awayScore": 26,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "5:40",
+      "secondsRemaining": 340,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-27T23:45:06.000Z",
+      "playText": "Isaiah Evans makes 24-foot three pointer (Cayden Boozer assists)",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 198978,
+          "name": "Cayden Boozer"
+        },
+        "location": {
+          "x": 272.6,
+          "y": 150
+        }
+      },
+      "onFloor": [
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
           "id": 209,
           "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649948,
+      "sourceId": "401856570120393532",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 35,
+      "awayScore": 28,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "3:39",
+      "secondsRemaining": 219,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T23:49:40.000Z",
+      "playText": "Isaiah Evans misses 6-foot floating jump shot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 94,
+          "y": 295
+        }
+      },
+      "onFloor": [
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649985,
+      "sourceId": "401856570120393848",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 39,
+      "awayScore": 37,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "0:39",
+      "secondsRemaining": 39,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-28T00:02:56.000Z",
+      "playText": "Isaiah Evans misses 24-foot three point jumper",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 216.2,
+          "y": 70
+        }
+      },
+      "onFloor": [
+        {
+          "id": 1433,
+          "name": "Lefteris Liotopoulos",
+          "team": "St. John's"
+        },
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650006,
+      "sourceId": "401856570120394232",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 44,
+      "awayScore": 40,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "18:57",
+      "secondsRemaining": 1137,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-28T00:27:07.000Z",
+      "playText": "Isaiah Evans makes 24-foot three point jumper (Cayden Boozer assists)",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 198978,
+          "name": "Cayden Boozer"
+        },
+        "location": {
+          "x": 733.2,
+          "y": 70
+        }
+      },
+      "onFloor": [
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650020,
+      "sourceId": "401856570120394270",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 44,
+      "awayScore": 44,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "17:30",
+      "secondsRemaining": 1050,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-28T00:29:20.000Z",
+      "playText": "Isaiah Evans misses 24-foot three point step back jumpshot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 780.2,
+          "y": 465
+        }
+      },
+      "onFloor": [
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650116,
+      "sourceId": "401856570120394641",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 60,
+      "awayScore": 62,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "8:46",
+      "secondsRemaining": 526,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-28T00:55:04.000Z",
+      "playText": "Isaiah Evans makes 14-foot pullup jump shot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 827.2,
+          "y": 380
+        }
+      },
+      "onFloor": [
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650119,
+      "sourceId": "401856570120394663",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 63,
+      "awayScore": 62,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "7:54",
+      "secondsRemaining": 474,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-28T00:56:16.000Z",
+      "playText": "Isaiah Evans makes 26-foot three point jumper (Cameron Boozer assists)",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "location": {
+          "x": 629.8,
+          "y": 225
+        }
+      },
+      "onFloor": [
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650121,
+      "sourceId": "401856570120394673",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 65,
+      "awayScore": 65,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "7:12",
+      "secondsRemaining": 432,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-28T00:56:58.000Z",
+      "playText": "Isaiah Evans makes driving layup",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 855.4,
+          "y": 280
+        }
+      },
+      "onFloor": [
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650161,
+      "sourceId": "401856570120394822",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 70,
+      "awayScore": 69,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "3:54",
+      "secondsRemaining": 234,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": "2026-03-28T01:05:54.000Z",
+      "playText": "Isaiah Evans makes 25-foot three point step back jumpshot",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 695.6,
+          "y": 95
+        }
+      },
+      "onFloor": [
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650208,
+      "sourceId": "401856570120395075",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 77,
+      "awayScore": 75,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:11",
+      "secondsRemaining": 11,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-28T01:20:56.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650210,
+      "sourceId": "401856570120395077",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 78,
+      "awayScore": 75,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:11",
+      "secondsRemaining": 11,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-28T01:21:12.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
           "team": "Duke"
         }
       ]

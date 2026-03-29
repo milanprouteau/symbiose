@@ -239,6 +239,17 @@
       }
     }
   },
+  "profile": {
+    "jersey": "6",
+    "position": "Forward",
+    "height": 83,
+    "weight": null,
+    "hometown": {
+      "city": "Wurzburg",
+      "state": "GER"
+    },
+    "dateOfBirth": null
+  },
   "shots": [
     {
       "gameId": 212724,
@@ -1201,8 +1212,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37763365,
-      "sourceId": "401827127113711656",
+      "id": 37763364,
+      "sourceId": "401827127113711646",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -1213,17 +1224,17 @@
       "opponent": "Arkansas-Pine Bluff",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 41,
       "awayScore": 18,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "19:40",
       "secondsRemaining": 1180,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T05:07:07.000Z",
-      "playText": "Hannes Steinbach made Free Throw.",
+      "wallclock": "2025-11-04T05:06:55.000Z",
+      "playText": "Hannes Steinbach missed Free Throw.",
       "participants": [
         {
           "id": 203279,
@@ -1235,7 +1246,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -1308,8 +1319,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37763364,
-      "sourceId": "401827127113711646",
+      "id": 37763365,
+      "sourceId": "401827127113711656",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -1320,17 +1331,17 @@
       "opponent": "Arkansas-Pine Bluff",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 42,
       "awayScore": 18,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "19:40",
       "secondsRemaining": 1180,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T05:06:55.000Z",
-      "playText": "Hannes Steinbach missed Free Throw.",
+      "wallclock": "2025-11-04T05:07:07.000Z",
+      "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
           "id": 203279,
@@ -1342,7 +1353,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7025,8 +7036,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39022649,
-      "sourceId": "401824136114347836",
+      "id": 39022648,
+      "sourceId": "401824136114347835",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -7038,7 +7049,7 @@
       "opponentConference": "WCC",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 81,
+      "awayScore": 80,
       "homeWinProbability": 0.001,
       "period": 2,
       "clock": "0:23",
@@ -7046,7 +7057,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T06:06:33.000Z",
+      "wallclock": "2025-11-15T06:06:22.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -7132,8 +7143,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39022648,
-      "sourceId": "401824136114347835",
+      "id": 39022649,
+      "sourceId": "401824136114347836",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -7145,7 +7156,7 @@
       "opponentConference": "WCC",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 80,
+      "awayScore": 81,
       "homeWinProbability": 0.001,
       "period": 2,
       "clock": "0:23",
@@ -7153,7 +7164,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T06:06:22.000Z",
+      "wallclock": "2025-11-15T06:06:33.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -7675,8 +7686,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40928316,
-      "sourceId": "401825396115452540",
+      "id": 40928315,
+      "sourceId": "401825396115452537",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -7693,11 +7704,11 @@
       "period": 1,
       "clock": "15:09",
       "secondsRemaining": 909,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T04:22:44.000Z",
-      "playText": "Hannes Steinbach missed Free Throw.",
+      "wallclock": "2025-12-04T04:22:31.000Z",
+      "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
           "id": 203279,
@@ -7709,7 +7720,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7782,8 +7793,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40928315,
-      "sourceId": "401825396115452537",
+      "id": 40928316,
+      "sourceId": "401825396115452540",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -7800,11 +7811,11 @@
       "period": 1,
       "clock": "15:09",
       "secondsRemaining": 909,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T04:22:31.000Z",
-      "playText": "Hannes Steinbach made Free Throw.",
+      "wallclock": "2025-12-04T04:22:44.000Z",
+      "playText": "Hannes Steinbach missed Free Throw.",
       "participants": [
         {
           "id": 203279,
@@ -7816,7 +7827,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9300,8 +9311,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40928659,
-      "sourceId": "401825396115454341",
+      "id": 40928662,
+      "sourceId": "401825396115454346",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -9312,16 +9323,16 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 76,
-      "homeWinProbability": 0.029,
+      "homeWinProbability": 0.032,
       "period": 2,
       "clock": "3:12",
       "secondsRemaining": 192,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T06:03:37.000Z",
+      "wallclock": "2025-12-04T06:04:02.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -9407,8 +9418,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40928662,
-      "sourceId": "401825396115454346",
+      "id": 40928659,
+      "sourceId": "401825396115454341",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -9419,16 +9430,16 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 76,
-      "homeWinProbability": 0.032,
+      "homeWinProbability": 0.029,
       "period": 2,
       "clock": "3:12",
       "secondsRemaining": 192,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T06:04:02.000Z",
+      "wallclock": "2025-12-04T06:03:37.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -10053,8 +10064,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41133449,
-      "sourceId": "401825402115580762",
+      "id": 41133452,
+      "sourceId": "401825402115580849",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -10066,15 +10077,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 6,
-      "homeWinProbability": 0.873,
+      "awayScore": 7,
+      "homeWinProbability": 0.846,
       "period": 1,
       "clock": "13:02",
       "secondsRemaining": 782,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T23:31:59.000Z",
+      "wallclock": "2025-12-06T23:32:22.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -10160,8 +10171,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41133452,
-      "sourceId": "401825402115580849",
+      "id": 41133449,
+      "sourceId": "401825402115580762",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -10173,15 +10184,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 7,
-      "homeWinProbability": 0.846,
+      "awayScore": 6,
+      "homeWinProbability": 0.873,
       "period": 1,
       "clock": "13:02",
       "secondsRemaining": 782,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T23:32:22.000Z",
+      "wallclock": "2025-12-06T23:31:59.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -11460,8 +11471,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41133752,
-      "sourceId": "401825402115588908",
+      "id": 41133757,
+      "sourceId": "401825402115588925",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -11473,15 +11484,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 61,
-      "homeWinProbability": 0.927,
+      "awayScore": 62,
+      "homeWinProbability": 0.884,
       "period": 2,
       "clock": "6:22",
       "secondsRemaining": 382,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:02:48.000Z",
+      "wallclock": "2025-12-07T01:03:12.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -11567,8 +11578,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41133757,
-      "sourceId": "401825402115588925",
+      "id": 41133752,
+      "sourceId": "401825402115588908",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -11580,15 +11591,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 62,
-      "homeWinProbability": 0.884,
+      "awayScore": 61,
+      "homeWinProbability": 0.927,
       "period": 2,
       "clock": "6:22",
       "secondsRemaining": 382,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:03:12.000Z",
+      "wallclock": "2025-12-07T01:02:48.000Z",
       "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
@@ -12110,8 +12121,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41133802,
-      "sourceId": "401825402115590604",
+      "id": 41133807,
+      "sourceId": "401825402115590813",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -12123,16 +12134,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 79,
-      "homeWinProbability": 0.137,
+      "awayScore": 80,
+      "homeWinProbability": 0.072,
       "period": 2,
       "clock": "0:36",
       "secondsRemaining": 36,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:15:23.000Z",
-      "playText": "Hannes Steinbach missed Free Throw.",
+      "wallclock": "2025-12-07T01:16:54.000Z",
+      "playText": "Hannes Steinbach made Free Throw.",
       "participants": [
         {
           "id": 203279,
@@ -12144,7 +12155,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12217,8 +12228,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41133807,
-      "sourceId": "401825402115590813",
+      "id": 41133802,
+      "sourceId": "401825402115590604",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -12230,16 +12241,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 80,
-      "homeWinProbability": 0.072,
+      "awayScore": 79,
+      "homeWinProbability": 0.137,
       "period": 2,
       "clock": "0:36",
       "secondsRemaining": 36,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:16:54.000Z",
-      "playText": "Hannes Steinbach made Free Throw.",
+      "wallclock": "2025-12-07T01:15:23.000Z",
+      "playText": "Hannes Steinbach missed Free Throw.",
       "participants": [
         {
           "id": 203279,
@@ -12251,7 +12262,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13957,8 +13968,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42201006,
-      "sourceId": "401824132116139653",
+      "id": 42201002,
+      "sourceId": "401824132116139649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -13970,16 +13981,16 @@
       "opponentConference": "WCC",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 17,
-      "homeWinProbability": 0.607,
+      "awayScore": 16,
+      "homeWinProbability": 0.665,
       "period": 1,
       "clock": "6:59",
       "secondsRemaining": 419,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T05:03:06.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2025-12-20T05:02:48.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -13991,7 +14002,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14064,8 +14075,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42201002,
-      "sourceId": "401824132116139649",
+      "id": 42201006,
+      "sourceId": "401824132116139653",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -14077,16 +14088,16 @@
       "opponentConference": "WCC",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 16,
-      "homeWinProbability": 0.665,
+      "awayScore": 17,
+      "homeWinProbability": 0.607,
       "period": 1,
       "clock": "6:59",
       "secondsRemaining": 419,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T05:02:48.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2025-12-20T05:03:06.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -14098,7 +14109,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14936,8 +14947,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42201223,
-      "sourceId": "401824132116140106",
+      "id": 42201220,
+      "sourceId": "401824132116140102",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -14949,16 +14960,16 @@
       "opponentConference": "WCC",
       "opponentSeed": null,
       "homeScore": 42,
-      "awayScore": 46,
-      "homeWinProbability": 0.32,
+      "awayScore": 45,
+      "homeWinProbability": 0.418,
       "period": 2,
       "clock": "10:44",
       "secondsRemaining": 644,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T06:02:04.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2025-12-20T06:01:48.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -14970,7 +14981,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15043,8 +15054,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42201220,
-      "sourceId": "401824132116140102",
+      "id": 42201223,
+      "sourceId": "401824132116140106",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -15056,16 +15067,16 @@
       "opponentConference": "WCC",
       "opponentSeed": null,
       "homeScore": 42,
-      "awayScore": 45,
-      "homeWinProbability": 0.418,
+      "awayScore": 46,
+      "homeWinProbability": 0.32,
       "period": 2,
       "clock": "10:44",
       "secondsRemaining": 644,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T06:01:48.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2025-12-20T06:02:04.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -15077,7 +15088,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -16228,8 +16239,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42544466,
-      "sourceId": "401824117116351973",
+      "id": 42544468,
+      "sourceId": "401824117116351977",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -16240,17 +16251,17 @@
       "opponent": "San Diego",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 11,
-      "homeWinProbability": 0.763,
+      "homeWinProbability": 0.779,
       "period": 1,
       "clock": "11:47",
       "secondsRemaining": 707,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T03:27:09.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2025-12-23T03:27:25.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -16262,7 +16273,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -16335,8 +16346,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42544468,
-      "sourceId": "401824117116351977",
+      "id": 42544466,
+      "sourceId": "401824117116351973",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -16347,17 +16358,17 @@
       "opponent": "San Diego",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 11,
-      "homeWinProbability": 0.779,
+      "homeWinProbability": 0.763,
       "period": 1,
       "clock": "11:47",
       "secondsRemaining": 707,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T03:27:25.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2025-12-23T03:27:09.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -16369,7 +16380,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18919,8 +18930,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42770546,
-      "sourceId": "401819914116488478",
+      "id": 42770542,
+      "sourceId": "401819914116488472",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -18931,17 +18942,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 11,
       "homeWinProbability": 0.752,
       "period": 1,
       "clock": "13:56",
       "secondsRemaining": 836,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T04:22:06.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2025-12-30T04:21:49.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -18953,7 +18964,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19026,8 +19037,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42770542,
-      "sourceId": "401819914116488472",
+      "id": 42770546,
+      "sourceId": "401819914116488478",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -19038,17 +19049,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 11,
       "homeWinProbability": 0.752,
       "period": 1,
       "clock": "13:56",
       "secondsRemaining": 836,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T04:21:49.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2025-12-30T04:22:06.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -19060,7 +19071,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -21400,113 +21411,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43490407,
-      "sourceId": "401825418116874304",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 343,
-      "team": "Washington",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 121,
-      "opponent": "Indiana",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 52,
-      "awayScore": 44,
-      "homeWinProbability": 0.873,
-      "period": 2,
-      "clock": "18:16",
-      "secondsRemaining": 1096,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-05T02:14:26.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3319,
-          "name": "Tucker DeVries",
-          "team": "Indiana"
-        },
-        {
-          "id": 2534,
-          "name": "Tayton Conerway",
-          "team": "Indiana"
-        },
-        {
-          "id": 7089,
-          "name": "Desmond Claude",
-          "team": "Washington"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo",
-          "team": "Washington"
-        },
-        {
-          "id": 2792,
-          "name": "Quimari Peterson",
-          "team": "Washington"
-        },
-        {
-          "id": 7776,
-          "name": "Franck Kepnang",
-          "team": "Washington"
-        },
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 5389,
-          "name": "Conor Enright",
-          "team": "Indiana"
-        },
-        {
-          "id": 7045,
-          "name": "Lamar Wilkerson",
-          "team": "Indiana"
-        },
-        {
-          "id": 501,
-          "name": "Sam Alexis",
-          "team": "Indiana"
-        }
-      ]
-    },
-    {
-      "gameId": 214318,
-      "gameSourceId": "401825418",
-      "gameStartDate": "2026-01-05T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43490406,
       "sourceId": "401825418116874302",
       "playType": "MadeFreeThrow",
@@ -21614,8 +21518,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43490430,
-      "sourceId": "401825418116874385",
+      "id": 43490407,
+      "sourceId": "401825418116874304",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 343,
+      "team": "Washington",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 121,
+      "opponent": "Indiana",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 52,
+      "awayScore": 44,
+      "homeWinProbability": 0.873,
+      "period": 2,
+      "clock": "18:16",
+      "secondsRemaining": 1096,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-05T02:14:26.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3319,
+          "name": "Tucker DeVries",
+          "team": "Indiana"
+        },
+        {
+          "id": 2534,
+          "name": "Tayton Conerway",
+          "team": "Indiana"
+        },
+        {
+          "id": 7089,
+          "name": "Desmond Claude",
+          "team": "Washington"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo",
+          "team": "Washington"
+        },
+        {
+          "id": 2792,
+          "name": "Quimari Peterson",
+          "team": "Washington"
+        },
+        {
+          "id": 7776,
+          "name": "Franck Kepnang",
+          "team": "Washington"
+        },
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 5389,
+          "name": "Conor Enright",
+          "team": "Indiana"
+        },
+        {
+          "id": 7045,
+          "name": "Lamar Wilkerson",
+          "team": "Indiana"
+        },
+        {
+          "id": 501,
+          "name": "Sam Alexis",
+          "team": "Indiana"
+        }
+      ]
+    },
+    {
+      "gameId": 214318,
+      "gameSourceId": "401825418",
+      "gameStartDate": "2026-01-05T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43490438,
+      "sourceId": "401825418116874410",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -21627,16 +21638,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 47,
-      "homeWinProbability": 0.825,
+      "awayScore": 48,
+      "homeWinProbability": 0.801,
       "period": 2,
       "clock": "16:32",
       "secondsRemaining": 992,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-05T02:17:41.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-01-05T02:18:04.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -21721,8 +21732,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43490438,
-      "sourceId": "401825418116874410",
+      "id": 43490430,
+      "sourceId": "401825418116874385",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -21734,16 +21745,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 48,
-      "homeWinProbability": 0.801,
+      "awayScore": 47,
+      "homeWinProbability": 0.825,
       "period": 2,
       "clock": "16:32",
       "secondsRemaining": 992,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-05T02:18:04.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-01-05T02:17:41.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -21935,113 +21946,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43490587,
-      "sourceId": "401825418116874860",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 343,
-      "team": "Washington",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 121,
-      "opponent": "Indiana",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 75,
-      "awayScore": 62,
-      "homeWinProbability": 0.984,
-      "period": 2,
-      "clock": "9:17",
-      "secondsRemaining": 557,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-05T02:36:55.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 199729,
-          "name": "Trent Sisley",
-          "team": "Indiana"
-        },
-        {
-          "id": 5389,
-          "name": "Conor Enright",
-          "team": "Indiana"
-        },
-        {
-          "id": 7841,
-          "name": "Bryson Tucker",
-          "team": "Washington"
-        },
-        {
-          "id": 2792,
-          "name": "Quimari Peterson",
-          "team": "Washington"
-        },
-        {
-          "id": 2331,
-          "name": "Reed Bailey",
-          "team": "Indiana"
-        },
-        {
-          "id": 7045,
-          "name": "Lamar Wilkerson",
-          "team": "Indiana"
-        },
-        {
-          "id": 7089,
-          "name": "Desmond Claude",
-          "team": "Washington"
-        },
-        {
-          "id": 222,
-          "name": "Nick Dorn",
-          "team": "Indiana"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo",
-          "team": "Washington"
-        }
-      ]
-    },
-    {
-      "gameId": 214318,
-      "gameSourceId": "401825418",
-      "gameStartDate": "2026-01-05T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43490589,
       "sourceId": "401825418116874862",
       "playType": "MadeFreeThrow",
@@ -22149,8 +22053,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43490618,
-      "sourceId": "401825418116875017",
+      "id": 43490587,
+      "sourceId": "401825418116874860",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -22161,17 +22065,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 78,
-      "awayScore": 64,
-      "homeWinProbability": 0.998,
+      "homeScore": 75,
+      "awayScore": 62,
+      "homeWinProbability": 0.984,
       "period": 2,
-      "clock": "7:43",
-      "secondsRemaining": 463,
+      "clock": "9:17",
+      "secondsRemaining": 557,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-05T02:43:40.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-01-05T02:36:55.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -22184,6 +22088,113 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 199729,
+          "name": "Trent Sisley",
+          "team": "Indiana"
+        },
+        {
+          "id": 5389,
+          "name": "Conor Enright",
+          "team": "Indiana"
+        },
+        {
+          "id": 7841,
+          "name": "Bryson Tucker",
+          "team": "Washington"
+        },
+        {
+          "id": 2792,
+          "name": "Quimari Peterson",
+          "team": "Washington"
+        },
+        {
+          "id": 2331,
+          "name": "Reed Bailey",
+          "team": "Indiana"
+        },
+        {
+          "id": 7045,
+          "name": "Lamar Wilkerson",
+          "team": "Indiana"
+        },
+        {
+          "id": 7089,
+          "name": "Desmond Claude",
+          "team": "Washington"
+        },
+        {
+          "id": 222,
+          "name": "Nick Dorn",
+          "team": "Indiana"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo",
+          "team": "Washington"
+        }
+      ]
+    },
+    {
+      "gameId": 214318,
+      "gameSourceId": "401825418",
+      "gameStartDate": "2026-01-05T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43490612,
+      "sourceId": "401825418116875011",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 343,
+      "team": "Washington",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 121,
+      "opponent": "Indiana",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 78,
+      "awayScore": 63,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "7:43",
+      "secondsRemaining": 463,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-05T02:43:22.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -22256,8 +22267,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43490612,
-      "sourceId": "401825418116875011",
+      "id": 43490618,
+      "sourceId": "401825418116875017",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -22269,16 +22280,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 63,
-      "homeWinProbability": 0.999,
+      "awayScore": 64,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "7:43",
       "secondsRemaining": 463,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-05T02:43:22.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2026-01-05T02:43:40.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -22290,7 +22301,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -23667,113 +23678,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43626389,
-      "sourceId": "401825426116960163",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 343,
-      "team": "Washington",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 236,
-      "opponent": "Purdue",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 71,
-      "awayScore": 58,
-      "homeWinProbability": 0.997,
-      "period": 2,
-      "clock": "3:50",
-      "secondsRemaining": 230,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-08T03:23:43.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo",
-          "team": "Washington"
-        },
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 203270,
-          "name": "JJ Mandaquit",
-          "team": "Washington"
-        },
-        {
-          "id": 2792,
-          "name": "Quimari Peterson",
-          "team": "Washington"
-        },
-        {
-          "id": 7841,
-          "name": "Bryson Tucker",
-          "team": "Washington"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 214355,
-      "gameSourceId": "401825426",
-      "gameStartDate": "2026-01-08T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43626391,
       "sourceId": "401825426116960166",
       "playType": "MadeFreeThrow",
@@ -23881,8 +23785,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43626394,
-      "sourceId": "401825426116960234",
+      "id": 43626389,
+      "sourceId": "401825426116960163",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -23894,16 +23798,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 61,
-      "homeWinProbability": 0.985,
+      "awayScore": 58,
+      "homeWinProbability": 0.997,
       "period": 2,
-      "clock": "3:37",
-      "secondsRemaining": 217,
+      "clock": "3:50",
+      "secondsRemaining": 230,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:24:42.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 1",
+      "wallclock": "2026-01-08T03:23:43.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -24036,6 +23940,113 @@
         "location": {
           "x": 874.2,
           "y": 265
+        }
+      },
+      "onFloor": [
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo",
+          "team": "Washington"
+        },
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 203270,
+          "name": "JJ Mandaquit",
+          "team": "Washington"
+        },
+        {
+          "id": 2792,
+          "name": "Quimari Peterson",
+          "team": "Washington"
+        },
+        {
+          "id": 7841,
+          "name": "Bryson Tucker",
+          "team": "Washington"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 214355,
+      "gameSourceId": "401825426",
+      "gameStartDate": "2026-01-08T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43626394,
+      "sourceId": "401825426116960234",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 343,
+      "team": "Washington",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 236,
+      "opponent": "Purdue",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 71,
+      "awayScore": 61,
+      "homeWinProbability": 0.985,
+      "period": 2,
+      "clock": "3:37",
+      "secondsRemaining": 217,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-08T03:24:42.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 1",
+      "participants": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -25712,9 +25723,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44159563,
-      "sourceId": "401825437117254198",
-      "playType": "LayUpShot",
+      "id": 44159565,
+      "sourceId": "401825437117254222",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -25724,22 +25735,18 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 41,
       "awayScore": 45,
-      "homeWinProbability": 0.404,
+      "homeWinProbability": 0.464,
       "period": 2,
       "clock": "17:56",
       "secondsRemaining": 1076,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-12T00:05:24.000Z",
-      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-12T00:05:55.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 2792,
-          "name": "Quimari Peterson"
-        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -25751,15 +25758,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 2792,
-          "name": "Quimari Peterson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 215
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -25823,9 +25830,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44159565,
-      "sourceId": "401825437117254222",
-      "playType": "MadeFreeThrow",
+      "id": 44159563,
+      "sourceId": "401825437117254198",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -25835,18 +25842,22 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 40,
       "awayScore": 45,
-      "homeWinProbability": 0.464,
+      "homeWinProbability": 0.404,
       "period": 2,
       "clock": "17:56",
       "secondsRemaining": 1076,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-12T00:05:55.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-12T00:05:24.000Z",
+      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
       "participants": [
+        {
+          "id": 2792,
+          "name": "Quimari Peterson"
+        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -25858,15 +25869,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 2792,
+          "name": "Quimari Peterson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 215
         }
       },
       "onFloor": [
@@ -28522,8 +28533,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44578665,
-      "sourceId": "401825452117548346",
+      "id": 44578668,
+      "sourceId": "401825452117548418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -28534,17 +28545,17 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 21,
-      "homeWinProbability": 0.4,
+      "homeWinProbability": 0.413,
       "period": 1,
       "clock": "11:08",
       "secondsRemaining": 668,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:29:18.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-01-17T23:29:38.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -28629,8 +28640,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44578668,
-      "sourceId": "401825452117548418",
+      "id": 44578665,
+      "sourceId": "401825452117548346",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -28641,17 +28652,17 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 21,
-      "homeWinProbability": 0.413,
+      "homeWinProbability": 0.4,
       "period": 1,
       "clock": "11:08",
       "secondsRemaining": 668,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:29:38.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-01-17T23:29:18.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -30579,8 +30590,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44579022,
-      "sourceId": "401825452117561035",
+      "id": 44579020,
+      "sourceId": "401825452117561026",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -30591,17 +30602,17 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 80,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:15",
       "secondsRemaining": 15,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:01:12.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-01-18T01:01:00.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -30613,7 +30624,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30686,8 +30697,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44579020,
-      "sourceId": "401825452117561026",
+      "id": 44579022,
+      "sourceId": "401825452117561035",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -30698,17 +30709,17 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 80,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:15",
       "secondsRemaining": 15,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T01:01:00.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2026-01-18T01:01:12.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -30720,7 +30731,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31221,8 +31232,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44988810,
-      "sourceId": "401825461117709849",
+      "id": 44988809,
+      "sourceId": "401825461117709816",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -31234,16 +31245,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 28,
-      "homeWinProbability": 0.872,
+      "awayScore": 27,
+      "homeWinProbability": 0.886,
       "period": 1,
       "clock": "3:09",
       "secondsRemaining": 189,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T02:48:30.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-01-22T02:48:15.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -31328,8 +31339,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44988809,
-      "sourceId": "401825461117709816",
+      "id": 44988810,
+      "sourceId": "401825461117709849",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -31341,16 +31352,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 27,
-      "homeWinProbability": 0.886,
+      "awayScore": 28,
+      "homeWinProbability": 0.872,
       "period": 1,
       "clock": "3:09",
       "secondsRemaining": 189,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T02:48:15.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-01-22T02:48:30.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -31978,9 +31989,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44988910,
-      "sourceId": "401825461117713709",
-      "playType": "MadeFreeThrow",
+      "id": 44988908,
+      "sourceId": "401825461117713673",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 343,
       "team": "Washington",
@@ -31996,11 +32007,11 @@
       "period": 2,
       "clock": "11:23",
       "secondsRemaining": 683,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T03:29:16.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-22T03:28:54.000Z",
+      "playText": "Hannes Steinbach makes layup",
       "participants": [
         {
           "id": 203279,
@@ -32012,16 +32023,16 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 230
         }
       },
       "onFloor": [
@@ -32085,9 +32096,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44988908,
-      "sourceId": "401825461117713673",
-      "playType": "LayUpShot",
+      "id": 44988910,
+      "sourceId": "401825461117713709",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
       "team": "Washington",
@@ -32103,11 +32114,11 @@
       "period": 2,
       "clock": "11:23",
       "secondsRemaining": 683,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-22T03:28:54.000Z",
-      "playText": "Hannes Steinbach makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T03:29:16.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 1",
       "participants": [
         {
           "id": 203279,
@@ -32119,16 +32130,16 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -38585,8 +38596,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45875092,
-      "sourceId": "401825482118282674",
+      "id": 45875093,
+      "sourceId": "401825482118282676",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -38598,16 +38609,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 49,
-      "homeWinProbability": 0.025,
+      "awayScore": 50,
+      "homeWinProbability": 0.023,
       "period": 2,
       "clock": "14:57",
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T02:11:15.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-02-01T02:11:26.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -38692,8 +38703,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45875093,
-      "sourceId": "401825482118282676",
+      "id": 45875092,
+      "sourceId": "401825482118282674",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -38705,16 +38716,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 50,
-      "homeWinProbability": 0.023,
+      "awayScore": 49,
+      "homeWinProbability": 0.025,
       "period": 2,
       "clock": "14:57",
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T02:11:26.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-02-01T02:11:15.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -41506,9 +41517,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46689230,
-      "sourceId": "401825500118673233",
-      "playType": "MadeFreeThrow",
+      "id": 46689211,
+      "sourceId": "401825500118673192",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 343,
       "team": "Washington",
@@ -41524,12 +41535,16 @@
       "period": 1,
       "clock": "3:03",
       "secondsRemaining": 183,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-08T03:54:29.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-08T03:53:59.000Z",
+      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
       "participants": [
+        {
+          "id": 2792,
+          "name": "Quimari Peterson"
+        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -41540,16 +41555,16 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 2792,
+          "name": "Quimari Peterson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 141,
+          "y": 240
         }
       },
       "onFloor": [
@@ -41613,9 +41628,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46689211,
-      "sourceId": "401825500118673192",
-      "playType": "LayUpShot",
+      "id": 46689230,
+      "sourceId": "401825500118673233",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
       "team": "Washington",
@@ -41631,16 +41646,12 @@
       "period": 1,
       "clock": "3:03",
       "secondsRemaining": 183,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-08T03:53:59.000Z",
-      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-08T03:54:29.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 2792,
-          "name": "Quimari Peterson"
-        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -41651,16 +41662,16 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 2792,
-          "name": "Quimari Peterson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 141,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41938,113 +41949,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46689426,
-      "sourceId": "401825500118673914",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 343,
-      "team": "Washington",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 313,
-      "opponent": "UCLA",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 40,
-      "awayScore": 40,
-      "homeWinProbability": 0.606,
-      "period": 2,
-      "clock": "17:06",
-      "secondsRemaining": 1026,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-08T04:20:15.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 8471,
-          "name": "Steven Jamerson II",
-          "team": "UCLA"
-        },
-        {
-          "id": 7841,
-          "name": "Bryson Tucker",
-          "team": "Washington"
-        },
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 530,
-          "name": "Eric Dailey Jr.",
-          "team": "UCLA"
-        },
-        {
-          "id": 6436,
-          "name": "Donovan Dent",
-          "team": "UCLA"
-        },
-        {
-          "id": 7776,
-          "name": "Franck Kepnang",
-          "team": "Washington"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo",
-          "team": "Washington"
-        },
-        {
-          "id": 529,
-          "name": "Tyler Bilodeau",
-          "team": "UCLA"
-        },
-        {
-          "id": 7095,
-          "name": "Wesley Yates III",
-          "team": "Washington"
-        },
-        {
-          "id": 536,
-          "name": "Trent Perry",
-          "team": "UCLA"
-        }
-      ]
-    },
-    {
-      "gameId": 214815,
-      "gameSourceId": "401825500",
-      "gameStartDate": "2026-02-08T03:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46689444,
       "sourceId": "401825500118673918",
       "playType": "MadeFreeThrow",
@@ -42152,8 +42056,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46689478,
-      "sourceId": "401825500118674093",
+      "id": 46689426,
+      "sourceId": "401825500118673914",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -42165,16 +42069,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 45,
-      "homeWinProbability": 0.367,
+      "awayScore": 40,
+      "homeWinProbability": 0.606,
       "period": 2,
-      "clock": "15:46",
-      "secondsRemaining": 946,
-      "scoringPlay": true,
+      "clock": "17:06",
+      "secondsRemaining": 1026,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T04:25:36.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-02-08T04:20:15.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -42186,7 +42090,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42282,6 +42186,113 @@
       "scoreValue": 1,
       "wallclock": "2026-02-08T04:25:27.000Z",
       "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8471,
+          "name": "Steven Jamerson II",
+          "team": "UCLA"
+        },
+        {
+          "id": 7841,
+          "name": "Bryson Tucker",
+          "team": "Washington"
+        },
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 530,
+          "name": "Eric Dailey Jr.",
+          "team": "UCLA"
+        },
+        {
+          "id": 6436,
+          "name": "Donovan Dent",
+          "team": "UCLA"
+        },
+        {
+          "id": 7776,
+          "name": "Franck Kepnang",
+          "team": "Washington"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo",
+          "team": "Washington"
+        },
+        {
+          "id": 529,
+          "name": "Tyler Bilodeau",
+          "team": "UCLA"
+        },
+        {
+          "id": 7095,
+          "name": "Wesley Yates III",
+          "team": "Washington"
+        },
+        {
+          "id": 536,
+          "name": "Trent Perry",
+          "team": "UCLA"
+        }
+      ]
+    },
+    {
+      "gameId": 214815,
+      "gameSourceId": "401825500",
+      "gameStartDate": "2026-02-08T03:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46689478,
+      "sourceId": "401825500118674093",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 343,
+      "team": "Washington",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 313,
+      "opponent": "UCLA",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 40,
+      "awayScore": 45,
+      "homeWinProbability": 0.367,
+      "period": 2,
+      "clock": "15:46",
+      "secondsRemaining": 946,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-08T04:25:36.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -44522,8 +44533,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46837582,
-      "sourceId": "401825511118788846",
+      "id": 46837585,
+      "sourceId": "401825511118788849",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -44534,17 +44545,17 @@
       "opponent": "Penn State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 60,
       "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:22",
       "secondsRemaining": 22,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T05:39:52.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2026-02-12T05:41:16.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -44556,7 +44567,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44629,8 +44640,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46837585,
-      "sourceId": "401825511118788849",
+      "id": 46837582,
+      "sourceId": "401825511118788846",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -44641,17 +44652,17 @@
       "opponent": "Penn State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 59,
       "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:22",
       "secondsRemaining": 22,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T05:41:16.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-02-12T05:39:52.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -44663,7 +44674,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45176,8 +45187,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47154604,
-      "sourceId": "401825517119016884",
+      "id": 47154601,
+      "sourceId": "401825517119016841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -45194,11 +45205,11 @@
       "period": 1,
       "clock": "12:34",
       "secondsRemaining": 754,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T02:15:13.000Z",
-      "playText": "Hannes Steinbach misses free throw 2 of 2",
+      "wallclock": "2026-02-15T02:14:54.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -45210,7 +45221,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45283,8 +45294,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47154601,
-      "sourceId": "401825517119016841",
+      "id": 47154604,
+      "sourceId": "401825517119016884",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -45301,11 +45312,11 @@
       "period": 1,
       "clock": "12:34",
       "secondsRemaining": 754,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T02:14:54.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-02-15T02:15:13.000Z",
+      "playText": "Hannes Steinbach misses free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -45317,7 +45328,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46464,9 +46475,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47154757,
-      "sourceId": "401825517119021909",
-      "playType": "MadeFreeThrow",
+      "id": 47154755,
+      "sourceId": "401825517119021863",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -46476,18 +46487,22 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 51,
+      "homeScore": 50,
       "awayScore": 36,
-      "homeWinProbability": 0.978,
+      "homeWinProbability": 0.975,
       "period": 2,
       "clock": "13:26",
       "secondsRemaining": 806,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-15T03:13:22.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-15T03:12:53.000Z",
+      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
       "participants": [
+        {
+          "id": 2792,
+          "name": "Quimari Peterson"
+        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -46499,15 +46514,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 2792,
+          "name": "Quimari Peterson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 235
         }
       },
       "onFloor": [
@@ -46571,9 +46586,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47154755,
-      "sourceId": "401825517119021863",
-      "playType": "LayUpShot",
+      "id": 47154757,
+      "sourceId": "401825517119021909",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -46583,22 +46598,18 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 51,
       "awayScore": 36,
-      "homeWinProbability": 0.975,
+      "homeWinProbability": 0.978,
       "period": 2,
       "clock": "13:26",
       "secondsRemaining": 806,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-15T03:12:53.000Z",
-      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-15T03:13:22.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 2792,
-          "name": "Quimari Peterson"
-        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -46610,15 +46621,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 2792,
-          "name": "Quimari Peterson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -50150,8 +50161,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47966937,
-      "sourceId": "401825538119447206",
+      "id": 47966938,
+      "sourceId": "401825538119447210",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -50163,7 +50174,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 70,
+      "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:21",
@@ -50171,8 +50182,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:28:46.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-02-25T01:29:04.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -50257,8 +50268,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47966938,
-      "sourceId": "401825538119447210",
+      "id": 47966937,
+      "sourceId": "401825538119447206",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -50270,7 +50281,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 71,
+      "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:21",
@@ -50278,8 +50289,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:29:04.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-02-25T01:28:46.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -51224,8 +51235,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48287374,
-      "sourceId": "401825549119698663",
+      "id": 48287377,
+      "sourceId": "401825549119698754",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -51236,7 +51247,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 14,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -51245,8 +51256,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T21:49:51.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-02-28T21:50:09.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -51331,8 +51342,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48287377,
-      "sourceId": "401825549119698754",
+      "id": 48287374,
+      "sourceId": "401825549119698663",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -51343,7 +51354,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 13,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -51352,8 +51363,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T21:50:09.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-02-28T21:49:51.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -52199,9 +52210,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48287573,
-      "sourceId": "401825549119717729",
-      "playType": "JumpShot",
+      "id": 48287575,
+      "sourceId": "401825549119717803",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -52211,7 +52222,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 51,
+      "homeScore": 52,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -52219,17 +52230,13 @@
       "secondsRemaining": 373,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-28T22:51:46.000Z",
-      "playText": "Hannes Steinbach makes 6-foot hook shot (Zoom Diallo assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-28T22:52:08.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 1",
       "participants": [
         {
           "id": 203279,
           "name": "Hannes Steinbach"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo"
         }
       ],
       "shotInfo": {
@@ -52238,15 +52245,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7783,
-          "name": "Zoom Diallo"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -52310,9 +52317,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48287575,
-      "sourceId": "401825549119717803",
-      "playType": "MadeFreeThrow",
+      "id": 48287573,
+      "sourceId": "401825549119717729",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -52322,7 +52329,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 51,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -52330,13 +52337,17 @@
       "secondsRemaining": 373,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-28T22:52:08.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-28T22:51:46.000Z",
+      "playText": "Hannes Steinbach makes 6-foot hook shot (Zoom Diallo assists)",
       "participants": [
         {
           "id": 203279,
           "name": "Hannes Steinbach"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo"
         }
       ],
       "shotInfo": {
@@ -52345,15 +52356,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7783,
+          "name": "Zoom Diallo"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 285
         }
       },
       "onFloor": [
@@ -52742,8 +52753,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48743338,
-      "sourceId": "401825558119888412",
+      "id": 48743337,
+      "sourceId": "401825558119888408",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -52754,7 +52765,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 5,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
@@ -52763,8 +52774,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:51:39.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-03-05T03:51:24.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -52849,8 +52860,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48743337,
-      "sourceId": "401825558119888408",
+      "id": 48743338,
+      "sourceId": "401825558119888412",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
@@ -52861,7 +52872,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
@@ -52870,8 +52881,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:51:24.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-03-05T03:51:39.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -53174,9 +53185,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48743406,
-      "sourceId": "401825558119888595",
-      "playType": "MadeFreeThrow",
+      "id": 48743397,
+      "sourceId": "401825558119888585",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -53186,7 +53197,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
@@ -53194,10 +53205,14 @@
       "secondsRemaining": 761,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-05T03:57:08.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-05T03:56:35.000Z",
+      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
       "participants": [
+        {
+          "id": 2792,
+          "name": "Quimari Peterson"
+        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -53209,15 +53224,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 2792,
+          "name": "Quimari Peterson"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 270
         }
       },
       "onFloor": [
@@ -53281,9 +53296,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48743397,
-      "sourceId": "401825558119888585",
-      "playType": "LayUpShot",
+      "id": 48743406,
+      "sourceId": "401825558119888595",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 343,
       "team": "Washington",
@@ -53293,7 +53308,7 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
@@ -53301,14 +53316,10 @@
       "secondsRemaining": 761,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-05T03:56:35.000Z",
-      "playText": "Hannes Steinbach makes layup (Quimari Peterson assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-05T03:57:08.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 2792,
-          "name": "Quimari Peterson"
-        },
         {
           "id": 203279,
           "name": "Hannes Steinbach"
@@ -53320,15 +53331,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 2792,
-          "name": "Quimari Peterson"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -55556,8 +55567,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48991041,
-      "sourceId": "401825564120086648",
+      "id": 48991042,
+      "sourceId": "401825564120086649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -55569,7 +55580,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 47,
+      "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:21",
@@ -55577,8 +55588,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T05:33:14.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "wallclock": "2026-03-08T05:33:28.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -55663,8 +55674,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48991042,
-      "sourceId": "401825564120086649",
+      "id": 48991041,
+      "sourceId": "401825564120086648",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -55676,7 +55687,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 48,
+      "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:21",
@@ -55684,8 +55695,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T05:33:28.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-03-08T05:33:14.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -56206,113 +56217,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48991126,
-      "sourceId": "401825564120087159",
-      "playType": "TipShot",
-      "isHomeTeam": false,
-      "teamId": 343,
-      "team": "Washington",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 223,
-      "opponent": "Oregon",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 74,
-      "awayScore": 74,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "2:11",
-      "secondsRemaining": 131,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-08T05:58:29.000Z",
-      "playText": "Hannes Steinbach makes 0-foot tip in layup",
-      "participants": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 250
-        }
-      },
-      "onFloor": [
-        {
-          "id": 203271,
-          "name": "Courtland Muldrew",
-          "team": "Washington"
-        },
-        {
-          "id": 7241,
-          "name": "Nate Bittle",
-          "team": "Oregon"
-        },
-        {
-          "id": 7239,
-          "name": "Kwame Evans Jr.",
-          "team": "Oregon"
-        },
-        {
-          "id": 7248,
-          "name": "Dezdrick Lindsay",
-          "team": "Oregon"
-        },
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 2792,
-          "name": "Quimari Peterson",
-          "team": "Washington"
-        },
-        {
-          "id": 7783,
-          "name": "Zoom Diallo",
-          "team": "Washington"
-        },
-        {
-          "id": 201361,
-          "name": "Wei Lin",
-          "team": "Oregon"
-        },
-        {
-          "id": 7095,
-          "name": "Wesley Yates III",
-          "team": "Washington"
-        },
-        {
-          "id": 221,
-          "name": "Takai Simpkins",
-          "team": "Oregon"
-        }
-      ]
-    },
-    {
-      "gameId": 215217,
-      "gameSourceId": "401825564",
-      "gameStartDate": "2026-03-08T04:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48991128,
       "sourceId": "401825564120087162",
       "playType": "MadeFreeThrow",
@@ -56420,9 +56324,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48991139,
-      "sourceId": "401825564120087197",
-      "playType": "MadeFreeThrow",
+      "id": 48991126,
+      "sourceId": "401825564120087159",
+      "playType": "TipShot",
       "isHomeTeam": false,
       "teamId": 343,
       "team": "Washington",
@@ -56432,17 +56336,17 @@
       "opponent": "Oregon",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 76,
-      "awayScore": 78,
+      "homeScore": 74,
+      "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "0:24",
-      "secondsRemaining": 24,
+      "clock": "2:11",
+      "secondsRemaining": 131,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-08T06:03:48.000Z",
-      "playText": "Hannes Steinbach makes free throw 1 of 2",
+      "scoreValue": 2,
+      "wallclock": "2026-03-08T05:58:29.000Z",
+      "playText": "Hannes Steinbach makes 0-foot tip in layup",
       "participants": [
         {
           "id": 203279,
@@ -56455,15 +56359,15 @@
           "name": "Hannes Steinbach"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -56550,6 +56454,113 @@
       "scoreValue": 1,
       "wallclock": "2026-03-08T06:04:02.000Z",
       "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 203271,
+          "name": "Courtland Muldrew",
+          "team": "Washington"
+        },
+        {
+          "id": 7241,
+          "name": "Nate Bittle",
+          "team": "Oregon"
+        },
+        {
+          "id": 7239,
+          "name": "Kwame Evans Jr.",
+          "team": "Oregon"
+        },
+        {
+          "id": 7248,
+          "name": "Dezdrick Lindsay",
+          "team": "Oregon"
+        },
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 2792,
+          "name": "Quimari Peterson",
+          "team": "Washington"
+        },
+        {
+          "id": 7783,
+          "name": "Zoom Diallo",
+          "team": "Washington"
+        },
+        {
+          "id": 201361,
+          "name": "Wei Lin",
+          "team": "Oregon"
+        },
+        {
+          "id": 7095,
+          "name": "Wesley Yates III",
+          "team": "Washington"
+        },
+        {
+          "id": 221,
+          "name": "Takai Simpkins",
+          "team": "Oregon"
+        }
+      ]
+    },
+    {
+      "gameId": 215217,
+      "gameSourceId": "401825564",
+      "gameStartDate": "2026-03-08T04:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48991139,
+      "sourceId": "401825564120087197",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 343,
+      "team": "Washington",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 223,
+      "opponent": "Oregon",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 76,
+      "awayScore": 78,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:24",
+      "secondsRemaining": 24,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-08T06:03:48.000Z",
+      "playText": "Hannes Steinbach makes free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -58588,113 +58599,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49301801,
-      "sourceId": "401851376120199804",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 343,
-      "team": "Washington",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 355,
-      "opponent": "Wisconsin",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 20,
-      "awayScore": 13,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "8:47",
-      "secondsRemaining": 527,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-12T19:12:10.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 203279,
-          "name": "Hannes Steinbach"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 203279,
-          "name": "Hannes Steinbach",
-          "team": "Washington"
-        },
-        {
-          "id": 203271,
-          "name": "Courtland Muldrew",
-          "team": "Washington"
-        },
-        {
-          "id": 7874,
-          "name": "Lathan Sommerville",
-          "team": "Washington"
-        },
-        {
-          "id": 7095,
-          "name": "Wesley Yates III",
-          "team": "Washington"
-        },
-        {
-          "id": 8458,
-          "name": "Nick Boyd",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 5418,
-          "name": "John Blackwell",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 2792,
-          "name": "Quimari Peterson",
-          "team": "Washington"
-        },
-        {
-          "id": 203460,
-          "name": "Hayden Jones",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 4402,
-          "name": "Braeden Carrington",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 203456,
-          "name": "Will Garlock",
-          "team": "Wisconsin"
-        }
-      ]
-    },
-    {
-      "gameId": 372369,
-      "gameSourceId": "401851376",
-      "gameStartDate": "2026-03-12T18:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49301800,
       "sourceId": "401851376120199798",
       "playType": "MadeFreeThrow",
@@ -58846,6 +58750,113 @@
         "location": {
           "x": 874.2,
           "y": 265
+        }
+      },
+      "onFloor": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach",
+          "team": "Washington"
+        },
+        {
+          "id": 203271,
+          "name": "Courtland Muldrew",
+          "team": "Washington"
+        },
+        {
+          "id": 7874,
+          "name": "Lathan Sommerville",
+          "team": "Washington"
+        },
+        {
+          "id": 7095,
+          "name": "Wesley Yates III",
+          "team": "Washington"
+        },
+        {
+          "id": 8458,
+          "name": "Nick Boyd",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 5418,
+          "name": "John Blackwell",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 2792,
+          "name": "Quimari Peterson",
+          "team": "Washington"
+        },
+        {
+          "id": 203460,
+          "name": "Hayden Jones",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 4402,
+          "name": "Braeden Carrington",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 203456,
+          "name": "Will Garlock",
+          "team": "Wisconsin"
+        }
+      ]
+    },
+    {
+      "gameId": 372369,
+      "gameSourceId": "401851376",
+      "gameStartDate": "2026-03-12T18:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49301801,
+      "sourceId": "401851376120199804",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 343,
+      "team": "Washington",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 355,
+      "opponent": "Wisconsin",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 20,
+      "awayScore": 13,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "8:47",
+      "secondsRemaining": 527,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-12T19:12:10.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 203279,
+          "name": "Hannes Steinbach"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -59131,8 +59142,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49301824,
-      "sourceId": "401851376120200185",
+      "id": 49301826,
+      "sourceId": "401851376120200220",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -59144,16 +59155,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 18,
+      "awayScore": 19,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:28",
       "secondsRemaining": 388,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T19:18:13.000Z",
-      "playText": "Hannes Steinbach misses free throw 1 of 2",
+      "wallclock": "2026-03-12T19:18:26.000Z",
+      "playText": "Hannes Steinbach makes free throw 2 of 2",
       "participants": [
         {
           "id": 203279,
@@ -59165,7 +59176,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59238,8 +59249,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49301826,
-      "sourceId": "401851376120200220",
+      "id": 49301824,
+      "sourceId": "401851376120200185",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 343,
@@ -59251,16 +59262,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 19,
+      "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:28",
       "secondsRemaining": 388,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T19:18:26.000Z",
-      "playText": "Hannes Steinbach makes free throw 2 of 2",
+      "wallclock": "2026-03-12T19:18:13.000Z",
+      "playText": "Hannes Steinbach misses free throw 1 of 2",
       "participants": [
         {
           "id": 203279,
@@ -59272,7 +59283,7 @@
           "id": 203279,
           "name": "Hannes Steinbach"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {

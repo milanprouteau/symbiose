@@ -1,0 +1,110 @@
+.container {
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+}
+
+/* ── Colonne centre : Infos principales ── */
+.infoCol {
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameRow {
+  align-items: baseline;
+}
+
+.playerName {
+  font-family: var(--font-display);
+  font-size: 1.875rem;
+  color: var(--color-primary-orange);
+  line-height: 1;
+}
+
+.playerMeta {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  color: var(--color-primary-white);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.statsRow {
+  margin-top: 1.25rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statValue {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-primary-yellow);
+  line-height: 1;
+}
+
+.statLabel {
+  font-family: var(--font-heading);
+  font-size: 10px;
+  color: var(--color-primary-white);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.25rem;
+}
+
+/* ── Colonne droite : Overview ── */
+.overviewCol {
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overviewTitle {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary-white);
+  margin-bottom: 0.75rem;
+}
+
+.overviewList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.overviewItem {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  color: var(--color-primary-white);
+  line-height: 1.625;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.overviewDash {
+  color: var(--color-primary-orange);
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+}
