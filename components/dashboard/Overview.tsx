@@ -1,5 +1,6 @@
 import type { Player } from "@/types/player";
 import type { StatRanking } from "@/lib/playerRankings";
+import { findSimilarPlayers } from "@/lib/similarPlayers";
 import styles from "./Overview.module.scss";
 
 type Props = {
@@ -14,6 +15,18 @@ export default function Overview({ player: p, rankings }: Props) {
     `Tirs: ${p.fgPct}% FG, ${p.threePtPct}% 3PT, ${p.ftPct}% FT.`,
     `TS% ${p.trueShootingPct.toFixed(1)}% · Usage ${p.usage}% · Net Rating +${p.netRating}.`,
   ];
+
+  const similarPlayers = findSimilarPlayers({
+    ppg: p.ppg,
+    rpg: p.rpg,
+    apg: p.apg,
+    spg: p.spg,
+    bpg: p.bpg,
+    fgPct: p.fgPct,
+    usage: p.usage,
+  });
+
+  console.log('similarPlayers', similarPlayers);
 
   return (
     <div className={styles.container}>
@@ -55,6 +68,37 @@ export default function Overview({ player: p, rankings }: Props) {
               </li>
             ))}
           </ul>
+        </div>
+      </div>
+
+      {/* ── Profils similaires ── */}
+      <div className={styles.similarSection}>
+        <h2 className={styles.similarTitle}>Profils similaires</h2>
+        <div className={styles.similarList}>
+          {similarPlayers.map((sp, i) => (
+            <div key={`${sp.name}-${sp.draftYear}`} className={styles.similarCard}>
+              <div className={styles.similarContent}>
+                <div className={styles.similarRank}>{i + 1}</div>
+                <div className={styles.similarInfo}>
+                  <span className={styles.similarName}>{sp.name}</span>
+                  <span className={styles.similarMeta}>
+                    {sp.position} · {sp.team} ({sp.draftYear})
+                  </span>
+                </div>
+                <div className={styles.similarDraft}>
+                  <span className={styles.similarPick}>Pick #{sp.overall}</span>
+                  <span className={styles.similarTeam}>{sp.draftTeam}</span>
+                </div>
+              </div>
+              <div className={styles.similarStats}>
+                <span>{sp.points} pts</span>
+                <span>{sp.rebounds} reb</span>
+                <span>{sp.assists} ast</span>
+                <span>{sp.fieldGoalsPct}% FG</span>
+                <span>{sp.usage}% Usage</span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

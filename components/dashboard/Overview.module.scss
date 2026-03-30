@@ -108,3 +108,115 @@
   margin-top: 0.125rem;
   flex-shrink: 0;
 }
+
+/* ── Profils similaires ── */
+.similarSection {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.similarTitle {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary-white);
+  margin-bottom: 1rem;
+}
+
+.similarList {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+}
+}
+
+.similarCard {
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: background 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+
+.similarContent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.similarRank {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--color-primary-orange);
+  width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.similarInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.similarName {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--color-primary-white);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.similarMeta {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.similarDraft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.125rem;
+  flex-shrink: 0;
+}
+
+.similarPick {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--color-primary-yellow);
+}
+
+.similarTeam {
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+}
+
+.similarStats {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+
+  span {
+    font-family: var(--font-heading);
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+  }
+}
