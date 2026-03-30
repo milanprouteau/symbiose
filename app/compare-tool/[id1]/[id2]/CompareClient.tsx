@@ -242,8 +242,8 @@ function ComparisonSlider({
       onPointerUp={onPointerUp}
       style={{ touchAction: "none" }}
     >
-      {/* Player 2 — full width behind */}
-      <div className={styles.sliderLayer}>
+      {/* Player 2 — clipped to right portion */}
+      <div className={styles.sliderLayer} style={{ clipPath: `inset(0 0 0 ${sliderPos}%)` }}>
         {renderChart(shots2)}
         <span className={styles.sliderLabel} style={{ right: 8 }}>{name2}</span>
       </div>
