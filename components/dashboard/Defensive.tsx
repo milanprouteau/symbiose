@@ -9,22 +9,27 @@ const DEFENSIVE_AXES: RadarAxis[] = [
   { key: "bpg",             label: "BLK",    max: 3 },
   { key: "spg",             label: "STL",    max: 3 },
   { key: "defensiveRating", label: "DEF RTG", max: 120 },
+  { key: "opponentFG", label: "OPP FG", max: 100 }, // from team stats
+  { key: "fpg", label: "fautes", max: 10 },
 ];
 
 type Props = {
   player: Player;
   radarPlayer: RadarPlayer;
+  opponentFG: number;
 };
 
-export default function Defensive({ player: p, radarPlayer }: Props) {
+export default function Defensive({ player: p, radarPlayer, opponentFG }: Props) {
   const stats = [
     { label: "Rebonds / match",       value: p.rpg },
     { label: "Contres / match",       value: p.bpg },
     { label: "Interceptions / match", value: p.spg },
     { label: "Defensive Rating",      value: p.defensiveRating.toFixed(1) },
-    { label: "Reb. Défensifs",        value: p.reboundsDefensive },
-    { label: "Reb. Offensifs",        value: p.reboundsOffensive },
+    { label: "Reb. Défensifs",        value: (p.reboundsDefensive / p.games).toFixed(1) },
+    { label: "Reb. Offensifs",        value: (p.reboundsOffensive / p.games).toFixed(1) },
     { label: "Off. Reb. %",           value: `${p.offensiveReboundPct}%` },
+    { label: "Fautes / match",        value: p.fpg },
+    { label: "Opponent FG%",          value: opponentFG },
   ];
 
   return (

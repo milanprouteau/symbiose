@@ -1,14 +1,21 @@
 import type { Player } from "@/types/player";
 import type { StatRanking } from "@/lib/playerRankings";
+import type { LineupEntry } from "@/types/stats";
 import { findSimilarPlayers } from "@/lib/similarPlayers";
 import styles from "./Overview.module.scss";
 
 type Props = {
   player: Player;
   rankings?: StatRanking;
+  topLineups?: LineupEntry[];
 };
 
-export default function Overview({ player: p, rankings }: Props) {
+function formatMinutes(totalSeconds: number): string {
+  const mins = Math.round(totalSeconds / 60);
+  return `${mins} min`;
+}
+
+export default function Overview({ player: p, rankings, topLineups = [] }: Props) {
   const overview = [
     `${p.position} · ${p.team} (${p.conference}) — ${p.games} matchs, ${p.starts} titulaires.`,
     `${p.ppg} PPG, ${p.rpg} RPG, ${p.apg} APG en ${p.mpg} MPG.`,
@@ -70,6 +77,56 @@ export default function Overview({ player: p, rankings }: Props) {
           </ul>
         </div>
       </div>
+
+      {/* ── Top 5 Lineups ── */}
+      {topLineups.length > 0 && (
+        <div className={styles.lineupsSection}>
+          <h2 className={styles.lineupsTitle}>Meilleurs Lineups</h2>
+          <div className={styles.lineupsList}>
+            {topLineups.map((lu, i) => (
+              <div key={lu.idHash} className={styles.lineupCard}>
+                <div className={styles.lineupStats}>
+                  <div className={styles.lineupStatItem}>
+                    <span className={styles.lineupStatValue}>{formatMinutes(lu.totalSeconds)}</span>
+                    <span className={styles.lineupStatLabel}>Temps</span>
+                  </div>
+                  <div className={styles.lineupStatItem}>
+                    <span className={styles.lineupStatValue}>{lu.pace.toFixed(1)}</span>
+                    <span className={styles.lineupStatLabel}>Pace</span>
+                  </div>
+                  <div className={styles.lineupStatItem}>
+                    <span className={styles.lineupStatValue}>{lu.offenseRating.toFixed(1)}</span>
+                    <span className={styles.lineupStatLabel}>Off Rtg</span>
+                  </div>
+                  <div className={styles.lineupStatItem}>
+                    <span className={styles.lineupStatValue}>{lu.defenseRating.toFixed(1)}</span>
+                    <span className={styles.lineupStatLabel}>Def Rtg</span>
+                  </div>
+                  <div className={styles.lineupStatItem}>
+                    <span className={`${styles.lineupStatValue} ${lu.netRating >= 0 ? styles.lineupPositive : styles.lineupNegative}`}>
+                      {lu.netRating >= 0 ? "+" : ""}{lu.netRating.toFixed(1)}
+                    </span>
+                    <span className={styles.lineupStatLabel}>Net Rtg</span>
+                  </div>
+                </div>
+                <div className={styles.lineupHeader}>
+                  <span className={styles.lineupRank}>{i + 1}</span>
+                  <div className={styles.lineupPlayers}>
+                    {lu.athletes.map((a) => (
+                      <span
+                        key={a.id}
+                        className={`${styles.lineupPlayerName} ${a.id === p.athleteId ? styles.lineupPlayerHighlight : ""}`}
+                      >
+                        {a.name}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* ── Profils similaires ── */}
       <div className={styles.similarSection}>

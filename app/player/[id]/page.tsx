@@ -48,6 +48,7 @@ export default async function PlayerPage({ params }: Props) {
     shootingStats: data.shootingStats,
     teamStats: data.teamStats,
     profile: data.profile ?? null,
+    topLineups: data.topLineups ?? [],
   };
 
   // Load all player data for rankings
@@ -74,6 +75,7 @@ export default async function PlayerPage({ params }: Props) {
 
   const plays: PlayRaw[] = data.shots ?? [];
   const shots = mapPlaysToShots(plays, Number(id));
+  const opponentFG = data.teamStats.opponentStats.fieldGoals.pct;
 
   const radarPlayer: RadarPlayer = {
     name: player.name,
@@ -97,13 +99,15 @@ export default async function PlayerPage({ params }: Props) {
     },
   };
 
+  console.log('stats', stats);
+
   return (
     <div>
       <PlayerHero player={player} />
       <PlayerTabs
-        overview={<Overview player={player} rankings={playerRankings} />}
+        overview={<Overview player={player} rankings={playerRankings} topLineups={stats.topLineups ?? []} />}
         offensive={<ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />}
-        defensive={<Defensive player={player} radarPlayer={radarPlayer} />}
+        defensive={<Defensive player={player} radarPlayer={radarPlayer} opponentFG={opponentFG} />}
         gameLog={<GameLog gameLog={data.gameLog ?? []} />}
       />
     </div>

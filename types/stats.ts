@@ -201,6 +201,23 @@ export type GameLogEntry = {
   starter: boolean;
 };
 
+// ── Lineup data ──
+
+export type LineupAthlete = {
+  id: number;
+  name: string;
+};
+
+export type LineupEntry = {
+  idHash: string;
+  athletes: LineupAthlete[];
+  totalSeconds: number;
+  pace: number;
+  offenseRating: number;
+  defenseRating: number;
+  netRating: number;
+};
+
 // ── Combined player data bundle (what we cache locally) ──
 
 export type PlayerDataBundle = {
@@ -209,4 +226,5 @@ export type PlayerDataBundle = {
   teamStats: TeamSeasonStats;
   profile?: PlayerProfile | null;
   gameLog?: GameLogEntry[];
+  topLineups?: LineupEntry[];
 };

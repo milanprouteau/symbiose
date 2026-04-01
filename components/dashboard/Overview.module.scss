@@ -109,6 +109,120 @@
   flex-shrink: 0;
 }
 
+/* ── Top 5 Lineups ── */
+.lineupsSection {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lineupsTitle {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary-white);
+  margin-bottom: 1rem;
+}
+
+.lineupsList {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.lineupCard {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: background 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+
+.lineupHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.lineupRank {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--color-primary-orange);
+  width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.lineupPlayers {
+  display: flex;
+  gap: 0.25rem 0.5rem;
+}
+
+.lineupPlayerName {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
+}
+
+.lineupPlayerHighlight {
+  color: var(--color-primary-orange);
+  font-weight: 600;
+}
+
+.lineupStats {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  @media (max-width: 480px) {
+    gap: 0.5rem;
+    padding-left: 0;
+    flex-wrap: wrap;
+  }
+}
+
+.lineupStatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.lineupStatValue {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  color: var(--color-primary-white);
+  line-height: 1;
+}
+
+.lineupStatLabel {
+  font-family: var(--font-heading);
+  font-size: 0.55rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.lineupPositive {
+  color: #4ade80;
+}
+
+.lineupNegative {
+  color: #f87171;
+}
+
 /* ── Profils similaires ── */
 .similarSection {
   padding-top: 1.5rem;
@@ -132,7 +246,7 @@
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
-}
+  }
 }
 
 .similarCard {
