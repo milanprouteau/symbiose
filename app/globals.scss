@@ -1,6 +1,7 @@
 /* ── Design Tokens ── */
 :root {
   /* Couleurs */
+  --color-background:     #1D1D1B;
   --color-primary-black:  #1D1D1B;
   --color-primary-orange: #FF6C22;
   --color-primary-yellow: #FFCD01;
@@ -32,6 +33,49 @@ body {
 
 h1 { font-family: var(--font-display); }
 h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+
+/* ── Animations ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scatterIn {
+  from { opacity: 0; transform: scale(0); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes chartFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Focus styles ── */
+:focus-visible {
+  outline: 2px solid var(--color-primary-orange);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ── Skip link ── */
+.skipLink {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  background: var(--color-primary-orange);
+  color: white;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  border-radius: 0 0 6px 6px;
+  text-decoration: none;
+  transition: top 0.2s;
+
+  &:focus {
+    top: 0;
+  }
+}
 
 /* ── Reset / utility ── */
 *, *::before, *::after {

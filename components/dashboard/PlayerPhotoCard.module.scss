@@ -1,0 +1,42 @@
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.root {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* no overflow: hidden — logo visible in full */
+}
+
+.shimmer {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #242629 25%, #2e3036 50%, #242629 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite linear;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.photo {
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  width: auto;
+}

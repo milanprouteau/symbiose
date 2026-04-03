@@ -208,6 +208,22 @@ export type LineupAthlete = {
   name: string;
 };
 
+export type LineupStatBlock = {
+  points: number;
+  possessions: number;
+  trueShooting: number;
+  fgPct: number;
+  threePtPct: number;
+  ftPct: number;
+  assists: number;
+  steals: number;
+  blocks: number;
+  turnovers: number;
+  offRebounds: number;
+  defRebounds: number;
+  eFgPct: number;
+};
+
 export type LineupEntry = {
   idHash: string;
   athletes: LineupAthlete[];
@@ -216,6 +232,8 @@ export type LineupEntry = {
   offenseRating: number;
   defenseRating: number;
   netRating: number;
+  teamStats?: LineupStatBlock;
+  opponentStats?: LineupStatBlock;
 };
 
 // ── Combined player data bundle (what we cache locally) ──

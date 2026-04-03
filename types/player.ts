@@ -80,6 +80,7 @@ export type Player = {
   netRating: number;
   assistsTurnoverRatio: number;
   offensiveReboundPct: number;
+  defensiveReboundPct: number;
   freeThrowRate: number;
   PORPAG: number;
 

@@ -1,20 +1,6 @@
 import type { PlayerDataBundle } from "@/types/stats";
 import type { Player } from "@/types/player";
-
-/** Convert height in inches to a "6'3"" string */
-function formatHeight(inches: number | null | undefined): string | null {
-  if (!inches) return null;
-  const totalCm = Math.round(inches * 2.54);
-  const m = Math.floor(totalCm / 100);
-  const cm = totalCm % 100;
-  return `${m}m${cm.toString().padStart(2, "0")}`;
-}
-
-
-function formatWeight(lbs: number | null | undefined): string | null {
-  if (!lbs) return null;
-  return `${Math.round(lbs * 0.453592)} kg`;
-}
+import { formatHeight, formatWeight } from "@/lib/formatters";
 
 /** Build a team logo slug from the team name */
 function teamSlug(team: string): string {
@@ -114,6 +100,7 @@ export function buildPlayer(bundle: PlayerDataBundle): Player {
     netRating: s.netRating,
     assistsTurnoverRatio: s.assistsTurnoverRatio,
     offensiveReboundPct: s.offensiveReboundPct,
+    defensiveReboundPct: 100 - s.offensiveReboundPct,
     freeThrowRate: s.freeThrowRate,
     PORPAG: s.PORPAG,
 

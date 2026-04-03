@@ -1,12 +1,23 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Scale } from "lucide-react";
 import styles from "./Header.module.scss";
 
 export default function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handler = () => setScrolled(window.scrollY > 10);
+    window.addEventListener("scroll", handler, { passive: true });
+    return () => window.removeEventListener("scroll", handler);
+  }, []);
+
   return (
-    <header className={styles.header}>
-      
+    <header className={`${styles.header} ${scrolled ? styles.headerScrolled : ""}`}>
+
       {/* Gauche : espace vide pour équilibrer */}
       <div className={styles.spacer} />
 
@@ -24,15 +35,9 @@ export default function Header() {
       {/* Droite : Navigation */}
       <div className={styles.navContainer}>
         <nav className={styles.nav}>
-          <Link
-            href="/compare-tool"
-            className={styles.navLink}
-          >
-            {/* Desktop */}
-            <span className={styles.desktopLabel}>Comparer joueurs</span>
-
-            {/* Mobile */}
-            <Scale className={styles.mobileIcon} />
+          <Link href="/compare-tool" className={styles.navLink} aria-label="Comparer joueurs">
+            <span className={styles.desktopLabel} aria-hidden="true">Comparer joueurs</span>
+            <Scale className={styles.mobileIcon} aria-hidden="true" />
           </Link>
         </nav>
       </div>

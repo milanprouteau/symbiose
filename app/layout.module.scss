@@ -7,4 +7,9 @@
 .main {
   flex: 1;
   padding: 1.5rem;
+  padding-top: calc(140px + 1.5rem);
+
+  @media (max-width: 640px) {
+    padding-top: calc(80px + 1.5rem);
+  }
 }

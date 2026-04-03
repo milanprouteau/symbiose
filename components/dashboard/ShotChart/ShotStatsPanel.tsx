@@ -12,8 +12,8 @@ export const OFFENSIVE_AXES: RadarAxis[] = [
   { key: "rpg",   label: "REB",   max: 12 },
   { key: "apg",   label: "AST",   max: 8 },
   { key: "spg",   label: "STL",   max: 3 },
-  { key: "bpg",   label: "BLK",   max: 3 },
-  { key: "fgPct", label: "FG%",   max: 70 },
+  { key: "ppp",   label: "PPP",   max: 1.5 },
+  { key: "fgPct", label: "FG%",   max: 80 },
   { key: "usage", label: "Usage", max: 40 },
 ];
 
@@ -28,8 +28,6 @@ export default function ShotStatsPanel({ shots, shootingStats, radarPlayer }: Pr
     () => (shootingStats ? buildRows(shootingStats) : buildRowsFromShots(shots || [])),
     [shots, shootingStats]
   );
-
-  console.log('rows', rows);
 
   const totalAttempted = rows.reduce((sum, r) => sum + r.attempted, 0);
 

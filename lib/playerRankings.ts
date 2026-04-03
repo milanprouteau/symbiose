@@ -25,13 +25,18 @@ export function calculatePlayerRankings(allPlayers: PlayerSeasonStats[]): Map<nu
   const sortedByAPG = [...playersWithStats].sort((a, b) => b.apg - a.apg);
   const sortedByMPG = [...playersWithStats].sort((a, b) => b.mpg - a.mpg);
 
-  // Create ranking map
+  // Build position-lookup maps in O(n) instead of findIndex O(n) per player
+  const rankPPG = new Map(sortedByPPG.map((p, i) => [p.id, i + 1]));
+  const rankRPG = new Map(sortedByRPG.map((p, i) => [p.id, i + 1]));
+  const rankAPG = new Map(sortedByAPG.map((p, i) => [p.id, i + 1]));
+  const rankMPG = new Map(sortedByMPG.map((p, i) => [p.id, i + 1]));
+
   playersWithStats.forEach(player => {
     rankings.set(player.id, {
-      ppg: sortedByPPG.findIndex(p => p.id === player.id) + 1,
-      rpg: sortedByRPG.findIndex(p => p.id === player.id) + 1,
-      apg: sortedByAPG.findIndex(p => p.id === player.id) + 1,
-      mpg: sortedByMPG.findIndex(p => p.id === player.id) + 1,
+      ppg: rankPPG.get(player.id)!,
+      rpg: rankRPG.get(player.id)!,
+      apg: rankAPG.get(player.id)!,
+      mpg: rankMPG.get(player.id)!,
     });
   });
 

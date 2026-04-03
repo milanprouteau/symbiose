@@ -1,57 +1,66 @@
 .container {
   width: 100%;
-}
-
-.grid {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
+}
 
-  @media (min-width: 1024px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0;
+/* ── Métadonnées ── */
+.meta {
+  margin-top: 20px;
+  padding: 0 10px;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+/* ── Barre de stats ── */
+.statsBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.875rem 1rem;
   }
 }
 
-/* ── Colonne centre : Infos principales ── */
-.infoCol {
-  padding: 2rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.nameRow {
-  align-items: baseline;
-}
-
-.playerName {
-  font-family: var(--font-display);
-  font-size: 1.875rem;
-  color: var(--color-primary-orange);
-  line-height: 1;
-}
-
-.playerMeta {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  color: var(--color-primary-white);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.statsRow {
-  margin-top: 1.25rem;
+.statsGroup {
   display: flex;
   gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+
+  @media (max-width: 400px) {
+    gap: 1rem;
+  }
+}
+
+.statsDivider {
+  width: 1px;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+
+  @media (max-width: 640px) {
+    width: 100%;
+    height: 1px;
+  }
 }
 
 .statItem {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.2rem;
 }
 
 .statValue {
@@ -61,181 +70,349 @@
   line-height: 1;
 }
 
-.statLabel {
-  font-family: var(--font-heading);
-  font-size: 10px;
-  color: var(--color-primary-white);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-top: 0.25rem;
-}
-
-/* ── Colonne droite : Overview ── */
-.overviewCol {
-  padding: 2rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.overviewTitle {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-primary-white);
-  margin-bottom: 0.75rem;
-}
-
-.overviewList {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  list-style: none;
-}
-
-.overviewItem {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  color: var(--color-primary-white);
-  line-height: 1.625;
-  display: flex;
-  gap: 0.5rem;
-}
-
-.overviewDash {
-  color: var(--color-primary-orange);
-  margin-top: 0.125rem;
-  flex-shrink: 0;
-}
-
-/* ── Top 5 Lineups ── */
-.lineupsSection {
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.lineupsTitle {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-primary-white);
-  margin-bottom: 1rem;
-}
-
-.lineupsList {
-  display: flex;
-  gap: 0.5rem;
-  overflow-x: auto;
-  flex-wrap: nowrap;
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-.lineupCard {
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  transition: background 0.2s;
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.08);
-  }
-}
-
-.lineupHeader {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  margin-bottom: 0.6rem;
-}
-
-.lineupRank {
+.statValueSecondary {
   font-family: var(--font-display);
-  font-size: 1rem;
-  color: var(--color-primary-orange);
-  width: 1.5rem;
-  text-align: center;
-  flex-shrink: 0;
-  line-height: 1.4;
-}
-
-.lineupPlayers {
-  display: flex;
-  gap: 0.25rem 0.5rem;
-}
-
-.lineupPlayerName {
-  font-family: var(--font-heading);
-  font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.6);
-  white-space: nowrap;
-}
-
-.lineupPlayerHighlight {
-  color: var(--color-primary-orange);
-  font-weight: 600;
-}
-
-.lineupStats {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-
-  @media (max-width: 480px) {
-    gap: 0.5rem;
-    padding-left: 0;
-    flex-wrap: wrap;
-  }
-}
-
-.lineupStatItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.1rem;
-}
-
-.lineupStatValue {
-  font-family: var(--font-display);
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: var(--color-primary-white);
   line-height: 1;
 }
 
-.lineupStatLabel {
+.statLabel {
   font-family: var(--font-heading);
   font-size: 0.55rem;
   color: rgba(255, 255, 255, 0.4);
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ── Sections communes ── */
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 0.75rem;
+  padding: 0 10px;
+}
+
+/* ── Top Lineups ── */
+.lineupsSection {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Lineup Accordion ── */
+.lineupAccordion {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.lineupItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.lineupRow {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.25rem 1fr auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.55rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.07);
+  }
+}
+
+.lineupRowOpen {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-color: transparent;
+}
+
+.lineupRank {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: var(--color-primary-orange);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.lineupNames {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.5rem;
+}
+
+.lineupName {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+}
+
+.lineupNameHighlight {
+  color: var(--color-primary-orange);
+}
+
+.lineupMiniStats {
+  display: flex;
+  gap: 0.75rem;
+  flex-shrink: 0;
+
+  @media (max-width: 640px) {
+    gap: 0.4rem;
+  }
+}
+
+.lineupMiniStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+
+  &:last-child {
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+}
+
+.lineupMiniVal {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: var(--color-primary-white);
+  line-height: 1;
+
+  @media (max-width: 640px) {
+    font-size: 0.6rem;
+  }
+}
+
+.lineupMiniLabel {
+  font-family: var(--font-heading);
+  font-size: 0.5rem;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
   letter-spacing: 0.06em;
+
+  @media (max-width: 640px) {
+    font-size: 0.45rem;
+  }
+}
+
+.lineupChevron {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.45);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.lineupChevronOpen {
+  transform: rotate(180deg);
 }
 
 .lineupPositive {
-  color: #4ade80;
+  color: var(--color-secondary-green);
 }
 
 .lineupNegative {
   color: #f87171;
 }
 
-/* ── Profils similaires ── */
-.similarSection {
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+/* ── Lineup detail panel ── */
+.lineupDetail {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: none;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 0.5rem 0.75rem 0.6rem;
 }
 
-.similarTitle {
+.lineupDetailTime {
   font-family: var(--font-heading);
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding-bottom: 0.35rem;
+
+  @media (min-width: 641px) {
+    display: none;
+  }
+}
+
+.lineupCompareHeader {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.5rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  span {
+    font-family: var(--font-heading);
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.3);
+
+    &:first-child { text-align: right; }
+    &:last-child  { text-align: left;  }
+    &:nth-child(2) { text-align: center; min-width: 3rem; }
+  }
+}
+
+.lineupCompareRow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.2rem 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  }
+}
+
+.lineupCompareVal {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.lineupCompareLeft  { text-align: right; }
+.lineupCompareRight { text-align: left;  }
+
+.lineupCompareLabel {
+  font-family: var(--font-heading);
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  min-width: 3rem;
+}
+
+.lineupBetter {
   color: var(--color-primary-white);
-  margin-bottom: 1rem;
+}
+
+/* ── Index value row (valeur + bouton i) ── */
+.indexValueRow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.infoBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-heading);
+  font-size: 0.55rem;
+  font-style: italic;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color 0.15s, color 0.15s;
+  padding: 0;
+  line-height: 1;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.infoBtnActive {
+  border-color: var(--color-primary-orange);
+  color: var(--color-primary-orange);
+}
+
+.indexTooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a2e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  min-width: 160px;
+  z-index: 20;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+/* Desktop : hover sur le wrapper → tooltip visible */
+.indexValueRow:hover .indexTooltip {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Mobile : classe JS ajoutée au clic du bouton (i) */
+.indexValueRowOpen .indexTooltip {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltipRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.15rem 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  span:first-child {
+    font-family: var(--font-heading);
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  span:last-child {
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    color: var(--color-primary-white);
+
+    em {
+      font-style: normal;
+      font-size: 0.5rem;
+      color: rgba(255, 255, 255, 0.35);
+      margin-left: 1px;
+    }
+  }
+}
+
+/* ── Profils similaires ── */
+.similarSection {
+  display: flex;
+  flex-direction: column;
 }
 
 .similarList {

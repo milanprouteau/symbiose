@@ -5,12 +5,12 @@ import RadarChart, { type RadarAxis, type RadarPlayer } from "./RadarChart";
 import styles from "./Defensive.module.scss";
 
 const DEFENSIVE_AXES: RadarAxis[] = [
-  { key: "rpg",             label: "REB",    max: 12 },
-  { key: "bpg",             label: "BLK",    max: 3 },
-  { key: "spg",             label: "STL",    max: 3 },
-  { key: "defensiveRating", label: "DEF RTG", max: 120 },
-  { key: "opponentFG", label: "OPP FG", max: 100 }, // from team stats
-  { key: "fpg", label: "fautes", max: 10 },
+  { key: "rpg",                 label: "REB",      max: 12 },
+  { key: "bpg",                 label: "BLK",      max: 3 },
+  { key: "spg",                 label: "STL",      max: 3 },
+  { key: "defensiveRating",     label: "DEF RTG",  max: 150, invert: true },
+  { key: "opponentFG",          label: "OPP FG",   max: 100 },
+  { key: "defensiveReboundPct", label: "DREB%",    max: 100 },
 ];
 
 type Props = {
@@ -27,7 +27,7 @@ export default function Defensive({ player: p, radarPlayer, opponentFG }: Props)
     { label: "Defensive Rating",      value: p.defensiveRating.toFixed(1) },
     { label: "Reb. Défensifs",        value: (p.reboundsDefensive / p.games).toFixed(1) },
     { label: "Reb. Offensifs",        value: (p.reboundsOffensive / p.games).toFixed(1) },
-    { label: "Off. Reb. %",           value: `${p.offensiveReboundPct}%` },
+    { label: "Def. Reb. %",           value: `${p.defensiveReboundPct.toFixed(1)}%` },
     { label: "Fautes / match",        value: p.fpg },
     { label: "Opponent FG%",          value: opponentFG },
   ];

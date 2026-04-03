@@ -18,7 +18,7 @@
   justify-content: space-between;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .title {
@@ -31,13 +31,6 @@
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
-}
-
-.filtersRow {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .filters {
@@ -73,15 +66,55 @@
   }
 }
 
+.countFilters {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
 .chartWrapper {
-  margin-bottom: 2rem;
   background: rgba(255, 255, 255, 0.03);
-  border-radius: 10px;
-  padding: 1rem 0.5rem 0;
+  border-radius: 10px 10px 0 0;
+  padding: 1rem 0.5rem 0.5rem;
+}
+
+.chartScroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.timelineWrapper {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  padding: 0.5rem 0 0.25rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.timelineLabel {
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin-bottom: 0.25rem;
 }
 
 .tableWrapper {
   overflow-x: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .table {

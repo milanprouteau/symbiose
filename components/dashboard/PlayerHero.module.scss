@@ -23,28 +23,11 @@
 
 /* ── Colonne gauche : Photo joueur ── */
 .photoCol {
-  position: relative;
-  height: 14rem;
-  overflow: hidden;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
 
-.uniLogo {
-  object-fit: contain;
-  opacity: 0.2;
-  transform: scale(1.5);
-}
-
-.playerImg {
-  position: relative;
-  z-index: 20;
-  object-fit: cover;
-  object-position: top;
-  height: 100%;
-  width: auto;
-}
 
 /* ── Colonne centre : Infos principales ── */
 .infoCol {
@@ -62,9 +45,13 @@
 
 .playerName {
   font-family: var(--font-display);
-  font-size: 1.875rem;
+  font-size: 1.25rem;
   color: var(--color-primary-orange);
   line-height: 1;
+
+  @media (min-width: 768px) {
+    font-size: 1.875rem;
+  }
 }
 
 .playerMeta {
@@ -105,11 +92,15 @@
 
 /* ── Colonne droite : Overview ── */
 .overviewCol {
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--color-surface);
+
+  @media (min-width: 768px) {
+    padding: 2rem 1.5rem;
+  }
 }
 
 .overviewTitle {
@@ -121,6 +112,18 @@
   margin-bottom: 0.75rem;
 }
 
+.overviewRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
+
 .overviewList {
   display: flex;
   flex-direction: column;
@@ -128,7 +131,7 @@
   list-style: none;
 
   @media (min-width: 768px) {
-    width: 250px;
+    width: 200px;
   }
 }
 
@@ -157,4 +160,8 @@
 .jersey {
   color: var(--color-primary-yellow);
   margin-right: 0.5rem;
+}
+
+.compareWrap {
+  margin-top: 1rem;
 }

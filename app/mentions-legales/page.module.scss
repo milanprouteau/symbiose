@@ -1,0 +1,41 @@
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--color-primary-white);
+  margin-bottom: 2.5rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+
+  p {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-top: 0.5rem;
+  }
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary-orange);
+  margin-bottom: 0.25rem;
+}
+
+.link {
+  color: var(--color-primary-orange);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

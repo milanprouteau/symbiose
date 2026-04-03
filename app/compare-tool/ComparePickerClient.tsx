@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import styles from "./ComparePicker.module.scss";
+import Loader from "@/components/ui/Loader";
+import overlayStyles from "@/components/ui/NavigationLoader.module.scss";
 
 type IndexEntry = { id: number; name: string; team: string };
 
@@ -12,13 +14,14 @@ export default function ComparePickerClient({ allPlayers }: Props) {
   const router = useRouter();
   const [sel1, setSel1] = useState("");
   const [sel2, setSel2] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const canCompare = sel1 && sel2 && sel1 !== sel2;
 
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        Compare Players
+        Comparer des joueurs
       </h1>
 
       <div className={styles.selectGrid}>
@@ -31,8 +34,11 @@ export default function ComparePickerClient({ allPlayers }: Props) {
             onChange={(e) => setSel1(e.target.value)}
             className={styles.select}
           >
-            <option value="">Select a player</option>
-            {allPlayers.map((p) => (
+            <option value="">Choisir un joueur</option>
+            {allPlayers
+              .slice()
+              .sort((a, b) => a.name.localeCompare(b.name))
+              .map((p) => (
               <option key={p.id} value={String(p.id)}>
                 {p.name} — {p.team}
               </option>
@@ -49,8 +55,11 @@ export default function ComparePickerClient({ allPlayers }: Props) {
             onChange={(e) => setSel2(e.target.value)}
             className={styles.select}
           >
-            <option value="">Select a player</option>
-            {allPlayers.map((p) => (
+            <option value="">Choisir un joueur</option>
+            {allPlayers
+              .slice()
+              .sort((a, b) => a.name.localeCompare(b.name))
+              .map((p) => (
               <option key={p.id} value={String(p.id)}>
                 {p.name} — {p.team}
               </option>
@@ -61,18 +70,27 @@ export default function ComparePickerClient({ allPlayers }: Props) {
 
       <button
         disabled={!canCompare}
-        onClick={() => router.push(`/compare-tool/${sel1}/${sel2}`)}
+        onClick={() => {
+          setLoading(true);
+          router.push(`/compare-tool/${sel1}/${sel2}`);
+        }}
         className={`${styles.button} ${
           canCompare ? styles.buttonEnabled : styles.buttonDisabled
         }`}
       >
-        Compare
+        Comparer
       </button>
 
       {sel1 && sel2 && sel1 === sel2 && (
         <p className={styles.error}>
-          Please select two different players.
+          Choisissez deux joueurs différents.
         </p>
+      )}
+
+      {loading && (
+        <div className={overlayStyles.overlay}>
+          <Loader />
+        </div>
       )}
     </div>
   );

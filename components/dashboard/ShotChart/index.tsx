@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { motion, LayoutGroup } from "motion/react";
 import type { Shot } from "@/types/player";
 import type { PlayerShootingStats } from "@/types/stats";
 import { VIEW_BOX, scaleX, scaleY } from "./utils/scales";
@@ -17,7 +18,7 @@ import type { RadarPlayer } from "../RadarChart";
 type Props = {
   shots?: Shot[];
   shootingStats?: PlayerShootingStats | null;
-  radarPlayer?: RadarPlayer ;
+  radarPlayer?: RadarPlayer;
 };
 
 const TABS = ["Tirs", "Zones", "Hex", "Heat"] as const;
@@ -41,19 +42,26 @@ export default function ShotChart({ shots = [], shootingStats, radarPlayer }: Pr
         {/* Left — Chart with tabs */}
         <div className={styles.chartSide}>
           {/* Tab bar */}
-          <div className={styles.tabBar}>
-            {TABS.map((tab) => (
-              <button
-                key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={`${styles.tab} ${
-                  activeTab === tab ? styles.tabActive : ""
-                }`}
-              >
-                {tab}
-              </button>
-            ))}
-          </div>
+          <LayoutGroup id="shotChartTabs">
+            <div className={styles.tabBar}>
+              {TABS.map((tab) => (
+                <button
+                  key={tab}
+                  onClick={() => setActiveTab(tab)}
+                  className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ""}`}
+                >
+                  {activeTab === tab && (
+                    <motion.div
+                      layoutId="shotTabIndicator"
+                      className={styles.tabIndicator}
+                      transition={{ type: "spring", bounce: 0.2, duration: 0.35 }}
+                    />
+                  )}
+                  <span className={styles.tabText}>{tab}</span>
+                </button>
+              ))}
+            </div>
+          </LayoutGroup>
 
           {/* Active chart */}
           {activeTab === "Tirs" && (
@@ -69,18 +77,30 @@ export default function ShotChart({ shots = [], shootingStats, radarPlayer }: Pr
                 </div>
                 <span className={styles.fgPct}>{pct}% FG</span>
               </div>
-              <svg viewBox={VIEW_BOX} preserveAspectRatio="xMidYMid meet" className={styles.svgChart}>
+              <svg key={activeTab} viewBox={VIEW_BOX} preserveAspectRatio="xMidYMid meet" className={styles.svgChart}>
                 <Court />
-                {shots.map((shot) => (
-                  <ScatterChart key={shot.id} shot={shot} scaleX={scaleX} scaleY={scaleY} />
+                {shots.map((shot, i) => (
+                  <ScatterChart key={shot.id} shot={shot} scaleX={scaleX} scaleY={scaleY} index={i} />
                 ))}
               </svg>
             </div>
           )}
 
-          {activeTab === "Zones" && <ZoneChart shots={shots} />}
-          {activeTab === "Hex" && <HexChart shots={shots} />}
-          {activeTab === "Heat" && <HeatMap shots={shots} />}
+          {activeTab === "Zones" && (
+            <div key="zones" style={{ animation: "chartFadeIn 0.3s ease" }}>
+              <ZoneChart shots={shots} />
+            </div>
+          )}
+          {activeTab === "Hex" && (
+            <div key="hex" style={{ animation: "chartFadeIn 0.3s ease" }}>
+              <HexChart shots={shots} />
+            </div>
+          )}
+          {activeTab === "Heat" && (
+            <div key="heat" style={{ animation: "chartFadeIn 0.3s ease" }}>
+              <HeatMap shots={shots} />
+            </div>
+          )}
 
           {/* Stats Table */}
           <table className={styles.table}>

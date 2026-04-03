@@ -1,49 +1,68 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { usePathname } from "next/navigation";
-import Loader from "./Loader";
-import styles from "./NavigationLoader.module.scss";
+import { AnimatePresence, motion } from "motion/react";
 
 export default function NavigationLoader() {
   const pathname = usePathname();
-  const [loading, setLoading] = useState(false);
+  const prevRef = useRef(pathname);
+  const [phase, setPhase] = useState<"idle" | "loading" | "done">("idle");
 
-  // Démarre le loader dès le clic sur un lien
   const handleClick = useCallback((e: MouseEvent) => {
-    const target = (e.target as HTMLElement).closest("a");
-    if (!target) return;
-
-    const href = target.getAttribute("href");
-    if (!href) return;
-
-    // Ignore les liens externes, ancres, et liens ouverts dans un nouvel onglet
-    const isInternal = href.startsWith("/") || href.startsWith(window.location.origin);
-    const isNewTab = target.target === "_blank";
-    const isAnchor = href.startsWith("#");
-    const isSamePage = href === window.location.pathname;
-
-    if (isInternal && !isNewTab && !isAnchor && !isSamePage) {
-      setLoading(true);
-    }
+    const a = (e.target as HTMLElement).closest("a");
+    if (!a) return;
+    const href = a.getAttribute("href") ?? "";
+    if (
+      !href.startsWith("/") ||
+      a.target === "_blank" ||
+      href.startsWith("#") ||
+      href === window.location.pathname
+    ) return;
+    setPhase("loading");
   }, []);
 
-  // Stop le loader quand l'URL change (nouvelle page rendue)
   useEffect(() => {
-    const id = setTimeout(() => setLoading(false), 0);
-    return () => clearTimeout(id);
-  }, [pathname]);
+    if (prevRef.current !== pathname) {
+      prevRef.current = pathname;
+      if (phase === "loading") {
+        const t1 = setTimeout(() => setPhase("done"), 0);
+        const t2 = setTimeout(() => setPhase("idle"), 450);
+        return () => { clearTimeout(t1); clearTimeout(t2); };
+      }
+    }
+  }, [pathname, phase]);
 
   useEffect(() => {
     document.addEventListener("click", handleClick);
     return () => document.removeEventListener("click", handleClick);
   }, [handleClick]);
 
-  if (!loading) return null;
-
   return (
-    <div className={styles.overlay}>
-      <Loader />
-    </div>
+    <AnimatePresence>
+      {phase !== "idle" && (
+        <motion.div
+          key="bar"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 3,
+            background: "var(--color-primary-orange)",
+            zIndex: 9999,
+            transformOrigin: "left center",
+          }}
+          initial={{ scaleX: 0, opacity: 1 }}
+          animate={phase === "done" ? { scaleX: 1, opacity: 1 } : { scaleX: 0.75, opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={
+            phase === "done"
+              ? { duration: 0.15, ease: "easeOut" }
+              : { duration: 2, ease: [0.22, 1, 0.36, 1] }
+          }
+        />
+      )}
+    </AnimatePresence>
   );
 }

@@ -20,6 +20,8 @@ export type PlayerEntry = {
   ftPct: number;
   usage: number;
   mockDraftPick?: number;
+  sis?: number | null;
+  sisPx?: number | null;
 };
 
 type SortKey = keyof PlayerEntry;
@@ -45,6 +47,8 @@ const COLUMNS: { key: SortKey; label: string; w: string }[] = [
   { key: "threePct", label: "3P%",     w: "w14" },
   { key: "ftPct",    label: "FT%",     w: "w14" },
   { key: "usage",    label: "USG%",    w: "w14" },
+  { key: "sis",      label: "SIS",     w: "w14" },
+  { key: "sisPx",   label: "SIS-Px",  w: "w14" },
 ];
 
 export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
@@ -61,6 +65,18 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
         const aPick = a.mockDraftPick ?? Infinity;
         const bPick = b.mockDraftPick ?? Infinity;
         return sortDir === "asc" ? aPick - bPick : bPick - aPick;
+      }
+
+      // Special handling for sis / sisPx - null values go to the end
+      if (sortKey === "sis") {
+        const aS = a.sis ?? -Infinity;
+        const bS = b.sis ?? -Infinity;
+        return sortDir === "asc" ? aS - bS : bS - aS;
+      }
+      if (sortKey === "sisPx") {
+        const aS = a.sisPx ?? -Infinity;
+        const bS = b.sisPx ?? -Infinity;
+        return sortDir === "asc" ? aS - bS : bS - aS;
       }
       
       if (typeof av === "string" && typeof bv === "string") {
@@ -134,6 +150,34 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                       >
                         {val as string}
                       </Link>
+                    </td>
+                  );
+                }
+                if (col.key === "sis") {
+                  const score = p.sis;
+                  const color =
+                    score == null ? undefined
+                    : score >= 75 ? "var(--color-primary-orange)"
+                    : score >= 65 ? "var(--color-primary-yellow)"
+                    : score >= 55 ? "var(--color-primary-white)"
+                    : "rgba(255,255,255,0.4)";
+                  return (
+                    <td key={col.key} className={`${styles.cell} ${styles[col.w]}`} style={{ color, fontWeight: score != null && score >= 65 ? 600 : undefined }}>
+                      {score != null ? score.toFixed(1) : "—"}
+                    </td>
+                  );
+                }
+                if (col.key === "sisPx") {
+                  const score = p.sisPx;
+                  const color =
+                    score == null ? undefined
+                    : score >= 80 ? "var(--color-primary-orange)"
+                    : score >= 70 ? "var(--color-primary-yellow)"
+                    : score >= 60 ? "var(--color-primary-white)"
+                    : "rgba(255,255,255,0.4)";
+                  return (
+                    <td key={col.key} className={`${styles.cell} ${styles[col.w]}`} style={{ color, fontWeight: score != null && score >= 70 ? 600 : undefined }}>
+                      {score != null ? score.toFixed(1) : "—"}
                     </td>
                   );
                 }

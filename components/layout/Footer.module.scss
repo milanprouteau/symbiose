@@ -1,0 +1,120 @@
+.footer {
+  background: rgb(20, 22, 26);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  margin-top: 3rem;
+}
+
+.inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+/* ── Top row ── */
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.brandLogo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.03);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+
+  img {
+    transition: filter 0.2s, opacity 0.2s;
+  }
+
+  &:hover {
+    color: var(--color-primary-orange);
+    border-color: var(--color-primary-orange);
+    background: rgba(255, 108, 34, 0.08);
+
+    img {
+      filter: brightness(0) saturate(100%) invert(47%) sepia(85%) saturate(1200%) hue-rotate(355deg) brightness(105%);
+      opacity: 1;
+    }
+  }
+}
+
+/* ── Divider ── */
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.07);
+  margin: 1.5rem 0 1rem;
+}
+
+/* ── Bottom row ── */
+.bottom {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.75rem;
+  align-items: flex-start;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.copy {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.25);
+  white-space: nowrap;
+}
