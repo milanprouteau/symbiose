@@ -303,7 +303,7 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   //      Efficacité de tir pure (2PT + bonus 3PT) sans l'effet équipe.
   //    AST/TO    : 0.4 = mauvais → 3.5 = élite  (5 pts)
   //      Qualité de décision individuelle.
-  const sis_porpag = score(ps.PORPAG,                   1.0, 7.5, 10);
+  const sis_porpag = score(ps.PORPAG,                   1.0, 5.5, 10); // Option A: 7.5→5.5
   const sis_efg    = score(ps.effectiveFieldGoalPct,    45,  65,   5);
   const sis_astTo  = score(ps.assistsTurnoverRatio,     0.4, 3.5,  5);
   const advancedEfficiency = sis_porpag + sis_efg + sis_astTo;
@@ -375,24 +375,24 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   //    Assist Rate : 3%  → 42%  (7 pts) — capacité à faciliter le jeu
   //    PORPAG      : 1.0 → 7.5  (6 pts) — valeur individuelle au-dessus du remplacement
   const px_usage  = score(ps.usage,   15,  33,  7);
-  const px_ast    = score(assistRate,  3,  42,  7);
-  const px_por    = score(ps.PORPAG,   1.0, 7.5, 6);
+  const px_ast    = score(assistRate,  3,  28,  7); // Option A: 42→28
+  const px_por    = score(ps.PORPAG,   1.0, 5.5, 6); // Option A: 7.5→5.5
   const pxProjectedRole = px_usage + px_ast + px_por;
 
-  // 5. ADAPTABILITÉ NBA — 20 pts  [REDESIGNÉE — stats disponibles NCAA]
-  //    Pace équipe  : 62 → 73  (5 pts)
-  //      Jouer dans une équipe rapide = aisance dans le tempo NBA
-  //    3PAr (×100)  : 5% → 60% (5 pts)
-  //      Intention de spacing = adaptabilité au jeu à 3 pts NBA
-  //    FT Rate      : 15 → 50  (5 pts)
-  //      Agressivité au cercle = compétence transposable au pro
-  //    eFG%         : 48% → 65% (5 pts)
-  //      Efficacité réelle sur les tirs
-  const px_pace    = score(ts.pace,                    62,  73, 5);
-  const px_spacing = score(threePAr * 100,              5,  60, 5);
-  const px_ftRate  = score(ps.freeThrowRate,           15,  50, 5);
-  const px_efg     = score(ps.effectiveFieldGoalPct,   48,  65, 5);
-  const pxNBAAdaptability = px_pace + px_spacing + px_ftRate + px_efg;
+  // 5. ADAPTABILITÉ NBA — 20 pts
+  //    Rim attack rate : 15% → 55% (5 pts) — % tirs au cercle (layups/trackedShots)
+  //      Mesure l'agressivité au panier, stat individuelle (remplace pace d'équipe)
+  //    3PAr (×100)     : 5% → 60% (5 pts) — orientation spacing NBA
+  //    FT Rate         : 15 → 55  (5 pts) — Option A: 50→55
+  //    eFG%            : 48% → 65% (5 pts)
+  const rimAttackRate = bundle.shootingStats && bundle.shootingStats.trackedShots > 0
+    ? (bundle.shootingStats.layups.attempted / bundle.shootingStats.trackedShots) * 100
+    : 25; // fallback ≈ médiane
+  const px_rimAttack = score(rimAttackRate,                15,  55, 5); // Option A: remplace pace
+  const px_spacing   = score(threePAr * 100,               5,  60, 5);
+  const px_ftRate    = score(ps.freeThrowRate,            15,  55, 5); // Option A: 50→55
+  const px_efg       = score(ps.effectiveFieldGoalPct,    48,  65, 5);
+  const pxNBAAdaptability = px_rimAttack + px_spacing + px_ftRate + px_efg;
 
   const sisPxTotal = r1(
     pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability,

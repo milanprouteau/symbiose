@@ -1,0 +1,171 @@
+.page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.calibLink {
+  background: rgba(255,108,34,0.1);
+  border: 1px solid rgba(255,108,34,0.3);
+  border-radius: 6px;
+  color: var(--color-primary-orange);
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  padding: 0.4rem 0.9rem;
+  text-decoration: none;
+  &:hover { background: rgba(255,108,34,0.2); }
+}
+
+.title {
+  font-family: var(--font-display);
+  color: var(--color-primary-orange);
+  font-size: 2rem;
+  margin: 0 0 0.25rem;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  color: var(--color-secondary-beige);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* ── Controls ── */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.search {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  color: var(--color-primary-white);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 0.4rem 0.75rem;
+  width: 200px;
+  outline: none;
+
+  &::placeholder { color: rgba(255,255,255,0.3); }
+  &:focus { border-color: var(--color-primary-orange); }
+}
+
+.yearTabs {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.yearTab {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 5px;
+  color: var(--color-secondary-beige);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+
+  &:hover { border-color: rgba(255,255,255,0.3); color: white; }
+
+  &.active {
+    background: var(--color-primary-orange);
+    border-color: var(--color-primary-orange);
+    color: white;
+  }
+}
+
+.count {
+  margin-left: auto;
+  color: rgba(255,255,255,0.35);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+}
+
+/* ── Table ── */
+.tableWrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar { height: 4px; }
+  &::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 3px; }
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  min-width: 700px;
+}
+
+.th {
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  text-transform: uppercase;
+  user-select: none;
+  white-space: nowrap;
+
+  &:hover { color: rgba(255,255,255,0.75); }
+  &.sorted { color: var(--color-primary-orange); }
+  &.num { text-align: right; }
+}
+
+.row {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: background 0.1s;
+
+  &:hover { background: rgba(255,255,255,0.04); }
+}
+
+.td, .name {
+  padding: 0.45rem 0.75rem;
+  white-space: nowrap;
+}
+
+.name {
+  color: var(--color-primary-white);
+  font-family: var(--font-heading);
+}
+
+.td {
+  &.num { text-align: right; }
+}
+
+.score {
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+}
+
+.prospect {
+  background: rgba(255, 108, 34, 0.15);
+  border: 1px solid rgba(255, 108, 34, 0.35);
+  border-radius: 4px;
+  color: var(--color-primary-orange);
+  font-size: 0.72rem;
+  padding: 0.15rem 0.4rem;
+}
+
+.year {
+  color: rgba(255,255,255,0.55);
+}
+
+.arrow {
+  display: inline-block;
+  width: 1ch;
+}

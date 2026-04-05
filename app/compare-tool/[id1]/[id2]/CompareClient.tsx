@@ -21,8 +21,8 @@ import { buildStatSections } from "@/lib/compareStats";
 export const COMPARE_AXES: RadarAxis[] = [
   { key: "ppg",   label: "PPG",   max: 30 },
   { key: "rpg",   label: "REB",   max: 12 },
-  { key: "apg",   label: "AST",   max: 8 },
-  { key: "spg",   label: "STL",   max: 3 },
+  { key: "apg",   label: "AST",   max: 10 },
+  { key: "spg",   label: "STL",   max: 5 },
   { key: "ppp",   label: "PPP",   max: 1.5 },
   { key: "fgPct", label: "FG%",   max: 80 },
   { key: "usage", label: "Usage", max: 40 },
@@ -30,8 +30,8 @@ export const COMPARE_AXES: RadarAxis[] = [
 
 export const DEFENSIVE_COMPARE_AXES: RadarAxis[] = [
   { key: "rpg",                 label: "REB",     max: 12 },
-  { key: "bpg",                 label: "BLK",     max: 3 },
-  { key: "spg",                 label: "STL",     max: 3 },
+  { key: "bpg",                 label: "BLK",     max: 5 },
+  { key: "spg",                 label: "STL",     max: 5 },
   { key: "defensiveRating",     label: "DEF RTG", max: 200, invert: true },
   { key: "opponentFG",          label: "OPP FG",  max: 100 },
   { key: "defensiveReboundPct", label: "DREB%",   max: 100 },
