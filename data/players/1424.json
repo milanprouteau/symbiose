@@ -22,10 +22,10 @@
     "steals": 43,
     "blocks": 79,
     "offensiveRating": 126.1,
-    "defensiveRating": 96.4,
-    "netRating": 29.7,
+    "defensiveRating": 96.5,
+    "netRating": 29.6,
     "PORPAG": 4.6,
-    "usage": 24.7,
+    "usage": 24.5,
     "assistsTurnoverRatio": 1.7,
     "offensiveReboundPct": 45.4,
     "freeThrowRate": 69.4,
@@ -58,9 +58,9 @@
     },
     "winShares": {
       "offensive": 4.5,
-      "defensive": 2.3,
-      "total": 6.8,
-      "totalPer40": 0.244
+      "defensive": 2.2,
+      "total": 6.7,
+      "totalPer40": 0.241
     }
   },
   "shootingStats": {
@@ -128,8 +128,8 @@
     "games": 37,
     "wins": 30,
     "losses": 7,
-    "totalMinutes": 1495,
-    "pace": 69.3,
+    "totalMinutes": 1485,
+    "pace": 69.8,
     "teamStats": {
       "assists": 597,
       "blocks": 178,
@@ -248,7 +248,7 @@
       "city": "Garland",
       "state": "TX"
     },
-    "dateOfBirth": "2004-04-20"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -7142,8 +7142,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39657974,
-      "sourceId": "401809078114674976",
+      "id": 39657976,
+      "sourceId": "401809078114675068",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -7154,17 +7154,17 @@
       "opponent": "Bucknell",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 44,
       "awayScore": 28,
-      "homeWinProbability": 0.964,
+      "homeWinProbability": 0.975,
       "period": 2,
       "clock": "18:59",
       "secondsRemaining": 1139,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T01:14:10.000Z",
-      "playText": "Zuby Ejiofor missed Free Throw.",
+      "wallclock": "2025-11-21T01:14:32.000Z",
+      "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -7176,7 +7176,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7249,8 +7249,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39657976,
-      "sourceId": "401809078114675068",
+      "id": 39657974,
+      "sourceId": "401809078114674976",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -7261,17 +7261,17 @@
       "opponent": "Bucknell",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 43,
       "awayScore": 28,
-      "homeWinProbability": 0.975,
+      "homeWinProbability": 0.964,
       "period": 2,
       "clock": "18:59",
       "secondsRemaining": 1139,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T01:14:32.000Z",
-      "playText": "Zuby Ejiofor made Free Throw.",
+      "wallclock": "2025-11-21T01:14:10.000Z",
+      "playText": "Zuby Ejiofor missed Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -7283,7 +7283,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8014,8 +8014,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40053178,
-      "sourceId": "401819874114895816",
+      "id": 40053177,
+      "sourceId": "401819874114895784",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -8026,16 +8026,16 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 21,
       "awayScore": 28,
-      "homeWinProbability": 0.397,
+      "homeWinProbability": 0.341,
       "period": 1,
       "clock": "7:33",
       "secondsRemaining": 453,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T22:04:17.000Z",
+      "wallclock": "2025-11-24T22:03:56.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -8121,8 +8121,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40053177,
-      "sourceId": "401819874114895784",
+      "id": 40053178,
+      "sourceId": "401819874114895816",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -8133,16 +8133,16 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 22,
       "awayScore": 28,
-      "homeWinProbability": 0.341,
+      "homeWinProbability": 0.397,
       "period": 1,
       "clock": "7:33",
       "secondsRemaining": 453,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T22:03:56.000Z",
+      "wallclock": "2025-11-24T22:04:17.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -10602,8 +10602,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116057,
-      "sourceId": "401819827114957202",
+      "id": 40116052,
+      "sourceId": "401819827114957188",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -10620,11 +10620,11 @@
       "period": 1,
       "clock": "5:31",
       "secondsRemaining": 331,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T22:11:34.000Z",
-      "playText": "Zuby Ejiofor missed Free Throw.",
+      "wallclock": "2025-11-25T22:11:15.000Z",
+      "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -10636,7 +10636,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10709,8 +10709,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116052,
-      "sourceId": "401819827114957188",
+      "id": 40116057,
+      "sourceId": "401819827114957202",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -10727,11 +10727,11 @@
       "period": 1,
       "clock": "5:31",
       "secondsRemaining": 331,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T22:11:15.000Z",
-      "playText": "Zuby Ejiofor made Free Throw.",
+      "wallclock": "2025-11-25T22:11:34.000Z",
+      "playText": "Zuby Ejiofor missed Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -10743,7 +10743,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11363,8 +11363,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116332,
-      "sourceId": "401819827114963641",
+      "id": 40116334,
+      "sourceId": "401819827114963674",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -11384,7 +11384,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:34:35.000Z",
+      "wallclock": "2025-11-25T23:34:53.000Z",
       "playText": "Zuby Ejiofor missed Free Throw.",
       "participants": [
         {
@@ -11470,8 +11470,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116334,
-      "sourceId": "401819827114963674",
+      "id": 40116332,
+      "sourceId": "401819827114963641",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -11491,7 +11491,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:34:53.000Z",
+      "wallclock": "2025-11-25T23:34:35.000Z",
       "playText": "Zuby Ejiofor missed Free Throw.",
       "participants": [
         {
@@ -12552,8 +12552,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40333806,
-      "sourceId": "401831218115067352",
+      "id": 40333809,
+      "sourceId": "401831218115067395",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -12565,15 +12565,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 21,
-      "homeWinProbability": 0.776,
+      "awayScore": 22,
+      "homeWinProbability": 0.723,
       "period": 1,
       "clock": "6:46",
       "secondsRemaining": 406,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T01:34:43.000Z",
+      "wallclock": "2025-11-27T01:35:06.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -12659,8 +12659,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40333809,
-      "sourceId": "401831218115067395",
+      "id": 40333806,
+      "sourceId": "401831218115067352",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -12672,15 +12672,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 22,
-      "homeWinProbability": 0.723,
+      "awayScore": 21,
+      "homeWinProbability": 0.776,
       "period": 1,
       "clock": "6:46",
       "secondsRemaining": 406,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T01:35:06.000Z",
+      "wallclock": "2025-11-27T01:34:43.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -13737,8 +13737,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40334041,
-      "sourceId": "401831218115073042",
+      "id": 40334034,
+      "sourceId": "401831218115073010",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -13755,11 +13755,11 @@
       "period": 2,
       "clock": "6:04",
       "secondsRemaining": 364,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T02:47:51.000Z",
-      "playText": "Zuby Ejiofor missed Free Throw.",
+      "wallclock": "2025-11-27T02:47:25.000Z",
+      "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -13771,7 +13771,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13844,8 +13844,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40334034,
-      "sourceId": "401831218115073010",
+      "id": 40334041,
+      "sourceId": "401831218115073042",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -13862,11 +13862,11 @@
       "period": 2,
       "clock": "6:04",
       "secondsRemaining": 364,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T02:47:25.000Z",
-      "playText": "Zuby Ejiofor made Free Throw.",
+      "wallclock": "2025-11-27T02:47:51.000Z",
+      "playText": "Zuby Ejiofor missed Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -13878,7 +13878,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14597,113 +14597,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41140694,
-      "sourceId": "401826916115592870",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": null,
-      "opponentId": 220,
-      "opponent": "Ole Miss",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 22,
-      "awayScore": 15,
-      "homeWinProbability": 0.833,
-      "period": 1,
-      "clock": "8:11",
-      "secondsRemaining": 491,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-07T01:32:22.000Z",
-      "playText": "Zuby Ejiofor missed Free Throw.",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 598,
-          "name": "Eduardo Klafke",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 58,
-          "name": "AJ Storr",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 602,
-          "name": "Zach Day",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 3414,
-          "name": "James Scott",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 8118,
-          "name": "Kezza Giffa",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 1433,
-          "name": "Lefteris Liotopoulos",
-          "team": "St. John's"
-        },
-        {
-          "id": 1430,
-          "name": "Sadiku Ibine Ayo",
-          "team": "St. John's"
-        },
-        {
-          "id": 465,
-          "name": "Dillon Mitchell",
-          "team": "St. John's"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        }
-      ]
-    },
-    {
-      "gameId": 213739,
-      "gameSourceId": "401826916",
-      "gameStartDate": "2025-12-07T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41140700,
       "sourceId": "401826916115592930",
       "playType": "MadeFreeThrow",
@@ -14811,8 +14704,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41140727,
-      "sourceId": "401826916115593704",
+      "id": 41140694,
+      "sourceId": "401826916115592870",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -14823,17 +14716,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 26,
-      "awayScore": 16,
-      "homeWinProbability": 0.887,
+      "homeScore": 22,
+      "awayScore": 15,
+      "homeWinProbability": 0.833,
       "period": 1,
-      "clock": "6:09",
-      "secondsRemaining": 369,
-      "scoringPlay": true,
+      "clock": "8:11",
+      "secondsRemaining": 491,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:39:10.000Z",
-      "playText": "Zuby Ejiofor made Free Throw.",
+      "wallclock": "2025-12-07T01:32:22.000Z",
+      "playText": "Zuby Ejiofor missed Free Throw.",
       "participants": [
         {
           "id": 1424,
@@ -14845,7 +14738,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14859,18 +14752,13 @@
       },
       "onFloor": [
         {
-          "id": 589,
-          "name": "Malik Dia",
+          "id": 598,
+          "name": "Eduardo Klafke",
           "team": "Ole Miss"
         },
         {
           "id": 58,
           "name": "AJ Storr",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 13227,
-          "name": "Hobert Grayson IV",
           "team": "Ole Miss"
         },
         {
@@ -14881,6 +14769,11 @@
         {
           "id": 602,
           "name": "Zach Day",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 3414,
+          "name": "James Scott",
           "team": "Ole Miss"
         },
         {
@@ -14953,6 +14846,113 @@
           "name": "Zuby Ejiofor"
         },
         "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 589,
+          "name": "Malik Dia",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 58,
+          "name": "AJ Storr",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 13227,
+          "name": "Hobert Grayson IV",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 602,
+          "name": "Zach Day",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 8118,
+          "name": "Kezza Giffa",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 1433,
+          "name": "Lefteris Liotopoulos",
+          "team": "St. John's"
+        },
+        {
+          "id": 1430,
+          "name": "Sadiku Ibine Ayo",
+          "team": "St. John's"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        }
+      ]
+    },
+    {
+      "gameId": 213739,
+      "gameSourceId": "401826916",
+      "gameStartDate": "2025-12-07T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41140727,
+      "sourceId": "401826916115593704",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": null,
+      "opponentId": 220,
+      "opponent": "Ole Miss",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 26,
+      "awayScore": 16,
+      "homeWinProbability": 0.887,
+      "period": 1,
+      "clock": "6:09",
+      "secondsRemaining": 369,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-07T01:39:10.000Z",
+      "playText": "Zuby Ejiofor made Free Throw.",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15346,113 +15346,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41140815,
-      "sourceId": "401826916115596859",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": null,
-      "opponentId": 220,
-      "opponent": "Ole Miss",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 36,
-      "awayScore": 25,
-      "homeWinProbability": 0.94,
-      "period": 2,
-      "clock": "19:31",
-      "secondsRemaining": 1171,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-07T02:12:45.000Z",
-      "playText": "Zuby Ejiofor made Free Throw.",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7641,
-          "name": "Joson Sanon",
-          "team": "St. John's"
-        },
-        {
-          "id": 3424,
-          "name": "Koren Johnson",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 8118,
-          "name": "Kezza Giffa",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 589,
-          "name": "Malik Dia",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 8325,
-          "name": "Corey Chest",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 3147,
-          "name": "Bryce Hopkins",
-          "team": "St. John's"
-        },
-        {
-          "id": 7626,
-          "name": "Dylan Darling",
-          "team": "St. John's"
-        },
-        {
-          "id": 201311,
-          "name": "Ilias Kamardine",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        }
-      ]
-    },
-    {
-      "gameId": 213739,
-      "gameSourceId": "401826916",
-      "gameStartDate": "2025-12-07T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41140813,
       "sourceId": "401826916115596777",
       "playType": "LayUpShot",
@@ -15560,8 +15453,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41140852,
-      "sourceId": "401826916115598028",
+      "id": 41140815,
+      "sourceId": "401826916115596859",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -15572,16 +15465,123 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
+      "awayScore": 25,
+      "homeWinProbability": 0.94,
+      "period": 2,
+      "clock": "19:31",
+      "secondsRemaining": 1171,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-07T02:12:45.000Z",
+      "playText": "Zuby Ejiofor made Free Throw.",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 3424,
+          "name": "Koren Johnson",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 8118,
+          "name": "Kezza Giffa",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 589,
+          "name": "Malik Dia",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 8325,
+          "name": "Corey Chest",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 201311,
+          "name": "Ilias Kamardine",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        }
+      ]
+    },
+    {
+      "gameId": 213739,
+      "gameSourceId": "401826916",
+      "gameStartDate": "2025-12-07T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41140853,
+      "sourceId": "401826916115598045",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": null,
+      "opponentId": 220,
+      "opponent": "Ole Miss",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 38,
       "awayScore": 31,
-      "homeWinProbability": 0.776,
+      "homeWinProbability": 0.843,
       "period": 2,
       "clock": "15:36",
       "secondsRemaining": 936,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T02:21:09.000Z",
+      "wallclock": "2025-12-07T02:21:25.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -15667,8 +15667,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41140853,
-      "sourceId": "401826916115598045",
+      "id": 41140852,
+      "sourceId": "401826916115598028",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -15679,16 +15679,16 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 31,
-      "homeWinProbability": 0.843,
+      "homeWinProbability": 0.776,
       "period": 2,
       "clock": "15:36",
       "secondsRemaining": 936,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T02:21:25.000Z",
+      "wallclock": "2025-12-07T02:21:09.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -16317,8 +16317,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41141053,
-      "sourceId": "401826916115602831",
+      "id": 41141054,
+      "sourceId": "401826916115602843",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -16329,16 +16329,16 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 60,
       "awayScore": 53,
-      "homeWinProbability": 0.985,
+      "homeWinProbability": 0.991,
       "period": 2,
       "clock": "0:29",
       "secondsRemaining": 29,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T03:08:54.000Z",
+      "wallclock": "2025-12-07T03:09:12.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -16424,8 +16424,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41141054,
-      "sourceId": "401826916115602843",
+      "id": 41141053,
+      "sourceId": "401826916115602831",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -16436,16 +16436,16 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 59,
       "awayScore": 53,
-      "homeWinProbability": 0.991,
+      "homeWinProbability": 0.985,
       "period": 2,
       "clock": "0:29",
       "secondsRemaining": 29,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T03:09:12.000Z",
+      "wallclock": "2025-12-07T03:08:54.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -17074,8 +17074,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41648294,
-      "sourceId": "401824309115794562",
+      "id": 41648297,
+      "sourceId": "401824309115794604",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -17086,16 +17086,16 @@
       "opponent": "Iona",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 30,
-      "homeWinProbability": 0.819,
+      "homeWinProbability": 0.875,
       "period": 2,
       "clock": "18:29",
       "secondsRemaining": 1109,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T18:12:30.000Z",
+      "wallclock": "2025-12-13T18:12:58.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -17181,8 +17181,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41648297,
-      "sourceId": "401824309115794604",
+      "id": 41648294,
+      "sourceId": "401824309115794562",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -17193,16 +17193,16 @@
       "opponent": "Iona",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 30,
-      "homeWinProbability": 0.875,
+      "homeWinProbability": 0.819,
       "period": 2,
       "clock": "18:29",
       "secondsRemaining": 1109,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T18:12:58.000Z",
+      "wallclock": "2025-12-13T18:12:30.000Z",
       "playText": "Zuby Ejiofor made Free Throw.",
       "participants": [
         {
@@ -18374,8 +18374,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41915101,
-      "sourceId": "401822869115978059",
+      "id": 41915100,
+      "sourceId": "401822869115977989",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -18386,17 +18386,17 @@
       "opponent": "DePaul",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 49,
-      "homeWinProbability": 0.992,
+      "homeWinProbability": 0.986,
       "period": 2,
       "clock": "8:07",
       "secondsRemaining": 487,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:29:05.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2025-12-17T01:28:41.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -18481,8 +18481,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41915100,
-      "sourceId": "401822869115977989",
+      "id": 41915101,
+      "sourceId": "401822869115978059",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -18493,17 +18493,17 @@
       "opponent": "DePaul",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 49,
-      "homeWinProbability": 0.986,
+      "homeWinProbability": 0.992,
       "period": 2,
       "clock": "8:07",
       "secondsRemaining": 487,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:28:41.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2025-12-17T01:29:05.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -23784,8 +23784,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43006163,
-      "sourceId": "401822879116583522",
+      "id": 43006162,
+      "sourceId": "401822879116583521",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -23797,16 +23797,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 28,
-      "homeWinProbability": 0.617,
+      "awayScore": 27,
+      "homeWinProbability": 0.659,
       "period": 1,
       "clock": "8:42",
       "secondsRemaining": 522,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-01T01:43:42.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-01T01:43:24.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -23891,8 +23891,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43006162,
-      "sourceId": "401822879116583521",
+      "id": 43006163,
+      "sourceId": "401822879116583522",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -23904,16 +23904,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 27,
-      "homeWinProbability": 0.659,
+      "awayScore": 28,
+      "homeWinProbability": 0.617,
       "period": 1,
       "clock": "8:42",
       "secondsRemaining": 522,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-01T01:43:24.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-01T01:43:42.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -25742,8 +25742,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43006468,
-      "sourceId": "401822879116585079",
+      "id": 43006467,
+      "sourceId": "401822879116585077",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -25760,11 +25760,11 @@
       "period": 2,
       "clock": "3:24",
       "secondsRemaining": 204,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-01T03:16:27.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-01-01T03:16:12.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -25776,7 +25776,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25854,8 +25854,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43006467,
-      "sourceId": "401822879116585077",
+      "id": 43006468,
+      "sourceId": "401822879116585079",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -25872,11 +25872,11 @@
       "period": 2,
       "clock": "3:24",
       "secondsRemaining": 204,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-01T03:16:12.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-01T03:16:27.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -25888,7 +25888,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -26948,8 +26948,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194395,
-      "sourceId": "401822882116692284",
+      "id": 43194398,
+      "sourceId": "401822882116692319",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -26966,11 +26966,11 @@
       "period": 1,
       "clock": "7:26",
       "secondsRemaining": 446,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T17:39:03.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-03T17:39:23.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -26982,7 +26982,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27055,8 +27055,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194398,
-      "sourceId": "401822882116692319",
+      "id": 43194395,
+      "sourceId": "401822882116692284",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -27073,11 +27073,11 @@
       "period": 1,
       "clock": "7:26",
       "secondsRemaining": 446,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T17:39:23.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-01-03T17:39:03.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -27089,7 +27089,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27376,9 +27376,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194457,
-      "sourceId": "401822882116693081",
-      "playType": "TipShot",
+      "id": 43194462,
+      "sourceId": "401822882116693098",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
       "team": "St. John's",
@@ -27396,9 +27396,9 @@
       "secondsRemaining": 205,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-03T17:54:03.000Z",
-      "playText": "Zuby Ejiofor misses tip in layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T17:54:54.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -27411,15 +27411,15 @@
           "name": "Zuby Ejiofor"
         },
         "made": false,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -27483,9 +27483,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194462,
-      "sourceId": "401822882116693098",
-      "playType": "MadeFreeThrow",
+      "id": 43194457,
+      "sourceId": "401822882116693081",
+      "playType": "TipShot",
       "isHomeTeam": true,
       "teamId": 279,
       "team": "St. John's",
@@ -27503,9 +27503,9 @@
       "secondsRemaining": 205,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T17:54:54.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "scoreValue": 2,
+      "wallclock": "2026-01-03T17:54:03.000Z",
+      "playText": "Zuby Ejiofor misses tip in layup",
       "participants": [
         {
           "id": 1424,
@@ -27518,15 +27518,15 @@
           "name": "Zuby Ejiofor"
         },
         "made": false,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -28668,8 +28668,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194592,
-      "sourceId": "401822882116699286",
+      "id": 43194595,
+      "sourceId": "401822882116699333",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -28680,17 +28680,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 46,
       "awayScore": 41,
-      "homeWinProbability": 0.739,
+      "homeWinProbability": 0.775,
       "period": 2,
       "clock": "14:58",
       "secondsRemaining": 898,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:35:52.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-03T18:36:11.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -28775,8 +28775,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194595,
-      "sourceId": "401822882116699333",
+      "id": 43194592,
+      "sourceId": "401822882116699286",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -28787,17 +28787,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 45,
       "awayScore": 41,
-      "homeWinProbability": 0.775,
+      "homeWinProbability": 0.739,
       "period": 2,
       "clock": "14:58",
       "secondsRemaining": 898,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:36:11.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-03T18:35:52.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -30388,8 +30388,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194819,
-      "sourceId": "401822882116717223",
+      "id": 43194815,
+      "sourceId": "401822882116717091",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -30400,17 +30400,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 73,
-      "homeWinProbability": 0.311,
+      "homeWinProbability": 0.219,
       "period": 2,
       "clock": "1:04",
       "secondsRemaining": 64,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T19:30:46.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-03T19:30:21.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -30422,7 +30422,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30495,8 +30495,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194815,
-      "sourceId": "401822882116717091",
+      "id": 43194819,
+      "sourceId": "401822882116717223",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -30507,17 +30507,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 73,
-      "homeWinProbability": 0.219,
+      "homeWinProbability": 0.311,
       "period": 2,
       "clock": "1:04",
       "secondsRemaining": 64,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T19:30:21.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-01-03T19:30:46.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -30529,7 +30529,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32009,8 +32009,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43562851,
-      "sourceId": "401822888116893911",
+      "id": 43562854,
+      "sourceId": "401822888116893925",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -32022,16 +32022,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 38,
-      "homeWinProbability": 0.692,
+      "awayScore": 39,
+      "homeWinProbability": 0.657,
       "period": 1,
       "clock": "1:31",
       "secondsRemaining": 91,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T00:49:40.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-01-07T00:49:58.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -32043,7 +32043,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32116,8 +32116,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43562854,
-      "sourceId": "401822888116893925",
+      "id": 43562851,
+      "sourceId": "401822888116893911",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -32129,16 +32129,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 39,
-      "homeWinProbability": 0.657,
+      "awayScore": 38,
+      "homeWinProbability": 0.692,
       "period": 1,
       "clock": "1:31",
       "secondsRemaining": 91,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T00:49:58.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-07T00:49:40.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -32150,7 +32150,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32548,8 +32548,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43563169,
-      "sourceId": "401822888116898969",
+      "id": 43563170,
+      "sourceId": "401822888116899010",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -32561,16 +32561,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 69,
-      "homeWinProbability": 0.07,
+      "awayScore": 70,
+      "homeWinProbability": 0.034,
       "period": 2,
       "clock": "6:39",
       "secondsRemaining": 399,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:47:32.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-07T01:47:48.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -32655,8 +32655,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43563170,
-      "sourceId": "401822888116899010",
+      "id": 43563169,
+      "sourceId": "401822888116898969",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -32668,16 +32668,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 70,
-      "homeWinProbability": 0.034,
+      "awayScore": 69,
+      "homeWinProbability": 0.07,
       "period": 2,
       "clock": "6:39",
       "secondsRemaining": 399,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:47:48.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-07T01:47:32.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -33087,8 +33087,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43861954,
-      "sourceId": "401822892117098337",
+      "id": 43861951,
+      "sourceId": "401822892117098025",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -33100,16 +33100,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 22,
-      "homeWinProbability": 0.641,
+      "awayScore": 21,
+      "homeWinProbability": 0.703,
       "period": 1,
       "clock": "9:29",
       "secondsRemaining": 569,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:21:27.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-10T19:21:03.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -33194,8 +33194,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43861951,
-      "sourceId": "401822892117098025",
+      "id": 43861954,
+      "sourceId": "401822892117098337",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -33207,16 +33207,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 21,
-      "homeWinProbability": 0.703,
+      "awayScore": 22,
+      "homeWinProbability": 0.641,
       "period": 1,
       "clock": "9:29",
       "secondsRemaining": 569,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:21:03.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-10T19:21:27.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -34724,8 +34724,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43862240,
-      "sourceId": "401822892117144080",
+      "id": 43862236,
+      "sourceId": "401822892117143961",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -34737,16 +34737,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 62,
-      "awayScore": 85,
+      "awayScore": 84,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:00",
       "secondsRemaining": 180,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:48:47.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-10T20:48:29.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -34758,7 +34758,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34831,8 +34831,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43862236,
-      "sourceId": "401822892117143961",
+      "id": 43862240,
+      "sourceId": "401822892117144080",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -34844,16 +34844,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 62,
-      "awayScore": 84,
+      "awayScore": 85,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:00",
       "secondsRemaining": 180,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:48:29.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-01-10T20:48:47.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -34865,7 +34865,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35485,8 +35485,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44219057,
-      "sourceId": "401822897117266890",
+      "id": 44219062,
+      "sourceId": "401822897117266895",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -35497,17 +35497,17 @@
       "opponent": "Marquette",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 14,
       "awayScore": 4,
-      "homeWinProbability": 0.874,
+      "homeWinProbability": 0.902,
       "period": 1,
       "clock": "17:02",
       "secondsRemaining": 1022,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-13T23:39:27.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-13T23:39:51.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -35592,8 +35592,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44219062,
-      "sourceId": "401822897117266895",
+      "id": 44219057,
+      "sourceId": "401822897117266890",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -35604,17 +35604,17 @@
       "opponent": "Marquette",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 13,
       "awayScore": 4,
-      "homeWinProbability": 0.902,
+      "homeWinProbability": 0.874,
       "period": 1,
       "clock": "17:02",
       "secondsRemaining": 1022,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-13T23:39:51.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-13T23:39:27.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -38509,6 +38509,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 44694950,
+      "sourceId": "401822905117570725",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": null,
+      "opponentId": 338,
+      "opponent": "Villanova",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 66,
+      "homeWinProbability": 0.09,
+      "period": 2,
+      "clock": "10:16",
+      "secondsRemaining": 616,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-18T02:36:35.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 7212,
+          "name": "Devin Askew",
+          "team": "Villanova"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 5362,
+          "name": "Matt Hodge",
+          "team": "Villanova"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 2570,
+          "name": "Bryce Lindsay",
+          "team": "Villanova"
+        },
+        {
+          "id": 3295,
+          "name": "Malachi Palmer",
+          "team": "Villanova"
+        },
+        {
+          "id": 5355,
+          "name": "Tyler Perkins",
+          "team": "Villanova"
+        }
+      ]
+    },
+    {
+      "gameId": 214521,
+      "gameSourceId": "401822905",
+      "gameStartDate": "2026-01-18T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 44694944,
       "sourceId": "401822905117570706",
       "playType": "LayUpShot",
@@ -38620,115 +38727,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44694950,
-      "sourceId": "401822905117570725",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": null,
-      "opponentId": 338,
-      "opponent": "Villanova",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 53,
-      "awayScore": 66,
-      "homeWinProbability": 0.09,
-      "period": 2,
-      "clock": "10:16",
-      "secondsRemaining": 616,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-18T02:36:35.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 1",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 243,
-          "name": "Ian Jackson",
-          "team": "St. John's"
-        },
-        {
-          "id": 7212,
-          "name": "Devin Askew",
-          "team": "Villanova"
-        },
-        {
-          "id": 3147,
-          "name": "Bryce Hopkins",
-          "team": "St. John's"
-        },
-        {
-          "id": 5362,
-          "name": "Matt Hodge",
-          "team": "Villanova"
-        },
-        {
-          "id": 465,
-          "name": "Dillon Mitchell",
-          "team": "St. John's"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        },
-        {
-          "id": 2570,
-          "name": "Bryce Lindsay",
-          "team": "Villanova"
-        },
-        {
-          "id": 3295,
-          "name": "Malachi Palmer",
-          "team": "Villanova"
-        },
-        {
-          "id": 5355,
-          "name": "Tyler Perkins",
-          "team": "Villanova"
-        }
-      ]
-    },
-    {
-      "gameId": 214521,
-      "gameSourceId": "401822905",
-      "gameStartDate": "2026-01-18T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 44695073,
-      "sourceId": "401822905117570943",
+      "id": 44695068,
+      "sourceId": "401822905117570927",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -38748,8 +38748,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T02:39:01.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-01-18T02:38:47.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -38834,8 +38834,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44695068,
-      "sourceId": "401822905117570927",
+      "id": 44695073,
+      "sourceId": "401822905117570943",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -38855,8 +38855,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T02:38:47.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-01-18T02:39:01.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -42302,8 +42302,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45221831,
-      "sourceId": "401822914117861399",
+      "id": 45221832,
+      "sourceId": "401822914117861476",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -42315,16 +42315,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 34,
-      "homeWinProbability": 0.96,
+      "awayScore": 35,
+      "homeWinProbability": 0.942,
       "period": 1,
       "clock": "1:54",
       "secondsRemaining": 114,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:13:44.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-24T19:14:00.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -42409,8 +42409,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45221832,
-      "sourceId": "401822914117861476",
+      "id": 45221831,
+      "sourceId": "401822914117861399",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -42422,16 +42422,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 35,
-      "homeWinProbability": 0.942,
+      "awayScore": 34,
+      "homeWinProbability": 0.96,
       "period": 1,
       "clock": "1:54",
       "secondsRemaining": 114,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:14:00.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-24T19:13:44.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -43380,8 +43380,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45221941,
-      "sourceId": "401822914117878192",
+      "id": 45221944,
+      "sourceId": "401822914117878251",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -43398,11 +43398,11 @@
       "period": 2,
       "clock": "13:07",
       "secondsRemaining": 787,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:55:16.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-24T19:55:36.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -43414,7 +43414,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -43487,8 +43487,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45221944,
-      "sourceId": "401822914117878251",
+      "id": 45221941,
+      "sourceId": "401822914117878192",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -43505,11 +43505,11 @@
       "period": 2,
       "clock": "13:07",
       "secondsRemaining": 787,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:55:36.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-01-24T19:55:16.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -43521,7 +43521,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -43923,8 +43923,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45222053,
-      "sourceId": "401822914117885752",
+      "id": 45222050,
+      "sourceId": "401822914117885691",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -43941,11 +43941,11 @@
       "period": 2,
       "clock": "4:43",
       "secondsRemaining": 283,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T20:18:35.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-01-24T20:18:17.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -43957,7 +43957,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44030,8 +44030,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45222050,
-      "sourceId": "401822914117885691",
+      "id": 45222053,
+      "sourceId": "401822914117885752",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -44048,11 +44048,11 @@
       "period": 2,
       "clock": "4:43",
       "secondsRemaining": 283,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T20:18:17.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-24T20:18:35.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -44064,7 +44064,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45778,8 +45778,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45562195,
-      "sourceId": "401822919118039846",
+      "id": 45562194,
+      "sourceId": "401822919118039773",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -45790,7 +45790,7 @@
       "opponent": "Butler",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 60,
       "homeWinProbability": 1,
       "period": 2,
@@ -45799,8 +45799,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T01:48:43.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-01-29T01:48:26.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -45885,8 +45885,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45562194,
-      "sourceId": "401822919118039773",
+      "id": 45562195,
+      "sourceId": "401822919118039846",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -45897,7 +45897,7 @@
       "opponent": "Butler",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 60,
       "homeWinProbability": 1,
       "period": 2,
@@ -45906,8 +45906,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T01:48:26.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-01-29T01:48:43.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -48802,8 +48802,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46428138,
-      "sourceId": "401822932118514955",
+      "id": 46428135,
+      "sourceId": "401822932118514942",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -48814,17 +48814,17 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 13,
       "awayScore": 16,
-      "homeWinProbability": 0.576,
+      "homeWinProbability": 0.52,
       "period": 1,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T01:23:15.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-02-07T01:22:55.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -48909,8 +48909,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46428135,
-      "sourceId": "401822932118514942",
+      "id": 46428138,
+      "sourceId": "401822932118514955",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -48921,17 +48921,17 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 14,
       "awayScore": 16,
-      "homeWinProbability": 0.52,
+      "homeWinProbability": 0.576,
       "period": 1,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T01:22:55.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-02-07T01:23:15.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -50538,8 +50538,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46428728,
-      "sourceId": "401822932118518239",
+      "id": 46428732,
+      "sourceId": "401822932118518245",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -50550,17 +50550,17 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 65,
-      "homeWinProbability": 0.622,
+      "homeWinProbability": 0.795,
       "period": 2,
       "clock": "4:26",
       "secondsRemaining": 266,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T02:58:11.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-02-07T02:58:29.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -50572,7 +50572,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50645,8 +50645,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46428732,
-      "sourceId": "401822932118518245",
+      "id": 46428728,
+      "sourceId": "401822932118518239",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -50657,17 +50657,17 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 65,
-      "homeWinProbability": 0.795,
+      "homeWinProbability": 0.622,
       "period": 2,
       "clock": "4:26",
       "secondsRemaining": 266,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T02:58:29.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-02-07T02:58:11.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -50679,7 +50679,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -52052,8 +52052,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46727865,
-      "sourceId": "401822937118701930",
+      "id": 46727861,
+      "sourceId": "401822937118701907",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -52064,17 +52064,17 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
       "clock": "2:09",
       "secondsRemaining": 129,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T00:18:49.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-02-10T00:18:30.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -52086,7 +52086,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -52159,8 +52159,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46727861,
-      "sourceId": "401822937118701907",
+      "id": 46727865,
+      "sourceId": "401822937118701930",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -52171,17 +52171,17 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
       "clock": "2:09",
       "secondsRemaining": 129,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T00:18:30.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-02-10T00:18:49.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -52193,7 +52193,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -52488,113 +52488,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46727897,
-      "sourceId": "401822937118703591",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": null,
-      "opponentId": 359,
-      "opponent": "Xavier",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 44,
-      "awayScore": 42,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "19:04",
-      "secondsRemaining": 1144,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-10T00:40:57.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 3927,
-          "name": "Tre Carroll",
-          "team": "Xavier"
-        },
-        {
-          "id": 465,
-          "name": "Dillon Mitchell",
-          "team": "St. John's"
-        },
-        {
-          "id": 8198,
-          "name": "Anthony Robinson",
-          "team": "Xavier"
-        },
-        {
-          "id": 6518,
-          "name": "Malik Messina-Moore",
-          "team": "Xavier"
-        },
-        {
-          "id": 1082,
-          "name": "All Wright",
-          "team": "Xavier"
-        },
-        {
-          "id": 6433,
-          "name": "Filip Borovicanin",
-          "team": "Xavier"
-        },
-        {
-          "id": 243,
-          "name": "Ian Jackson",
-          "team": "St. John's"
-        },
-        {
-          "id": 3147,
-          "name": "Bryce Hopkins",
-          "team": "St. John's"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        }
-      ]
-    },
-    {
-      "gameId": 214858,
-      "gameSourceId": "401822937",
-      "gameStartDate": "2026-02-09T23:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46727896,
       "sourceId": "401822937118703580",
       "playType": "MadeFreeThrow",
@@ -52702,8 +52595,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46727931,
-      "sourceId": "401822937118704551",
+      "id": 46727897,
+      "sourceId": "401822937118703591",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -52714,7 +52607,114 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 44,
+      "awayScore": 42,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "19:04",
+      "secondsRemaining": 1144,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-10T00:40:57.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 3927,
+          "name": "Tre Carroll",
+          "team": "Xavier"
+        },
+        {
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 8198,
+          "name": "Anthony Robinson",
+          "team": "Xavier"
+        },
+        {
+          "id": 6518,
+          "name": "Malik Messina-Moore",
+          "team": "Xavier"
+        },
+        {
+          "id": 1082,
+          "name": "All Wright",
+          "team": "Xavier"
+        },
+        {
+          "id": 6433,
+          "name": "Filip Borovicanin",
+          "team": "Xavier"
+        },
+        {
+          "id": 243,
+          "name": "Ian Jackson",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        }
+      ]
+    },
+    {
+      "gameId": 214858,
+      "gameSourceId": "401822937",
+      "gameStartDate": "2026-02-09T23:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46727932,
+      "sourceId": "401822937118704603",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": null,
+      "opponentId": 359,
+      "opponent": "Xavier",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 50,
       "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
@@ -52723,8 +52723,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T00:51:10.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-02-10T00:51:26.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -52809,8 +52809,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46727932,
-      "sourceId": "401822937118704603",
+      "id": 46727931,
+      "sourceId": "401822937118704551",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -52821,7 +52821,7 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 48,
       "homeWinProbability": null,
       "period": 2,
@@ -52830,8 +52830,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T00:51:26.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-02-10T00:51:10.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -55849,113 +55849,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47052932,
-      "sourceId": "401822943118929912",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": null,
-      "opponentId": 235,
-      "opponent": "Providence",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 58,
-      "awayScore": 70,
-      "homeWinProbability": 0.02,
-      "period": 2,
-      "clock": "5:00",
-      "secondsRemaining": 300,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-14T20:13:53.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3147,
-          "name": "Bryce Hopkins",
-          "team": "St. John's"
-        },
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 201556,
-          "name": "Stefan Vaaks",
-          "team": "Providence"
-        },
-        {
-          "id": 3144,
-          "name": "Ryan Mela",
-          "team": "Providence"
-        },
-        {
-          "id": 7626,
-          "name": "Dylan Darling",
-          "team": "St. John's"
-        },
-        {
-          "id": 3135,
-          "name": "Oswin Erhunmwunse",
-          "team": "Providence"
-        },
-        {
-          "id": 1213,
-          "name": "Cole Hargrove",
-          "team": "Providence"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        },
-        {
-          "id": 7641,
-          "name": "Joson Sanon",
-          "team": "St. John's"
-        },
-        {
-          "id": 201551,
-          "name": "Jamier Jones",
-          "team": "Providence"
-        }
-      ]
-    },
-    {
-      "gameId": 214928,
-      "gameSourceId": "401822943",
-      "gameStartDate": "2026-02-14T18:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47052930,
       "sourceId": "401822943118929540",
       "playType": "MadeFreeThrow",
@@ -56170,8 +56063,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47052967,
-      "sourceId": "401822943118935114",
+      "id": 47052932,
+      "sourceId": "401822943118929912",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": null,
+      "opponentId": 235,
+      "opponent": "Providence",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 58,
+      "awayScore": 70,
+      "homeWinProbability": 0.02,
+      "period": 2,
+      "clock": "5:00",
+      "secondsRemaining": 300,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-14T20:13:53.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 201556,
+          "name": "Stefan Vaaks",
+          "team": "Providence"
+        },
+        {
+          "id": 3144,
+          "name": "Ryan Mela",
+          "team": "Providence"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 3135,
+          "name": "Oswin Erhunmwunse",
+          "team": "Providence"
+        },
+        {
+          "id": 1213,
+          "name": "Cole Hargrove",
+          "team": "Providence"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 201551,
+          "name": "Jamier Jones",
+          "team": "Providence"
+        }
+      ]
+    },
+    {
+      "gameId": 214928,
+      "gameSourceId": "401822943",
+      "gameStartDate": "2026-02-14T18:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47052970,
+      "sourceId": "401822943118935327",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -56183,16 +56183,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 74,
-      "homeWinProbability": 0.017,
+      "awayScore": 75,
+      "homeWinProbability": 0.008,
       "period": 2,
       "clock": "2:14",
       "secondsRemaining": 134,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T20:23:56.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-02-14T20:24:16.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -56277,8 +56277,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47052970,
-      "sourceId": "401822943118935327",
+      "id": 47052967,
+      "sourceId": "401822943118935114",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -56290,16 +56290,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 75,
-      "homeWinProbability": 0.008,
+      "awayScore": 74,
+      "homeWinProbability": 0.017,
       "period": 2,
       "clock": "2:14",
       "secondsRemaining": 134,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T20:24:16.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-02-14T20:23:56.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -56927,8 +56927,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47480441,
-      "sourceId": "401822949119152076",
+      "id": 47480442,
+      "sourceId": "401822949119152112",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -56945,11 +56945,11 @@
       "period": 1,
       "clock": "1:07",
       "secondsRemaining": 67,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:57:50.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-02-19T02:58:13.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -56961,7 +56961,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -57034,8 +57034,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47480442,
-      "sourceId": "401822949119152112",
+      "id": 47480441,
+      "sourceId": "401822949119152076",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -57052,11 +57052,11 @@
       "period": 1,
       "clock": "1:07",
       "secondsRemaining": 67,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:58:13.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-02-19T02:57:50.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -57068,7 +57068,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -58112,113 +58112,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47480694,
-      "sourceId": "401822949119157610",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": null,
-      "opponentId": 157,
-      "opponent": "Marquette",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 70,
-      "awayScore": 73,
-      "homeWinProbability": 0.079,
-      "period": 2,
-      "clock": "0:21",
-      "secondsRemaining": 21,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-19T04:15:41.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 398,
-          "name": "Ben Gold",
-          "team": "Marquette"
-        },
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 200328,
-          "name": "Adrien Stevens",
-          "team": "Marquette"
-        },
-        {
-          "id": 7641,
-          "name": "Joson Sanon",
-          "team": "St. John's"
-        },
-        {
-          "id": 3147,
-          "name": "Bryce Hopkins",
-          "team": "St. John's"
-        },
-        {
-          "id": 1433,
-          "name": "Lefteris Liotopoulos",
-          "team": "St. John's"
-        },
-        {
-          "id": 411,
-          "name": "Tre Norman",
-          "team": "Marquette"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        },
-        {
-          "id": 414,
-          "name": "Damarius Owens",
-          "team": "Marquette"
-        },
-        {
-          "id": 400,
-          "name": "Chase Ross",
-          "team": "Marquette"
-        }
-      ]
-    },
-    {
-      "gameId": 214993,
-      "gameSourceId": "401822949",
-      "gameStartDate": "2026-02-19T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47480701,
       "sourceId": "401822949119157640",
       "playType": "MadeFreeThrow",
@@ -58319,6 +58212,113 @@
       ]
     },
     {
+      "gameId": 214993,
+      "gameSourceId": "401822949",
+      "gameStartDate": "2026-02-19T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47480694,
+      "sourceId": "401822949119157610",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": null,
+      "opponentId": 157,
+      "opponent": "Marquette",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 73,
+      "homeWinProbability": 0.079,
+      "period": 2,
+      "clock": "0:21",
+      "secondsRemaining": 21,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-19T04:15:41.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 398,
+          "name": "Ben Gold",
+          "team": "Marquette"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 200328,
+          "name": "Adrien Stevens",
+          "team": "Marquette"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 1433,
+          "name": "Lefteris Liotopoulos",
+          "team": "St. John's"
+        },
+        {
+          "id": 411,
+          "name": "Tre Norman",
+          "team": "Marquette"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 414,
+          "name": "Damarius Owens",
+          "team": "Marquette"
+        },
+        {
+          "id": 400,
+          "name": "Chase Ross",
+          "team": "Marquette"
+        }
+      ]
+    },
+    {
       "gameId": 215039,
       "gameSourceId": "401822952",
       "gameStartDate": "2026-02-21T17:00:00.000Z",
@@ -58326,8 +58326,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47691335,
-      "sourceId": "401822952119246438",
+      "id": 47691334,
+      "sourceId": "401822952119246435",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -58338,17 +58338,17 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 2,
+      "homeScore": 1,
       "awayScore": 0,
-      "homeWinProbability": 0.707,
+      "homeWinProbability": 0.71,
       "period": 1,
       "clock": "19:43",
       "secondsRemaining": 1183,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T17:06:46.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-02-21T17:06:31.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -58433,8 +58433,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47691334,
-      "sourceId": "401822952119246435",
+      "id": 47691335,
+      "sourceId": "401822952119246438",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -58445,17 +58445,17 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "homeWinProbability": 0.71,
+      "homeWinProbability": 0.707,
       "period": 1,
       "clock": "19:43",
       "secondsRemaining": 1183,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T17:06:31.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-02-21T17:06:46.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -62131,9 +62131,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48328521,
-      "sourceId": "401822962119750379",
-      "playType": "LayUpShot",
+      "id": 48328523,
+      "sourceId": "401822962119750384",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
       "team": "St. John's",
@@ -62149,11 +62149,11 @@
       "period": 2,
       "clock": "19:00",
       "secondsRemaining": 1140,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-01T02:17:20.000Z",
-      "playText": "Zuby Ejiofor makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-01T02:17:46.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 1",
       "participants": [
         {
           "id": 1424,
@@ -62165,16 +62165,16 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 250
         }
       },
       "onFloor": [
@@ -62238,9 +62238,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48328523,
-      "sourceId": "401822962119750384",
-      "playType": "MadeFreeThrow",
+      "id": 48328521,
+      "sourceId": "401822962119750379",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 279,
       "team": "St. John's",
@@ -62256,11 +62256,11 @@
       "period": 2,
       "clock": "19:00",
       "secondsRemaining": 1140,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-01T02:17:46.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-01T02:17:20.000Z",
+      "playText": "Zuby Ejiofor makes layup",
       "participants": [
         {
           "id": 1424,
@@ -62272,16 +62272,16 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -62559,8 +62559,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48328559,
-      "sourceId": "401822962119751120",
+      "id": 48328557,
+      "sourceId": "401822962119751051",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -62571,17 +62571,17 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 54,
       "awayScore": 31,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:45",
       "secondsRemaining": 945,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:29:23.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-01T02:29:16.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -62593,7 +62593,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -62666,8 +62666,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48328557,
-      "sourceId": "401822962119751051",
+      "id": 48328559,
+      "sourceId": "401822962119751120",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -62678,17 +62678,17 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 55,
       "awayScore": 31,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:45",
       "secondsRemaining": 945,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:29:16.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-03-01T02:29:23.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -62700,7 +62700,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -62991,8 +62991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48328611,
-      "sourceId": "401822962119752067",
+      "id": 48328610,
+      "sourceId": "401822962119752065",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -63003,7 +63003,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 61,
       "awayScore": 41,
       "homeWinProbability": null,
       "period": 2,
@@ -63012,8 +63012,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:43:57.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-01T02:43:43.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -63098,8 +63098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48328610,
-      "sourceId": "401822962119752065",
+      "id": 48328611,
+      "sourceId": "401822962119752067",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -63110,7 +63110,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 62,
       "awayScore": 41,
       "homeWinProbability": null,
       "period": 2,
@@ -63119,8 +63119,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:43:43.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-01T02:43:57.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -66376,8 +66376,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48890138,
-      "sourceId": "401822972119991728",
+      "id": 48890137,
+      "sourceId": "401822972119991707",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -66389,7 +66389,7 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 4,
+      "awayScore": 3,
       "homeWinProbability": null,
       "period": 1,
       "clock": "17:37",
@@ -66397,8 +66397,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T02:14:31.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-07T02:14:14.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -66483,8 +66483,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48890137,
-      "sourceId": "401822972119991707",
+      "id": 48890138,
+      "sourceId": "401822972119991728",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -66496,7 +66496,7 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 3,
+      "awayScore": 4,
       "homeWinProbability": null,
       "period": 1,
       "clock": "17:37",
@@ -66504,8 +66504,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T02:14:14.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-07T02:14:31.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -67894,8 +67894,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48890822,
-      "sourceId": "401822972119997850",
+      "id": 48890828,
+      "sourceId": "401822972119997861",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -67907,7 +67907,7 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 67,
+      "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:27",
@@ -67915,8 +67915,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T04:15:01.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-07T04:15:21.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -68001,8 +68001,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48890828,
-      "sourceId": "401822972119997861",
+      "id": 48890822,
+      "sourceId": "401822972119997850",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -68014,7 +68014,7 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 68,
+      "awayScore": 67,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:27",
@@ -68022,8 +68022,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T04:15:21.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-07T04:15:01.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -69852,8 +69852,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49303510,
-      "sourceId": "401851311120195557",
+      "id": 49303513,
+      "sourceId": "401851311120195564",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -69864,17 +69864,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:31",
       "secondsRemaining": 931,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T17:23:59.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-03-12T17:24:12.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -69886,7 +69886,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -69959,8 +69959,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49303513,
-      "sourceId": "401851311120195564",
+      "id": 49303510,
+      "sourceId": "401851311120195557",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -69971,17 +69971,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:31",
       "secondsRemaining": 931,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T17:24:12.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-12T17:23:59.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -69993,7 +69993,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70498,8 +70498,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49303751,
-      "sourceId": "401851311120196820",
+      "id": 49303738,
+      "sourceId": "401851311120196798",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -70510,7 +70510,7 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -70519,8 +70519,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T17:53:57.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-12T17:53:34.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -70605,8 +70605,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49303738,
-      "sourceId": "401851311120196798",
+      "id": 49303751,
+      "sourceId": "401851311120196820",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -70617,7 +70617,7 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -70626,8 +70626,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T17:53:34.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-12T17:53:57.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -72444,8 +72444,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49391893,
-      "sourceId": "401851315120247065",
+      "id": 49391894,
+      "sourceId": "401851315120247077",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -72456,7 +72456,7 @@
       "opponent": "Seton Hall",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
@@ -72465,8 +72465,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T23:26:48.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-13T23:27:04.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -72551,8 +72551,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49391894,
-      "sourceId": "401851315120247077",
+      "id": 49391893,
+      "sourceId": "401851315120247065",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -72563,7 +72563,7 @@
       "opponent": "Seton Hall",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
@@ -72572,8 +72572,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T23:27:04.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-13T23:26:48.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -75266,8 +75266,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49578585,
-      "sourceId": "401856494120333787",
+      "id": 49578587,
+      "sourceId": "401856494120333789",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -75278,7 +75278,7 @@
       "opponent": "Northern Iowa",
       "opponentConference": "MVC",
       "opponentSeed": 12,
-      "homeScore": 50,
+      "homeScore": 51,
       "awayScore": 36,
       "homeWinProbability": null,
       "period": 2,
@@ -75287,8 +75287,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T00:53:09.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-21T00:53:24.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -75373,8 +75373,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49578587,
-      "sourceId": "401856494120333789",
+      "id": 49578585,
+      "sourceId": "401856494120333787",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -75385,7 +75385,7 @@
       "opponent": "Northern Iowa",
       "opponentConference": "MVC",
       "opponentSeed": 12,
-      "homeScore": 51,
+      "homeScore": 50,
       "awayScore": 36,
       "homeWinProbability": null,
       "period": 2,
@@ -75394,8 +75394,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T00:53:24.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-21T00:53:09.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -75694,8 +75694,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49578728,
-      "sourceId": "401856494120334792",
+      "id": 49578725,
+      "sourceId": "401856494120334753",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -75712,11 +75712,11 @@
       "period": 2,
       "clock": "5:47",
       "secondsRemaining": 347,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T01:22:09.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-03-21T01:21:38.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -75728,7 +75728,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -75801,8 +75801,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49578725,
-      "sourceId": "401856494120334753",
+      "id": 49578728,
+      "sourceId": "401856494120334792",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 279,
@@ -75819,11 +75819,11 @@
       "period": 2,
       "clock": "5:47",
       "secondsRemaining": 347,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T01:21:38.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-21T01:22:09.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -75835,7 +75835,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -77751,8 +77751,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49612841,
-      "sourceId": "401856558120363129",
+      "id": 49612845,
+      "sourceId": "401856558120363141",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -77764,16 +77764,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 4,
       "homeScore": 26,
-      "awayScore": 33,
+      "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:39",
       "secondsRemaining": 39,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T22:18:20.000Z",
-      "playText": "Zuby Ejiofor misses free throw 1 of 2",
+      "wallclock": "2026-03-22T22:18:45.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -77785,7 +77785,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -77858,8 +77858,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49612845,
-      "sourceId": "401856558120363141",
+      "id": 49612841,
+      "sourceId": "401856558120363129",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -77871,16 +77871,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 4,
       "homeScore": 26,
-      "awayScore": 34,
+      "awayScore": 33,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:39",
       "secondsRemaining": 39,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T22:18:45.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-22T22:18:20.000Z",
+      "playText": "Zuby Ejiofor misses free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -77892,7 +77892,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -78183,8 +78183,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49612933,
-      "sourceId": "401856558120364745",
+      "id": 49612932,
+      "sourceId": "401856558120364737",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -78201,11 +78201,11 @@
       "period": 2,
       "clock": "12:05",
       "secondsRemaining": 725,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T23:02:17.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "wallclock": "2026-03-22T23:02:01.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -78217,7 +78217,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -78290,8 +78290,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49612932,
-      "sourceId": "401856558120364737",
+      "id": 49612933,
+      "sourceId": "401856558120364745",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -78308,11 +78308,11 @@
       "period": 2,
       "clock": "12:05",
       "secondsRemaining": 725,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T23:02:01.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-22T23:02:17.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -78324,7 +78324,7 @@
           "id": 1424,
           "name": "Zuby Ejiofor"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -79582,8 +79582,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49649840,
-      "sourceId": "401856570120392978",
+      "id": 49649835,
+      "sourceId": "401856570120392973",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -79595,7 +79595,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 1,
       "homeScore": 13,
-      "awayScore": 16,
+      "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:00",
@@ -79603,8 +79603,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T23:24:19.000Z",
-      "playText": "Zuby Ejiofor makes free throw 2 of 2",
+      "wallclock": "2026-03-27T23:23:54.000Z",
+      "playText": "Zuby Ejiofor makes free throw 1 of 2",
       "participants": [
         {
           "id": 1424,
@@ -79689,8 +79689,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49649835,
-      "sourceId": "401856570120392973",
+      "id": 49649840,
+      "sourceId": "401856570120392978",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 279,
@@ -79702,7 +79702,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 1,
       "homeScore": 13,
-      "awayScore": 15,
+      "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:00",
@@ -79710,8 +79710,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T23:23:54.000Z",
-      "playText": "Zuby Ejiofor makes free throw 1 of 2",
+      "wallclock": "2026-03-27T23:24:19.000Z",
+      "playText": "Zuby Ejiofor makes free throw 2 of 2",
       "participants": [
         {
           "id": 1424,
@@ -81865,113 +81865,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650200,
-      "sourceId": "401856570120395060",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 279,
-      "team": "St. John's",
-      "conference": "Big East",
-      "teamSeed": 5,
-      "opponentId": 72,
-      "opponent": "Duke",
-      "opponentConference": "ACC",
-      "opponentSeed": 1,
-      "homeScore": 77,
-      "awayScore": 75,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "0:14",
-      "secondsRemaining": 14,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-28T01:18:44.000Z",
-      "playText": "Zuby Ejiofor misses free throw 2 of 2",
-      "participants": [
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 1424,
-          "name": "Zuby Ejiofor"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 1429,
-          "name": "Ruben Prey",
-          "team": "St. John's"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 7626,
-          "name": "Dylan Darling",
-          "team": "St. John's"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 3147,
-          "name": "Bryce Hopkins",
-          "team": "St. John's"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 372589,
-      "gameSourceId": "401856570",
-      "gameStartDate": "2026-03-27T23:10:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49650195,
       "sourceId": "401856570120395031",
       "playType": "MadeFreeThrow",
@@ -82070,6 +81963,892 @@
           "team": "Duke"
         }
       ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650200,
+      "sourceId": "401856570120395060",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 279,
+      "team": "St. John's",
+      "conference": "Big East",
+      "teamSeed": 5,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": 1,
+      "homeScore": 77,
+      "awayScore": 75,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:14",
+      "secondsRemaining": 14,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-28T01:18:44.000Z",
+      "playText": "Zuby Ejiofor misses free throw 2 of 2",
+      "participants": [
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 1424,
+          "name": "Zuby Ejiofor"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3147,
+          "name": "Bryce Hopkins",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        }
+      ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-03",
+      "opponent": "Quinnipiac",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 17,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 3,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Alabama",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 27,
+      "rebounds": 10,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 2,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 9,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 7,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "William & Mary",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 11,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-21",
+      "opponent": "Bucknell",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 22,
+      "points": 5,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 2,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 1,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-24",
+      "opponent": "Iowa State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 16,
+      "rebounds": 9,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2025-11-25",
+      "opponent": "Baylor",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 9,
+      "rebounds": 6,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 1,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "Auburn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 24,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 11,
+      "ftAttempted": 13,
+      "starter": true
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 15,
+      "rebounds": 9,
+      "assists": 0,
+      "steals": 3,
+      "blocks": 8,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 9,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "Iona",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 6,
+      "rebounds": 10,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 8,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-17",
+      "opponent": "DePaul",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 9,
+      "rebounds": 7,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 4,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Kentucky",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 12,
+      "rebounds": 5,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 4,
+      "fouls": 4,
+      "fgMade": 3,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 5,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2025-12-23",
+      "opponent": "Harvard",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 14,
+      "rebounds": 9,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-01-01",
+      "opponent": "Georgetown",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 25,
+      "rebounds": 10,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 9,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 10,
+      "ftAttempted": 13,
+      "starter": true
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Providence",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 33,
+      "rebounds": 15,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 3,
+      "turnovers": 7,
+      "fouls": 4,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 14,
+      "ftAttempted": 23,
+      "starter": true
+    },
+    {
+      "date": "2026-01-07",
+      "opponent": "Butler",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 18,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Creighton",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 12,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-01-13",
+      "opponent": "Marquette",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 22,
+      "rebounds": 7,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-01-18",
+      "opponent": "Villanova",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 17,
+      "rebounds": 7,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "Seton Hall",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 9,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 4,
+      "fgMade": 3,
+      "fgAttempted": 7,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-24",
+      "opponent": "Xavier",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 13,
+      "rebounds": 11,
+      "assists": 4,
+      "steals": 3,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 5,
+      "fgMade": 4,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 5,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-01-29",
+      "opponent": "Butler",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 15,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 0,
+      "blocks": 3,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-04",
+      "opponent": "DePaul",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 16,
+      "rebounds": 9,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 5,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "UConn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 21,
+      "rebounds": 10,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 3,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 1,
+      "ftMade": 8,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-02-09",
+      "opponent": "Xavier",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 25,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 9,
+      "ftAttempted": 13,
+      "starter": true
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Providence",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 14,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 6,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "Marquette",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 10,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 3,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 3,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "Creighton",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 15,
+      "rebounds": 3,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 7,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-02-26",
+      "opponent": "UConn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 23,
+      "points": 6,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 1,
+      "threeAttempted": 1,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "Villanova",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 16,
+      "rebounds": 12,
+      "assists": 10,
+      "steals": 1,
+      "blocks": 3,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 1,
+      "ftMade": 3,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2026-03-04",
+      "opponent": "Georgetown",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 23,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 10,
+      "fgAttempted": 13,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Seton Hall",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 21,
+      "rebounds": 2,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 3,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 8,
+      "fgAttempted": 12,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-12",
+      "opponent": "Providence",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 23,
+      "points": 21,
+      "rebounds": 10,
+      "assists": 5,
+      "steals": 0,
+      "blocks": 3,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 9,
+      "fgAttempted": 14,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "Seton Hall",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 20,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 14,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "UConn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 18,
+      "rebounds": 9,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 7,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 11,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "Northern Iowa",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 28,
+      "points": 14,
+      "rebounds": 11,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 4,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-22",
+      "opponent": "Kansas",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 34,
+      "points": 18,
+      "rebounds": 9,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 14,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Duke",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 39,
+      "points": 17,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 17,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
     }
   ],
   "topLineups": [

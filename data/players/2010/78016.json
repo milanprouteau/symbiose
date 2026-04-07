@@ -1,0 +1,7665 @@
+{
+  "id": 78016,
+  "name": "Paul George",
+  "team": "Fresno State",
+  "draftMeta": {
+    "overall": 10,
+    "round": 1,
+    "pick": 10,
+    "draftTeam": "Indiana Pacers",
+    "draftYear": 2010
+  },
+  "playerStats": {
+    "season": 2010,
+    "seasonLabel": "20092010",
+    "teamId": 92,
+    "team": "Fresno State",
+    "conference": "WAC",
+    "athleteId": 78016,
+    "athleteSourceId": "41772",
+    "name": "Paul George",
+    "position": "G-F",
+    "games": 29,
+    "starts": 8,
+    "minutes": 962,
+    "points": 487,
+    "turnovers": 94,
+    "fouls": 84,
+    "assists": 88,
+    "steals": 64,
+    "blocks": 24,
+    "offensiveRating": 107.3,
+    "defensiveRating": 252.6,
+    "netRating": -145.3,
+    "PORPAG": 2.9,
+    "usage": 27.9,
+    "assistsTurnoverRatio": 0.94,
+    "offensiveReboundPct": 26.2,
+    "freeThrowRate": 36.4,
+    "effectiveFieldGoalPct": 50.6,
+    "trueShootingPct": 0.578,
+    "fieldGoals": {
+      "made": 154,
+      "attempted": 363,
+      "pct": 42.4
+    },
+    "twoPointFieldGoals": {
+      "made": 95,
+      "attempted": 196,
+      "pct": 48.5
+    },
+    "threePointFieldGoals": {
+      "made": 59,
+      "attempted": 167,
+      "pct": 35.3
+    },
+    "freeThrows": {
+      "made": 120,
+      "attempted": 132,
+      "pct": 90.9
+    },
+    "rebounds": {
+      "offensive": 55,
+      "defensive": 155,
+      "total": 210
+    },
+    "winShares": {
+      "offensive": 7.9,
+      "defensive": -12.1,
+      "total": -4.2,
+      "totalPer40": -0.175
+    }
+  },
+  "shootingStats": {
+    "season": 2010,
+    "teamId": 92,
+    "team": "Fresno State",
+    "conference": "WAC",
+    "athleteId": 78016,
+    "athleteName": "Paul George",
+    "trackedShots": 41,
+    "freeThrowRate": 0,
+    "assistedPct": 29.3,
+    "dunks": {
+      "attempted": 1,
+      "made": 1,
+      "pct": 100,
+      "assisted": 0,
+      "assistedPct": 0
+    },
+    "layups": {
+      "attempted": 27,
+      "made": 18,
+      "pct": 66.7,
+      "assisted": 5,
+      "assistedPct": 27.8
+    },
+    "tipIns": {
+      "attempted": 0,
+      "made": 0,
+      "pct": 0
+    },
+    "twoPointJumpers": {
+      "attempted": 7,
+      "made": 7,
+      "pct": 100,
+      "assisted": 2,
+      "assistedPct": 28.6
+    },
+    "threePointJumpers": {
+      "attempted": 6,
+      "made": 6,
+      "pct": 100,
+      "assisted": 5,
+      "assistedPct": 83.3
+    },
+    "freeThrows": {
+      "attempted": 0,
+      "made": 0,
+      "pct": 0
+    },
+    "attemptsBreakdown": {
+      "dunks": 2.4,
+      "layups": 65.9,
+      "tipIns": 0,
+      "twoPointJumpers": 17.1,
+      "threePointJumpers": 14.6
+    }
+  },
+  "teamStats": {
+    "season": 2010,
+    "seasonLabel": "20092010",
+    "teamId": 92,
+    "team": "Fresno State",
+    "conference": "WAC",
+    "games": 33,
+    "wins": 15,
+    "losses": 18,
+    "totalMinutes": 1320,
+    "pace": 18.7,
+    "teamStats": {
+      "assists": 466,
+      "blocks": 143,
+      "steals": 261,
+      "possessions": 617,
+      "trueShooting": 52.8,
+      "rating": 354.6,
+      "fieldGoals": {
+        "made": 750,
+        "attempted": 1763,
+        "pct": 42.5
+      },
+      "twoPointFieldGoals": {
+        "made": 535,
+        "attempted": 1088,
+        "pct": 49.2
+      },
+      "threePointFieldGoals": {
+        "made": 215,
+        "attempted": 675,
+        "pct": 31.9
+      },
+      "freeThrows": {
+        "made": 473,
+        "attempted": 698,
+        "pct": 67.8
+      },
+      "rebounds": {
+        "offensive": 343,
+        "defensive": 761,
+        "total": 1104
+      },
+      "turnovers": {
+        "total": 462,
+        "teamTotal": 6
+      },
+      "fouls": {
+        "total": 554,
+        "technical": 4,
+        "flagrant": 0
+      },
+      "points": {
+        "total": 2188,
+        "inPaint": 0,
+        "offTurnovers": 0,
+        "fastBreak": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 48.6,
+        "turnoverRatio": 0.75,
+        "offensiveReboundPct": 31.1,
+        "freeThrowRate": 39.6
+      }
+    },
+    "opponentStats": {
+      "assists": 451,
+      "blocks": 110,
+      "steals": 219,
+      "possessions": 617,
+      "trueShooting": 53,
+      "rating": 357.7,
+      "fieldGoals": {
+        "made": 771,
+        "attempted": 1809,
+        "pct": 42.6
+      },
+      "twoPointFieldGoals": {
+        "made": 524,
+        "attempted": 1146,
+        "pct": 45.7
+      },
+      "threePointFieldGoals": {
+        "made": 247,
+        "attempted": 663,
+        "pct": 37.3
+      },
+      "freeThrows": {
+        "made": 418,
+        "attempted": 618,
+        "pct": 67.6
+      },
+      "rebounds": {
+        "offensive": 370,
+        "defensive": 786,
+        "total": 1156
+      },
+      "turnovers": {
+        "total": 467,
+        "teamTotal": 11
+      },
+      "fouls": {
+        "total": 598,
+        "technical": 4,
+        "flagrant": 0
+      },
+      "points": {
+        "total": 2207,
+        "inPaint": 0,
+        "offTurnovers": 0,
+        "fastBreak": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 49.4,
+        "turnoverRatio": 0.76,
+        "offensiveReboundPct": 32,
+        "freeThrowRate": 34.2
+      }
+    }
+  },
+  "profile": {
+    "jersey": "24 ",
+    "position": "Guard/Forward",
+    "height": 80,
+    "weight": 220,
+    "hometown": {
+      "city": "Palmdale",
+      "state": "CA"
+    },
+    "dateOfBirth": "1990-05-02"
+  },
+  "shots": [
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028003,
+      "sourceId": "2932425470001",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 3,
+      "homeWinProbability": 0.531,
+      "period": 1,
+      "clock": "19:41",
+      "secondsRemaining": 1181,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Paul George made Three Point Jumper.  Assisted by Brandon Sperling.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 78017,
+          "name": "Brandon Sperling"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78017,
+          "name": "Brandon Sperling"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028055,
+      "sourceId": "2932425470053",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 7,
+      "awayScore": 7,
+      "homeWinProbability": 0.626,
+      "period": 1,
+      "clock": "14:26",
+      "secondsRemaining": 866,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028094,
+      "sourceId": "2932425470092",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 12,
+      "homeWinProbability": 0.569,
+      "period": 1,
+      "clock": "10:32",
+      "secondsRemaining": 632,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028115,
+      "sourceId": "2932425470113",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 18,
+      "awayScore": 16,
+      "homeWinProbability": 0.67,
+      "period": 1,
+      "clock": "8:08",
+      "secondsRemaining": 488,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028136,
+      "sourceId": "2932425470134",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 25,
+      "awayScore": 20,
+      "homeWinProbability": 0.796,
+      "period": 1,
+      "clock": "5:52",
+      "secondsRemaining": 352,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.  Assisted by Mychal Ladd.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 73741,
+          "name": "Mike Ladd"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 73741,
+          "name": "Mike Ladd"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028157,
+      "sourceId": "2932425470155",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 30,
+      "awayScore": 24,
+      "homeWinProbability": 0.801,
+      "period": 1,
+      "clock": "3:03",
+      "secondsRemaining": 183,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028160,
+      "sourceId": "2932425470158",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 25,
+      "homeWinProbability": 0.846,
+      "period": 1,
+      "clock": "2:24",
+      "secondsRemaining": 144,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028161,
+      "sourceId": "2932425470159",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 26,
+      "homeWinProbability": 0.821,
+      "period": 1,
+      "clock": "2:24",
+      "secondsRemaining": 144,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028171,
+      "sourceId": "2932425470169",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 37,
+      "awayScore": 28,
+      "homeWinProbability": 0.87,
+      "period": 1,
+      "clock": "1:11",
+      "secondsRemaining": 71,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028184,
+      "sourceId": "2932425470182",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 34,
+      "homeWinProbability": 0.897,
+      "period": 2,
+      "clock": "18:34",
+      "secondsRemaining": 1114,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028185,
+      "sourceId": "2932425470183",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 35,
+      "homeWinProbability": 0.845,
+      "period": 2,
+      "clock": "18:34",
+      "secondsRemaining": 1114,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028193,
+      "sourceId": "2932425470191",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 37,
+      "homeWinProbability": 0.881,
+      "period": 2,
+      "clock": "17:37",
+      "secondsRemaining": 1057,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028195,
+      "sourceId": "2932425470193",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 37,
+      "homeWinProbability": 0.887,
+      "period": 2,
+      "clock": "17:08",
+      "secondsRemaining": 1028,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028211,
+      "sourceId": "2932425470209",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 45,
+      "homeWinProbability": 0.89,
+      "period": 2,
+      "clock": "15:09",
+      "secondsRemaining": 909,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.  Assisted by Greg Smith.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 75647,
+          "name": "Greg Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 75647,
+          "name": "Greg Smith"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028219,
+      "sourceId": "2932425470217",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 47,
+      "homeWinProbability": 0.848,
+      "period": 2,
+      "clock": "14:38",
+      "secondsRemaining": 878,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028224,
+      "sourceId": "2932425470222",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 50,
+      "homeWinProbability": 0.86,
+      "period": 2,
+      "clock": "13:49",
+      "secondsRemaining": 829,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Paul George made Three Point Jumper.  Assisted by Steven Shepp.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 72860,
+          "name": "Steven Shepp"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 72860,
+          "name": "Steven Shepp"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028298,
+      "sourceId": "2932425470296",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 70,
+      "homeWinProbability": 0.403,
+      "period": 2,
+      "clock": "6:32",
+      "secondsRemaining": 392,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028299,
+      "sourceId": "2932425470297",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 71,
+      "homeWinProbability": 0.391,
+      "period": 2,
+      "clock": "6:32",
+      "secondsRemaining": 392,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 89732,
+      "gameSourceId": "293242547",
+      "gameStartDate": "2009-11-20T03:10:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25028302,
+      "sourceId": "2932425470300",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 262,
+      "opponent": "Seattle U",
+      "opponentConference": "Indep.",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 71,
+      "homeWinProbability": 0.355,
+      "period": 2,
+      "clock": "6:10",
+      "secondsRemaining": 370,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372652,
+      "sourceId": "2935802040005",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "homeWinProbability": 0.565,
+      "period": 1,
+      "clock": "19:04",
+      "secondsRemaining": 1144,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Greg Smith made Two Point Layup.  Assisted by Paul George.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 75647,
+          "name": "Greg Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 75647,
+          "name": "Greg Smith"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372664,
+      "sourceId": "2935802040017",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 4,
+      "homeWinProbability": 0.554,
+      "period": 1,
+      "clock": "18:06",
+      "secondsRemaining": 1086,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372674,
+      "sourceId": "2935802040027",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 4,
+      "homeWinProbability": 0.752,
+      "period": 1,
+      "clock": "16:18",
+      "secondsRemaining": 978,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372678,
+      "sourceId": "2935802040031",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 7,
+      "homeWinProbability": 0.746,
+      "period": 1,
+      "clock": "15:45",
+      "secondsRemaining": 945,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Paul George made Three Point Jumper.  Assisted by Steven Shepp.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 72860,
+          "name": "Steven Shepp"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 72860,
+          "name": "Steven Shepp"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372695,
+      "sourceId": "2935802040048",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 13,
+      "awayScore": 10,
+      "homeWinProbability": 0.72,
+      "period": 1,
+      "clock": "13:59",
+      "secondsRemaining": 839,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372735,
+      "sourceId": "2935802040088",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 23,
+      "awayScore": 16,
+      "homeWinProbability": 0.815,
+      "period": 1,
+      "clock": "9:20",
+      "secondsRemaining": 560,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372750,
+      "sourceId": "2935802040103",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 23,
+      "awayScore": 18,
+      "homeWinProbability": 0.787,
+      "period": 1,
+      "clock": "8:01",
+      "secondsRemaining": 481,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372794,
+      "sourceId": "2935802040147",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 36,
+      "awayScore": 25,
+      "homeWinProbability": 0.932,
+      "period": 1,
+      "clock": "1:42",
+      "secondsRemaining": 102,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Nedeljko Golubovic made Two Point Layup.  Assisted by Paul George.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 75646,
+          "name": "Nedeljko Golubovic"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 75646,
+          "name": "Nedeljko Golubovic"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372801,
+      "sourceId": "2935802040154",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 38,
+      "awayScore": 29,
+      "homeWinProbability": 0.893,
+      "period": 1,
+      "clock": "0:43",
+      "secondsRemaining": 43,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.  Assisted by Brandon Sperling.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 78017,
+          "name": "Brandon Sperling"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78017,
+          "name": "Brandon Sperling"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372841,
+      "sourceId": "2935802040194",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 34,
+      "homeWinProbability": 0.983,
+      "period": 2,
+      "clock": "13:29",
+      "secondsRemaining": 809,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372843,
+      "sourceId": "2935802040196",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 36,
+      "homeWinProbability": 0.978,
+      "period": 2,
+      "clock": "13:19",
+      "secondsRemaining": 799,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372874,
+      "sourceId": "2935802040227",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 45,
+      "homeWinProbability": 0.969,
+      "period": 2,
+      "clock": "9:40",
+      "secondsRemaining": 580,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Sylvester Seay made Two Point Layup.  Assisted by Paul George.",
+      "participants": [
+        {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372888,
+      "sourceId": "2935802040241",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 61,
+      "awayScore": 47,
+      "homeWinProbability": 0.989,
+      "period": 2,
+      "clock": "8:10",
+      "secondsRemaining": 490,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.  Assisted by Sylvester Seay.",
+      "participants": [
+        {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372916,
+      "sourceId": "2935802040269",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 52,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "3:47",
+      "secondsRemaining": 227,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 91357,
+      "gameSourceId": "293580204",
+      "gameStartDate": "2009-12-24T01:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25372928,
+      "sourceId": "2935802040281",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 224,
+      "opponent": "Oregon State",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 72,
+      "awayScore": 63,
+      "homeWinProbability": 0.989,
+      "period": 2,
+      "clock": "1:31",
+      "secondsRemaining": 91,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927268,
+      "sourceId": "3004924400006",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "homeWinProbability": 0.565,
+      "period": 1,
+      "clock": "18:36",
+      "secondsRemaining": 1116,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Sylvester Seay made Two Point Jumper.  Assisted by Paul George.",
+      "participants": [
+        {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927280,
+      "sourceId": "3004924400018",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homeWinProbability": 0.623,
+      "period": 1,
+      "clock": "16:34",
+      "secondsRemaining": 994,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927285,
+      "sourceId": "3004924400023",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 4,
+      "homeWinProbability": 0.555,
+      "period": 1,
+      "clock": "16:31",
+      "secondsRemaining": 991,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927284,
+      "sourceId": "3004924400022",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 3,
+      "homeWinProbability": 0.597,
+      "period": 1,
+      "clock": "16:31",
+      "secondsRemaining": 991,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927294,
+      "sourceId": "3004924400032",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 8,
+      "homeWinProbability": 0.503,
+      "period": 1,
+      "clock": "15:33",
+      "secondsRemaining": 933,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927295,
+      "sourceId": "3004924400033",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 8,
+      "homeWinProbability": 0.503,
+      "period": 1,
+      "clock": "15:33",
+      "secondsRemaining": 933,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927300,
+      "sourceId": "3004924400038",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 7,
+      "awayScore": 8,
+      "homeWinProbability": 0.585,
+      "period": 1,
+      "clock": "14:32",
+      "secondsRemaining": 872,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927312,
+      "sourceId": "3004924400050",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 15,
+      "awayScore": 8,
+      "homeWinProbability": 0.805,
+      "period": 1,
+      "clock": "12:22",
+      "secondsRemaining": 742,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927348,
+      "sourceId": "3004924400086",
+      "playType": "DunkShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 22,
+      "awayScore": 19,
+      "homeWinProbability": 0.696,
+      "period": 1,
+      "clock": "8:03",
+      "secondsRemaining": 483,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Dunk Shot.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927357,
+      "sourceId": "3004924400095",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 24,
+      "awayScore": 21,
+      "homeWinProbability": 0.716,
+      "period": 1,
+      "clock": "7:06",
+      "secondsRemaining": 426,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927360,
+      "sourceId": "3004924400098",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 24,
+      "awayScore": 23,
+      "homeWinProbability": 0.632,
+      "period": 1,
+      "clock": "6:53",
+      "secondsRemaining": 413,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Nedeljko Golubovic made Two Point Jumper.  Assisted by Paul George.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 75646,
+          "name": "Nedeljko Golubovic"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 75646,
+          "name": "Nedeljko Golubovic"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927375,
+      "sourceId": "3004924400113",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 33,
+      "homeWinProbability": 0.413,
+      "period": 1,
+      "clock": "4:38",
+      "secondsRemaining": 278,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927373,
+      "sourceId": "3004924400111",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 32,
+      "homeWinProbability": 0.516,
+      "period": 1,
+      "clock": "4:38",
+      "secondsRemaining": 278,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.  Assisted by Mychal Ladd.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 73741,
+          "name": "Mike Ladd"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 73741,
+          "name": "Mike Ladd"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927389,
+      "sourceId": "3004924400127",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 31,
+      "awayScore": 35,
+      "homeWinProbability": 0.412,
+      "period": 1,
+      "clock": "3:03",
+      "secondsRemaining": 183,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927396,
+      "sourceId": "3004924400134",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 37,
+      "homeWinProbability": 0.477,
+      "period": 1,
+      "clock": "2:40",
+      "secondsRemaining": 160,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927395,
+      "sourceId": "3004924400133",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 36,
+      "homeWinProbability": 0.52,
+      "period": 1,
+      "clock": "2:40",
+      "secondsRemaining": 160,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927403,
+      "sourceId": "3004924400141",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 37,
+      "homeWinProbability": 0.474,
+      "period": 1,
+      "clock": "1:37",
+      "secondsRemaining": 97,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927405,
+      "sourceId": "3004924400143",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 39,
+      "homeWinProbability": 0.343,
+      "period": 1,
+      "clock": "1:34",
+      "secondsRemaining": 94,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927433,
+      "sourceId": "3004924400171",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 46,
+      "homeWinProbability": 0.325,
+      "period": 2,
+      "clock": "18:24",
+      "secondsRemaining": 1104,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927434,
+      "sourceId": "3004924400172",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 47,
+      "homeWinProbability": 0.325,
+      "period": 2,
+      "clock": "18:24",
+      "secondsRemaining": 1104,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927443,
+      "sourceId": "3004924400181",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 49,
+      "homeWinProbability": 0.421,
+      "period": 2,
+      "clock": "16:45",
+      "secondsRemaining": 1005,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927447,
+      "sourceId": "3004924400185",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 49,
+      "homeWinProbability": 0.425,
+      "period": 2,
+      "clock": "16:30",
+      "secondsRemaining": 990,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927457,
+      "sourceId": "3004924400195",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 47,
+      "awayScore": 50,
+      "homeWinProbability": 0.498,
+      "period": 2,
+      "clock": "15:37",
+      "secondsRemaining": 937,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927458,
+      "sourceId": "3004924400196",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 47,
+      "awayScore": 51,
+      "homeWinProbability": 0.401,
+      "period": 2,
+      "clock": "15:37",
+      "secondsRemaining": 937,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927474,
+      "sourceId": "3004924400212",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 49,
+      "awayScore": 56,
+      "homeWinProbability": 0.218,
+      "period": 2,
+      "clock": "13:36",
+      "secondsRemaining": 816,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Paul George made Three Point Jumper.  Assisted by Steven Shepp.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 72860,
+          "name": "Steven Shepp"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 72860,
+          "name": "Steven Shepp"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927481,
+      "sourceId": "3004924400219",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 49,
+      "awayScore": 57,
+      "homeWinProbability": 0.214,
+      "period": 2,
+      "clock": "12:56",
+      "secondsRemaining": 776,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927485,
+      "sourceId": "3004924400223",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 49,
+      "awayScore": 57,
+      "homeWinProbability": 0.214,
+      "period": 2,
+      "clock": "12:36",
+      "secondsRemaining": 756,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927491,
+      "sourceId": "3004924400229",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 58,
+      "homeWinProbability": 0.211,
+      "period": 2,
+      "clock": "12:10",
+      "secondsRemaining": 730,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927492,
+      "sourceId": "3004924400230",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 58,
+      "homeWinProbability": 0.211,
+      "period": 2,
+      "clock": "12:10",
+      "secondsRemaining": 730,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927534,
+      "sourceId": "3004924400272",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 63,
+      "awayScore": 61,
+      "homeWinProbability": 0.679,
+      "period": 2,
+      "clock": "7:25",
+      "secondsRemaining": 445,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927535,
+      "sourceId": "3004924400273",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 63,
+      "awayScore": 62,
+      "homeWinProbability": 0.641,
+      "period": 2,
+      "clock": "7:25",
+      "secondsRemaining": 445,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927541,
+      "sourceId": "3004924400279",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 64,
+      "homeWinProbability": 0.687,
+      "period": 2,
+      "clock": "6:20",
+      "secondsRemaining": 380,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.  Assisted by Mychal Ladd.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 73741,
+          "name": "Mike Ladd"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 73741,
+          "name": "Mike Ladd"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927552,
+      "sourceId": "3004924400290",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 68,
+      "awayScore": 66,
+      "homeWinProbability": 0.758,
+      "period": 2,
+      "clock": "4:16",
+      "secondsRemaining": 256,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927557,
+      "sourceId": "3004924400295",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 66,
+      "homeWinProbability": 0.844,
+      "period": 2,
+      "clock": "3:37",
+      "secondsRemaining": 217,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927565,
+      "sourceId": "3004924400303",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 72,
+      "awayScore": 68,
+      "homeWinProbability": 0.86,
+      "period": 2,
+      "clock": "2:47",
+      "secondsRemaining": 167,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 93918,
+      "gameSourceId": "300492440",
+      "gameStartDate": "2010-02-18T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 25927564,
+      "sourceId": "3004924400302",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 189,
+      "opponent": "Nevada",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 72,
+      "awayScore": 67,
+      "homeWinProbability": 0.886,
+      "period": 2,
+      "clock": "2:47",
+      "secondsRemaining": 167,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94442,
+      "gameSourceId": "300590023",
+      "gameStartDate": "2010-02-28T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26041614,
+      "sourceId": "3005900230073",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 260,
+      "opponent": "San José State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 18,
+      "awayScore": 13,
+      "homeWinProbability": 0.754,
+      "period": 1,
+      "clock": "10:13",
+      "secondsRemaining": 613,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94442,
+      "gameSourceId": "300590023",
+      "gameStartDate": "2010-02-28T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26041689,
+      "sourceId": "3005900230148",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 260,
+      "opponent": "San José State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 28,
+      "awayScore": 16,
+      "homeWinProbability": 0.937,
+      "period": 1,
+      "clock": "1:16",
+      "secondsRemaining": 76,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94442,
+      "gameSourceId": "300590023",
+      "gameStartDate": "2010-02-28T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26041700,
+      "sourceId": "3005900230159",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 260,
+      "opponent": "San José State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 16,
+      "homeWinProbability": 0.974,
+      "period": 1,
+      "clock": "0:08",
+      "secondsRemaining": 8,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94442,
+      "gameSourceId": "300590023",
+      "gameStartDate": "2010-02-28T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26041725,
+      "sourceId": "3005900230184",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 260,
+      "opponent": "San José State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 20,
+      "homeWinProbability": 0.998,
+      "period": 2,
+      "clock": "16:35",
+      "secondsRemaining": 995,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94442,
+      "gameSourceId": "300590023",
+      "gameStartDate": "2010-02-28T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26041730,
+      "sourceId": "3005900230189",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 260,
+      "opponent": "San José State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 20,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "15:33",
+      "secondsRemaining": 933,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94442,
+      "gameSourceId": "300590023",
+      "gameStartDate": "2010-02-28T03:00:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26041763,
+      "sourceId": "3005900230222",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 260,
+      "opponent": "San José State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 54,
+      "awayScore": 29,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "10:14",
+      "secondsRemaining": 614,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26050904,
+      "sourceId": "3006003280017",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 6,
+      "awayScore": 0,
+      "homeWinProbability": 0.79,
+      "period": 1,
+      "clock": "16:25",
+      "secondsRemaining": 985,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26050920,
+      "sourceId": "3006003280033",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 0,
+      "homeWinProbability": 0.933,
+      "period": 1,
+      "clock": "14:10",
+      "secondsRemaining": 850,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26050958,
+      "sourceId": "3006003280071",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 22,
+      "awayScore": 3,
+      "homeWinProbability": 0.992,
+      "period": 1,
+      "clock": "8:49",
+      "secondsRemaining": 529,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26050990,
+      "sourceId": "3006003280103",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 31,
+      "awayScore": 8,
+      "homeWinProbability": 0.986,
+      "period": 1,
+      "clock": "4:21",
+      "secondsRemaining": 261,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051002,
+      "sourceId": "3006003280115",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 31,
+      "awayScore": 10,
+      "homeWinProbability": 0.975,
+      "period": 1,
+      "clock": "3:32",
+      "secondsRemaining": 212,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051028,
+      "sourceId": "3006003280141",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 40,
+      "awayScore": 16,
+      "homeWinProbability": 0.995,
+      "period": 2,
+      "clock": "19:27",
+      "secondsRemaining": 1167,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.  Assisted by Sylvester Seay.",
+      "participants": [
+        {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78015,
+          "name": "Sylvester Seay"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051053,
+      "sourceId": "3006003280166",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 50,
+      "awayScore": 19,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "15:31",
+      "secondsRemaining": 931,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051073,
+      "sourceId": "3006003280186",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 58,
+      "awayScore": 19,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "12:02",
+      "secondsRemaining": 722,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051096,
+      "sourceId": "3006003280209",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 20,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "9:32",
+      "secondsRemaining": 572,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051097,
+      "sourceId": "3006003280210",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 21,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "9:32",
+      "secondsRemaining": 572,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051105,
+      "sourceId": "3006003280218",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 24,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "8:46",
+      "secondsRemaining": 526,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051107,
+      "sourceId": "3006003280220",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 25,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "8:46",
+      "secondsRemaining": 526,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051110,
+      "sourceId": "3006003280223",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 25,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "8:19",
+      "secondsRemaining": 499,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051128,
+      "sourceId": "3006003280241",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 29,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "5:45",
+      "secondsRemaining": 345,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051143,
+      "sourceId": "3006003280256",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 68,
+      "awayScore": 34,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "4:21",
+      "secondsRemaining": 261,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Paul George made Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94483,
+      "gameSourceId": "300600328",
+      "gameStartDate": "2010-03-02T02:05:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 26051150,
+      "sourceId": "3006003280263",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 329,
+      "opponent": "Utah State",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 34,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "3:12",
+      "secondsRemaining": 192,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139905,
+      "sourceId": "3007023480006",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "homeWinProbability": 0.669,
+      "period": 1,
+      "clock": "19:29",
+      "secondsRemaining": 1169,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139907,
+      "sourceId": "3007023480008",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 5,
+      "awayScore": 2,
+      "homeWinProbability": 0.724,
+      "period": 1,
+      "clock": "18:54",
+      "secondsRemaining": 1134,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139936,
+      "sourceId": "3007023480037",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 12,
+      "awayScore": 4,
+      "homeWinProbability": 0.836,
+      "period": 1,
+      "clock": "15:27",
+      "secondsRemaining": 927,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139947,
+      "sourceId": "3007023480048",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 17,
+      "awayScore": 4,
+      "homeWinProbability": 0.932,
+      "period": 1,
+      "clock": "12:59",
+      "secondsRemaining": 779,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139958,
+      "sourceId": "3007023480059",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 17,
+      "awayScore": 8,
+      "homeWinProbability": 0.865,
+      "period": 1,
+      "clock": "12:25",
+      "secondsRemaining": 745,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139974,
+      "sourceId": "3007023480075",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 20,
+      "awayScore": 8,
+      "homeWinProbability": 0.919,
+      "period": 1,
+      "clock": "10:44",
+      "secondsRemaining": 644,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139979,
+      "sourceId": "3007023480080",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 20,
+      "awayScore": 10,
+      "homeWinProbability": 0.89,
+      "period": 1,
+      "clock": "10:14",
+      "secondsRemaining": 614,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139980,
+      "sourceId": "3007023480081",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 20,
+      "awayScore": 11,
+      "homeWinProbability": 0.879,
+      "period": 1,
+      "clock": "10:14",
+      "secondsRemaining": 614,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26139978,
+      "sourceId": "3007023480077",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 20,
+      "awayScore": 9,
+      "homeWinProbability": 0.906,
+      "period": 1,
+      "clock": "10:14",
+      "secondsRemaining": 614,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140012,
+      "sourceId": "3007023480113",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 27,
+      "awayScore": 20,
+      "homeWinProbability": 0.81,
+      "period": 1,
+      "clock": "6:25",
+      "secondsRemaining": 385,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140014,
+      "sourceId": "3007023480115",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 27,
+      "awayScore": 20,
+      "homeWinProbability": 0.81,
+      "period": 1,
+      "clock": "5:47",
+      "secondsRemaining": 347,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140026,
+      "sourceId": "3007023480127",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 22,
+      "homeWinProbability": 0.821,
+      "period": 1,
+      "clock": "4:47",
+      "secondsRemaining": 287,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140028,
+      "sourceId": "3007023480129",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 22,
+      "homeWinProbability": 0.821,
+      "period": 1,
+      "clock": "4:42",
+      "secondsRemaining": 282,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140031,
+      "sourceId": "3007023480132",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 22,
+      "homeWinProbability": 0.821,
+      "period": 1,
+      "clock": "4:41",
+      "secondsRemaining": 281,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140042,
+      "sourceId": "3007023480143",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 29,
+      "homeWinProbability": 0.62,
+      "period": 1,
+      "clock": "3:14",
+      "secondsRemaining": 194,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140057,
+      "sourceId": "3007023480158",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 32,
+      "awayScore": 29,
+      "homeWinProbability": 0.71,
+      "period": 1,
+      "clock": "2:03",
+      "secondsRemaining": 123,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140077,
+      "sourceId": "3007023480178",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 33,
+      "homeWinProbability": 0.661,
+      "period": 1,
+      "clock": "0:29",
+      "secondsRemaining": 29,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140085,
+      "sourceId": "3007023480186",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 38,
+      "awayScore": 35,
+      "homeWinProbability": 0.728,
+      "period": 2,
+      "clock": "18:56",
+      "secondsRemaining": 1136,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140089,
+      "sourceId": "3007023480190",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 38,
+      "awayScore": 35,
+      "homeWinProbability": 0.726,
+      "period": 2,
+      "clock": "18:23",
+      "secondsRemaining": 1103,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140113,
+      "sourceId": "3007023480214",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 40,
+      "homeWinProbability": 0.766,
+      "period": 2,
+      "clock": "15:47",
+      "secondsRemaining": 947,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140110,
+      "sourceId": "3007023480211",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 39,
+      "homeWinProbability": 0.816,
+      "period": 2,
+      "clock": "15:47",
+      "secondsRemaining": 947,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Paul George made Two Point Layup.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140152,
+      "sourceId": "3007023480253",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 49,
+      "homeWinProbability": 0.764,
+      "period": 2,
+      "clock": "9:35",
+      "secondsRemaining": 575,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140161,
+      "sourceId": "3007023480262",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 52,
+      "homeWinProbability": 0.847,
+      "period": 2,
+      "clock": "7:58",
+      "secondsRemaining": 478,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140170,
+      "sourceId": "3007023480271",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 59,
+      "awayScore": 54,
+      "homeWinProbability": 0.817,
+      "period": 2,
+      "clock": "6:38",
+      "secondsRemaining": 398,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Greg Smith made Two Point Layup.  Assisted by Paul George.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 75647,
+          "name": "Greg Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 75647,
+          "name": "Greg Smith"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140187,
+      "sourceId": "3007023480288",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 65,
+      "awayScore": 56,
+      "homeWinProbability": 0.969,
+      "period": 2,
+      "clock": "4:01",
+      "secondsRemaining": 241,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140188,
+      "sourceId": "3007023480289",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 65,
+      "awayScore": 57,
+      "homeWinProbability": 0.957,
+      "period": 2,
+      "clock": "4:01",
+      "secondsRemaining": 241,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Paul George made Free Throw.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140192,
+      "sourceId": "3007023480293",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 65,
+      "awayScore": 57,
+      "homeWinProbability": 0.964,
+      "period": 2,
+      "clock": "3:20",
+      "secondsRemaining": 200,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Paul George missed Two Point Jumper.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 94842,
+      "gameSourceId": "300702348",
+      "gameStartDate": "2010-03-11T22:30:00.000Z",
+      "season": 2010,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 26140212,
+      "sourceId": "3007023480313",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 92,
+      "team": "Fresno State",
+      "conference": "WAC",
+      "teamSeed": null,
+      "opponentId": 149,
+      "opponent": "Louisiana Tech",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 63,
+      "homeWinProbability": 0.889,
+      "period": 2,
+      "clock": "1:59",
+      "secondsRemaining": 119,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Paul George made Three Point Jumper.  Assisted by Brandon Sperling.",
+      "participants": [
+        {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        {
+          "id": 78017,
+          "name": "Brandon Sperling"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 78016,
+          "name": "Paul George"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 78017,
+          "name": "Brandon Sperling"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2009-11-14",
+      "opponent": "San Francisco State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 19,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 10,
+      "ftAttempted": 10,
+      "starter": false
+    },
+    {
+      "date": "2009-11-18",
+      "opponent": "Northern Arizona",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 15,
+      "rebounds": 10,
+      "assists": 5,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 5,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": false
+    },
+    {
+      "date": "2009-11-20",
+      "opponent": "Seattle U",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 24,
+      "rebounds": 10,
+      "assists": 0,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 5,
+      "fgMade": 8,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2009-11-24",
+      "opponent": "San Diego State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 12,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2009-11-28",
+      "opponent": "Santa Clara",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 19,
+      "rebounds": 9,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 5,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 4,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2009-12-02",
+      "opponent": "Pacific",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 15,
+      "rebounds": 9,
+      "assists": 1,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 5,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2009-12-07",
+      "opponent": "San Diego",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 9,
+      "rebounds": 9,
+      "assists": 3,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2009-12-09",
+      "opponent": "Pepperdine",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 29,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 6,
+      "threeAttempted": 10,
+      "ftMade": 7,
+      "ftAttempted": 7,
+      "starter": false
+    },
+    {
+      "date": "2009-12-13",
+      "opponent": "BYU",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 14,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 6,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 5,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 5,
+      "ftAttempted": 5,
+      "starter": false
+    },
+    {
+      "date": "2009-12-18",
+      "opponent": "UC Davis",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 14,
+      "rebounds": 9,
+      "assists": 5,
+      "steals": 6,
+      "blocks": 1,
+      "turnovers": 8,
+      "fouls": 4,
+      "fgMade": 6,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2009-12-20",
+      "opponent": "North Dakota State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 13,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 3,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2009-12-22",
+      "opponent": "Montana",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 28,
+      "rebounds": 10,
+      "assists": 1,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 9,
+      "fgAttempted": 17,
+      "threeMade": 6,
+      "threeAttempted": 10,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2009-12-24",
+      "opponent": "Oregon State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 15,
+      "rebounds": 9,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2009-12-29",
+      "opponent": "Colorado State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 8,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 6,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2010-01-03",
+      "opponent": "Boise State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 21,
+      "rebounds": 3,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 11,
+      "ftAttempted": 12,
+      "starter": false
+    },
+    {
+      "date": "2010-01-10",
+      "opponent": "Hawai'i",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 21,
+      "rebounds": 9,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2010-01-12",
+      "opponent": "San José State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 29,
+      "rebounds": 7,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 12,
+      "fgAttempted": 19,
+      "threeMade": 5,
+      "threeAttempted": 12,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2010-01-15",
+      "opponent": "Louisiana Tech",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 18,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 2,
+      "turnovers": 5,
+      "fouls": 4,
+      "fgMade": 6,
+      "fgAttempted": 16,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 5,
+      "ftAttempted": 8,
+      "starter": false
+    },
+    {
+      "date": "2010-01-17",
+      "opponent": "New Mexico State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 14,
+      "rebounds": 9,
+      "assists": 6,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 4,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2010-01-22",
+      "opponent": "Utah State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 7,
+      "points": 3,
+      "rebounds": 0,
+      "assists": 0,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 1,
+      "fgAttempted": 2,
+      "threeMade": 1,
+      "threeAttempted": 1,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2010-02-12",
+      "opponent": "New Mexico State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 30,
+      "rebounds": 7,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 19,
+      "threeMade": 5,
+      "threeAttempted": 13,
+      "ftMade": 9,
+      "ftAttempted": 9,
+      "starter": false
+    },
+    {
+      "date": "2010-02-14",
+      "opponent": "Idaho",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 12,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 14,
+      "threeMade": 2,
+      "threeAttempted": 9,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2010-02-18",
+      "opponent": "Nevada",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 26,
+      "rebounds": 9,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 5,
+      "fgAttempted": 17,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 15,
+      "ftAttempted": 17,
+      "starter": true
+    },
+    {
+      "date": "2010-02-21",
+      "opponent": "UC Santa Barbara",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 13,
+      "rebounds": 7,
+      "assists": 0,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": false
+    },
+    {
+      "date": "2010-02-24",
+      "opponent": "Cal State Bakersfield",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 16,
+      "rebounds": 6,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2010-02-28",
+      "opponent": "San José State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 0,
+      "rebounds": 5,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 0,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2010-03-02",
+      "opponent": "Utah State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 12,
+      "rebounds": 7,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 5,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2010-03-05",
+      "opponent": "Louisiana Tech",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 16,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 14,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": false
+    },
+    {
+      "date": "2010-03-11",
+      "opponent": "Louisiana Tech",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 22,
+      "rebounds": 11,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 5,
+      "fgMade": 8,
+      "fgAttempted": 21,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 5,
+      "ftAttempted": 5,
+      "starter": true
+    }
+  ]
+}

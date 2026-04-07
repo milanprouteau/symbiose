@@ -1,0 +1,5263 @@
+{
+  "id": 71166,
+  "name": "CJ McCollum",
+  "team": "Lehigh",
+  "draftMeta": {
+    "overall": 10,
+    "round": 1,
+    "pick": 10,
+    "draftTeam": "Portland Trail Blazers",
+    "draftYear": 2013
+  },
+  "playerStats": {
+    "season": 2013,
+    "seasonLabel": "20122013",
+    "teamId": 141,
+    "team": "Lehigh",
+    "conference": "Patriot",
+    "athleteId": 71166,
+    "athleteSourceId": "46502",
+    "name": "CJ McCollum",
+    "position": "G",
+    "games": 8,
+    "starts": 0,
+    "minutes": 243,
+    "points": 195,
+    "turnovers": 18,
+    "fouls": 12,
+    "assists": 23,
+    "steals": 14,
+    "blocks": 2,
+    "offensiveRating": 127.1,
+    "defensiveRating": 170.5,
+    "netRating": -43.4,
+    "PORPAG": 6.9,
+    "usage": 35.3,
+    "assistsTurnoverRatio": 1.28,
+    "offensiveReboundPct": 23.3,
+    "freeThrowRate": 45.3,
+    "effectiveFieldGoalPct": 56.6,
+    "trueShootingPct": 0.635,
+    "fieldGoals": {
+      "made": 61,
+      "attempted": 128,
+      "pct": 47.7
+    },
+    "twoPointFieldGoals": {
+      "made": 38,
+      "attempted": 83,
+      "pct": 45.8
+    },
+    "threePointFieldGoals": {
+      "made": 23,
+      "attempted": 45,
+      "pct": 51.1
+    },
+    "freeThrows": {
+      "made": 50,
+      "attempted": 58,
+      "pct": 86.2
+    },
+    "rebounds": {
+      "offensive": 10,
+      "defensive": 33,
+      "total": 43
+    },
+    "winShares": {
+      "offensive": 3,
+      "defensive": -1.2,
+      "total": 1.8,
+      "totalPer40": 0.296
+    }
+  },
+  "shootingStats": null,
+  "teamStats": {
+    "season": 2013,
+    "seasonLabel": "20122013",
+    "teamId": 141,
+    "team": "Lehigh",
+    "conference": "Patriot",
+    "games": 31,
+    "wins": 18,
+    "losses": 13,
+    "totalMinutes": 1240,
+    "pace": 24.8,
+    "teamStats": {
+      "assists": 377,
+      "blocks": 84,
+      "steals": 187,
+      "possessions": 768,
+      "trueShooting": 63.2,
+      "rating": 265.9,
+      "fieldGoals": {
+        "made": 645,
+        "attempted": 1407,
+        "pct": 45.8
+      },
+      "twoPointFieldGoals": {
+        "made": 453,
+        "attempted": 914,
+        "pct": 49.6
+      },
+      "threePointFieldGoals": {
+        "made": 192,
+        "attempted": 493,
+        "pct": 38.9
+      },
+      "freeThrows": {
+        "made": 347,
+        "attempted": 474,
+        "pct": 73.2
+      },
+      "rebounds": {
+        "offensive": 230,
+        "defensive": 609,
+        "total": 839
+      },
+      "turnovers": {
+        "total": 270,
+        "teamTotal": 4
+      },
+      "fouls": {
+        "total": 375,
+        "technical": 1,
+        "flagrant": 0
+      },
+      "points": {
+        "total": 2042,
+        "inPaint": 0,
+        "offTurnovers": 0,
+        "fastBreak": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.7,
+        "turnoverRatio": 0.35,
+        "offensiveReboundPct": 27.4,
+        "freeThrowRate": 33.7
+      }
+    },
+    "opponentStats": {
+      "assists": 346,
+      "blocks": 84,
+      "steals": 129,
+      "possessions": 770,
+      "trueShooting": 57,
+      "rating": 237,
+      "fieldGoals": {
+        "made": 587,
+        "attempted": 1425,
+        "pct": 41.2
+      },
+      "twoPointFieldGoals": {
+        "made": 424,
+        "attempted": 897,
+        "pct": 47.3
+      },
+      "threePointFieldGoals": {
+        "made": 163,
+        "attempted": 528,
+        "pct": 30.9
+      },
+      "freeThrows": {
+        "made": 268,
+        "attempted": 400,
+        "pct": 67
+      },
+      "rebounds": {
+        "offensive": 294,
+        "defensive": 594,
+        "total": 888
+      },
+      "turnovers": {
+        "total": 347,
+        "teamTotal": 2
+      },
+      "fouls": {
+        "total": 409,
+        "technical": 4,
+        "flagrant": 0
+      },
+      "points": {
+        "total": 1825,
+        "inPaint": 0,
+        "offTurnovers": 0,
+        "fastBreak": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 46.9,
+        "turnoverRatio": 0.45,
+        "offensiveReboundPct": 33.1,
+        "freeThrowRate": 28.1
+      }
+    }
+  },
+  "profile": null,
+  "shots": [
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399394,
+      "sourceId": "3233025290001",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "homeWinProbability": 0.522,
+      "period": 1,
+      "clock": "19:46",
+      "secondsRemaining": 1186,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399396,
+      "sourceId": "3233025290003",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 5,
+      "homeWinProbability": 0.536,
+      "period": 1,
+      "clock": "19:04",
+      "secondsRemaining": 1144,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Mackey McKnight.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399411,
+      "sourceId": "3233025290018",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 5,
+      "awayScore": 10,
+      "homeWinProbability": 0.414,
+      "period": 1,
+      "clock": "16:27",
+      "secondsRemaining": 987,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399422,
+      "sourceId": "3233025290029",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 12,
+      "homeWinProbability": 0.462,
+      "period": 1,
+      "clock": "15:06",
+      "secondsRemaining": 906,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mackey McKnight made Jumper.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399435,
+      "sourceId": "3233025290042",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 15,
+      "homeWinProbability": 0.378,
+      "period": 1,
+      "clock": "13:51",
+      "secondsRemaining": 831,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399437,
+      "sourceId": "3233025290044",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 15,
+      "homeWinProbability": 0.378,
+      "period": 1,
+      "clock": "13:24",
+      "secondsRemaining": 804,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399453,
+      "sourceId": "3233025290060",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 13,
+      "awayScore": 19,
+      "homeWinProbability": 0.386,
+      "period": 1,
+      "clock": "11:46",
+      "secondsRemaining": 706,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399464,
+      "sourceId": "3233025290071",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 16,
+      "awayScore": 25,
+      "homeWinProbability": 0.318,
+      "period": 1,
+      "clock": "10:37",
+      "secondsRemaining": 637,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399479,
+      "sourceId": "3233025290086",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 33,
+      "homeWinProbability": 0.149,
+      "period": 1,
+      "clock": "8:36",
+      "secondsRemaining": 516,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Corey Schaefer.",
+      "participants": [
+        {
+          "id": 61045,
+          "name": "Corey Schaefer"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 61045,
+          "name": "Corey Schaefer"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399482,
+      "sourceId": "3233025290089",
+      "playType": "DunkShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 35,
+      "homeWinProbability": 0.116,
+      "period": 1,
+      "clock": "8:12",
+      "secondsRemaining": 492,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Dunk.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399513,
+      "sourceId": "3233025290120",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 42,
+      "homeWinProbability": 0.15,
+      "period": 1,
+      "clock": "4:22",
+      "secondsRemaining": 262,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399527,
+      "sourceId": "3233025290134",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 29,
+      "awayScore": 45,
+      "homeWinProbability": 0.073,
+      "period": 1,
+      "clock": "3:15",
+      "secondsRemaining": 195,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Gabe Knutson made Layup.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399539,
+      "sourceId": "3233025290146",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 47,
+      "homeWinProbability": 0.095,
+      "period": 1,
+      "clock": "0:10",
+      "secondsRemaining": 10,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399558,
+      "sourceId": "3233025290165",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 55,
+      "homeWinProbability": 0.022,
+      "period": 2,
+      "clock": "18:44",
+      "secondsRemaining": 1124,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Holden Greiner made Three Point Jumper.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399583,
+      "sourceId": "3233025290190",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 62,
+      "homeWinProbability": 0.003,
+      "period": 2,
+      "clock": "15:56",
+      "secondsRemaining": 956,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Holden Greiner.",
+      "participants": [
+        {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399586,
+      "sourceId": "3233025290193",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 64,
+      "homeWinProbability": 0.001,
+      "period": 2,
+      "clock": "15:34",
+      "secondsRemaining": 934,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Gabe Knutson made Layup.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399592,
+      "sourceId": "3233025290199",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 66,
+      "homeWinProbability": 0.001,
+      "period": 2,
+      "clock": "15:09",
+      "secondsRemaining": 909,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399591,
+      "sourceId": "3233025290198",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 65,
+      "homeWinProbability": 0.001,
+      "period": 2,
+      "clock": "15:09",
+      "secondsRemaining": 909,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399594,
+      "sourceId": "3233025290201",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 66,
+      "homeWinProbability": 0.001,
+      "period": 2,
+      "clock": "14:56",
+      "secondsRemaining": 896,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399596,
+      "sourceId": "3233025290203",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 67,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "14:56",
+      "secondsRemaining": 896,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399599,
+      "sourceId": "3233025290206",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 67,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "14:27",
+      "secondsRemaining": 867,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399612,
+      "sourceId": "3233025290219",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 74,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "12:53",
+      "secondsRemaining": 773,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399648,
+      "sourceId": "3233025290255",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 81,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "8:44",
+      "secondsRemaining": 524,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399655,
+      "sourceId": "3233025290262",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 83,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "8:16",
+      "secondsRemaining": 496,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72907,
+      "gameSourceId": "323302529",
+      "gameStartDate": "2012-11-25T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29399654,
+      "sourceId": "3233025290261",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 250,
+      "opponent": "Sacred Heart",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 82,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "8:16",
+      "secondsRemaining": 496,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408183,
+      "sourceId": "3233225140002",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homeWinProbability": 0.694,
+      "period": 1,
+      "clock": "19:28",
+      "secondsRemaining": 1168,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408187,
+      "sourceId": "3233225140006",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homeWinProbability": 0.645,
+      "period": 1,
+      "clock": "18:55",
+      "secondsRemaining": 1135,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Holden Greiner made Jumper.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408200,
+      "sourceId": "3233225140019",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 4,
+      "homeWinProbability": 0.613,
+      "period": 1,
+      "clock": "16:50",
+      "secondsRemaining": 1010,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408213,
+      "sourceId": "3233225140032",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 6,
+      "homeWinProbability": 0.568,
+      "period": 1,
+      "clock": "15:07",
+      "secondsRemaining": 907,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408251,
+      "sourceId": "3233225140070",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 12,
+      "awayScore": 13,
+      "homeWinProbability": 0.576,
+      "period": 1,
+      "clock": "10:11",
+      "secondsRemaining": 611,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408258,
+      "sourceId": "3233225140077",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 14,
+      "awayScore": 14,
+      "homeWinProbability": 0.62,
+      "period": 1,
+      "clock": "9:13",
+      "secondsRemaining": 553,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408256,
+      "sourceId": "3233225140075",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 14,
+      "awayScore": 13,
+      "homeWinProbability": 0.673,
+      "period": 1,
+      "clock": "9:13",
+      "secondsRemaining": 553,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408266,
+      "sourceId": "3233225140085",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 14,
+      "awayScore": 18,
+      "homeWinProbability": 0.487,
+      "period": 1,
+      "clock": "7:58",
+      "secondsRemaining": 478,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408292,
+      "sourceId": "3233225140111",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 27,
+      "homeWinProbability": 0.315,
+      "period": 1,
+      "clock": "4:48",
+      "secondsRemaining": 288,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Gabe Knutson made Layup.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408339,
+      "sourceId": "3233225140158",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 30,
+      "awayScore": 33,
+      "homeWinProbability": 0.485,
+      "period": 2,
+      "clock": "19:36",
+      "secondsRemaining": 1176,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408346,
+      "sourceId": "3233225140165",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 37,
+      "homeWinProbability": 0.502,
+      "period": 2,
+      "clock": "18:16",
+      "secondsRemaining": 1096,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408355,
+      "sourceId": "3233225140174",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 36,
+      "awayScore": 37,
+      "homeWinProbability": 0.55,
+      "period": 2,
+      "clock": "16:34",
+      "secondsRemaining": 994,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408376,
+      "sourceId": "3233225140195",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 40,
+      "awayScore": 41,
+      "homeWinProbability": 0.562,
+      "period": 2,
+      "clock": "14:31",
+      "secondsRemaining": 871,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408378,
+      "sourceId": "3233225140197",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 40,
+      "awayScore": 44,
+      "homeWinProbability": 0.372,
+      "period": 2,
+      "clock": "14:27",
+      "secondsRemaining": 867,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Gabe Knutson.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408382,
+      "sourceId": "3233225140201",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 44,
+      "awayScore": 49,
+      "homeWinProbability": 0.316,
+      "period": 2,
+      "clock": "13:02",
+      "secondsRemaining": 782,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Gabe Knutson made Three Point Jumper.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408390,
+      "sourceId": "3233225140209",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 50,
+      "homeWinProbability": 0.466,
+      "period": 2,
+      "clock": "12:45",
+      "secondsRemaining": 765,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408388,
+      "sourceId": "3233225140207",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 49,
+      "homeWinProbability": 0.458,
+      "period": 2,
+      "clock": "12:45",
+      "secondsRemaining": 765,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408393,
+      "sourceId": "3233225140212",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 50,
+      "homeWinProbability": 0.466,
+      "period": 2,
+      "clock": "12:18",
+      "secondsRemaining": 738,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408396,
+      "sourceId": "3233225140215",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 53,
+      "homeWinProbability": 0.229,
+      "period": 2,
+      "clock": "12:08",
+      "secondsRemaining": 728,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Mackey McKnight.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408398,
+      "sourceId": "3233225140217",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 49,
+      "awayScore": 55,
+      "homeWinProbability": 0.28,
+      "period": 2,
+      "clock": "11:22",
+      "secondsRemaining": 682,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408404,
+      "sourceId": "3233225140223",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 57,
+      "homeWinProbability": 0.247,
+      "period": 2,
+      "clock": "10:16",
+      "secondsRemaining": 616,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Gabe Knutson made Jumper.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408432,
+      "sourceId": "3233225140251",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 59,
+      "homeWinProbability": 0.445,
+      "period": 2,
+      "clock": "7:10",
+      "secondsRemaining": 430,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408467,
+      "sourceId": "3233225140286",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 64,
+      "homeWinProbability": 0.392,
+      "period": 2,
+      "clock": "3:55",
+      "secondsRemaining": 235,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Mackey McKnight.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408474,
+      "sourceId": "3233225140293",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 66,
+      "homeWinProbability": 0.402,
+      "period": 2,
+      "clock": "3:25",
+      "secondsRemaining": 205,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408473,
+      "sourceId": "3233225140292",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 65,
+      "homeWinProbability": 0.47,
+      "period": 2,
+      "clock": "3:25",
+      "secondsRemaining": 205,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408477,
+      "sourceId": "3233225140296",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 66,
+      "homeWinProbability": 0.351,
+      "period": 2,
+      "clock": "2:45",
+      "secondsRemaining": 165,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408488,
+      "sourceId": "3233225140307",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 68,
+      "homeWinProbability": 0.155,
+      "period": 2,
+      "clock": "1:37",
+      "secondsRemaining": 97,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408486,
+      "sourceId": "3233225140305",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 68,
+      "homeWinProbability": 0.155,
+      "period": 2,
+      "clock": "1:37",
+      "secondsRemaining": 97,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Layup.  Assisted by Mackey McKnight.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408493,
+      "sourceId": "3233225140312",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 71,
+      "homeWinProbability": 0.039,
+      "period": 2,
+      "clock": "1:19",
+      "secondsRemaining": 79,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Holden Greiner.",
+      "participants": [
+        {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408497,
+      "sourceId": "3233225140316",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 72,
+      "homeWinProbability": 0.01,
+      "period": 2,
+      "clock": "0:50",
+      "secondsRemaining": 50,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408498,
+      "sourceId": "3233225140317",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 73,
+      "homeWinProbability": 0.01,
+      "period": 2,
+      "clock": "0:50",
+      "secondsRemaining": 50,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408503,
+      "sourceId": "3233225140322",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 74,
+      "homeWinProbability": 0.005,
+      "period": 2,
+      "clock": "0:36",
+      "secondsRemaining": 36,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 72953,
+      "gameSourceId": "323322514",
+      "gameStartDate": "2012-11-28T00:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29408504,
+      "sourceId": "3233225140323",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 238,
+      "opponent": "Quinnipiac",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 75,
+      "homeWinProbability": 0.003,
+      "period": 2,
+      "clock": "0:36",
+      "secondsRemaining": 36,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498864,
+      "sourceId": "3234325980002",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "homeWinProbability": 0.565,
+      "period": 1,
+      "clock": "19:26",
+      "secondsRemaining": 1166,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Gabe Knutson made Layup.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71159,
+          "name": "Gabe Knutson"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498874,
+      "sourceId": "3234325980012",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 4,
+      "homeWinProbability": 0.496,
+      "period": 1,
+      "clock": "18:12",
+      "secondsRemaining": 1092,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mackey McKnight made Layup.  Assisted by Cj McCollum.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498883,
+      "sourceId": "3234325980021",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 10,
+      "homeWinProbability": 0.257,
+      "period": 1,
+      "clock": "16:27",
+      "secondsRemaining": 987,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498896,
+      "sourceId": "3234325980034",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 10,
+      "homeWinProbability": 0.238,
+      "period": 1,
+      "clock": "15:05",
+      "secondsRemaining": 905,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498902,
+      "sourceId": "3234325980040",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 13,
+      "homeWinProbability": 0.284,
+      "period": 1,
+      "clock": "14:16",
+      "secondsRemaining": 856,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498910,
+      "sourceId": "3234325980048",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 13,
+      "homeWinProbability": 0.27,
+      "period": 1,
+      "clock": "13:19",
+      "secondsRemaining": 799,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498931,
+      "sourceId": "3234325980069",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 20,
+      "homeWinProbability": 0.259,
+      "period": 1,
+      "clock": "10:29",
+      "secondsRemaining": 629,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Layup.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498947,
+      "sourceId": "3234325980085",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 25,
+      "homeWinProbability": 0.396,
+      "period": 1,
+      "clock": "8:13",
+      "secondsRemaining": 493,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498957,
+      "sourceId": "3234325980095",
+      "playType": "LayupShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 31,
+      "homeWinProbability": 0.196,
+      "period": 1,
+      "clock": "6:45",
+      "secondsRemaining": 405,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Layup.  Assisted by Holden Greiner.",
+      "participants": [
+        {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 71160,
+          "name": "Holden Greiner"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29498959,
+      "sourceId": "3234325980097",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 32,
+      "homeWinProbability": 0.186,
+      "period": 1,
+      "clock": "6:40",
+      "secondsRemaining": 400,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499026,
+      "sourceId": "3234325980164",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 47,
+      "homeWinProbability": 0.198,
+      "period": 2,
+      "clock": "17:41",
+      "secondsRemaining": 1061,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499027,
+      "sourceId": "3234325980165",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 48,
+      "homeWinProbability": 0.15,
+      "period": 2,
+      "clock": "17:41",
+      "secondsRemaining": 1061,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499038,
+      "sourceId": "3234325980176",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 55,
+      "homeWinProbability": 0.022,
+      "period": 2,
+      "clock": "16:16",
+      "secondsRemaining": 976,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Cj McCollum made Three Point Jumper.  Assisted by Mackey McKnight.",
+      "participants": [
+        {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 66905,
+          "name": "Mackey McKnight"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499044,
+      "sourceId": "3234325980182",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 37,
+      "awayScore": 55,
+      "homeWinProbability": 0.027,
+      "period": 2,
+      "clock": "15:21",
+      "secondsRemaining": 921,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499051,
+      "sourceId": "3234325980189",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 57,
+      "homeWinProbability": 0.044,
+      "period": 2,
+      "clock": "14:27",
+      "secondsRemaining": 867,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499058,
+      "sourceId": "3234325980196",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 57,
+      "homeWinProbability": 0.04,
+      "period": 2,
+      "clock": "13:49",
+      "secondsRemaining": 829,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499063,
+      "sourceId": "3234325980201",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 58,
+      "homeWinProbability": 0.032,
+      "period": 2,
+      "clock": "13:33",
+      "secondsRemaining": 813,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499064,
+      "sourceId": "3234325980202",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 59,
+      "homeWinProbability": 0.021,
+      "period": 2,
+      "clock": "13:33",
+      "secondsRemaining": 813,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499075,
+      "sourceId": "3234325980213",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 41,
+      "awayScore": 59,
+      "homeWinProbability": 0.023,
+      "period": 2,
+      "clock": "12:20",
+      "secondsRemaining": 740,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499088,
+      "sourceId": "3234325980226",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 41,
+      "awayScore": 59,
+      "homeWinProbability": 0.019,
+      "period": 2,
+      "clock": "11:31",
+      "secondsRemaining": 691,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 0,
+      "wallclock": null,
+      "playText": "Cj McCollum missed Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499096,
+      "sourceId": "3234325980234",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 61,
+      "homeWinProbability": 0.019,
+      "period": 2,
+      "clock": "10:56",
+      "secondsRemaining": 656,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499095,
+      "sourceId": "3234325980233",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 60,
+      "homeWinProbability": 0.019,
+      "period": 2,
+      "clock": "10:56",
+      "secondsRemaining": 656,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499127,
+      "sourceId": "3234325980265",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 52,
+      "awayScore": 74,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "5:44",
+      "secondsRemaining": 344,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499137,
+      "sourceId": "3234325980275",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 56,
+      "awayScore": 76,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "4:36",
+      "secondsRemaining": 276,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499136,
+      "sourceId": "3234325980274",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 56,
+      "awayScore": 75,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "4:36",
+      "secondsRemaining": 276,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499153,
+      "sourceId": "3234325980291",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 79,
+      "homeWinProbability": 0.002,
+      "period": 2,
+      "clock": "2:41",
+      "secondsRemaining": 161,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Cj McCollum made Jumper.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499163,
+      "sourceId": "3234325980301",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 81,
+      "homeWinProbability": 0.001,
+      "period": 2,
+      "clock": "1:46",
+      "secondsRemaining": 106,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 73415,
+      "gameSourceId": "323432598",
+      "gameStartDate": "2012-12-08T19:00:00.000Z",
+      "season": 2013,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 29499162,
+      "sourceId": "3234325980300",
+      "playType": "Free Throw 1 of 1",
+      "isHomeTeam": false,
+      "teamId": 141,
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "teamSeed": null,
+      "opponentId": 278,
+      "opponent": "St. Francis (PA)",
+      "opponentConference": "NEC",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 80,
+      "homeWinProbability": 0.001,
+      "period": 2,
+      "clock": "1:46",
+      "secondsRemaining": 106,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Cj McCollum made Free Throw.",
+      "participants": [
+        {
+          "id": 71166,
+          "name": "CJ McCollum"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 71166,
+          "name": "CJ McCollum"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2012-11-09",
+      "opponent": "Baylor",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 36,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 14,
+      "fgAttempted": 32,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": false
+    },
+    {
+      "date": "2012-11-25",
+      "opponent": "Sacred Heart",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 26,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 14,
+      "threeMade": 5,
+      "threeAttempted": 7,
+      "ftMade": 5,
+      "ftAttempted": 7,
+      "starter": false
+    },
+    {
+      "date": "2012-11-28",
+      "opponent": "Quinnipiac",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 30,
+      "rebounds": 9,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 9,
+      "fgAttempted": 18,
+      "threeMade": 4,
+      "threeAttempted": 7,
+      "ftMade": 8,
+      "ftAttempted": 11,
+      "starter": false
+    },
+    {
+      "date": "2012-12-02",
+      "opponent": "Fairleigh Dickinson",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 23,
+      "rebounds": 3,
+      "assists": 3,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 9,
+      "fgAttempted": 14,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2012-12-05",
+      "opponent": "Fordham",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 13,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2012-12-08",
+      "opponent": "St. Francis (PA)",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 29,
+      "rebounds": 9,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 11,
+      "ftAttempted": 11,
+      "starter": false
+    },
+    {
+      "date": "2012-12-30",
+      "opponent": "Bryant",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 34,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 9,
+      "fgAttempted": 18,
+      "threeMade": 6,
+      "threeAttempted": 10,
+      "ftMade": 10,
+      "ftAttempted": 11,
+      "starter": false
+    },
+    {
+      "date": "2013-01-05",
+      "opponent": "VCU",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 15,
+      "points": 4,
+      "rebounds": 2,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 0,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": false
+    }
+  ]
+}

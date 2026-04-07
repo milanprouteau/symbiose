@@ -22,10 +22,10 @@
     "steals": 51,
     "blocks": 9,
     "offensiveRating": 126.2,
-    "defensiveRating": 109.6,
-    "netRating": 16.6,
+    "defensiveRating": 109.7,
+    "netRating": 16.5,
     "PORPAG": 6.4,
-    "usage": 27.1,
+    "usage": 26.9,
     "assistsTurnoverRatio": 2.4,
     "offensiveReboundPct": 10.2,
     "freeThrowRate": 31.4,
@@ -57,10 +57,10 @@
       "total": 98
     },
     "winShares": {
-      "offensive": 6,
+      "offensive": 5.9,
       "defensive": 1.1,
-      "total": 7.1,
-      "totalPer40": 0.203
+      "total": 7,
+      "totalPer40": 0.2
     }
   },
   "shootingStats": {
@@ -128,8 +128,8 @@
     "games": 37,
     "wins": 24,
     "losses": 13,
-    "totalMinutes": 1495,
-    "pace": 60.4,
+    "totalMinutes": 1485,
+    "pace": 60.8,
     "teamStats": {
       "assists": 555,
       "blocks": 71,
@@ -248,76 +248,9 @@
       "city": "Liberty",
       "state": "MO"
     },
-    "dateOfBirth": "2003-10-03"
+    "dateOfBirth": null
   },
   "shots": [
-    {
-      "gameId": 212831,
-      "gameSourceId": "401823398",
-      "gameStartDate": "2025-11-05T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 38037177,
-      "sourceId": "401823398113739867",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 124,
-      "team": "Iowa",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 244,
-      "opponent": "Robert Morris",
-      "opponentConference": "Horizon",
-      "opponentSeed": null,
-      "homeScore": 10,
-      "awayScore": 2,
-      "homeWinProbability": 0.818,
-      "period": 1,
-      "clock": "17:09",
-      "secondsRemaining": 1029,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-05T01:41:29.000Z",
-      "playText": "Bennett Stirtz made Free Throw.",
-      "participants": [
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 201708,
-          "name": "Darius Livingston",
-          "team": "Robert Morris"
-        },
-        {
-          "id": 3302,
-          "name": "Alvaro Folgueiras",
-          "team": "Iowa"
-        }
-      ]
-    },
     {
       "gameId": 212831,
       "gameSourceId": "401823398",
@@ -393,8 +326,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38037183,
-      "sourceId": "401823398113740079",
+      "id": 38037177,
+      "sourceId": "401823398113739867",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -405,16 +338,16 @@
       "opponent": "Robert Morris",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 2,
-      "homeWinProbability": 0.866,
+      "homeWinProbability": 0.818,
       "period": 1,
-      "clock": "16:50",
-      "secondsRemaining": 1010,
+      "clock": "17:09",
+      "secondsRemaining": 1029,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T01:42:22.000Z",
+      "wallclock": "2025-11-05T01:41:29.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -482,6 +415,73 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-11-05T01:42:37.000Z",
+      "playText": "Bennett Stirtz made Free Throw.",
+      "participants": [
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 201708,
+          "name": "Darius Livingston",
+          "team": "Robert Morris"
+        },
+        {
+          "id": 3302,
+          "name": "Alvaro Folgueiras",
+          "team": "Iowa"
+        }
+      ]
+    },
+    {
+      "gameId": 212831,
+      "gameSourceId": "401823398",
+      "gameStartDate": "2025-11-05T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38037183,
+      "sourceId": "401823398113740079",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 124,
+      "team": "Iowa",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 244,
+      "opponent": "Robert Morris",
+      "opponentConference": "Horizon",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 2,
+      "homeWinProbability": 0.866,
+      "period": 1,
+      "clock": "16:50",
+      "secondsRemaining": 1010,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-05T01:42:22.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -3895,8 +3895,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38217497,
-      "sourceId": "401823647113904988",
+      "id": 38217500,
+      "sourceId": "401823647113905143",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -3907,16 +3907,16 @@
       "opponent": "Western Illinois",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 43,
-      "homeWinProbability": 0.973,
+      "homeWinProbability": 0.976,
       "period": 2,
       "clock": "12:28",
       "secondsRemaining": 748,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T01:21:42.000Z",
+      "wallclock": "2025-11-08T01:22:01.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -3992,8 +3992,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38217500,
-      "sourceId": "401823647113905143",
+      "id": 38217497,
+      "sourceId": "401823647113904988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -4004,16 +4004,16 @@
       "opponent": "Western Illinois",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 43,
-      "homeWinProbability": 0.976,
+      "homeWinProbability": 0.973,
       "period": 2,
       "clock": "12:28",
       "secondsRemaining": 748,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T01:22:01.000Z",
+      "wallclock": "2025-11-08T01:21:42.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -4384,8 +4384,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38217570,
-      "sourceId": "401823647113914223",
+      "id": 38217567,
+      "sourceId": "401823647113914154",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -4396,7 +4396,7 @@
       "opponent": "Western Illinois",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 49,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -4405,7 +4405,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T01:42:49.000Z",
+      "wallclock": "2025-11-08T01:42:34.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -4486,8 +4486,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38217567,
-      "sourceId": "401823647113914154",
+      "id": 38217570,
+      "sourceId": "401823647113914223",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -4498,7 +4498,7 @@
       "opponent": "Western Illinois",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 49,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -4507,7 +4507,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T01:42:34.000Z",
+      "wallclock": "2025-11-08T01:42:49.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -6102,8 +6102,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39013235,
-      "sourceId": "401823560114334461",
+      "id": 39013237,
+      "sourceId": "401823560114334532",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -6114,17 +6114,17 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 41,
-      "homeWinProbability": 0.98,
+      "homeWinProbability": 0.985,
       "period": 2,
       "clock": "13:55",
       "secondsRemaining": 835,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:27:42.000Z",
-      "playText": "Bennett Stirtz missed Free Throw.",
+      "wallclock": "2025-11-15T02:27:56.000Z",
+      "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
           "id": 3596,
@@ -6136,7 +6136,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6209,8 +6209,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39013237,
-      "sourceId": "401823560114334532",
+      "id": 39013235,
+      "sourceId": "401823560114334461",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -6221,17 +6221,17 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 41,
-      "homeWinProbability": 0.985,
+      "homeWinProbability": 0.98,
       "period": 2,
       "clock": "13:55",
       "secondsRemaining": 835,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:27:56.000Z",
-      "playText": "Bennett Stirtz made Free Throw.",
+      "wallclock": "2025-11-15T02:27:42.000Z",
+      "playText": "Bennett Stirtz missed Free Throw.",
       "participants": [
         {
           "id": 3596,
@@ -6243,7 +6243,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6966,8 +6966,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39013352,
-      "sourceId": "401823560114338914",
+      "id": 39013351,
+      "sourceId": "401823560114338907",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -6978,7 +6978,7 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -6987,7 +6987,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:58:53.000Z",
+      "wallclock": "2025-11-15T02:58:42.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -7073,8 +7073,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39013351,
-      "sourceId": "401823560114338907",
+      "id": 39013352,
+      "sourceId": "401823560114338914",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -7085,7 +7085,7 @@
       "opponent": "Xavier",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -7094,7 +7094,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:58:42.000Z",
+      "wallclock": "2025-11-15T02:58:53.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -8048,113 +8048,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39437577,
-      "sourceId": "401823648114564474",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 124,
-      "team": "Iowa",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 272,
-      "opponent": "Southeast Missouri State",
-      "opponentConference": "OVC",
-      "opponentSeed": null,
-      "homeScore": 30,
-      "awayScore": 14,
-      "homeWinProbability": 0.96,
-      "period": 1,
-      "clock": "7:25",
-      "secondsRemaining": 445,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-19T02:05:15.000Z",
-      "playText": "Bennett Stirtz made Free Throw.",
-      "participants": [
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 4605,
-          "name": "Brendan Terry",
-          "team": "Southeast Missouri State"
-        },
-        {
-          "id": 202117,
-          "name": "Luke Almodovar",
-          "team": "Southeast Missouri State"
-        },
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz",
-          "team": "Iowa"
-        },
-        {
-          "id": 199770,
-          "name": "Trevin Jirak",
-          "team": "Iowa"
-        },
-        {
-          "id": 7613,
-          "name": "Brendan Hausen",
-          "team": "Iowa"
-        },
-        {
-          "id": 3599,
-          "name": "Isaia Howard",
-          "team": "Iowa"
-        },
-        {
-          "id": 3594,
-          "name": "Cam Manyawu",
-          "team": "Iowa"
-        },
-        {
-          "id": 4612,
-          "name": "Troy Cole Jr.",
-          "team": "Southeast Missouri State"
-        },
-        {
-          "id": 4618,
-          "name": "Braxton Stacker",
-          "team": "Southeast Missouri State"
-        },
-        {
-          "id": 4615,
-          "name": "BJ Ward",
-          "team": "Southeast Missouri State"
-        }
-      ]
-    },
-    {
-      "gameId": 213275,
-      "gameSourceId": "401823648",
-      "gameStartDate": "2025-11-19T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 39437578,
       "sourceId": "401823648114564501",
       "playType": "MadeFreeThrow",
@@ -8262,8 +8155,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39437613,
-      "sourceId": "401823648114566243",
+      "id": 39437577,
+      "sourceId": "401823648114564474",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -8274,16 +8167,123 @@
       "opponent": "Southeast Missouri State",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 30,
+      "awayScore": 14,
+      "homeWinProbability": 0.96,
+      "period": 1,
+      "clock": "7:25",
+      "secondsRemaining": 445,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-19T02:05:15.000Z",
+      "playText": "Bennett Stirtz made Free Throw.",
+      "participants": [
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 4605,
+          "name": "Brendan Terry",
+          "team": "Southeast Missouri State"
+        },
+        {
+          "id": 202117,
+          "name": "Luke Almodovar",
+          "team": "Southeast Missouri State"
+        },
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz",
+          "team": "Iowa"
+        },
+        {
+          "id": 199770,
+          "name": "Trevin Jirak",
+          "team": "Iowa"
+        },
+        {
+          "id": 7613,
+          "name": "Brendan Hausen",
+          "team": "Iowa"
+        },
+        {
+          "id": 3599,
+          "name": "Isaia Howard",
+          "team": "Iowa"
+        },
+        {
+          "id": 3594,
+          "name": "Cam Manyawu",
+          "team": "Iowa"
+        },
+        {
+          "id": 4612,
+          "name": "Troy Cole Jr.",
+          "team": "Southeast Missouri State"
+        },
+        {
+          "id": 4618,
+          "name": "Braxton Stacker",
+          "team": "Southeast Missouri State"
+        },
+        {
+          "id": 4615,
+          "name": "BJ Ward",
+          "team": "Southeast Missouri State"
+        }
+      ]
+    },
+    {
+      "gameId": 213275,
+      "gameSourceId": "401823648",
+      "gameStartDate": "2025-11-19T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 39437612,
+      "sourceId": "401823648114566205",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 124,
+      "team": "Iowa",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 272,
+      "opponent": "Southeast Missouri State",
+      "opponentConference": "OVC",
+      "opponentSeed": null,
+      "homeScore": 35,
       "awayScore": 18,
-      "homeWinProbability": 0.983,
+      "homeWinProbability": 0.975,
       "period": 1,
       "clock": "4:44",
       "secondsRemaining": 284,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T02:12:26.000Z",
+      "wallclock": "2025-11-19T02:12:13.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -8369,8 +8369,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39437612,
-      "sourceId": "401823648114566205",
+      "id": 39437613,
+      "sourceId": "401823648114566243",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -8381,16 +8381,16 @@
       "opponent": "Southeast Missouri State",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 18,
-      "homeWinProbability": 0.975,
+      "homeWinProbability": 0.983,
       "period": 1,
       "clock": "4:44",
       "secondsRemaining": 284,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T02:12:13.000Z",
+      "wallclock": "2025-11-19T02:12:26.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -10006,9 +10006,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39653629,
-      "sourceId": "401822342114666620",
-      "playType": "MadeFreeThrow",
+      "id": 39653624,
+      "sourceId": "401822342114666343",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -10018,17 +10018,17 @@
       "opponent": "Chicago State",
       "opponentConference": "NEC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 24,
-      "homeWinProbability": 0.902,
+      "homeWinProbability": 0.877,
       "period": 1,
       "clock": "2:07",
       "secondsRemaining": 127,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-21T00:44:35.000Z",
-      "playText": "Bennett Stirtz made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-21T00:43:16.000Z",
+      "playText": "Bennett Stirtz made Jumper.",
       "participants": [
         {
           "id": 3596,
@@ -10041,15 +10041,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 190
         }
       },
       "onFloor": [
@@ -10113,9 +10113,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39653624,
-      "sourceId": "401822342114666343",
-      "playType": "JumpShot",
+      "id": 39653629,
+      "sourceId": "401822342114666620",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -10125,17 +10125,17 @@
       "opponent": "Chicago State",
       "opponentConference": "NEC",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 24,
-      "homeWinProbability": 0.877,
+      "homeWinProbability": 0.902,
       "period": 1,
       "clock": "2:07",
       "secondsRemaining": 127,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-21T00:43:16.000Z",
-      "playText": "Bennett Stirtz made Jumper.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-21T00:44:35.000Z",
+      "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
           "id": 3596,
@@ -10148,15 +10148,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 190
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -10327,9 +10327,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39653659,
-      "sourceId": "401822342114667589",
-      "playType": "LayUpShot",
+      "id": 39653667,
+      "sourceId": "401822342114667689",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -10339,17 +10339,17 @@
       "opponent": "Chicago State",
       "opponentConference": "NEC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 24,
-      "homeWinProbability": 0.961,
+      "homeWinProbability": 0.965,
       "period": 1,
       "clock": "0:03",
       "secondsRemaining": 3,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-21T00:48:40.000Z",
-      "playText": "Bennett Stirtz made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-21T00:49:08.000Z",
+      "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
           "id": 3596,
@@ -10362,15 +10362,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -10434,9 +10434,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39653667,
-      "sourceId": "401822342114667689",
-      "playType": "MadeFreeThrow",
+      "id": 39653659,
+      "sourceId": "401822342114667589",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -10446,17 +10446,17 @@
       "opponent": "Chicago State",
       "opponentConference": "NEC",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 24,
-      "homeWinProbability": 0.965,
+      "homeWinProbability": 0.961,
       "period": 1,
       "clock": "0:03",
       "secondsRemaining": 3,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-21T00:49:08.000Z",
-      "playText": "Bennett Stirtz made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-21T00:48:40.000Z",
+      "playText": "Bennett Stirtz made Layup.",
       "participants": [
         {
           "id": 3596,
@@ -10469,15 +10469,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 270
         }
       },
       "onFloor": [
@@ -12701,8 +12701,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40154492,
-      "sourceId": "401823649115009262",
+      "id": 40154489,
+      "sourceId": "401823649115009253",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -12713,16 +12713,16 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 40,
       "awayScore": 35,
-      "homeWinProbability": 0.829,
+      "homeWinProbability": 0.796,
       "period": 2,
       "clock": "13:45",
       "secondsRemaining": 825,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T03:57:14.000Z",
+      "wallclock": "2025-11-26T03:56:58.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -12808,8 +12808,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40154489,
-      "sourceId": "401823649115009253",
+      "id": 40154492,
+      "sourceId": "401823649115009262",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -12820,16 +12820,16 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 41,
       "awayScore": 35,
-      "homeWinProbability": 0.796,
+      "homeWinProbability": 0.829,
       "period": 2,
       "clock": "13:45",
       "secondsRemaining": 825,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T03:56:58.000Z",
+      "wallclock": "2025-11-26T03:57:14.000Z",
       "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
@@ -14635,8 +14635,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40757943,
-      "sourceId": "401825392115333879",
+      "id": 40757939,
+      "sourceId": "401825392115333855",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -14656,7 +14656,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T00:35:11.000Z",
+      "wallclock": "2025-12-03T00:34:57.000Z",
       "playText": "Bennett Stirtz missed Free Throw.",
       "participants": [
         {
@@ -14742,8 +14742,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40757939,
-      "sourceId": "401825392115333855",
+      "id": 40757943,
+      "sourceId": "401825392115333879",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -14763,7 +14763,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T00:34:57.000Z",
+      "wallclock": "2025-12-03T00:35:11.000Z",
       "playText": "Bennett Stirtz missed Free Throw.",
       "participants": [
         {
@@ -20592,9 +20592,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41828139,
-      "sourceId": "401823650115901425",
-      "playType": "MadeFreeThrow",
+      "id": 41828127,
+      "sourceId": "401823650115901281",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -20604,17 +20604,17 @@
       "opponent": "Western Michigan",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 10,
-      "homeWinProbability": 0.972,
+      "homeWinProbability": 0.969,
       "period": 1,
       "clock": "9:10",
       "secondsRemaining": 550,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-14T20:27:30.000Z",
-      "playText": "Bennett Stirtz made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-14T20:27:02.000Z",
+      "playText": "Bennett Stirtz made Layup.",
       "participants": [
         {
           "id": 3596,
@@ -20627,15 +20627,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 260
         }
       },
       "onFloor": [
@@ -20699,9 +20699,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41828127,
-      "sourceId": "401823650115901281",
-      "playType": "LayUpShot",
+      "id": 41828139,
+      "sourceId": "401823650115901425",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -20711,17 +20711,17 @@
       "opponent": "Western Michigan",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 10,
-      "homeWinProbability": 0.969,
+      "homeWinProbability": 0.972,
       "period": 1,
       "clock": "9:10",
       "secondsRemaining": 550,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-14T20:27:02.000Z",
-      "playText": "Bennett Stirtz made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-14T20:27:30.000Z",
+      "playText": "Bennett Stirtz made Free Throw.",
       "participants": [
         {
           "id": 3596,
@@ -20734,15 +20734,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -25613,113 +25613,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42766095,
-      "sourceId": "401823651116438481",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 124,
-      "team": "Iowa",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 318,
-      "opponent": "UMass Lowell",
-      "opponentConference": "Am. East",
-      "opponentSeed": null,
-      "homeScore": 65,
-      "awayScore": 43,
-      "homeWinProbability": 0.997,
-      "period": 2,
-      "clock": "10:08",
-      "secondsRemaining": 608,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-29T23:28:49.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7613,
-          "name": "Brendan Hausen",
-          "team": "Iowa"
-        },
-        {
-          "id": 8660,
-          "name": "Angel Montas Jr.",
-          "team": "UMass Lowell"
-        },
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz",
-          "team": "Iowa"
-        },
-        {
-          "id": 4889,
-          "name": "Austin Green",
-          "team": "UMass Lowell"
-        },
-        {
-          "id": 3603,
-          "name": "Tavion Banks",
-          "team": "Iowa"
-        },
-        {
-          "id": 995,
-          "name": "Khalil Farmer",
-          "team": "UMass Lowell"
-        },
-        {
-          "id": 202875,
-          "name": "Darrel Yepdo",
-          "team": "UMass Lowell"
-        },
-        {
-          "id": 3599,
-          "name": "Isaia Howard",
-          "team": "Iowa"
-        },
-        {
-          "id": 3302,
-          "name": "Alvaro Folgueiras",
-          "team": "Iowa"
-        },
-        {
-          "id": 202869,
-          "name": "Victor Okojie",
-          "team": "UMass Lowell"
-        }
-      ]
-    },
-    {
-      "gameId": 214215,
-      "gameSourceId": "401823651",
-      "gameStartDate": "2025-12-29T22:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42766104,
       "sourceId": "401823651116438536",
       "playType": "MadeFreeThrow",
@@ -25827,9 +25720,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42766116,
-      "sourceId": "401823651116438944",
-      "playType": "LayUpShot",
+      "id": 42766095,
+      "sourceId": "401823651116438481",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -25839,22 +25732,18 @@
       "opponent": "UMass Lowell",
       "opponentConference": "Am. East",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 65,
       "awayScore": 43,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.997,
       "period": 2,
-      "clock": "8:51",
-      "secondsRemaining": 531,
+      "clock": "10:08",
+      "secondsRemaining": 608,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-29T23:34:12.000Z",
-      "playText": "Bennett Stirtz makes driving layup (Alvaro Folgueiras assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-29T23:28:49.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
-        {
-          "id": 3302,
-          "name": "Alvaro Folgueiras"
-        },
         {
           "id": 3596,
           "name": "Bennett Stirtz"
@@ -25866,32 +25755,37 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 3302,
-          "name": "Alvaro Folgueiras"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
+        {
+          "id": 7613,
+          "name": "Brendan Hausen",
+          "team": "Iowa"
+        },
         {
           "id": 8660,
           "name": "Angel Montas Jr.",
           "team": "UMass Lowell"
         },
         {
-          "id": 5484,
-          "name": "Cooper Koch",
-          "team": "Iowa"
-        },
-        {
           "id": 3596,
           "name": "Bennett Stirtz",
           "team": "Iowa"
+        },
+        {
+          "id": 4889,
+          "name": "Austin Green",
+          "team": "UMass Lowell"
         },
         {
           "id": 3603,
@@ -25904,18 +25798,13 @@
           "team": "UMass Lowell"
         },
         {
-          "id": 202867,
-          "name": "JJ Massaquoi",
+          "id": 202875,
+          "name": "Darrel Yepdo",
           "team": "UMass Lowell"
         },
         {
-          "id": 202873,
-          "name": "Xavier Spencer",
-          "team": "UMass Lowell"
-        },
-        {
-          "id": 3600,
-          "name": "Kael Combs",
+          "id": 3599,
+          "name": "Isaia Howard",
           "team": "Iowa"
         },
         {
@@ -25982,6 +25871,117 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8660,
+          "name": "Angel Montas Jr.",
+          "team": "UMass Lowell"
+        },
+        {
+          "id": 5484,
+          "name": "Cooper Koch",
+          "team": "Iowa"
+        },
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz",
+          "team": "Iowa"
+        },
+        {
+          "id": 3603,
+          "name": "Tavion Banks",
+          "team": "Iowa"
+        },
+        {
+          "id": 995,
+          "name": "Khalil Farmer",
+          "team": "UMass Lowell"
+        },
+        {
+          "id": 202867,
+          "name": "JJ Massaquoi",
+          "team": "UMass Lowell"
+        },
+        {
+          "id": 202873,
+          "name": "Xavier Spencer",
+          "team": "UMass Lowell"
+        },
+        {
+          "id": 3600,
+          "name": "Kael Combs",
+          "team": "Iowa"
+        },
+        {
+          "id": 3302,
+          "name": "Alvaro Folgueiras",
+          "team": "Iowa"
+        },
+        {
+          "id": 202869,
+          "name": "Victor Okojie",
+          "team": "UMass Lowell"
+        }
+      ]
+    },
+    {
+      "gameId": 214215,
+      "gameSourceId": "401823651",
+      "gameStartDate": "2025-12-29T22:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42766116,
+      "sourceId": "401823651116438944",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 124,
+      "team": "Iowa",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 318,
+      "opponent": "UMass Lowell",
+      "opponentConference": "Am. East",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 43,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "8:51",
+      "secondsRemaining": 531,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-12-29T23:34:12.000Z",
+      "playText": "Bennett Stirtz makes driving layup (Alvaro Folgueiras assists)",
+      "participants": [
+        {
+          "id": 3302,
+          "name": "Alvaro Folgueiras"
+        },
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 3302,
+          "name": "Alvaro Folgueiras"
+        },
+        "location": {
+          "x": 65.8,
+          "y": 265
         }
       },
       "onFloor": [
@@ -29394,8 +29394,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43556307,
-      "sourceId": "401825422116900207",
+      "id": 43556309,
+      "sourceId": "401825422116900228",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -29407,16 +29407,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 26,
-      "homeWinProbability": 0.937,
+      "awayScore": 27,
+      "homeWinProbability": 0.92,
       "period": 2,
       "clock": "17:13",
       "secondsRemaining": 1033,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T02:04:12.000Z",
-      "playText": "Bennett Stirtz misses free throw 1 of 2",
+      "wallclock": "2026-01-07T02:04:26.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -29428,7 +29428,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29501,8 +29501,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43556309,
-      "sourceId": "401825422116900228",
+      "id": 43556307,
+      "sourceId": "401825422116900207",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -29514,16 +29514,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 27,
-      "homeWinProbability": 0.92,
+      "awayScore": 26,
+      "homeWinProbability": 0.937,
       "period": 2,
       "clock": "17:13",
       "secondsRemaining": 1033,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T02:04:26.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-01-07T02:04:12.000Z",
+      "playText": "Bennett Stirtz misses free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -29535,7 +29535,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29715,9 +29715,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43556343,
-      "sourceId": "401825422116901440",
-      "playType": "JumpShot",
+      "id": 43556345,
+      "sourceId": "401825422116901448",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
       "team": "Iowa",
@@ -29733,11 +29733,11 @@
       "period": 2,
       "clock": "13:35",
       "secondsRemaining": 815,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-07T02:17:04.000Z",
-      "playText": "Bennett Stirtz makes 9-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-07T02:17:23.000Z",
+      "playText": "Bennett Stirtz misses free throw 1 of 1",
       "participants": [
         {
           "id": 3596,
@@ -29749,16 +29749,16 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 112.8,
-          "y": 310
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -29822,9 +29822,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43556345,
-      "sourceId": "401825422116901448",
-      "playType": "MadeFreeThrow",
+      "id": 43556343,
+      "sourceId": "401825422116901440",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 124,
       "team": "Iowa",
@@ -29840,11 +29840,11 @@
       "period": 2,
       "clock": "13:35",
       "secondsRemaining": 815,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-07T02:17:23.000Z",
-      "playText": "Bennett Stirtz misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-07T02:17:04.000Z",
+      "playText": "Bennett Stirtz makes 9-foot jumper",
       "participants": [
         {
           "id": 3596,
@@ -29856,16 +29856,16 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 112.8,
+          "y": 310
         }
       },
       "onFloor": [
@@ -30793,8 +30793,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43556440,
-      "sourceId": "401825422116903493",
+      "id": 43556445,
+      "sourceId": "401825422116903536",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -30806,16 +30806,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 46,
-      "homeWinProbability": 0.988,
+      "awayScore": 47,
+      "homeWinProbability": 0.979,
       "period": 2,
       "clock": "6:16",
       "secondsRemaining": 376,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T02:42:04.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 3",
+      "wallclock": "2026-01-07T02:42:22.000Z",
+      "playText": "Bennett Stirtz makes free throw 3 of 3",
       "participants": [
         {
           "id": 3596,
@@ -31007,8 +31007,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43556445,
-      "sourceId": "401825422116903536",
+      "id": 43556440,
+      "sourceId": "401825422116903493",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -31020,16 +31020,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 47,
-      "homeWinProbability": 0.979,
+      "awayScore": 46,
+      "homeWinProbability": 0.988,
       "period": 2,
       "clock": "6:16",
       "secondsRemaining": 376,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T02:42:22.000Z",
-      "playText": "Bennett Stirtz makes free throw 3 of 3",
+      "wallclock": "2026-01-07T02:42:04.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 3",
       "participants": [
         {
           "id": 3596,
@@ -38039,8 +38039,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44525612,
-      "sourceId": "401825447117475060",
+      "id": 44525613,
+      "sourceId": "401825447117475104",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -38052,16 +38052,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 34,
-      "homeWinProbability": 0.25,
+      "awayScore": 35,
+      "homeWinProbability": 0.241,
       "period": 1,
       "clock": "2:34",
       "secondsRemaining": 154,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:56:28.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-01-17T19:56:40.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -38146,8 +38146,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44525613,
-      "sourceId": "401825447117475104",
+      "id": 44525612,
+      "sourceId": "401825447117475060",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -38159,16 +38159,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 35,
-      "homeWinProbability": 0.241,
+      "awayScore": 34,
+      "homeWinProbability": 0.25,
       "period": 1,
       "clock": "2:34",
       "secondsRemaining": 154,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:56:40.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-01-17T19:56:28.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -39006,8 +39006,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44525694,
-      "sourceId": "401825447117492619",
+      "id": 44525690,
+      "sourceId": "401825447117492218",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -39019,16 +39019,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 47,
-      "homeWinProbability": 0.202,
+      "awayScore": 45,
+      "homeWinProbability": 0.231,
       "period": 2,
       "clock": "14:46",
       "secondsRemaining": 886,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T20:29:58.000Z",
-      "playText": "Bennett Stirtz makes free throw 3 of 3",
+      "wallclock": "2026-01-17T20:29:27.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 3",
       "participants": [
         {
           "id": 3596,
@@ -39220,8 +39220,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44525690,
-      "sourceId": "401825447117492218",
+      "id": 44525694,
+      "sourceId": "401825447117492619",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -39233,16 +39233,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 45,
-      "homeWinProbability": 0.231,
+      "awayScore": 47,
+      "homeWinProbability": 0.202,
       "period": 2,
       "clock": "14:46",
       "secondsRemaining": 886,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T20:29:27.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 3",
+      "wallclock": "2026-01-17T20:29:58.000Z",
+      "playText": "Bennett Stirtz makes free throw 3 of 3",
       "participants": [
         {
           "id": 3596,
@@ -40512,9 +40512,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44912716,
-      "sourceId": "401825455117655612",
-      "playType": "MadeFreeThrow",
+      "id": 44912714,
+      "sourceId": "401825455117655567",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -40530,11 +40530,11 @@
       "period": 1,
       "clock": "6:59",
       "secondsRemaining": 419,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-21T02:06:01.000Z",
-      "playText": "Bennett Stirtz misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-21T02:05:37.000Z",
+      "playText": "Bennett Stirtz makes driving layup",
       "participants": [
         {
           "id": 3596,
@@ -40546,16 +40546,16 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 290
         }
       },
       "onFloor": [
@@ -40619,9 +40619,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44912714,
-      "sourceId": "401825455117655567",
-      "playType": "LayUpShot",
+      "id": 44912716,
+      "sourceId": "401825455117655612",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -40637,11 +40637,11 @@
       "period": 1,
       "clock": "6:59",
       "secondsRemaining": 419,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-21T02:05:37.000Z",
-      "playText": "Bennett Stirtz makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-21T02:06:01.000Z",
+      "playText": "Bennett Stirtz misses free throw 1 of 1",
       "participants": [
         {
           "id": 3596,
@@ -40653,16 +40653,16 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 290
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -43417,8 +43417,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45564168,
-      "sourceId": "401825476118017865",
+      "id": 45564173,
+      "sourceId": "401825476118017974",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -43429,17 +43429,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 8,
       "awayScore": 14,
-      "homeWinProbability": 0.395,
+      "homeWinProbability": 0.414,
       "period": 1,
       "clock": "10:45",
       "secondsRemaining": 645,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T00:22:55.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-01-29T00:23:29.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -43524,8 +43524,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45564173,
-      "sourceId": "401825476118017974",
+      "id": 45564168,
+      "sourceId": "401825476118017865",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -43536,17 +43536,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 8,
+      "homeScore": 7,
       "awayScore": 14,
-      "homeWinProbability": 0.414,
+      "homeWinProbability": 0.395,
       "period": 1,
       "clock": "10:45",
       "secondsRemaining": 645,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T00:23:29.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-01-29T00:22:55.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -45252,8 +45252,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45564492,
-      "sourceId": "401825476118042195",
+      "id": 45564497,
+      "sourceId": "401825476118042241",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -45264,17 +45264,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 72,
-      "homeWinProbability": 0.576,
+      "homeWinProbability": 0.706,
       "period": 2,
       "clock": "0:04",
       "secondsRemaining": 4,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T02:03:04.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-01-29T02:03:26.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -45359,8 +45359,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45564497,
-      "sourceId": "401825476118042241",
+      "id": 45564492,
+      "sourceId": "401825476118042195",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -45371,17 +45371,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 72,
-      "homeWinProbability": 0.706,
+      "homeWinProbability": 0.576,
       "period": 2,
       "clock": "0:04",
       "secondsRemaining": 4,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T02:03:26.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-01-29T02:03:04.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -49489,8 +49489,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46235457,
-      "sourceId": "401825494118432325",
+      "id": 46235459,
+      "sourceId": "401825494118432327",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -49502,16 +49502,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 41,
-      "homeWinProbability": 0.89,
+      "awayScore": 42,
+      "homeWinProbability": 0.881,
       "period": 2,
       "clock": "19:30",
       "secondsRemaining": 1170,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T05:09:23.000Z",
-      "playText": "Bennett Stirtz misses free throw 1 of 2",
+      "wallclock": "2026-02-05T05:09:36.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -49523,7 +49523,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -49596,8 +49596,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46235459,
-      "sourceId": "401825494118432327",
+      "id": 46235457,
+      "sourceId": "401825494118432325",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -49609,16 +49609,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 42,
-      "homeWinProbability": 0.881,
+      "awayScore": 41,
+      "homeWinProbability": 0.89,
       "period": 2,
       "clock": "19:30",
       "secondsRemaining": 1170,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T05:09:36.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-02-05T05:09:23.000Z",
+      "playText": "Bennett Stirtz misses free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -49630,7 +49630,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51859,9 +51859,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46709103,
-      "sourceId": "401825501118695546",
-      "playType": "LayUpShot",
+      "id": 46709107,
+      "sourceId": "401825501118695588",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -51871,7 +51871,7 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
@@ -51879,9 +51879,9 @@
       "secondsRemaining": 133,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-08T20:50:09.000Z",
-      "playText": "Bennett Stirtz makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-08T20:50:44.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 1",
       "participants": [
         {
           "id": 3596,
@@ -51894,15 +51894,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -51966,9 +51966,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46709107,
-      "sourceId": "401825501118695588",
-      "playType": "MadeFreeThrow",
+      "id": 46709103,
+      "sourceId": "401825501118695546",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -51978,7 +51978,7 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 29,
       "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
@@ -51986,9 +51986,9 @@
       "secondsRemaining": 133,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-08T20:50:44.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-08T20:50:09.000Z",
+      "playText": "Bennett Stirtz makes layup",
       "participants": [
         {
           "id": 3596,
@@ -52001,15 +52001,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 275
         }
       },
       "onFloor": [
@@ -53163,8 +53163,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46709281,
-      "sourceId": "401825501118698099",
+      "id": 46709282,
+      "sourceId": "401825501118698120",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -53175,7 +53175,7 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -53184,8 +53184,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T21:56:01.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-02-08T21:56:17.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -53270,8 +53270,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46709282,
-      "sourceId": "401825501118698120",
+      "id": 46709281,
+      "sourceId": "401825501118698099",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -53282,7 +53282,7 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -53291,8 +53291,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T21:56:17.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-02-08T21:56:01.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -53484,8 +53484,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46709290,
-      "sourceId": "401825501118698185",
+      "id": 46709289,
+      "sourceId": "401825501118698184",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -53496,7 +53496,7 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 69,
       "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
@@ -53505,8 +53505,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T22:01:18.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-02-08T22:01:06.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -53591,8 +53591,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46709289,
-      "sourceId": "401825501118698184",
+      "id": 46709290,
+      "sourceId": "401825501118698185",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -53603,7 +53603,7 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 70,
       "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
@@ -53612,8 +53612,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T22:01:06.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-02-08T22:01:18.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -60178,8 +60178,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417812,
-      "sourceId": "401825520119095100",
+      "id": 47417813,
+      "sourceId": "401825520119095109",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -60190,17 +60190,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 25,
       "awayScore": 21,
-      "homeWinProbability": 0.711,
+      "homeWinProbability": 0.759,
       "period": 1,
       "clock": "3:16",
       "secondsRemaining": 196,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T02:49:56.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-02-18T02:50:07.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -60285,8 +60285,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417813,
-      "sourceId": "401825520119095109",
+      "id": 47417812,
+      "sourceId": "401825520119095100",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -60297,17 +60297,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 24,
       "awayScore": 21,
-      "homeWinProbability": 0.759,
+      "homeWinProbability": 0.711,
       "period": 1,
       "clock": "3:16",
       "secondsRemaining": 196,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T02:50:07.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-02-18T02:49:56.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -62009,6 +62009,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 47418008,
+      "sourceId": "401825520119098827",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 124,
+      "team": "Iowa",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 188,
+      "opponent": "Nebraska",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 52,
+      "awayScore": 47,
+      "homeWinProbability": 0.913,
+      "period": 2,
+      "clock": "0:36",
+      "secondsRemaining": 36,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T04:07:10.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 3",
+      "participants": [
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 3596,
+          "name": "Bennett Stirtz"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3603,
+          "name": "Tavion Banks",
+          "team": "Iowa"
+        },
+        {
+          "id": 3594,
+          "name": "Cam Manyawu",
+          "team": "Iowa"
+        },
+        {
+          "id": 5485,
+          "name": "Pryce Sandfort",
+          "team": "Nebraska"
+        },
+        {
+          "id": 5589,
+          "name": "Rienk Mast",
+          "team": "Nebraska"
+        },
+        {
+          "id": 3599,
+          "name": "Isaia Howard",
+          "team": "Iowa"
+        },
+        {
+          "id": 5484,
+          "name": "Cooper Koch",
+          "team": "Iowa"
+        },
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz",
+          "team": "Iowa"
+        },
+        {
+          "id": 5590,
+          "name": "Cale Jacobsen",
+          "team": "Nebraska"
+        },
+        {
+          "id": 5148,
+          "name": "Jamarques Lawrence",
+          "team": "Nebraska"
+        },
+        {
+          "id": 5583,
+          "name": "Sam Hoiberg",
+          "team": "Nebraska"
+        }
+      ]
+    },
+    {
+      "gameId": 214972,
+      "gameSourceId": "401825520",
+      "gameStartDate": "2026-02-18T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 47418007,
       "sourceId": "401825520119098791",
       "playType": "MadeFreeThrow",
@@ -62139,113 +62246,6 @@
       "scoreValue": 1,
       "wallclock": "2026-02-18T04:07:27.000Z",
       "playText": "Bennett Stirtz makes free throw 3 of 3",
-      "participants": [
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 3596,
-          "name": "Bennett Stirtz"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3603,
-          "name": "Tavion Banks",
-          "team": "Iowa"
-        },
-        {
-          "id": 3594,
-          "name": "Cam Manyawu",
-          "team": "Iowa"
-        },
-        {
-          "id": 5485,
-          "name": "Pryce Sandfort",
-          "team": "Nebraska"
-        },
-        {
-          "id": 5589,
-          "name": "Rienk Mast",
-          "team": "Nebraska"
-        },
-        {
-          "id": 3599,
-          "name": "Isaia Howard",
-          "team": "Iowa"
-        },
-        {
-          "id": 5484,
-          "name": "Cooper Koch",
-          "team": "Iowa"
-        },
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz",
-          "team": "Iowa"
-        },
-        {
-          "id": 5590,
-          "name": "Cale Jacobsen",
-          "team": "Nebraska"
-        },
-        {
-          "id": 5148,
-          "name": "Jamarques Lawrence",
-          "team": "Nebraska"
-        },
-        {
-          "id": 5583,
-          "name": "Sam Hoiberg",
-          "team": "Nebraska"
-        }
-      ]
-    },
-    {
-      "gameId": 214972,
-      "gameSourceId": "401825520",
-      "gameStartDate": "2026-02-18T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 47418008,
-      "sourceId": "401825520119098827",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 124,
-      "team": "Iowa",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 188,
-      "opponent": "Nebraska",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 52,
-      "awayScore": 47,
-      "homeWinProbability": 0.913,
-      "period": 2,
-      "clock": "0:36",
-      "secondsRemaining": 36,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T04:07:10.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 3",
       "participants": [
         {
           "id": 3596,
@@ -64712,9 +64712,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48045230,
-      "sourceId": "401825540119506561",
-      "playType": "LayUpShot",
+      "id": 48045237,
+      "sourceId": "401825540119507005",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -64724,7 +64724,7 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 10,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -64732,9 +64732,9 @@
       "secondsRemaining": 715,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-26T02:27:34.000Z",
-      "playText": "Bennett Stirtz makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-26T02:31:05.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 1",
       "participants": [
         {
           "id": 3596,
@@ -64747,15 +64747,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -64819,9 +64819,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48045237,
-      "sourceId": "401825540119507005",
-      "playType": "MadeFreeThrow",
+      "id": 48045230,
+      "sourceId": "401825540119506561",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 124,
       "team": "Iowa",
@@ -64831,7 +64831,7 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 9,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -64839,9 +64839,9 @@
       "secondsRemaining": 715,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-26T02:31:05.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-26T02:27:34.000Z",
+      "playText": "Bennett Stirtz makes driving layup",
       "participants": [
         {
           "id": 3596,
@@ -64854,15 +64854,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 240
         }
       },
       "onFloor": [
@@ -66975,8 +66975,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48265441,
-      "sourceId": "401825547119618091",
+      "id": 48265440,
+      "sourceId": "401825547119618090",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -66988,7 +66988,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 11,
+      "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "15:02",
@@ -66996,8 +66996,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T17:10:34.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-02-28T17:10:23.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -67082,8 +67082,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48265440,
-      "sourceId": "401825547119618090",
+      "id": 48265441,
+      "sourceId": "401825547119618091",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -67095,7 +67095,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 10,
+      "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
       "clock": "15:02",
@@ -67103,8 +67103,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T17:10:23.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-02-28T17:10:34.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -71291,8 +71291,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48774190,
-      "sourceId": "401825560119947226",
+      "id": 48774191,
+      "sourceId": "401825560119947271",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -71303,7 +71303,7 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
@@ -71312,8 +71312,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-06T02:47:44.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-03-06T02:48:00.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -71398,8 +71398,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48774191,
-      "sourceId": "401825560119947271",
+      "id": 48774190,
+      "sourceId": "401825560119947226",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 124,
@@ -71410,7 +71410,7 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
@@ -71419,8 +71419,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-06T02:48:00.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-06T02:47:44.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -79644,8 +79644,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49569065,
-      "sourceId": "401856522120330915",
+      "id": 49569067,
+      "sourceId": "401856522120330928",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -79657,16 +79657,16 @@
       "opponentConference": "ACC",
       "opponentSeed": 8,
       "homeScore": 16,
-      "awayScore": 25,
+      "awayScore": 26,
       "homeWinProbability": null,
       "period": 1,
       "clock": "3:44",
       "secondsRemaining": 224,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T23:29:41.000Z",
-      "playText": "Bennett Stirtz misses free throw 1 of 2",
+      "wallclock": "2026-03-20T23:29:56.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -79678,7 +79678,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -79751,8 +79751,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49569067,
-      "sourceId": "401856522120330928",
+      "id": 49569065,
+      "sourceId": "401856522120330915",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -79764,16 +79764,16 @@
       "opponentConference": "ACC",
       "opponentSeed": 8,
       "homeScore": 16,
-      "awayScore": 26,
+      "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
       "clock": "3:44",
       "secondsRemaining": 224,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T23:29:56.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-20T23:29:41.000Z",
+      "playText": "Bennett Stirtz misses free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -79785,7 +79785,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -79969,8 +79969,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49569083,
-      "sourceId": "401856522120331039",
+      "id": 49569076,
+      "sourceId": "401856522120331026",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -79982,7 +79982,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 8,
       "homeScore": 22,
-      "awayScore": 31,
+      "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:35",
@@ -79990,8 +79990,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T23:32:55.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-20T23:32:36.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -80076,8 +80076,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49569076,
-      "sourceId": "401856522120331026",
+      "id": 49569083,
+      "sourceId": "401856522120331039",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -80089,7 +80089,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 8,
       "homeScore": 22,
-      "awayScore": 30,
+      "awayScore": 31,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:35",
@@ -80097,8 +80097,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T23:32:36.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-03-20T23:32:55.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -81257,8 +81257,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49569329,
-      "sourceId": "401856522120334273",
+      "id": 49569328,
+      "sourceId": "401856522120334272",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -81270,7 +81270,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 8,
       "homeScore": 60,
-      "awayScore": 67,
+      "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:10",
@@ -81278,8 +81278,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T01:06:43.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-21T01:06:33.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -81364,8 +81364,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49569328,
-      "sourceId": "401856522120334272",
+      "id": 49569329,
+      "sourceId": "401856522120334273",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -81377,7 +81377,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 8,
       "homeScore": 60,
-      "awayScore": 66,
+      "awayScore": 67,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:10",
@@ -81385,8 +81385,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T01:06:33.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-03-21T01:06:43.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -82874,8 +82874,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49614962,
-      "sourceId": "401856563120368896",
+      "id": 49614964,
+      "sourceId": "401856563120368902",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -82887,16 +82887,16 @@
       "opponentConference": "SEC",
       "opponentSeed": 1,
       "homeScore": 56,
-      "awayScore": 57,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:51",
       "secondsRemaining": 471,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:04:40.000Z",
-      "playText": "Bennett Stirtz misses free throw 1 of 2",
+      "wallclock": "2026-03-23T01:04:54.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -82908,7 +82908,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -82981,8 +82981,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49614964,
-      "sourceId": "401856563120368902",
+      "id": 49614962,
+      "sourceId": "401856563120368896",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -82994,16 +82994,16 @@
       "opponentConference": "SEC",
       "opponentSeed": 1,
       "homeScore": 56,
-      "awayScore": 58,
+      "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:51",
       "secondsRemaining": 471,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:04:54.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-23T01:04:40.000Z",
+      "playText": "Bennett Stirtz misses free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -83015,7 +83015,7 @@
           "id": 3596,
           "name": "Bennett Stirtz"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -83413,8 +83413,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49614992,
-      "sourceId": "401856563120369012",
+      "id": 49614983,
+      "sourceId": "401856563120369003",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -83426,7 +83426,7 @@
       "opponentConference": "SEC",
       "opponentSeed": 1,
       "homeScore": 65,
-      "awayScore": 63,
+      "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:12",
@@ -83434,8 +83434,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:09:55.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-23T01:09:34.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -83520,8 +83520,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49614983,
-      "sourceId": "401856563120369003",
+      "id": 49614992,
+      "sourceId": "401856563120369012",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -83533,7 +83533,7 @@
       "opponentConference": "SEC",
       "opponentSeed": 1,
       "homeScore": 65,
-      "awayScore": 62,
+      "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:12",
@@ -83541,8 +83541,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:09:34.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-03-23T01:09:55.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -84492,9 +84492,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49643773,
-      "sourceId": "401856567120385435",
-      "playType": "MadeFreeThrow",
+      "id": 49643771,
+      "sourceId": "401856567120385432",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 124,
       "team": "Iowa",
@@ -84505,16 +84505,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 4,
       "homeScore": 16,
-      "awayScore": 11,
+      "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "14:24",
       "secondsRemaining": 864,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-26T23:45:08.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-26T23:44:49.000Z",
+      "playText": "Bennett Stirtz makes 15-foot floating jump shot",
       "participants": [
         {
           "id": 3596,
@@ -84527,15 +84527,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 789.6,
+          "y": 140
         }
       },
       "onFloor": [
@@ -84599,9 +84599,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49643771,
-      "sourceId": "401856567120385432",
-      "playType": "JumpShot",
+      "id": 49643773,
+      "sourceId": "401856567120385435",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
       "team": "Iowa",
@@ -84612,16 +84612,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 4,
       "homeScore": 16,
-      "awayScore": 10,
+      "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
       "clock": "14:24",
       "secondsRemaining": 864,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-26T23:44:49.000Z",
-      "playText": "Bennett Stirtz makes 15-foot floating jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-03-26T23:45:08.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 1",
       "participants": [
         {
           "id": 3596,
@@ -84634,15 +84634,15 @@
           "name": "Bennett Stirtz"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 789.6,
-          "y": 140
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -86601,11 +86601,6 @@
       },
       "onFloor": [
         {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -86649,6 +86644,11 @@
           "id": 5484,
           "name": "Cooper Koch",
           "team": "Iowa"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
         }
       ]
     },
@@ -86708,11 +86708,6 @@
       },
       "onFloor": [
         {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -86756,6 +86751,11 @@
           "id": 5484,
           "name": "Cooper Koch",
           "team": "Iowa"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
         }
       ]
     },
@@ -86815,11 +86815,6 @@
       },
       "onFloor": [
         {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -86863,6 +86858,11 @@
           "id": 5484,
           "name": "Cooper Koch",
           "team": "Iowa"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
         }
       ]
     },
@@ -86926,11 +86926,6 @@
       },
       "onFloor": [
         {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -86974,6 +86969,11 @@
           "id": 5484,
           "name": "Cooper Koch",
           "team": "Iowa"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
         }
       ]
     },
@@ -88067,8 +88067,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657589,
-      "sourceId": "401856574120399168",
+      "id": 49657584,
+      "sourceId": "401856574120399163",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -88080,7 +88080,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 3,
       "homeScore": 43,
-      "awayScore": 44,
+      "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:42",
@@ -88088,8 +88088,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T23:47:45.000Z",
-      "playText": "Bennett Stirtz makes free throw 2 of 2",
+      "wallclock": "2026-03-28T23:47:26.000Z",
+      "playText": "Bennett Stirtz makes free throw 1 of 2",
       "participants": [
         {
           "id": 3596,
@@ -88174,8 +88174,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657584,
-      "sourceId": "401856574120399163",
+      "id": 49657589,
+      "sourceId": "401856574120399168",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 124,
@@ -88187,7 +88187,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 3,
       "homeScore": 43,
-      "awayScore": 43,
+      "awayScore": 44,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:42",
@@ -88195,8 +88195,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T23:47:26.000Z",
-      "playText": "Bennett Stirtz makes free throw 1 of 2",
+      "wallclock": "2026-03-28T23:47:45.000Z",
+      "playText": "Bennett Stirtz makes free throw 2 of 2",
       "participants": [
         {
           "id": 3596,
@@ -88543,6 +88543,11 @@
       },
       "onFloor": [
         {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -88580,11 +88585,6 @@
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
           "team": "Illinois"
         },
         {
@@ -88650,6 +88650,11 @@
       },
       "onFloor": [
         {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -88687,11 +88692,6 @@
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
           "team": "Illinois"
         },
         {
@@ -88757,6 +88757,11 @@
       },
       "onFloor": [
         {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
           "id": 5640,
           "name": "Tomislav Ivisic",
           "team": "Illinois"
@@ -88784,11 +88789,6 @@
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
           "team": "Illinois"
         },
         {
@@ -88864,6 +88864,11 @@
       },
       "onFloor": [
         {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
           "id": 3594,
           "name": "Cam Manyawu",
           "team": "Iowa"
@@ -88886,11 +88891,6 @@
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
           "team": "Illinois"
         },
         {
@@ -88971,6 +88971,11 @@
       },
       "onFloor": [
         {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
           "id": 199681,
           "name": "David Mirkovic",
           "team": "Illinois"
@@ -88983,11 +88988,6 @@
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
           "team": "Illinois"
         },
         {
@@ -89078,6 +89078,11 @@
       },
       "onFloor": [
         {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
           "id": 199681,
           "name": "David Mirkovic",
           "team": "Illinois"
@@ -89090,11 +89095,6 @@
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
           "team": "Illinois"
         },
         {
@@ -89128,6 +89128,785 @@
           "team": "Iowa"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-05",
+      "opponent": "Robert Morris",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 19,
+      "rebounds": 0,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Western Illinois",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 24,
+      "rebounds": 1,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 11,
+      "threeMade": 4,
+      "threeAttempted": 7,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Xavier",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 21,
+      "rebounds": 8,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 7,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2025-11-19",
+      "opponent": "Southeast Missouri State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 15,
+      "rebounds": 1,
+      "assists": 9,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-21",
+      "opponent": "Chicago State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 9,
+      "rebounds": 5,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 5,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-11-26",
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 29,
+      "rebounds": 3,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 9,
+      "fgAttempted": 20,
+      "threeMade": 6,
+      "threeAttempted": 8,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "Grand Canyon",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 13,
+      "rebounds": 2,
+      "assists": 5,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 7,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "Michigan State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 14,
+      "rebounds": 2,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 3,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Maryland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 25,
+      "rebounds": 1,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 10,
+      "fgAttempted": 17,
+      "threeMade": 4,
+      "threeAttempted": 8,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2025-12-12",
+      "opponent": "Iowa State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 10,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 11,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Western Michigan",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 13,
+      "rebounds": 1,
+      "assists": 6,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 8,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Bucknell",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 8,
+      "rebounds": 2,
+      "assists": 6,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2025-12-29",
+      "opponent": "UMass Lowell",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 22,
+      "rebounds": 1,
+      "assists": 8,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 7,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "UCLA",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 27,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 4,
+      "fgMade": 8,
+      "fgAttempted": 10,
+      "threeMade": 4,
+      "threeAttempted": 6,
+      "ftMade": 7,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-07",
+      "opponent": "Minnesota",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 21,
+      "rebounds": 1,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 17,
+      "threeMade": 2,
+      "threeAttempted": 10,
+      "ftMade": 7,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-01-11",
+      "opponent": "Illinois",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 12,
+      "rebounds": 1,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 17,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Purdue",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 19,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 9,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Indiana",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 27,
+      "rebounds": 3,
+      "assists": 5,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 10,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "Rutgers",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 20,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 5,
+      "fouls": 1,
+      "fgMade": 8,
+      "fgAttempted": 21,
+      "threeMade": 0,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2026-01-29",
+      "opponent": "USC",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 20,
+      "rebounds": 3,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-02",
+      "opponent": "Oregon",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 32,
+      "rebounds": 0,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 12,
+      "fgAttempted": 15,
+      "threeMade": 4,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-05",
+      "opponent": "Washington",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 22,
+      "rebounds": 1,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 13,
+      "threeMade": 4,
+      "threeAttempted": 8,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Northwestern",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 36,
+      "rebounds": 2,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 12,
+      "fgAttempted": 20,
+      "threeMade": 4,
+      "threeAttempted": 6,
+      "ftMade": 8,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-02-11",
+      "opponent": "Maryland",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 32,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 13,
+      "fgAttempted": 21,
+      "threeMade": 4,
+      "threeAttempted": 10,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Purdue",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 19,
+      "rebounds": 5,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-18",
+      "opponent": "Nebraska",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 25,
+      "rebounds": 2,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 2,
+      "turnovers": 4,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 22,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 7,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-02-22",
+      "opponent": "Wisconsin",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 23,
+      "rebounds": 1,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 9,
+      "fgAttempted": 16,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-26",
+      "opponent": "Ohio State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 22,
+      "rebounds": 1,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 11,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "Penn State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 16,
+      "rebounds": 1,
+      "assists": 5,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 6,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-06",
+      "opponent": "Michigan",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 21,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 23,
+      "threeMade": 4,
+      "threeAttempted": 14,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "Nebraska",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 45,
+      "points": 11,
+      "rebounds": 5,
+      "assists": 3,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-11",
+      "opponent": "Maryland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 17,
+      "rebounds": 6,
+      "assists": 8,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 18,
+      "threeMade": 2,
+      "threeAttempted": 9,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-12",
+      "opponent": "Ohio State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 17,
+      "rebounds": 1,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 11,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "Clemson",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 40,
+      "points": 16,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 4,
+      "fgAttempted": 17,
+      "threeMade": 3,
+      "threeAttempted": 10,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-22",
+      "opponent": "Florida",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 40,
+      "points": 13,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 5,
+      "fgAttempted": 16,
+      "threeMade": 0,
+      "threeAttempted": 9,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Nebraska",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 40,
+      "points": 20,
+      "rebounds": 2,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 9,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-28",
+      "opponent": "Illinois",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 40,
+      "points": 24,
+      "rebounds": 3,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 17,
+      "threeMade": 4,
+      "threeAttempted": 11,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
     }
   ],
   "topLineups": [

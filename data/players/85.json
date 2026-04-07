@@ -22,10 +22,10 @@
     "steals": 38,
     "blocks": 6,
     "offensiveRating": 127.4,
-    "defensiveRating": 114.2,
-    "netRating": 13.2,
+    "defensiveRating": 114.3,
+    "netRating": 13.1,
     "PORPAG": 6,
-    "usage": 30.3,
+    "usage": 30.1,
     "assistsTurnoverRatio": 1.96,
     "offensiveReboundPct": 16.2,
     "freeThrowRate": 40.8,
@@ -128,8 +128,8 @@
     "games": 35,
     "wins": 25,
     "losses": 10,
-    "totalMinutes": 1420,
-    "pace": 73.3,
+    "totalMinutes": 1410,
+    "pace": 73.8,
     "teamStats": {
       "assists": 571,
       "blocks": 173,
@@ -248,7 +248,7 @@
       "city": "Mobile",
       "state": "AL"
     },
-    "dateOfBirth": "2005-11-24"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -2249,9 +2249,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37628645,
-      "sourceId": "401812260113680196",
-      "playType": "LayUpShot",
+      "id": 37628652,
+      "sourceId": "401812260113681870",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -2261,7 +2261,7 @@
       "opponent": "North Dakota",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 84,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -2269,9 +2269,9 @@
       "secondsRemaining": 229,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-04T02:41:48.000Z",
-      "playText": "Labaron Philon Jr. made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T02:44:59.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -2284,15 +2284,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -2356,9 +2356,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37628652,
-      "sourceId": "401812260113681870",
-      "playType": "MadeFreeThrow",
+      "id": 37628645,
+      "sourceId": "401812260113680196",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -2368,7 +2368,7 @@
       "opponent": "North Dakota",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 83,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -2376,9 +2376,9 @@
       "secondsRemaining": 229,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T02:44:59.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-04T02:41:48.000Z",
+      "playText": "Labaron Philon Jr. made Layup.",
       "participants": [
         {
           "id": 85,
@@ -2391,15 +2391,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -3391,8 +3391,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38363954,
-      "sourceId": "401812261113947600",
+      "id": 38363950,
+      "sourceId": "401812261113947593",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -3404,16 +3404,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 42,
-      "homeWinProbability": 0.448,
+      "awayScore": 41,
+      "homeWinProbability": 0.551,
       "period": 1,
       "clock": "2:49",
       "secondsRemaining": 169,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T17:52:32.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "wallclock": "2025-11-08T17:52:17.000Z",
+      "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -3425,7 +3425,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -3498,8 +3498,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38363950,
-      "sourceId": "401812261113947593",
+      "id": 38363954,
+      "sourceId": "401812261113947600",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -3511,16 +3511,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 41,
-      "homeWinProbability": 0.551,
+      "awayScore": 42,
+      "homeWinProbability": 0.448,
       "period": 1,
       "clock": "2:49",
       "secondsRemaining": 169,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T17:52:17.000Z",
-      "playText": "Labaron Philon Jr. missed Free Throw.",
+      "wallclock": "2025-11-08T17:52:32.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -3532,7 +3532,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -3819,9 +3819,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38364050,
-      "sourceId": "401812261113949538",
-      "playType": "MadeFreeThrow",
+      "id": 38364042,
+      "sourceId": "401812261113949488",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -3837,11 +3837,11 @@
       "period": 2,
       "clock": "16:33",
       "secondsRemaining": 993,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T18:23:59.000Z",
-      "playText": "Labaron Philon Jr. missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T18:23:19.000Z",
+      "playText": "Labaron Philon Jr. made Layup.",
       "participants": [
         {
           "id": 85,
@@ -3853,16 +3853,16 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 275
         }
       },
       "onFloor": [
@@ -3926,9 +3926,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38364042,
-      "sourceId": "401812261113949488",
-      "playType": "LayUpShot",
+      "id": 38364050,
+      "sourceId": "401812261113949538",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -3944,11 +3944,11 @@
       "period": 2,
       "clock": "16:33",
       "secondsRemaining": 993,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T18:23:19.000Z",
-      "playText": "Labaron Philon Jr. made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T18:23:59.000Z",
+      "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -3960,16 +3960,16 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -4782,8 +4782,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38364242,
-      "sourceId": "401812261113953127",
+      "id": 38364237,
+      "sourceId": "401812261113953094",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -4795,15 +4795,15 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 88,
-      "awayScore": 95,
-      "homeWinProbability": 0.032,
+      "awayScore": 94,
+      "homeWinProbability": 0.025,
       "period": 2,
       "clock": "2:32",
       "secondsRemaining": 152,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T19:09:33.000Z",
+      "wallclock": "2025-11-08T19:09:10.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -4889,8 +4889,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38364237,
-      "sourceId": "401812261113953094",
+      "id": 38364242,
+      "sourceId": "401812261113953127",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -4902,15 +4902,15 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 88,
-      "awayScore": 94,
-      "homeWinProbability": 0.025,
+      "awayScore": 95,
+      "homeWinProbability": 0.032,
       "period": 2,
       "clock": "2:32",
       "secondsRemaining": 152,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T19:09:10.000Z",
+      "wallclock": "2025-11-08T19:09:33.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -8579,8 +8579,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39566982,
-      "sourceId": "401811098114641072",
+      "id": 39566979,
+      "sourceId": "401811098114641024",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -8592,15 +8592,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 48,
-      "homeWinProbability": 0.382,
+      "awayScore": 47,
+      "homeWinProbability": 0.418,
       "period": 2,
       "clock": "16:53",
       "secondsRemaining": 1013,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T03:29:12.000Z",
+      "wallclock": "2025-11-20T03:28:51.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -8686,8 +8686,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39566979,
-      "sourceId": "401811098114641024",
+      "id": 39566982,
+      "sourceId": "401811098114641072",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -8699,15 +8699,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 47,
-      "homeWinProbability": 0.418,
+      "awayScore": 48,
+      "homeWinProbability": 0.382,
       "period": 2,
       "clock": "16:53",
       "secondsRemaining": 1013,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T03:28:51.000Z",
+      "wallclock": "2025-11-20T03:29:12.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -10196,8 +10196,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39567264,
-      "sourceId": "401811098114643671",
+      "id": 39567266,
+      "sourceId": "401811098114643680",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -10209,16 +10209,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 87,
-      "homeWinProbability": 0.201,
+      "awayScore": 88,
+      "homeWinProbability": 0.088,
       "period": 2,
       "clock": "0:08",
       "secondsRemaining": 8,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T04:35:59.000Z",
-      "playText": "Labaron Philon Jr. missed Free Throw.",
+      "wallclock": "2025-11-20T04:36:22.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -10230,7 +10230,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10303,8 +10303,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39567266,
-      "sourceId": "401811098114643680",
+      "id": 39567264,
+      "sourceId": "401811098114643671",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -10316,16 +10316,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 88,
-      "homeWinProbability": 0.088,
+      "awayScore": 87,
+      "homeWinProbability": 0.201,
       "period": 2,
       "clock": "0:08",
       "secondsRemaining": 8,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T04:36:22.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "wallclock": "2025-11-20T04:35:59.000Z",
+      "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -10337,7 +10337,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11274,8 +11274,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40083966,
-      "sourceId": "401812263114934441",
+      "id": 40083968,
+      "sourceId": "401812263114934484",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -11286,17 +11286,17 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 38,
       "homeWinProbability": 0.534,
       "period": 1,
       "clock": "1:46",
       "secondsRemaining": 106,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T03:23:47.000Z",
-      "playText": "Labaron Philon Jr. missed Free Throw.",
+      "wallclock": "2025-11-25T03:24:06.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -11308,7 +11308,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11381,8 +11381,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40083968,
-      "sourceId": "401812263114934484",
+      "id": 40083966,
+      "sourceId": "401812263114934441",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -11393,17 +11393,17 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 38,
       "homeWinProbability": 0.534,
       "period": 1,
       "clock": "1:46",
       "secondsRemaining": 106,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T03:24:06.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "wallclock": "2025-11-25T03:23:47.000Z",
+      "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -11415,7 +11415,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12027,9 +12027,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40084022,
-      "sourceId": "401812263114935894",
-      "playType": "LayUpShot",
+      "id": 40084024,
+      "sourceId": "401812263114935935",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -12045,11 +12045,11 @@
       "period": 2,
       "clock": "17:38",
       "secondsRemaining": 1058,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-25T03:52:12.000Z",
-      "playText": "Labaron Philon Jr. made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T03:52:47.000Z",
+      "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -12061,8 +12061,8 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -12134,9 +12134,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40084024,
-      "sourceId": "401812263114935935",
-      "playType": "MadeFreeThrow",
+      "id": 40084022,
+      "sourceId": "401812263114935894",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -12152,11 +12152,11 @@
       "period": 2,
       "clock": "17:38",
       "secondsRemaining": 1058,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T03:52:47.000Z",
-      "playText": "Labaron Philon Jr. missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-25T03:52:12.000Z",
+      "playText": "Labaron Philon Jr. made Layup.",
       "participants": [
         {
           "id": 85,
@@ -12168,8 +12168,8 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -14627,8 +14627,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40186086,
-      "sourceId": "401812264115012789",
+      "id": 40186084,
+      "sourceId": "401812264115012787",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -14648,7 +14648,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T06:18:03.000Z",
+      "wallclock": "2025-11-26T06:17:46.000Z",
       "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
@@ -14734,8 +14734,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40186084,
-      "sourceId": "401812264115012787",
+      "id": 40186086,
+      "sourceId": "401812264115012789",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -14755,7 +14755,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T06:17:46.000Z",
+      "wallclock": "2025-11-26T06:18:03.000Z",
       "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
@@ -15495,9 +15495,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40186267,
-      "sourceId": "401812264115013212",
-      "playType": "MadeFreeThrow",
+      "id": 40186260,
+      "sourceId": "401812264115013163",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -15507,7 +15507,7 @@
       "opponent": "UNLV",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 105,
+      "homeScore": 104,
       "awayScore": 69,
       "homeWinProbability": 1,
       "period": 2,
@@ -15515,9 +15515,9 @@
       "secondsRemaining": 243,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-26T07:00:46.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-26T06:57:18.000Z",
+      "playText": "Labaron Philon Jr. made Layup.",
       "participants": [
         {
           "id": 85,
@@ -15530,15 +15530,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 250
         }
       },
       "onFloor": [
@@ -15602,9 +15602,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40186260,
-      "sourceId": "401812264115013163",
-      "playType": "LayUpShot",
+      "id": 40186267,
+      "sourceId": "401812264115013212",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -15614,7 +15614,7 @@
       "opponent": "UNLV",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 104,
+      "homeScore": 105,
       "awayScore": 69,
       "homeWinProbability": 1,
       "period": 2,
@@ -15622,9 +15622,9 @@
       "secondsRemaining": 243,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-26T06:57:18.000Z",
-      "playText": "Labaron Philon Jr. made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-26T07:00:46.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -15637,15 +15637,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 94,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -18548,8 +18548,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887246,
-      "sourceId": "401806376115407374",
+      "id": 40887245,
+      "sourceId": "401806376115407232",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -18560,16 +18560,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 22,
-      "homeWinProbability": 0.976,
+      "homeWinProbability": 0.961,
       "period": 1,
       "clock": "5:09",
       "secondsRemaining": 309,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T01:02:35.000Z",
+      "wallclock": "2025-12-04T01:02:16.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -18660,8 +18660,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887245,
-      "sourceId": "401806376115407232",
+      "id": 40887246,
+      "sourceId": "401806376115407374",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -18672,16 +18672,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 22,
-      "homeWinProbability": 0.961,
+      "homeWinProbability": 0.976,
       "period": 1,
       "clock": "5:09",
       "secondsRemaining": 309,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T01:02:16.000Z",
+      "wallclock": "2025-12-04T01:02:35.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -19444,118 +19444,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887380,
-      "sourceId": "401806376115426348",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 52,
-      "opponent": "Clemson",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 51,
-      "awayScore": 48,
-      "homeWinProbability": 0.761,
-      "period": 2,
-      "clock": "13:53",
-      "secondsRemaining": 833,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-04T01:46:06.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
-      "participants": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3458,
-          "name": "Dillon Hunter",
-          "team": "Clemson"
-        },
-        {
-          "id": 198678,
-          "name": "Chase Thompson",
-          "team": "Clemson"
-        },
-        {
-          "id": 94,
-          "name": "Houston Mallette",
-          "team": "Alabama"
-        },
-        {
-          "id": 6584,
-          "name": "Jake Wahlin",
-          "team": "Clemson"
-        },
-        {
-          "id": 89,
-          "name": "Aiden Sherrell",
-          "team": "Alabama"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison",
-          "team": "Alabama"
-        },
-        {
-          "id": 198670,
-          "name": "Zac Foster",
-          "team": "Clemson"
-        },
-        {
-          "id": 19,
-          "name": "RJ Godfrey",
-          "team": "Clemson"
-        },
-        {
-          "id": 7057,
-          "name": "Nick Davidson",
-          "team": "Clemson"
-        }
-      ]
-    },
-    {
-      "gameId": 210142,
-      "gameSourceId": "401806376",
-      "gameStartDate": "2025-12-04T00:15:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 40887383,
       "sourceId": "401806376115426503",
       "playType": "MadeFreeThrow",
@@ -19668,8 +19556,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887394,
-      "sourceId": "401806376115427393",
+      "id": 40887380,
+      "sourceId": "401806376115426348",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -19680,16 +19568,128 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 51,
+      "awayScore": 48,
+      "homeWinProbability": 0.761,
+      "period": 2,
+      "clock": "13:53",
+      "secondsRemaining": 833,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-04T01:46:06.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
+      "participants": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3458,
+          "name": "Dillon Hunter",
+          "team": "Clemson"
+        },
+        {
+          "id": 198678,
+          "name": "Chase Thompson",
+          "team": "Clemson"
+        },
+        {
+          "id": 94,
+          "name": "Houston Mallette",
+          "team": "Alabama"
+        },
+        {
+          "id": 6584,
+          "name": "Jake Wahlin",
+          "team": "Clemson"
+        },
+        {
+          "id": 89,
+          "name": "Aiden Sherrell",
+          "team": "Alabama"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison",
+          "team": "Alabama"
+        },
+        {
+          "id": 198670,
+          "name": "Zac Foster",
+          "team": "Clemson"
+        },
+        {
+          "id": 19,
+          "name": "RJ Godfrey",
+          "team": "Clemson"
+        },
+        {
+          "id": 7057,
+          "name": "Nick Davidson",
+          "team": "Clemson"
+        }
+      ]
+    },
+    {
+      "gameId": 210142,
+      "gameSourceId": "401806376",
+      "gameStartDate": "2025-12-04T00:15:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 40887389,
+      "sourceId": "401806376115427230",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 52,
+      "opponent": "Clemson",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 53,
       "awayScore": 50,
-      "homeWinProbability": 0.776,
+      "homeWinProbability": 0.751,
       "period": 2,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T01:48:58.000Z",
+      "wallclock": "2025-12-04T01:48:26.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -19780,8 +19780,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887389,
-      "sourceId": "401806376115427230",
+      "id": 40887394,
+      "sourceId": "401806376115427393",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -19792,16 +19792,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 50,
-      "homeWinProbability": 0.751,
+      "homeWinProbability": 0.776,
       "period": 2,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T01:48:26.000Z",
+      "wallclock": "2025-12-04T01:48:58.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -20796,9 +20796,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887503,
-      "sourceId": "401806376115438380",
-      "playType": "MadeFreeThrow",
+      "id": 40887501,
+      "sourceId": "401806376115438292",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -20808,17 +20808,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 83,
       "awayScore": 83,
-      "homeWinProbability": 0.747,
+      "homeWinProbability": 0.473,
       "period": 2,
       "clock": "2:31",
       "secondsRemaining": 151,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-04T02:29:12.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-04T02:28:41.000Z",
+      "playText": "Labaron Philon Jr. made Jumper.",
       "participants": [
         {
           "id": 85,
@@ -20831,15 +20831,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 799,
+          "y": 240
         }
       },
       "onFloor": [
@@ -20908,9 +20908,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887501,
-      "sourceId": "401806376115438292",
-      "playType": "JumpShot",
+      "id": 40887503,
+      "sourceId": "401806376115438380",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -20920,17 +20920,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 84,
       "awayScore": 83,
-      "homeWinProbability": 0.473,
+      "homeWinProbability": 0.747,
       "period": 2,
       "clock": "2:31",
       "secondsRemaining": 151,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-04T02:28:41.000Z",
-      "playText": "Labaron Philon Jr. made Jumper.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-04T02:29:12.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -20943,15 +20943,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 799,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -22004,8 +22004,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41323967,
-      "sourceId": "401812265115632421",
+      "id": 41323962,
+      "sourceId": "401812265115632325",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -22016,16 +22016,16 @@
       "opponent": "UTSA",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 10,
-      "homeWinProbability": 0.991,
+      "homeWinProbability": 0.987,
       "period": 1,
       "clock": "5:19",
       "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T19:44:07.000Z",
+      "wallclock": "2025-12-07T19:43:45.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -22111,8 +22111,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41323962,
-      "sourceId": "401812265115632325",
+      "id": 41323967,
+      "sourceId": "401812265115632421",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -22123,16 +22123,16 @@
       "opponent": "UTSA",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 10,
-      "homeWinProbability": 0.987,
+      "homeWinProbability": 0.991,
       "period": 1,
       "clock": "5:19",
       "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T19:43:45.000Z",
+      "wallclock": "2025-12-07T19:44:07.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -25686,8 +25686,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41705539,
-      "sourceId": "401812266115872463",
+      "id": 41705538,
+      "sourceId": "401812266115872456",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -25698,7 +25698,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 72,
       "homeWinProbability": 0.002,
       "period": 2,
@@ -25707,7 +25707,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T04:18:08.000Z",
+      "wallclock": "2025-12-14T04:17:47.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -25793,8 +25793,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41705538,
-      "sourceId": "401812266115872456",
+      "id": 41705539,
+      "sourceId": "401812266115872463",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -25805,7 +25805,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 72,
       "homeWinProbability": 0.002,
       "period": 2,
@@ -25814,7 +25814,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T04:17:47.000Z",
+      "wallclock": "2025-12-14T04:18:08.000Z",
       "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
@@ -26114,8 +26114,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41705554,
-      "sourceId": "401812266115872586",
+      "id": 41705557,
+      "sourceId": "401812266115872590",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -26132,11 +26132,11 @@
       "period": 2,
       "clock": "7:26",
       "secondsRemaining": 446,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T04:24:47.000Z",
-      "playText": "Labaron Philon Jr. made Free Throw.",
+      "wallclock": "2025-12-14T04:25:06.000Z",
+      "playText": "Labaron Philon Jr. missed Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -26148,7 +26148,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -26221,8 +26221,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41705557,
-      "sourceId": "401812266115872590",
+      "id": 41705554,
+      "sourceId": "401812266115872586",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -26239,11 +26239,11 @@
       "period": 2,
       "clock": "7:26",
       "secondsRemaining": 446,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T04:25:06.000Z",
-      "playText": "Labaron Philon Jr. missed Free Throw.",
+      "wallclock": "2025-12-14T04:24:47.000Z",
+      "playText": "Labaron Philon Jr. made Free Throw.",
       "participants": [
         {
           "id": 85,
@@ -26255,7 +26255,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27624,8 +27624,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016562,
-      "sourceId": "401812267116041226",
+      "id": 42016565,
+      "sourceId": "401812267116041294",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -27636,17 +27636,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 36,
-      "homeWinProbability": 0.698,
+      "homeWinProbability": 0.69,
       "period": 1,
       "clock": "2:08",
       "secondsRemaining": 128,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T01:49:55.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-18T01:50:16.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -27731,8 +27731,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016565,
-      "sourceId": "401812267116041294",
+      "id": 42016562,
+      "sourceId": "401812267116041226",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -27743,17 +27743,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 36,
-      "homeWinProbability": 0.69,
+      "homeWinProbability": 0.698,
       "period": 1,
       "clock": "2:08",
       "secondsRemaining": 128,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T01:50:16.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2025-12-18T01:49:55.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -28936,113 +28936,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016779,
-      "sourceId": "401812267116054009",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 271,
-      "opponent": "South Florida",
-      "opponentConference": "American",
-      "opponentSeed": null,
-      "homeScore": 80,
-      "awayScore": 66,
-      "homeWinProbability": 0.999,
-      "period": 2,
-      "clock": "7:18",
-      "secondsRemaining": 438,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-18T02:54:06.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 197885,
-          "name": "Davion Hannah",
-          "team": "Alabama"
-        },
-        {
-          "id": 488,
-          "name": "CJ Brown",
-          "team": "South Florida"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        },
-        {
-          "id": 4986,
-          "name": "Izaiyah Nelson",
-          "team": "South Florida"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 202225,
-          "name": "Wes Enis",
-          "team": "South Florida"
-        },
-        {
-          "id": 3304,
-          "name": "Josh Omojafo",
-          "team": "South Florida"
-        },
-        {
-          "id": 89,
-          "name": "Aiden Sherrell",
-          "team": "Alabama"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell",
-          "team": "Alabama"
-        },
-        {
-          "id": 202232,
-          "name": "Adriel Nyorha",
-          "team": "South Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 210303,
-      "gameSourceId": "401812267",
-      "gameStartDate": "2025-12-18T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42016780,
       "sourceId": "401812267116054026",
       "playType": "MadeFreeThrow",
@@ -29150,8 +29043,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016805,
-      "sourceId": "401812267116054373",
+      "id": 42016779,
+      "sourceId": "401812267116054009",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -29162,17 +29055,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 88,
-      "awayScore": 71,
-      "homeWinProbability": 1,
+      "homeScore": 80,
+      "awayScore": 66,
+      "homeWinProbability": 0.999,
       "period": 2,
-      "clock": "5:54",
-      "secondsRemaining": 354,
+      "clock": "7:18",
+      "secondsRemaining": 438,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T03:00:17.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
+      "wallclock": "2025-12-18T02:54:06.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -29194,6 +29087,113 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 197885,
+          "name": "Davion Hannah",
+          "team": "Alabama"
+        },
+        {
+          "id": 488,
+          "name": "CJ Brown",
+          "team": "South Florida"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        },
+        {
+          "id": 4986,
+          "name": "Izaiyah Nelson",
+          "team": "South Florida"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 202225,
+          "name": "Wes Enis",
+          "team": "South Florida"
+        },
+        {
+          "id": 3304,
+          "name": "Josh Omojafo",
+          "team": "South Florida"
+        },
+        {
+          "id": 89,
+          "name": "Aiden Sherrell",
+          "team": "Alabama"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell",
+          "team": "Alabama"
+        },
+        {
+          "id": 202232,
+          "name": "Adriel Nyorha",
+          "team": "South Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 210303,
+      "gameSourceId": "401812267",
+      "gameStartDate": "2025-12-18T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42016803,
+      "sourceId": "401812267116054330",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 271,
+      "opponent": "South Florida",
+      "opponentConference": "American",
+      "opponentSeed": null,
+      "homeScore": 87,
+      "awayScore": 71,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "5:54",
+      "secondsRemaining": 354,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-12-18T02:59:48.000Z",
+      "playText": "Labaron Philon Jr. makes layup",
+      "participants": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 275
         }
       },
       "onFloor": [
@@ -29257,9 +29257,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016803,
-      "sourceId": "401812267116054330",
-      "playType": "LayUpShot",
+      "id": 42016805,
+      "sourceId": "401812267116054373",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -29269,7 +29269,7 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 88,
       "awayScore": 71,
       "homeWinProbability": 1,
       "period": 2,
@@ -29277,9 +29277,9 @@
       "secondsRemaining": 354,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-18T02:59:48.000Z",
-      "playText": "Labaron Philon Jr. makes layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-18T03:00:17.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 85,
@@ -29292,15 +29292,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -29582,8 +29582,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016882,
-      "sourceId": "401812267116056317",
+      "id": 42016880,
+      "sourceId": "401812267116056293",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -29594,17 +29594,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 99,
+      "homeScore": 98,
       "awayScore": 86,
       "homeWinProbability": 0.999,
       "period": 2,
       "clock": "1:46",
       "secondsRemaining": 106,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T03:19:10.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2025-12-18T03:18:51.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -29616,7 +29616,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29689,8 +29689,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42016880,
-      "sourceId": "401812267116056293",
+      "id": 42016882,
+      "sourceId": "401812267116056317",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -29701,17 +29701,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 98,
+      "homeScore": 99,
       "awayScore": 86,
       "homeWinProbability": 0.999,
       "period": 2,
       "clock": "1:46",
       "secondsRemaining": 106,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T03:18:51.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
+      "wallclock": "2025-12-18T03:19:10.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -29723,7 +29723,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30767,8 +30767,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42390120,
-      "sourceId": "401812268116259486",
+      "id": 42390123,
+      "sourceId": "401812268116259590",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -30785,11 +30785,11 @@
       "period": 1,
       "clock": "9:17",
       "secondsRemaining": 557,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T19:25:17.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-21T19:25:38.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -30801,7 +30801,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30874,8 +30874,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42390123,
-      "sourceId": "401812268116259590",
+      "id": 42390120,
+      "sourceId": "401812268116259486",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -30892,11 +30892,11 @@
       "period": 1,
       "clock": "9:17",
       "secondsRemaining": 557,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T19:25:38.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 2 of 2",
+      "wallclock": "2025-12-21T19:25:17.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -30908,7 +30908,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33906,8 +33906,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194171,
-      "sourceId": "401808152116702291",
+      "id": 43194177,
+      "sourceId": "401808152116702330",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -33918,17 +33918,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 66,
-      "homeWinProbability": 0.97,
+      "homeWinProbability": 0.974,
       "period": 2,
       "clock": "6:13",
       "secondsRemaining": 373,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:55:31.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
+      "wallclock": "2026-01-03T18:55:49.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -33940,7 +33940,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34013,8 +34013,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194177,
-      "sourceId": "401808152116702330",
+      "id": 43194171,
+      "sourceId": "401808152116702291",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -34025,17 +34025,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 66,
-      "homeWinProbability": 0.974,
+      "homeWinProbability": 0.97,
       "period": 2,
       "clock": "6:13",
       "secondsRemaining": 373,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T18:55:49.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-03T18:55:31.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -34047,7 +34047,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34655,8 +34655,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194212,
-      "sourceId": "401808152116706185",
+      "id": 43194213,
+      "sourceId": "401808152116706353",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -34667,7 +34667,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 86,
       "awayScore": 71,
       "homeWinProbability": 1,
       "period": 2,
@@ -34676,8 +34676,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T19:08:56.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-03T19:09:19.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -34762,8 +34762,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43194213,
-      "sourceId": "401808152116706353",
+      "id": 43194212,
+      "sourceId": "401808152116706185",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -34774,7 +34774,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 85,
       "awayScore": 71,
       "homeWinProbability": 1,
       "period": 2,
@@ -34783,8 +34783,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T19:09:19.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-03T19:08:56.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -39502,8 +39502,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982055,
-      "sourceId": "401808168117216367",
+      "id": 43982047,
+      "sourceId": "401808168117216185",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -39514,17 +39514,17 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 77,
-      "homeWinProbability": 0.394,
+      "homeWinProbability": 0.232,
       "period": 2,
       "clock": "4:41",
       "secondsRemaining": 281,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:13:09.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-11T03:09:47.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -39536,7 +39536,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39609,8 +39609,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982047,
-      "sourceId": "401808168117216185",
+      "id": 43982055,
+      "sourceId": "401808168117216367",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -39621,17 +39621,17 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 77,
-      "homeWinProbability": 0.232,
+      "homeWinProbability": 0.394,
       "period": 2,
       "clock": "4:41",
       "secondsRemaining": 281,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:09:47.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
+      "wallclock": "2026-01-11T03:13:09.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -39643,7 +39643,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41016,8 +41016,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230035,
-      "sourceId": "401808170117285047",
+      "id": 44230039,
+      "sourceId": "401808170117285094",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -41029,16 +41029,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 35,
-      "homeWinProbability": 0.622,
+      "awayScore": 36,
+      "homeWinProbability": 0.568,
       "period": 1,
       "clock": "0:06",
       "secondsRemaining": 6,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:56:29.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-14T02:57:57.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -41123,8 +41123,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230039,
-      "sourceId": "401808170117285094",
+      "id": 44230035,
+      "sourceId": "401808170117285047",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -41136,16 +41136,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 36,
-      "homeWinProbability": 0.568,
+      "awayScore": 35,
+      "homeWinProbability": 0.622,
       "period": 1,
       "clock": "0:06",
       "secondsRemaining": 6,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:57:57.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-14T02:56:29.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -41337,9 +41337,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230075,
-      "sourceId": "401808170117286018",
-      "playType": "MadeFreeThrow",
+      "id": 44230071,
+      "sourceId": "401808170117286002",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -41350,16 +41350,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 44,
-      "homeWinProbability": 0.285,
+      "awayScore": 43,
+      "homeWinProbability": 0.334,
       "period": 2,
       "clock": "18:28",
       "secondsRemaining": 1108,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-14T03:18:19.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-14T03:17:31.000Z",
+      "playText": "Labaron Philon Jr. makes 4-foot jumper",
       "participants": [
         {
           "id": 85,
@@ -41372,15 +41372,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 280
         }
       },
       "onFloor": [
@@ -41444,9 +41444,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230071,
-      "sourceId": "401808170117286002",
-      "playType": "JumpShot",
+      "id": 44230075,
+      "sourceId": "401808170117286018",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -41457,16 +41457,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 43,
-      "homeWinProbability": 0.334,
+      "awayScore": 44,
+      "homeWinProbability": 0.285,
       "period": 2,
       "clock": "18:28",
       "secondsRemaining": 1108,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-14T03:17:31.000Z",
-      "playText": "Labaron Philon Jr. makes 4-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-14T03:18:19.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 85,
@@ -41479,15 +41479,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41987,6 +41987,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 44230173,
+      "sourceId": "401808170117287559",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 174,
+      "opponent": "Mississippi State",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 67,
+      "homeWinProbability": 0.065,
+      "period": 2,
+      "clock": "11:14",
+      "secondsRemaining": 674,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-14T03:45:02.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 3",
+      "participants": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8175,
+          "name": "Jayden Epps",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 4636,
+          "name": "Quincy Ballard",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 4158,
+          "name": "Josh Hubbard",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 94,
+          "name": "Houston Mallette",
+          "team": "Alabama"
+        },
+        {
+          "id": 7621,
+          "name": "Achor Achor",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 3953,
+          "name": "Ja'Borri McGhee",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 89,
+          "name": "Aiden Sherrell",
+          "team": "Alabama"
+        }
+      ]
+    },
+    {
+      "gameId": 210802,
+      "gameSourceId": "401808170",
+      "gameStartDate": "2026-01-14T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 44230172,
       "sourceId": "401808170117287552",
       "playType": "MadeFreeThrow",
@@ -42201,8 +42308,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230173,
-      "sourceId": "401808170117287559",
+      "id": 44230196,
+      "sourceId": "401808170117287849",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -42213,17 +42320,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 53,
-      "awayScore": 67,
-      "homeWinProbability": 0.065,
+      "homeScore": 55,
+      "awayScore": 71,
+      "homeWinProbability": 0.006,
       "period": 2,
-      "clock": "11:14",
-      "secondsRemaining": 674,
+      "clock": "10:04",
+      "secondsRemaining": 604,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:45:02.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 3",
+      "wallclock": "2026-01-14T03:49:54.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -42236,113 +42343,6 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 8175,
-          "name": "Jayden Epps",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 4636,
-          "name": "Quincy Ballard",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 4158,
-          "name": "Josh Hubbard",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 94,
-          "name": "Houston Mallette",
-          "team": "Alabama"
-        },
-        {
-          "id": 7621,
-          "name": "Achor Achor",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 3953,
-          "name": "Ja'Borri McGhee",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 89,
-          "name": "Aiden Sherrell",
-          "team": "Alabama"
-        }
-      ]
-    },
-    {
-      "gameId": 210802,
-      "gameSourceId": "401808170",
-      "gameStartDate": "2026-01-14T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 44230190,
-      "sourceId": "401808170117287803",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 174,
-      "opponent": "Mississippi State",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 55,
-      "awayScore": 70,
-      "homeWinProbability": 0.011,
-      "period": 2,
-      "clock": "10:04",
-      "secondsRemaining": 604,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-14T03:49:11.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        },
-        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42415,8 +42415,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230196,
-      "sourceId": "401808170117287849",
+      "id": 44230190,
+      "sourceId": "401808170117287803",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -42428,16 +42428,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 71,
-      "homeWinProbability": 0.006,
+      "awayScore": 70,
+      "homeWinProbability": 0.011,
       "period": 2,
       "clock": "10:04",
       "secondsRemaining": 604,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:49:54.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-14T03:49:11.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -42449,7 +42449,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42847,8 +42847,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230269,
-      "sourceId": "401808170117288522",
+      "id": 44230270,
+      "sourceId": "401808170117288531",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -42860,16 +42860,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 87,
-      "homeWinProbability": 0.007,
+      "awayScore": 88,
+      "homeWinProbability": 0.005,
       "period": 2,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T04:05:38.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-14T04:05:53.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -42954,8 +42954,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230270,
-      "sourceId": "401808170117288531",
+      "id": 44230269,
+      "sourceId": "401808170117288522",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -42967,16 +42967,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 88,
-      "homeWinProbability": 0.005,
+      "awayScore": 87,
+      "homeWinProbability": 0.007,
       "period": 2,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T04:05:53.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-14T04:05:38.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -45328,8 +45328,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515370,
-      "sourceId": "401808184117469137",
+      "id": 44515368,
+      "sourceId": "401808184117468941",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -45341,16 +45341,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 62,
-      "awayScore": 62,
-      "homeWinProbability": 0.576,
+      "awayScore": 61,
+      "homeWinProbability": 0.617,
       "period": 2,
       "clock": "8:59",
       "secondsRemaining": 539,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:40:17.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-17T19:39:55.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -45362,7 +45362,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45435,8 +45435,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515368,
-      "sourceId": "401808184117468941",
+      "id": 44515370,
+      "sourceId": "401808184117469137",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -45448,16 +45448,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 62,
-      "awayScore": 61,
-      "homeWinProbability": 0.617,
+      "awayScore": 62,
+      "homeWinProbability": 0.576,
       "period": 2,
       "clock": "8:59",
       "secondsRemaining": 539,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:39:55.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
+      "wallclock": "2026-01-17T19:40:17.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -45469,7 +45469,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48776,9 +48776,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332574,
-      "sourceId": "401808199117950682",
-      "playType": "LayUpShot",
+      "id": 45332582,
+      "sourceId": "401808199117950724",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -48788,17 +48788,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 44,
       "awayScore": 47,
-      "homeWinProbability": 0.394,
+      "homeWinProbability": 0.422,
       "period": 2,
       "clock": "16:24",
       "secondsRemaining": 984,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-25T02:46:00.000Z",
-      "playText": "Labaron Philon Jr. makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-25T02:46:32.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 85,
@@ -48811,15 +48811,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -48883,9 +48883,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332582,
-      "sourceId": "401808199117950724",
-      "playType": "MadeFreeThrow",
+      "id": 45332574,
+      "sourceId": "401808199117950682",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -48895,17 +48895,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 43,
       "awayScore": 47,
-      "homeWinProbability": 0.422,
+      "homeWinProbability": 0.394,
       "period": 2,
       "clock": "16:24",
       "secondsRemaining": 984,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-25T02:46:32.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-25T02:46:00.000Z",
+      "playText": "Labaron Philon Jr. makes driving layup",
       "participants": [
         {
           "id": 85,
@@ -48918,15 +48918,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 240
         }
       },
       "onFloor": [
@@ -49850,8 +49850,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332730,
-      "sourceId": "401808199117952701",
+      "id": 45332731,
+      "sourceId": "401808199117952705",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -49862,17 +49862,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 70,
       "awayScore": 72,
-      "homeWinProbability": 0.279,
+      "homeWinProbability": 0.378,
       "period": 2,
       "clock": "5:21",
       "secondsRemaining": 321,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T03:25:43.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-25T03:26:00.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -49957,8 +49957,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332731,
-      "sourceId": "401808199117952705",
+      "id": 45332730,
+      "sourceId": "401808199117952701",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -49969,17 +49969,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 69,
       "awayScore": 72,
-      "homeWinProbability": 0.378,
+      "homeWinProbability": 0.279,
       "period": 2,
       "clock": "5:21",
       "secondsRemaining": 321,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T03:26:00.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-25T03:25:43.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -53310,9 +53310,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46072537,
-      "sourceId": "401808208118296470",
-      "playType": "MadeFreeThrow",
+      "id": 46072530,
+      "sourceId": "401808208118296055",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -53328,11 +53328,11 @@
       "period": 1,
       "clock": "11:52",
       "secondsRemaining": 712,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T18:21:58.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 1",
+      "scoreValue": 3,
+      "wallclock": "2026-02-01T18:18:11.000Z",
+      "playText": "Labaron Philon Jr. makes 25-foot three point jumper",
       "participants": [
         {
           "id": 85,
@@ -53344,16 +53344,16 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "three_pointer",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 705,
+          "y": 80
         }
       },
       "onFloor": [
@@ -53417,9 +53417,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46072530,
-      "sourceId": "401808208118296055",
-      "playType": "JumpShot",
+      "id": 46072537,
+      "sourceId": "401808208118296470",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -53435,11 +53435,11 @@
       "period": 1,
       "clock": "11:52",
       "secondsRemaining": 712,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2026-02-01T18:18:11.000Z",
-      "playText": "Labaron Philon Jr. makes 25-foot three point jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T18:21:58.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 1",
       "participants": [
         {
           "id": 85,
@@ -53451,16 +53451,16 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
-        "range": "three_pointer",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 705,
-          "y": 80
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -60230,8 +60230,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46821955,
-      "sourceId": "401808227118754718",
+      "id": 46821948,
+      "sourceId": "401808227118754626",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -60243,7 +60243,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 17,
+      "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:56",
@@ -60251,8 +60251,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T00:38:12.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-12T00:37:54.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -60337,8 +60337,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46821948,
-      "sourceId": "401808227118754626",
+      "id": 46821955,
+      "sourceId": "401808227118754718",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -60350,7 +60350,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 16,
+      "awayScore": 17,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:56",
@@ -60358,8 +60358,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T00:37:54.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-12T00:38:12.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -62069,113 +62069,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46822558,
-      "sourceId": "401808227118772385",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 220,
-      "opponent": "Ole Miss",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 64,
-      "awayScore": 77,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "2:55",
-      "secondsRemaining": 175,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-12T01:52:45.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3111,
-          "name": "Taylor Bol Bowen",
-          "team": "Alabama"
-        },
-        {
-          "id": 602,
-          "name": "Zach Day",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 201316,
-          "name": "Patton Pinkins",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell",
-          "team": "Alabama"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        },
-        {
-          "id": 3424,
-          "name": "Koren Johnson",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 58,
-          "name": "AJ Storr",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 598,
-          "name": "Eduardo Klafke",
-          "team": "Ole Miss"
-        }
-      ]
-    },
-    {
-      "gameId": 211499,
-      "gameSourceId": "401808227",
-      "gameStartDate": "2026-02-12T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46822559,
       "sourceId": "401808227118772433",
       "playType": "MadeFreeThrow",
@@ -62283,8 +62176,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46822585,
-      "sourceId": "401808227118773102",
+      "id": 46822558,
+      "sourceId": "401808227118772385",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 220,
+      "opponent": "Ole Miss",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 77,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "2:55",
+      "secondsRemaining": 175,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-12T01:52:45.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3111,
+          "name": "Taylor Bol Bowen",
+          "team": "Alabama"
+        },
+        {
+          "id": 602,
+          "name": "Zach Day",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 201316,
+          "name": "Patton Pinkins",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell",
+          "team": "Alabama"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        },
+        {
+          "id": 3424,
+          "name": "Koren Johnson",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 58,
+          "name": "AJ Storr",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 598,
+          "name": "Eduardo Klafke",
+          "team": "Ole Miss"
+        }
+      ]
+    },
+    {
+      "gameId": 211499,
+      "gameSourceId": "401808227",
+      "gameStartDate": "2026-02-12T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46822576,
+      "sourceId": "401808227118773065",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -62296,7 +62296,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 87,
+      "awayScore": 86,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:22",
@@ -62304,8 +62304,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:57:22.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-12T01:57:03.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -62390,8 +62390,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46822576,
-      "sourceId": "401808227118773065",
+      "id": 46822585,
+      "sourceId": "401808227118773102",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -62403,7 +62403,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 86,
+      "awayScore": 87,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:22",
@@ -62411,8 +62411,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:57:03.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-12T01:57:22.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -63928,113 +63928,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47153592,
-      "sourceId": "401808240119021654",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 266,
-      "opponent": "South Carolina",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 70,
-      "awayScore": 60,
-      "homeWinProbability": 0.972,
-      "period": 2,
-      "clock": "5:19",
-      "secondsRemaining": 319,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-15T03:09:59.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 421,
-          "name": "Meechie Johnson",
-          "team": "South Carolina"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison",
-          "team": "Alabama"
-        },
-        {
-          "id": 94,
-          "name": "Houston Mallette",
-          "team": "Alabama"
-        },
-        {
-          "id": 6586,
-          "name": "Mike Sharavjamts",
-          "team": "South Carolina"
-        },
-        {
-          "id": 202059,
-          "name": "EJ Walker",
-          "team": "South Carolina"
-        },
-        {
-          "id": 481,
-          "name": "Kobe Knox",
-          "team": "South Carolina"
-        },
-        {
-          "id": 202048,
-          "name": "Eli Ellis",
-          "team": "South Carolina"
-        },
-        {
-          "id": 89,
-          "name": "Aiden Sherrell",
-          "team": "Alabama"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        }
-      ]
-    },
-    {
-      "gameId": 211627,
-      "gameSourceId": "401808240",
-      "gameStartDate": "2026-02-15T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47153591,
       "sourceId": "401808240119021644",
       "playType": "MadeFreeThrow",
@@ -64142,8 +64035,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47153598,
-      "sourceId": "401808240119021829",
+      "id": 47153592,
+      "sourceId": "401808240119021654",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -64154,17 +64047,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
-      "awayScore": 62,
-      "homeWinProbability": 0.995,
+      "homeScore": 70,
+      "awayScore": 60,
+      "homeWinProbability": 0.972,
       "period": 2,
-      "clock": "4:08",
-      "secondsRemaining": 248,
+      "clock": "5:19",
+      "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T03:12:12.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-15T03:09:59.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -64272,6 +64165,113 @@
       "scoreValue": 1,
       "wallclock": "2026-02-15T03:12:30.000Z",
       "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 421,
+          "name": "Meechie Johnson",
+          "team": "South Carolina"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison",
+          "team": "Alabama"
+        },
+        {
+          "id": 94,
+          "name": "Houston Mallette",
+          "team": "Alabama"
+        },
+        {
+          "id": 6586,
+          "name": "Mike Sharavjamts",
+          "team": "South Carolina"
+        },
+        {
+          "id": 202059,
+          "name": "EJ Walker",
+          "team": "South Carolina"
+        },
+        {
+          "id": 481,
+          "name": "Kobe Knox",
+          "team": "South Carolina"
+        },
+        {
+          "id": 202048,
+          "name": "Eli Ellis",
+          "team": "South Carolina"
+        },
+        {
+          "id": 89,
+          "name": "Aiden Sherrell",
+          "team": "Alabama"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        }
+      ]
+    },
+    {
+      "gameId": 211627,
+      "gameSourceId": "401808240",
+      "gameStartDate": "2026-02-15T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47153598,
+      "sourceId": "401808240119021829",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 266,
+      "opponent": "South Carolina",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 74,
+      "awayScore": 62,
+      "homeWinProbability": 0.995,
+      "period": 2,
+      "clock": "4:08",
+      "secondsRemaining": 248,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-15T03:12:12.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -65648,8 +65648,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474540,
-      "sourceId": "401808244119118189",
+      "id": 47474547,
+      "sourceId": "401808244119118384",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -65666,11 +65666,11 @@
       "period": 1,
       "clock": "4:10",
       "secondsRemaining": 250,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T00:35:59.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-19T00:36:33.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -65682,7 +65682,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -65755,8 +65755,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474547,
-      "sourceId": "401808244119118384",
+      "id": 47474540,
+      "sourceId": "401808244119118189",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -65773,11 +65773,11 @@
       "period": 1,
       "clock": "4:10",
       "secondsRemaining": 250,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T00:36:33.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 2 of 2",
+      "wallclock": "2026-02-19T00:35:59.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -65789,7 +65789,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -66512,9 +66512,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474677,
-      "sourceId": "401808244119131629",
-      "playType": "LayUpShot",
+      "id": 47474679,
+      "sourceId": "401808244119131792",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -66530,11 +66530,11 @@
       "period": 2,
       "clock": "12:30",
       "secondsRemaining": 750,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-19T01:23:52.000Z",
-      "playText": "Labaron Philon Jr. makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-19T01:24:20.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 1",
       "participants": [
         {
           "id": 85,
@@ -66546,16 +66546,16 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -66619,9 +66619,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474679,
-      "sourceId": "401808244119131792",
-      "playType": "MadeFreeThrow",
+      "id": 47474677,
+      "sourceId": "401808244119131629",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -66637,11 +66637,11 @@
       "period": 2,
       "clock": "12:30",
       "secondsRemaining": 750,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-19T01:24:20.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-19T01:23:52.000Z",
+      "playText": "Labaron Philon Jr. makes layup",
       "participants": [
         {
           "id": 85,
@@ -66653,16 +66653,16 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 240
         }
       },
       "onFloor": [
@@ -68024,8 +68024,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474830,
-      "sourceId": "401808244119145353",
+      "id": 47474831,
+      "sourceId": "401808244119145426",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -68036,17 +68036,17 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 98,
+      "homeScore": 99,
       "awayScore": 100,
-      "homeWinProbability": 0.745,
+      "homeWinProbability": 0.878,
       "period": 3,
       "clock": "3:18",
       "secondsRemaining": 198,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:13:39.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-19T02:13:54.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -68141,8 +68141,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474831,
-      "sourceId": "401808244119145426",
+      "id": 47474830,
+      "sourceId": "401808244119145353",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -68153,17 +68153,17 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 99,
+      "homeScore": 98,
       "awayScore": 100,
-      "homeWinProbability": 0.878,
+      "homeWinProbability": 0.745,
       "period": 3,
       "clock": "3:18",
       "secondsRemaining": 198,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:13:54.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-19T02:13:39.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -69162,8 +69162,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47742856,
-      "sourceId": "401808252119353647",
+      "id": 47742851,
+      "sourceId": "401808252119353512",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -69175,16 +69175,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 6,
-      "homeWinProbability": 0.506,
+      "awayScore": 5,
+      "homeWinProbability": 0.536,
       "period": 1,
       "clock": "17:18",
       "secondsRemaining": 1038,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:05:14.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-21T23:04:44.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -69269,8 +69269,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47742851,
-      "sourceId": "401808252119353512",
+      "id": 47742856,
+      "sourceId": "401808252119353647",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -69282,16 +69282,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 5,
-      "homeWinProbability": 0.536,
+      "awayScore": 6,
+      "homeWinProbability": 0.506,
       "period": 1,
       "clock": "17:18",
       "secondsRemaining": 1038,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:04:44.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-21T23:05:14.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -75412,8 +75412,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48610267,
-      "sourceId": "401808277119832836",
+      "id": 48610266,
+      "sourceId": "401808277119832826",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -75425,7 +75425,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 90,
-      "awayScore": 82,
+      "awayScore": 81,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:47",
@@ -75433,8 +75433,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T01:49:42.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 3",
+      "wallclock": "2026-03-04T01:49:27.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 3",
       "participants": [
         {
           "id": 85,
@@ -75626,8 +75626,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48610266,
-      "sourceId": "401808277119832826",
+      "id": 48610267,
+      "sourceId": "401808277119832836",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -75639,7 +75639,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 90,
-      "awayScore": 81,
+      "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:47",
@@ -75647,8 +75647,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T01:49:27.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 3",
+      "wallclock": "2026-03-04T01:49:42.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 3",
       "participants": [
         {
           "id": 85,
@@ -77568,8 +77568,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49048836,
-      "sourceId": "401808288120078573",
+      "id": 49048834,
+      "sourceId": "401808288120078562",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -77580,7 +77580,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 59,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
@@ -77589,8 +77589,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T02:55:40.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-08T02:55:20.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -77675,8 +77675,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49048834,
-      "sourceId": "401808288120078562",
+      "id": 49048836,
+      "sourceId": "401808288120078573",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -77687,7 +77687,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 60,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
@@ -77696,8 +77696,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T02:55:20.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-08T02:55:40.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -78317,8 +78317,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49049482,
-      "sourceId": "401808288120081841",
+      "id": 49049489,
+      "sourceId": "401808288120081850",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -78329,17 +78329,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 88,
       "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:47",
       "secondsRemaining": 167,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T03:39:56.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-08T03:40:10.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -78351,7 +78351,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -78424,8 +78424,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49049489,
-      "sourceId": "401808288120081850",
+      "id": 49049482,
+      "sourceId": "401808288120081841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -78436,17 +78436,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 88,
+      "homeScore": 87,
       "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:47",
       "secondsRemaining": 167,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T03:40:10.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-08T03:39:56.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -78458,7 +78458,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -79518,8 +79518,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49397788,
-      "sourceId": "401851567120250789",
+      "id": 49397791,
+      "sourceId": "401851567120250823",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -79536,11 +79536,11 @@
       "period": 2,
       "clock": "18:59",
       "secondsRemaining": 1139,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T00:40:34.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-14T00:40:55.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -79552,7 +79552,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -79625,8 +79625,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49397791,
-      "sourceId": "401851567120250823",
+      "id": 49397788,
+      "sourceId": "401851567120250789",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -79643,11 +79643,11 @@
       "period": 2,
       "clock": "18:59",
       "secondsRemaining": 1139,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T00:40:55.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 2 of 2",
+      "wallclock": "2026-03-14T00:40:34.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -79659,7 +79659,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -81135,8 +81135,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49398024,
-      "sourceId": "401851567120253731",
+      "id": 49398027,
+      "sourceId": "401851567120253770",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -81147,7 +81147,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 80,
       "homeWinProbability": null,
       "period": 2,
@@ -81156,8 +81156,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T01:36:16.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-14T01:36:43.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -81242,8 +81242,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49398027,
-      "sourceId": "401851567120253770",
+      "id": 49398024,
+      "sourceId": "401851567120253731",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -81254,7 +81254,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 80,
       "homeWinProbability": null,
       "period": 2,
@@ -81263,8 +81263,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T01:36:43.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-14T01:36:16.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -82328,8 +82328,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565418,
-      "sourceId": "401856521120325481",
+      "id": 49565421,
+      "sourceId": "401856521120325490",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -82340,7 +82340,7 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 32,
       "homeWinProbability": null,
       "period": 1,
@@ -82349,8 +82349,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T20:04:10.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-20T20:04:30.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -82435,8 +82435,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565421,
-      "sourceId": "401856521120325490",
+      "id": 49565418,
+      "sourceId": "401856521120325481",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -82447,7 +82447,7 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 30,
+      "homeScore": 29,
       "awayScore": 32,
       "homeWinProbability": null,
       "period": 1,
@@ -82456,8 +82456,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T20:04:30.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-20T20:04:10.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -83188,8 +83188,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565528,
-      "sourceId": "401856521120326821",
+      "id": 49565525,
+      "sourceId": "401856521120326791",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -83200,7 +83200,7 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
@@ -83209,8 +83209,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T20:48:57.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-20T20:48:34.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -83295,8 +83295,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565525,
-      "sourceId": "401856521120326791",
+      "id": 49565528,
+      "sourceId": "401856521120326821",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -83307,7 +83307,7 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
@@ -83316,8 +83316,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T20:48:34.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-20T20:48:57.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -83937,8 +83937,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565608,
-      "sourceId": "401856521120327411",
+      "id": 49565609,
+      "sourceId": "401856521120327415",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -83949,7 +83949,7 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 64,
       "homeWinProbability": null,
       "period": 2,
@@ -83958,8 +83958,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T21:08:28.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-20T21:08:44.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -84044,8 +84044,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565609,
-      "sourceId": "401856521120327415",
+      "id": 49565608,
+      "sourceId": "401856521120327411",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -84056,7 +84056,7 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 64,
       "homeWinProbability": null,
       "period": 2,
@@ -84065,8 +84065,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T21:08:44.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-20T21:08:28.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -85348,8 +85348,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619119,
-      "sourceId": "401856560120370854",
+      "id": 49619129,
+      "sourceId": "401856560120370906",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -85360,17 +85360,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:49",
       "secondsRemaining": 769,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T02:22:06.000Z",
-      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-23T02:22:30.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -85382,7 +85382,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -85455,8 +85455,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619129,
-      "sourceId": "401856560120370906",
+      "id": 49619119,
+      "sourceId": "401856560120370854",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -85467,17 +85467,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:49",
       "secondsRemaining": 769,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T02:22:30.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-23T02:22:06.000Z",
+      "playText": "Labaron Philon Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -85489,7 +85489,7 @@
           "id": 85,
           "name": "Labaron Philon Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -87417,8 +87417,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619457,
-      "sourceId": "401856560120371990",
+      "id": 49619459,
+      "sourceId": "401856560120372230",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -87429,7 +87429,7 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
@@ -87438,8 +87438,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T03:57:37.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-23T03:57:22.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -87524,8 +87524,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619459,
-      "sourceId": "401856560120372230",
+      "id": 49619457,
+      "sourceId": "401856560120371990",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -87536,7 +87536,7 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
@@ -87545,8 +87545,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T03:57:22.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-23T03:57:37.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -89470,113 +89470,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650441,
-      "sourceId": "401856572120394357",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": 4,
-      "opponentId": 170,
-      "opponent": "Michigan",
-      "opponentConference": "Big Ten",
-      "opponentSeed": 1,
-      "homeScore": 47,
-      "awayScore": 42,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "1:27",
-      "secondsRemaining": 87,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-28T00:35:02.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison",
-          "team": "Alabama"
-        },
-        {
-          "id": 5611,
-          "name": "Nimari Burnett",
-          "team": "Michigan"
-        },
-        {
-          "id": 5647,
-          "name": "Morez Johnson Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 94,
-          "name": "Houston Mallette",
-          "team": "Alabama"
-        },
-        {
-          "id": 3111,
-          "name": "Taylor Bol Bowen",
-          "team": "Alabama"
-        },
-        {
-          "id": 5609,
-          "name": "Roddy Gayle Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 200517,
-          "name": "Trey McKenney",
-          "team": "Michigan"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell",
-          "team": "Alabama"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        }
-      ]
-    },
-    {
-      "gameId": 372588,
-      "gameSourceId": "401856572",
-      "gameStartDate": "2026-03-27T23:35:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49650444,
       "sourceId": "401856572120394361",
       "playType": "MadeFreeThrow",
@@ -89684,8 +89577,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650452,
-      "sourceId": "401856572120394413",
+      "id": 49650441,
+      "sourceId": "401856572120394357",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -89697,7 +89590,114 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 47,
-      "awayScore": 44,
+      "awayScore": 42,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "1:27",
+      "secondsRemaining": 87,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-28T00:35:02.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 85,
+          "name": "Labaron Philon Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison",
+          "team": "Alabama"
+        },
+        {
+          "id": 5611,
+          "name": "Nimari Burnett",
+          "team": "Michigan"
+        },
+        {
+          "id": 5647,
+          "name": "Morez Johnson Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 94,
+          "name": "Houston Mallette",
+          "team": "Alabama"
+        },
+        {
+          "id": 3111,
+          "name": "Taylor Bol Bowen",
+          "team": "Alabama"
+        },
+        {
+          "id": 5609,
+          "name": "Roddy Gayle Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 200517,
+          "name": "Trey McKenney",
+          "team": "Michigan"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell",
+          "team": "Alabama"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        }
+      ]
+    },
+    {
+      "gameId": 372588,
+      "gameSourceId": "401856572",
+      "gameStartDate": "2026-03-27T23:35:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49650453,
+      "sourceId": "401856572120394414",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": 4,
+      "opponentId": 170,
+      "opponent": "Michigan",
+      "opponentConference": "Big Ten",
+      "opponentSeed": 1,
+      "homeScore": 47,
+      "awayScore": 45,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:02",
@@ -89705,8 +89705,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:36:23.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-28T00:36:41.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -89791,8 +89791,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650453,
-      "sourceId": "401856572120394414",
+      "id": 49650452,
+      "sourceId": "401856572120394413",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -89804,7 +89804,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 47,
-      "awayScore": 45,
+      "awayScore": 44,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:02",
@@ -89812,8 +89812,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:36:41.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-28T00:36:23.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -90005,8 +90005,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650469,
-      "sourceId": "401856572120394438",
+      "id": 49650472,
+      "sourceId": "401856572120394462",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -90018,7 +90018,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 47,
-      "awayScore": 48,
+      "awayScore": 49,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:06",
@@ -90026,8 +90026,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:41:40.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-28T00:42:10.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 85,
@@ -90112,8 +90112,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650472,
-      "sourceId": "401856572120394462",
+      "id": 49650469,
+      "sourceId": "401856572120394438",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -90125,7 +90125,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 47,
-      "awayScore": 49,
+      "awayScore": 48,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:06",
@@ -90133,8 +90133,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:42:10.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-28T00:41:40.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 85,
@@ -91198,9 +91198,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650706,
-      "sourceId": "401856572120395429",
-      "playType": "LayUpShot",
+      "id": 49650708,
+      "sourceId": "401856572120395433",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -91211,16 +91211,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 90,
-      "awayScore": 76,
+      "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:45",
       "secondsRemaining": 45,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-28T02:01:32.000Z",
-      "playText": "Labaron Philon Jr. makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-28T02:02:09.000Z",
+      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 85,
@@ -91233,15 +91233,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -91305,9 +91305,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650708,
-      "sourceId": "401856572120395433",
-      "playType": "MadeFreeThrow",
+      "id": 49650706,
+      "sourceId": "401856572120395429",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 5,
       "team": "Alabama",
@@ -91318,16 +91318,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 90,
-      "awayScore": 77,
+      "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:45",
       "secondsRemaining": 45,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-28T02:02:09.000Z",
-      "playText": "Labaron Philon Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-28T02:01:32.000Z",
+      "playText": "Labaron Philon Jr. makes driving layup",
       "participants": [
         {
           "id": 85,
@@ -91340,15 +91340,15 @@
           "name": "Labaron Philon Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 245
         }
       },
       "onFloor": [
@@ -91510,6 +91510,701 @@
           "team": "Alabama"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-04",
+      "opponent": "North Dakota",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 22,
+      "rebounds": 3,
+      "assists": 8,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 0,
+      "fgMade": 9,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "St. John's",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 25,
+      "rebounds": 3,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 10,
+      "fgAttempted": 17,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 3,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Purdue",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 11,
+      "rebounds": 4,
+      "assists": 7,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2025-11-20",
+      "opponent": "Illinois",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 24,
+      "rebounds": 2,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 9,
+      "fgAttempted": 18,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-25",
+      "opponent": "Gonzaga",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 29,
+      "rebounds": 0,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 3,
+      "fgMade": 11,
+      "fgAttempted": 18,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-11-26",
+      "opponent": "UNLV",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 23,
+      "points": 13,
+      "rebounds": 4,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 1,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "Maryland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 20,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 11,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "Clemson",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 29,
+      "rebounds": 1,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 9,
+      "fgAttempted": 17,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 8,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "UTSA",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 22,
+      "points": 20,
+      "rebounds": 7,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 11,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Arizona",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 24,
+      "rebounds": 10,
+      "assists": 5,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 5,
+      "fouls": 0,
+      "fgMade": 7,
+      "fgAttempted": 16,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 7,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2025-12-18",
+      "opponent": "South Florida",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 29,
+      "rebounds": 3,
+      "assists": 7,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 10,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "Kennesaw State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 17,
+      "rebounds": 2,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 7,
+      "fgAttempted": 16,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Kentucky",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 17,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 16,
+      "threeMade": 0,
+      "threeAttempted": 6,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-01-08",
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 20,
+      "points": 18,
+      "rebounds": 1,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-11",
+      "opponent": "Texas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 21,
+      "rebounds": 2,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 17,
+      "threeMade": 0,
+      "threeAttempted": 5,
+      "ftMade": 5,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 32,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 10,
+      "fgAttempted": 14,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 9,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 23,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 19,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 4,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-01-25",
+      "opponent": "Tennessee",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 26,
+      "rebounds": 4,
+      "assists": 7,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 20,
+      "threeMade": 2,
+      "threeAttempted": 9,
+      "ftMade": 10,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2026-01-28",
+      "opponent": "Missouri",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 18,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 5,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Florida",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 14,
+      "rebounds": 2,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 4,
+      "threeAttempted": 7,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-02-05",
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 17,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Auburn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 25,
+      "rebounds": 5,
+      "assists": 6,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 8,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-02-12",
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 18,
+      "rebounds": 5,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 4,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 9,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "South Carolina",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 19,
+      "rebounds": 0,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 5,
+      "fgAttempted": 8,
+      "threeMade": 4,
+      "threeAttempted": 7,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "Arkansas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 41,
+      "points": 35,
+      "rebounds": 2,
+      "assists": 7,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 11,
+      "fgAttempted": 21,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 10,
+      "ftAttempted": 13,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "LSU",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 8,
+      "rebounds": 1,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "Tennessee",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 23,
+      "rebounds": 1,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 9,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 4,
+      "ftAttempted": 5,
+      "starter": false
+    },
+    {
+      "date": "2026-03-03",
+      "opponent": "Georgia",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 26,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 4,
+      "threeAttempted": 7,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "Auburn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 21,
+      "rebounds": 1,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 28,
+      "rebounds": 4,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 9,
+      "fgAttempted": 16,
+      "threeMade": 5,
+      "threeAttempted": 7,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "Hofstra",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 36,
+      "points": 29,
+      "rebounds": 8,
+      "assists": 7,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 2,
+      "fgMade": 10,
+      "fgAttempted": 18,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-03-23",
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 35,
+      "points": 9,
+      "rebounds": 6,
+      "assists": 12,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 1,
+      "fgMade": 2,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Michigan",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 39,
+      "points": 35,
+      "rebounds": 7,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 10,
+      "fgAttempted": 21,
+      "threeMade": 6,
+      "threeAttempted": 14,
+      "ftMade": 9,
+      "ftAttempted": 9,
+      "starter": true
     }
   ],
   "topLineups": [

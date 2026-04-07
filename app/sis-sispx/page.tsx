@@ -50,7 +50,7 @@ export default function SisSispxPage() {
         <div>
           <h1 className={styles.title}>SIS / SIS-Px</h1>
           <p className={styles.subtitle}>
-            {prospects.length} prospects 2026 · {history.length} draftés 2022–2025
+            {prospects.length} prospects 2026 · {history.length} draftés 2005–2025
           </p>
         </div>
         <a href="/sis-sispx/calibration" className={styles.calibLink}>

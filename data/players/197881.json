@@ -22,10 +22,10 @@
     "steals": 33,
     "blocks": 22,
     "offensiveRating": 123.9,
-    "defensiveRating": 108.8,
-    "netRating": 15.1,
+    "defensiveRating": 108.9,
+    "netRating": 15,
     "PORPAG": 3.1,
-    "usage": 18.7,
+    "usage": 18.6,
     "assistsTurnoverRatio": 2.27,
     "offensiveReboundPct": 23.9,
     "freeThrowRate": 38,
@@ -57,10 +57,10 @@
       "total": 222
     },
     "winShares": {
-      "offensive": 2.6,
+      "offensive": 2.5,
       "defensive": 0.8,
-      "total": 3.4,
-      "totalPer40": 0.15
+      "total": 3.3,
+      "totalPer40": 0.146
     }
   },
   "shootingStats": {
@@ -128,8 +128,8 @@
     "games": 35,
     "wins": 25,
     "losses": 10,
-    "totalMinutes": 1420,
-    "pace": 73.3,
+    "totalMinutes": 1410,
+    "pace": 73.8,
     "teamStats": {
       "assists": 571,
       "blocks": 173,
@@ -248,7 +248,7 @@
       "city": "Green Bay",
       "state": "WI"
     },
-    "dateOfBirth": "2006-01-26"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -1320,8 +1320,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37628523,
-      "sourceId": "401812260113667970",
+      "id": 37628522,
+      "sourceId": "401812260113667756",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -1332,16 +1332,16 @@
       "opponent": "North Dakota",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 45,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.991,
       "period": 2,
       "clock": "12:53",
       "secondsRemaining": 773,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:20:26.000Z",
+      "wallclock": "2025-11-04T02:20:13.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -1427,8 +1427,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37628522,
-      "sourceId": "401812260113667756",
+      "id": 37628523,
+      "sourceId": "401812260113667970",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -1439,16 +1439,16 @@
       "opponent": "North Dakota",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 45,
-      "homeWinProbability": 0.991,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "12:53",
       "secondsRemaining": 773,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:20:13.000Z",
+      "wallclock": "2025-11-04T02:20:26.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -5262,8 +5262,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40083900,
-      "sourceId": "401812263114932966",
+      "id": 40083901,
+      "sourceId": "401812263114932974",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -5274,16 +5274,16 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 26,
-      "homeWinProbability": 0.697,
+      "homeWinProbability": 0.7,
       "period": 1,
       "clock": "7:01",
       "secondsRemaining": 421,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T03:08:01.000Z",
+      "wallclock": "2025-11-25T03:08:13.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -5369,8 +5369,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40083901,
-      "sourceId": "401812263114932974",
+      "id": 40083900,
+      "sourceId": "401812263114932966",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -5381,16 +5381,16 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 26,
-      "homeWinProbability": 0.7,
+      "homeWinProbability": 0.697,
       "period": 1,
       "clock": "7:01",
       "secondsRemaining": 421,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T03:08:13.000Z",
+      "wallclock": "2025-11-25T03:08:01.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -6237,8 +6237,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40084219,
-      "sourceId": "401812263114937308",
+      "id": 40084217,
+      "sourceId": "401812263114937306",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -6258,7 +6258,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T04:42:09.000Z",
+      "wallclock": "2025-11-25T04:41:55.000Z",
       "playText": "Amari Allen missed Free Throw.",
       "participants": [
         {
@@ -6344,8 +6344,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40084217,
-      "sourceId": "401812263114937306",
+      "id": 40084219,
+      "sourceId": "401812263114937308",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -6365,7 +6365,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T04:41:55.000Z",
+      "wallclock": "2025-11-25T04:42:09.000Z",
       "playText": "Amari Allen missed Free Throw.",
       "participants": [
         {
@@ -7002,8 +7002,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40185916,
-      "sourceId": "401812264115012040",
+      "id": 40185915,
+      "sourceId": "401812264115012036",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -7014,16 +7014,16 @@
       "opponent": "UNLV",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 21,
-      "homeWinProbability": 0.86,
+      "homeWinProbability": 0.833,
       "period": 1,
       "clock": "8:36",
       "secondsRemaining": 516,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T05:30:09.000Z",
+      "wallclock": "2025-11-26T05:29:54.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -7109,8 +7109,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40185915,
-      "sourceId": "401812264115012036",
+      "id": 40185916,
+      "sourceId": "401812264115012040",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -7121,16 +7121,16 @@
       "opponent": "UNLV",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 21,
-      "homeWinProbability": 0.833,
+      "homeWinProbability": 0.86,
       "period": 1,
       "clock": "8:36",
       "secondsRemaining": 516,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T05:29:54.000Z",
+      "wallclock": "2025-11-26T05:30:09.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -7327,8 +7327,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40185942,
-      "sourceId": "401812264115011642",
+      "id": 40185941,
+      "sourceId": "401812264115011641",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -7345,11 +7345,11 @@
       "period": 1,
       "clock": "6:31",
       "secondsRemaining": 391,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T05:36:50.000Z",
-      "playText": "Amari Allen missed Free Throw.",
+      "wallclock": "2025-11-26T05:36:33.000Z",
+      "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
           "id": 197881,
@@ -7361,7 +7361,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7434,8 +7434,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40185941,
-      "sourceId": "401812264115011641",
+      "id": 40185942,
+      "sourceId": "401812264115011642",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -7452,11 +7452,11 @@
       "period": 1,
       "clock": "6:31",
       "secondsRemaining": 391,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T05:36:33.000Z",
-      "playText": "Amari Allen made Free Throw.",
+      "wallclock": "2025-11-26T05:36:50.000Z",
+      "playText": "Amari Allen missed Free Throw.",
       "participants": [
         {
           "id": 197881,
@@ -7468,7 +7468,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10276,8 +10276,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887207,
-      "sourceId": "401806376115405496",
+      "id": 40887206,
+      "sourceId": "401806376115405452",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -10288,16 +10288,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 16,
-      "homeWinProbability": 0.984,
+      "homeWinProbability": 0.976,
       "period": 1,
       "clock": "8:02",
       "secondsRemaining": 482,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T00:53:09.000Z",
+      "wallclock": "2025-12-04T00:52:57.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -10388,8 +10388,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40887206,
-      "sourceId": "401806376115405452",
+      "id": 40887207,
+      "sourceId": "401806376115405496",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -10400,16 +10400,16 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 16,
-      "homeWinProbability": 0.976,
+      "homeWinProbability": 0.984,
       "period": 1,
       "clock": "8:02",
       "secondsRemaining": 482,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T00:52:57.000Z",
+      "wallclock": "2025-12-04T00:53:09.000Z",
       "playText": "Amari Allen made Free Throw.",
       "participants": [
         {
@@ -15555,8 +15555,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42390236,
-      "sourceId": "401812268116266169",
+      "id": 42390239,
+      "sourceId": "401812268116266211",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -15567,17 +15567,17 @@
       "opponent": "Kennesaw State",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 51,
       "awayScore": 26,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.997,
       "period": 1,
       "clock": "0:59",
       "secondsRemaining": 59,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T19:50:38.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2025-12-21T19:50:57.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -15662,8 +15662,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42390239,
-      "sourceId": "401812268116266211",
+      "id": 42390236,
+      "sourceId": "401812268116266169",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -15674,17 +15674,17 @@
       "opponent": "Kennesaw State",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 51,
+      "homeScore": 50,
       "awayScore": 26,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.996,
       "period": 1,
       "clock": "0:59",
       "secondsRemaining": 59,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T19:50:57.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2025-12-21T19:50:38.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -16201,8 +16201,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42390492,
-      "sourceId": "401812268116280210",
+      "id": 42390493,
+      "sourceId": "401812268116280257",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -16213,7 +16213,7 @@
       "opponent": "Kennesaw State",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 91,
+      "homeScore": 92,
       "awayScore": 76,
       "homeWinProbability": 1,
       "period": 2,
@@ -16222,8 +16222,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T20:56:05.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2025-12-21T20:56:19.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -16308,8 +16308,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42390493,
-      "sourceId": "401812268116280257",
+      "id": 42390492,
+      "sourceId": "401812268116280210",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -16320,7 +16320,7 @@
       "opponent": "Kennesaw State",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 91,
       "awayScore": 76,
       "homeWinProbability": 1,
       "period": 2,
@@ -16329,8 +16329,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T20:56:19.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2025-12-21T20:56:05.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -16958,8 +16958,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42798378,
-      "sourceId": "401812269116464770",
+      "id": 42798365,
+      "sourceId": "401812269116464655",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -16970,17 +16970,17 @@
       "opponent": "Yale",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 21,
-      "homeWinProbability": 0.901,
+      "homeWinProbability": 0.886,
       "period": 1,
       "clock": "6:50",
       "secondsRemaining": 410,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T01:29:46.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2025-12-30T01:29:28.000Z",
+      "playText": "Amari Allen misses free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -16992,7 +16992,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17065,8 +17065,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42798365,
-      "sourceId": "401812269116464655",
+      "id": 42798378,
+      "sourceId": "401812269116464770",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -17077,17 +17077,17 @@
       "opponent": "Yale",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 21,
-      "homeWinProbability": 0.886,
+      "homeWinProbability": 0.901,
       "period": 1,
       "clock": "6:50",
       "secondsRemaining": 410,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T01:29:28.000Z",
-      "playText": "Amari Allen misses free throw 1 of 2",
+      "wallclock": "2025-12-30T01:29:46.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -17099,7 +17099,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17279,8 +17279,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42798418,
-      "sourceId": "401812269116466220",
+      "id": 42798420,
+      "sourceId": "401812269116466337",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -17291,17 +17291,17 @@
       "opponent": "Yale",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 21,
-      "homeWinProbability": 0.932,
+      "homeWinProbability": 0.958,
       "period": 1,
       "clock": "4:51",
       "secondsRemaining": 291,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T01:34:02.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2025-12-30T01:34:17.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -17386,8 +17386,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42798420,
-      "sourceId": "401812269116466337",
+      "id": 42798418,
+      "sourceId": "401812269116466220",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -17398,17 +17398,17 @@
       "opponent": "Yale",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 21,
-      "homeWinProbability": 0.958,
+      "homeWinProbability": 0.932,
       "period": 1,
       "clock": "4:51",
       "secondsRemaining": 291,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T01:34:17.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2025-12-30T01:34:02.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -18143,8 +18143,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42798797,
-      "sourceId": "401812269116482407",
+      "id": 42798799,
+      "sourceId": "401812269116482410",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -18155,17 +18155,17 @@
       "opponent": "Yale",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 93,
       "awayScore": 61,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "5:27",
       "secondsRemaining": 327,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-30T02:43:58.000Z",
-      "playText": "Amari Allen misses free throw 1 of 2",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -18177,7 +18177,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18250,8 +18250,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42798799,
-      "sourceId": "401812269116482410",
+      "id": 42798797,
+      "sourceId": "401812269116482407",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -18262,17 +18262,17 @@
       "opponent": "Yale",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 93,
+      "homeScore": 92,
       "awayScore": 61,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "5:27",
       "secondsRemaining": 327,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-30T02:43:58.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "playText": "Amari Allen misses free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -18284,7 +18284,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20862,113 +20862,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43676798,
-      "sourceId": "401808155116962053",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 336,
-      "opponent": "Vanderbilt",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 59,
-      "awayScore": 57,
-      "homeWinProbability": 0.63,
-      "period": 2,
-      "clock": "12:14",
-      "secondsRemaining": 734,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-08T03:49:34.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 197881,
-          "name": "Amari Allen"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 197881,
-          "name": "Amari Allen"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6139,
-          "name": "Keitenn Bristow",
-          "team": "Alabama"
-        },
-        {
-          "id": 94,
-          "name": "Houston Mallette",
-          "team": "Alabama"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell",
-          "team": "Alabama"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 6235,
-          "name": "Duke Miles",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4555,
-          "name": "Devin McGlockton",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison",
-          "team": "Alabama"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 235,
-          "name": "Jalen Washington",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        }
-      ]
-    },
-    {
-      "gameId": 210623,
-      "gameSourceId": "401808155",
-      "gameStartDate": "2026-01-08T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43676800,
       "sourceId": "401808155116962072",
       "playType": "MadeFreeThrow",
@@ -21076,8 +20969,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43676945,
-      "sourceId": "401808155116962823",
+      "id": 43676798,
+      "sourceId": "401808155116962053",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 336,
+      "opponent": "Vanderbilt",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 59,
+      "awayScore": 57,
+      "homeWinProbability": 0.63,
+      "period": 2,
+      "clock": "12:14",
+      "secondsRemaining": 734,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-08T03:49:34.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 197881,
+          "name": "Amari Allen"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 197881,
+          "name": "Amari Allen"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6139,
+          "name": "Keitenn Bristow",
+          "team": "Alabama"
+        },
+        {
+          "id": 94,
+          "name": "Houston Mallette",
+          "team": "Alabama"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell",
+          "team": "Alabama"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 6235,
+          "name": "Duke Miles",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4555,
+          "name": "Devin McGlockton",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison",
+          "team": "Alabama"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 235,
+          "name": "Jalen Washington",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        }
+      ]
+    },
+    {
+      "gameId": 210623,
+      "gameSourceId": "401808155",
+      "gameStartDate": "2026-01-08T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43676931,
+      "sourceId": "401808155116962783",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -21089,16 +21089,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 63,
-      "homeWinProbability": 0.779,
+      "awayScore": 62,
+      "homeWinProbability": 0.835,
       "period": 2,
       "clock": "9:15",
       "secondsRemaining": 555,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:01:10.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-01-08T04:00:40.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -21183,8 +21183,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43676931,
-      "sourceId": "401808155116962783",
+      "id": 43676945,
+      "sourceId": "401808155116962823",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -21196,16 +21196,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 62,
-      "homeWinProbability": 0.835,
+      "awayScore": 63,
+      "homeWinProbability": 0.779,
       "period": 2,
       "clock": "9:15",
       "secondsRemaining": 555,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:00:40.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-01-08T04:01:10.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -21825,8 +21825,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43677100,
-      "sourceId": "401808155116963527",
+      "id": 43677115,
+      "sourceId": "401808155116963543",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -21838,16 +21838,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 74,
-      "homeWinProbability": 0.998,
+      "awayScore": 75,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "4:57",
       "secondsRemaining": 297,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:18:08.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-01-08T04:18:28.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -21932,8 +21932,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43677115,
-      "sourceId": "401808155116963543",
+      "id": 43677100,
+      "sourceId": "401808155116963527",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -21945,16 +21945,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 75,
-      "homeWinProbability": 0.997,
+      "awayScore": 74,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "4:57",
       "secondsRemaining": 297,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:18:28.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-01-08T04:18:08.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -22800,8 +22800,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43981641,
-      "sourceId": "401808168117208414",
+      "id": 43981639,
+      "sourceId": "401808168117208372",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -22812,17 +22812,17 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 13,
       "awayScore": 10,
-      "homeWinProbability": 0.76,
+      "homeWinProbability": 0.707,
       "period": 1,
       "clock": "14:49",
       "secondsRemaining": 889,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:22:36.000Z",
-      "playText": "Amari Allen makes free throw 3 of 3",
+      "wallclock": "2026-01-11T01:22:11.000Z",
+      "playText": "Amari Allen makes free throw 1 of 3",
       "participants": [
         {
           "id": 197881,
@@ -23014,8 +23014,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43981639,
-      "sourceId": "401808168117208372",
+      "id": 43981641,
+      "sourceId": "401808168117208414",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -23026,17 +23026,17 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 15,
       "awayScore": 10,
-      "homeWinProbability": 0.707,
+      "homeWinProbability": 0.76,
       "period": 1,
       "clock": "14:49",
       "secondsRemaining": 889,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:22:11.000Z",
-      "playText": "Amari Allen makes free throw 1 of 3",
+      "wallclock": "2026-01-11T01:22:36.000Z",
+      "playText": "Amari Allen makes free throw 3 of 3",
       "participants": [
         {
           "id": 197881,
@@ -23228,8 +23228,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43981732,
-      "sourceId": "401808168117210385",
+      "id": 43981725,
+      "sourceId": "401808168117210313",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -23246,11 +23246,11 @@
       "period": 1,
       "clock": "8:44",
       "secondsRemaining": 524,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:38:56.000Z",
-      "playText": "Amari Allen misses free throw 2 of 2",
+      "wallclock": "2026-01-11T01:38:36.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -23262,7 +23262,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -23335,8 +23335,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43981725,
-      "sourceId": "401808168117210313",
+      "id": 43981732,
+      "sourceId": "401808168117210385",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -23353,11 +23353,11 @@
       "period": 1,
       "clock": "8:44",
       "secondsRemaining": 524,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:38:36.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-01-11T01:38:56.000Z",
+      "playText": "Amari Allen misses free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -23369,7 +23369,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -24207,9 +24207,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982111,
-      "sourceId": "401808168117216956",
-      "playType": "LayUpShot",
+      "id": 43982115,
+      "sourceId": "401808168117216990",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -24225,19 +24225,15 @@
       "period": 2,
       "clock": "1:44",
       "secondsRemaining": 104,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-11T03:30:06.000Z",
-      "playText": "Amari Allen makes layup (Labaron Philon Jr. assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-11T03:30:41.000Z",
+      "playText": "Amari Allen misses free throw 1 of 1",
       "participants": [
         {
           "id": 197881,
           "name": "Amari Allen"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr."
         }
       ],
       "shotInfo": {
@@ -24245,16 +24241,16 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 85,
-          "name": "Labaron Philon Jr."
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -24318,9 +24314,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982115,
-      "sourceId": "401808168117216990",
-      "playType": "MadeFreeThrow",
+      "id": 43982111,
+      "sourceId": "401808168117216956",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -24336,15 +24332,19 @@
       "period": 2,
       "clock": "1:44",
       "secondsRemaining": 104,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-11T03:30:41.000Z",
-      "playText": "Amari Allen misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-11T03:30:06.000Z",
+      "playText": "Amari Allen makes layup (Labaron Philon Jr. assists)",
       "participants": [
         {
           "id": 197881,
           "name": "Amari Allen"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr."
         }
       ],
       "shotInfo": {
@@ -24352,16 +24352,16 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 85,
+          "name": "Labaron Philon Jr."
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 245
         }
       },
       "onFloor": [
@@ -25503,8 +25503,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230123,
-      "sourceId": "401808170117286910",
+      "id": 44230126,
+      "sourceId": "401808170117286915",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -25516,16 +25516,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 42,
-      "awayScore": 54,
-      "homeWinProbability": 0.136,
+      "awayScore": 55,
+      "homeWinProbability": 0.096,
       "period": 2,
       "clock": "15:00",
       "secondsRemaining": 900,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:32:53.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-01-14T03:33:09.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -25610,8 +25610,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44230126,
-      "sourceId": "401808170117286915",
+      "id": 44230123,
+      "sourceId": "401808170117286910",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -25623,16 +25623,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 42,
-      "awayScore": 55,
-      "homeWinProbability": 0.096,
+      "awayScore": 54,
+      "homeWinProbability": 0.136,
       "period": 2,
       "clock": "15:00",
       "secondsRemaining": 900,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:33:09.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-01-14T03:32:53.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -27671,8 +27671,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515300,
-      "sourceId": "401808184117460256",
+      "id": 44515303,
+      "sourceId": "401808184117460394",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -27684,16 +27684,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 49,
-      "homeWinProbability": 0.817,
+      "awayScore": 50,
+      "homeWinProbability": 0.804,
       "period": 2,
       "clock": "14:09",
       "secondsRemaining": 849,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:26:33.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-01-17T19:26:48.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -27778,8 +27778,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44515303,
-      "sourceId": "401808184117460394",
+      "id": 44515300,
+      "sourceId": "401808184117460256",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -27791,16 +27791,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 50,
-      "homeWinProbability": 0.804,
+      "awayScore": 49,
+      "homeWinProbability": 0.817,
       "period": 2,
       "clock": "14:09",
       "secondsRemaining": 849,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T19:26:48.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-01-17T19:26:33.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -31264,113 +31264,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46247507,
-      "sourceId": "401808215118415381",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 293,
-      "opponent": "Texas A&M",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 91,
-      "awayScore": 85,
-      "homeWinProbability": 0.974,
-      "period": 2,
-      "clock": "3:59",
-      "secondsRemaining": 239,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-05T02:02:07.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 197881,
-          "name": "Amari Allen"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 197881,
-          "name": "Amari Allen"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 54,
-          "name": "Zach Clemence",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 20034,
-          "name": "Charles Bediako",
-          "team": "Alabama"
-        },
-        {
-          "id": 6803,
-          "name": "Jacari Lane",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 7092,
-          "name": "Rashaun Agee",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell",
-          "team": "Alabama"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 7819,
-          "name": "Pop Isaacs",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 202512,
-          "name": "Rubén Dominguez",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        }
-      ]
-    },
-    {
-      "gameId": 211339,
-      "gameSourceId": "401808215",
-      "gameStartDate": "2026-02-05T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46247508,
       "sourceId": "401808215118415431",
       "playType": "MadeFreeThrow",
@@ -31478,8 +31371,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46247565,
-      "sourceId": "401808215118418660",
+      "id": 46247507,
+      "sourceId": "401808215118415381",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -31490,17 +31383,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 99,
-      "awayScore": 97,
-      "homeWinProbability": 0.986,
+      "homeScore": 91,
+      "awayScore": 85,
+      "homeWinProbability": 0.974,
       "period": 2,
-      "clock": "0:04",
-      "secondsRemaining": 4,
-      "scoringPlay": false,
+      "clock": "3:59",
+      "secondsRemaining": 239,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T02:16:14.000Z",
-      "playText": "Amari Allen misses free throw 1 of 2",
+      "wallclock": "2026-02-05T02:02:07.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -31512,7 +31405,114 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 54,
+          "name": "Zach Clemence",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 20034,
+          "name": "Charles Bediako",
+          "team": "Alabama"
+        },
+        {
+          "id": 6803,
+          "name": "Jacari Lane",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 7092,
+          "name": "Rashaun Agee",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell",
+          "team": "Alabama"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 7819,
+          "name": "Pop Isaacs",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 202512,
+          "name": "Rubén Dominguez",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        }
+      ]
+    },
+    {
+      "gameId": 211339,
+      "gameSourceId": "401808215",
+      "gameStartDate": "2026-02-05T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46247575,
+      "sourceId": "401808215118418809",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 293,
+      "opponent": "Texas A&M",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 100,
+      "awayScore": 97,
+      "homeWinProbability": 0.986,
+      "period": 2,
+      "clock": "0:04",
+      "secondsRemaining": 4,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-05T02:16:47.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 197881,
+          "name": "Amari Allen"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 197881,
+          "name": "Amari Allen"
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31585,8 +31585,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46247575,
-      "sourceId": "401808215118418809",
+      "id": 46247565,
+      "sourceId": "401808215118418660",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -31597,17 +31597,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 100,
+      "homeScore": 99,
       "awayScore": 97,
       "homeWinProbability": 0.986,
       "period": 2,
       "clock": "0:04",
       "secondsRemaining": 4,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T02:16:47.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-02-05T02:16:14.000Z",
+      "playText": "Amari Allen misses free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -31619,7 +31619,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31914,8 +31914,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46472684,
-      "sourceId": "401808219118610845",
+      "id": 46472679,
+      "sourceId": "401808219118610724",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -31927,16 +31927,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 16,
-      "homeWinProbability": 0.753,
+      "awayScore": 15,
+      "homeWinProbability": 0.785,
       "period": 1,
       "clock": "9:41",
       "secondsRemaining": 581,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:36:40.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-02-07T21:36:22.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -32021,8 +32021,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46472679,
-      "sourceId": "401808219118610724",
+      "id": 46472684,
+      "sourceId": "401808219118610845",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -32034,16 +32034,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 15,
-      "homeWinProbability": 0.785,
+      "awayScore": 16,
+      "homeWinProbability": 0.753,
       "period": 1,
       "clock": "9:41",
       "secondsRemaining": 581,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:36:22.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-02-07T21:36:40.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -34427,8 +34427,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46822566,
-      "sourceId": "401808227118772747",
+      "id": 46822567,
+      "sourceId": "401808227118772755",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -34440,7 +34440,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 79,
+      "awayScore": 80,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:35",
@@ -34448,8 +34448,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:55:08.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-02-12T01:55:19.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -34534,8 +34534,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46822567,
-      "sourceId": "401808227118772755",
+      "id": 46822566,
+      "sourceId": "401808227118772747",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -34547,7 +34547,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 80,
+      "awayScore": 79,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:35",
@@ -34555,8 +34555,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:55:19.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-02-12T01:55:08.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -37574,113 +37574,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474594,
-      "sourceId": "401808244119125523",
-      "playType": "TipShot",
-      "isHomeTeam": true,
-      "teamId": 5,
-      "team": "Alabama",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 12,
-      "opponent": "Arkansas",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 51,
-      "awayScore": 59,
-      "homeWinProbability": 0.102,
-      "period": 2,
-      "clock": "18:42",
-      "secondsRemaining": 1122,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-19T01:04:08.000Z",
-      "playText": "Amari Allen makes 0-foot tip in layup",
-      "participants": [
-        {
-          "id": 197881,
-          "name": "Amari Allen"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 197881,
-          "name": "Amari Allen"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 250
-        }
-      },
-      "onFloor": [
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison",
-          "team": "Alabama"
-        },
-        {
-          "id": 89,
-          "name": "Aiden Sherrell",
-          "team": "Alabama"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 211684,
-      "gameSourceId": "401808244",
-      "gameStartDate": "2026-02-19T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47496079,
       "sourceId": "401808244119151817",
       "playType": "MadeFreeThrow",
@@ -37832,6 +37725,113 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison",
+          "team": "Alabama"
+        },
+        {
+          "id": 89,
+          "name": "Aiden Sherrell",
+          "team": "Alabama"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 211684,
+      "gameSourceId": "401808244",
+      "gameStartDate": "2026-02-19T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47474594,
+      "sourceId": "401808244119125523",
+      "playType": "TipShot",
+      "isHomeTeam": true,
+      "teamId": 5,
+      "team": "Alabama",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 12,
+      "opponent": "Arkansas",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 59,
+      "homeWinProbability": 0.102,
+      "period": 2,
+      "clock": "18:42",
+      "secondsRemaining": 1122,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-02-19T01:04:08.000Z",
+      "playText": "Amari Allen makes 0-foot tip in layup",
+      "participants": [
+        {
+          "id": 197881,
+          "name": "Amari Allen"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 197881,
+          "name": "Amari Allen"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -39221,8 +39221,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47743029,
-      "sourceId": "401808252119364064",
+      "id": 47743030,
+      "sourceId": "401808252119364130",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -39234,16 +39234,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 38,
-      "homeWinProbability": 0.374,
+      "awayScore": 39,
+      "homeWinProbability": 0.319,
       "period": 1,
       "clock": "2:15",
       "secondsRemaining": 135,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:44:21.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-02-21T23:44:36.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -39328,8 +39328,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47743030,
-      "sourceId": "401808252119364130",
+      "id": 47743029,
+      "sourceId": "401808252119364064",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -39341,16 +39341,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 39,
-      "homeWinProbability": 0.319,
+      "awayScore": 38,
+      "homeWinProbability": 0.374,
       "period": 1,
       "clock": "2:15",
       "secondsRemaining": 135,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:44:36.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-02-21T23:44:21.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -40838,9 +40838,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48044800,
-      "sourceId": "401808263119506629",
-      "playType": "MadeFreeThrow",
+      "id": 48044798,
+      "sourceId": "401808263119506568",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -40850,7 +40850,7 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -40858,13 +40858,17 @@
       "secondsRemaining": 628,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-26T02:28:09.000Z",
-      "playText": "Amari Allen makes free throw 1 of 1",
+      "scoreValue": 3,
+      "wallclock": "2026-02-26T02:27:34.000Z",
+      "playText": "Amari Allen makes 31-foot three point jumper (Latrell Wrightsell assists)",
       "participants": [
         {
           "id": 197881,
           "name": "Amari Allen"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell"
         }
       ],
       "shotInfo": {
@@ -40873,15 +40877,15 @@
           "name": "Amari Allen"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "three_pointer",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 91,
+          "name": "Latrell Wrightsell"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 357.2,
+          "y": 195
         }
       },
       "onFloor": [
@@ -40945,9 +40949,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48044798,
-      "sourceId": "401808263119506568",
-      "playType": "JumpShot",
+      "id": 48044800,
+      "sourceId": "401808263119506629",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -40957,7 +40961,7 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -40965,17 +40969,13 @@
       "secondsRemaining": 628,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2026-02-26T02:27:34.000Z",
-      "playText": "Amari Allen makes 31-foot three point jumper (Latrell Wrightsell assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-26T02:28:09.000Z",
+      "playText": "Amari Allen makes free throw 1 of 1",
       "participants": [
         {
           "id": 197881,
           "name": "Amari Allen"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell"
         }
       ],
       "shotInfo": {
@@ -40984,15 +40984,15 @@
           "name": "Amari Allen"
         },
         "made": true,
-        "range": "three_pointer",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 91,
-          "name": "Latrell Wrightsell"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 357.2,
-          "y": 195
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -44627,9 +44627,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49049372,
-      "sourceId": "401808288120080845",
-      "playType": "LayUpShot",
+      "id": 49049380,
+      "sourceId": "401808288120081124",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -44645,11 +44645,11 @@
       "period": 2,
       "clock": "6:35",
       "secondsRemaining": 395,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-08T03:26:17.000Z",
-      "playText": "Amari Allen makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-08T03:30:04.000Z",
+      "playText": "Amari Allen misses free throw 1 of 1",
       "participants": [
         {
           "id": 197881,
@@ -44661,16 +44661,16 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 245
         }
       },
       "onFloor": [
@@ -44734,9 +44734,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49049380,
-      "sourceId": "401808288120081124",
-      "playType": "MadeFreeThrow",
+      "id": 49049372,
+      "sourceId": "401808288120080845",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -44752,11 +44752,11 @@
       "period": 2,
       "clock": "6:35",
       "secondsRemaining": 395,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-08T03:30:04.000Z",
-      "playText": "Amari Allen misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-08T03:26:17.000Z",
+      "playText": "Amari Allen makes layup",
       "participants": [
         {
           "id": 197881,
@@ -44768,16 +44768,16 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -45594,9 +45594,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49397630,
-      "sourceId": "401851567120248620",
-      "playType": "JumpShot",
+      "id": 49397642,
+      "sourceId": "401851567120248697",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -45612,11 +45612,11 @@
       "period": 1,
       "clock": "11:12",
       "secondsRemaining": 672,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-13T23:52:56.000Z",
-      "playText": "Amari Allen makes 5-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-03-13T23:53:55.000Z",
+      "playText": "Amari Allen misses free throw 1 of 1",
       "participants": [
         {
           "id": 197881,
@@ -45628,16 +45628,16 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -45701,9 +45701,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49397642,
-      "sourceId": "401851567120248697",
-      "playType": "MadeFreeThrow",
+      "id": 49397630,
+      "sourceId": "401851567120248620",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -45719,11 +45719,11 @@
       "period": 1,
       "clock": "11:12",
       "secondsRemaining": 672,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-13T23:53:55.000Z",
-      "playText": "Amari Allen misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-13T23:52:56.000Z",
+      "playText": "Amari Allen makes 5-foot jumper",
       "participants": [
         {
           "id": 197881,
@@ -45735,16 +45735,16 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 240
         }
       },
       "onFloor": [
@@ -46133,8 +46133,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49397882,
-      "sourceId": "401851567120251608",
+      "id": 49397883,
+      "sourceId": "401851567120251611",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -46151,11 +46151,11 @@
       "period": 2,
       "clock": "12:43",
       "secondsRemaining": 763,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T00:56:39.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-03-14T00:56:53.000Z",
+      "playText": "Amari Allen misses free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -46167,7 +46167,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46240,8 +46240,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49397883,
-      "sourceId": "401851567120251611",
+      "id": 49397882,
+      "sourceId": "401851567120251608",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -46258,11 +46258,11 @@
       "period": 2,
       "clock": "12:43",
       "secondsRemaining": 763,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T00:56:53.000Z",
-      "playText": "Amari Allen misses free throw 2 of 2",
+      "wallclock": "2026-03-14T00:56:39.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -46274,7 +46274,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47425,8 +47425,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565500,
-      "sourceId": "401856521120326631",
+      "id": 49565498,
+      "sourceId": "401856521120326624",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -47437,17 +47437,17 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:52",
       "secondsRemaining": 952,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T20:43:29.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-03-20T20:43:13.000Z",
+      "playText": "Amari Allen misses free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -47459,7 +47459,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47532,8 +47532,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49565498,
-      "sourceId": "401856521120326624",
+      "id": 49565500,
+      "sourceId": "401856521120326631",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -47544,17 +47544,17 @@
       "opponent": "Hofstra",
       "opponentConference": "CAA",
       "opponentSeed": 13,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:52",
       "secondsRemaining": 952,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T20:43:13.000Z",
-      "playText": "Amari Allen misses free throw 1 of 2",
+      "wallclock": "2026-03-20T20:43:29.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -47566,7 +47566,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48725,8 +48725,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619167,
-      "sourceId": "401856560120371266",
+      "id": 49619173,
+      "sourceId": "401856560120371274",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -48737,17 +48737,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "9:30",
       "secondsRemaining": 570,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T02:35:19.000Z",
-      "playText": "Amari Allen misses free throw 1 of 2",
+      "wallclock": "2026-03-23T02:35:43.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -48759,7 +48759,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48832,8 +48832,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619173,
-      "sourceId": "401856560120371274",
+      "id": 49619167,
+      "sourceId": "401856560120371266",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
@@ -48844,17 +48844,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "9:30",
       "secondsRemaining": 570,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T02:35:43.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-03-23T02:35:19.000Z",
+      "playText": "Amari Allen misses free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -48866,7 +48866,7 @@
           "id": 197881,
           "name": "Amari Allen"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50025,9 +50025,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619476,
-      "sourceId": "401856560120372282",
-      "playType": "MadeFreeThrow",
+      "id": 49619470,
+      "sourceId": "401856560120372273",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -50037,7 +50037,7 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 90,
+      "homeScore": 89,
       "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
@@ -50045,13 +50045,17 @@
       "secondsRemaining": 281,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-23T04:03:39.000Z",
-      "playText": "Amari Allen makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-23T04:02:59.000Z",
+      "playText": "Amari Allen makes layup (London Jemison assists)",
       "participants": [
         {
           "id": 197881,
           "name": "Amari Allen"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison"
         }
       ],
       "shotInfo": {
@@ -50060,15 +50064,15 @@
           "name": "Amari Allen"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 197887,
+          "name": "London Jemison"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 270
         }
       },
       "onFloor": [
@@ -50132,9 +50136,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49619470,
-      "sourceId": "401856560120372273",
-      "playType": "LayUpShot",
+      "id": 49619476,
+      "sourceId": "401856560120372282",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 5,
       "team": "Alabama",
@@ -50144,7 +50148,7 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": 5,
-      "homeScore": 89,
+      "homeScore": 90,
       "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
@@ -50152,17 +50156,13 @@
       "secondsRemaining": 281,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-23T04:02:59.000Z",
-      "playText": "Amari Allen makes layup (London Jemison assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-23T04:03:39.000Z",
+      "playText": "Amari Allen makes free throw 1 of 1",
       "participants": [
         {
           "id": 197881,
           "name": "Amari Allen"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison"
         }
       ],
       "shotInfo": {
@@ -50171,15 +50171,15 @@
           "name": "Amari Allen"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 197887,
-          "name": "London Jemison"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -50897,8 +50897,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650340,
-      "sourceId": "401856572120394102",
+      "id": 49650343,
+      "sourceId": "401856572120394106",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -50910,7 +50910,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 17,
-      "awayScore": 19,
+      "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
       "clock": "10:40",
@@ -50918,8 +50918,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:14:49.000Z",
-      "playText": "Amari Allen makes free throw 1 of 2",
+      "wallclock": "2026-03-28T00:15:14.000Z",
+      "playText": "Amari Allen makes free throw 2 of 2",
       "participants": [
         {
           "id": 197881,
@@ -51004,8 +51004,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650343,
-      "sourceId": "401856572120394106",
+      "id": 49650340,
+      "sourceId": "401856572120394102",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 5,
@@ -51017,7 +51017,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 17,
-      "awayScore": 20,
+      "awayScore": 19,
       "homeWinProbability": null,
       "period": 1,
       "clock": "10:40",
@@ -51025,8 +51025,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:15:14.000Z",
-      "playText": "Amari Allen makes free throw 2 of 2",
+      "wallclock": "2026-03-28T00:14:49.000Z",
+      "playText": "Amari Allen makes free throw 1 of 2",
       "participants": [
         {
           "id": 197881,
@@ -51530,6 +51530,680 @@
           "team": "Alabama"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-04",
+      "opponent": "North Dakota",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 12,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "St. John's",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 6,
+      "rebounds": 10,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": false
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Purdue",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 20,
+      "points": 3,
+      "rebounds": 4,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 1,
+      "fgAttempted": 4,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2025-11-20",
+      "opponent": "Illinois",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 9,
+      "rebounds": 11,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 5,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 1,
+      "ftAttempted": 3,
+      "starter": false
+    },
+    {
+      "date": "2025-11-25",
+      "opponent": "Gonzaga",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 14,
+      "rebounds": 4,
+      "assists": 1,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": false
+    },
+    {
+      "date": "2025-11-26",
+      "opponent": "UNLV",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 18,
+      "points": 13,
+      "rebounds": 5,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 6,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "Maryland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 10,
+      "rebounds": 7,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "Clemson",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 20,
+      "rebounds": 11,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 5,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-12-07",
+      "opponent": "UTSA",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 11,
+      "rebounds": 10,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2025-12-14",
+      "opponent": "Arizona",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 19,
+      "points": 5,
+      "rebounds": 0,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 2,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "Kennesaw State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 9,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "Yale",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 15,
+      "rebounds": 9,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 5,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Kentucky",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 11,
+      "rebounds": 9,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 3,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-08",
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 25,
+      "rebounds": 11,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 5,
+      "fgMade": 6,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 12,
+      "ftAttempted": 12,
+      "starter": true
+    },
+    {
+      "date": "2026-01-11",
+      "opponent": "Texas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 11,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 4,
+      "turnovers": 0,
+      "fouls": 4,
+      "fgMade": 3,
+      "fgAttempted": 9,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 13,
+      "rebounds": 13,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 12,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 7,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 5,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Florida",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 21,
+      "points": 5,
+      "rebounds": 3,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 5,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2026-02-05",
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 12,
+      "rebounds": 7,
+      "assists": 6,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Auburn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 17,
+      "rebounds": 6,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 8,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-12",
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 13,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 3,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 6,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "South Carolina",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 8,
+      "rebounds": 10,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 5,
+      "fgMade": 3,
+      "fgAttempted": 7,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "Arkansas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 45,
+      "points": 19,
+      "rebounds": 11,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 14,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "LSU",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 16,
+      "rebounds": 6,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-26",
+      "opponent": "Mississippi State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 23,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 10,
+      "threeMade": 6,
+      "threeAttempted": 7,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "Tennessee",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 2,
+      "rebounds": 2,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 1,
+      "fgAttempted": 7,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-03-03",
+      "opponent": "Georgia",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 21,
+      "points": 3,
+      "rebounds": 1,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 5,
+      "fgMade": 1,
+      "fgAttempted": 7,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "Auburn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 16,
+      "rebounds": 5,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 8,
+      "fgAttempted": 12,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 5,
+      "rebounds": 11,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 4,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 1,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "Hofstra",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 32,
+      "points": 11,
+      "rebounds": 5,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-23",
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 26,
+      "points": 12,
+      "rebounds": 4,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Michigan",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 22,
+      "points": 4,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 1,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
     }
   ],
   "topLineups": [

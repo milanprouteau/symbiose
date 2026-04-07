@@ -22,10 +22,10 @@
     "steals": 22,
     "blocks": 46,
     "offensiveRating": 113.9,
-    "defensiveRating": 105.9,
-    "netRating": 8,
+    "defensiveRating": 106.1,
+    "netRating": 7.8,
     "PORPAG": 3.7,
-    "usage": 28.1,
+    "usage": 27.8,
     "assistsTurnoverRatio": 1.16,
     "offensiveReboundPct": 30.4,
     "freeThrowRate": 40.8,
@@ -57,10 +57,10 @@
       "total": 171
     },
     "winShares": {
-      "offensive": 2.2,
+      "offensive": 2.1,
       "defensive": 0.9,
-      "total": 3.1,
-      "totalPer40": 0.159
+      "total": 3,
+      "totalPer40": 0.154
     }
   },
   "shootingStats": {
@@ -128,8 +128,8 @@
     "games": 32,
     "wins": 12,
     "losses": 20,
-    "totalMinutes": 1295,
-    "pace": 65.5,
+    "totalMinutes": 1285,
+    "pace": 66.1,
     "teamStats": {
       "assists": 458,
       "blocks": 126,
@@ -248,7 +248,7 @@
       "city": "Central Point",
       "state": "OR"
     },
-    "dateOfBirth": "2003-06-03"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -1916,8 +1916,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247124,
-      "sourceId": "401826804113934299",
+      "id": 38247130,
+      "sourceId": "401826804113934373",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -1937,7 +1937,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T03:09:59.000Z",
+      "wallclock": "2025-11-08T03:10:20.000Z",
       "playText": "Nate Bittle missed Free Throw.",
       "participants": [
         {
@@ -1972,8 +1972,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247130,
-      "sourceId": "401826804113934373",
+      "id": 38247124,
+      "sourceId": "401826804113934299",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -1993,7 +1993,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T03:10:20.000Z",
+      "wallclock": "2025-11-08T03:09:59.000Z",
       "playText": "Nate Bittle missed Free Throw.",
       "participants": [
         {
@@ -3003,113 +3003,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247378,
-      "sourceId": "401826804113942317",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 223,
-      "team": "Oregon",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 241,
-      "opponent": "Rice",
-      "opponentConference": "American",
-      "opponentSeed": null,
-      "homeScore": 34,
-      "awayScore": 37,
-      "homeWinProbability": 0.486,
-      "period": 2,
-      "clock": "16:20",
-      "secondsRemaining": 980,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T04:23:21.000Z",
-      "playText": "Nate Bittle made Free Throw.",
-      "participants": [
-        {
-          "id": 7241,
-          "name": "Nate Bittle"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 7241,
-          "name": "Nate Bittle"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7426,
-          "name": "Andrew Akuchie",
-          "team": "Rice"
-        },
-        {
-          "id": 1764,
-          "name": "Dallas Hobbs",
-          "team": "Rice"
-        },
-        {
-          "id": 7241,
-          "name": "Nate Bittle",
-          "team": "Oregon"
-        },
-        {
-          "id": 7248,
-          "name": "Dezdrick Lindsay",
-          "team": "Oregon"
-        },
-        {
-          "id": 7242,
-          "name": "Jackson Shelstad",
-          "team": "Oregon"
-        },
-        {
-          "id": 221,
-          "name": "Takai Simpkins",
-          "team": "Oregon"
-        },
-        {
-          "id": 7435,
-          "name": "Jalen Smith",
-          "team": "Rice"
-        },
-        {
-          "id": 7239,
-          "name": "Kwame Evans Jr.",
-          "team": "Oregon"
-        },
-        {
-          "id": 7422,
-          "name": "Trae Broadnax",
-          "team": "Rice"
-        },
-        {
-          "id": 7425,
-          "name": "Jimmy Oladokun Jr.",
-          "team": "Rice"
-        }
-      ]
-    },
-    {
-      "gameId": 212896,
-      "gameSourceId": "401826804",
-      "gameStartDate": "2025-11-08T03:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38247377,
       "sourceId": "401826804113942301",
       "playType": "MadeFreeThrow",
@@ -3217,8 +3110,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247404,
-      "sourceId": "401826804113942660",
+      "id": 38247378,
+      "sourceId": "401826804113942317",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -3229,16 +3122,123 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 34,
       "awayScore": 37,
-      "homeWinProbability": 0.537,
+      "homeWinProbability": 0.486,
+      "period": 2,
+      "clock": "16:20",
+      "secondsRemaining": 980,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T04:23:21.000Z",
+      "playText": "Nate Bittle made Free Throw.",
+      "participants": [
+        {
+          "id": 7241,
+          "name": "Nate Bittle"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 7241,
+          "name": "Nate Bittle"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7426,
+          "name": "Andrew Akuchie",
+          "team": "Rice"
+        },
+        {
+          "id": 1764,
+          "name": "Dallas Hobbs",
+          "team": "Rice"
+        },
+        {
+          "id": 7241,
+          "name": "Nate Bittle",
+          "team": "Oregon"
+        },
+        {
+          "id": 7248,
+          "name": "Dezdrick Lindsay",
+          "team": "Oregon"
+        },
+        {
+          "id": 7242,
+          "name": "Jackson Shelstad",
+          "team": "Oregon"
+        },
+        {
+          "id": 221,
+          "name": "Takai Simpkins",
+          "team": "Oregon"
+        },
+        {
+          "id": 7435,
+          "name": "Jalen Smith",
+          "team": "Rice"
+        },
+        {
+          "id": 7239,
+          "name": "Kwame Evans Jr.",
+          "team": "Oregon"
+        },
+        {
+          "id": 7422,
+          "name": "Trae Broadnax",
+          "team": "Rice"
+        },
+        {
+          "id": 7425,
+          "name": "Jimmy Oladokun Jr.",
+          "team": "Rice"
+        }
+      ]
+    },
+    {
+      "gameId": 212896,
+      "gameSourceId": "401826804",
+      "gameStartDate": "2025-11-08T03:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38247403,
+      "sourceId": "401826804113942655",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 223,
+      "team": "Oregon",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 241,
+      "opponent": "Rice",
+      "opponentConference": "American",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 37,
+      "homeWinProbability": 0.515,
       "period": 2,
       "clock": "14:27",
       "secondsRemaining": 867,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T04:29:31.000Z",
+      "wallclock": "2025-11-08T04:29:18.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -3324,8 +3324,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247403,
-      "sourceId": "401826804113942655",
+      "id": 38247404,
+      "sourceId": "401826804113942660",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -3336,16 +3336,16 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 37,
-      "homeWinProbability": 0.515,
+      "homeWinProbability": 0.537,
       "period": 2,
       "clock": "14:27",
       "secondsRemaining": 867,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T04:29:18.000Z",
+      "wallclock": "2025-11-08T04:29:31.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -3760,113 +3760,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247542,
-      "sourceId": "401826804113943793",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 223,
-      "team": "Oregon",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 241,
-      "opponent": "Rice",
-      "opponentConference": "American",
-      "opponentSeed": null,
-      "homeScore": 57,
-      "awayScore": 52,
-      "homeWinProbability": 0.866,
-      "period": 2,
-      "clock": "3:55",
-      "secondsRemaining": 235,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T05:00:25.000Z",
-      "playText": "Nate Bittle made Free Throw.",
-      "participants": [
-        {
-          "id": 7241,
-          "name": "Nate Bittle"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 7241,
-          "name": "Nate Bittle"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 1764,
-          "name": "Dallas Hobbs",
-          "team": "Rice"
-        },
-        {
-          "id": 363,
-          "name": "Stephen Giwa",
-          "team": "Rice"
-        },
-        {
-          "id": 7426,
-          "name": "Andrew Akuchie",
-          "team": "Rice"
-        },
-        {
-          "id": 7241,
-          "name": "Nate Bittle",
-          "team": "Oregon"
-        },
-        {
-          "id": 221,
-          "name": "Takai Simpkins",
-          "team": "Oregon"
-        },
-        {
-          "id": 7242,
-          "name": "Jackson Shelstad",
-          "team": "Oregon"
-        },
-        {
-          "id": 7239,
-          "name": "Kwame Evans Jr.",
-          "team": "Oregon"
-        },
-        {
-          "id": 7435,
-          "name": "Jalen Smith",
-          "team": "Rice"
-        },
-        {
-          "id": 7422,
-          "name": "Trae Broadnax",
-          "team": "Rice"
-        },
-        {
-          "id": 417,
-          "name": "Sean Stewart",
-          "team": "Oregon"
-        }
-      ]
-    },
-    {
-      "gameId": 212896,
-      "gameSourceId": "401826804",
-      "gameStartDate": "2025-11-08T03:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38247543,
       "sourceId": "401826804113943796",
       "playType": "MadeFreeThrow",
@@ -3974,8 +3867,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247556,
-      "sourceId": "401826804113943920",
+      "id": 38247542,
+      "sourceId": "401826804113943793",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -3986,16 +3879,16 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 61,
-      "awayScore": 55,
-      "homeWinProbability": 0.954,
+      "homeScore": 57,
+      "awayScore": 52,
+      "homeWinProbability": 0.866,
       "period": 2,
-      "clock": "2:26",
-      "secondsRemaining": 146,
+      "clock": "3:55",
+      "secondsRemaining": 235,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T05:04:17.000Z",
+      "wallclock": "2025-11-08T05:00:25.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -4009,6 +3902,113 @@
           "name": "Nate Bittle"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 1764,
+          "name": "Dallas Hobbs",
+          "team": "Rice"
+        },
+        {
+          "id": 363,
+          "name": "Stephen Giwa",
+          "team": "Rice"
+        },
+        {
+          "id": 7426,
+          "name": "Andrew Akuchie",
+          "team": "Rice"
+        },
+        {
+          "id": 7241,
+          "name": "Nate Bittle",
+          "team": "Oregon"
+        },
+        {
+          "id": 221,
+          "name": "Takai Simpkins",
+          "team": "Oregon"
+        },
+        {
+          "id": 7242,
+          "name": "Jackson Shelstad",
+          "team": "Oregon"
+        },
+        {
+          "id": 7239,
+          "name": "Kwame Evans Jr.",
+          "team": "Oregon"
+        },
+        {
+          "id": 7435,
+          "name": "Jalen Smith",
+          "team": "Rice"
+        },
+        {
+          "id": 7422,
+          "name": "Trae Broadnax",
+          "team": "Rice"
+        },
+        {
+          "id": 417,
+          "name": "Sean Stewart",
+          "team": "Oregon"
+        }
+      ]
+    },
+    {
+      "gameId": 212896,
+      "gameSourceId": "401826804",
+      "gameStartDate": "2025-11-08T03:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38247554,
+      "sourceId": "401826804113943917",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 223,
+      "team": "Oregon",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 241,
+      "opponent": "Rice",
+      "opponentConference": "American",
+      "opponentSeed": null,
+      "homeScore": 60,
+      "awayScore": 55,
+      "homeWinProbability": 0.922,
+      "period": 2,
+      "clock": "2:26",
+      "secondsRemaining": 146,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T05:04:03.000Z",
+      "playText": "Nate Bittle missed Free Throw.",
+      "participants": [
+        {
+          "id": 7241,
+          "name": "Nate Bittle"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 7241,
+          "name": "Nate Bittle"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4081,8 +4081,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247554,
-      "sourceId": "401826804113943917",
+      "id": 38247556,
+      "sourceId": "401826804113943920",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -4093,17 +4093,17 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 61,
       "awayScore": 55,
-      "homeWinProbability": 0.922,
+      "homeWinProbability": 0.954,
       "period": 2,
       "clock": "2:26",
       "secondsRemaining": 146,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T05:04:03.000Z",
-      "playText": "Nate Bittle missed Free Throw.",
+      "wallclock": "2025-11-08T05:04:17.000Z",
+      "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
           "id": 7241,
@@ -4115,7 +4115,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4295,8 +4295,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247586,
-      "sourceId": "401826804113944136",
+      "id": 38247585,
+      "sourceId": "401826804113944135",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -4307,7 +4307,7 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 58,
       "homeWinProbability": 0.998,
       "period": 2,
@@ -4316,7 +4316,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T05:13:14.000Z",
+      "wallclock": "2025-11-08T05:13:04.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -4402,8 +4402,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38247585,
-      "sourceId": "401826804113944135",
+      "id": 38247586,
+      "sourceId": "401826804113944136",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -4414,7 +4414,7 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 58,
       "homeWinProbability": 0.998,
       "period": 2,
@@ -4423,7 +4423,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T05:13:04.000Z",
+      "wallclock": "2025-11-08T05:13:14.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -5266,8 +5266,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38861198,
-      "sourceId": "401827265114247636",
+      "id": 38861197,
+      "sourceId": "401827265114247430",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -5278,16 +5278,16 @@
       "opponent": "South Dakota State",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 22,
-      "homeWinProbability": 0.788,
+      "homeWinProbability": 0.74,
       "period": 1,
       "clock": "7:11",
       "secondsRemaining": 431,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T03:01:49.000Z",
+      "wallclock": "2025-11-13T02:59:36.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -5373,8 +5373,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38861197,
-      "sourceId": "401827265114247430",
+      "id": 38861198,
+      "sourceId": "401827265114247636",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -5385,16 +5385,16 @@
       "opponent": "South Dakota State",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 22,
-      "homeWinProbability": 0.74,
+      "homeWinProbability": 0.788,
       "period": 1,
       "clock": "7:11",
       "secondsRemaining": 431,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T02:59:36.000Z",
+      "wallclock": "2025-11-13T03:01:49.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -6780,8 +6780,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39357765,
-      "sourceId": "401824057114518456",
+      "id": 39357762,
+      "sourceId": "401824057114518448",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -6792,16 +6792,16 @@
       "opponent": "Oregon State",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 0,
-      "homeWinProbability": 0.897,
+      "homeWinProbability": 0.841,
       "period": 1,
       "clock": "17:03",
       "secondsRemaining": 1023,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T03:06:40.000Z",
+      "wallclock": "2025-11-18T03:06:26.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -6887,8 +6887,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39357762,
-      "sourceId": "401824057114518448",
+      "id": 39357765,
+      "sourceId": "401824057114518456",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -6899,16 +6899,16 @@
       "opponent": "Oregon State",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 0,
-      "homeWinProbability": 0.841,
+      "homeWinProbability": 0.897,
       "period": 1,
       "clock": "17:03",
       "secondsRemaining": 1023,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T03:06:26.000Z",
+      "wallclock": "2025-11-18T03:06:40.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -7866,8 +7866,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39358079,
-      "sourceId": "401824057114521931",
+      "id": 39358084,
+      "sourceId": "401824057114521937",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -7878,16 +7878,16 @@
       "opponent": "Oregon State",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 58,
-      "homeWinProbability": 0.77,
+      "homeWinProbability": 0.8,
       "period": 2,
       "clock": "10:34",
       "secondsRemaining": 634,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T04:34:32.000Z",
+      "wallclock": "2025-11-18T04:34:46.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -7973,8 +7973,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39358084,
-      "sourceId": "401824057114521937",
+      "id": 39358079,
+      "sourceId": "401824057114521931",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -7985,16 +7985,16 @@
       "opponent": "Oregon State",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 58,
-      "homeWinProbability": 0.8,
+      "homeWinProbability": 0.77,
       "period": 2,
       "clock": "10:34",
       "secondsRemaining": 634,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T04:34:46.000Z",
+      "wallclock": "2025-11-18T04:34:32.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -8512,8 +8512,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40068687,
-      "sourceId": "401823478114917367",
+      "id": 40068689,
+      "sourceId": "401823478114917379",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -8524,17 +8524,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 2,
-      "homeWinProbability": 0.633,
+      "homeWinProbability": 0.666,
       "period": 1,
       "clock": "18:18",
       "secondsRemaining": 1098,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T01:12:08.000Z",
-      "playText": "Nate Bittle missed Free Throw.",
+      "wallclock": "2025-11-25T01:12:19.000Z",
+      "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
           "id": 7241,
@@ -8546,7 +8546,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8619,8 +8619,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40068689,
-      "sourceId": "401823478114917379",
+      "id": 40068687,
+      "sourceId": "401823478114917367",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -8631,17 +8631,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 2,
       "awayScore": 2,
-      "homeWinProbability": 0.666,
+      "homeWinProbability": 0.633,
       "period": 1,
       "clock": "18:18",
       "secondsRemaining": 1098,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T01:12:19.000Z",
-      "playText": "Nate Bittle made Free Throw.",
+      "wallclock": "2025-11-25T01:12:08.000Z",
+      "playText": "Nate Bittle missed Free Throw.",
       "participants": [
         {
           "id": 7241,
@@ -8653,7 +8653,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9368,8 +9368,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40068861,
-      "sourceId": "401823478114923892",
+      "id": 40068862,
+      "sourceId": "401823478114923929",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -9380,16 +9380,16 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 29,
-      "homeWinProbability": 0.517,
+      "homeWinProbability": 0.522,
       "period": 1,
       "clock": "5:20",
       "secondsRemaining": 320,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T01:45:51.000Z",
+      "wallclock": "2025-11-25T01:46:01.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -9475,8 +9475,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40068862,
-      "sourceId": "401823478114923929",
+      "id": 40068861,
+      "sourceId": "401823478114923892",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -9487,16 +9487,16 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 29,
-      "homeWinProbability": 0.522,
+      "homeWinProbability": 0.517,
       "period": 1,
       "clock": "5:20",
       "secondsRemaining": 320,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T01:46:01.000Z",
+      "wallclock": "2025-11-25T01:45:51.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -11425,8 +11425,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40208687,
-      "sourceId": "401823765115011806",
+      "id": 40208693,
+      "sourceId": "401823765115011823",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -11437,16 +11437,16 @@
       "opponent": "San Diego State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 55,
       "awayScore": 63,
-      "homeWinProbability": 0.215,
+      "homeWinProbability": 0.248,
       "period": 2,
       "clock": "15:08",
       "secondsRemaining": 908,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T05:20:48.000Z",
+      "wallclock": "2025-11-26T05:21:03.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -11532,8 +11532,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40208693,
-      "sourceId": "401823765115011823",
+      "id": 40208687,
+      "sourceId": "401823765115011806",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -11544,16 +11544,16 @@
       "opponent": "San Diego State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 54,
       "awayScore": 63,
-      "homeWinProbability": 0.248,
+      "homeWinProbability": 0.215,
       "period": 2,
       "clock": "15:08",
       "secondsRemaining": 908,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T05:21:03.000Z",
+      "wallclock": "2025-11-26T05:20:48.000Z",
       "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
@@ -12717,8 +12717,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41132139,
-      "sourceId": "401825401115584602",
+      "id": 41132137,
+      "sourceId": "401825401115584587",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -12730,16 +12730,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 40,
-      "homeWinProbability": 0.896,
+      "awayScore": 39,
+      "homeWinProbability": 0.912,
       "period": 2,
       "clock": "16:57",
       "secondsRemaining": 1017,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T00:15:16.000Z",
-      "playText": "Nate Bittle made Free Throw.",
+      "wallclock": "2025-12-07T00:15:01.000Z",
+      "playText": "Nate Bittle missed Free Throw.",
       "participants": [
         {
           "id": 7241,
@@ -12751,7 +12751,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12824,8 +12824,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41132137,
-      "sourceId": "401825401115584587",
+      "id": 41132139,
+      "sourceId": "401825401115584602",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -12837,16 +12837,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 39,
-      "homeWinProbability": 0.912,
+      "awayScore": 40,
+      "homeWinProbability": 0.896,
       "period": 2,
       "clock": "16:57",
       "secondsRemaining": 1017,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T00:15:01.000Z",
-      "playText": "Nate Bittle missed Free Throw.",
+      "wallclock": "2025-12-07T00:15:16.000Z",
+      "playText": "Nate Bittle made Free Throw.",
       "participants": [
         {
           "id": 7241,
@@ -12858,7 +12858,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15103,8 +15103,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42023912,
-      "sourceId": "401824093116062780",
+      "id": 42023909,
+      "sourceId": "401824093116062777",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -15121,11 +15121,11 @@
       "period": 2,
       "clock": "17:16",
       "secondsRemaining": 1036,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T05:13:27.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2025-12-18T05:13:09.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -15137,7 +15137,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15210,8 +15210,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42023909,
-      "sourceId": "401824093116062777",
+      "id": 42023912,
+      "sourceId": "401824093116062780",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -15228,11 +15228,11 @@
       "period": 2,
       "clock": "17:16",
       "secondsRemaining": 1036,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T05:13:09.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2025-12-18T05:13:27.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -15244,7 +15244,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17394,9 +17394,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42417316,
-      "sourceId": "401824036116302388",
-      "playType": "JumpShot",
+      "id": 42417318,
+      "sourceId": "401824036116302432",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
       "team": "Oregon",
@@ -17406,25 +17406,21 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 53,
       "awayScore": 59,
-      "homeWinProbability": 0.227,
+      "homeWinProbability": 0.283,
       "period": 2,
       "clock": "12:29",
       "secondsRemaining": 749,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-22T00:21:46.000Z",
-      "playText": "Nate Bittle makes 7-foot hook shot (Wei Lin assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-22T00:22:14.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 1",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
-        },
-        {
-          "id": 201361,
-          "name": "Wei Lin"
         }
       ],
       "shotInfo": {
@@ -17433,11 +17429,11 @@
           "name": "Nate Bittle"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 201361,
-          "name": "Wei Lin"
+          "id": null,
+          "name": null
         },
         "location": {
           "x": null,
@@ -17505,9 +17501,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42417318,
-      "sourceId": "401824036116302432",
-      "playType": "MadeFreeThrow",
+      "id": 42417316,
+      "sourceId": "401824036116302388",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 223,
       "team": "Oregon",
@@ -17517,21 +17513,25 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 52,
       "awayScore": 59,
-      "homeWinProbability": 0.283,
+      "homeWinProbability": 0.227,
       "period": 2,
       "clock": "12:29",
       "secondsRemaining": 749,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-22T00:22:14.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-22T00:21:46.000Z",
+      "playText": "Nate Bittle makes 7-foot hook shot (Wei Lin assists)",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
+        },
+        {
+          "id": 201361,
+          "name": "Wei Lin"
         }
       ],
       "shotInfo": {
@@ -17540,11 +17540,11 @@
           "name": "Nate Bittle"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 201361,
+          "name": "Wei Lin"
         },
         "location": {
           "x": null,
@@ -18591,8 +18591,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42417441,
-      "sourceId": "401824036116304183",
+      "id": 42417442,
+      "sourceId": "401824036116304184",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -18603,17 +18603,17 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 85,
-      "homeWinProbability": 0.01,
+      "homeWinProbability": 0.029,
       "period": 2,
       "clock": "1:25",
       "secondsRemaining": 85,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-22T00:56:52.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2025-12-22T00:56:57.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -18698,8 +18698,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42417442,
-      "sourceId": "401824036116304184",
+      "id": 42417441,
+      "sourceId": "401824036116304183",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -18710,17 +18710,17 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 85,
-      "homeWinProbability": 0.029,
+      "homeWinProbability": 0.01,
       "period": 2,
       "clock": "1:25",
       "secondsRemaining": 85,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-22T00:56:57.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2025-12-22T00:56:52.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -19352,9 +19352,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42708587,
-      "sourceId": "401827266116411851",
-      "playType": "MadeFreeThrow",
+      "id": 42708583,
+      "sourceId": "401827266116411825",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 223,
       "team": "Oregon",
@@ -19370,15 +19370,19 @@
       "period": 1,
       "clock": "12:19",
       "secondsRemaining": 739,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-29T01:26:38.000Z",
-      "playText": "Nate Bittle misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-29T01:26:07.000Z",
+      "playText": "Nate Bittle makes layup (Jamari Phillips assists)",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
+        },
+        {
+          "id": 7254,
+          "name": "Jamari Phillips"
         }
       ],
       "shotInfo": {
@@ -19386,16 +19390,16 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7254,
+          "name": "Jamari Phillips"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 235
         }
       },
       "onFloor": [
@@ -19459,9 +19463,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42708583,
-      "sourceId": "401827266116411825",
-      "playType": "LayUpShot",
+      "id": 42708587,
+      "sourceId": "401827266116411851",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
       "team": "Oregon",
@@ -19477,19 +19481,15 @@
       "period": 1,
       "clock": "12:19",
       "secondsRemaining": 739,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-29T01:26:07.000Z",
-      "playText": "Nate Bittle makes layup (Jamari Phillips assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-29T01:26:38.000Z",
+      "playText": "Nate Bittle misses free throw 1 of 1",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
-        },
-        {
-          "id": 7254,
-          "name": "Jamari Phillips"
         }
       ],
       "shotInfo": {
@@ -19497,16 +19497,16 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7254,
-          "name": "Jamari Phillips"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -20109,8 +20109,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42708729,
-      "sourceId": "401827266116412045",
+      "id": 42708736,
+      "sourceId": "401827266116412250",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -20121,17 +20121,17 @@
       "opponent": "Omaha",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 22,
-      "homeWinProbability": 0.788,
+      "homeWinProbability": 0.821,
       "period": 1,
       "clock": "5:26",
       "secondsRemaining": 326,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-29T01:42:39.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2025-12-29T01:42:57.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -20216,8 +20216,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42708736,
-      "sourceId": "401827266116412250",
+      "id": 42708729,
+      "sourceId": "401827266116412045",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -20228,17 +20228,17 @@
       "opponent": "Omaha",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 22,
-      "homeWinProbability": 0.821,
+      "homeWinProbability": 0.788,
       "period": 1,
       "clock": "5:26",
       "secondsRemaining": 326,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-29T01:42:57.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2025-12-29T01:42:39.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -21191,9 +21191,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42709242,
-      "sourceId": "401827266116413187",
-      "playType": "MadeFreeThrow",
+      "id": 42709240,
+      "sourceId": "401827266116413163",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 223,
       "team": "Oregon",
@@ -21203,21 +21203,25 @@
       "opponent": "Omaha",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 51,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.992,
       "period": 2,
       "clock": "6:27",
       "secondsRemaining": 387,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-29T02:48:43.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-29T02:48:22.000Z",
+      "playText": "Nate Bittle makes 4-foot hook shot (Dezdrick Lindsay assists)",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
+        },
+        {
+          "id": 7248,
+          "name": "Dezdrick Lindsay"
         }
       ],
       "shotInfo": {
@@ -21226,15 +21230,15 @@
           "name": "Nate Bittle"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7248,
+          "name": "Dezdrick Lindsay"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 265
         }
       },
       "onFloor": [
@@ -21298,9 +21302,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42709240,
-      "sourceId": "401827266116413163",
-      "playType": "JumpShot",
+      "id": 42709242,
+      "sourceId": "401827266116413187",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
       "team": "Oregon",
@@ -21310,25 +21314,21 @@
       "opponent": "Omaha",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 51,
-      "homeWinProbability": 0.992,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "6:27",
       "secondsRemaining": 387,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-29T02:48:22.000Z",
-      "playText": "Nate Bittle makes 4-foot hook shot (Dezdrick Lindsay assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-29T02:48:43.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 1",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
-        },
-        {
-          "id": 7248,
-          "name": "Dezdrick Lindsay"
         }
       ],
       "shotInfo": {
@@ -21337,15 +21337,15 @@
           "name": "Nate Bittle"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7248,
-          "name": "Dezdrick Lindsay"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -22713,8 +22713,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43136549,
-      "sourceId": "401825410116679599",
+      "id": 43136548,
+      "sourceId": "401825410116679574",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -22731,11 +22731,11 @@
       "period": 2,
       "clock": "7:13",
       "secondsRemaining": 433,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T02:09:51.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-01-03T02:09:32.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -22747,7 +22747,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -22820,8 +22820,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43136548,
-      "sourceId": "401825410116679574",
+      "id": 43136549,
+      "sourceId": "401825410116679599",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -22838,11 +22838,11 @@
       "period": 2,
       "clock": "7:13",
       "secondsRemaining": 433,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T02:09:32.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-01-03T02:09:51.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -22854,7 +22854,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -23684,9 +23684,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43515937,
-      "sourceId": "401825421116877833",
-      "playType": "LayUpShot",
+      "id": 43515939,
+      "sourceId": "401825421116877859",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
       "team": "Oregon",
@@ -23697,24 +23697,20 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 5,
-      "awayScore": 2,
-      "homeWinProbability": 0.719,
+      "awayScore": 3,
+      "homeWinProbability": 0.709,
       "period": 1,
       "clock": "17:33",
       "secondsRemaining": 1053,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-06T00:06:45.000Z",
-      "playText": "Nate Bittle makes layup (Wei Lin assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-06T00:07:05.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 1",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
-        },
-        {
-          "id": 201361,
-          "name": "Wei Lin"
         }
       ],
       "shotInfo": {
@@ -23723,15 +23719,15 @@
           "name": "Nate Bittle"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 201361,
-          "name": "Wei Lin"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -23795,9 +23791,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43515939,
-      "sourceId": "401825421116877859",
-      "playType": "MadeFreeThrow",
+      "id": 43515937,
+      "sourceId": "401825421116877833",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 223,
       "team": "Oregon",
@@ -23808,20 +23804,24 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 5,
-      "awayScore": 3,
-      "homeWinProbability": 0.709,
+      "awayScore": 2,
+      "homeWinProbability": 0.719,
       "period": 1,
       "clock": "17:33",
       "secondsRemaining": 1053,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-06T00:07:05.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-06T00:06:45.000Z",
+      "playText": "Nate Bittle makes layup (Wei Lin assists)",
       "participants": [
         {
           "id": 7241,
           "name": "Nate Bittle"
+        },
+        {
+          "id": 201361,
+          "name": "Wei Lin"
         }
       ],
       "shotInfo": {
@@ -23830,15 +23830,15 @@
           "name": "Nate Bittle"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 201361,
+          "name": "Wei Lin"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 280
         }
       },
       "onFloor": [
@@ -25095,8 +25095,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43516221,
-      "sourceId": "401825421116883139",
+      "id": 43516222,
+      "sourceId": "401825421116883142",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -25108,16 +25108,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 50,
-      "homeWinProbability": 0.494,
+      "awayScore": 51,
+      "homeWinProbability": 0.397,
       "period": 2,
       "clock": "14:33",
       "secondsRemaining": 873,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-06T01:19:07.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-01-06T01:19:20.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -25202,8 +25202,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43516222,
-      "sourceId": "401825421116883142",
+      "id": 43516221,
+      "sourceId": "401825421116883139",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -25215,16 +25215,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 51,
-      "homeWinProbability": 0.397,
+      "awayScore": 50,
+      "homeWinProbability": 0.494,
       "period": 2,
       "clock": "14:33",
       "secondsRemaining": 873,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-06T01:19:20.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2026-01-06T01:19:07.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -27798,8 +27798,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43739046,
-      "sourceId": "401825429117055311",
+      "id": 43739043,
+      "sourceId": "401825429117055306",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -27810,17 +27810,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 41,
-      "homeWinProbability": 0.444,
+      "homeWinProbability": 0.37,
       "period": 2,
       "clock": "17:14",
       "secondsRemaining": 1034,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-09T04:49:36.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2026-01-09T04:49:20.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -27905,8 +27905,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43739043,
-      "sourceId": "401825429117055306",
+      "id": 43739046,
+      "sourceId": "401825429117055311",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -27917,17 +27917,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 41,
-      "homeWinProbability": 0.37,
+      "homeWinProbability": 0.444,
       "period": 2,
       "clock": "17:14",
       "secondsRemaining": 1034,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-09T04:49:20.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-01-09T04:49:36.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -29767,8 +29767,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44228281,
-      "sourceId": "401825440117286375",
+      "id": 44228283,
+      "sourceId": "401825440117286380",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -29788,8 +29788,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:26:39.000Z",
-      "playText": "Nate Bittle misses free throw 1 of 2",
+      "wallclock": "2026-01-14T03:26:51.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -29874,8 +29874,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44228283,
-      "sourceId": "401825440117286380",
+      "id": 44228281,
+      "sourceId": "401825440117286375",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -29895,8 +29895,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:26:51.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-01-14T03:26:39.000Z",
+      "playText": "Nate Bittle misses free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -30203,8 +30203,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46445902,
-      "sourceId": "401825498118523458",
+      "id": 46445904,
+      "sourceId": "401825498118523520",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -30216,16 +30216,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 5,
-      "awayScore": 6,
-      "homeWinProbability": 0.595,
+      "awayScore": 7,
+      "homeWinProbability": 0.572,
       "period": 1,
       "clock": "17:51",
       "secondsRemaining": 1071,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:06:37.000Z",
-      "playText": "Nate Bittle misses free throw 1 of 2",
+      "wallclock": "2026-02-07T18:06:52.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -30237,7 +30237,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30310,8 +30310,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46445904,
-      "sourceId": "401825498118523520",
+      "id": 46445902,
+      "sourceId": "401825498118523458",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -30323,16 +30323,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 5,
-      "awayScore": 7,
-      "homeWinProbability": 0.572,
+      "awayScore": 6,
+      "homeWinProbability": 0.595,
       "period": 1,
       "clock": "17:51",
       "secondsRemaining": 1071,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:06:52.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2026-02-07T18:06:37.000Z",
+      "playText": "Nate Bittle misses free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -30344,7 +30344,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31067,8 +31067,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46446047,
-      "sourceId": "401825498118532560",
+      "id": 46446048,
+      "sourceId": "401825498118532620",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -31085,11 +31085,11 @@
       "period": 1,
       "clock": "3:22",
       "secondsRemaining": 202,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:41:08.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-02-07T18:41:27.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -31101,7 +31101,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31174,8 +31174,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46446048,
-      "sourceId": "401825498118532620",
+      "id": 46446047,
+      "sourceId": "401825498118532560",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -31192,11 +31192,11 @@
       "period": 1,
       "clock": "3:22",
       "secondsRemaining": 202,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:41:27.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-02-07T18:41:08.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -31208,7 +31208,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33861,8 +33861,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46756883,
-      "sourceId": "401825505118712564",
+      "id": 46756901,
+      "sourceId": "401825505118712574",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -33879,11 +33879,11 @@
       "period": 1,
       "clock": "4:18",
       "secondsRemaining": 258,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T02:19:32.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-02-10T02:19:59.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -33895,7 +33895,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33968,8 +33968,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46756901,
-      "sourceId": "401825505118712574",
+      "id": 46756883,
+      "sourceId": "401825505118712564",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -33986,11 +33986,11 @@
       "period": 1,
       "clock": "4:18",
       "secondsRemaining": 258,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T02:19:59.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-02-10T02:19:32.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -34002,7 +34002,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35169,113 +35169,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757275,
-      "sourceId": "401825505118715187",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 223,
-      "team": "Oregon",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 121,
-      "opponent": "Indiana",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 67,
-      "awayScore": 55,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "9:53",
-      "secondsRemaining": 593,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-10T03:16:40.000Z",
-      "playText": "Nate Bittle misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 7241,
-          "name": "Nate Bittle"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 7241,
-          "name": "Nate Bittle"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 221,
-          "name": "Takai Simpkins",
-          "team": "Oregon"
-        },
-        {
-          "id": 2331,
-          "name": "Reed Bailey",
-          "team": "Indiana"
-        },
-        {
-          "id": 7248,
-          "name": "Dezdrick Lindsay",
-          "team": "Oregon"
-        },
-        {
-          "id": 199729,
-          "name": "Trent Sisley",
-          "team": "Indiana"
-        },
-        {
-          "id": 7241,
-          "name": "Nate Bittle",
-          "team": "Oregon"
-        },
-        {
-          "id": 5389,
-          "name": "Conor Enright",
-          "team": "Indiana"
-        },
-        {
-          "id": 201361,
-          "name": "Wei Lin",
-          "team": "Oregon"
-        },
-        {
-          "id": 7045,
-          "name": "Lamar Wilkerson",
-          "team": "Indiana"
-        },
-        {
-          "id": 7239,
-          "name": "Kwame Evans Jr.",
-          "team": "Oregon"
-        },
-        {
-          "id": 222,
-          "name": "Nick Dorn",
-          "team": "Indiana"
-        }
-      ]
-    },
-    {
-      "gameId": 214857,
-      "gameSourceId": "401825505",
-      "gameStartDate": "2026-02-10T01:45:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46757280,
       "sourceId": "401825505118715193",
       "playType": "MadeFreeThrow",
@@ -35383,8 +35276,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757307,
-      "sourceId": "401825505118715233",
+      "id": 46757275,
+      "sourceId": "401825505118715187",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 223,
+      "team": "Oregon",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 121,
+      "opponent": "Indiana",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 55,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "9:53",
+      "secondsRemaining": 593,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-10T03:16:40.000Z",
+      "playText": "Nate Bittle misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 7241,
+          "name": "Nate Bittle"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 7241,
+          "name": "Nate Bittle"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 221,
+          "name": "Takai Simpkins",
+          "team": "Oregon"
+        },
+        {
+          "id": 2331,
+          "name": "Reed Bailey",
+          "team": "Indiana"
+        },
+        {
+          "id": 7248,
+          "name": "Dezdrick Lindsay",
+          "team": "Oregon"
+        },
+        {
+          "id": 199729,
+          "name": "Trent Sisley",
+          "team": "Indiana"
+        },
+        {
+          "id": 7241,
+          "name": "Nate Bittle",
+          "team": "Oregon"
+        },
+        {
+          "id": 5389,
+          "name": "Conor Enright",
+          "team": "Indiana"
+        },
+        {
+          "id": 201361,
+          "name": "Wei Lin",
+          "team": "Oregon"
+        },
+        {
+          "id": 7045,
+          "name": "Lamar Wilkerson",
+          "team": "Indiana"
+        },
+        {
+          "id": 7239,
+          "name": "Kwame Evans Jr.",
+          "team": "Oregon"
+        },
+        {
+          "id": 222,
+          "name": "Nick Dorn",
+          "team": "Indiana"
+        }
+      ]
+    },
+    {
+      "gameId": 214857,
+      "gameSourceId": "401825505",
+      "gameStartDate": "2026-02-10T01:45:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46757300,
+      "sourceId": "401825505118715228",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -35396,7 +35396,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 58,
+      "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:13",
@@ -35404,8 +35404,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:18:36.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2026-02-10T03:18:19.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -35490,8 +35490,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757300,
-      "sourceId": "401825505118715228",
+      "id": 46757307,
+      "sourceId": "401825505118715233",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -35503,7 +35503,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 57,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:13",
@@ -35511,8 +35511,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:18:19.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-02-10T03:18:36.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -35811,8 +35811,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757365,
-      "sourceId": "401825505118715479",
+      "id": 46757362,
+      "sourceId": "401825505118715477",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -35829,11 +35829,11 @@
       "period": 2,
       "clock": "7:18",
       "secondsRemaining": 438,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:26:21.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-02-10T03:26:09.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -35845,7 +35845,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35918,8 +35918,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757362,
-      "sourceId": "401825505118715477",
+      "id": 46757365,
+      "sourceId": "401825505118715479",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -35936,11 +35936,11 @@
       "period": 2,
       "clock": "7:18",
       "secondsRemaining": 438,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:26:09.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-02-10T03:26:21.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -35952,7 +35952,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36572,8 +36572,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757481,
-      "sourceId": "401825505118715794",
+      "id": 46757528,
+      "sourceId": "401825505118715829",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -36585,7 +36585,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 91,
-      "awayScore": 72,
+      "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:49",
@@ -36593,8 +36593,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:39:20.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-02-10T03:39:55.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -36679,8 +36679,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46757528,
-      "sourceId": "401825505118715829",
+      "id": 46757481,
+      "sourceId": "401825505118715794",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 223,
@@ -36692,7 +36692,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 91,
-      "awayScore": 73,
+      "awayScore": 72,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:49",
@@ -36700,8 +36700,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:39:55.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2026-02-10T03:39:20.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -38209,8 +38209,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47061888,
-      "sourceId": "401825516118957362",
+      "id": 47061887,
+      "sourceId": "401825516118957254",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -38227,11 +38227,11 @@
       "period": 2,
       "clock": "13:09",
       "secondsRemaining": 789,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:21:04.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-02-14T21:20:51.000Z",
+      "playText": "Nate Bittle makes free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -38243,7 +38243,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38316,8 +38316,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47061887,
-      "sourceId": "401825516118957254",
+      "id": 47061888,
+      "sourceId": "401825516118957362",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -38334,11 +38334,11 @@
       "period": 2,
       "clock": "13:09",
       "secondsRemaining": 789,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:20:51.000Z",
-      "playText": "Nate Bittle makes free throw 1 of 2",
+      "wallclock": "2026-02-14T21:21:04.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -38350,7 +38350,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39287,8 +39287,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47062014,
-      "sourceId": "401825516118967335",
+      "id": 47062012,
+      "sourceId": "401825516118967323",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -39308,8 +39308,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:57:53.000Z",
-      "playText": "Nate Bittle misses free throw 2 of 2",
+      "wallclock": "2026-02-14T21:57:38.000Z",
+      "playText": "Nate Bittle misses free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -39394,8 +39394,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47062012,
-      "sourceId": "401825516118967323",
+      "id": 47062014,
+      "sourceId": "401825516118967335",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -39415,8 +39415,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:57:38.000Z",
-      "playText": "Nate Bittle misses free throw 1 of 2",
+      "wallclock": "2026-02-14T21:57:53.000Z",
+      "playText": "Nate Bittle misses free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -46128,8 +46128,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48048781,
-      "sourceId": "401825542119518407",
+      "id": 48048775,
+      "sourceId": "401825542119518400",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -46140,17 +46140,17 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:13",
       "secondsRemaining": 73,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T06:09:19.000Z",
-      "playText": "Nate Bittle makes free throw 2 of 2",
+      "wallclock": "2026-02-26T06:08:59.000Z",
+      "playText": "Nate Bittle misses free throw 1 of 2",
       "participants": [
         {
           "id": 7241,
@@ -46162,7 +46162,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46235,8 +46235,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48048775,
-      "sourceId": "401825542119518400",
+      "id": 48048781,
+      "sourceId": "401825542119518407",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 223,
@@ -46247,17 +46247,17 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:13",
       "secondsRemaining": 73,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T06:08:59.000Z",
-      "playText": "Nate Bittle misses free throw 1 of 2",
+      "wallclock": "2026-02-26T06:09:19.000Z",
+      "playText": "Nate Bittle makes free throw 2 of 2",
       "participants": [
         {
           "id": 7241,
@@ -46269,7 +46269,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47547,8 +47547,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48307075,
-      "sourceId": "401825546119660094",
+      "id": 48307073,
+      "sourceId": "401825546119660092",
       "playType": "TipShot",
       "isHomeTeam": false,
       "teamId": 223,
@@ -47560,16 +47560,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 38,
+      "awayScore": 36,
       "homeWinProbability": null,
       "period": 2,
       "clock": "19:44",
       "secondsRemaining": 1184,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-02-28T20:10:18.000Z",
-      "playText": "Nate Bittle makes 0-foot tip in layup",
+      "wallclock": "2026-02-28T20:10:17.000Z",
+      "playText": "Nate Bittle misses tip in layup",
       "participants": [
         {
           "id": 7241,
@@ -47581,7 +47581,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": true,
+        "made": false,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -47654,8 +47654,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48307073,
-      "sourceId": "401825546119660092",
+      "id": 48307075,
+      "sourceId": "401825546119660094",
       "playType": "TipShot",
       "isHomeTeam": false,
       "teamId": 223,
@@ -47667,16 +47667,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 36,
+      "awayScore": 38,
       "homeWinProbability": null,
       "period": 2,
       "clock": "19:44",
       "secondsRemaining": 1184,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-02-28T20:10:17.000Z",
-      "playText": "Nate Bittle misses tip in layup",
+      "wallclock": "2026-02-28T20:10:18.000Z",
+      "playText": "Nate Bittle makes 0-foot tip in layup",
       "participants": [
         {
           "id": 7241,
@@ -47688,7 +47688,7 @@
           "id": 7241,
           "name": "Nate Bittle"
         },
-        "made": false,
+        "made": true,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -54260,6 +54260,533 @@
           "team": "Maryland"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-05",
+      "opponent": "Hawai'i",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 12,
+      "rebounds": 14,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 4,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Rice",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 25,
+      "rebounds": 8,
+      "assists": 1,
+      "steals": 2,
+      "blocks": 6,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 9,
+      "ftAttempted": 12,
+      "starter": true
+    },
+    {
+      "date": "2025-11-13",
+      "opponent": "South Dakota State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 14,
+      "rebounds": 10,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 3,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2025-11-18",
+      "opponent": "Oregon State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 24,
+      "rebounds": 7,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 2,
+      "ftMade": 8,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2025-11-25",
+      "opponent": "Auburn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 10,
+      "rebounds": 7,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 2,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-26",
+      "opponent": "San Diego State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 20,
+      "points": 13,
+      "rebounds": 1,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 5,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "UCLA",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 3,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 0,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "UC Davis",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 7,
+      "points": 4,
+      "rebounds": 1,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2025-12-18",
+      "opponent": "Portland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 18,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 6,
+      "fgAttempted": 8,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "Gonzaga",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 28,
+      "rebounds": 9,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 4,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 10,
+      "fgAttempted": 19,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 5,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2025-12-29",
+      "opponent": "Omaha",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 26,
+      "rebounds": 9,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 5,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 9,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 5,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Maryland",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 16,
+      "rebounds": 7,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 5,
+      "turnovers": 5,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-06",
+      "opponent": "Rutgers",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 28,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 7,
+      "fouls": 2,
+      "fgMade": 11,
+      "fgAttempted": 21,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-01-09",
+      "opponent": "Ohio State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 14,
+      "rebounds": 9,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 3,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 19,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Nebraska",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 10,
+      "rebounds": 3,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Purdue",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 23,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 8,
+      "ftMade": 10,
+      "ftAttempted": 14,
+      "starter": true
+    },
+    {
+      "date": "2026-02-10",
+      "opponent": "Indiana",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 15,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 3,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 8,
+      "ftAttempted": 13,
+      "starter": true
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Penn State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 22,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 8,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2026-02-18",
+      "opponent": "Minnesota",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 15,
+      "rebounds": 7,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "USC",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 14,
+      "rebounds": 11,
+      "assists": 2,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-26",
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 20,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 7,
+      "fgAttempted": 16,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-28",
+      "opponent": "Northwestern",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 19,
+      "rebounds": 9,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-04",
+      "opponent": "Illinois",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 15,
+      "rebounds": 5,
+      "assists": 0,
+      "steals": 1,
+      "blocks": 3,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 7,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-03-08",
+      "opponent": "Washington",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 15,
+      "rebounds": 7,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-03-10",
+      "opponent": "Maryland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 16,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
     }
   ],
   "topLineups": [

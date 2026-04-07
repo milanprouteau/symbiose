@@ -304,18 +304,50 @@
   &:focus { border-color: var(--color-primary-orange); }
 }
 
-.yearTabs { display: flex; gap: 0.35rem; }
-
-.yearTab {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 4px;
+.yearSelect {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 5px;
+  color: var(--color-primary-white);
   cursor: pointer;
   font-family: var(--font-heading);
-  font-size: 0.72rem;
-  padding: 0.25rem 0.55rem;
-  &:hover { color: white; border-color: rgba(255,255,255,0.25); }
-  &.active { background: var(--color-primary-orange); border-color: var(--color-primary-orange); color: white; }
+  font-size: 0.75rem;
+  outline: none;
+  padding: 0.3rem 0.65rem;
+  transition: border-color 0.15s;
+
+  option { background: #1a1a1a; }
+  &:focus { border-color: var(--color-primary-orange); }
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0 0.5rem;
+}
+
+.pageBtn {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 5px;
+  color: var(--color-primary-white);
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0.25rem 0.75rem;
+  transition: background 0.15s;
+
+  &:hover:not(:disabled) { background: rgba(255,255,255,0.12); }
+  &:disabled { cursor: default; opacity: 0.25; }
+}
+
+.pageInfo {
+  color: rgba(255,255,255,0.4);
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  min-width: 5ch;
+  text-align: center;
 }
 
 .count {

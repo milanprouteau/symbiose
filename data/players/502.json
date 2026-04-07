@@ -248,7 +248,7 @@
       "city": "New Oxford",
       "state": "PA"
     },
-    "dateOfBirth": "2003-07-07"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -538,8 +538,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619378,
-      "sourceId": "401826885113582656",
+      "id": 37619379,
+      "sourceId": "401826885113582860",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -551,15 +551,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 27,
-      "homeWinProbability": 0.261,
+      "awayScore": 28,
+      "homeWinProbability": 0.207,
       "period": 1,
       "clock": "11:21",
       "secondsRemaining": 681,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:25:11.000Z",
+      "wallclock": "2025-11-04T00:25:24.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -645,8 +645,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619379,
-      "sourceId": "401826885113582860",
+      "id": 37619378,
+      "sourceId": "401826885113582656",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -658,15 +658,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 28,
-      "homeWinProbability": 0.207,
+      "awayScore": 27,
+      "homeWinProbability": 0.261,
       "period": 1,
       "clock": "11:21",
       "secondsRemaining": 681,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:25:24.000Z",
+      "wallclock": "2025-11-04T00:25:11.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -970,113 +970,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619521,
-      "sourceId": "401826885113592373",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 11,
-      "opponent": "Arizona",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 33,
-      "awayScore": 36,
-      "homeWinProbability": 0.506,
-      "period": 1,
-      "clock": "6:44",
-      "secondsRemaining": 404,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T00:38:14.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 496,
-          "name": "Alex Condon",
-          "team": "Florida"
-        },
-        {
-          "id": 506,
-          "name": "Micah Handlogten",
-          "team": "Florida"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 507,
-          "name": "Urban Klavzar",
-          "team": "Florida"
-        },
-        {
-          "id": 276,
-          "name": "Anthony Dell'Orso",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 212729,
-      "gameSourceId": "401826885",
-      "gameStartDate": "2025-11-04T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 37619519,
       "sourceId": "401826885113592067",
       "playType": "MadeFreeThrow",
@@ -1184,8 +1077,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619572,
-      "sourceId": "401826885113598122",
+      "id": 37619521,
+      "sourceId": "401826885113592373",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 36,
+      "homeWinProbability": 0.506,
+      "period": 1,
+      "clock": "6:44",
+      "secondsRemaining": 404,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T00:38:14.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 496,
+          "name": "Alex Condon",
+          "team": "Florida"
+        },
+        {
+          "id": 506,
+          "name": "Micah Handlogten",
+          "team": "Florida"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 507,
+          "name": "Urban Klavzar",
+          "team": "Florida"
+        },
+        {
+          "id": 276,
+          "name": "Anthony Dell'Orso",
+          "team": "Arizona"
+        },
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 212729,
+      "gameSourceId": "401826885",
+      "gameStartDate": "2025-11-04T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 37619571,
+      "sourceId": "401826885113598005",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -1197,15 +1197,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 41,
-      "homeWinProbability": 0.522,
+      "awayScore": 40,
+      "homeWinProbability": 0.541,
       "period": 1,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:45:50.000Z",
+      "wallclock": "2025-11-04T00:45:36.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -1291,8 +1291,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619571,
-      "sourceId": "401826885113598005",
+      "id": 37619572,
+      "sourceId": "401826885113598122",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -1304,15 +1304,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 40,
-      "homeWinProbability": 0.541,
+      "awayScore": 41,
+      "homeWinProbability": 0.522,
       "period": 1,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:45:36.000Z",
+      "wallclock": "2025-11-04T00:45:50.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -1830,8 +1830,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619784,
-      "sourceId": "401826885113631864",
+      "id": 37619783,
+      "sourceId": "401826885113631576",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -1843,15 +1843,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 54,
-      "homeWinProbability": 0.762,
+      "awayScore": 53,
+      "homeWinProbability": 0.79,
       "period": 2,
       "clock": "14:47",
       "secondsRemaining": 887,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:31:05.000Z",
+      "wallclock": "2025-11-04T01:30:50.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -1937,8 +1937,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619783,
-      "sourceId": "401826885113631576",
+      "id": 37619784,
+      "sourceId": "401826885113631864",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -1950,15 +1950,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 53,
-      "homeWinProbability": 0.79,
+      "awayScore": 54,
+      "homeWinProbability": 0.762,
       "period": 2,
       "clock": "14:47",
       "secondsRemaining": 887,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:30:50.000Z",
+      "wallclock": "2025-11-04T01:31:05.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -2472,8 +2472,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619868,
-      "sourceId": "401826885113646272",
+      "id": 37619875,
+      "sourceId": "401826885113646523",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -2485,15 +2485,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 61,
-      "homeWinProbability": 0.827,
+      "awayScore": 62,
+      "homeWinProbability": 0.801,
       "period": 2,
       "clock": "9:43",
       "secondsRemaining": 583,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:47:10.000Z",
+      "wallclock": "2025-11-04T01:47:33.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -2579,8 +2579,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619875,
-      "sourceId": "401826885113646523",
+      "id": 37619868,
+      "sourceId": "401826885113646272",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -2592,15 +2592,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 62,
-      "homeWinProbability": 0.801,
+      "awayScore": 61,
+      "homeWinProbability": 0.827,
       "period": 2,
       "clock": "9:43",
       "secondsRemaining": 583,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:47:33.000Z",
+      "wallclock": "2025-11-04T01:47:10.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -3011,9 +3011,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37620003,
-      "sourceId": "401826885113667600",
-      "playType": "TipShot",
+      "id": 37620001,
+      "sourceId": "401826885113667596",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -3024,16 +3024,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 88,
-      "awayScore": 85,
-      "homeWinProbability": 0.969,
+      "awayScore": 83,
+      "homeWinProbability": 0.991,
       "period": 2,
       "clock": "0:44",
       "secondsRemaining": 44,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-11-04T02:19:53.000Z",
-      "playText": "Thomas Haugh made Two Point Tip Shot.",
+      "wallclock": "2025-11-04T02:19:50.000Z",
+      "playText": "Thomas Haugh missed Layup.",
       "participants": [
         {
           "id": 502,
@@ -3045,7 +3045,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -3053,8 +3053,8 @@
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 250
+          "x": 836.6,
+          "y": 305
         }
       },
       "onFloor": [
@@ -3118,9 +3118,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37620001,
-      "sourceId": "401826885113667596",
-      "playType": "LayUpShot",
+      "id": 37620003,
+      "sourceId": "401826885113667600",
+      "playType": "TipShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -3131,16 +3131,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 88,
-      "awayScore": 83,
-      "homeWinProbability": 0.991,
+      "awayScore": 85,
+      "homeWinProbability": 0.969,
       "period": 2,
       "clock": "0:44",
       "secondsRemaining": 44,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-11-04T02:19:50.000Z",
-      "playText": "Thomas Haugh missed Layup.",
+      "wallclock": "2025-11-04T02:19:53.000Z",
+      "playText": "Thomas Haugh made Two Point Tip Shot.",
       "participants": [
         {
           "id": 502,
@@ -3152,7 +3152,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -3160,8 +3160,8 @@
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 305
+          "x": 883.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -3990,8 +3990,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38175072,
-      "sourceId": "401823441113836278",
+      "id": 38175060,
+      "sourceId": "401823441113836266",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -4008,11 +4008,11 @@
       "period": 1,
       "clock": "7:39",
       "secondsRemaining": 459,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-07T01:27:44.000Z",
-      "playText": "Thomas Haugh missed Free Throw.",
+      "wallclock": "2025-11-07T01:27:32.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -4024,7 +4024,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4097,8 +4097,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38175060,
-      "sourceId": "401823441113836266",
+      "id": 38175072,
+      "sourceId": "401823441113836278",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -4115,11 +4115,11 @@
       "period": 1,
       "clock": "7:39",
       "secondsRemaining": 459,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-07T01:27:32.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
+      "wallclock": "2025-11-07T01:27:44.000Z",
+      "playText": "Thomas Haugh missed Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -4131,7 +4131,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -5294,8 +5294,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38695982,
-      "sourceId": "401826707114122089",
+      "id": 38695981,
+      "sourceId": "401826707114122018",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -5306,16 +5306,16 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 4,
       "awayScore": 0,
-      "homeWinProbability": 0.772,
+      "homeWinProbability": 0.77,
       "period": 1,
       "clock": "18:17",
       "secondsRemaining": 1097,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:04:22.000Z",
+      "wallclock": "2025-11-12T00:04:09.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -5401,8 +5401,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38695981,
-      "sourceId": "401826707114122018",
+      "id": 38695982,
+      "sourceId": "401826707114122089",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -5413,16 +5413,16 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 0,
-      "homeWinProbability": 0.77,
+      "homeWinProbability": 0.772,
       "period": 1,
       "clock": "18:17",
       "secondsRemaining": 1097,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:04:09.000Z",
+      "wallclock": "2025-11-12T00:04:22.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -8159,8 +8159,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309501,
-      "sourceId": "401809416114488465",
+      "id": 39309509,
+      "sourceId": "401809416114488495",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -8180,7 +8180,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T02:06:52.000Z",
+      "wallclock": "2025-11-17T02:07:11.000Z",
       "playText": "Thomas Haugh missed Free Throw.",
       "participants": [
         {
@@ -8266,8 +8266,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309509,
-      "sourceId": "401809416114488495",
+      "id": 39309501,
+      "sourceId": "401809416114488465",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -8287,7 +8287,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T02:07:11.000Z",
+      "wallclock": "2025-11-17T02:06:52.000Z",
       "playText": "Thomas Haugh missed Free Throw.",
       "participants": [
         {
@@ -9138,9 +9138,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309754,
-      "sourceId": "401809416114489548",
-      "playType": "LayUpShot",
+      "id": 39309760,
+      "sourceId": "401809416114489555",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -9150,17 +9150,17 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 62,
       "awayScore": 49,
-      "homeWinProbability": 0.977,
+      "homeWinProbability": 0.986,
       "period": 2,
       "clock": "8:56",
       "secondsRemaining": 536,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-17T03:16:37.000Z",
-      "playText": "Thomas Haugh made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-17T03:17:08.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -9173,15 +9173,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -9245,9 +9245,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309760,
-      "sourceId": "401809416114489555",
-      "playType": "MadeFreeThrow",
+      "id": 39309754,
+      "sourceId": "401809416114489548",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -9257,17 +9257,17 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 61,
       "awayScore": 49,
-      "homeWinProbability": 0.986,
+      "homeWinProbability": 0.977,
       "period": 2,
       "clock": "8:56",
       "secondsRemaining": 536,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-17T03:17:08.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-17T03:16:37.000Z",
+      "playText": "Thomas Haugh made Layup.",
       "participants": [
         {
           "id": 502,
@@ -9280,15 +9280,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 225
         }
       },
       "onFloor": [
@@ -9463,8 +9463,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309795,
-      "sourceId": "401809416114489591",
+      "id": 39309796,
+      "sourceId": "401809416114489592",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -9475,16 +9475,16 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 55,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "5:30",
       "secondsRemaining": 330,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T03:27:23.000Z",
+      "wallclock": "2025-11-17T03:27:39.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -9570,8 +9570,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309796,
-      "sourceId": "401809416114489592",
+      "id": 39309795,
+      "sourceId": "401809416114489591",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -9582,16 +9582,16 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 55,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "5:30",
       "secondsRemaining": 330,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T03:27:39.000Z",
+      "wallclock": "2025-11-17T03:27:23.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -9784,8 +9784,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309892,
-      "sourceId": "401809416114489760",
+      "id": 39309894,
+      "sourceId": "401809416114489762",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -9796,17 +9796,17 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 63,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "1:49",
       "secondsRemaining": 109,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T03:46:25.000Z",
-      "playText": "Thomas Haugh missed Free Throw.",
+      "wallclock": "2025-11-17T03:46:28.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -9818,7 +9818,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9891,8 +9891,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39309894,
-      "sourceId": "401809416114489762",
+      "id": 39309892,
+      "sourceId": "401809416114489760",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -9903,17 +9903,17 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 63,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "1:49",
       "secondsRemaining": 109,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T03:46:28.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
+      "wallclock": "2025-11-17T03:46:25.000Z",
+      "playText": "Thomas Haugh missed Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -9925,7 +9925,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10969,8 +10969,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39736206,
-      "sourceId": "401827489114730858",
+      "id": 39736205,
+      "sourceId": "401827489114730832",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -10981,16 +10981,16 @@
       "opponent": "Merrimack",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 19,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "19:08",
       "secondsRemaining": 1148,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T01:03:03.000Z",
+      "wallclock": "2025-11-22T01:02:48.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -11076,8 +11076,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39736205,
-      "sourceId": "401827489114730832",
+      "id": 39736206,
+      "sourceId": "401827489114730858",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -11088,16 +11088,16 @@
       "opponent": "Merrimack",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 19,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "19:08",
       "secondsRemaining": 1148,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T01:02:48.000Z",
+      "wallclock": "2025-11-22T01:03:03.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -14655,113 +14655,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40436168,
-      "sourceId": "401831223115132772",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 235,
-      "opponent": "Providence",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 31,
-      "awayScore": 22,
-      "homeWinProbability": 0.867,
-      "period": 1,
-      "clock": "6:18",
-      "secondsRemaining": 378,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-28T20:40:39.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 1213,
-          "name": "Cole Hargrove",
-          "team": "Providence"
-        },
-        {
-          "id": 201551,
-          "name": "Jamier Jones",
-          "team": "Providence"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 346,
-          "name": "Jaylin Sellers",
-          "team": "Providence"
-        },
-        {
-          "id": 512,
-          "name": "Isaiah Brown",
-          "team": "Florida"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 4557,
-          "name": "Jason Edwards",
-          "team": "Providence"
-        },
-        {
-          "id": 201556,
-          "name": "Stefan Vaaks",
-          "team": "Providence"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 358343,
-      "gameSourceId": "401831223",
-      "gameStartDate": "2025-11-28T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 40436171,
       "sourceId": "401831223115132807",
       "playType": "MadeFreeThrow",
@@ -14869,8 +14762,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40436178,
-      "sourceId": "401831223115133038",
+      "id": 40436168,
+      "sourceId": "401831223115132772",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -14881,17 +14774,17 @@
       "opponent": "Providence",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 31,
       "awayScore": 22,
-      "homeWinProbability": 0.896,
+      "homeWinProbability": 0.867,
       "period": 1,
-      "clock": "5:53",
-      "secondsRemaining": 353,
-      "scoringPlay": false,
+      "clock": "6:18",
+      "secondsRemaining": 378,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T20:42:32.000Z",
-      "playText": "Thomas Haugh missed Free Throw.",
+      "wallclock": "2025-11-28T20:40:39.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -14903,7 +14796,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14917,6 +14810,11 @@
       },
       "onFloor": [
         {
+          "id": 1213,
+          "name": "Cole Hargrove",
+          "team": "Providence"
+        },
+        {
           "id": 201551,
           "name": "Jamier Jones",
           "team": "Providence"
@@ -14929,11 +14827,6 @@
         {
           "id": 346,
           "name": "Jaylin Sellers",
-          "team": "Providence"
-        },
-        {
-          "id": 201553,
-          "name": "Peteris Pinnis",
           "team": "Providence"
         },
         {
@@ -15011,6 +14904,113 @@
           "name": "Thomas Haugh"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 201551,
+          "name": "Jamier Jones",
+          "team": "Providence"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu",
+          "team": "Florida"
+        },
+        {
+          "id": 346,
+          "name": "Jaylin Sellers",
+          "team": "Providence"
+        },
+        {
+          "id": 201553,
+          "name": "Peteris Pinnis",
+          "team": "Providence"
+        },
+        {
+          "id": 512,
+          "name": "Isaiah Brown",
+          "team": "Florida"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 4557,
+          "name": "Jason Edwards",
+          "team": "Providence"
+        },
+        {
+          "id": 201556,
+          "name": "Stefan Vaaks",
+          "team": "Providence"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 358343,
+      "gameSourceId": "401831223",
+      "gameStartDate": "2025-11-28T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 40436178,
+      "sourceId": "401831223115133038",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 235,
+      "opponent": "Providence",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 22,
+      "homeWinProbability": 0.896,
+      "period": 1,
+      "clock": "5:53",
+      "secondsRemaining": 353,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-28T20:42:32.000Z",
+      "playText": "Thomas Haugh missed Free Throw.",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -16058,6 +16058,113 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
+      "id": 40436378,
+      "sourceId": "401831223115141698",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 235,
+      "opponent": "Providence",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 74,
+      "awayScore": 57,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "8:54",
+      "secondsRemaining": 534,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-11-28T21:51:31.000Z",
+      "playText": "Thomas Haugh made Layup.",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 250
+        }
+      },
+      "onFloor": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 1213,
+          "name": "Cole Hargrove",
+          "team": "Providence"
+        },
+        {
+          "id": 201556,
+          "name": "Stefan Vaaks",
+          "team": "Providence"
+        },
+        {
+          "id": 346,
+          "name": "Jaylin Sellers",
+          "team": "Providence"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu",
+          "team": "Florida"
+        },
+        {
+          "id": 4557,
+          "name": "Jason Edwards",
+          "team": "Providence"
+        },
+        {
+          "id": 3144,
+          "name": "Ryan Mela",
+          "team": "Providence"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 507,
+          "name": "Urban Klavzar",
+          "team": "Florida"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 358343,
+      "gameSourceId": "401831223",
+      "gameStartDate": "2025-11-28T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
       "id": 40436384,
       "sourceId": "401831223115141750",
       "playType": "MadeFreeThrow",
@@ -16272,113 +16379,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40436378,
-      "sourceId": "401831223115141698",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 235,
-      "opponent": "Providence",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 74,
-      "awayScore": 57,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "8:54",
-      "secondsRemaining": 534,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-28T21:51:31.000Z",
-      "playText": "Thomas Haugh made Layup.",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 250
-        }
-      },
-      "onFloor": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 1213,
-          "name": "Cole Hargrove",
-          "team": "Providence"
-        },
-        {
-          "id": 201556,
-          "name": "Stefan Vaaks",
-          "team": "Providence"
-        },
-        {
-          "id": 346,
-          "name": "Jaylin Sellers",
-          "team": "Providence"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 4557,
-          "name": "Jason Edwards",
-          "team": "Providence"
-        },
-        {
-          "id": 3144,
-          "name": "Ryan Mela",
-          "team": "Providence"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 507,
-          "name": "Urban Klavzar",
-          "team": "Florida"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 358343,
-      "gameSourceId": "401831223",
-      "gameStartDate": "2025-11-28T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 40436429,
       "sourceId": "401831223115142962",
       "playType": "JumpShot",
@@ -16444,6 +16444,113 @@
           "id": 3144,
           "name": "Ryan Mela",
           "team": "Providence"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 507,
+          "name": "Urban Klavzar",
+          "team": "Florida"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 3138,
+          "name": "Corey Floyd Jr.",
+          "team": "Providence"
+        },
+        {
+          "id": 201556,
+          "name": "Stefan Vaaks",
+          "team": "Providence"
+        },
+        {
+          "id": 201553,
+          "name": "Peteris Pinnis",
+          "team": "Providence"
+        }
+      ]
+    },
+    {
+      "gameId": 358343,
+      "gameSourceId": "401831223",
+      "gameStartDate": "2025-11-28T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 40436449,
+      "sourceId": "401831223115143453",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 235,
+      "opponent": "Providence",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 85,
+      "awayScore": 67,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "4:29",
+      "secondsRemaining": 269,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-28T22:05:12.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 346,
+          "name": "Jaylin Sellers",
+          "team": "Providence"
+        },
+        {
+          "id": 3144,
+          "name": "Ryan Mela",
+          "team": "Providence"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu",
+          "team": "Florida"
         },
         {
           "id": 502,
@@ -16619,113 +16726,6 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-11-28T22:05:01.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 346,
-          "name": "Jaylin Sellers",
-          "team": "Providence"
-        },
-        {
-          "id": 3144,
-          "name": "Ryan Mela",
-          "team": "Providence"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 507,
-          "name": "Urban Klavzar",
-          "team": "Florida"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 3138,
-          "name": "Corey Floyd Jr.",
-          "team": "Providence"
-        },
-        {
-          "id": 201556,
-          "name": "Stefan Vaaks",
-          "team": "Providence"
-        },
-        {
-          "id": 201553,
-          "name": "Peteris Pinnis",
-          "team": "Providence"
-        }
-      ]
-    },
-    {
-      "gameId": 358343,
-      "gameSourceId": "401831223",
-      "gameStartDate": "2025-11-28T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
-      "id": 40436449,
-      "sourceId": "401831223115143453",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 235,
-      "opponent": "Providence",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 85,
-      "awayScore": 67,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "4:29",
-      "secondsRemaining": 269,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-28T22:05:12.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -17992,8 +17992,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40767708,
-      "sourceId": "401806364115349872",
+      "id": 40767697,
+      "sourceId": "401806364115349784",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -18005,15 +18005,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 38,
-      "homeWinProbability": 0.688,
+      "awayScore": 37,
+      "homeWinProbability": 0.71,
       "period": 2,
       "clock": "14:32",
       "secondsRemaining": 872,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T01:57:09.000Z",
+      "wallclock": "2025-12-03T01:56:43.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -18099,8 +18099,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40767697,
-      "sourceId": "401806364115349784",
+      "id": 40767708,
+      "sourceId": "401806364115349872",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -18112,15 +18112,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 37,
-      "homeWinProbability": 0.71,
+      "awayScore": 38,
+      "homeWinProbability": 0.688,
       "period": 2,
       "clock": "14:32",
       "secondsRemaining": 872,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T01:56:43.000Z",
+      "wallclock": "2025-12-03T01:57:09.000Z",
       "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
@@ -20707,8 +20707,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41634388,
-      "sourceId": "401817151115810398",
+      "id": 41634376,
+      "sourceId": "401817151115810341",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -20719,17 +20719,17 @@
       "opponent": "George Washington",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 4,
-      "homeWinProbability": 0.732,
+      "homeWinProbability": 0.696,
       "period": 1,
       "clock": "17:07",
       "secondsRemaining": 1027,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T19:57:36.000Z",
-      "playText": "Thomas Haugh made Free Throw.",
+      "wallclock": "2025-12-13T19:57:08.000Z",
+      "playText": "Thomas Haugh missed Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -20741,7 +20741,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20814,8 +20814,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41634376,
-      "sourceId": "401817151115810341",
+      "id": 41634388,
+      "sourceId": "401817151115810398",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -20826,17 +20826,17 @@
       "opponent": "George Washington",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 4,
-      "homeWinProbability": 0.696,
+      "homeWinProbability": 0.732,
       "period": 1,
       "clock": "17:07",
       "secondsRemaining": 1027,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T19:57:08.000Z",
-      "playText": "Thomas Haugh missed Free Throw.",
+      "wallclock": "2025-12-13T19:57:36.000Z",
+      "playText": "Thomas Haugh made Free Throw.",
       "participants": [
         {
           "id": 502,
@@ -20848,7 +20848,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25043,8 +25043,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42383596,
-      "sourceId": "401829406116245874",
+      "id": 42383595,
+      "sourceId": "401829406116245825",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -25061,11 +25061,11 @@
       "period": 2,
       "clock": "11:44",
       "secondsRemaining": 704,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T18:22:19.000Z",
-      "playText": "Thomas Haugh misses free throw 2 of 2",
+      "wallclock": "2025-12-21T18:22:06.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -25077,7 +25077,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25150,8 +25150,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42383595,
-      "sourceId": "401829406116245825",
+      "id": 42383596,
+      "sourceId": "401829406116245874",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -25168,11 +25168,11 @@
       "period": 2,
       "clock": "11:44",
       "secondsRemaining": 704,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T18:22:06.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2025-12-21T18:22:19.000Z",
+      "playText": "Thomas Haugh misses free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -25184,7 +25184,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -26656,8 +26656,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42743043,
-      "sourceId": "401829419116440967",
+      "id": 42743042,
+      "sourceId": "401829419116440966",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -26674,11 +26674,11 @@
       "period": 1,
       "clock": "0:00",
       "secondsRemaining": 0,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:01:10.000Z",
-      "playText": "Thomas Haugh misses free throw 2 of 2",
+      "wallclock": "2025-12-30T00:00:59.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -26690,7 +26690,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -26763,8 +26763,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42743042,
-      "sourceId": "401829419116440966",
+      "id": 42743043,
+      "sourceId": "401829419116440967",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -26781,11 +26781,11 @@
       "period": 1,
       "clock": "0:00",
       "secondsRemaining": 0,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:00:59.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2025-12-30T00:01:10.000Z",
+      "playText": "Thomas Haugh misses free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -26797,7 +26797,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29791,9 +29791,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43405381,
-      "sourceId": "401808147116817508",
-      "playType": "MadeFreeThrow",
+      "id": 43405370,
+      "sourceId": "401808147116817454",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -29804,20 +29804,24 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 74,
-      "homeWinProbability": 0.936,
+      "awayScore": 73,
+      "homeWinProbability": 0.967,
       "period": 2,
       "clock": "0:05",
       "secondsRemaining": 5,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-04T03:50:29.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-04T03:49:55.000Z",
+      "playText": "Thomas Haugh makes layup (Rueben Chinyelu assists)",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu"
         }
       ],
       "shotInfo": {
@@ -29826,15 +29830,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 497,
+          "name": "Rueben Chinyelu"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 275
         }
       },
       "onFloor": [
@@ -29898,9 +29902,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43405370,
-      "sourceId": "401808147116817454",
-      "playType": "LayUpShot",
+      "id": 43405381,
+      "sourceId": "401808147116817508",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -29911,24 +29915,20 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 76,
-      "awayScore": 73,
-      "homeWinProbability": 0.967,
+      "awayScore": 74,
+      "homeWinProbability": 0.936,
       "period": 2,
       "clock": "0:05",
       "secondsRemaining": 5,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-04T03:49:55.000Z",
-      "playText": "Thomas Haugh makes layup (Rueben Chinyelu assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-04T03:50:29.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu"
         }
       ],
       "shotInfo": {
@@ -29937,15 +29937,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 497,
-          "name": "Rueben Chinyelu"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -32934,113 +32934,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897059,
-      "sourceId": "401808162117071598",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 292,
-      "opponent": "Tennessee",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 11,
-      "awayScore": 14,
-      "homeWinProbability": 0.524,
-      "period": 1,
-      "clock": "11:00",
-      "secondsRemaining": 660,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T17:24:21.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202447,
-          "name": "DeWayne Brown II",
-          "team": "Tennessee"
-        },
-        {
-          "id": 512,
-          "name": "Isaiah Brown",
-          "team": "Florida"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 507,
-          "name": "Urban Klavzar",
-          "team": "Florida"
-        },
-        {
-          "id": 314,
-          "name": "Bishop Boswell",
-          "team": "Tennessee"
-        },
-        {
-          "id": 302,
-          "name": "Felix Okpara",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 210751,
-      "gameSourceId": "401808162",
-      "gameStartDate": "2026-01-10T17:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43897067,
       "sourceId": "401808162117071667",
       "playType": "MadeFreeThrow",
@@ -33148,8 +33041,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897162,
-      "sourceId": "401808162117072323",
+      "id": 43897059,
+      "sourceId": "401808162117071598",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -33160,17 +33053,124 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 11,
+      "awayScore": 14,
+      "homeWinProbability": 0.524,
+      "period": 1,
+      "clock": "11:00",
+      "secondsRemaining": 660,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-10T17:24:21.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202447,
+          "name": "DeWayne Brown II",
+          "team": "Tennessee"
+        },
+        {
+          "id": 512,
+          "name": "Isaiah Brown",
+          "team": "Florida"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu",
+          "team": "Florida"
+        },
+        {
+          "id": 507,
+          "name": "Urban Klavzar",
+          "team": "Florida"
+        },
+        {
+          "id": 314,
+          "name": "Bishop Boswell",
+          "team": "Tennessee"
+        },
+        {
+          "id": 302,
+          "name": "Felix Okpara",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 210751,
+      "gameSourceId": "401808162",
+      "gameStartDate": "2026-01-10T17:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43897160,
+      "sourceId": "401808162117072298",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 292,
+      "opponent": "Tennessee",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 18,
       "awayScore": 19,
-      "homeWinProbability": 0.569,
+      "homeWinProbability": 0.539,
       "period": 1,
       "clock": "7:11",
       "secondsRemaining": 431,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T17:36:45.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-01-10T17:36:29.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -33255,8 +33255,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897160,
-      "sourceId": "401808162117072298",
+      "id": 43897162,
+      "sourceId": "401808162117072323",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -33267,17 +33267,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 19,
       "awayScore": 19,
-      "homeWinProbability": 0.539,
+      "homeWinProbability": 0.569,
       "period": 1,
       "clock": "7:11",
       "secondsRemaining": 431,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T17:36:29.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-01-10T17:36:45.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -33473,8 +33473,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897175,
-      "sourceId": "401808162117072418",
+      "id": 43897177,
+      "sourceId": "401808162117072447",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -33485,17 +33485,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 23,
       "awayScore": 21,
-      "homeWinProbability": 0.658,
+      "homeWinProbability": 0.701,
       "period": 1,
       "clock": "6:12",
       "secondsRemaining": 372,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T17:38:28.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-01-10T17:38:43.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -33580,8 +33580,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897177,
-      "sourceId": "401808162117072447",
+      "id": 43897175,
+      "sourceId": "401808162117072418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -33592,17 +33592,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 22,
       "awayScore": 21,
-      "homeWinProbability": 0.701,
+      "homeWinProbability": 0.658,
       "period": 1,
       "clock": "6:12",
       "secondsRemaining": 372,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T17:38:43.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-01-10T17:38:28.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -36398,9 +36398,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567079,
-      "sourceId": "401808182117460717",
-      "playType": "LayUpShot",
+      "id": 44567091,
+      "sourceId": "401808182117461286",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -36411,24 +36411,20 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 17,
-      "awayScore": 19,
-      "homeWinProbability": 0.535,
+      "awayScore": 20,
+      "homeWinProbability": 0.522,
       "period": 1,
       "clock": "12:04",
       "secondsRemaining": 724,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T19:27:14.000Z",
-      "playText": "Thomas Haugh makes layup (Rueben Chinyelu assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T19:27:56.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu"
         }
       ],
       "shotInfo": {
@@ -36437,15 +36433,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 497,
-          "name": "Rueben Chinyelu"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 122.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36509,9 +36505,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567091,
-      "sourceId": "401808182117461286",
-      "playType": "MadeFreeThrow",
+      "id": 44567079,
+      "sourceId": "401808182117460717",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -36522,20 +36518,24 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 17,
-      "awayScore": 20,
-      "homeWinProbability": 0.522,
+      "awayScore": 19,
+      "homeWinProbability": 0.535,
       "period": 1,
       "clock": "12:04",
       "secondsRemaining": 724,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T19:27:56.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T19:27:14.000Z",
+      "playText": "Thomas Haugh makes layup (Rueben Chinyelu assists)",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu"
         }
       ],
       "shotInfo": {
@@ -36544,15 +36544,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 497,
+          "name": "Rueben Chinyelu"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 122.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -37805,9 +37805,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567789,
-      "sourceId": "401808182117509863",
-      "playType": "LayUpShot",
+      "id": 44567794,
+      "sourceId": "401808182117510025",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -37818,24 +37818,20 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 81,
-      "awayScore": 85,
-      "homeWinProbability": 0.109,
+      "awayScore": 86,
+      "homeWinProbability": 0.053,
       "period": 2,
       "clock": "5:11",
       "secondsRemaining": 311,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T21:09:16.000Z",
-      "playText": "Thomas Haugh makes layup (Rueben Chinyelu assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T21:09:44.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu"
         }
       ],
       "shotInfo": {
@@ -37844,15 +37840,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 497,
-          "name": "Rueben Chinyelu"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37916,9 +37912,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567794,
-      "sourceId": "401808182117510025",
-      "playType": "MadeFreeThrow",
+      "id": 44567789,
+      "sourceId": "401808182117509863",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -37929,20 +37925,24 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 81,
-      "awayScore": 86,
-      "homeWinProbability": 0.053,
+      "awayScore": 85,
+      "homeWinProbability": 0.109,
       "period": 2,
       "clock": "5:11",
       "secondsRemaining": 311,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T21:09:44.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T21:09:16.000Z",
+      "playText": "Thomas Haugh makes layup (Rueben Chinyelu assists)",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu"
         }
       ],
       "shotInfo": {
@@ -37951,15 +37951,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 497,
+          "name": "Rueben Chinyelu"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 235
         }
       },
       "onFloor": [
@@ -39858,8 +39858,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45243989,
-      "sourceId": "401808193117906511",
+      "id": 45243995,
+      "sourceId": "401808193117906619",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -39870,17 +39870,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 8,
       "awayScore": 19,
-      "homeWinProbability": 0.21,
+      "homeWinProbability": 0.261,
       "period": 1,
       "clock": "14:12",
       "secondsRemaining": 852,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:26:24.000Z",
-      "playText": "Thomas Haugh misses free throw 1 of 2",
+      "wallclock": "2026-01-24T21:26:47.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -39892,7 +39892,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39965,8 +39965,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45243995,
-      "sourceId": "401808193117906619",
+      "id": 45243989,
+      "sourceId": "401808193117906511",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -39977,17 +39977,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 8,
+      "homeScore": 7,
       "awayScore": 19,
-      "homeWinProbability": 0.261,
+      "homeWinProbability": 0.21,
       "period": 1,
       "clock": "14:12",
       "secondsRemaining": 852,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:26:47.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-01-24T21:26:24.000Z",
+      "playText": "Thomas Haugh misses free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -39999,7 +39999,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -40183,8 +40183,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244045,
-      "sourceId": "401808193117910052",
+      "id": 45244039,
+      "sourceId": "401808193117909983",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -40195,17 +40195,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 18,
       "awayScore": 23,
-      "homeWinProbability": 0.509,
+      "homeWinProbability": 0.494,
       "period": 1,
       "clock": "9:45",
       "secondsRemaining": 585,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:39:00.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-01-24T21:38:35.000Z",
+      "playText": "Thomas Haugh misses free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -40217,7 +40217,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -40290,8 +40290,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244039,
-      "sourceId": "401808193117909983",
+      "id": 45244045,
+      "sourceId": "401808193117910052",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -40302,17 +40302,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 19,
       "awayScore": 23,
-      "homeWinProbability": 0.494,
+      "homeWinProbability": 0.509,
       "period": 1,
       "clock": "9:45",
       "secondsRemaining": 585,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:38:35.000Z",
-      "playText": "Thomas Haugh misses free throw 1 of 2",
+      "wallclock": "2026-01-24T21:39:00.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -40324,7 +40324,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41043,8 +41043,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244173,
-      "sourceId": "401808193117920261",
+      "id": 45244174,
+      "sourceId": "401808193117920313",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -41061,11 +41061,11 @@
       "period": 2,
       "clock": "17:05",
       "secondsRemaining": 1025,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T22:24:02.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-01-24T22:24:18.000Z",
+      "playText": "Thomas Haugh misses free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -41077,7 +41077,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41085,8 +41085,8 @@
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41150,8 +41150,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244174,
-      "sourceId": "401808193117920313",
+      "id": 45244173,
+      "sourceId": "401808193117920261",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -41168,11 +41168,11 @@
       "period": 2,
       "clock": "17:05",
       "secondsRemaining": 1025,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T22:24:18.000Z",
-      "playText": "Thomas Haugh misses free throw 2 of 2",
+      "wallclock": "2026-01-24T22:24:02.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -41184,7 +41184,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41192,8 +41192,8 @@
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 245
         }
       },
       "onFloor": [
@@ -41907,8 +41907,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244273,
-      "sourceId": "401808193117926899",
+      "id": 45244272,
+      "sourceId": "401808193117926856",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -41919,17 +41919,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 56,
-      "homeWinProbability": 0.602,
+      "homeWinProbability": 0.487,
       "period": 2,
       "clock": "8:09",
       "secondsRemaining": 489,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T22:52:08.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-01-24T22:51:53.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -42014,8 +42014,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45244272,
-      "sourceId": "401808193117926856",
+      "id": 45244273,
+      "sourceId": "401808193117926899",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -42026,17 +42026,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 56,
-      "homeWinProbability": 0.487,
+      "homeWinProbability": 0.602,
       "period": 2,
       "clock": "8:09",
       "secondsRemaining": 489,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T22:51:53.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-01-24T22:52:08.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -43195,9 +43195,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45575509,
-      "sourceId": "401808203118047685",
-      "playType": "LayUpShot",
+      "id": 45575515,
+      "sourceId": "401808203118047760",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -43213,11 +43213,11 @@
       "period": 1,
       "clock": "5:39",
       "secondsRemaining": 339,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-29T02:36:26.000Z",
-      "playText": "Thomas Haugh makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-29T02:36:56.000Z",
+      "playText": "Thomas Haugh misses free throw 1 of 1",
       "participants": [
         {
           "id": 502,
@@ -43229,16 +43229,16 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -43302,9 +43302,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45575515,
-      "sourceId": "401808203118047760",
-      "playType": "MadeFreeThrow",
+      "id": 45575509,
+      "sourceId": "401808203118047685",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -43320,11 +43320,11 @@
       "period": 1,
       "clock": "5:39",
       "secondsRemaining": 339,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-29T02:36:56.000Z",
-      "playText": "Thomas Haugh misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-29T02:36:26.000Z",
+      "playText": "Thomas Haugh makes driving layup",
       "participants": [
         {
           "id": 502,
@@ -43336,16 +43336,16 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 260
         }
       },
       "onFloor": [
@@ -44614,9 +44614,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46072497,
-      "sourceId": "401808208118295599",
-      "playType": "DunkShot",
+      "id": 46072507,
+      "sourceId": "401808208118295676",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -44626,22 +44626,18 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 12,
-      "homeWinProbability": 0.715,
+      "homeWinProbability": 0.733,
       "period": 1,
       "clock": "13:33",
       "secondsRemaining": 813,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-01T18:13:49.000Z",
-      "playText": "Thomas Haugh makes 2-foot dunk (Boogie Fland assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T18:14:34.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 7822,
-          "name": "Boogie Fland"
-        },
         {
           "id": 502,
           "name": "Thomas Haugh"
@@ -44653,15 +44649,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7822,
-          "name": "Boogie Fland"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -44725,9 +44721,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46072507,
-      "sourceId": "401808208118295676",
-      "playType": "MadeFreeThrow",
+      "id": 46072497,
+      "sourceId": "401808208118295599",
+      "playType": "DunkShot",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -44737,18 +44733,22 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 12,
-      "homeWinProbability": 0.733,
+      "homeWinProbability": 0.715,
       "period": 1,
       "clock": "13:33",
       "secondsRemaining": 813,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T18:14:34.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-01T18:13:49.000Z",
+      "playText": "Thomas Haugh makes 2-foot dunk (Boogie Fland assists)",
       "participants": [
+        {
+          "id": 7822,
+          "name": "Boogie Fland"
+        },
         {
           "id": 502,
           "name": "Thomas Haugh"
@@ -44760,15 +44760,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7822,
+          "name": "Boogie Fland"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 250
         }
       },
       "onFloor": [
@@ -46782,8 +46782,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46683802,
-      "sourceId": "401808224118666026",
+      "id": 46683793,
+      "sourceId": "401808224118665963",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -46800,11 +46800,11 @@
       "period": 1,
       "clock": "3:42",
       "secondsRemaining": 222,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:13:08.000Z",
-      "playText": "Thomas Haugh misses free throw 2 of 2",
+      "wallclock": "2026-02-08T02:12:40.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -46816,7 +46816,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46889,8 +46889,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46683793,
-      "sourceId": "401808224118665963",
+      "id": 46683802,
+      "sourceId": "401808224118666026",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -46907,11 +46907,11 @@
       "period": 1,
       "clock": "3:42",
       "secondsRemaining": 222,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:12:40.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-08T02:13:08.000Z",
+      "playText": "Thomas Haugh misses free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -46923,7 +46923,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47753,113 +47753,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46685421,
-      "sourceId": "401808224118670581",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 293,
-      "opponent": "Texas A&M",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 40,
-      "awayScore": 60,
-      "homeWinProbability": 0.003,
-      "period": 2,
-      "clock": "8:21",
-      "secondsRemaining": 501,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-08T03:09:56.000Z",
-      "playText": "Thomas Haugh misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 7819,
-          "name": "Pop Isaacs",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 512,
-          "name": "Isaiah Brown",
-          "team": "Florida"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 7092,
-          "name": "Rashaun Agee",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 54,
-          "name": "Zach Clemence",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 6803,
-          "name": "Jacari Lane",
-          "team": "Texas A&M"
-        },
-        {
-          "id": 50,
-          "name": "Rylan Griffen",
-          "team": "Texas A&M"
-        }
-      ]
-    },
-    {
-      "gameId": 211455,
-      "gameSourceId": "401808224",
-      "gameStartDate": "2026-02-08T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46685425,
       "sourceId": "401808224118670592",
       "playType": "MadeFreeThrow",
@@ -47967,8 +47860,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46685457,
-      "sourceId": "401808224118671071",
+      "id": 46685421,
+      "sourceId": "401808224118670581",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -47979,17 +47872,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 43,
-      "awayScore": 63,
-      "homeWinProbability": 0.005,
+      "homeScore": 40,
+      "awayScore": 60,
+      "homeWinProbability": 0.003,
       "period": 2,
-      "clock": "7:18",
-      "secondsRemaining": 438,
-      "scoringPlay": true,
+      "clock": "8:21",
+      "secondsRemaining": 501,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T03:17:00.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-02-08T03:09:56.000Z",
+      "playText": "Thomas Haugh misses free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -48001,7 +47894,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48097,6 +47990,113 @@
       "scoreValue": 1,
       "wallclock": "2026-02-08T03:16:42.000Z",
       "playText": "Thomas Haugh makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu",
+          "team": "Florida"
+        },
+        {
+          "id": 7819,
+          "name": "Pop Isaacs",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 512,
+          "name": "Isaiah Brown",
+          "team": "Florida"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 7092,
+          "name": "Rashaun Agee",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 54,
+          "name": "Zach Clemence",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 6803,
+          "name": "Jacari Lane",
+          "team": "Texas A&M"
+        },
+        {
+          "id": 50,
+          "name": "Rylan Griffen",
+          "team": "Texas A&M"
+        }
+      ]
+    },
+    {
+      "gameId": 211455,
+      "gameSourceId": "401808224",
+      "gameStartDate": "2026-02-08T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46685457,
+      "sourceId": "401808224118671071",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 293,
+      "opponent": "Texas A&M",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 63,
+      "homeWinProbability": 0.005,
+      "period": 2,
+      "clock": "7:18",
+      "secondsRemaining": 438,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-08T03:17:00.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -48835,8 +48835,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46685750,
-      "sourceId": "401808224118671777",
+      "id": 46685747,
+      "sourceId": "401808224118671758",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -48848,7 +48848,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 76,
+      "awayScore": 75,
       "homeWinProbability": null,
       "period": 2,
       "clock": "4:25",
@@ -48856,8 +48856,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T03:29:00.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-02-08T03:28:52.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -48942,8 +48942,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46685747,
-      "sourceId": "401808224118671758",
+      "id": 46685750,
+      "sourceId": "401808224118671777",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -48955,7 +48955,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 75,
+      "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
       "clock": "4:25",
@@ -48963,8 +48963,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T03:28:52.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-08T03:29:00.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -49691,8 +49691,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46841801,
-      "sourceId": "401808230118747364",
+      "id": 46841800,
+      "sourceId": "401808230118747261",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -49704,7 +49704,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 0,
-      "awayScore": 8,
+      "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:19",
@@ -49712,8 +49712,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T00:07:59.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-02-12T00:07:46.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -49798,8 +49798,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46841800,
-      "sourceId": "401808230118747261",
+      "id": 46841801,
+      "sourceId": "401808230118747364",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -49811,7 +49811,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 0,
-      "awayScore": 7,
+      "awayScore": 8,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:19",
@@ -49819,8 +49819,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T00:07:46.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-12T00:07:59.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -50884,8 +50884,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46842067,
-      "sourceId": "401808230118764659",
+      "id": 46842070,
+      "sourceId": "401808230118764761",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -50897,7 +50897,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 50,
+      "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:03",
@@ -50905,8 +50905,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:20:02.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-12T01:20:23.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -50991,8 +50991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46842070,
-      "sourceId": "401808230118764761",
+      "id": 46842067,
+      "sourceId": "401808230118764659",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -51004,7 +51004,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 51,
+      "awayScore": 50,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:03",
@@ -51012,8 +51012,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T01:20:23.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-02-12T01:20:02.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -53052,6 +53052,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 47063724,
+      "sourceId": "401808234118958867",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 135,
+      "opponent": "Kentucky",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 46,
+      "awayScore": 41,
+      "homeWinProbability": 0.768,
+      "period": 2,
+      "clock": "18:19",
+      "secondsRemaining": 1099,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-14T21:26:13.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 199960,
+          "name": "Andrija Jelavić",
+          "team": "Kentucky"
+        },
+        {
+          "id": 496,
+          "name": "Alex Condon",
+          "team": "Florida"
+        },
+        {
+          "id": 567,
+          "name": "Brandon Garrison",
+          "team": "Kentucky"
+        },
+        {
+          "id": 562,
+          "name": "Otega Oweh",
+          "team": "Kentucky"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 506,
+          "name": "Micah Handlogten",
+          "team": "Florida"
+        },
+        {
+          "id": 503,
+          "name": "Denzel Aberdeen",
+          "team": "Kentucky"
+        },
+        {
+          "id": 568,
+          "name": "Collin Chandler",
+          "team": "Kentucky"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 507,
+          "name": "Urban Klavzar",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 211633,
+      "gameSourceId": "401808234",
+      "gameStartDate": "2026-02-14T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 47063720,
       "sourceId": "401808234118958701",
       "playType": "LayUpShot",
@@ -53159,8 +53266,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47063724,
-      "sourceId": "401808234118958867",
+      "id": 47063741,
+      "sourceId": "401808234118959509",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -53171,17 +53278,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 46,
-      "awayScore": 41,
-      "homeWinProbability": 0.768,
+      "homeScore": 50,
+      "awayScore": 43,
+      "homeWinProbability": 0.85,
       "period": 2,
-      "clock": "18:19",
-      "secondsRemaining": 1099,
+      "clock": "17:34",
+      "secondsRemaining": 1054,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T21:26:13.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "wallclock": "2026-02-14T21:28:01.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -53301,113 +53408,6 @@
           "name": "Thomas Haugh"
         },
         "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 199960,
-          "name": "Andrija Jelavić",
-          "team": "Kentucky"
-        },
-        {
-          "id": 496,
-          "name": "Alex Condon",
-          "team": "Florida"
-        },
-        {
-          "id": 567,
-          "name": "Brandon Garrison",
-          "team": "Kentucky"
-        },
-        {
-          "id": 562,
-          "name": "Otega Oweh",
-          "team": "Kentucky"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 506,
-          "name": "Micah Handlogten",
-          "team": "Florida"
-        },
-        {
-          "id": 503,
-          "name": "Denzel Aberdeen",
-          "team": "Kentucky"
-        },
-        {
-          "id": 568,
-          "name": "Collin Chandler",
-          "team": "Kentucky"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 507,
-          "name": "Urban Klavzar",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 211633,
-      "gameSourceId": "401808234",
-      "gameStartDate": "2026-02-14T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 47063741,
-      "sourceId": "401808234118959509",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 135,
-      "opponent": "Kentucky",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 50,
-      "awayScore": 43,
-      "homeWinProbability": 0.85,
-      "period": 2,
-      "clock": "17:34",
-      "secondsRemaining": 1054,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-14T21:28:01.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54669,8 +54669,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47422539,
-      "sourceId": "401808241119088996",
+      "id": 47422535,
+      "sourceId": "401808241119088985",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -54687,11 +54687,11 @@
       "period": 2,
       "clock": "9:26",
       "secondsRemaining": 566,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T01:32:01.000Z",
-      "playText": "Thomas Haugh misses free throw 2 of 2",
+      "wallclock": "2026-02-18T01:31:44.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -54703,7 +54703,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54776,8 +54776,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47422535,
-      "sourceId": "401808241119088985",
+      "id": 47422539,
+      "sourceId": "401808241119088996",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -54794,11 +54794,11 @@
       "period": 2,
       "clock": "9:26",
       "secondsRemaining": 566,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T01:31:44.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-18T01:32:01.000Z",
+      "playText": "Thomas Haugh misses free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -54810,7 +54810,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -55434,8 +55434,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47689983,
-      "sourceId": "401808253119246864",
+      "id": 47689992,
+      "sourceId": "401808253119246909",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -55447,16 +55447,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 12,
-      "awayScore": 16,
-      "homeWinProbability": 0.51,
+      "awayScore": 17,
+      "homeWinProbability": 0.455,
       "period": 1,
       "clock": "13:30",
       "secondsRemaining": 810,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T17:14:23.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-21T17:14:42.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -55541,8 +55541,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47689992,
-      "sourceId": "401808253119246909",
+      "id": 47689983,
+      "sourceId": "401808253119246864",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -55554,16 +55554,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 12,
-      "awayScore": 17,
-      "homeWinProbability": 0.455,
+      "awayScore": 16,
+      "homeWinProbability": 0.51,
       "period": 1,
       "clock": "13:30",
       "secondsRemaining": 810,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T17:14:42.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-02-21T17:14:23.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -55755,8 +55755,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47690086,
-      "sourceId": "401808253119248156",
+      "id": 47690091,
+      "sourceId": "401808253119248174",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -55768,16 +55768,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 27,
-      "homeWinProbability": 0.322,
+      "awayScore": 28,
+      "homeWinProbability": 0.263,
       "period": 1,
       "clock": "6:37",
       "secondsRemaining": 397,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T17:34:30.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-21T17:34:51.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -55862,8 +55862,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47690091,
-      "sourceId": "401808253119248174",
+      "id": 47690086,
+      "sourceId": "401808253119248156",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -55875,16 +55875,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 28,
-      "homeWinProbability": 0.263,
+      "awayScore": 27,
+      "homeWinProbability": 0.322,
       "period": 1,
       "clock": "6:37",
       "secondsRemaining": 397,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T17:34:51.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-02-21T17:34:30.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -56734,9 +56734,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47690244,
-      "sourceId": "401808253119252826",
-      "playType": "LayUpShot",
+      "id": 47690248,
+      "sourceId": "401808253119252967",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -56747,16 +56747,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 56,
-      "homeWinProbability": 0.142,
+      "awayScore": 58,
+      "homeWinProbability": 0.11,
       "period": 2,
       "clock": "14:40",
       "secondsRemaining": 880,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-21T18:20:48.000Z",
-      "playText": "Thomas Haugh misses layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T18:21:36.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -56768,16 +56768,16 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
-        "range": "rim",
+        "made": true,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -56841,9 +56841,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47690248,
-      "sourceId": "401808253119252967",
-      "playType": "MadeFreeThrow",
+      "id": 47690244,
+      "sourceId": "401808253119252826",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 87,
       "team": "Florida",
@@ -56854,16 +56854,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 58,
-      "homeWinProbability": 0.11,
+      "awayScore": 56,
+      "homeWinProbability": 0.142,
       "period": 2,
       "clock": "14:40",
       "secondsRemaining": 880,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T18:21:36.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "scoreValue": 2,
+      "wallclock": "2026-02-21T18:20:48.000Z",
+      "playText": "Thomas Haugh misses layup",
       "participants": [
         {
           "id": 502,
@@ -56875,16 +56875,16 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
-        "range": "free_throw",
+        "made": false,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 270
         }
       },
       "onFloor": [
@@ -57808,8 +57808,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48038276,
-      "sourceId": "401808264119490662",
+      "id": 48038277,
+      "sourceId": "401808264119490752",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -57826,11 +57826,11 @@
       "period": 2,
       "clock": "15:38",
       "secondsRemaining": 938,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T01:21:16.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-02-26T01:21:30.000Z",
+      "playText": "Thomas Haugh misses free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -57842,7 +57842,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -57915,8 +57915,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48038277,
-      "sourceId": "401808264119490752",
+      "id": 48038276,
+      "sourceId": "401808264119490662",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 87,
@@ -57933,11 +57933,11 @@
       "period": 2,
       "clock": "15:38",
       "secondsRemaining": 938,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T01:21:30.000Z",
-      "playText": "Thomas Haugh misses free throw 2 of 2",
+      "wallclock": "2026-02-26T01:21:16.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -57949,7 +57949,7 @@
           "id": 502,
           "name": "Thomas Haugh"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59330,8 +59330,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486820,
-      "sourceId": "401808266119753967",
+      "id": 48486823,
+      "sourceId": "401808266119753989",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -59342,7 +59342,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 40,
       "homeWinProbability": null,
       "period": 2,
@@ -59351,8 +59351,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:11:55.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-01T03:12:11.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -59437,8 +59437,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486823,
-      "sourceId": "401808266119753989",
+      "id": 48486820,
+      "sourceId": "401808266119753967",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -59449,7 +59449,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 40,
       "homeWinProbability": null,
       "period": 2,
@@ -59458,8 +59458,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:12:11.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-01T03:11:55.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -59981,8 +59981,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486940,
-      "sourceId": "401808266119755358",
+      "id": 48486939,
+      "sourceId": "401808266119755347",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -59993,7 +59993,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 88,
+      "homeScore": 87,
       "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
@@ -60002,8 +60002,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:40:56.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-01T03:40:41.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -60088,8 +60088,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486939,
-      "sourceId": "401808266119755347",
+      "id": 48486940,
+      "sourceId": "401808266119755358",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -60100,7 +60100,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 88,
       "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
@@ -60109,8 +60109,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:40:41.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-01T03:40:56.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -60302,9 +60302,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486962,
-      "sourceId": "401808266119755528",
-      "playType": "MadeFreeThrow",
+      "id": 48486960,
+      "sourceId": "401808266119755522",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -60314,7 +60314,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 97,
+      "homeScore": 96,
       "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
@@ -60322,10 +60322,14 @@
       "secondsRemaining": 361,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-01T03:44:28.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-01T03:44:08.000Z",
+      "playText": "Thomas Haugh makes 9-foot jumper (Boogie Fland assists)",
       "participants": [
+        {
+          "id": 7822,
+          "name": "Boogie Fland"
+        },
         {
           "id": 502,
           "name": "Thomas Haugh"
@@ -60337,15 +60341,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 7822,
+          "name": "Boogie Fland"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 325
         }
       },
       "onFloor": [
@@ -60409,9 +60413,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486960,
-      "sourceId": "401808266119755522",
-      "playType": "JumpShot",
+      "id": 48486962,
+      "sourceId": "401808266119755528",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -60421,7 +60425,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 96,
+      "homeScore": 97,
       "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
@@ -60429,14 +60433,10 @@
       "secondsRemaining": 361,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-01T03:44:08.000Z",
-      "playText": "Thomas Haugh makes 9-foot jumper (Boogie Fland assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-01T03:44:28.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 7822,
-          "name": "Boogie Fland"
-        },
         {
           "id": 502,
           "name": "Thomas Haugh"
@@ -60448,15 +60448,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 7822,
-          "name": "Boogie Fland"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 846,
-          "y": 325
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -63227,8 +63227,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387449,
-      "sourceId": "401851565120232823",
+      "id": 49387442,
+      "sourceId": "401851565120232788",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -63239,7 +63239,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 25,
       "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
@@ -63248,8 +63248,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T17:34:30.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-13T17:34:11.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -63334,8 +63334,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387442,
-      "sourceId": "401851565120232788",
+      "id": 49387449,
+      "sourceId": "401851565120232823",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -63346,7 +63346,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 26,
       "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
@@ -63355,8 +63355,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T17:34:11.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-13T17:34:30.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -63552,8 +63552,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387633,
-      "sourceId": "401851565120234921",
+      "id": 49387628,
+      "sourceId": "401851565120234890",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -63564,7 +63564,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 46,
       "awayScore": 32,
       "homeWinProbability": null,
       "period": 2,
@@ -63573,8 +63573,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T18:33:26.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-13T18:33:06.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -63659,8 +63659,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387628,
-      "sourceId": "401851565120234890",
+      "id": 49387633,
+      "sourceId": "401851565120234921",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -63671,7 +63671,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 47,
       "awayScore": 32,
       "homeWinProbability": null,
       "period": 2,
@@ -63680,8 +63680,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T18:33:06.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-13T18:33:26.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -64301,113 +64301,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387759,
-      "sourceId": "401851565120236566",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 87,
-      "team": "Florida",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 135,
-      "opponent": "Kentucky",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 60,
-      "awayScore": 46,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "5:37",
-      "secondsRemaining": 337,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-13T19:11:57.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 502,
-          "name": "Thomas Haugh"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 565,
-          "name": "Trent Noah",
-          "team": "Kentucky"
-        },
-        {
-          "id": 568,
-          "name": "Collin Chandler",
-          "team": "Kentucky"
-        },
-        {
-          "id": 503,
-          "name": "Denzel Aberdeen",
-          "team": "Kentucky"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 496,
-          "name": "Alex Condon",
-          "team": "Florida"
-        },
-        {
-          "id": 567,
-          "name": "Brandon Garrison",
-          "team": "Kentucky"
-        },
-        {
-          "id": 562,
-          "name": "Otega Oweh",
-          "team": "Kentucky"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 372396,
-      "gameSourceId": "401851565",
-      "gameStartDate": "2026-03-13T17:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49387752,
       "sourceId": "401851565120236411",
       "playType": "MadeFreeThrow",
@@ -64515,8 +64408,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387798,
-      "sourceId": "401851565120237006",
+      "id": 49387759,
+      "sourceId": "401851565120236566",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -64527,7 +64420,114 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 60,
+      "awayScore": 46,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "5:37",
+      "secondsRemaining": 337,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-13T19:11:57.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 502,
+          "name": "Thomas Haugh"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 565,
+          "name": "Trent Noah",
+          "team": "Kentucky"
+        },
+        {
+          "id": 568,
+          "name": "Collin Chandler",
+          "team": "Kentucky"
+        },
+        {
+          "id": 503,
+          "name": "Denzel Aberdeen",
+          "team": "Kentucky"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 496,
+          "name": "Alex Condon",
+          "team": "Florida"
+        },
+        {
+          "id": 567,
+          "name": "Brandon Garrison",
+          "team": "Kentucky"
+        },
+        {
+          "id": 562,
+          "name": "Otega Oweh",
+          "team": "Kentucky"
+        },
+        {
+          "id": 497,
+          "name": "Rueben Chinyelu",
+          "team": "Florida"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 372396,
+      "gameSourceId": "401851565",
+      "gameStartDate": "2026-03-13T17:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49387799,
+      "sourceId": "401851565120237019",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 87,
+      "team": "Florida",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 135,
+      "opponent": "Kentucky",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 64,
       "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
@@ -64536,8 +64536,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T19:24:17.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-13T19:24:36.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -64622,8 +64622,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49387799,
-      "sourceId": "401851565120237019",
+      "id": 49387798,
+      "sourceId": "401851565120237006",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -64634,7 +64634,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
@@ -64643,8 +64643,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T19:24:36.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-13T19:24:17.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -68843,9 +68843,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49573722,
-      "sourceId": "401856523120336166",
-      "playType": "LayUpShot",
+      "id": 49573730,
+      "sourceId": "401856523120336194",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -68855,7 +68855,7 @@
       "opponent": "Prairie View A&M",
       "opponentConference": "SWAC",
       "opponentSeed": 16,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
@@ -68863,17 +68863,13 @@
       "secondsRemaining": 65,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-21T02:30:14.000Z",
-      "playText": "Thomas Haugh makes driving layup (Urban Klavzar assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-21T02:30:48.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 1",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
-        },
-        {
-          "id": 507,
-          "name": "Urban Klavzar"
         }
       ],
       "shotInfo": {
@@ -68882,15 +68878,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 507,
-          "name": "Urban Klavzar"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -68954,9 +68950,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49573730,
-      "sourceId": "401856523120336194",
-      "playType": "MadeFreeThrow",
+      "id": 49573722,
+      "sourceId": "401856523120336166",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 87,
       "team": "Florida",
@@ -68966,7 +68962,7 @@
       "opponent": "Prairie View A&M",
       "opponentConference": "SWAC",
       "opponentSeed": 16,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
@@ -68974,13 +68970,17 @@
       "secondsRemaining": 65,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-21T02:30:48.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T02:30:14.000Z",
+      "playText": "Thomas Haugh makes driving layup (Urban Klavzar assists)",
       "participants": [
         {
           "id": 502,
           "name": "Thomas Haugh"
+        },
+        {
+          "id": 507,
+          "name": "Urban Klavzar"
         }
       ],
       "shotInfo": {
@@ -68989,15 +68989,15 @@
           "name": "Thomas Haugh"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 507,
+          "name": "Urban Klavzar"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 250
         }
       },
       "onFloor": [
@@ -69826,8 +69826,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49614675,
-      "sourceId": "401856563120365299",
+      "id": 49614676,
+      "sourceId": "401856563120365322",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -69838,7 +69838,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 8,
       "homeWinProbability": null,
       "period": 1,
@@ -69847,8 +69847,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T23:18:35.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-22T23:18:46.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -69933,8 +69933,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49614676,
-      "sourceId": "401856563120365322",
+      "id": 49614675,
+      "sourceId": "401856563120365299",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -69945,7 +69945,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 8,
       "homeWinProbability": null,
       "period": 1,
@@ -69954,8 +69954,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T23:18:46.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-22T23:18:35.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -71978,8 +71978,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49615010,
-      "sourceId": "401856563120369189",
+      "id": 49615013,
+      "sourceId": "401856563120369197",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -71990,7 +71990,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -71999,8 +71999,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:17:06.000Z",
-      "playText": "Thomas Haugh makes free throw 1 of 2",
+      "wallclock": "2026-03-23T01:17:29.000Z",
+      "playText": "Thomas Haugh makes free throw 2 of 2",
       "participants": [
         {
           "id": 502,
@@ -72085,8 +72085,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49615013,
-      "sourceId": "401856563120369197",
+      "id": 49615010,
+      "sourceId": "401856563120369189",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 87,
@@ -72097,7 +72097,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -72106,8 +72106,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:17:29.000Z",
-      "playText": "Thomas Haugh makes free throw 2 of 2",
+      "wallclock": "2026-03-23T01:17:06.000Z",
+      "playText": "Thomas Haugh makes free throw 1 of 2",
       "participants": [
         {
           "id": 502,
@@ -72508,6 +72508,722 @@
           "team": "Florida"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-04",
+      "opponent": "Arizona",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 27,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 12,
+      "ftAttempted": 14,
+      "starter": true
+    },
+    {
+      "date": "2025-11-07",
+      "opponent": "North Florida",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 12,
+      "rebounds": 8,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-12",
+      "opponent": "Florida State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 20,
+      "rebounds": 13,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Miami",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 17,
+      "rebounds": 8,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2025-11-22",
+      "opponent": "Merrimack",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 13,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-27",
+      "opponent": "TCU",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 20,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 5,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 16,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-28",
+      "opponent": "Providence",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 16,
+      "rebounds": 12,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 3,
+      "fgAttempted": 9,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 9,
+      "ftAttempted": 11,
+      "starter": true
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "Duke",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 24,
+      "rebounds": 6,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 9,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-12-10",
+      "opponent": "UConn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 18,
+      "rebounds": 2,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 4,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 1,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "George Washington",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 19,
+      "rebounds": 7,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-17",
+      "opponent": "St. Francis (PA)",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 5,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 0,
+      "fgMade": 1,
+      "fgAttempted": 5,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-21",
+      "opponent": "Colgate",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 17,
+      "rebounds": 2,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 5,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2025-12-29",
+      "opponent": "Dartmouth",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 9,
+      "rebounds": 8,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 3,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Missouri",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 24,
+      "rebounds": 7,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 4,
+      "fgMade": 9,
+      "fgAttempted": 20,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2026-01-07",
+      "opponent": "Georgia",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 21,
+      "rebounds": 12,
+      "assists": 5,
+      "steals": 3,
+      "blocks": 4,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 8,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Tennessee",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 13,
+      "rebounds": 3,
+      "assists": 2,
+      "steals": 5,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 2,
+      "fgAttempted": 7,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 8,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 21,
+      "rebounds": 7,
+      "assists": 0,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 13,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Vanderbilt",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 18,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 11,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "LSU",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 7,
+      "rebounds": 3,
+      "assists": 1,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 2,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-24",
+      "opponent": "Auburn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 27,
+      "rebounds": 10,
+      "assists": 0,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 9,
+      "fgAttempted": 19,
+      "threeMade": 3,
+      "threeAttempted": 9,
+      "ftMade": 6,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-01-29",
+      "opponent": "South Carolina",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 18,
+      "rebounds": 3,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Alabama",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 22,
+      "rebounds": 5,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 9,
+      "fgAttempted": 16,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "Texas A&M",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 22,
+      "rebounds": 7,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 5,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 10,
+      "ftAttempted": 13,
+      "starter": true
+    },
+    {
+      "date": "2026-02-12",
+      "opponent": "Georgia",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 11,
+      "rebounds": 2,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Kentucky",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 17,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 6,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-02-18",
+      "opponent": "South Carolina",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 10,
+      "rebounds": 1,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 3,
+      "fgAttempted": 6,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 20,
+      "rebounds": 9,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-02-26",
+      "opponent": "Texas",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 5,
+      "rebounds": 0,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 5,
+      "fgMade": 2,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "Arkansas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 22,
+      "rebounds": 5,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 7,
+      "ftAttempted": 7,
+      "starter": true
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Kentucky",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 20,
+      "rebounds": 9,
+      "assists": 3,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 14,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "Kentucky",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 13,
+      "rebounds": 8,
+      "assists": 0,
+      "steals": 2,
+      "blocks": 3,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 2,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 5,
+      "ftMade": 9,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 19,
+      "rebounds": 9,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 8,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-03-21",
+      "opponent": "Prairie View A&M",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 23,
+      "points": 14,
+      "rebounds": 4,
+      "assists": 7,
+      "steals": 0,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-03-22",
+      "opponent": "Iowa",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 39,
+      "points": 19,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 11,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 11,
+      "ftAttempted": 12,
+      "starter": true
     }
   ],
   "topLineups": [

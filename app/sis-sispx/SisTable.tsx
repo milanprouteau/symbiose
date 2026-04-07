@@ -1,7 +1,9 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import styles from "./page.module.scss";
+
+const PAGE_SIZE = 50;
 
 export type SisRow = {
   id: number;
@@ -50,13 +52,14 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
   const [sortDir, setSortDir] = useState<SortDir>("desc");
   const [search, setSearch] = useState("");
   const [yearFilter, setYearFilter] = useState<string>("all");
+  const [page, setPage] = useState(0);
 
   const years = useMemo(() => {
     const s = new Set(rows.map((r) => r.year ?? 2026));
     return Array.from(s).sort((a, b) => b - a);
   }, [rows]);
 
-  const sorted = useMemo(() => {
+  const filtered = useMemo(() => {
     let data = rows.filter((r) => {
       const q = search.toLowerCase();
       if (q && !r.name.toLowerCase().includes(q) && !r.team.toLowerCase().includes(q)) return false;
@@ -74,6 +77,12 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
 
     return data;
   }, [rows, sortKey, sortDir, search, yearFilter]);
+
+  // Reset to page 0 whenever filters/sort change
+  useEffect(() => { setPage(0); }, [search, yearFilter, sortKey, sortDir]);
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const pageRows = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
   function toggleSort(key: SortKey) {
     if (key === sortKey) {
@@ -94,24 +103,19 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <div className={styles.yearTabs}>
-          <button
-            className={`${styles.yearTab} ${yearFilter === "all" ? styles.active : ""}`}
-            onClick={() => setYearFilter("all")}
-          >
-            Tous
-          </button>
+        <select
+          className={styles.yearSelect}
+          value={yearFilter}
+          onChange={(e) => setYearFilter(e.target.value)}
+        >
+          <option value="all">Toutes les années</option>
           {years.map((y) => (
-            <button
-              key={y}
-              className={`${styles.yearTab} ${yearFilter === String(y) ? styles.active : ""}`}
-              onClick={() => setYearFilter(String(y))}
-            >
-              {y === null ? "2026" : y}
-            </button>
+            <option key={y} value={String(y)}>
+              {y === null ? "2026 (prospects)" : y === 2026 ? "2026 (prospects)" : y}
+            </option>
           ))}
-        </div>
-        <span className={styles.count}>{sorted.length} joueurs</span>
+        </select>
+        <span className={styles.count}>{filtered.length} joueurs</span>
       </div>
 
       <table className={styles.table}>
@@ -132,7 +136,7 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
           </tr>
         </thead>
         <tbody>
-          {sorted.map((r) => (
+          {pageRows.map((r) => (
             <tr key={`${r.id}-${r.year}`} className={styles.row}>
               <td className={styles.name}>{r.name}</td>
               <td className={`${styles.td} ${styles.num}`}>
@@ -160,6 +164,28 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
           ))}
         </tbody>
       </table>
+
+      {totalPages > 1 && (
+        <div className={styles.pagination}>
+          <button
+            className={styles.pageBtn}
+            onClick={() => setPage((p) => Math.max(0, p - 1))}
+            disabled={page === 0}
+          >
+            ←
+          </button>
+          <span className={styles.pageInfo}>
+            {page + 1} / {totalPages}
+          </span>
+          <button
+            className={styles.pageBtn}
+            onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
+            disabled={page === totalPages - 1}
+          >
+            →
+          </button>
+        </div>
+      )}
     </div>
   );
 }

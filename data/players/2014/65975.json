@@ -1,0 +1,5636 @@
+{
+  "id": 65975,
+  "name": "Mitch McGary",
+  "team": "Michigan",
+  "draftMeta": {
+    "overall": 21,
+    "round": 1,
+    "pick": 21,
+    "draftTeam": "Oklahoma City Thunder",
+    "draftYear": 2014
+  },
+  "playerStats": {
+    "season": 2014,
+    "seasonLabel": "20132014",
+    "teamId": 170,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "athleteId": 65975,
+    "athleteSourceId": "61808",
+    "name": "Mitch McGary",
+    "position": "F",
+    "games": 8,
+    "starts": 4,
+    "minutes": 197,
+    "points": 76,
+    "turnovers": 13,
+    "fouls": 25,
+    "assists": 12,
+    "steals": 15,
+    "blocks": 6,
+    "offensiveRating": 114.2,
+    "defensiveRating": 87.3,
+    "netRating": 26.9,
+    "PORPAG": 2.2,
+    "usage": 20.9,
+    "assistsTurnoverRatio": 0.92,
+    "offensiveReboundPct": 34.8,
+    "freeThrowRate": 43.6,
+    "effectiveFieldGoalPct": 54.5,
+    "trueShootingPct": 0.58,
+    "fieldGoals": {
+      "made": 30,
+      "attempted": 55,
+      "pct": 54.5
+    },
+    "twoPointFieldGoals": {
+      "made": 30,
+      "attempted": 53,
+      "pct": 56.6
+    },
+    "threePointFieldGoals": {
+      "made": 0,
+      "attempted": 2,
+      "pct": 0
+    },
+    "freeThrows": {
+      "made": 16,
+      "attempted": 24,
+      "pct": 66.7
+    },
+    "rebounds": {
+      "offensive": 23,
+      "defensive": 43,
+      "total": 66
+    },
+    "winShares": {
+      "offensive": 0.4,
+      "defensive": 0.6,
+      "total": 1,
+      "totalPer40": 0.203
+    }
+  },
+  "shootingStats": {
+    "season": 2014,
+    "teamId": 170,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "athleteId": 65975,
+    "athleteName": "Mitch McGary",
+    "trackedShots": 55,
+    "freeThrowRate": 43.6,
+    "assistedPct": 27.3,
+    "dunks": {
+      "attempted": 3,
+      "made": 3,
+      "pct": 100,
+      "assisted": 1,
+      "assistedPct": 33.3
+    },
+    "layups": {
+      "attempted": 18,
+      "made": 13,
+      "pct": 72.2,
+      "assisted": 8,
+      "assistedPct": 61.5
+    },
+    "tipIns": {
+      "attempted": 3,
+      "made": 2,
+      "pct": 66.7
+    },
+    "twoPointJumpers": {
+      "attempted": 29,
+      "made": 12,
+      "pct": 41.4,
+      "assisted": 6,
+      "assistedPct": 50
+    },
+    "threePointJumpers": {
+      "attempted": 2,
+      "made": 0,
+      "pct": 0,
+      "assisted": 0,
+      "assistedPct": 0
+    },
+    "freeThrows": {
+      "attempted": 24,
+      "made": 16,
+      "pct": 66.7
+    },
+    "attemptsBreakdown": {
+      "dunks": 5.5,
+      "layups": 32.7,
+      "tipIns": 5.5,
+      "twoPointJumpers": 52.7,
+      "threePointJumpers": 3.6
+    }
+  },
+  "teamStats": {
+    "season": 2014,
+    "seasonLabel": "20132014",
+    "teamId": 170,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "games": 37,
+    "wins": 28,
+    "losses": 9,
+    "totalMinutes": 1490,
+    "pace": 60.5,
+    "teamStats": {
+      "assists": 525,
+      "blocks": 88,
+      "steals": 191,
+      "possessions": 2251,
+      "trueShooting": 59.8,
+      "rating": 121.5,
+      "fieldGoals": {
+        "made": 945,
+        "attempted": 1982,
+        "pct": 47.7
+      },
+      "twoPointFieldGoals": {
+        "made": 626,
+        "attempted": 1188,
+        "pct": 52.7
+      },
+      "threePointFieldGoals": {
+        "made": 319,
+        "attempted": 794,
+        "pct": 40.2
+      },
+      "freeThrows": {
+        "made": 527,
+        "attempted": 691,
+        "pct": 76.3
+      },
+      "rebounds": {
+        "offensive": 329,
+        "defensive": 831,
+        "total": 1160
+      },
+      "turnovers": {
+        "total": 345,
+        "teamTotal": 11
+      },
+      "fouls": {
+        "total": 526,
+        "technical": 3,
+        "flagrant": 0
+      },
+      "points": {
+        "total": 2736,
+        "inPaint": 176,
+        "offTurnovers": 103,
+        "fastBreak": 31
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 55.7,
+        "turnoverRatio": 0.15,
+        "offensiveReboundPct": 28.4,
+        "freeThrowRate": 34.9
+      }
+    },
+    "opponentStats": {
+      "assists": 437,
+      "blocks": 100,
+      "steals": 181,
+      "possessions": 2257,
+      "trueShooting": 52.9,
+      "rating": 106.7,
+      "fieldGoals": {
+        "made": 905,
+        "attempted": 2035,
+        "pct": 44.5
+      },
+      "twoPointFieldGoals": {
+        "made": 704,
+        "attempted": 1403,
+        "pct": 50.2
+      },
+      "threePointFieldGoals": {
+        "made": 201,
+        "attempted": 632,
+        "pct": 31.8
+      },
+      "freeThrows": {
+        "made": 397,
+        "attempted": 543,
+        "pct": 73.1
+      },
+      "rebounds": {
+        "offensive": 364,
+        "defensive": 790,
+        "total": 1154
+      },
+      "turnovers": {
+        "total": 398,
+        "teamTotal": 9
+      },
+      "fouls": {
+        "total": 626,
+        "technical": 4,
+        "flagrant": 0
+      },
+      "points": {
+        "total": 2408,
+        "inPaint": 196,
+        "offTurnovers": 46,
+        "fastBreak": 7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 49.4,
+        "turnoverRatio": 0.18,
+        "offensiveReboundPct": 31.5,
+        "freeThrowRate": 26.7
+      }
+    }
+  },
+  "profile": {
+    "jersey": "4",
+    "position": "Forward",
+    "height": 82,
+    "weight": 255,
+    "hometown": {
+      "city": "Chesterton",
+      "state": "IN"
+    },
+    "dateOfBirth": "1992-06-06"
+  },
+  "shots": [
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004685,
+      "sourceId": "40049825637000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 7,
+      "awayScore": 13,
+      "homeWinProbability": 0.432,
+      "period": 1,
+      "clock": "14:37",
+      "secondsRemaining": 877,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004699,
+      "sourceId": "40049825651000",
+      "playType": "TipShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 15,
+      "homeWinProbability": 0.484,
+      "period": 1,
+      "clock": "12:45",
+      "secondsRemaining": 765,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Two Point Tip Shot.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004702,
+      "sourceId": "40049825654000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 11,
+      "awayScore": 17,
+      "homeWinProbability": 0.453,
+      "period": 1,
+      "clock": "12:24",
+      "secondsRemaining": 744,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004730,
+      "sourceId": "40049825682000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 15,
+      "awayScore": 24,
+      "homeWinProbability": 0.32,
+      "period": 1,
+      "clock": "9:42",
+      "secondsRemaining": 582,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004747,
+      "sourceId": "40049825699000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 24,
+      "homeWinProbability": 0.43,
+      "period": 1,
+      "clock": "7:19",
+      "secondsRemaining": 439,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004793,
+      "sourceId": "400498256143000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 34,
+      "homeWinProbability": 0.549,
+      "period": 1,
+      "clock": "0:38",
+      "secondsRemaining": 38,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Nik Stauskas.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004806,
+      "sourceId": "400498256156000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 34,
+      "homeWinProbability": 0.649,
+      "period": 2,
+      "clock": "19:14",
+      "secondsRemaining": 1154,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004813,
+      "sourceId": "400498256163000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 34,
+      "homeWinProbability": 0.649,
+      "period": 2,
+      "clock": "19:09",
+      "secondsRemaining": 1149,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004811,
+      "sourceId": "400498256161000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 34,
+      "homeWinProbability": 0.649,
+      "period": 2,
+      "clock": "19:09",
+      "secondsRemaining": 1149,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004932,
+      "sourceId": "400498256284000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 63,
+      "homeWinProbability": 0.841,
+      "period": 2,
+      "clock": "4:23",
+      "secondsRemaining": 263,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66450,
+      "gameSourceId": "400498256",
+      "gameStartDate": "2013-11-17T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21004931,
+      "sourceId": "400498256283000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 125,
+      "opponent": "Iowa State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 67,
+      "awayScore": 63,
+      "homeWinProbability": 0.841,
+      "period": 2,
+      "clock": "4:23",
+      "secondsRemaining": 263,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66643,
+      "gameSourceId": "400502928",
+      "gameStartDate": "2013-11-21T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21059630,
+      "sourceId": "40050292846000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 145,
+      "opponent": "Long Beach State",
+      "opponentConference": "Big West",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 14,
+      "homeWinProbability": 0.779,
+      "period": 1,
+      "clock": "12:44",
+      "secondsRemaining": 764,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66643,
+      "gameSourceId": "400502928",
+      "gameStartDate": "2013-11-21T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21059628,
+      "sourceId": "40050292844000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 145,
+      "opponent": "Long Beach State",
+      "opponentConference": "Big West",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 14,
+      "homeWinProbability": 0.779,
+      "period": 1,
+      "clock": "12:44",
+      "secondsRemaining": 764,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66643,
+      "gameSourceId": "400502928",
+      "gameStartDate": "2013-11-21T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21059705,
+      "sourceId": "400502928123000",
+      "playType": "DunkShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 145,
+      "opponent": "Long Beach State",
+      "opponentConference": "Big West",
+      "opponentSeed": null,
+      "homeScore": 36,
+      "awayScore": 26,
+      "homeWinProbability": 0.907,
+      "period": 1,
+      "clock": "3:26",
+      "secondsRemaining": 206,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Nik Stauskas made Dunk. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66643,
+      "gameSourceId": "400502928",
+      "gameStartDate": "2013-11-21T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21059760,
+      "sourceId": "400502928179000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 145,
+      "opponent": "Long Beach State",
+      "opponentConference": "Big West",
+      "opponentSeed": null,
+      "homeScore": 51,
+      "awayScore": 33,
+      "homeWinProbability": 0.966,
+      "period": 2,
+      "clock": "16:17",
+      "secondsRemaining": 977,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66643,
+      "gameSourceId": "400502928",
+      "gameStartDate": "2013-11-21T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21059769,
+      "sourceId": "400502928188000",
+      "playType": "TipShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 145,
+      "opponent": "Long Beach State",
+      "opponentConference": "Big West",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 38,
+      "homeWinProbability": 0.981,
+      "period": 2,
+      "clock": "15:02",
+      "secondsRemaining": 902,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Two Point Tip Shot.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073765,
+      "sourceId": "40051871752000",
+      "playType": "DunkShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 15,
+      "awayScore": 14,
+      "homeWinProbability": 0.64,
+      "period": 1,
+      "clock": "11:23",
+      "secondsRemaining": 683,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Dunk.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073780,
+      "sourceId": "40051871767000",
+      "playType": "DunkShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 22,
+      "awayScore": 16,
+      "homeWinProbability": 0.789,
+      "period": 1,
+      "clock": "10:01",
+      "secondsRemaining": 601,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Dunk. Assisted by Spike Albrecht.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073783,
+      "sourceId": "40051871770000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 22,
+      "awayScore": 18,
+      "homeWinProbability": 0.75,
+      "period": 1,
+      "clock": "9:30",
+      "secondsRemaining": 570,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Spike Albrecht made Layup. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073807,
+      "sourceId": "40051871794000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 28,
+      "awayScore": 18,
+      "homeWinProbability": 0.885,
+      "period": 1,
+      "clock": "6:16",
+      "secondsRemaining": 376,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073811,
+      "sourceId": "40051871798000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 31,
+      "awayScore": 18,
+      "homeWinProbability": 0.941,
+      "period": 1,
+      "clock": "5:39",
+      "secondsRemaining": 339,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073813,
+      "sourceId": "400518717100000",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 31,
+      "awayScore": 21,
+      "homeWinProbability": 0.886,
+      "period": 1,
+      "clock": "5:33",
+      "secondsRemaining": 333,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Derrick Walton Jr. made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073827,
+      "sourceId": "400518717114000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 25,
+      "homeWinProbability": 0.889,
+      "period": 1,
+      "clock": "2:57",
+      "secondsRemaining": 177,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper. Assisted by Derrick Walton Jr..",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073830,
+      "sourceId": "400518717117000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 27,
+      "homeWinProbability": 0.844,
+      "period": 1,
+      "clock": "2:29",
+      "secondsRemaining": 149,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Caris LeVert.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 56069,
+          "name": "Caris LeVert"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 56069,
+          "name": "Caris LeVert"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073858,
+      "sourceId": "400518717144000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 37,
+      "awayScore": 27,
+      "homeWinProbability": 0.901,
+      "period": 2,
+      "clock": "18:50",
+      "secondsRemaining": 1130,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073869,
+      "sourceId": "400518717155000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 27,
+      "homeWinProbability": 0.967,
+      "period": 2,
+      "clock": "16:43",
+      "secondsRemaining": 1003,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073876,
+      "sourceId": "400518717162000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 31,
+      "homeWinProbability": 0.93,
+      "period": 2,
+      "clock": "15:56",
+      "secondsRemaining": 956,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper. Assisted by Derrick Walton Jr..",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073882,
+      "sourceId": "400518717168000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 34,
+      "homeWinProbability": 0.944,
+      "period": 2,
+      "clock": "14:52",
+      "secondsRemaining": 892,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073883,
+      "sourceId": "400518717169000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 34,
+      "homeWinProbability": 0.944,
+      "period": 2,
+      "clock": "14:52",
+      "secondsRemaining": 892,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073913,
+      "sourceId": "400518717199000",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 52,
+      "awayScore": 46,
+      "homeWinProbability": 0.845,
+      "period": 2,
+      "clock": "10:46",
+      "secondsRemaining": 646,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Nik Stauskas made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073937,
+      "sourceId": "400518717225000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 52,
+      "homeWinProbability": 0.847,
+      "period": 2,
+      "clock": "7:57",
+      "secondsRemaining": 477,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073935,
+      "sourceId": "400518717223000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 51,
+      "homeWinProbability": 0.844,
+      "period": 2,
+      "clock": "7:57",
+      "secondsRemaining": 477,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073943,
+      "sourceId": "400518717233000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 59,
+      "awayScore": 54,
+      "homeWinProbability": 0.817,
+      "period": 2,
+      "clock": "7:03",
+      "secondsRemaining": 423,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073949,
+      "sourceId": "400518717239000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 61,
+      "awayScore": 54,
+      "homeWinProbability": 0.915,
+      "period": 2,
+      "clock": "6:00",
+      "secondsRemaining": 360,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21074000,
+      "sourceId": "400518717292000",
+      "playType": "TipShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 69,
+      "awayScore": 65,
+      "homeWinProbability": 0.932,
+      "period": 2,
+      "clock": "0:48",
+      "secondsRemaining": 48,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Two Point Tip Shot.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21073998,
+      "sourceId": "400518717290000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 69,
+      "awayScore": 65,
+      "homeWinProbability": 0.932,
+      "period": 2,
+      "clock": "0:48",
+      "secondsRemaining": 48,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21074011,
+      "sourceId": "400518717303000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 69,
+      "awayScore": 69,
+      "homeWinProbability": 0.574,
+      "period": 2,
+      "clock": "0:01",
+      "secondsRemaining": 1,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66694,
+      "gameSourceId": "400518717",
+      "gameStartDate": "2013-11-22T22:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21074043,
+      "sourceId": "400518717336000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 77,
+      "awayScore": 80,
+      "homeWinProbability": 0.137,
+      "period": 3,
+      "clock": "0:26",
+      "secondsRemaining": 26,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21124728,
+      "sourceId": "40051893576000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 13,
+      "awayScore": 15,
+      "homeWinProbability": 0.52,
+      "period": 1,
+      "clock": "12:09",
+      "secondsRemaining": 729,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21124748,
+      "sourceId": "40051893596000",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 15,
+      "awayScore": 17,
+      "homeWinProbability": 0.51,
+      "period": 1,
+      "clock": "10:33",
+      "secondsRemaining": 633,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21124787,
+      "sourceId": "400518935134000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 21,
+      "awayScore": 24,
+      "homeWinProbability": 0.491,
+      "period": 1,
+      "clock": "5:25",
+      "secondsRemaining": 325,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21124788,
+      "sourceId": "400518935135000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 22,
+      "awayScore": 24,
+      "homeWinProbability": 0.541,
+      "period": 1,
+      "clock": "5:25",
+      "secondsRemaining": 325,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21124864,
+      "sourceId": "400518935212000",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 42,
+      "homeWinProbability": 0.178,
+      "period": 2,
+      "clock": "14:11",
+      "secondsRemaining": 851,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21124982,
+      "sourceId": "400518935323000",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 58,
+      "homeWinProbability": 0.194,
+      "period": 2,
+      "clock": "1:14",
+      "secondsRemaining": 74,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Caris LeVert.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 56069,
+          "name": "Caris LeVert"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 56069,
+          "name": "Caris LeVert"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 66864,
+      "gameSourceId": "400518935",
+      "gameStartDate": "2013-11-25T00:40:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 21125003,
+      "sourceId": "400518935342000",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 48,
+      "opponent": "Charlotte",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 61,
+      "awayScore": 61,
+      "homeWinProbability": 0.543,
+      "period": 2,
+      "clock": "0:08",
+      "secondsRemaining": 8,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Spike Albrecht.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174692,
+      "sourceId": "40050699422000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 6,
+      "awayScore": 5,
+      "homeWinProbability": 0.68,
+      "period": 1,
+      "clock": "15:52",
+      "secondsRemaining": 952,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174705,
+      "sourceId": "40050699435000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 12,
+      "awayScore": 8,
+      "homeWinProbability": 0.759,
+      "period": 1,
+      "clock": "13:42",
+      "secondsRemaining": 822,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper. Assisted by Derrick Walton Jr..",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174786,
+      "sourceId": "400506994112000",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 23,
+      "homeWinProbability": 0.998,
+      "period": 2,
+      "clock": "19:14",
+      "secondsRemaining": 1154,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Glenn Robinson III made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65970,
+          "name": "Glenn Robinson III"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65970,
+          "name": "Glenn Robinson III"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174824,
+      "sourceId": "400506994153000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 54,
+      "awayScore": 29,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "15:07",
+      "secondsRemaining": 907,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174878,
+      "sourceId": "400506994210875",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 69,
+      "awayScore": 32,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "9:37",
+      "secondsRemaining": 577,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174881,
+      "sourceId": "400506994210985",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 32,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "9:37",
+      "secondsRemaining": 577,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174887,
+      "sourceId": "400506994217000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 72,
+      "awayScore": 32,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "8:47",
+      "secondsRemaining": 527,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67061,
+      "gameSourceId": "400506994",
+      "gameStartDate": "2013-11-29T20:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21174894,
+      "sourceId": "400506994224000",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 59,
+      "opponent": "Coppin State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 74,
+      "awayScore": 34,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "7:42",
+      "secondsRemaining": 462,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Three Point Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "three_pointer",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235540,
+      "sourceId": "4005027086000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "homeWinProbability": 0.694,
+      "period": 1,
+      "clock": "18:58",
+      "secondsRemaining": 1138,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235549,
+      "sourceId": "40050270815000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 5,
+      "awayScore": 0,
+      "homeWinProbability": 0.757,
+      "period": 1,
+      "clock": "17:35",
+      "secondsRemaining": 1055,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235556,
+      "sourceId": "40050270822000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 4,
+      "homeWinProbability": 0.75,
+      "period": 1,
+      "clock": "15:37",
+      "secondsRemaining": 937,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Glenn Robinson III made Layup. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65970,
+          "name": "Glenn Robinson III"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65970,
+          "name": "Glenn Robinson III"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235563,
+      "sourceId": "40050270829000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 5,
+      "homeWinProbability": 0.742,
+      "period": 1,
+      "clock": "14:56",
+      "secondsRemaining": 896,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235562,
+      "sourceId": "40050270828000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 8,
+      "awayScore": 5,
+      "homeWinProbability": 0.742,
+      "period": 1,
+      "clock": "14:56",
+      "secondsRemaining": 896,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235648,
+      "sourceId": "400502708107000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 23,
+      "awayScore": 13,
+      "homeWinProbability": 0.87,
+      "period": 1,
+      "clock": "3:56",
+      "secondsRemaining": 236,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper. Assisted by Zak Irvin.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52713,
+          "name": "Zak Irvin"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 52713,
+          "name": "Zak Irvin"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235660,
+      "sourceId": "400502708119000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 27,
+      "awayScore": 15,
+      "homeWinProbability": 0.918,
+      "period": 1,
+      "clock": "1:34",
+      "secondsRemaining": 94,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235676,
+      "sourceId": "400502708135000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 32,
+      "awayScore": 22,
+      "homeWinProbability": 0.904,
+      "period": 2,
+      "clock": "19:46",
+      "secondsRemaining": 1186,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235683,
+      "sourceId": "400502708142000",
+      "playType": "JumpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 32,
+      "awayScore": 24,
+      "homeWinProbability": 0.863,
+      "period": 2,
+      "clock": "18:47",
+      "secondsRemaining": 1127,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper. Assisted by Derrick Walton Jr..",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235766,
+      "sourceId": "400502708225000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 44,
+      "homeWinProbability": 0.99,
+      "period": 2,
+      "clock": "6:20",
+      "secondsRemaining": 380,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235765,
+      "sourceId": "400502708224000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 57,
+      "awayScore": 43,
+      "homeWinProbability": 0.994,
+      "period": 2,
+      "clock": "6:20",
+      "secondsRemaining": 380,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235787,
+      "sourceId": "400502708246000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 68,
+      "awayScore": 52,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "1:48",
+      "secondsRemaining": 108,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Caris LeVert.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 56069,
+          "name": "Caris LeVert"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 56069,
+          "name": "Caris LeVert"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235795,
+      "sourceId": "400502708252000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 68,
+      "awayScore": 55,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "1:20",
+      "secondsRemaining": 80,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Caris LeVert.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 56069,
+          "name": "Caris LeVert"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 56069,
+          "name": "Caris LeVert"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235812,
+      "sourceId": "400502708270000",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 74,
+      "awayScore": 63,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "0:37",
+      "secondsRemaining": 37,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67281,
+      "gameSourceId": "400502708",
+      "gameStartDate": "2013-12-04T02:15:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21235819,
+      "sourceId": "400502708274875",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 72,
+      "opponent": "Duke",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 75,
+      "awayScore": 65,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "0:24",
+      "secondsRemaining": 24,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281127,
+      "sourceId": "4005039123000",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "homeWinProbability": 0.645,
+      "period": 1,
+      "clock": "19:21",
+      "secondsRemaining": 1161,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Nik Stauskas.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281132,
+      "sourceId": "4005039128000",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 4,
+      "homeWinProbability": 0.618,
+      "period": 1,
+      "clock": "18:18",
+      "secondsRemaining": 1098,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper. Assisted by Derrick Walton Jr..",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281138,
+      "sourceId": "40050391214000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 5,
+      "awayScore": 4,
+      "homeWinProbability": 0.634,
+      "period": 1,
+      "clock": "17:56",
+      "secondsRemaining": 1076,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281137,
+      "sourceId": "40050391213000",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 4,
+      "homeWinProbability": 0.618,
+      "period": 1,
+      "clock": "17:56",
+      "secondsRemaining": 1076,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281141,
+      "sourceId": "40050391216000",
+      "playType": "DunkShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 7,
+      "awayScore": 4,
+      "homeWinProbability": 0.732,
+      "period": 1,
+      "clock": "17:33",
+      "secondsRemaining": 1053,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Nik Stauskas made Dunk. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281213,
+      "sourceId": "40050391289747",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 43,
+      "awayScore": 28,
+      "homeWinProbability": 0.97,
+      "period": 1,
+      "clock": "5:19",
+      "secondsRemaining": 319,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281219,
+      "sourceId": "40050391295747",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 47,
+      "awayScore": 30,
+      "homeWinProbability": 0.982,
+      "period": 1,
+      "clock": "4:25",
+      "secondsRemaining": 265,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281222,
+      "sourceId": "40050391298747",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 50,
+      "awayScore": 30,
+      "homeWinProbability": 0.993,
+      "period": 1,
+      "clock": "3:40",
+      "secondsRemaining": 220,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Nik Stauskas made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281235,
+      "sourceId": "400503912111747",
+      "playType": "DunkShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 32,
+      "homeWinProbability": 0.999,
+      "period": 1,
+      "clock": "1:29",
+      "secondsRemaining": 89,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Glenn Robinson III made Dunk. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65970,
+          "name": "Glenn Robinson III"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65970,
+          "name": "Glenn Robinson III"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281242,
+      "sourceId": "400503912118747",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 34,
+      "homeWinProbability": 0.998,
+      "period": 2,
+      "clock": "19:48",
+      "secondsRemaining": 1188,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281245,
+      "sourceId": "400503912121747",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 65,
+      "awayScore": 34,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "19:17",
+      "secondsRemaining": 1157,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Derrick Walton Jr. made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 52714,
+          "name": "Derrick Walton Jr."
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281252,
+      "sourceId": "400503912128747",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 68,
+      "awayScore": 36,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "18:17",
+      "secondsRemaining": 1097,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281309,
+      "sourceId": "400503912184747",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 78,
+      "awayScore": 41,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "12:29",
+      "secondsRemaining": 749,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Zak Irvin made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 52713,
+          "name": "Zak Irvin"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 52713,
+          "name": "Zak Irvin"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281343,
+      "sourceId": "400503912214747",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 86,
+      "awayScore": 43,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "9:04",
+      "secondsRemaining": 544,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281341,
+      "sourceId": "400503912212747",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 85,
+      "awayScore": 43,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "9:04",
+      "secondsRemaining": 544,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67433,
+      "gameSourceId": "400503912",
+      "gameStartDate": "2013-12-07T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21281346,
+      "sourceId": "400503912217747",
+      "playType": "Three Point Jump Shot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 112,
+      "opponent": "Houston Christian",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 89,
+      "awayScore": 43,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "8:27",
+      "secondsRemaining": 507,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 3,
+      "wallclock": null,
+      "playText": "Nik Stauskas made Three Point Jumper. Assisted by Mitch McGary.",
+      "participants": [
+        {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65971,
+          "name": "Nik Stauskas"
+        },
+        "made": true,
+        "range": "three_pointer",
+        "assisted": true,
+        "assistedBy": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340368,
+      "sourceId": "400506074101818601",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "homeWinProbability": 0.648,
+      "period": 1,
+      "clock": "18:13",
+      "secondsRemaining": 1093,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary missed Jumper.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": false,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340430,
+      "sourceId": "400506074101894601",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 15,
+      "awayScore": 9,
+      "homeWinProbability": 0.791,
+      "period": 1,
+      "clock": "10:53",
+      "secondsRemaining": 653,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Layup. Assisted by Spike Albrecht.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": true,
+        "assistedBy": {
+          "id": 51207,
+          "name": "Spike Albrecht"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340511,
+      "sourceId": "400506074102805401",
+      "playType": "DunkShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 39,
+      "awayScore": 28,
+      "homeWinProbability": 0.937,
+      "period": 2,
+      "clock": "19:45",
+      "secondsRemaining": 1185,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": null,
+      "playText": "Mitch McGary made Dunk.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340612,
+      "sourceId": "400506074102967304",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 58,
+      "homeWinProbability": 0.872,
+      "period": 2,
+      "clock": "3:26",
+      "secondsRemaining": 206,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340611,
+      "sourceId": "400506074102967303",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 61,
+      "awayScore": 58,
+      "homeWinProbability": 0.845,
+      "period": 2,
+      "clock": "3:26",
+      "secondsRemaining": 206,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340625,
+      "sourceId": "400506074102984203",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 63,
+      "homeWinProbability": 0.65,
+      "period": 2,
+      "clock": "1:57",
+      "secondsRemaining": 117,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    },
+    {
+      "gameId": 67644,
+      "gameSourceId": "400506074",
+      "gameStartDate": "2013-12-14T17:00:00.000Z",
+      "season": 2014,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 21340624,
+      "sourceId": "400506074102984202",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Pac-12",
+      "opponentSeed": null,
+      "homeScore": 63,
+      "awayScore": 63,
+      "homeWinProbability": 0.578,
+      "period": 2,
+      "clock": "1:57",
+      "secondsRemaining": 117,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": null,
+      "playText": "Mitch McGary made Free Throw.",
+      "participants": [
+        {
+          "id": 65975,
+          "name": "Mitch McGary"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 65975,
+          "name": "Mitch McGary"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": []
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2013-11-17",
+      "opponent": "Iowa State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 22,
+      "points": 9,
+      "rebounds": 6,
+      "assists": 0,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 1,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2013-11-21",
+      "opponent": "Long Beach State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 14,
+      "points": 6,
+      "rebounds": 4,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 3,
+      "fgAttempted": 3,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": false
+    },
+    {
+      "date": "2013-11-22",
+      "opponent": "Florida State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 33,
+      "points": 14,
+      "rebounds": 12,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 0,
+      "fouls": 4,
+      "fgMade": 6,
+      "fgAttempted": 15,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2013-11-25",
+      "opponent": "Charlotte",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 6,
+      "rebounds": 9,
+      "assists": 0,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2013-11-29",
+      "opponent": "Coppin State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 6,
+      "rebounds": 8,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 2,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2013-12-04",
+      "opponent": "Duke",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 15,
+      "rebounds": 14,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 10,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2013-12-07",
+      "opponent": "Houston Christian",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 23,
+      "points": 12,
+      "rebounds": 9,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 7,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2013-12-14",
+      "opponent": "Arizona",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 22,
+      "points": 8,
+      "rebounds": 4,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 2,
+      "fgAttempted": 3,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    }
+  ]
+}

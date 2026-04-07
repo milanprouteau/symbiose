@@ -22,10 +22,10 @@
     "steals": 66,
     "blocks": 8,
     "offensiveRating": 121.7,
-    "defensiveRating": 108.5,
-    "netRating": 13.2,
+    "defensiveRating": 108.6,
+    "netRating": 13.1,
     "PORPAG": 4.6,
-    "usage": 24.2,
+    "usage": 24,
     "assistsTurnoverRatio": 3.04,
     "offensiveReboundPct": 18.1,
     "freeThrowRate": 26.8,
@@ -128,8 +128,8 @@
     "games": 39,
     "wins": 30,
     "losses": 9,
-    "totalMinutes": 1575,
-    "pace": 63.9,
+    "totalMinutes": 1565,
+    "pace": 64.3,
     "teamStats": {
       "assists": 764,
       "blocks": 110,
@@ -248,7 +248,7 @@
       "city": "Westfield",
       "state": "IN"
     },
-    "dateOfBirth": "2003-07-25"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -3075,9 +3075,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219252,
-      "sourceId": "401826869113896804",
-      "playType": "MadeFreeThrow",
+      "id": 38219250,
+      "sourceId": "401826869113896616",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3087,17 +3087,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 39,
-      "homeWinProbability": 0.745,
+      "homeWinProbability": 0.719,
       "period": 2,
       "clock": "18:06",
       "secondsRemaining": 1086,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T01:03:30.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T01:03:02.000Z",
+      "playText": "Braden Smith made Layup.",
       "participants": [
         {
           "id": 368,
@@ -3110,15 +3110,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 290
         }
       },
       "onFloor": [
@@ -3182,9 +3182,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219250,
-      "sourceId": "401826869113896616",
-      "playType": "LayUpShot",
+      "id": 38219252,
+      "sourceId": "401826869113896804",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3194,17 +3194,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 39,
-      "homeWinProbability": 0.719,
+      "homeWinProbability": 0.745,
       "period": 2,
       "clock": "18:06",
       "secondsRemaining": 1086,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T01:03:02.000Z",
-      "playText": "Braden Smith made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T01:03:30.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -3217,15 +3217,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 290
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -3507,9 +3507,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219282,
-      "sourceId": "401826869113900202",
-      "playType": "MadeFreeThrow",
+      "id": 38219275,
+      "sourceId": "401826869113898851",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3519,17 +3519,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 52,
       "awayScore": 44,
-      "homeWinProbability": 0.924,
+      "homeWinProbability": 0.882,
       "period": 2,
       "clock": "15:37",
       "secondsRemaining": 937,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T01:11:15.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T01:08:07.000Z",
+      "playText": "Braden Smith made Layup.",
       "participants": [
         {
           "id": 368,
@@ -3542,15 +3542,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 225
         }
       },
       "onFloor": [
@@ -3614,9 +3614,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219275,
-      "sourceId": "401826869113898851",
-      "playType": "LayUpShot",
+      "id": 38219282,
+      "sourceId": "401826869113900202",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3626,17 +3626,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 53,
       "awayScore": 44,
-      "homeWinProbability": 0.882,
+      "homeWinProbability": 0.924,
       "period": 2,
       "clock": "15:37",
       "secondsRemaining": 937,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T01:08:07.000Z",
-      "playText": "Braden Smith made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T01:11:15.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -3649,15 +3649,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -7514,8 +7514,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956387,
-      "sourceId": "401812262114288326",
+      "id": 38956388,
+      "sourceId": "401812262114288341",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -7527,15 +7527,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 67,
-      "homeWinProbability": 0.372,
+      "awayScore": 68,
+      "homeWinProbability": 0.369,
       "period": 2,
       "clock": "7:56",
       "secondsRemaining": 476,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:43:45.000Z",
+      "wallclock": "2025-11-14T01:43:57.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -7621,8 +7621,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956388,
-      "sourceId": "401812262114288341",
+      "id": 38956387,
+      "sourceId": "401812262114288326",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -7634,15 +7634,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 68,
-      "homeWinProbability": 0.369,
+      "awayScore": 67,
+      "homeWinProbability": 0.372,
       "period": 2,
       "clock": "7:56",
       "secondsRemaining": 476,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:43:57.000Z",
+      "wallclock": "2025-11-14T01:43:45.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -7835,8 +7835,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956405,
-      "sourceId": "401812262114289133",
+      "id": 38956402,
+      "sourceId": "401812262114289069",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -7848,15 +7848,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 72,
-      "homeWinProbability": 0.33,
+      "awayScore": 71,
+      "homeWinProbability": 0.412,
       "period": 2,
       "clock": "6:50",
       "secondsRemaining": 410,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:46:55.000Z",
+      "wallclock": "2025-11-14T01:46:37.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -7942,8 +7942,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956402,
-      "sourceId": "401812262114289069",
+      "id": 38956405,
+      "sourceId": "401812262114289133",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -7955,15 +7955,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 71,
-      "homeWinProbability": 0.412,
+      "awayScore": 72,
+      "homeWinProbability": 0.33,
       "period": 2,
       "clock": "6:50",
       "secondsRemaining": 410,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:46:37.000Z",
+      "wallclock": "2025-11-14T01:46:55.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -8477,8 +8477,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956463,
-      "sourceId": "401812262114292589",
+      "id": 38956464,
+      "sourceId": "401812262114292599",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -8490,15 +8490,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 80,
-      "awayScore": 83,
-      "homeWinProbability": 0.098,
+      "awayScore": 84,
+      "homeWinProbability": 0.066,
       "period": 2,
       "clock": "0:47",
       "secondsRemaining": 47,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T02:06:56.000Z",
+      "wallclock": "2025-11-14T02:07:09.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -8584,8 +8584,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956464,
-      "sourceId": "401812262114292599",
+      "id": 38956463,
+      "sourceId": "401812262114292589",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -8597,15 +8597,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 80,
-      "awayScore": 84,
-      "homeWinProbability": 0.066,
+      "awayScore": 83,
+      "homeWinProbability": 0.098,
       "period": 2,
       "clock": "0:47",
       "secondsRemaining": 47,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T02:07:09.000Z",
+      "wallclock": "2025-11-14T02:06:56.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -9773,8 +9773,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39324881,
-      "sourceId": "401820598114486795",
+      "id": 39324959,
+      "sourceId": "401820598114486808",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -9785,16 +9785,16 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 21,
-      "homeWinProbability": 0.788,
+      "homeWinProbability": 0.792,
       "period": 1,
       "clock": "9:50",
       "secondsRemaining": 590,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:05:37.000Z",
+      "wallclock": "2025-11-17T01:06:03.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -9880,8 +9880,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39324959,
-      "sourceId": "401820598114486808",
+      "id": 39324881,
+      "sourceId": "401820598114486795",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -9892,16 +9892,16 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 21,
-      "homeWinProbability": 0.792,
+      "homeWinProbability": 0.788,
       "period": 1,
       "clock": "9:50",
       "secondsRemaining": 590,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:06:03.000Z",
+      "wallclock": "2025-11-17T01:05:37.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -10649,8 +10649,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325336,
-      "sourceId": "401820598114488075",
+      "id": 39325338,
+      "sourceId": "401820598114488077",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -10661,17 +10661,17 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 46,
-      "homeWinProbability": 0.949,
+      "homeWinProbability": 0.951,
       "period": 2,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:50:26.000Z",
-      "playText": "Braden Smith missed Free Throw.",
+      "wallclock": "2025-11-17T01:50:39.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -10683,7 +10683,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10863,8 +10863,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325338,
-      "sourceId": "401820598114488077",
+      "id": 39325336,
+      "sourceId": "401820598114488075",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -10875,17 +10875,17 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 46,
-      "homeWinProbability": 0.951,
+      "homeWinProbability": 0.949,
       "period": 2,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:50:39.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "wallclock": "2025-11-17T01:50:26.000Z",
+      "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -10897,7 +10897,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11834,8 +11834,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325555,
-      "sourceId": "401820598114488972",
+      "id": 39325556,
+      "sourceId": "401820598114488984",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -11846,7 +11846,7 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 93,
       "awayScore": 70,
       "homeWinProbability": 1,
       "period": 2,
@@ -11855,7 +11855,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T02:27:19.000Z",
+      "wallclock": "2025-11-17T02:27:34.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -11941,8 +11941,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325556,
-      "sourceId": "401820598114488984",
+      "id": 39325555,
+      "sourceId": "401820598114488972",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -11953,7 +11953,7 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 93,
+      "homeScore": 92,
       "awayScore": 70,
       "homeWinProbability": 1,
       "period": 2,
@@ -11962,7 +11962,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T02:27:34.000Z",
+      "wallclock": "2025-11-17T02:27:19.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -13020,8 +13020,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 39651432,
-      "sourceId": "401823636114660057",
+      "id": 39651428,
+      "sourceId": "401823636114659969",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -13041,7 +13041,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T00:19:50.000Z",
+      "wallclock": "2025-11-21T00:19:25.000Z",
       "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
@@ -13132,8 +13132,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 39651428,
-      "sourceId": "401823636114659969",
+      "id": 39651432,
+      "sourceId": "401823636114660057",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -13153,7 +13153,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T00:19:25.000Z",
+      "wallclock": "2025-11-21T00:19:50.000Z",
       "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
@@ -23117,8 +23117,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41514890,
-      "sourceId": "401825406115732573",
+      "id": 41514889,
+      "sourceId": "401825406115732537",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -23129,16 +23129,16 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 15,
-      "homeWinProbability": 0.925,
+      "homeWinProbability": 0.917,
       "period": 1,
       "clock": "6:04",
       "secondsRemaining": 364,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-11T00:36:26.000Z",
+      "wallclock": "2025-12-11T00:36:15.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -23224,8 +23224,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41514889,
-      "sourceId": "401825406115732537",
+      "id": 41514890,
+      "sourceId": "401825406115732573",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -23236,16 +23236,16 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 15,
-      "homeWinProbability": 0.917,
+      "homeWinProbability": 0.925,
       "period": 1,
       "clock": "6:04",
       "secondsRemaining": 364,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-11T00:36:15.000Z",
+      "wallclock": "2025-12-11T00:36:26.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -27279,8 +27279,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42269975,
-      "sourceId": "401823482116219253",
+      "id": 42269978,
+      "sourceId": "401823482116219309",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -27291,17 +27291,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 24,
       "awayScore": 17,
-      "homeWinProbability": 0.788,
+      "homeWinProbability": 0.818,
       "period": 1,
       "clock": "9:27",
       "secondsRemaining": 567,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T23:56:34.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2025-12-20T23:56:49.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -27386,8 +27386,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42269978,
-      "sourceId": "401823482116219309",
+      "id": 42269975,
+      "sourceId": "401823482116219253",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -27398,17 +27398,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 23,
       "awayScore": 17,
-      "homeWinProbability": 0.818,
+      "homeWinProbability": 0.788,
       "period": 1,
       "clock": "9:27",
       "secondsRemaining": 567,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T23:56:49.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2025-12-20T23:56:34.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -33383,8 +33383,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43258190,
-      "sourceId": "401825417116815344",
+      "id": 43258191,
+      "sourceId": "401825417116815348",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -33396,16 +33396,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 83,
-      "homeWinProbability": 0.005,
+      "awayScore": 84,
+      "homeWinProbability": 0.006,
       "period": 2,
       "clock": "3:57",
       "secondsRemaining": 237,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T03:00:33.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-01-04T03:00:46.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -33490,8 +33490,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43258191,
-      "sourceId": "401825417116815348",
+      "id": 43258190,
+      "sourceId": "401825417116815344",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -33503,16 +33503,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 84,
-      "homeWinProbability": 0.006,
+      "awayScore": 83,
+      "homeWinProbability": 0.005,
       "period": 2,
       "clock": "3:57",
       "secondsRemaining": 237,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T03:00:46.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-01-04T03:00:33.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -41223,9 +41223,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44286848,
-      "sourceId": "401825444117318149",
-      "playType": "LayUpShot",
+      "id": 44286854,
+      "sourceId": "401825444117318246",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -41235,22 +41235,18 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 50,
-      "homeWinProbability": 0.559,
+      "homeWinProbability": 0.594,
       "period": 2,
       "clock": "10:13",
       "secondsRemaining": 613,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T01:00:40.000Z",
-      "playText": "Braden Smith makes driving layup (Trey Kaufman-Renn assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T01:01:20.000Z",
+      "playText": "Braden Smith makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn"
-        },
         {
           "id": 368,
           "name": "Braden Smith"
@@ -41262,15 +41258,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 366,
-          "name": "Trey Kaufman-Renn"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 215
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41334,9 +41330,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44286854,
-      "sourceId": "401825444117318246",
-      "playType": "MadeFreeThrow",
+      "id": 44286848,
+      "sourceId": "401825444117318149",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -41346,18 +41342,22 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 50,
-      "homeWinProbability": 0.594,
+      "homeWinProbability": 0.559,
       "period": 2,
       "clock": "10:13",
       "secondsRemaining": 613,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T01:01:20.000Z",
-      "playText": "Braden Smith makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T01:00:40.000Z",
+      "playText": "Braden Smith makes driving layup (Trey Kaufman-Renn assists)",
       "participants": [
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn"
+        },
         {
           "id": 368,
           "name": "Braden Smith"
@@ -41369,15 +41369,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 366,
+          "name": "Trey Kaufman-Renn"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 215
         }
       },
       "onFloor": [
@@ -41984,8 +41984,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44286920,
-      "sourceId": "401825444117326016",
+      "id": 44286921,
+      "sourceId": "401825444117326064",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -41996,17 +41996,17 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 74,
       "awayScore": 69,
-      "homeWinProbability": 0.893,
+      "homeWinProbability": 0.969,
       "period": 2,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T01:23:46.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-01-15T01:23:59.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -42091,8 +42091,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44286921,
-      "sourceId": "401825444117326064",
+      "id": 44286920,
+      "sourceId": "401825444117326016",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -42103,17 +42103,17 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 73,
       "awayScore": 69,
-      "homeWinProbability": 0.969,
+      "homeWinProbability": 0.893,
       "period": 2,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T01:23:59.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-01-15T01:23:46.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -44366,8 +44366,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44579436,
-      "sourceId": "401825451117560913",
+      "id": 44579439,
+      "sourceId": "401825451117560939",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -44379,16 +44379,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 66,
-      "homeWinProbability": 0.106,
+      "awayScore": 67,
+      "homeWinProbability": 0.047,
       "period": 2,
       "clock": "0:13",
       "secondsRemaining": 13,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T00:59:10.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-01-18T00:59:34.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -44473,8 +44473,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44579439,
-      "sourceId": "401825451117560939",
+      "id": 44579436,
+      "sourceId": "401825451117560913",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -44486,16 +44486,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 67,
-      "homeWinProbability": 0.047,
+      "awayScore": 66,
+      "homeWinProbability": 0.106,
       "period": 2,
       "clock": "0:13",
       "secondsRemaining": 13,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T00:59:34.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-01-18T00:59:10.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -49491,113 +49491,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237602,
-      "sourceId": "401825468117914694",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 118,
-      "opponent": "Illinois",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 80,
-      "awayScore": 84,
-      "homeWinProbability": 0.02,
-      "period": 2,
-      "clock": "0:10",
-      "secondsRemaining": 10,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T22:03:10.000Z",
-      "playText": "Braden Smith misses free throw 1 of 3",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 5640,
-          "name": "Tomislav Ivisic",
-          "team": "Illinois"
-        },
-        {
-          "id": 199686,
-          "name": "Keaton Wagler",
-          "team": "Illinois"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 201569,
-          "name": "Omer Mayer",
-          "team": "Purdue"
-        },
-        {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
-          "id": 199681,
-          "name": "David Mirkovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 7384,
-          "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        }
-      ]
-    },
-    {
-      "gameId": 214611,
-      "gameSourceId": "401825468",
-      "gameStartDate": "2026-01-24T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45237605,
       "sourceId": "401825468117914840",
       "playType": "MadeFreeThrow",
@@ -49740,6 +49633,113 @@
           "name": "Braden Smith"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 5640,
+          "name": "Tomislav Ivisic",
+          "team": "Illinois"
+        },
+        {
+          "id": 199686,
+          "name": "Keaton Wagler",
+          "team": "Illinois"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 201569,
+          "name": "Omer Mayer",
+          "team": "Purdue"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
+        },
+        {
+          "id": 199681,
+          "name": "David Mirkovic",
+          "team": "Illinois"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 7384,
+          "name": "Andrej Stojakovic",
+          "team": "Illinois"
+        }
+      ]
+    },
+    {
+      "gameId": 214611,
+      "gameSourceId": "401825468",
+      "gameStartDate": "2026-01-24T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45237602,
+      "sourceId": "401825468117914694",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 118,
+      "opponent": "Illinois",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 80,
+      "awayScore": 84,
+      "homeWinProbability": 0.02,
+      "period": 2,
+      "clock": "0:10",
+      "secondsRemaining": 10,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T22:03:10.000Z",
+      "playText": "Braden Smith misses free throw 1 of 3",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53185,9 +53185,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081703,
-      "sourceId": "401825486118300828",
-      "playType": "LayUpShot",
+      "id": 46081733,
+      "sourceId": "401825486118300909",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -53198,16 +53198,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 30,
-      "awayScore": 51,
-      "homeWinProbability": 0.013,
+      "awayScore": 52,
+      "homeWinProbability": 0.01,
       "period": 2,
       "clock": "19:09",
       "secondsRemaining": 1149,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-01T19:08:10.000Z",
-      "playText": "Braden Smith makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T19:08:36.000Z",
+      "playText": "Braden Smith makes free throw 1 of 1",
       "participants": [
         {
           "id": 368,
@@ -53220,15 +53220,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 28.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -53292,9 +53292,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081733,
-      "sourceId": "401825486118300909",
-      "playType": "MadeFreeThrow",
+      "id": 46081703,
+      "sourceId": "401825486118300828",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -53305,16 +53305,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 30,
-      "awayScore": 52,
-      "homeWinProbability": 0.01,
+      "awayScore": 51,
+      "homeWinProbability": 0.013,
       "period": 2,
       "clock": "19:09",
       "secondsRemaining": 1149,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T19:08:36.000Z",
-      "playText": "Braden Smith makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-01T19:08:10.000Z",
+      "playText": "Braden Smith makes driving layup",
       "participants": [
         {
           "id": 368,
@@ -53327,15 +53327,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 28.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -53617,8 +53617,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081796,
-      "sourceId": "401825486118303186",
+      "id": 46081797,
+      "sourceId": "401825486118303198",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -53630,16 +53630,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 60,
-      "homeWinProbability": 0.004,
+      "awayScore": 61,
+      "homeWinProbability": 0.003,
       "period": 2,
       "clock": "15:32",
       "secondsRemaining": 932,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T19:19:01.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-01T19:19:13.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -53724,8 +53724,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081797,
-      "sourceId": "401825486118303198",
+      "id": 46081796,
+      "sourceId": "401825486118303186",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -53737,16 +53737,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 61,
-      "homeWinProbability": 0.003,
+      "awayScore": 60,
+      "homeWinProbability": 0.004,
       "period": 2,
       "clock": "15:32",
       "secondsRemaining": 932,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T19:19:13.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-01T19:19:01.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -59158,8 +59158,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47080929,
-      "sourceId": "401825513118977898",
+      "id": 47080933,
+      "sourceId": "401825513118978010",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -59171,16 +59171,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 15,
-      "homeWinProbability": 0.359,
+      "awayScore": 16,
+      "homeWinProbability": 0.329,
       "period": 1,
       "clock": "11:37",
       "secondsRemaining": 697,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T22:27:53.000Z",
-      "playText": "Braden Smith misses free throw 1 of 2",
+      "wallclock": "2026-02-14T22:28:10.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -59192,7 +59192,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59265,8 +59265,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47080933,
-      "sourceId": "401825513118978010",
+      "id": 47080929,
+      "sourceId": "401825513118977898",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -59278,16 +59278,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 16,
-      "homeWinProbability": 0.329,
+      "awayScore": 15,
+      "homeWinProbability": 0.359,
       "period": 1,
       "clock": "11:37",
       "secondsRemaining": 697,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T22:28:10.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-14T22:27:53.000Z",
+      "playText": "Braden Smith misses free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -59299,7 +59299,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -60696,8 +60696,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47081232,
-      "sourceId": "401825513119001808",
+      "id": 47081231,
+      "sourceId": "401825513119001800",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -60709,7 +60709,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 74,
+      "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:59",
@@ -60717,8 +60717,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:01:52.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-15T00:01:39.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -60803,8 +60803,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47081231,
-      "sourceId": "401825513119001800",
+      "id": 47081232,
+      "sourceId": "401825513119001808",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -60816,7 +60816,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 73,
+      "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:59",
@@ -60824,8 +60824,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:01:39.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-15T00:01:52.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -62107,8 +62107,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411477,
-      "sourceId": "401825524119084691",
+      "id": 47411474,
+      "sourceId": "401825524119084658",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -62119,17 +62119,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 51,
-      "homeWinProbability": 0.14,
+      "homeWinProbability": 0.085,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T00:43:36.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-18T00:43:22.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -62214,8 +62214,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411474,
-      "sourceId": "401825524119084658",
+      "id": 47411477,
+      "sourceId": "401825524119084691",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -62226,17 +62226,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 51,
-      "homeWinProbability": 0.085,
+      "homeWinProbability": 0.14,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T00:43:22.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-18T00:43:36.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -63177,113 +63177,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411622,
-      "sourceId": "401825524119088051",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 170,
-      "opponent": "Michigan",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 67,
-      "awayScore": 79,
-      "homeWinProbability": 0.014,
-      "period": 2,
-      "clock": "3:34",
-      "secondsRemaining": 214,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T01:22:41.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 200517,
-          "name": "Trey McKenney",
-          "team": "Michigan"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        },
-        {
-          "id": 237,
-          "name": "Elliot Cadeau",
-          "team": "Michigan"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 5647,
-          "name": "Morez Johnson Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 214968,
-      "gameSourceId": "401825524",
-      "gameStartDate": "2026-02-17T23:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47411623,
       "sourceId": "401825524119088079",
       "playType": "MadeFreeThrow",
@@ -63391,8 +63284,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411658,
-      "sourceId": "401825524119088800",
+      "id": 47411622,
+      "sourceId": "401825524119088051",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -63403,17 +63296,124 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 67,
+      "awayScore": 79,
+      "homeWinProbability": 0.014,
+      "period": 2,
+      "clock": "3:34",
+      "secondsRemaining": 214,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T01:22:41.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 200517,
+          "name": "Trey McKenney",
+          "team": "Michigan"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        },
+        {
+          "id": 237,
+          "name": "Elliot Cadeau",
+          "team": "Michigan"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 5647,
+          "name": "Morez Johnson Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 214968,
+      "gameSourceId": "401825524",
+      "gameStartDate": "2026-02-17T23:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47411655,
+      "sourceId": "401825524119088759",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 170,
+      "opponent": "Michigan",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 74,
       "awayScore": 83,
-      "homeWinProbability": 0.011,
+      "homeWinProbability": 0.009,
       "period": 2,
       "clock": "1:30",
       "secondsRemaining": 90,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T01:30:18.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-18T01:29:59.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -63498,8 +63498,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411655,
-      "sourceId": "401825524119088759",
+      "id": 47411658,
+      "sourceId": "401825524119088800",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -63510,17 +63510,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 83,
-      "homeWinProbability": 0.009,
+      "homeWinProbability": 0.011,
       "period": 2,
       "clock": "1:30",
       "secondsRemaining": 90,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T01:29:59.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-18T01:30:18.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -63823,8 +63823,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411697,
-      "sourceId": "401825524119090151",
+      "id": 47411698,
+      "sourceId": "401825524119090187",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -63835,7 +63835,7 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 89,
       "homeWinProbability": 0.002,
       "period": 2,
@@ -63844,8 +63844,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T01:42:58.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-18T01:43:09.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -63930,8 +63930,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411698,
-      "sourceId": "401825524119090187",
+      "id": 47411697,
+      "sourceId": "401825524119090151",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -63942,7 +63942,7 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 89,
       "homeWinProbability": 0.002,
       "period": 2,
@@ -63951,8 +63951,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T01:43:09.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-18T01:42:58.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -64802,8 +64802,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670610,
-      "sourceId": "401825528119241695",
+      "id": 47670607,
+      "sourceId": "401825528119241648",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -64814,17 +64814,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 10,
-      "homeWinProbability": 0.819,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "9:54",
       "secondsRemaining": 594,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:30:46.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-21T01:30:27.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -64909,8 +64909,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670607,
-      "sourceId": "401825528119241648",
+      "id": 47670610,
+      "sourceId": "401825528119241695",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -64921,17 +64921,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 10,
-      "homeWinProbability": 0.791,
+      "homeWinProbability": 0.819,
       "period": 1,
       "clock": "9:54",
       "secondsRemaining": 594,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:30:27.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-21T01:30:46.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -65123,8 +65123,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670666,
-      "sourceId": "401825528119242980",
+      "id": 47670665,
+      "sourceId": "401825528119242949",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -65135,17 +65135,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 18,
-      "homeWinProbability": 0.947,
+      "homeWinProbability": 0.941,
       "period": 1,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:44:28.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-21T01:44:14.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -65230,8 +65230,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670665,
-      "sourceId": "401825528119242949",
+      "id": 47670666,
+      "sourceId": "401825528119242980",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -65242,17 +65242,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 18,
-      "homeWinProbability": 0.941,
+      "homeWinProbability": 0.947,
       "period": 1,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:44:14.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-21T01:44:28.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -68405,8 +68405,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48138593,
-      "sourceId": "401825543119576729",
+      "id": 48138594,
+      "sourceId": "401825543119576775",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -68417,7 +68417,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -68426,8 +68426,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-27T02:38:41.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-27T02:38:55.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -68512,8 +68512,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48138594,
-      "sourceId": "401825543119576775",
+      "id": 48138593,
+      "sourceId": "401825543119576729",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -68524,7 +68524,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -68533,8 +68533,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-27T02:38:55.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-27T02:38:41.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -70355,8 +70355,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528319,
-      "sourceId": "401825552119768539",
+      "id": 48528313,
+      "sourceId": "401825552119768487",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -70368,16 +70368,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 31,
+      "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:40",
       "secondsRemaining": 40,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T19:24:07.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-01T19:23:42.000Z",
+      "playText": "Braden Smith misses free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -70389,7 +70389,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70462,8 +70462,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528313,
-      "sourceId": "401825552119768487",
+      "id": 48528319,
+      "sourceId": "401825552119768539",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -70475,16 +70475,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 30,
+      "awayScore": 31,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:40",
       "secondsRemaining": 40,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T19:23:42.000Z",
-      "playText": "Braden Smith misses free throw 1 of 2",
+      "wallclock": "2026-03-01T19:24:07.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -70496,7 +70496,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71005,8 +71005,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528415,
-      "sourceId": "401825552119773790",
+      "id": 48528416,
+      "sourceId": "401825552119773791",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -71018,7 +71018,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 46,
+      "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:44",
@@ -71027,7 +71027,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-03-01T20:09:38.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -71112,8 +71112,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528416,
-      "sourceId": "401825552119773791",
+      "id": 48528415,
+      "sourceId": "401825552119773790",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -71125,7 +71125,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 47,
+      "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:44",
@@ -71134,7 +71134,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-03-01T20:09:38.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -73724,6 +73724,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 48741128,
+      "sourceId": "401825556119887456",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 212,
+      "opponent": "Northwestern",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 63,
+      "awayScore": 64,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "1:33",
+      "secondsRemaining": 93,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-05T03:26:22.000Z",
+      "playText": "Braden Smith makes free throw 2 of 3",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 470,
+          "name": "Arrinten Page",
+          "team": "Northwestern"
+        },
+        {
+          "id": 5448,
+          "name": "Nick Martinelli",
+          "team": "Northwestern"
+        },
+        {
+          "id": 482,
+          "name": "Jayden Reid",
+          "team": "Northwestern"
+        },
+        {
+          "id": 201177,
+          "name": "Tre Singleton",
+          "team": "Northwestern"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 5460,
+          "name": "Jordan Clayton",
+          "team": "Northwestern"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 215191,
+      "gameSourceId": "401825556",
+      "gameStartDate": "2026-03-05T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 48741126,
       "sourceId": "401825556119887446",
       "playType": "MadeFreeThrow",
@@ -73938,115 +74045,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48741128,
-      "sourceId": "401825556119887456",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 212,
-      "opponent": "Northwestern",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 63,
-      "awayScore": 64,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "1:33",
-      "secondsRemaining": 93,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-05T03:26:22.000Z",
-      "playText": "Braden Smith makes free throw 2 of 3",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 470,
-          "name": "Arrinten Page",
-          "team": "Northwestern"
-        },
-        {
-          "id": 5448,
-          "name": "Nick Martinelli",
-          "team": "Northwestern"
-        },
-        {
-          "id": 482,
-          "name": "Jayden Reid",
-          "team": "Northwestern"
-        },
-        {
-          "id": 201177,
-          "name": "Tre Singleton",
-          "team": "Northwestern"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 5460,
-          "name": "Jordan Clayton",
-          "team": "Northwestern"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 215191,
-      "gameSourceId": "401825556",
-      "gameStartDate": "2026-03-05T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 48741152,
-      "sourceId": "401825556119887798",
+      "id": 48741153,
+      "sourceId": "401825556119887799",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -74058,7 +74058,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 69,
+      "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:12",
@@ -74066,8 +74066,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:34:57.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-03-05T03:35:16.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -74152,8 +74152,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48741153,
-      "sourceId": "401825556119887799",
+      "id": 48741152,
+      "sourceId": "401825556119887798",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -74165,7 +74165,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 70,
+      "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:12",
@@ -74173,8 +74173,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:35:16.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-05T03:34:57.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -86579,9 +86579,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49491532,
-      "sourceId": "401851388120282994",
-      "playType": "JumpShot",
+      "id": 49491537,
+      "sourceId": "401851388120283020",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -86592,16 +86592,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 57,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:06",
       "secondsRemaining": 726,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-15T20:49:42.000Z",
-      "playText": "Braden Smith makes 10-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-03-15T20:53:19.000Z",
+      "playText": "Braden Smith makes free throw 1 of 1",
       "participants": [
         {
           "id": 368,
@@ -86614,15 +86614,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 170
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -86686,9 +86686,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49491537,
-      "sourceId": "401851388120283020",
-      "playType": "MadeFreeThrow",
+      "id": 49491532,
+      "sourceId": "401851388120282994",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -86699,16 +86699,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 58,
+      "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:06",
       "secondsRemaining": 726,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-15T20:53:19.000Z",
-      "playText": "Braden Smith makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-15T20:49:42.000Z",
+      "playText": "Braden Smith makes 10-foot pullup jump shot",
       "participants": [
         {
           "id": 368,
@@ -86721,15 +86721,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 170
         }
       },
       "onFloor": [
@@ -91363,8 +91363,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49611257,
-      "sourceId": "401856564120354782",
+      "id": 49611256,
+      "sourceId": "401856564120354781",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -91375,7 +91375,7 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": 7,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
@@ -91384,8 +91384,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T17:42:30.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-22T17:42:17.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -91470,8 +91470,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49611256,
-      "sourceId": "401856564120354781",
+      "id": 49611257,
+      "sourceId": "401856564120354782",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -91482,7 +91482,7 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": 7,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
@@ -91491,8 +91491,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T17:42:17.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-03-22T17:42:30.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -92124,113 +92124,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49611345,
-      "sourceId": "401856564120355634",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": 2,
-      "opponentId": 168,
-      "opponent": "Miami",
-      "opponentConference": "ACC",
-      "opponentSeed": 7,
-      "homeScore": 74,
-      "awayScore": 69,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "0:56",
-      "secondsRemaining": 56,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-22T18:12:50.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6437,
-          "name": "Tru Washington",
-          "team": "Miami"
-        },
-        {
-          "id": 200477,
-          "name": "Shelton Henderson",
-          "team": "Miami"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 5610,
-          "name": "Tre Donaldson",
-          "team": "Miami"
-        },
-        {
-          "id": 7836,
-          "name": "Malik Reneau",
-          "team": "Miami"
-        },
-        {
-          "id": 370,
-          "name": "Gicarri Harris",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 5670,
-          "name": "Ernest Udeh Jr.",
-          "team": "Miami"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 372578,
-      "gameSourceId": "401856564",
-      "gameStartDate": "2026-03-22T16:10:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49611346,
       "sourceId": "401856564120355639",
       "playType": "MadeFreeThrow",
@@ -92338,8 +92231,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49611352,
-      "sourceId": "401856564120355651",
+      "id": 49611345,
+      "sourceId": "401856564120355634",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -92350,16 +92243,16 @@
       "opponent": "Miami",
       "opponentConference": "ACC",
       "opponentSeed": 7,
-      "homeScore": 76,
+      "homeScore": 74,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "0:37",
-      "secondsRemaining": 37,
+      "clock": "0:56",
+      "secondsRemaining": 56,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T18:14:00.000Z",
+      "wallclock": "2026-03-22T18:12:50.000Z",
       "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
@@ -92468,6 +92361,113 @@
       "scoreValue": 1,
       "wallclock": "2026-03-22T18:14:17.000Z",
       "playText": "Braden Smith makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6437,
+          "name": "Tru Washington",
+          "team": "Miami"
+        },
+        {
+          "id": 200477,
+          "name": "Shelton Henderson",
+          "team": "Miami"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 5610,
+          "name": "Tre Donaldson",
+          "team": "Miami"
+        },
+        {
+          "id": 7836,
+          "name": "Malik Reneau",
+          "team": "Miami"
+        },
+        {
+          "id": 370,
+          "name": "Gicarri Harris",
+          "team": "Purdue"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 5670,
+          "name": "Ernest Udeh Jr.",
+          "team": "Miami"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 372578,
+      "gameSourceId": "401856564",
+      "gameStartDate": "2026-03-22T16:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49611352,
+      "sourceId": "401856564120355651",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": 2,
+      "opponentId": 168,
+      "opponent": "Miami",
+      "opponentConference": "ACC",
+      "opponentSeed": 7,
+      "homeScore": 76,
+      "awayScore": 69,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:37",
+      "secondsRemaining": 37,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-22T18:14:00.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -94387,8 +94387,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645499,
-      "sourceId": "401856568120387009",
+      "id": 49645501,
+      "sourceId": "401856568120387010",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -94405,11 +94405,11 @@
       "period": 2,
       "clock": "7:39",
       "secondsRemaining": 459,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T00:57:28.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-03-27T00:57:42.000Z",
+      "playText": "Braden Smith misses free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -94421,7 +94421,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -94494,8 +94494,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645501,
-      "sourceId": "401856568120387010",
+      "id": 49645499,
+      "sourceId": "401856568120387009",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -94512,11 +94512,11 @@
       "period": 2,
       "clock": "7:39",
       "secondsRemaining": 459,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T00:57:42.000Z",
-      "playText": "Braden Smith misses free throw 2 of 2",
+      "wallclock": "2026-03-27T00:57:28.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -94528,7 +94528,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -95952,29 +95952,9 @@
           "team": "Arizona"
         },
         {
-          "id": 197978,
-          "name": "Dwayne Aristode",
-          "team": "Arizona"
-        },
-        {
-          "id": 367,
-          "name": "Daniel Jacobsen",
+          "id": 201569,
+          "name": "Omer Mayer",
           "team": "Purdue"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 276,
-          "name": "Anthony Dell'Orso",
-          "team": "Arizona"
         },
         {
           "id": 370,
@@ -95982,14 +95962,34 @@
           "team": "Purdue"
         },
         {
-          "id": 201569,
-          "name": "Omer Mayer",
+          "id": 276,
+          "name": "Anthony Dell'Orso",
+          "team": "Arizona"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
           "team": "Purdue"
         },
         {
           "id": 1291,
           "name": "Oscar Cluff",
           "team": "Purdue"
+        },
+        {
+          "id": 197978,
+          "name": "Dwayne Aristode",
+          "team": "Arizona"
         }
       ]
     },
@@ -96049,13 +96049,8 @@
       },
       "onFloor": [
         {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96064,13 +96059,18 @@
           "team": "Arizona"
         },
         {
-          "id": 375,
-          "name": "C.J. Cox",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
           "team": "Purdue"
         },
         {
-          "id": 1291,
-          "name": "Oscar Cluff",
+          "id": 369,
+          "name": "Fletcher Loyer",
           "team": "Purdue"
         },
         {
@@ -96079,18 +96079,18 @@
           "team": "Arizona"
         },
         {
-          "id": 369,
-          "name": "Fletcher Loyer",
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
           "team": "Purdue"
         },
         {
           "id": 269,
           "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96160,13 +96160,8 @@
       },
       "onFloor": [
         {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96175,13 +96170,18 @@
           "team": "Arizona"
         },
         {
-          "id": 375,
-          "name": "C.J. Cox",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
           "team": "Purdue"
         },
         {
-          "id": 1291,
-          "name": "Oscar Cluff",
+          "id": 369,
+          "name": "Fletcher Loyer",
           "team": "Purdue"
         },
         {
@@ -96190,18 +96190,18 @@
           "team": "Arizona"
         },
         {
-          "id": 369,
-          "name": "Fletcher Loyer",
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
           "team": "Purdue"
         },
         {
           "id": 269,
           "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96267,8 +96267,8 @@
       },
       "onFloor": [
         {
-          "id": 197993,
-          "name": "Koa Peat",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96277,23 +96277,8 @@
           "team": "Arizona"
         },
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197993,
+          "name": "Koa Peat",
           "team": "Arizona"
         },
         {
@@ -96302,18 +96287,33 @@
           "team": "Purdue"
         },
         {
+          "id": 197982,
+          "name": "Brayden Burries",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
           "id": 269,
           "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
           "id": 368,
           "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
           "team": "Purdue"
         }
       ]
@@ -96378,9 +96378,44 @@
       },
       "onFloor": [
         {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
           "id": 274,
           "name": "Motiejus Krivas",
           "team": "Arizona"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 197982,
+          "name": "Brayden Burries",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
         },
         {
           "id": 367,
@@ -96391,41 +96426,6 @@
           "id": 265,
           "name": "Tobe Awaka",
           "team": "Arizona"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
-          "team": "Arizona"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
         }
       ]
     },
@@ -96485,9 +96485,44 @@
       },
       "onFloor": [
         {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
           "id": 274,
           "name": "Motiejus Krivas",
           "team": "Arizona"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 197982,
+          "name": "Brayden Burries",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
         },
         {
           "id": 367,
@@ -96498,41 +96533,6 @@
           "id": 265,
           "name": "Tobe Awaka",
           "team": "Arizona"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
-          "team": "Arizona"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
         }
       ]
     },
@@ -96596,33 +96596,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96631,19 +96606,44 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
           "id": 368,
           "name": "Braden Smith",
           "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
         }
       ]
     },
@@ -96703,33 +96703,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96738,19 +96713,44 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
           "id": 368,
           "name": "Braden Smith",
           "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
         }
       ]
     },
@@ -96810,33 +96810,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96845,19 +96820,44 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
           "id": 368,
           "name": "Braden Smith",
           "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
         }
       ]
     },
@@ -96921,33 +96921,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -96956,13 +96931,38 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97028,33 +97028,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -97063,13 +97038,38 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97139,33 +97139,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -97174,13 +97149,38 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97246,33 +97246,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -97281,13 +97256,38 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97353,33 +97353,8 @@
       },
       "onFloor": [
         {
-          "id": 367,
-          "name": "Daniel Jacobsen",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -97388,13 +97363,38 @@
           "team": "Purdue"
         },
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197982,
+          "name": "Brayden Burries",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 367,
+          "name": "Daniel Jacobsen",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97460,6 +97460,41 @@
       },
       "onFloor": [
         {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 201569,
+          "name": "Omer Mayer",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
           "id": 370,
           "name": "Gicarri Harris",
           "team": "Purdue"
@@ -97472,148 +97507,6 @@
         {
           "id": 366,
           "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 201569,
-          "name": "Omer Mayer",
-          "team": "Purdue"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 372605,
-      "gameSourceId": "401856575",
-      "gameStartDate": "2026-03-29T00:59:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
-      "id": 49658753,
-      "sourceId": "401856575120400064",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": 2,
-      "opponentId": 11,
-      "opponent": "Arizona",
-      "opponentConference": "Big 12",
-      "opponentSeed": 1,
-      "homeScore": 59,
-      "awayScore": 50,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "8:20",
-      "secondsRemaining": 500,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-29T02:42:17.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 201569,
-          "name": "Omer Mayer",
-          "team": "Purdue"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
-          "team": "Arizona"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
           "team": "Purdue"
         }
       ]
@@ -97674,9 +97567,9 @@
       },
       "onFloor": [
         {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
         },
         {
           "id": 274,
@@ -97691,11 +97584,6 @@
         {
           "id": 269,
           "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
@@ -97721,6 +97609,118 @@
         {
           "id": 375,
           "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 372605,
+      "gameSourceId": "401856575",
+      "gameStartDate": "2026-03-29T00:59:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49658753,
+      "sourceId": "401856575120400064",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": 2,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Big 12",
+      "opponentSeed": 1,
+      "homeScore": 59,
+      "awayScore": 50,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "8:20",
+      "secondsRemaining": 500,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-29T02:42:17.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 201569,
+          "name": "Omer Mayer",
+          "team": "Purdue"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 197982,
+          "name": "Brayden Burries",
+          "team": "Arizona"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
           "team": "Purdue"
         }
       ]
@@ -97785,13 +97785,23 @@
       },
       "onFloor": [
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97820,18 +97830,8 @@
           "team": "Purdue"
         },
         {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
           "id": 369,
           "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
           "team": "Purdue"
         }
       ]
@@ -97896,13 +97896,23 @@
       },
       "onFloor": [
         {
-          "id": 269,
-          "name": "Jaden Bradley",
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
           "team": "Arizona"
         },
         {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
           "team": "Arizona"
         },
         {
@@ -97931,21 +97941,832 @@
           "team": "Purdue"
         },
         {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
           "id": 369,
           "name": "Fletcher Loyer",
           "team": "Purdue"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-04",
+      "opponent": "Evansville",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 6,
+      "rebounds": 2,
+      "assists": 11,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 3,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2025-11-08",
+      "opponent": "Oakland",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 20,
+      "rebounds": 7,
+      "assists": 9,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 8,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2025-11-14",
+      "opponent": "Alabama",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 29,
+      "rebounds": 7,
+      "assists": 4,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 19,
+      "threeMade": 5,
+      "threeAttempted": 10,
+      "ftMade": 10,
+      "ftAttempted": 12,
+      "starter": true
+    },
+    {
+      "date": "2025-11-17",
+      "opponent": "Akron",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 16,
+      "rebounds": 3,
+      "assists": 10,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 7,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2025-11-20",
+      "opponent": "Memphis",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 5,
+      "rebounds": 3,
+      "assists": 11,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 2,
+      "fgAttempted": 14,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 0,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-11-22",
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 10,
+      "rebounds": 1,
+      "assists": 7,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 7,
+      "threeMade": 2,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2025-11-28",
+      "opponent": "Eastern Illinois",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 23,
+      "points": 5,
+      "rebounds": 2,
+      "assists": 10,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 2,
+      "fgAttempted": 4,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2025-12-03",
+      "opponent": "Rutgers",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 16,
+      "rebounds": 3,
+      "assists": 8,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 4,
+      "threeAttempted": 8,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Iowa State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 11,
+      "rebounds": 5,
+      "assists": 8,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 6,
+      "fouls": 0,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2025-12-11",
+      "opponent": "Minnesota",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 15,
+      "rebounds": 6,
+      "assists": 12,
+      "steals": 5,
+      "blocks": 2,
+      "turnovers": 4,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 3,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "Marquette",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 7,
+      "rebounds": 5,
+      "assists": 10,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 3,
+      "fgMade": 3,
+      "fgAttempted": 6,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Auburn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 11,
+      "rebounds": 5,
+      "assists": 14,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 3,
+      "fouls": 0,
+      "fgMade": 2,
+      "fgAttempted": 5,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "Kent State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 12,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-04",
+      "opponent": "Wisconsin",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 14,
+      "rebounds": 4,
+      "assists": 12,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 11,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-01-08",
+      "opponent": "Washington",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 23,
+      "rebounds": 1,
+      "assists": 7,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 3,
+      "fgMade": 10,
+      "fgAttempted": 15,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Penn State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 26,
+      "rebounds": 1,
+      "assists": 14,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 11,
+      "fgAttempted": 18,
+      "threeMade": 4,
+      "threeAttempted": 8,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-14",
+      "opponent": "Iowa",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 16,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 0,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "USC",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 22,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 14,
+      "threeMade": 4,
+      "threeAttempted": 6,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "UCLA",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 12,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 0,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-24",
+      "opponent": "Illinois",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 27,
+      "rebounds": 3,
+      "assists": 12,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 0,
+      "fgMade": 11,
+      "fgAttempted": 16,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-01-28",
+      "opponent": "Indiana",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 39,
+      "points": 14,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 14,
+      "threeMade": 2,
+      "threeAttempted": 8,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-02-01",
+      "opponent": "Maryland",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 19,
+      "rebounds": 2,
+      "assists": 6,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 4,
+      "threeAttempted": 6,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Oregon",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 13,
+      "rebounds": 4,
+      "assists": 4,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 6,
+      "fouls": 0,
+      "fgMade": 5,
+      "fgAttempted": 12,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-11",
+      "opponent": "Nebraska",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 13,
+      "rebounds": 8,
+      "assists": 10,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 5,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 9,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "Iowa",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 5,
+      "rebounds": 7,
+      "assists": 12,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 1,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-17",
+      "opponent": "Michigan",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 35,
+      "points": 20,
+      "rebounds": 1,
+      "assists": 6,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 13,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 10,
+      "ftAttempted": 10,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "Indiana",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 15,
+      "rebounds": 2,
+      "assists": 8,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-02-27",
+      "opponent": "Michigan State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 12,
+      "rebounds": 5,
+      "assists": 10,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "Ohio State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 20,
+      "rebounds": 0,
+      "assists": 7,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 7,
+      "fgAttempted": 19,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-05",
+      "opponent": "Northwestern",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 7,
+      "rebounds": 3,
+      "assists": 9,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 1,
+      "fgMade": 1,
+      "fgAttempted": 5,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 5,
+      "ftAttempted": 5,
+      "starter": true
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Wisconsin",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 20,
+      "rebounds": 3,
+      "assists": 9,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 18,
+      "threeMade": 2,
+      "threeAttempted": 7,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-12",
+      "opponent": "Northwestern",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 5,
+      "rebounds": 2,
+      "assists": 16,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-03-13",
+      "opponent": "Nebraska",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 5,
+      "rebounds": 5,
+      "assists": 10,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 4,
+      "fouls": 3,
+      "fgMade": 1,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "UCLA",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 5,
+      "rebounds": 1,
+      "assists": 9,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 5,
+      "fouls": 0,
+      "fgMade": 1,
+      "fgAttempted": 7,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 2,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "Michigan",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 38,
+      "points": 14,
+      "rebounds": 5,
+      "assists": 11,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "Queens University",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 32,
+      "points": 26,
+      "rebounds": 3,
+      "assists": 8,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 10,
+      "fgAttempted": 15,
+      "threeMade": 4,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-22",
+      "opponent": "Miami",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 38,
+      "points": 12,
+      "rebounds": 2,
+      "assists": 8,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 8,
+      "fouls": 0,
+      "fgMade": 3,
+      "fgAttempted": 12,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "Texas",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 37,
+      "points": 16,
+      "rebounds": 2,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 6,
+      "fgAttempted": 16,
+      "threeMade": 0,
+      "threeAttempted": 3,
+      "ftMade": 4,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-29",
+      "opponent": "Arizona",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 35,
+      "points": 13,
+      "rebounds": 5,
+      "assists": 7,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
     }
   ],
   "topLineups": [

@@ -22,10 +22,10 @@
     "steals": 57,
     "blocks": 7,
     "offensiveRating": 122.2,
-    "defensiveRating": 111.4,
-    "netRating": 10.8,
+    "defensiveRating": 111.7,
+    "netRating": 10.5,
     "PORPAG": 4,
-    "usage": 24.1,
+    "usage": 23.6,
     "assistsTurnoverRatio": 2.46,
     "offensiveReboundPct": 23.2,
     "freeThrowRate": 23.2,
@@ -57,10 +57,10 @@
       "total": 142
     },
     "winShares": {
-      "offensive": 3.6,
+      "offensive": 3.5,
       "defensive": 0.7,
-      "total": 4.3,
-      "totalPer40": 0.152
+      "total": 4.2,
+      "totalPer40": 0.149
     }
   },
   "shootingStats": {
@@ -128,8 +128,8 @@
     "games": 37,
     "wins": 28,
     "losses": 9,
-    "totalMinutes": 1530,
-    "pace": 70.6,
+    "totalMinutes": 1500,
+    "pace": 72,
     "teamStats": {
       "assists": 633,
       "blocks": 190,
@@ -248,7 +248,7 @@
       "city": "Pittsburgh",
       "state": "PA"
     },
-    "dateOfBirth": "2006-08-06"
+    "dateOfBirth": null
   },
   "shots": [
     {
@@ -10060,8 +10060,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39012424,
-      "sourceId": "401826786114335675",
+      "id": 39012425,
+      "sourceId": "401826786114335723",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -10072,16 +10072,16 @@
       "opponent": "Samford",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 54,
-      "homeWinProbability": 0.984,
+      "homeWinProbability": 0.988,
       "period": 2,
       "clock": "7:08",
       "secondsRemaining": 428,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:34:02.000Z",
+      "wallclock": "2025-11-15T02:34:18.000Z",
       "playText": "Meleek Thomas made Free Throw.",
       "participants": [
         {
@@ -10167,8 +10167,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39012425,
-      "sourceId": "401826786114335723",
+      "id": 39012424,
+      "sourceId": "401826786114335675",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -10179,16 +10179,16 @@
       "opponent": "Samford",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 54,
-      "homeWinProbability": 0.988,
+      "homeWinProbability": 0.984,
       "period": 2,
       "clock": "7:08",
       "secondsRemaining": 428,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:34:18.000Z",
+      "wallclock": "2025-11-15T02:34:02.000Z",
       "playText": "Meleek Thomas made Free Throw.",
       "participants": [
         {
@@ -17511,6 +17511,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 40886677,
+      "sourceId": "401806374115406153",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 150,
+      "opponent": "Louisville",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 35,
+      "awayScore": 22,
+      "homeWinProbability": 0.92,
+      "period": 1,
+      "clock": "5:50",
+      "secondsRemaining": 350,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-04T00:56:51.000Z",
+      "playText": "Meleek Thomas made Free Throw.",
+      "participants": [
+        {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3416,
+          "name": "J'Vonne Hadley",
+          "team": "Louisville"
+        },
+        {
+          "id": 200182,
+          "name": "Mikel Brown Jr.",
+          "team": "Louisville"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 8193,
+          "name": "Isaac McKneely",
+          "team": "Louisville"
+        },
+        {
+          "id": 4066,
+          "name": "Ryan Conwell",
+          "team": "Louisville"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3428,
+          "name": "Aly Khalifa",
+          "team": "Louisville"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 210144,
+      "gameSourceId": "401806374",
+      "gameStartDate": "2025-12-04T00:15:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 40886678,
       "sourceId": "401806374115406227",
       "playType": "MadeFreeThrow",
@@ -17640,113 +17747,6 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-04T00:56:26.000Z",
-      "playText": "Meleek Thomas made Free Throw.",
-      "participants": [
-        {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3416,
-          "name": "J'Vonne Hadley",
-          "team": "Louisville"
-        },
-        {
-          "id": 200182,
-          "name": "Mikel Brown Jr.",
-          "team": "Louisville"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 8193,
-          "name": "Isaac McKneely",
-          "team": "Louisville"
-        },
-        {
-          "id": 4066,
-          "name": "Ryan Conwell",
-          "team": "Louisville"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3428,
-          "name": "Aly Khalifa",
-          "team": "Louisville"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 210144,
-      "gameSourceId": "401806374",
-      "gameStartDate": "2025-12-04T00:15:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 40886677,
-      "sourceId": "401806374115406153",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 150,
-      "opponent": "Louisville",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 35,
-      "awayScore": 22,
-      "homeWinProbability": 0.92,
-      "period": 1,
-      "clock": "5:50",
-      "secondsRemaining": 350,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-04T00:56:51.000Z",
       "playText": "Meleek Thomas made Free Throw.",
       "participants": [
         {
@@ -20416,113 +20416,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647241,
-      "sourceId": "401826789115791391",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 298,
-      "opponent": "Texas Tech",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 12,
-      "awayScore": 13,
-      "homeWinProbability": 0.586,
-      "period": 1,
-      "clock": "14:08",
-      "secondsRemaining": 848,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-13T17:15:29.000Z",
-      "playText": "Meleek Thomas made Free Throw.",
-      "participants": [
-        {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2239,
-          "name": "Donovan Atwell",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 202578,
-          "name": "Jaylen Petty",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 7581,
-          "name": "JT Toppin",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7323,
-          "name": "LeJuan Watts",
-          "team": "Texas Tech"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7593,
-          "name": "Christian Anderson",
-          "team": "Texas Tech"
-        }
-      ]
-    },
-    {
-      "gameId": 213897,
-      "gameSourceId": "401826789",
-      "gameStartDate": "2025-12-13T17:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41647237,
       "sourceId": "401826789115791328",
       "playType": "MadeFreeThrow",
@@ -20652,6 +20545,113 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-13T17:15:07.000Z",
+      "playText": "Meleek Thomas made Free Throw.",
+      "participants": [
+        {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2239,
+          "name": "Donovan Atwell",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 202578,
+          "name": "Jaylen Petty",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 7581,
+          "name": "JT Toppin",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7323,
+          "name": "LeJuan Watts",
+          "team": "Texas Tech"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7593,
+          "name": "Christian Anderson",
+          "team": "Texas Tech"
+        }
+      ]
+    },
+    {
+      "gameId": 213897,
+      "gameSourceId": "401826789",
+      "gameStartDate": "2025-12-13T17:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41647241,
+      "sourceId": "401826789115791391",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 298,
+      "opponent": "Texas Tech",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 12,
+      "awayScore": 13,
+      "homeWinProbability": 0.586,
+      "period": 1,
+      "clock": "14:08",
+      "secondsRemaining": 848,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-13T17:15:29.000Z",
       "playText": "Meleek Thomas made Free Throw.",
       "participants": [
         {
@@ -24744,8 +24744,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42758609,
-      "sourceId": "401826790116459728",
+      "id": 42758604,
+      "sourceId": "401826790116459343",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -24756,17 +24756,17 @@
       "opponent": "James Madison",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 7,
-      "homeWinProbability": 0.748,
+      "homeWinProbability": 0.705,
       "period": 1,
       "clock": "13:38",
       "secondsRemaining": 818,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T01:14:20.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2025-12-30T01:13:22.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -24851,8 +24851,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42758604,
-      "sourceId": "401826790116459343",
+      "id": 42758609,
+      "sourceId": "401826790116459728",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -24863,17 +24863,17 @@
       "opponent": "James Madison",
       "opponentConference": "Sun Belt",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 7,
-      "homeWinProbability": 0.705,
+      "homeWinProbability": 0.748,
       "period": 1,
       "clock": "13:38",
       "secondsRemaining": 818,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T01:13:22.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2025-12-30T01:14:20.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -26258,9 +26258,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42758844,
-      "sourceId": "401826790116477810",
-      "playType": "MadeFreeThrow",
+      "id": 42758840,
+      "sourceId": "401826790116477659",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -26276,11 +26276,11 @@
       "period": 2,
       "clock": "12:44",
       "secondsRemaining": 764,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-30T02:19:00.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-30T02:18:26.000Z",
+      "playText": "Meleek Thomas makes driving layup",
       "participants": [
         {
           "id": 198026,
@@ -26292,16 +26292,16 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 265
         }
       },
       "onFloor": [
@@ -26365,9 +26365,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42758840,
-      "sourceId": "401826790116477659",
-      "playType": "LayUpShot",
+      "id": 42758844,
+      "sourceId": "401826790116477810",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -26383,11 +26383,11 @@
       "period": 2,
       "clock": "12:44",
       "secondsRemaining": 764,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-30T02:18:26.000Z",
-      "playText": "Meleek Thomas makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-30T02:19:00.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 1",
       "participants": [
         {
           "id": 198026,
@@ -26399,16 +26399,16 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -40764,8 +40764,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45496079,
-      "sourceId": "401808206117994365",
+      "id": 45496077,
+      "sourceId": "401808206117994251",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -40777,16 +40777,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 83,
-      "homeWinProbability": 0.022,
+      "awayScore": 82,
+      "homeWinProbability": 0.058,
       "period": 2,
       "clock": "0:11",
       "secondsRemaining": 11,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T02:02:46.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-01-28T02:00:31.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -40871,8 +40871,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45496077,
-      "sourceId": "401808206117994251",
+      "id": 45496079,
+      "sourceId": "401808206117994365",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -40884,16 +40884,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 82,
-      "homeWinProbability": 0.058,
+      "awayScore": 83,
+      "homeWinProbability": 0.022,
       "period": 2,
       "clock": "0:11",
       "secondsRemaining": 11,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T02:00:31.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-01-28T02:02:46.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -44652,8 +44652,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785391,
-      "sourceId": "401808231118732549",
+      "id": 46785393,
+      "sourceId": "401808231118732551",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -44665,16 +44665,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 8,
-      "awayScore": 22,
+      "awayScore": 23,
       "homeWinProbability": null,
       "period": 1,
       "clock": "11:15",
       "secondsRemaining": 675,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:24:29.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 2",
+      "wallclock": "2026-02-11T02:24:42.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -44686,7 +44686,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44759,8 +44759,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785393,
-      "sourceId": "401808231118732551",
+      "id": 46785391,
+      "sourceId": "401808231118732549",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -44772,16 +44772,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 8,
-      "awayScore": 23,
+      "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
       "clock": "11:15",
       "secondsRemaining": 675,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:24:42.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-02-11T02:24:29.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -44793,7 +44793,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45187,8 +45187,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785484,
-      "sourceId": "401808231118733909",
+      "id": 46785476,
+      "sourceId": "401808231118733855",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -45200,16 +45200,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 38,
+      "awayScore": 37,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:35",
       "secondsRemaining": 95,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:46:22.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-02-11T02:45:49.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -45221,7 +45221,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45294,8 +45294,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785476,
-      "sourceId": "401808231118733855",
+      "id": 46785484,
+      "sourceId": "401808231118733909",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -45307,16 +45307,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 37,
+      "awayScore": 38,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:35",
       "secondsRemaining": 95,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:45:49.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 2",
+      "wallclock": "2026-02-11T02:46:22.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -45328,7 +45328,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46051,113 +46051,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785622,
-      "sourceId": "401808231118735728",
-      "playType": "LayUpShot",
-      "isHomeTeam": false,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 136,
-      "opponent": "LSU",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 37,
-      "awayScore": 66,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "10:07",
-      "secondsRemaining": 607,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T03:32:00.000Z",
-      "playText": "Meleek Thomas makes layup",
-      "participants": [
-        {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 112.8,
-          "y": 210
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 200254,
-          "name": "Mazi Mosley",
-          "team": "LSU"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 4311,
-          "name": "Marquel Sutton",
-          "team": "LSU"
-        },
-        {
-          "id": 3970,
-          "name": "Rashad King",
-          "team": "LSU"
-        },
-        {
-          "id": 4161,
-          "name": "Mike Nwoko",
-          "team": "LSU"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 200256,
-          "name": "Jalen Reece",
-          "team": "LSU"
-        },
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 211495,
-      "gameSourceId": "401808231",
-      "gameStartDate": "2026-02-11T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46785628,
       "sourceId": "401808231118735780",
       "playType": "MadeFreeThrow",
@@ -46265,8 +46158,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785676,
-      "sourceId": "401808231118736372",
+      "id": 46785622,
+      "sourceId": "401808231118735728",
+      "playType": "LayUpShot",
+      "isHomeTeam": false,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 136,
+      "opponent": "LSU",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 37,
+      "awayScore": 66,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "10:07",
+      "secondsRemaining": 607,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T03:32:00.000Z",
+      "playText": "Meleek Thomas makes layup",
+      "participants": [
+        {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 112.8,
+          "y": 210
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 200254,
+          "name": "Mazi Mosley",
+          "team": "LSU"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 4311,
+          "name": "Marquel Sutton",
+          "team": "LSU"
+        },
+        {
+          "id": 3970,
+          "name": "Rashad King",
+          "team": "LSU"
+        },
+        {
+          "id": 4161,
+          "name": "Mike Nwoko",
+          "team": "LSU"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 200256,
+          "name": "Jalen Reece",
+          "team": "LSU"
+        },
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 211495,
+      "gameSourceId": "401808231",
+      "gameStartDate": "2026-02-11T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46785677,
+      "sourceId": "401808231118736374",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -46278,7 +46278,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 75,
+      "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:53",
@@ -46287,7 +46287,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-02-11T03:47:42.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -46372,8 +46372,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46785677,
-      "sourceId": "401808231118736374",
+      "id": 46785676,
+      "sourceId": "401808231118736372",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -46385,7 +46385,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 76,
+      "awayScore": 75,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:53",
@@ -46394,7 +46394,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-02-11T03:47:42.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -47339,9 +47339,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47153936,
-      "sourceId": "401808233119021830",
-      "playType": "MadeFreeThrow",
+      "id": 47153932,
+      "sourceId": "401808233119021792",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -47357,11 +47357,11 @@
       "period": 2,
       "clock": "11:20",
       "secondsRemaining": 680,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-15T03:12:21.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-15T03:11:38.000Z",
+      "playText": "Meleek Thomas makes driving layup",
       "participants": [
         {
           "id": 198026,
@@ -47373,16 +47373,16 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 255
         }
       },
       "onFloor": [
@@ -47446,9 +47446,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47153932,
-      "sourceId": "401808233119021792",
-      "playType": "LayUpShot",
+      "id": 47153936,
+      "sourceId": "401808233119021830",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -47464,11 +47464,11 @@
       "period": 2,
       "clock": "11:20",
       "secondsRemaining": 680,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-15T03:11:38.000Z",
-      "playText": "Meleek Thomas makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-15T03:12:21.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 1",
       "participants": [
         {
           "id": 198026,
@@ -47480,16 +47480,16 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -50046,8 +50046,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474798,
-      "sourceId": "401808244119143249",
+      "id": 47474793,
+      "sourceId": "401808244119142999",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -50059,16 +50059,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 93,
-      "awayScore": 92,
-      "homeWinProbability": 0.88,
+      "awayScore": 91,
+      "homeWinProbability": 0.923,
       "period": 2,
       "clock": "0:25",
       "secondsRemaining": 25,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:04:27.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-02-19T02:03:35.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -50153,8 +50153,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474793,
-      "sourceId": "401808244119142999",
+      "id": 47474798,
+      "sourceId": "401808244119143249",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -50166,16 +50166,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 93,
-      "awayScore": 91,
-      "homeWinProbability": 0.923,
+      "awayScore": 92,
+      "homeWinProbability": 0.88,
       "period": 2,
       "clock": "0:25",
       "secondsRemaining": 25,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:03:35.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-02-19T02:04:27.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -52527,8 +52527,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48086925,
-      "sourceId": "401808259119514297",
+      "id": 48086923,
+      "sourceId": "401808259119514294",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -52539,7 +52539,7 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
@@ -52548,8 +52548,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T03:50:21.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-02-26T03:50:05.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -52634,8 +52634,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48086923,
-      "sourceId": "401808259119514294",
+      "id": 48086925,
+      "sourceId": "401808259119514297",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -52646,7 +52646,7 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
@@ -52655,8 +52655,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T03:50:05.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-02-26T03:50:21.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -55547,8 +55547,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48717776,
-      "sourceId": "401808273119868294",
+      "id": 48717775,
+      "sourceId": "401808273119868242",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -55559,7 +55559,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -55568,8 +55568,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T00:39:34.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-05T00:39:19.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -55654,8 +55654,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48717775,
-      "sourceId": "401808273119868242",
+      "id": 48717776,
+      "sourceId": "401808273119868294",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -55666,7 +55666,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -55675,8 +55675,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T00:39:19.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-05T00:39:34.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -57699,8 +57699,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48922525,
-      "sourceId": "401808285120007544",
+      "id": 48922524,
+      "sourceId": "401808285120007520",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -57712,7 +57712,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 46,
+      "awayScore": 45,
       "homeWinProbability": null,
       "period": 2,
       "clock": "14:39",
@@ -57720,8 +57720,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T18:22:17.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-07T18:21:59.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -57806,8 +57806,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48922524,
-      "sourceId": "401808285120007520",
+      "id": 48922525,
+      "sourceId": "401808285120007544",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -57819,7 +57819,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 45,
+      "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "14:39",
@@ -57827,8 +57827,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T18:21:59.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-07T18:22:17.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -58777,8 +58777,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48922621,
-      "sourceId": "401808285120011034",
+      "id": 48922622,
+      "sourceId": "401808285120011035",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -58790,7 +58790,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 64,
+      "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:18",
@@ -58798,8 +58798,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T18:51:23.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-07T18:51:41.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -58884,8 +58884,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48922622,
-      "sourceId": "401808285120011035",
+      "id": 48922621,
+      "sourceId": "401808285120011034",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -58897,7 +58897,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 65,
+      "awayScore": 64,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:18",
@@ -58905,8 +58905,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T18:51:41.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-07T18:51:23.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -59098,8 +59098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48922663,
-      "sourceId": "401808285120013966",
+      "id": 48922660,
+      "sourceId": "401808285120013277",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -59111,16 +59111,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 74,
-      "awayScore": 74,
+      "awayScore": 73,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:31",
       "secondsRemaining": 31,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T19:10:17.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-07T19:07:37.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -59132,7 +59132,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59205,8 +59205,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48922660,
-      "sourceId": "401808285120013277",
+      "id": 48922663,
+      "sourceId": "401808285120013966",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -59218,16 +59218,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 74,
-      "awayScore": 73,
+      "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:31",
       "secondsRemaining": 31,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T19:07:37.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 2",
+      "wallclock": "2026-03-07T19:10:17.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -59239,7 +59239,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -60937,8 +60937,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49409162,
-      "sourceId": "401851568120260502",
+      "id": 49409163,
+      "sourceId": "401851568120260503",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -60949,7 +60949,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 81,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -60958,8 +60958,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T04:22:45.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-14T04:23:08.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -61044,8 +61044,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49409163,
-      "sourceId": "401851568120260503",
+      "id": 49409162,
+      "sourceId": "401851568120260502",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -61056,7 +61056,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 80,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -61065,8 +61065,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T04:23:08.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-14T04:22:45.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -61813,8 +61813,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49454855,
-      "sourceId": "401851570120268480",
+      "id": 49454858,
+      "sourceId": "401851570120268490",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -61825,7 +61825,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 23,
       "homeWinProbability": null,
       "period": 1,
@@ -61834,8 +61834,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T20:16:30.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-14T20:16:50.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -61920,8 +61920,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49454858,
-      "sourceId": "401851570120268490",
+      "id": 49454855,
+      "sourceId": "401851570120268480",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -61932,7 +61932,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 23,
       "homeWinProbability": null,
       "period": 1,
@@ -61941,8 +61941,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T20:16:50.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-14T20:16:30.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -62891,8 +62891,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49455052,
-      "sourceId": "401851570120270174",
+      "id": 49455047,
+      "sourceId": "401851570120270157",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -62903,7 +62903,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 59,
       "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
@@ -62912,8 +62912,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T21:17:02.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-14T21:16:38.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -62998,8 +62998,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49455047,
-      "sourceId": "401851570120270157",
+      "id": 49455052,
+      "sourceId": "401851570120270174",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -63010,7 +63010,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 60,
       "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
@@ -63019,8 +63019,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T21:16:38.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-14T21:17:02.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -63644,8 +63644,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49455142,
-      "sourceId": "401851570120271023",
+      "id": 49455147,
+      "sourceId": "401851570120271029",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -63656,17 +63656,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:05",
       "secondsRemaining": 5,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T21:50:11.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 2",
+      "wallclock": "2026-03-14T21:50:40.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -63678,7 +63678,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -63751,8 +63751,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49455147,
-      "sourceId": "401851570120271029",
+      "id": 49455142,
+      "sourceId": "401851570120271023",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -63763,17 +63763,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:05",
       "secondsRemaining": 5,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T21:50:40.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-14T21:50:11.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -63785,7 +63785,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70235,113 +70235,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644582,
-      "sourceId": "401856569120389243",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": 4,
-      "opponentId": 11,
-      "opponent": "Arizona",
-      "opponentConference": "Big 12",
-      "opponentSeed": 1,
-      "homeScore": 28,
-      "awayScore": 19,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "9:50",
-      "secondsRemaining": 590,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-27T02:31:07.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198026,
-          "name": "Meleek Thomas"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 276,
-          "name": "Anthony Dell'Orso",
-          "team": "Arizona"
-        },
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 197978,
-          "name": "Dwayne Aristode",
-          "team": "Arizona"
-        },
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3103,
-          "name": "Malique Ewin",
-          "team": "Arkansas"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        }
-      ]
-    },
-    {
-      "gameId": 372595,
-      "gameSourceId": "401856569",
-      "gameStartDate": "2026-03-27T02:06:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49644577,
       "sourceId": "401856569120389194",
       "playType": "MadeFreeThrow",
@@ -70449,8 +70342,115 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644597,
-      "sourceId": "401856569120389348",
+      "id": 49644582,
+      "sourceId": "401856569120389243",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": 4,
+      "opponentId": 11,
+      "opponent": "Arizona",
+      "opponentConference": "Big 12",
+      "opponentSeed": 1,
+      "homeScore": 28,
+      "awayScore": 19,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "9:50",
+      "secondsRemaining": 590,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-27T02:31:07.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198026,
+          "name": "Meleek Thomas"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 276,
+          "name": "Anthony Dell'Orso",
+          "team": "Arizona"
+        },
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 197978,
+          "name": "Dwayne Aristode",
+          "team": "Arizona"
+        },
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3103,
+          "name": "Malique Ewin",
+          "team": "Arkansas"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        }
+      ]
+    },
+    {
+      "gameId": 372595,
+      "gameSourceId": "401856569",
+      "gameStartDate": "2026-03-27T02:06:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49644600,
+      "sourceId": "401856569120389358",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -70467,11 +70467,11 @@
       "period": 1,
       "clock": "8:20",
       "secondsRemaining": 500,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:35:21.000Z",
-      "playText": "Meleek Thomas makes free throw 1 of 2",
+      "wallclock": "2026-03-27T02:35:43.000Z",
+      "playText": "Meleek Thomas misses free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -70483,7 +70483,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70556,8 +70556,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644600,
-      "sourceId": "401856569120389358",
+      "id": 49644597,
+      "sourceId": "401856569120389348",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -70574,11 +70574,11 @@
       "period": 1,
       "clock": "8:20",
       "secondsRemaining": 500,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:35:43.000Z",
-      "playText": "Meleek Thomas misses free throw 2 of 2",
+      "wallclock": "2026-03-27T02:35:21.000Z",
+      "playText": "Meleek Thomas makes free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -70590,7 +70590,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71630,8 +71630,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644899,
-      "sourceId": "401856569120390538",
+      "id": 49644897,
+      "sourceId": "401856569120390536",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -71643,16 +71643,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 104,
-      "awayScore": 83,
+      "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:49",
       "secondsRemaining": 169,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T04:18:16.000Z",
-      "playText": "Meleek Thomas makes free throw 2 of 2",
+      "wallclock": "2026-03-27T04:18:01.000Z",
+      "playText": "Meleek Thomas misses free throw 1 of 2",
       "participants": [
         {
           "id": 198026,
@@ -71664,7 +71664,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71737,8 +71737,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644897,
-      "sourceId": "401856569120390536",
+      "id": 49644899,
+      "sourceId": "401856569120390538",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -71750,16 +71750,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 104,
-      "awayScore": 82,
+      "awayScore": 83,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:49",
       "secondsRemaining": 169,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T04:18:01.000Z",
-      "playText": "Meleek Thomas misses free throw 1 of 2",
+      "wallclock": "2026-03-27T04:18:16.000Z",
+      "playText": "Meleek Thomas makes free throw 2 of 2",
       "participants": [
         {
           "id": 198026,
@@ -71771,7 +71771,7 @@
           "id": 198026,
           "name": "Meleek Thomas"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71942,6 +71942,785 @@
           "team": "Arizona"
         }
       ]
+    }
+  ],
+  "gameLog": [
+    {
+      "date": "2025-11-04",
+      "opponent": "Southern",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 21,
+      "rebounds": 6,
+      "assists": 7,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 4,
+      "threeAttempted": 10,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2025-11-09",
+      "opponent": "Michigan State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 16,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 3,
+      "fgMade": 5,
+      "fgAttempted": 15,
+      "threeMade": 2,
+      "threeAttempted": 9,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2025-11-12",
+      "opponent": "Central Arkansas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 32,
+      "points": 17,
+      "rebounds": 6,
+      "assists": 6,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 17,
+      "threeMade": 4,
+      "threeAttempted": 13,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2025-11-15",
+      "opponent": "Samford",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 17,
+      "rebounds": 8,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 2,
+      "ftMade": 6,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2025-11-19",
+      "opponent": "Winthrop",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 26,
+      "rebounds": 3,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 10,
+      "fgAttempted": 20,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2025-11-22",
+      "opponent": "Jackson State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 18,
+      "points": 13,
+      "rebounds": 2,
+      "assists": 3,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 6,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 3,
+      "ftAttempted": 4,
+      "starter": false
+    },
+    {
+      "date": "2025-11-28",
+      "opponent": "Duke",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 13,
+      "rebounds": 1,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 15,
+      "threeMade": 3,
+      "threeAttempted": 10,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2025-12-04",
+      "opponent": "Louisville",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 17,
+      "rebounds": 5,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 10,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 8,
+      "ftAttempted": 9,
+      "starter": false
+    },
+    {
+      "date": "2025-12-06",
+      "opponent": "Fresno State",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 21,
+      "points": 12,
+      "rebounds": 1,
+      "assists": 0,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 4,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 7,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2025-12-13",
+      "opponent": "Texas Tech",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 24,
+      "points": 8,
+      "rebounds": 2,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": false
+    },
+    {
+      "date": "2025-12-17",
+      "opponent": "Queens University",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 3,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 1,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 7,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2025-12-20",
+      "opponent": "Houston",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 15,
+      "points": 7,
+      "rebounds": 1,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 2,
+      "fgMade": 3,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2025-12-30",
+      "opponent": "James Madison",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 27,
+      "points": 28,
+      "rebounds": 2,
+      "assists": 0,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 6,
+      "threeAttempted": 10,
+      "ftMade": 6,
+      "ftAttempted": 7,
+      "starter": false
+    },
+    {
+      "date": "2026-01-03",
+      "opponent": "Tennessee",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 18,
+      "rebounds": 3,
+      "assists": 1,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 6,
+      "fgAttempted": 13,
+      "threeMade": 3,
+      "threeAttempted": 4,
+      "ftMade": 3,
+      "ftAttempted": 3,
+      "starter": false
+    },
+    {
+      "date": "2026-01-08",
+      "opponent": "Ole Miss",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 25,
+      "points": 13,
+      "rebounds": 1,
+      "assists": 2,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 12,
+      "threeMade": 2,
+      "threeAttempted": 6,
+      "ftMade": 1,
+      "ftAttempted": 2,
+      "starter": false
+    },
+    {
+      "date": "2026-01-10",
+      "opponent": "Auburn",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 17,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 6,
+      "fgAttempted": 12,
+      "threeMade": 3,
+      "threeAttempted": 6,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": false
+    },
+    {
+      "date": "2026-01-15",
+      "opponent": "South Carolina",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 21,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 4,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 2,
+      "fgMade": 8,
+      "fgAttempted": 9,
+      "threeMade": 5,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2026-01-17",
+      "opponent": "Georgia",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 9,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 4,
+      "fgAttempted": 17,
+      "threeMade": 1,
+      "threeAttempted": 6,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": false
+    },
+    {
+      "date": "2026-01-21",
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 13,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-24",
+      "opponent": "LSU",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 14,
+      "rebounds": 2,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 6,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-01-28",
+      "opponent": "Oklahoma",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 31,
+      "points": 16,
+      "rebounds": 4,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 7,
+      "fgAttempted": 15,
+      "threeMade": 0,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-01-31",
+      "opponent": "Kentucky",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 10,
+      "rebounds": 0,
+      "assists": 1,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 3,
+      "fgMade": 4,
+      "fgAttempted": 8,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "Mississippi State",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 40,
+      "points": 17,
+      "rebounds": 3,
+      "assists": 3,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 7,
+      "fgAttempted": 17,
+      "threeMade": 3,
+      "threeAttempted": 8,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-02-11",
+      "opponent": "LSU",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 34,
+      "points": 20,
+      "rebounds": 4,
+      "assists": 1,
+      "steals": 3,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 0,
+      "fgMade": 6,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 7,
+      "ftAttempted": 9,
+      "starter": true
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "Auburn",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 36,
+      "points": 8,
+      "rebounds": 10,
+      "assists": 3,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 3,
+      "fgAttempted": 9,
+      "threeMade": 0,
+      "threeAttempted": 1,
+      "ftMade": 2,
+      "ftAttempted": 3,
+      "starter": true
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "Alabama",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 24,
+      "rebounds": 6,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 5,
+      "fgMade": 8,
+      "fgAttempted": 13,
+      "threeMade": 6,
+      "threeAttempted": 8,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "Missouri",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 14,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 9,
+      "threeMade": 2,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-02-26",
+      "opponent": "Texas A&M",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 29,
+      "points": 13,
+      "rebounds": 3,
+      "assists": 0,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "Florida",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 30,
+      "points": 10,
+      "rebounds": 2,
+      "assists": 1,
+      "steals": 3,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 4,
+      "fgMade": 5,
+      "fgAttempted": 13,
+      "threeMade": 0,
+      "threeAttempted": 2,
+      "ftMade": 0,
+      "ftAttempted": 1,
+      "starter": true
+    },
+    {
+      "date": "2026-03-05",
+      "opponent": "Texas",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 28,
+      "points": 13,
+      "rebounds": 2,
+      "assists": 1,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 4,
+      "fgMade": 4,
+      "fgAttempted": 9,
+      "threeMade": 1,
+      "threeAttempted": 3,
+      "ftMade": 4,
+      "ftAttempted": 4,
+      "starter": true
+    },
+    {
+      "date": "2026-03-07",
+      "opponent": "Missouri",
+      "isHome": false,
+      "seasonType": "regular",
+      "minutes": 45,
+      "points": 28,
+      "rebounds": 7,
+      "assists": 2,
+      "steals": 1,
+      "blocks": 1,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 9,
+      "fgAttempted": 22,
+      "threeMade": 5,
+      "threeAttempted": 6,
+      "ftMade": 5,
+      "ftAttempted": 6,
+      "starter": true
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "Ole Miss",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 45,
+      "points": 29,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 1,
+      "fgMade": 9,
+      "fgAttempted": 15,
+      "threeMade": 4,
+      "threeAttempted": 7,
+      "ftMade": 7,
+      "ftAttempted": 8,
+      "starter": true
+    },
+    {
+      "date": "2026-03-14",
+      "opponent": "Oklahoma",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 37,
+      "points": 8,
+      "rebounds": 2,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 3,
+      "fouls": 4,
+      "fgMade": 2,
+      "fgAttempted": 10,
+      "threeMade": 2,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-15",
+      "opponent": "Vanderbilt",
+      "isHome": true,
+      "seasonType": "regular",
+      "minutes": 26,
+      "points": 7,
+      "rebounds": 2,
+      "assists": 2,
+      "steals": 0,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 2,
+      "fgMade": 2,
+      "fgAttempted": 8,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-19",
+      "opponent": "Hawai'i",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 35,
+      "points": 21,
+      "rebounds": 8,
+      "assists": 5,
+      "steals": 2,
+      "blocks": 1,
+      "turnovers": 0,
+      "fouls": 1,
+      "fgMade": 9,
+      "fgAttempted": 16,
+      "threeMade": 1,
+      "threeAttempted": 5,
+      "ftMade": 2,
+      "ftAttempted": 2,
+      "starter": true
+    },
+    {
+      "date": "2026-03-22",
+      "opponent": "High Point",
+      "isHome": true,
+      "seasonType": "postseason",
+      "minutes": 35,
+      "points": 19,
+      "rebounds": 1,
+      "assists": 1,
+      "steals": 2,
+      "blocks": 0,
+      "turnovers": 1,
+      "fouls": 3,
+      "fgMade": 8,
+      "fgAttempted": 16,
+      "threeMade": 3,
+      "threeAttempted": 5,
+      "ftMade": 0,
+      "ftAttempted": 0,
+      "starter": true
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "Arizona",
+      "isHome": false,
+      "seasonType": "postseason",
+      "minutes": 38,
+      "points": 17,
+      "rebounds": 4,
+      "assists": 2,
+      "steals": 4,
+      "blocks": 0,
+      "turnovers": 2,
+      "fouls": 1,
+      "fgMade": 5,
+      "fgAttempted": 11,
+      "threeMade": 1,
+      "threeAttempted": 4,
+      "ftMade": 6,
+      "ftAttempted": 8,
+      "starter": true
     }
   ],
   "topLineups": [

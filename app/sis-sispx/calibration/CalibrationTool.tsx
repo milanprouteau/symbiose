@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
+
+const PAGE_SIZE = 50;
 import {
   DEFAULT_CONFIG, computeScores,
   type PlayerIntermediate, type ThresholdConfig, type TH, type PosGroup,
@@ -178,6 +180,7 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [yearFilter, setYearFilter] = useState("all");
   const [search, setSearch] = useState("");
+  const [page, setPage] = useState(0);
 
   const handleChange = useCallback(
     (path: string, field: "worse" | "better" | "pts", val: number) => {
@@ -244,6 +247,11 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
     });
   }, [filtered, sortKey, sortDir]);
 
+  useEffect(() => { setPage(0); }, [search, yearFilter, sortKey, sortDir]);
+
+  const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+  const pageRows = sorted.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+
   return (
     <div className={styles.page}>
       {/* Header */}
@@ -252,7 +260,7 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
           <h1 className={styles.title}>Calibration SIS / SIS-Px</h1>
           <p className={styles.subtitle}>
             {players.filter((p) => p.year === null).length} prospects 2026 ·{" "}
-            {players.filter((p) => p.year !== null).length} draftés 2022–2025
+            {players.filter((p) => p.year !== null).length} draftés 2005–2025
           </p>
         </div>
         <div className={styles.headerLinks}>
@@ -404,17 +412,18 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
               type="text" placeholder="Rechercher..."
               value={search} onChange={(e) => setSearch(e.target.value)}
             />
-            <div className={styles.yearTabs}>
-              <button className={`${styles.yearTab} ${yearFilter === "all" ? styles.active : ""}`}
-                onClick={() => setYearFilter("all")}>Tous</button>
+            <select
+              className={styles.yearSelect}
+              value={yearFilter}
+              onChange={(e) => setYearFilter(e.target.value)}
+            >
+              <option value="all">Toutes les années</option>
               {years.map((y) => (
-                <button key={y}
-                  className={`${styles.yearTab} ${yearFilter === String(y) ? styles.active : ""}`}
-                  onClick={() => setYearFilter(String(y))}>
-                  {y}
-                </button>
+                <option key={y} value={String(y)}>
+                  {y === 2026 ? "2026 (prospects)" : y}
+                </option>
               ))}
-            </div>
+            </select>
             <span className={styles.count}>{sorted.length} joueurs</span>
           </div>
 
@@ -454,14 +463,15 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
               </tr>
             </thead>
             <tbody>
-              {sorted.map(({ player: p, scores: s }, idx) => {
+              {pageRows.map(({ player: p, scores: s }, idx) => {
                 const key = `${p.id}-${p.year}`;
+                const globalIdx = page * PAGE_SIZE + idx;
                 const orig = defaultMap.get(key);
                 const sisDelta = orig ? s.sis.total - orig.sis : 0;
                 const pxDelta  = orig ? s.sisPx.total - orig.sisPx : 0;
                 return (
                   <tr key={key} className={styles.row}>
-                    <td className={`${styles.td} ${styles.rank}`}>{idx + 1}</td>
+                    <td className={`${styles.td} ${styles.rank}`}>{globalIdx + 1}</td>
                     <td className={styles.name}>
                       {p.name}
                       {p.year === null && <span className={styles.prospectBadge}>★</span>}
@@ -510,6 +520,28 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
               })}
             </tbody>
           </table>
+
+          {totalPages > 1 && (
+            <div className={styles.pagination}>
+              <button
+                className={styles.pageBtn}
+                onClick={() => setPage((p) => Math.max(0, p - 1))}
+                disabled={page === 0}
+              >
+                ←
+              </button>
+              <span className={styles.pageInfo}>
+                {page + 1} / {totalPages}
+              </span>
+              <button
+                className={styles.pageBtn}
+                onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
+                disabled={page === totalPages - 1}
+              >
+                →
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
