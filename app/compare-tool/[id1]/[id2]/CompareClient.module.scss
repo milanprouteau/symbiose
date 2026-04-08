@@ -298,6 +298,21 @@
   color: #888884;
 }
 
+/* ── Percentile badges ── */
+.pctBadge {
+  display: block;
+  font-size: 0.6rem;
+  letter-spacing: 0.03em;
+  margin-top: 1px;
+  font-weight: 400;
+}
+
+.pctElite { color: var(--color-primary-orange); }
+.pctGreat { color: #f5c842; }
+.pctGood  { color: rgba(255, 255, 255, 0.7); }
+.pctAvg   { color: #888884; }
+.pctWeak  { color: #555552; }
+
 /* ── Court / Shot chart section ── */
 
 .courtSection {

@@ -50,7 +50,7 @@ const SOCIAL_LINKS = [
   {
     label: "Deezer",
     href: "https://www.deezer.com/fr/show/3428922",
-    icon: <Image src="/logo/deezer.svg" alt="Deezer" width={18} height={18} unoptimized style={{ filter: "brightness(0) invert(1)", opacity: 0.45 }} />,
+    icon: <Image src="/LOGO/deezer.svg" alt="Deezer" width={18} height={18} unoptimized style={{ filter: "brightness(0) invert(1)", opacity: 0.45 }} />,
   },
 ];
 
@@ -69,7 +69,7 @@ export default function Footer() {
         <div className={styles.top}>
           <div className={styles.brand}>
             <Image
-              src="/logo/LOGO_maxi/LOGO-SYMBIOSE_maxi.svg"
+              src="/LOGO/LOGO_maxi/LOGO-SYMBIOSE_maxi.svg"
               alt="SymbioseBB"
               width={160}
               height={48}

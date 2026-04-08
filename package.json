@@ -8,6 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "fetch:ncaa-stats": "node scripts/fetch-ncaa-stats.mjs",
+    "enrich:draft-history": "node scripts/enrich-draft-history.mjs",
     "fetch:draft-classes": "node scripts/fetch-draft-class-bundles.mjs",
     "compute:draft-sis": "node scripts/compute-draft-sis.mjs"
   },

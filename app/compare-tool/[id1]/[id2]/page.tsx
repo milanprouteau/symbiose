@@ -3,6 +3,7 @@ import path from "path";
 import type { Metadata } from "next";
 import type { PlayerDataBundle } from "@/types/stats";
 import type { Shot } from "@/types/player";
+import type { PlayerPercentiles } from "@/lib/compareStats";
 import { teamDropShadow } from "@/lib/teamColors";
 import CompareClient from "./CompareClient";
 
@@ -15,6 +16,8 @@ type IndexEntry = {
 type PlayerWithShots = {
   bundle: PlayerDataBundle;
   shots: Shot[];
+  percentiles: PlayerPercentiles | null;
+  tsPlusRating: number | null;
 };
 
 async function loadPlayer(id: string): Promise<PlayerWithShots | null> {
@@ -31,7 +34,12 @@ async function loadPlayer(id: string): Promise<PlayerWithShots | null> {
       profile: data.profile ?? null,
     };
     const shots: Shot[] = data.shots ?? [];
-    return { bundle, shots };
+    return {
+      bundle,
+      shots,
+      percentiles: data.percentiles ?? null,
+      tsPlusRating: data.tsPlusRating ?? null,
+    };
   } catch (err) {
     console.error(`[loadPlayer] Failed to load player ${id}:`, err);
     return null;
@@ -105,6 +113,10 @@ export default async function CompareToolPage({ params }: Props) {
       allPlayers={allPlayers}
       shadow1={teamDropShadow(team1)}
       shadow2={teamDropShadow(team2)}
+      percentiles1={p1Data?.percentiles ?? null}
+      percentiles2={p2Data?.percentiles ?? null}
+      tsPlusRating1={p1Data?.tsPlusRating ?? null}
+      tsPlusRating2={p2Data?.tsPlusRating ?? null}
     />
   );
 }

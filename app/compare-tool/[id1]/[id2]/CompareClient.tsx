@@ -16,7 +16,7 @@ import styles from "./CompareClient.module.scss";
 import ScatterView from "./ScatterView";
 import ComparisonSlider, { COURT_TABS, type CourtTab } from "./ComparisonSlider";
 import PlayerSelect from "./PlayerSelect";
-import { buildStatSections } from "@/lib/compareStats";
+import { buildStatSections, type PlayerPercentiles } from "@/lib/compareStats";
 
 export const COMPARE_AXES: RadarAxis[] = [
   { key: "ppg",   label: "PPG",   max: 30 },
@@ -51,6 +51,10 @@ type Props = {
   profile2: PlayerProfile | null;
   shadow1?: string;
   shadow2?: string;
+  percentiles1?: PlayerPercentiles | null;
+  percentiles2?: PlayerPercentiles | null;
+  tsPlusRating1?: number | null;
+  tsPlusRating2?: number | null;
 };
 
 function calcPpp(ps: PlayerSeasonStats): number {
@@ -109,6 +113,22 @@ const accordionVariants = {
   exit:    { height: 0, opacity: 0, transition: { duration: 0.2,  ease: "easeInOut" as const } },
 };
 
+function getTopPct(rawPct: number | null | undefined, lowerIsBetter?: boolean): number | null {
+  if (rawPct == null) return null;
+  // rawPct = position in ascending sorted array (0 = lowest, 100 = highest)
+  // For higher-is-better: topPct = 100 - rawPct (high position = small top%)
+  // For lower-is-better: topPct = rawPct (low position = small top% = good)
+  return lowerIsBetter ? rawPct : 100 - rawPct;
+}
+
+function pctClass(topPct: number): string {
+  if (topPct <= 5)  return styles.pctElite;
+  if (topPct <= 15) return styles.pctGreat;
+  if (topPct <= 30) return styles.pctGood;
+  if (topPct <= 50) return styles.pctAvg;
+  return styles.pctWeak;
+}
+
 export default function CompareClient({
   player1,
   player2,
@@ -121,6 +141,10 @@ export default function CompareClient({
   profile2,
   shadow1,
   shadow2,
+  percentiles1,
+  percentiles2,
+  tsPlusRating1,
+  tsPlusRating2,
 }: Props) {
   const router = useRouter();
   const [sel1, setSel1] = useState(id1);
@@ -156,7 +180,12 @@ export default function CompareClient({
 
   const hasComparison = player1 && player2;
   const statSections = hasComparison
-    ? buildStatSections(player1.playerStats, player2.playerStats, profile1, profile2)
+    ? buildStatSections(
+        player1.playerStats, player2.playerStats,
+        profile1, profile2,
+        percentiles1, percentiles2,
+        tsPlusRating1, tsPlusRating2,
+      )
     : [];
 
   const p1Id = player1?.playerStats.athleteId;
@@ -334,17 +363,27 @@ export default function CompareClient({
                           initial="hidden"
                           animate="visible"
                         >
-                          {section.rows.map((row) => (
-                            <motion.tr key={row.label} variants={tableRowVariants} className={styles.dataRow}>
-                              <td className={`${styles.tdRight} ${row.better === 1 ? styles.better : styles.notBetter}`}>
-                                {row.v1}
-                              </td>
-                              <td className={styles.tdCenter}>{row.label}</td>
-                              <td className={`${styles.tdLeft} ${row.better === 2 ? styles.better : styles.notBetter}`}>
-                                {row.v2}
-                              </td>
-                            </motion.tr>
-                          ))}
+                          {section.rows.map((row) => {
+                            const top1 = row.statKey ? getTopPct(percentiles1?.[row.statKey], row.lowerIsBetter) : null;
+                            const top2 = row.statKey ? getTopPct(percentiles2?.[row.statKey], row.lowerIsBetter) : null;
+                            return (
+                              <motion.tr key={row.label} variants={tableRowVariants} className={styles.dataRow}>
+                                <td className={`${styles.tdRight} ${row.better === 1 ? styles.better : styles.notBetter}`}>
+                                  <span>{row.v1}</span>
+                                  {top1 != null && (
+                                    <span className={`${styles.pctBadge} ${pctClass(top1)}`}>(top {Math.max(1, top1)}%)</span>
+                                  )}
+                                </td>
+                                <td className={styles.tdCenter}>{row.label}</td>
+                                <td className={`${styles.tdLeft} ${row.better === 2 ? styles.better : styles.notBetter}`}>
+                                  <span>{row.v2}</span>
+                                  {top2 != null && (
+                                    <span className={`${styles.pctBadge} ${pctClass(top2)}`}>(top {Math.max(1, top2)}%)</span>
+                                  )}
+                                </td>
+                              </motion.tr>
+                            );
+                          })}
                         </motion.tbody>
                       </table>
                       {section.title === "Offensive" && (
