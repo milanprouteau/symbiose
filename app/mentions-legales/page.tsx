@@ -25,8 +25,10 @@ export default function MentionsLegales() {
       <section className={styles.section}>
         <h2 className={styles.heading}>Données personnelles</h2>
         <p>
-          Ce site ne collecte aucune donnée personnelle. Aucun cookie de traçage n&apos;est utilisé.
+          Ce site collecte des données de navigation anonymes via PostHog, sans cookie ni adresse IP.
           Les données statistiques affichées proviennent de sources publiques.
+          Pour plus de détails, consultez notre{" "}
+          <a href="/confidentialite" className={styles.link}>politique de confidentialité</a>.
         </p>
       </section>
 

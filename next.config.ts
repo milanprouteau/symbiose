@@ -16,14 +16,11 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Exclude large player bundle files (shots data) from serverless function tracing.
-  // These files are only read at build-time by scripts, not at runtime by Next.js pages.
-  // The lean pre-built JSON files (sis-intermediates.json, prospects-sis.json, draft-sis-all.json)
-  // are imported statically and are fine.
   outputFileTracingExcludes: {
-    "/**": [
-      "./data/players/**",
-    ],
+    "/**": ["./data/players/**"],
+  },
+  outputFileTracingIncludes: {
+    "/compare-tool/(.*)": ["./data/compare/**"],
   },
 };
 

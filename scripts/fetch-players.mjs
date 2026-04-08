@@ -241,19 +241,25 @@ async function main() {
         (r) => r.id === player.id
       );
 
+      // Read existing file to preserve manually-set fields the API doesn't return
+      const filePath = path.join(OUT_DIR, `${player.id}.json`);
+      const existingProfile = fs.existsSync(filePath)
+        ? (JSON.parse(fs.readFileSync(filePath, "utf-8"))?.profile ?? {})
+        : {};
+
       const profile = rosterEntry
         ? {
             jersey: rosterEntry.jersey ?? null,
             position: rosterEntry.position ?? null,
             height: rosterEntry.height ?? null,
-            weight: rosterEntry.weight ?? null,
+            weight: rosterEntry.weight ?? existingProfile.weight ?? null,
             hometown: rosterEntry.hometown
               ? {
                   city: rosterEntry.hometown.city ?? null,
                   state: rosterEntry.hometown.state ?? null,
                 }
               : null,
-            dateOfBirth: rosterEntry.dateOfBirth ?? null,
+            dateOfBirth: rosterEntry.dateOfBirth ?? existingProfile.dateOfBirth ?? null,
           }
         : null;
 
@@ -302,7 +308,6 @@ async function main() {
       };
 
       // Save individual file
-      const filePath = path.join(OUT_DIR, `${player.id}.json`);
       fs.writeFileSync(filePath, JSON.stringify(bundle, null, 2));
       console.log(`    ✅ Saved → ${path.relative(ROOT, filePath)} (${shots.length} shots)`);
 

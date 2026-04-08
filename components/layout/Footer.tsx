@@ -57,6 +57,7 @@ const SOCIAL_LINKS = [
 const NAV_LINKS = [
   { label: "symbiosebb.fr", href: "https://symbiosebb.fr/", external: true },
   { label: "Mentions légales", href: "/mentions-legales", external: false },
+  { label: "Confidentialité", href: "/confidentialite", external: false },
 ];
 
 export default function Footer() {

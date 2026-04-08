@@ -3,8 +3,6 @@ import path from "path";
 import type { Metadata } from "next";
 import type { PlayerDataBundle } from "@/types/stats";
 import type { Shot } from "@/types/player";
-import type { PlayRaw } from "@/lib/api";
-import { mapPlaysToShots } from "@/lib/mapShots";
 import { teamDropShadow } from "@/lib/teamColors";
 import CompareClient from "./CompareClient";
 
@@ -22,7 +20,7 @@ type PlayerWithShots = {
 async function loadPlayer(id: string): Promise<PlayerWithShots | null> {
   try {
     const raw = await fs.readFile(
-      path.join(process.cwd(), "data", "players", `${id}.json`),
+      path.join(process.cwd(), "data", "compare", `${id}.json`),
       "utf-8"
     );
     const data = JSON.parse(raw);
@@ -32,8 +30,7 @@ async function loadPlayer(id: string): Promise<PlayerWithShots | null> {
       teamStats: data.teamStats,
       profile: data.profile ?? null,
     };
-    const plays: PlayRaw[] = data.shots ?? [];
-    const shots = mapPlaysToShots(plays, Number(id));
+    const shots: Shot[] = data.shots ?? [];
     return { bundle, shots };
   } catch (err) {
     console.error(`[loadPlayer] Failed to load player ${id}:`, err);

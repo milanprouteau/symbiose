@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import NavigationLoaderWrapper from "@/components/layout/NavigationLoaderWrapper";
+import PostHogProvider from "@/components/PostHogProvider";
 import "./globals.scss";
 import styles from "./layout.module.scss";
 
@@ -14,11 +15,11 @@ const bowlby = Bowlby_One({
   display: "swap",
 });
 
-const alfabetHairline = localFont({
-  src: "./fonts/fonts.com-Alfabet_Hairline.woff2",
-  variable: "--font-alfabet-hairline",
+const alfabetRegular = localFont({
+  src: "./fonts/fonnts.com-Alfabet_Regular.woff2",
+  variable: "--font-alfabet-regular",
   display: "swap",
-  weight: "100",
+  weight: "400",
 });
 
 const alfabetSemiBold = localFont({
@@ -77,16 +78,18 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${bowlby.variable} ${alfabetHairline.variable} ${alfabetSemiBold.variable}`}
+      className={`${bowlby.variable} ${alfabetRegular.variable} ${alfabetSemiBold.variable}`}
     >
       <body className={styles.body}>
-        <a href="#main-content" className="skipLink">Aller au contenu</a>
-        <Header />
-        <main id="main-content" className={styles.main}>
-          <NavigationLoaderWrapper />
-          {children}
-        </main>
-        <Footer />
+        <PostHogProvider>
+          <a href="#main-content" className="skipLink">Aller au contenu</a>
+          <Header />
+          <main id="main-content" className={styles.main}>
+            <NavigationLoaderWrapper />
+            {children}
+          </main>
+          <Footer />
+        </PostHogProvider>
       </body>
     </html>
   );
