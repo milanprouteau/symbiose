@@ -2,8 +2,15 @@ import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://stats.symbiosebb.fr";
+
   return {
-    rules: { userAgent: "*", allow: "/" },
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/similar-profiles", "/sis-sispx", "/dashboard"],
+      },
+    ],
     sitemap: `${siteUrl}/sitemap.xml`,
   };
 }

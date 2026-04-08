@@ -27,7 +27,7 @@ export default function ComparePickerClient({ allPlayers }: Props) {
       <div className={styles.selectGrid}>
         <div className={styles.selectGroup}>
           <label className={styles.label}>
-            Player 1
+            Joueur 1
           </label>
           <select
             value={sel1}
@@ -48,7 +48,7 @@ export default function ComparePickerClient({ allPlayers }: Props) {
 
         <div className={styles.selectGroup}>
           <label className={styles.label}>
-            Player 2
+            Joueur 2
           </label>
           <select
             value={sel2}
