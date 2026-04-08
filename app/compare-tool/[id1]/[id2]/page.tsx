@@ -49,7 +49,7 @@ async function loadPlayer(id: string): Promise<PlayerWithShots | null> {
 async function loadIndex(): Promise<IndexEntry[]> {
   try {
     const raw = await fs.readFile(
-      path.join(process.cwd(), "data", "players", "index.json"),
+      path.join(process.cwd(), "data", "players-index.json"),
       "utf-8"
     );
     return JSON.parse(raw);

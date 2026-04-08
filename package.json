@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/build-sis-data.mjs && node scripts/build-compare-bundles.mjs",
+    "prebuild": "node scripts/build-sis-data.mjs && node scripts/build-compare-bundles.mjs && cp data/players/index.json data/players-index.json",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

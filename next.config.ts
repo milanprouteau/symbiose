@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
     "/**": ["./data/players/**"],
   },
   outputFileTracingIncludes: {
-    "/compare-tool/(.*)": ["./data/compare/**", "./data/players/index.json"],
+    "/compare-tool/(.*)": ["./data/compare/**", "./data/players-index.json"],
   },
 };
 

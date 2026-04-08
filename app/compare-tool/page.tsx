@@ -17,7 +17,7 @@ type IndexEntry = { id: number; name: string; team: string };
 async function loadIndex(): Promise<IndexEntry[]> {
   try {
     const raw = await fs.readFile(
-      path.join(process.cwd(), "data", "players", "index.json"),
+      path.join(process.cwd(), "data", "players-index.json"),
       "utf-8"
     );
     return JSON.parse(raw);
