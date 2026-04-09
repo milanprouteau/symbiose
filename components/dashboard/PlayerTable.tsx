@@ -37,7 +37,7 @@ const COL_WIDTH_MAP: Record<string, string> = {
 const COLUMNS: { key: SortKey; label: string; w: string }[] = [
   { key: "name",     label: "Joueur",  w: "w44" },
   { key: "position", label: "Pos",     w: "w12" },
-  { key: "team",     label: "Équipe",    w: "w28" },
+  { key: "team",     label: "Équipe",  w: "w28" },
   { key: "games",    label: "MJ",      w: "w12" },
   { key: "ppg",      label: "PPG",     w: "w14" },
   { key: "rpg",      label: "RPG",     w: "w14" },

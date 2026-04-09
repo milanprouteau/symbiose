@@ -23,6 +23,7 @@
   cursor: pointer;
   user-select: none;
   transition: color 0.2s;
+  white-space: nowrap;
 
   &:hover {
     color: var(--color-primary-orange);
@@ -39,6 +40,7 @@
   user-select: none;
   transition: color 0.2s;
   color: #888884;
+  white-space: nowrap;
 
   &:hover {
     color: var(--color-primary-orange);

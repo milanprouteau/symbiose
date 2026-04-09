@@ -12,7 +12,7 @@ export default function ScatterView({ shots, color }: { shots: Shot[]; color: st
       {shots.map((shot) => (
         <ScatterChart key={shot.id} shot={shot} scaleX={scaleX} scaleY={scaleY} color={color} />
       ))}
-      <text x="254" y="22" textAnchor="middle" fill="#888" fontSize="10" fontFamily="var(--font-heading)">
+      <text x="476" y="22" textAnchor="end" fill={color} fontSize="10" fontFamily="var(--font-heading)">
         {made}/{shots.length} ({shots.length > 0 ? Math.round((made / shots.length) * 100) : 0}%)
       </text>
     </svg>

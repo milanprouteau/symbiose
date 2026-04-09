@@ -57,7 +57,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 
 /* ── Player profile row ── */
@@ -67,7 +67,6 @@
   align-items: flex-start;
   justify-content: center;
   gap: 1.5rem;
-  padding: 1.5rem 0;
 }
 
 @media (max-width: 640px) {

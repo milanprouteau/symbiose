@@ -202,12 +202,6 @@ export default function CompareClient({
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>
-        {hasComparison
-          ? `${player1!.playerStats.name} vs ${player2!.playerStats.name}`
-          : "Comparatif joueurs"}
-      </h1>
-
       <div className={styles.selectGrid}>
         <PlayerSelect players={allPlayers} value={sel1} onChange={handleSel1} label="Joueur 1" excludeId={sel2} />
         <PlayerSelect players={allPlayers} value={sel2} onChange={handleSel2} label="Joueur 2" excludeId={sel1} />

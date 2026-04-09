@@ -4,7 +4,7 @@ import { useState } from "react";
 import type { Player } from "@/types/player";
 import type { StatRanking } from "@/lib/playerRankings";
 import type { LineupEntry } from "@/types/stats";
-import { findSimilarPlayers } from "@/lib/similarPlayers";
+import { findSimilarPlayers, distanceToScore } from "@/lib/similarPlayers";
 import LineupAccordion from "./LineupAccordion";
 import StatCounter from "@/components/ui/StatCounter";
 import styles from "./Overview.module.scss";
@@ -197,6 +197,21 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                 <span>{sp.fieldGoalsPct}% FG</span>
                 <span>{sp.usage}% Usage</span>
               </div>
+              {(() => {
+                const score = distanceToScore(sp.distance);
+                const color = score >= 80 ? "var(--color-primary-orange)"
+                            : score >= 65 ? "#f5c842"
+                            : score >= 50 ? "rgba(255,255,255,0.8)"
+                            : "#888884";
+                return (
+                  <div className={styles.similarBarWrapper}>
+                    <div className={styles.similarBar}>
+                      <div className={styles.similarBarFill} style={{ width: `${score}%`, background: color }} />
+                    </div>
+                    <span className={styles.similarScore} style={{ color }}>{score}%</span>
+                  </div>
+                );
+              })()}
             </div>
           ))}
         </div>
