@@ -9,7 +9,7 @@
 }
 
 .headerRow {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .rankHeader {
@@ -17,7 +17,7 @@
   padding: 0.5rem 0.5rem 0.5rem 0;
   font-family: var(--font-heading);
   font-size: 10px;
-  color: #888884;
+  color: var(--color-text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   cursor: pointer;
@@ -39,7 +39,7 @@
   cursor: pointer;
   user-select: none;
   transition: color 0.2s;
-  color: #888884;
+  color: var(--color-text-secondary);
   white-space: nowrap;
 
   &:hover {
@@ -52,11 +52,11 @@
 }
 
 .bodyRow {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--color-border-subtle);
   transition: background-color 0.2s;
 
   &:hover {
-    background-color: #252523;
+    background-color: var(--color-surface);
   }
 }
 
@@ -65,6 +65,7 @@
   font-family: var(--font-display);
   font-size: 0.75rem;
   color: var(--color-primary-yellow);
+  text-shadow: var(--yellow-text-shadow);
 }
 
 .cell {
@@ -91,3 +92,17 @@
 .w12 { width: 3rem; }
 .w28 { width: 7rem; }
 .w14 { width: 3.5rem; }
+
+/* Badge profil NBA dans la colonne nom */
+.profileBadge {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: var(--font-heading);
+  font-size: 0.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 99px;
+  border: 1px solid;
+  width: fit-content;
+}

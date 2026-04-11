@@ -10,7 +10,7 @@
   font-size: 1.125rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888884;
+  color: var(--color-text-secondary);
   margin-bottom: 2rem;
 }
 
@@ -36,16 +36,16 @@
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888884;
+  color: var(--color-text-secondary);
 }
 
 .select {
-  background-color: #2a2a28;
-  color: white;
+  background-color: var(--color-surface-high);
+  color: var(--color-text);
   font-size: 0.875rem;
   border-radius: 0.5rem;
   padding: 0.5rem 0.75rem;
-  border: 1px solid #333;
+  border: 1px solid var(--color-border);
   font-family: var(--font-heading);
   outline: none;
 
@@ -117,7 +117,7 @@
 .profileMeta {
   font-family: var(--font-heading);
   font-size: 0.65rem;
-  color: #888884;
+  color: var(--color-text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -126,10 +126,10 @@
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 800;
-  color: #444;
+  color: var(--color-text-muted);
   text-transform: uppercase;
   flex-shrink: 0;
-  margin-top: 60px; /* align with center of photo (photo height ≈ 140px) */
+  margin-top: 60px;
 }
 
 /* ── Radar ── */
@@ -152,8 +152,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.55rem 0.75rem;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-subtle);
   border-radius: 6px;
   cursor: pointer;
   text-align: left;
@@ -161,7 +161,7 @@
   user-select: none;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.07);
+    background: var(--color-surface-raised);
   }
 }
 
@@ -176,12 +176,12 @@
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888884;
+  color: var(--color-text-secondary);
 }
 
 .sectionChevron {
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--color-text-secondary);
   transition: transform 0.2s ease;
 }
 
@@ -194,8 +194,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--color-background);
+  border: 1px solid var(--color-border-subtle);
   border-top: none;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -208,7 +208,7 @@
     left: 0;
     right: 0;
     height: 36px;
-    background: linear-gradient(to bottom, transparent, rgba(26, 29, 33, 0.85));
+    background: linear-gradient(to bottom, transparent, var(--color-surface-fade));
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     pointer-events: none;
@@ -224,12 +224,12 @@
 }
 
 .tableHeaderRow {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--color-border);
 
   th {
     position: sticky;
     top: 0;
-    background: #1a1d21;
+    background: var(--color-surface-raised);
     z-index: 10;
   }
 }
@@ -246,7 +246,7 @@
 .thStat {
   padding: 0.5rem 0;
   text-align: center;
-  color: #888884;
+  color: var(--color-text-secondary);
   text-transform: uppercase;
   font-size: 0.65rem;
   letter-spacing: 0.05em;
@@ -263,11 +263,11 @@
 }
 
 .dataRow {
-  border-bottom: 1px solid #2a2a28;
+  border-bottom: 1px solid var(--color-border-subtle);
   transition: background 0.15s;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: var(--color-surface);
   }
 }
 
@@ -279,7 +279,7 @@
 .tdCenter {
   padding: 0.5rem 0;
   text-align: center;
-  color: #666;
+  color: var(--color-text-muted);
   font-size: 0.75rem;
 }
 
@@ -289,12 +289,12 @@
 }
 
 .better {
-  color: white;
+  color: var(--color-text);
   font-weight: 600;
 }
 
 .notBetter {
-  color: #888884;
+  color: var(--color-text-secondary);
 }
 
 /* ── Percentile badges ── */
@@ -308,9 +308,9 @@
 
 .pctElite { color: var(--color-primary-orange); }
 .pctGreat { color: #f5c842; }
-.pctGood  { color: rgba(255, 255, 255, 0.7); }
-.pctAvg   { color: #888884; }
-.pctWeak  { color: #555552; }
+.pctGood  { color: var(--color-text); }
+.pctAvg   { color: var(--color-text-secondary); }
+.pctWeak  { color: var(--color-text-muted); }
 
 /* ── Court / Shot chart section ── */
 
@@ -322,7 +322,7 @@
 .courtTabBar {
   display: flex;
   gap: 0.25rem;
-  background-color: #2a2a28;
+  background-color: var(--color-surface-high);
   border-radius: 0.5rem;
   padding: 0.25rem;
   width: fit-content;
@@ -338,16 +338,16 @@
   border: none;
   cursor: pointer;
   background: none;
-  color: #888884;
+  color: var(--color-text-secondary);
   transition: color 0.15s;
 
   &:hover {
-    color: white;
+    color: var(--color-text);
   }
 }
 
 .courtTabActive {
-  color: white;
+  color: var(--color-text);
 }
 
 .courtTabIndicator {
@@ -375,7 +375,8 @@
 }
 
 .courtPanel {
-  background: #1a1d21;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-subtle);
   border-radius: 12px;
   padding: 0.75rem;
   display: flex;
@@ -411,7 +412,7 @@
   width: 100%;
   border-radius: 12px;
   overflow: hidden;
-  background: #1a1d21;
+  background: var(--color-surface);
   user-select: none;
 }
 
@@ -448,7 +449,7 @@
   top: 0;
   bottom: 0;
   width: 3px;
-  background: white;
+  background: var(--color-text);
   transform: translateX(-50%);
   pointer-events: none;
   z-index: 2;
@@ -474,7 +475,7 @@
 
 .emptyState {
   text-align: center;
-  color: #888884;
+  color: var(--color-text-secondary);
   font-family: var(--font-heading);
   padding: 5rem 0;
 }

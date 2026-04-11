@@ -74,7 +74,7 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
               key={pct}
               points={pts}
               fill="none"
-              stroke="#333"
+              stroke="var(--color-border)"
               strokeWidth={0.5}
             />
           );
@@ -92,7 +92,7 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
                 y1={cy}
                 x2={end.x}
                 y2={end.y}
-                stroke="#444"
+                stroke="var(--color-border)"
                 strokeWidth={0.5}
               />
               <text
@@ -100,7 +100,7 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
                 y={labelPos.y}
                 textAnchor="middle"
                 dominantBaseline="middle"
-                fill="#888884"
+                fill="var(--color-text-secondary)"
                 fontSize={10}
                 fontFamily="var(--font-alfabet-semibold), sans-serif"
               >
@@ -154,7 +154,7 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
           const ty = tooltip.y - th - 8;
           return (
             <g style={{ pointerEvents: "none" }}>
-              <rect x={tx} y={ty} width={tw} height={th} rx={4} fill="#1a1d21" stroke={tooltip.color} strokeWidth={1} />
+              <rect x={tx} y={ty} width={tw} height={th} rx={4} fill="var(--color-surface-raised)" stroke={tooltip.color} strokeWidth={1} />
               <text
                 x={tx + tw / 2}
                 y={ty + th / 2}

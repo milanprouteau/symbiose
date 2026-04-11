@@ -1,6 +1,7 @@
 import type { PlayerDataBundle } from "@/types/stats";
 import type { Player } from "@/types/player";
 import { formatHeight, formatWeight } from "@/lib/formatters";
+import { getTeamAbbreviation } from "@/lib/teamColors";
 
 /** Build a team logo slug from the team name */
 function teamSlug(team: string): string {
@@ -34,6 +35,7 @@ export function buildPlayer(bundle: PlayerDataBundle): Player {
     jersey: p?.jersey ?? null,
     position: p?.position ?? s.position,
     team: s.team,
+    teamAbbreviation: getTeamAbbreviation(s.team),
     conference: s.conference,
     athleteId: s.athleteId,
 

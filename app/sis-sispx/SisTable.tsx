@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import styles from "./page.module.scss";
 
 const PAGE_SIZE = 50;
@@ -78,8 +78,6 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
     return data;
   }, [rows, sortKey, sortDir, search, yearFilter]);
 
-  // Reset to page 0 whenever filters/sort change
-  useEffect(() => { setPage(0); }, [search, yearFilter, sortKey, sortDir]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const pageRows = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
@@ -91,6 +89,7 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
       setSortKey(key);
       setSortDir("desc");
     }
+    setPage(0);
   }
 
   return (
@@ -101,12 +100,12 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
           type="text"
           placeholder="Rechercher..."
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => { setSearch(e.target.value); setPage(0); }}
         />
         <select
           className={styles.yearSelect}
           value={yearFilter}
-          onChange={(e) => setYearFilter(e.target.value)}
+          onChange={(e) => { setYearFilter(e.target.value); setPage(0); }}
         >
           <option value="all">Toutes les années</option>
           {years.map((y) => (

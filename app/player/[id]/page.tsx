@@ -109,24 +109,65 @@ export default async function PlayerPage({ params }: Props) {
   // Build centralized player model
   const player = buildPlayer(stats);
 
-  // SIS / SIS-Px
+  // SIS (formule actuelle, conservée)
   const sisResult = calculateSIS(stats);
-  const sis   = sisResult?.total   ?? null;
-  const sisPx = sisResult?.totalPx ?? null;
-  const sisBreakdown   = sisResult ? {
+  const sis = sisResult?.total ?? null;
+  const sisBreakdown = sisResult ? {
     offensiveEfficiency: sisResult.offensiveEfficiency,
     defensiveImpact:     sisResult.defensiveImpact,
     advancedEfficiency:  sisResult.advancedEfficiency,
     hustle:              sisResult.hustle,
     systemWeight:        sisResult.systemWeight,
   } : null;
-  const sisPxBreakdown = sisResult ? {
-    pxPhysical:           sisResult.pxPhysical,
-    pxEfficiency:         sisResult.pxEfficiency,
-    pxDefensiveMobility:  sisResult.pxDefensiveMobility,
-    pxProjectedRole:      sisResult.pxProjectedRole,
-    pxNBAAdaptability:    sisResult.pxNBAAdaptability,
-  } : null;
+
+  // SIS-Px ML — score basé sur le modèle XGBoost
+  type MLSisPxEntry = {
+    name: string; sisPx: number; posGroup: string;
+    sisPx_pts: number; sisPx_reb: number; sisPx_ast: number; sisPx_mpg: number;
+    sisPx_stl?: number; sisPx_blk?: number; sisPx_fg?: number;
+    proj_pts: number; proj_reb: number; proj_ast: number; proj_mpg: number;
+    proj_stl?: number; proj_blk?: number; proj_fg_pct?: number;
+  };
+  type NBAProfileEntry = {
+    name: string; nba_profile: string; profile_confidence: number;
+    proba_nba_ready: number; proba_late_bloomer: number; proba_role_player: number;
+  };
+
+  let sisPx: number | null = null;
+  let sisPxBreakdown: {
+    sisPx_pts: number; sisPx_reb: number; sisPx_ast: number; sisPx_mpg: number;
+    sisPx_stl?: number; sisPx_blk?: number; sisPx_fg?: number;
+    proj_pts: number; proj_reb: number; proj_ast: number; proj_mpg: number;
+    proj_stl?: number; proj_blk?: number; proj_fg_pct?: number;
+    posGroup: string;
+  } | null = null;
+  let nbaProfile: NBAProfileEntry | null = null;
+
+  try {
+    const mlRaw = await fs.readFile(path.join(process.cwd(), "data", "sispx_ml.json"), "utf-8");
+    const mlData: MLSisPxEntry[] = JSON.parse(mlRaw);
+    const normName = (n: string) => n.replace(/\s+(Jr\.|Sr\.|II|III|IV)$/i, "").trim();
+    const entry = mlData.find((e) => e.name === player.name || normName(e.name) === normName(player.name));
+    if (entry) {
+      sisPx = entry.sisPx;
+      sisPxBreakdown = {
+        sisPx_pts: entry.sisPx_pts, sisPx_reb: entry.sisPx_reb,
+        sisPx_ast: entry.sisPx_ast, sisPx_mpg: entry.sisPx_mpg,
+        sisPx_stl: entry.sisPx_stl, sisPx_blk: entry.sisPx_blk, sisPx_fg: entry.sisPx_fg,
+        proj_pts: entry.proj_pts,   proj_reb: entry.proj_reb,
+        proj_ast: entry.proj_ast,   proj_mpg: entry.proj_mpg,
+        proj_stl: entry.proj_stl,   proj_blk: entry.proj_blk, proj_fg_pct: entry.proj_fg_pct,
+        posGroup: entry.posGroup,
+      };
+    }
+  } catch { /* ML data not available */ }
+
+  try {
+    const profileRaw = await fs.readFile(path.join(process.cwd(), "data", "profiles_prospects.json"), "utf-8");
+    const profileData: NBAProfileEntry[] = JSON.parse(profileRaw);
+    const normName2 = (n: string) => n.replace(/\s+(Jr\.|Sr\.|II|III|IV)$/i, "").trim();
+    nbaProfile = profileData.find((e) => e.name === player.name || normName2(e.name) === normName2(player.name)) ?? null;
+  } catch { /* profile data not available */ }
 
   const plays: PlayRaw[] = data.shots ?? [];
   const shots = mapPlaysToShots(plays, Number(id));
@@ -169,6 +210,7 @@ export default async function PlayerPage({ params }: Props) {
       <PlayerHero
         player={player}
         photoShadow={photoShadow}
+        nbaProfile={nbaProfile}
         allPlayers={allPlayerStats.map((ps) => ({
           id: ps.athleteId,
           name: ps.name,
@@ -176,7 +218,7 @@ export default async function PlayerPage({ params }: Props) {
         }))}
       />
       <PlayerTabs
-        overview={<Overview player={player} rankings={playerRankings} topLineups={stats.topLineups ?? []} sis={sis} sisPx={sisPx} sisBreakdown={sisBreakdown} sisPxBreakdown={sisPxBreakdown} />}
+        overview={<Overview player={player} rankings={playerRankings} topLineups={stats.topLineups ?? []} sis={sis} sisPx={sisPx} sisBreakdown={sisBreakdown} sisPxBreakdown={sisPxBreakdown} nbaProfile={nbaProfile} />}
         offensive={<ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />}
         defensive={<Defensive player={player} radarPlayer={radarPlayer} opponentFG={opponentFG} />}
         gameLog={<GameLog gameLog={data.gameLog ?? []} />}

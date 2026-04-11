@@ -7,8 +7,8 @@
 .nav {
   display: flex;
   gap: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgb(26, 29, 33);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface-raised);
   border-radius: 14px 14px 0 0;
   overflow: hidden;
 
@@ -29,7 +29,7 @@
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--color-text-secondary);
   background: transparent;
   border: none;
   cursor: pointer;
@@ -37,8 +37,8 @@
   position: relative;
 
   &:hover {
-    color: rgba(255, 255, 255, 0.7);
-    background: rgba(255, 255, 255, 0.03);
+    color: var(--color-text);
+    background: var(--color-surface-high);
   }
 }
 
@@ -57,7 +57,7 @@
 }
 
 .content {
-  background: rgb(26, 29, 33);
+  background: var(--color-surface-raised);
   border-radius: 0 0 14px 14px;
   min-height: 200px;
 }

@@ -4,7 +4,22 @@
 }
 
 .skeleton {
-  background: linear-gradient(90deg, #242629 25%, #2e3036 50%, #242629 75%);
+  background: linear-gradient(
+    90deg,
+    var(--skeleton-base) 25%,
+    var(--skeleton-shine) 50%,
+    var(--skeleton-base) 75%
+  );
   background-size: 200% 100%;
   animation: shimmer 1.6s infinite linear;
+}
+
+:root {
+  --skeleton-base:  #242629;
+  --skeleton-shine: #2e3036;
+}
+
+:root[data-theme="light"] {
+  --skeleton-base:  #e8dfa8;
+  --skeleton-shine: #f0e9c0;
 }

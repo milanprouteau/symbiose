@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import styles from "./PlayerTable.module.scss";
 
@@ -22,10 +22,35 @@ export type PlayerEntry = {
   mockDraftPick?: number;
   sis?: number | null;
   sisPx?: number | null;
+  nbaProfile?: { label: string; confidence: number } | null;
 };
 
 type SortKey = keyof PlayerEntry;
 type SortDir = "asc" | "desc";
+
+const PROFILE_LABELS: Record<string, string> = {
+  NBA_READY:    "NBA Ready",
+  LATE_BLOOMER: "Late Bloomer",
+  ROLE_PLAYER:  "Role Player",
+};
+
+const BADGE_STYLES: Record<string, React.CSSProperties> = {
+  NBA_READY: {
+    color: "var(--color-primary-orange)",
+    borderColor: "rgba(255,108,34,0.35)",
+    background: "rgba(255,108,34,0.07)",
+  },
+  LATE_BLOOMER: {
+    color: "var(--color-primary-yellow)",
+    borderColor: "rgba(255,214,0,0.3)",
+    background: "rgba(255,214,0,0.06)",
+  },
+  ROLE_PLAYER: {
+    color: "var(--color-text-muted)",
+    borderColor: "var(--color-border)",
+    background: "transparent",
+  },
+};
 
 const COL_WIDTH_MAP: Record<string, string> = {
   "w-44": "w44",
@@ -47,8 +72,8 @@ const COLUMNS: { key: SortKey; label: string; w: string }[] = [
   { key: "threePct", label: "3P%",     w: "w14" },
   { key: "ftPct",    label: "FT%",     w: "w14" },
   { key: "usage",    label: "USG%",    w: "w14" },
-  { key: "sis",      label: "SIS",     w: "w14" },
-  { key: "sisPx",   label: "SIS-Px",  w: "w14" },
+  { key: "sis",      label: "SIS",        w: "w14" },
+  { key: "sisPx",   label: "SIS-Px", w: "w14" },
 ];
 
 export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
@@ -142,14 +167,18 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
               {COLUMNS.map((col) => {
                 const val = p[col.key];
                 if (col.key === "name") {
+                  const profile = p.nbaProfile;
+                  const badgeStyle = profile ? BADGE_STYLES[profile.label] : undefined;
                   return (
                     <td key={col.key} className={`${styles.cell} ${styles[col.w]}`}>
-                      <Link
-                        href={`/player/${p.id}`}
-                        className={styles.nameLink}
-                      >
+                      <Link href={`/player/${p.id}`} className={styles.nameLink}>
                         {val as string}
                       </Link>
+                      {profile && badgeStyle && (
+                        <span className={styles.profileBadge} style={badgeStyle}>
+                          {PROFILE_LABELS[profile.label] ?? profile.label}
+                        </span>
+                      )}
                     </td>
                   );
                 }
@@ -159,8 +188,8 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                     score == null ? undefined
                     : score >= 75 ? "var(--color-primary-orange)"
                     : score >= 65 ? "var(--color-primary-yellow)"
-                    : score >= 55 ? "var(--color-primary-white)"
-                    : "rgba(255,255,255,0.4)";
+                    : score >= 55 ? "var(--color-text)"
+                    : "var(--color-text-muted)";
                   return (
                     <td key={col.key} className={`${styles.cell} ${styles[col.w]}`} style={{ color, fontWeight: score != null && score >= 65 ? 600 : undefined }}>
                       {score != null ? score.toFixed(1) : "—"}
@@ -169,24 +198,26 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                 }
                 if (col.key === "sisPx") {
                   const score = p.sisPx;
+                  // ML range réel : ~23–71, médiane ~50
                   const color =
                     score == null ? undefined
-                    : score >= 80 ? "var(--color-primary-orange)"
-                    : score >= 70 ? "var(--color-primary-yellow)"
-                    : score >= 60 ? "var(--color-primary-white)"
-                    : "rgba(255,255,255,0.4)";
+                    : score >= 60 ? "var(--color-primary-orange)"
+                    : score >= 50 ? "var(--color-primary-yellow)"
+                    : score >= 40 ? "var(--color-text)"
+                    : "var(--color-text-muted)";
                   return (
-                    <td key={col.key} className={`${styles.cell} ${styles[col.w]}`} style={{ color, fontWeight: score != null && score >= 70 ? 600 : undefined }}>
+                    <td key={col.key} className={`${styles.cell} ${styles[col.w]}`} style={{ color, fontWeight: score != null && score >= 50 ? 600 : undefined }}>
                       {score != null ? score.toFixed(1) : "—"}
                     </td>
                   );
                 }
+                const display = typeof val === "object" ? null : val;
                 return (
                   <td
                     key={col.key}
                     className={`${styles.cell} ${styles[col.w]}`}
                   >
-                    {val}
+                    {display}
                   </td>
                 );
               })}

@@ -10,7 +10,7 @@
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888884;
+  color: var(--color-text-secondary);
 }
 
 .svg {
@@ -24,7 +24,7 @@
   gap: 0.5rem;
   font-size: 10px;
   font-family: var(--font-heading);
-  color: #888884;
+  color: var(--color-text-secondary);
 }
 
 .gradientBar {
@@ -37,4 +37,5 @@
 .fgNote {
   margin-left: 0.5rem;
   color: var(--color-primary-yellow);
+  text-shadow: var(--yellow-text-shadow);
 }

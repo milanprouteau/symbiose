@@ -106,11 +106,11 @@ function extractIntermediate(bundle, year, overall) {
   };
 }
 
-// Calcul SIS/SIS-Px (Option A) pour les prospects 2026
+// Calcul SIS/SIS-Px — seuils recalibrés sur percentiles p10/p90 NCAA réels
 const DEF = {
-  G:    { wsDef:[1,12], stl:[0.6,3.0], blk:[0.0,0.8], drb:[3,12]  },
-  WING: { wsDef:[2,14], stl:[0.5,2.4], blk:[0.0,2.0], drb:[5,17]  },
-  BIG:  { wsDef:[3,17], stl:[0.3,1.6], blk:[0.3,4.0], drb:[8,26]  },
+  G:    { wsDef:[-5,10], stl:[0.6,2.4], blk:[0.0,0.8], drb:[3,13]  },
+  WING: { wsDef:[-5,10], stl:[0.5,2.2], blk:[0.0,2.5], drb:[8,24]  },
+  BIG:  { wsDef:[0, 14], stl:[0.3,1.6], blk:[0.3,4.5], drb:[10,30] },
 };
 
 function computeSIS(p) {
@@ -118,33 +118,33 @@ function computeSIS(p) {
   const sc = (v, w, b, pts) => Math.max(0, Math.min(1, (v-w)/(b-w||1))) * pts;
 
   const off =
-    sc(p.tsPercent, 50, 68, 10) + sc(p.indivPPP, 0.75, 1.30, 10) + sc(p.toRate, 0.22, 0.07, 5);
+    sc(p.tsPercent, 50, 65, 10) + sc(p.indivPPP, 0.85, 1.20, 10) + sc(p.toRate, 0.22, 0.09, 5);
   const def2 =
-    sc(p.wsDef40, def.wsDef[0], def.wsDef[1], 10) +
+    sc(p.wsDef40, def.wsDef[0], def.wsDef[1],  7) + // réduit (team-dépendant)
     sc(p.stlPer40, def.stl[0], def.stl[1], 5) +
     sc(p.blkPer40, def.blk[0], def.blk[1], 5) +
-    sc(p.defRebPct, def.drb[0], def.drb[1], 5);
+    sc(p.defRebPct, def.drb[0], def.drb[1], 5);     // max 22
   const adv =
-    sc(p.PORPAG, 1.0, 5.5, 10) + sc(p.efgPct, 45, 65, 5) + sc(p.astToRatio, 0.4, 3.5, 5);
-  const hus = sc(p.rebPer40, 2, 13, 8) + sc(p.foulsPer40, 5.0, 1.5, 7);
-  const sys = sc(p.usage, 15, 32, 5) + sc(p.assistRate, 3, 42, 5) + sc(p.minPct, 50, 90, 5);
+    sc(p.PORPAG, 1.0, 5.5, 10) + sc(p.efgPct, 45, 62, 5) + sc(p.astToRatio, 0.4, 2.5, 5);
+  const hus = sc(p.rebPer40, 2, 13, 10) + sc(p.foulsPer40, 5.0, 1.5, 8); // max 18
+  const sys = sc(p.usage, 15, 32, 5) + sc(p.assistRate, 3, 35, 5) + sc(p.minPct, 50, 90, 5);
   const sis = r1(off + def2 + adv + hus + sys);
 
   const px_phy =
     sc(p.heightVsNBA, -5, 5, 10) + sc(p.foulsPer40, 5.0, 1.5, 5) +
     sc(p.stlPer40 + p.blkPer40, 1.0, 5.0, 5);
   const px_eff =
-    sc(p.tsPercent, 52, 68, 8) + sc(p.indivPPP, 0.80, 1.30, 8) +
-    sc(p.astToRatio, 0.5, 3.5, 3) + sc(p.ftPct, 58, 90, 3) + sc(p.threePAr, 5, 60, 3);
+    sc(p.tsPercent, 52, 65, 8) + sc(p.indivPPP, 0.85, 1.20, 8) +
+    sc(p.astToRatio, 0.5, 2.5, 3) + sc(p.ftPct, 58, 90, 3) + sc(p.threePAr, 5, 60, 3);
   const px_def =
-    sc(p.stlPer40, def.stl[0], def.stl[1]*1.1, 5) +
-    sc(p.blkPer40, def.blk[0], def.blk[1]*1.1, 5) +
+    sc(p.stlPer40, def.stl[0], def.stl[1], 5) +
+    sc(p.blkPer40, def.blk[0], def.blk[1], 5) +
     sc(p.foulsPer40, 5.0, 1.5, 5);
   const px_role =
     sc(p.usage, 15, 33, 7) + sc(p.assistRate, 3, 28, 7) + sc(p.PORPAG, 1.0, 5.5, 6);
   const px_nba =
     sc(p.rimAttackRate, 15, 55, 5) + sc(p.threePAr, 5, 60, 5) +
-    sc(p.freeThrowRate, 15, 55, 5) + sc(p.efgPct, 48, 65, 5);
+    sc(p.freeThrowRate, 15, 55, 5) + sc(p.efgPct, 48, 62, 5);
   const sisPx = r1(px_phy + px_eff + px_def + px_role + px_nba);
 
   return { sis, sisPx };

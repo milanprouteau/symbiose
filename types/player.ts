@@ -16,6 +16,7 @@ export type Player = {
   jersey: string | null;
   position: string;
   team: string;
+  teamAbbreviation: string;
   conference: string;
   athleteId: number;
 

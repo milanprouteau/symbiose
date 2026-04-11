@@ -18,11 +18,29 @@ type SISBreakdown = {
 };
 
 type SISPxBreakdown = {
-  pxPhysical: number;
-  pxEfficiency: number;
-  pxDefensiveMobility: number;
-  pxProjectedRole: number;
-  pxNBAAdaptability: number;
+  sisPx_pts: number;
+  sisPx_reb: number;
+  sisPx_ast: number;
+  sisPx_mpg: number;
+  sisPx_stl?: number;
+  sisPx_blk?: number;
+  sisPx_fg?: number;
+  proj_pts: number;
+  proj_reb: number;
+  proj_ast: number;
+  proj_mpg: number;
+  proj_stl?: number;
+  proj_blk?: number;
+  proj_fg_pct?: number;
+  posGroup: string;
+};
+
+type NBAProfileData = {
+  nba_profile: string;
+  profile_confidence: number;
+  proba_nba_ready: number;
+  proba_late_bloomer: number;
+  proba_role_player: number;
 };
 
 type Props = {
@@ -33,9 +51,10 @@ type Props = {
   sisPx?: number | null;
   sisBreakdown?: SISBreakdown | null;
   sisPxBreakdown?: SISPxBreakdown | null;
+  nbaProfile?: NBAProfileData | null;
 };
 
-export default function Overview({ player: p, rankings, topLineups = [], sis, sisPx, sisBreakdown, sisPxBreakdown }: Props) {
+export default function Overview({ player: p, rankings, topLineups = [], sis, sisPx, sisBreakdown, sisPxBreakdown, nbaProfile }: Props) {
   const [activeTooltip, setActiveTooltip] = useState<"sis" | "sisPx" | null>(null);
 
   const similarPlayers = findSimilarPlayers({
@@ -69,6 +88,18 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
       <p className={styles.meta}>
         {p.position} · {p.team} · {p.conference} — {p.games} matchs, {p.starts} titulaires
       </p>
+
+      {/* ── Badge profil NBA ── */}
+      {nbaProfile && (
+        <div className={styles.profileBadgeRow}>
+          <span className={`${styles.profileBadge} ${styles[`badge${nbaProfile.nba_profile.replace("_", "")}`]}`}>
+            {nbaProfile.nba_profile === "NBA_READY" ? "NBA Ready"
+             : nbaProfile.nba_profile === "LATE_BLOOMER" ? "Late Bloomer"
+             : "Role Player"}
+          </span>
+          <span className={styles.profileConf}>{nbaProfile.profile_confidence.toFixed(0)}% confiance</span>
+        </div>
+      )}
 
       {/* ── Barre de stats ── */}
       <div className={styles.statsBar}>
@@ -104,7 +135,7 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                     <span className={styles.statValue} style={{
                       color: sis >= 75 ? "var(--color-primary-orange)"
                            : sis >= 65 ? "var(--color-primary-yellow)"
-                           : "var(--color-primary-white)",
+                           : "var(--color-text-muted)",
                     }}>{sis.toFixed(1)}</span>
                     {sisBreakdown && (
                       <button
@@ -131,9 +162,9 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                 <div className={styles.statItem}>
                   <div className={`${styles.indexValueRow} ${activeTooltip === "sisPx" ? styles.indexValueRowOpen : ""}`}>
                     <span className={styles.statValueSecondary} style={{
-                      color: sisPx >= 80 ? "var(--color-primary-orange)"
-                           : sisPx >= 70 ? "var(--color-primary-yellow)"
-                           : "var(--color-primary-white)",
+                      color: sisPx >= 65 ? "var(--color-primary-orange)"
+                           : sisPx >= 50 ? "var(--color-primary-yellow)"
+                           : "var(--color-text-muted)",
                     }}>{sisPx.toFixed(1)}</span>
                     {sisPxBreakdown && (
                       <button
@@ -145,11 +176,50 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                     )}
                     {sisPxBreakdown && (
                       <div className={styles.indexTooltip}>
-                        <div className={styles.tooltipRow}><span>Physique</span><span>{sisPxBreakdown.pxPhysical.toFixed(1)}<em>/20</em></span></div>
-                        <div className={styles.tooltipRow}><span>Efficacité</span><span>{sisPxBreakdown.pxEfficiency.toFixed(1)}<em>/25</em></span></div>
-                        <div className={styles.tooltipRow}><span>Mobilité déf.</span><span>{sisPxBreakdown.pxDefensiveMobility.toFixed(1)}<em>/15</em></span></div>
-                        <div className={styles.tooltipRow}><span>Rôle projeté</span><span>{sisPxBreakdown.pxProjectedRole.toFixed(1)}<em>/20</em></span></div>
-                        <div className={styles.tooltipRow}><span>Adapt. NBA</span><span>{sisPxBreakdown.pxNBAAdaptability.toFixed(1)}<em>/20</em></span></div>
+                        <div className={styles.tooltipHeader}>
+                          {sisPxBreakdown.posGroup === "Guard" ? "Guard" : "Big"} · proj. NBA (per 36)
+                        </div>
+                        <div className={styles.tooltipRow}>
+                          <span>Scoring</span>
+                          <span>{sisPxBreakdown.sisPx_pts.toFixed(0)}<em>/100</em></span>
+                          <span className={styles.tooltipProj}>{sisPxBreakdown.proj_pts.toFixed(1)} pts</span>
+                        </div>
+                        <div className={styles.tooltipRow}>
+                          <span>Rebonds</span>
+                          <span>{sisPxBreakdown.sisPx_reb.toFixed(0)}<em>/100</em></span>
+                          <span className={styles.tooltipProj}>{sisPxBreakdown.proj_reb.toFixed(1)} reb</span>
+                        </div>
+                        <div className={styles.tooltipRow}>
+                          <span>Passes</span>
+                          <span>{sisPxBreakdown.sisPx_ast.toFixed(0)}<em>/100</em></span>
+                          <span className={styles.tooltipProj}>{sisPxBreakdown.proj_ast.toFixed(1)} ast</span>
+                        </div>
+                        <div className={styles.tooltipRow}>
+                          <span>Minutes proj.</span>
+                          <span>{sisPxBreakdown.sisPx_mpg.toFixed(0)}<em>/100</em></span>
+                          <span className={styles.tooltipProj}>{sisPxBreakdown.proj_mpg.toFixed(1)} mpg</span>
+                        </div>
+                        {sisPxBreakdown.sisPx_fg != null && (
+                          <div className={styles.tooltipRow}>
+                            <span>FG%</span>
+                            <span>{sisPxBreakdown.sisPx_fg.toFixed(0)}<em>/100</em></span>
+                            <span className={styles.tooltipProj}>{((sisPxBreakdown.proj_fg_pct ?? 0) * 100).toFixed(1)}%</span>
+                          </div>
+                        )}
+                        {sisPxBreakdown.sisPx_stl != null && (
+                          <div className={styles.tooltipRow}>
+                            <span>Interceptions</span>
+                            <span>{sisPxBreakdown.sisPx_stl.toFixed(0)}<em>/100</em></span>
+                            <span className={styles.tooltipProj}>{(sisPxBreakdown.proj_stl ?? 0).toFixed(1)} stl</span>
+                          </div>
+                        )}
+                        {sisPxBreakdown.sisPx_blk != null && (
+                          <div className={styles.tooltipRow}>
+                            <span>Contres</span>
+                            <span>{sisPxBreakdown.sisPx_blk.toFixed(0)}<em>/100</em></span>
+                            <span className={styles.tooltipProj}>{(sisPxBreakdown.proj_blk ?? 0).toFixed(1)} blk</span>
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>
@@ -201,8 +271,8 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                 const score = distanceToScore(sp.distance);
                 const color = score >= 80 ? "var(--color-primary-orange)"
                             : score >= 65 ? "#f5c842"
-                            : score >= 50 ? "rgba(255,255,255,0.8)"
-                            : "#888884";
+                            : score >= 50 ? "var(--color-text)"
+                            : "var(--color-text-muted)";
                 return (
                   <div className={styles.similarBarWrapper}>
                     <div className={styles.similarBar}>

@@ -1,10 +1,16 @@
-import teamColors from "@/data/teams.json";
+import teamData from "@/data/teams.json";
 
-const colors = teamColors as Record<string, string>;
+type TeamInfo = { color: string; abbreviation: string };
+const teams = teamData as Record<string, TeamInfo>;
 
 /** Returns the team's primary hex color, or a fallback */
 export function getTeamColor(team: string): string {
-  return colors[team] ?? "#888884";
+  return teams[team]?.color ?? "#888884";
+}
+
+/** Returns the team abbreviation (e.g. "UNC", "DUKE"), or first 4 chars */
+export function getTeamAbbreviation(team: string): string {
+  return teams[team]?.abbreviation ?? team.slice(0, 4).toUpperCase();
 }
 
 /** Converts #RRGGBB to "r,g,b" for use in CSS rgba() */

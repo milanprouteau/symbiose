@@ -1,5 +1,5 @@
 export default function Court() {
-  const stroke = "#ffffff40";
+  const stroke = "var(--color-border)";
   const sw = 1;
 
   /* Coordonnées calées sur les zone-paths */
@@ -30,10 +30,10 @@ export default function Court() {
       />
 
       {/* Panier */}
-      <circle cx={cx} cy={baseline - 8} r={5} fill="none" stroke="#ffffff50" strokeWidth={1.5} />
+      <circle cx={cx} cy={baseline - 8} r={5} fill="none" stroke="var(--color-border)" strokeWidth={1.5} />
 
       {/* Panneau */}
-      <line x1={cx - 15} y1={baseline - 2} x2={cx + 15} y2={baseline - 2} stroke="#ffffff50" strokeWidth={1.5} />
+      <line x1={cx - 15} y1={baseline - 2} x2={cx + 15} y2={baseline - 2} stroke="var(--color-border)" strokeWidth={1.5} />
 
       {/* Arc 3 points */}
       <path

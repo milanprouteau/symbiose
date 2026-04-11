@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bowlby_One } from "next/font/google";
+import { Bowlby_One, Graduate } from "next/font/google";
 import localFont from "next/font/local";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -12,6 +12,13 @@ const bowlby = Bowlby_One({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-bowlby",
+  display: "swap",
+});
+
+const graduate = Graduate({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-graduate",
   display: "swap",
 });
 
@@ -78,8 +85,10 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${bowlby.variable} ${alfabetRegular.variable} ${alfabetSemiBold.variable}`}
+      className={`${bowlby.variable} ${graduate.variable} ${alfabetRegular.variable} ${alfabetSemiBold.variable}`}
     >
+      {/* Anti-FOUC : applique le thème avant le rendu React */}
+      <script dangerouslySetInnerHTML={{ __html: `(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();` }} />
       <body className={styles.body}>
         <PostHogProvider>
           <a href="#main-content" className="skipLink">Aller au contenu</a>

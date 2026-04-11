@@ -22,8 +22,9 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem 1.25rem;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background:
+    linear-gradient(135deg, rgba(255, 108, 34, 0.07) 0%, var(--color-surface) 50%);
+  border: 1px solid var(--color-border);
   border-radius: 10px;
 
   @media (max-width: 640px) {
@@ -47,7 +48,7 @@
 .statsDivider {
   width: 1px;
   height: 2.5rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--color-border);
   flex-shrink: 0;
 
   @media (max-width: 640px) {
@@ -67,6 +68,7 @@
   font-family: var(--font-display);
   font-size: 1.5rem;
   color: var(--color-primary-yellow);
+  text-shadow: var(--yellow-text-shadow);
   line-height: 1;
 }
 
@@ -80,7 +82,7 @@
 .statLabel {
   font-family: var(--font-heading);
   font-size: 0.55rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -91,7 +93,7 @@
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--color-text-muted);
   margin-bottom: 0.75rem;
   padding: 0 10px;
 }
@@ -121,15 +123,15 @@
   gap: 0.75rem;
   align-items: center;
   padding: 0.55rem 0.75rem;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: linear-gradient(90deg, rgba(255, 108, 34, 0.06) 0%, var(--color-surface) 55%);
+  border: 1px solid var(--color-border-subtle);
   border-radius: 6px;
   cursor: pointer;
   text-align: left;
   transition: background 0.15s;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.07);
+    background: linear-gradient(90deg, rgba(255, 108, 34, 0.11) 0%, var(--color-surface-raised) 55%);
   }
 }
 
@@ -156,7 +158,7 @@
 .lineupName {
   font-family: var(--font-heading);
   font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-text-secondary);
   white-space: nowrap;
 }
 
@@ -201,7 +203,7 @@
 .lineupMiniLabel {
   font-family: var(--font-heading);
   font-size: 0.5rem;
-  color: rgba(255, 255, 255, 0.35);
+  color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 
@@ -212,7 +214,7 @@
 
 .lineupChevron {
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--color-text-secondary);
   transition: transform 0.2s;
   flex-shrink: 0;
 }
@@ -231,8 +233,8 @@
 
 /* ── Lineup detail panel ── */
 .lineupDetail {
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--color-background);
+  border: 1px solid var(--color-border-subtle);
   border-top: none;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -244,7 +246,7 @@
   font-size: 0.55rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--color-text-muted);
   text-align: center;
   padding-bottom: 0.35rem;
 
@@ -259,14 +261,14 @@
   gap: 0.5rem;
   padding-bottom: 0.4rem;
   margin-bottom: 0.2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--color-border);
 
   span {
     font-family: var(--font-heading);
     font-size: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--color-primary-orange);
 
     &:first-child { text-align: right; }
     &:last-child  { text-align: left;  }
@@ -282,14 +284,14 @@
   padding: 0.2rem 0;
 
   &:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 1px solid var(--color-border-subtle);
   }
 }
 
 .lineupCompareVal {
   font-family: var(--font-display);
   font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--color-text-secondary);
 }
 
 .lineupCompareLeft  { text-align: right; }
@@ -300,13 +302,13 @@
   font-size: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: rgba(255, 255, 255, 0.3);
+  color: var(--color-primary-orange);
   text-align: center;
   min-width: 3rem;
 }
 
 .lineupBetter {
-  color: var(--color-primary-white);
+  color: var(--color-text);
 }
 
 /* ── Index value row (valeur + bouton i) ── */
@@ -324,9 +326,9 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid var(--color-border);
   background: transparent;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--color-text-secondary);
   font-family: var(--font-heading);
   font-size: 0.55rem;
   font-style: italic;
@@ -337,8 +339,8 @@
   line-height: 1;
 
   &:hover {
-    border-color: rgba(255, 255, 255, 0.6);
-    color: rgba(255, 255, 255, 0.8);
+    border-color: var(--color-text-secondary);
+    color: var(--color-text);
   }
 }
 
@@ -352,8 +354,8 @@
   bottom: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%);
-  background: #1a1a2e;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 0.6rem 0.75rem;
   min-width: 160px;
@@ -376,15 +378,27 @@
   pointer-events: auto;
 }
 
+.tooltipHeader {
+  font-family: var(--font-heading);
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary-orange);
+  text-align: center;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
 .tooltipRow {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
   align-items: baseline;
-  gap: 0.75rem;
+  gap: 0.5rem;
   padding: 0.15rem 0;
 
   &:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--color-border-subtle);
   }
 
   span:first-child {
@@ -392,21 +406,75 @@
     font-size: 0.55rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--color-text-secondary);
   }
 
-  span:last-child {
+  span:nth-child(2) {
     font-family: var(--font-display);
     font-size: 0.7rem;
-    color: var(--color-primary-white);
+    color: var(--color-text);
+    text-align: right;
 
     em {
       font-style: normal;
       font-size: 0.5rem;
-      color: rgba(255, 255, 255, 0.35);
+      color: var(--color-text-muted);
       margin-left: 1px;
     }
   }
+}
+
+.tooltipProj {
+  font-family: var(--font-heading);
+  font-size: 0.5rem;
+  color: var(--color-text-muted);
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ── Badge profil NBA ── */
+.profileBadgeRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -0.5rem;
+}
+
+.profileBadge {
+  font-family: var(--font-heading);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.2rem 0.65rem;
+  border-radius: 99px;
+  border: 1px solid;
+}
+
+.badgeNBAREADY {
+  color: var(--color-primary-orange);
+  border-color: rgba(255, 108, 34, 0.45);
+  background: rgba(255, 108, 34, 0.08);
+}
+
+.badgeLATEBLOOMER {
+  color: var(--color-primary-yellow);
+  border-color: rgba(255, 214, 0, 0.35);
+  background: rgba(255, 214, 0, 0.06);
+}
+
+.badgeROLEPLAYER {
+  color: var(--color-text-secondary);
+  border-color: var(--color-border);
+  background: var(--color-surface);
+}
+
+.profileConf {
+  font-family: var(--font-heading);
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
 }
 
 /* ── Profils similaires ── */
@@ -431,12 +499,13 @@
   gap: 1rem;
   padding: 0.75rem 1rem;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  transition: background 0.2s;
+  background: linear-gradient(135deg, rgba(255, 108, 34, 0.07) 0%, var(--color-surface) 55%);
+  border: 1px solid var(--color-border-subtle);
+  transition: background 0.2s, border-color 0.2s;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: linear-gradient(135deg, rgba(255, 108, 34, 0.13) 0%, var(--color-surface-raised) 55%);
+    border-color: var(--color-border);
   }
 }
 
@@ -475,7 +544,7 @@
 .similarMeta {
   font-family: var(--font-heading);
   font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-text-secondary);
 }
 
 .similarDraft {
@@ -490,12 +559,13 @@
   font-family: var(--font-display);
   font-size: 0.75rem;
   color: var(--color-primary-yellow);
+  text-shadow: var(--yellow-text-shadow);
 }
 
 .similarTeam {
   font-family: var(--font-heading);
   font-size: 0.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-text-secondary);
   white-space: nowrap;
 }
 
@@ -507,7 +577,7 @@
   span {
     font-family: var(--font-heading);
     font-size: 0.65rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--color-text-secondary);
     white-space: nowrap;
   }
 }
@@ -522,7 +592,7 @@
 .similarBar {
   flex: 1;
   height: 3px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--color-border);
   border-radius: 2px;
   overflow: hidden;
 }

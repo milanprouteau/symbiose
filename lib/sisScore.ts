@@ -32,9 +32,9 @@ type PosGroup = "G" | "WING" | "BIG";
 export type SISBreakdown = {
   // SIS – sous-catégories
   offensiveEfficiency: number;   // /25
-  defensiveImpact: number;       // /25
-  advancedEfficiency: number;    // /20  (remplace "Impact Collectif")
-  hustle: number;                // /15
+  defensiveImpact: number;       // /22  (wsDef réduit à 7pts, team-dépendant)
+  advancedEfficiency: number;    // /20
+  hustle: number;                // /18  (+3 pts récupérés depuis wsDef)
   systemWeight: number;          // /15
   total: number;                 // /100
 
@@ -124,22 +124,22 @@ type DefThresholds = {
 
 const DEF_THRESHOLDS: Record<PosGroup, DefThresholds> = {
   G: {
-    stl:   [0.6, 3.0],  // guards attendent d'être actifs dans les passing lanes
+    stl:   [0.6, 2.4],  // guards actifs dans les passing lanes (p90 NCAA)
     blk:   [0.0, 0.8],  // guards bloquent peu
-    drb:   [3,   12 ],  // guards captent peu de rebonds défensifs
-    wsDef: [1,   12 ],
+    drb:   [3,   13 ],  // guards captent peu de rebonds défensifs
+    wsDef: [-5,  10 ],  // recalibré sur p10/p90 NCAA réels
   },
   WING: {
-    stl:   [0.5, 2.4],  // wings : profil équilibré
-    blk:   [0.0, 2.0],
-    drb:   [5,   17 ],
-    wsDef: [2,   14 ],
+    stl:   [0.5, 2.2],  // wings : profil équilibré (p90 NCAA)
+    blk:   [0.0, 2.5],
+    drb:   [8,   24 ],
+    wsDef: [-5,  10 ],  // recalibré — wsDef est partiellement team-dépendant
   },
   BIG: {
     stl:   [0.3, 1.6],  // bigs volent moins mais défendent le cercle
-    blk:   [0.3, 4.0],  // seuils BLK élevés : les vrais protecteurs du cercle
-    drb:   [8,   26 ],  // bigs dominent les rebonds défensifs
-    wsDef: [3,   17 ],
+    blk:   [0.3, 4.5],  // seuils BLK élevés : les vrais protecteurs du cercle
+    drb:   [10,  30 ],  // bigs dominent les rebonds défensifs
+    wsDef: [0,   14 ],
   },
 };
 
@@ -273,20 +273,20 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   // ════════════════════════════════════════════════════════
 
   // 1. EFFICACITÉ OFFENSIVE — 25 pts
-  //    TS%         : 50% = mauvais → 68% = élite   (10 pts)
-  //    PPP individ.: 0.75 = mauvais → 1.30 = élite  (10 pts)
-  //    TO Rate     : 22% = mauvais → 7% = élite     (5 pts, INVERSÉ)
-  const sis_ts      = score(tsPercent, 50,   68,   10);
-  const sis_ppp     = score(indivPPP,  0.75, 1.30, 10);
-  const sis_to      = score(toRate,    0.22, 0.07,  5); // inversé
+  //    TS%         : 50% = mauvais → 65% = élite   (10 pts)  [recalibré sur p90 NCAA]
+  //    PPP individ.: 0.85 = mauvais → 1.20 = élite  (10 pts)  [recalibré sur p10/p90 NCAA]
+  //    TO Rate     : 22% = mauvais → 9% = élite     (5 pts, INVERSÉ)  [p10 NCAA = 10%]
+  const sis_ts      = score(tsPercent, 50,   65,   10);
+  const sis_ppp     = score(indivPPP,  0.85, 1.20, 10);
+  const sis_to      = score(toRate,    0.22, 0.09,  5); // inversé
   const offensiveEfficiency = sis_ts + sis_ppp + sis_to;
 
-  // 2. IMPACT DÉFENSIF — 25 pts  [AJUSTÉ PAR POSTE]
-  //    WS Défensifs/40 : seuils par poste — 10 pts
+  // 2. IMPACT DÉFENSIF — 22 pts  [AJUSTÉ PAR POSTE]
+  //    WS Défensifs/40 : seuils recalibrés p10/p90 NCAA — 7 pts  (réduit car partiellement team-dépendant)
   //    STL/40          : seuils par poste —  5 pts
   //    BLK/40          : seuils par poste —  5 pts
   //    DefReb%         : seuils par poste —  5 pts
-  const sis_wsDef = score(wsDef40,   def.wsDef[0], def.wsDef[1], 10);
+  const sis_wsDef = score(wsDef40,   def.wsDef[0], def.wsDef[1],  7);
   const sis_stl   = score(stlPer40,  def.stl[0],   def.stl[1],    5);
   const sis_blk   = score(blkPer40,  def.blk[0],   def.blk[1],    5);
   const sis_drb   = score(defRebPct, def.drb[0],   def.drb[1],    5);
@@ -303,24 +303,24 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   //      Efficacité de tir pure (2PT + bonus 3PT) sans l'effet équipe.
   //    AST/TO    : 0.4 = mauvais → 3.5 = élite  (5 pts)
   //      Qualité de décision individuelle.
-  const sis_porpag = score(ps.PORPAG,                   1.0, 5.5, 10); // Option A: 7.5→5.5
-  const sis_efg    = score(ps.effectiveFieldGoalPct,    45,  65,   5);
-  const sis_astTo  = score(ps.assistsTurnoverRatio,     0.4, 3.5,  5);
+  const sis_porpag = score(ps.PORPAG,                   1.0, 5.5, 10);
+  const sis_efg    = score(ps.effectiveFieldGoalPct,    45,  62,   5); // recalibré p90 NCAA = 61.5
+  const sis_astTo  = score(ps.assistsTurnoverRatio,     0.4, 2.5,  5); // recalibré p90 NCAA = 2.1
   const advancedEfficiency = sis_porpag + sis_efg + sis_astTo;
 
-  // 4. HUSTLE — 15 pts
-  //    Rebs/40   : 2  = mauvais → 13 = élite  (8 pts)
-  //    Fautes/40 : 5.0 = mauvais → 1.5 = élite (7 pts, INVERSÉ)
-  const sis_reb    = score(rebPer40,    2,   13,  8);
-  const sis_fouls  = score(foulsPer40,  5.0,  1.5, 7); // inversé
+  // 4. HUSTLE — 18 pts  (+3 pts récupérés depuis wsDef pour récompenser l'activité individuelle)
+  //    Rebs/40   : 2  = mauvais → 13 = élite  (10 pts)
+  //    Fautes/40 : 5.0 = mauvais → 1.5 = élite  (8 pts, INVERSÉ)
+  const sis_reb    = score(rebPer40,    2,   13,  10);
+  const sis_fouls  = score(foulsPer40,  5.0,  1.5,  8); // inversé
   const hustle = sis_reb + sis_fouls;
 
   // 5. POIDS DANS LE SYSTÈME — 15 pts
   //    Usage%      : 15% = mauvais → 32% = élite  (5 pts)
-  //    Assist Rate : 3%  = mauvais → 42% = élite  (5 pts)
+  //    Assist Rate : 3%  = mauvais → 35% = élite  (5 pts)  [recalibré p90 NCAA = 30%]
   //    % Minutes   : 50% = mauvais → 90% = élite  (5 pts)
   const sis_usage  = score(ps.usage,   15,  32,  5);
-  const sis_ast    = score(assistRate,  3,  42,  5);
+  const sis_ast    = score(assistRate,  3,  35,  5);
   const sis_minPct = score(minPct,     50,  90,  5);
   const systemWeight = sis_usage + sis_ast + sis_minPct;
 
@@ -355,8 +355,8 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   //    AST/TO   : 0.5 → 3.5  (3 pts)
   //    FT%      : 58% → 90%  (3 pts) — fiabilité aux lancers transposable
   //    3PAr     : 5% → 60%   (3 pts) — orientation spacing NBA
-  const px_ts      = score(tsPercent,              52,   68,   8);
-  const px_ppp     = score(indivPPP,               0.80, 1.30, 8);
+  const px_ts      = score(tsPercent,              52,   65,   8);
+  const px_ppp     = score(indivPPP,               0.85, 1.20, 8);
   const px_astTo   = score(ps.assistsTurnoverRatio, 0.5, 3.5,  3);
   const px_ft      = score(ps.freeThrows.pct,      58,   90,   3);
   const px_3par    = score(threePAr * 100,          5,   60,   3);
@@ -365,9 +365,9 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   // 3. MOBILITÉ DÉFENSIVE — 15 pts  [AJUSTÉ PAR POSTE]
   //    Mêmes seuils que SIS défensif mais seuil "élite" légèrement plus
   //    élevé (NBA est plus exigeant) : +10% sur la borne "better"
-  const px_stl    = score(stlPer40,   def.stl[0],  def.stl[1]  * 1.1, 5);
-  const px_blk    = score(blkPer40,   def.blk[0],  def.blk[1]  * 1.1, 5);
-  const px_foul   = score(foulsPer40, 5.0,          1.5,               5); // inversé
+  const px_stl    = score(stlPer40,   def.stl[0],  def.stl[1], 5);
+  const px_blk    = score(blkPer40,   def.blk[0],  def.blk[1], 5);
+  const px_foul   = score(foulsPer40, 5.0,         1.5,         5); // inversé
   const pxDefensiveMobility = px_stl + px_blk + px_foul;
 
   // 4. RÔLE PROJETÉ — 20 pts
@@ -390,8 +390,8 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
     : 25; // fallback ≈ médiane
   const px_rimAttack = score(rimAttackRate,                15,  55, 5); // Option A: remplace pace
   const px_spacing   = score(threePAr * 100,               5,  60, 5);
-  const px_ftRate    = score(ps.freeThrowRate,            15,  55, 5); // Option A: 50→55
-  const px_efg       = score(ps.effectiveFieldGoalPct,    48,  65, 5);
+  const px_ftRate    = score(ps.freeThrowRate,            15,  55, 5);
+  const px_efg       = score(ps.effectiveFieldGoalPct,    48,  62, 5);
   const pxNBAAdaptability = px_rimAttack + px_spacing + px_ftRate + px_efg;
 
   const sisPxTotal = r1(

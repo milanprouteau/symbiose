@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback } from "react";
 
 const PAGE_SIZE = 50;
 import {
@@ -247,7 +247,6 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
     });
   }, [filtered, sortKey, sortDir]);
 
-  useEffect(() => { setPage(0); }, [search, yearFilter, sortKey, sortDir]);
 
   const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
   const pageRows = sorted.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
@@ -410,12 +409,12 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
             <input
               className={styles.search}
               type="text" placeholder="Rechercher..."
-              value={search} onChange={(e) => setSearch(e.target.value)}
+              value={search} onChange={(e) => { setSearch(e.target.value); setPage(0); }}
             />
             <select
               className={styles.yearSelect}
               value={yearFilter}
-              onChange={(e) => setYearFilter(e.target.value)}
+              onChange={(e) => { setYearFilter(e.target.value); setPage(0); }}
             >
               <option value="all">Toutes les années</option>
               {years.map((y) => (
@@ -434,12 +433,12 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
                 <th className={styles.th}>Joueur</th>
                 <th className={styles.th}>Année</th>
                 <th className={`${styles.th} ${styles.num}`}
-                  onClick={() => { setSortKey("pick"); setSortDir((d) => sortKey === "pick" ? (d === "asc" ? "desc" : "asc") : "asc"); }}>
+                  onClick={() => { setSortKey("pick"); setSortDir((d) => sortKey === "pick" ? (d === "asc" ? "desc" : "asc") : "asc"); setPage(0); }}>
                   Pick {sortKey === "pick" ? (sortDir === "asc" ? "↑" : "↓") : ""}
                 </th>
                 <th className={styles.th}>Pos</th>
                 <th className={`${styles.th} ${styles.num}`}
-                  onClick={() => { setSortKey("sis"); setSortDir((d) => sortKey === "sis" ? (d === "asc" ? "desc" : "asc") : "desc"); }}>
+                  onClick={() => { setSortKey("sis"); setSortDir((d) => sortKey === "sis" ? (d === "asc" ? "desc" : "asc") : "desc"); setPage(0); }}>
                   SIS {sortKey === "sis" ? (sortDir === "asc" ? "↑" : "↓") : ""}
                 </th>
                 <th className={`${styles.th} ${styles.num}`}>
@@ -450,7 +449,7 @@ export default function CalibrationTool({ players }: { players: PlayerIntermedia
                   <span className={styles.subScore}>Sys</span>
                 </th>
                 <th className={`${styles.th} ${styles.num} ${styles.pxCol}`}
-                  onClick={() => { setSortKey("sisPx"); setSortDir((d) => sortKey === "sisPx" ? (d === "asc" ? "desc" : "asc") : "desc"); }}>
+                  onClick={() => { setSortKey("sisPx"); setSortDir((d) => sortKey === "sisPx" ? (d === "asc" ? "desc" : "asc") : "desc"); setPage(0); }}>
                   SIS-Px {sortKey === "sisPx" ? (sortDir === "asc" ? "↑" : "↓") : ""}
                 </th>
                 <th className={`${styles.th} ${styles.num}`}>

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Fetch team colors from the College Basketball Data API
- * and save to data/teams.json as { teamName: primaryColor }
+ * Fetch team colors & abbreviations from the College Basketball Data API
+ * and save to data/teams.json as { teamName: { color, abbreviation } }
  *
  * Usage: node scripts/fetch-teams.mjs
  */
@@ -54,7 +54,7 @@ function bestMatch(results, name) {
   );
 }
 
-const colors = {};
+const teamsData = {};
 
 for (const name of TEAMS) {
   try {
@@ -64,8 +64,9 @@ for (const name of TEAMS) {
       const hex = team.primaryColor.startsWith("#")
         ? team.primaryColor
         : `#${team.primaryColor}`;
-      colors[name] = hex;
-      console.log(`✓ ${name} → ${hex} (${team.school})`);
+      const abbr = team.abbreviation ?? name.slice(0, 4).toUpperCase();
+      teamsData[name] = { color: hex, abbreviation: abbr };
+      console.log(`✓ ${name} → ${hex} | ${abbr} (${team.school})`);
     } else {
       console.warn(`⚠ ${name}: no primaryColor found`);
     }
@@ -75,5 +76,5 @@ for (const name of TEAMS) {
 }
 
 const out = path.join(ROOT, "data", "teams.json");
-fs.writeFileSync(out, JSON.stringify(colors, null, 2));
-console.log(`\n✅ Saved ${Object.keys(colors).length} teams → ${out}`);
+fs.writeFileSync(out, JSON.stringify(teamsData, null, 2));
+console.log(`\n✅ Saved ${Object.keys(teamsData).length} teams → ${out}`);

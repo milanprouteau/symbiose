@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Scale, Users } from "lucide-react";
+import ThemeToggle from "@/components/ui/ThemeToggle";
 import styles from "./Header.module.scss";
 
 export default function Header() {
@@ -39,6 +40,7 @@ export default function Header() {
             <span className={styles.desktopLabel} aria-hidden="true">Comparer joueurs</span>
             <Scale className={styles.mobileIcon} aria-hidden="true" />
           </Link>
+          <ThemeToggle />
         </nav>
       </div>
 
