@@ -355,11 +355,15 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   //    AST/TO   : 0.5 → 3.5  (3 pts)
   //    FT%      : 58% → 90%  (3 pts) — fiabilité aux lancers transposable
   //    3PAr     : 5% → 60%   (3 pts) — orientation spacing NBA
-  const px_ts      = score(tsPercent,              52,   65,   8);
-  const px_ppp     = score(indivPPP,               0.85, 1.20, 8);
-  const px_astTo   = score(ps.assistsTurnoverRatio, 0.5, 3.5,  3);
-  const px_ft      = score(ps.freeThrows.pct,      58,   90,   3);
-  const px_3par    = score(threePAr * 100,          5,   60,   3);
+  const isBig = pg === "BIG";
+
+  // 2. EFFICACITÉ TRANSPOSABLE — 25 pts
+  //    Pour BIG : scoring traduit moins bien en NBA (pts 8→5)
+  const px_ts      = score(tsPercent,               52,   65,   isBig ? 5 : 8);
+  const px_ppp     = score(indivPPP,                0.85, 1.20, isBig ? 5 : 8);
+  const px_astTo   = score(ps.assistsTurnoverRatio,  0.5, 3.5,  3);
+  const px_ft      = score(ps.freeThrows.pct,        58,  90,   3);
+  const px_3par    = score(threePAr * 100,             5,  60,  3);
   const pxEfficiency = px_ts + px_ppp + px_astTo + px_ft + px_3par;
 
   // 3. MOBILITÉ DÉFENSIVE — 15 pts  [AJUSTÉ PAR POSTE]
@@ -371,13 +375,14 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   const pxDefensiveMobility = px_stl + px_blk + px_foul;
 
   // 4. RÔLE PROJETÉ — 20 pts
-  //    Usage%      : 15% → 33%  (7 pts) — peut assumer un volume NBA
-  //    Assist Rate : 3%  → 42%  (7 pts) — capacité à faciliter le jeu
-  //    PORPAG      : 1.0 → 7.5  (6 pts) — valeur individuelle au-dessus du remplacement
-  const px_usage  = score(ps.usage,   15,  33,  7);
-  const px_ast    = score(assistRate,  3,  28,  7); // Option A: 42→28
-  const px_por    = score(ps.PORPAG,   1.0, 5.5, 6); // Option A: 7.5→5.5
-  const pxProjectedRole = px_usage + px_ast + px_por;
+  //    Pour BIG : la dominance au rebond prédit le rôle NBA mieux que l'assist rate
+  //    Pour G/WING : Usage% (7), Assist Rate (7), PORPAG (6)
+  const px_usage    = score(ps.usage,  15, 33, isBig ? 5 : 7);
+  const px_roleStat = isBig
+    ? score(rebPer40, 8, 16, 10)
+    : score(assistRate, 3, 28, 7);
+  const px_por      = score(ps.PORPAG, 1.0, 5.5, 6);
+  const pxProjectedRole = px_usage + px_roleStat + px_por;
 
   // 5. ADAPTABILITÉ NBA — 20 pts
   //    Rim attack rate : 15% → 55% (5 pts) — % tirs au cercle (layups/trackedShots)
@@ -394,9 +399,14 @@ export function calculateSIS(bundle: PlayerDataBundle): SISBreakdown | null {
   const px_efg       = score(ps.effectiveFieldGoalPct,    48,  62, 5);
   const pxNBAAdaptability = px_rimAttack + px_spacing + px_ftRate + px_efg;
 
-  const sisPxTotal = r1(
-    pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability,
-  );
+  // Pour BIG : multiplicateur de translation basé sur la dominance au rebond
+  //   REB/40 ≤ 9 → ×0.75 (intérieur non-dominant) | REB/40 ≥ 13 → ×1.10 (tier Edey/Clingan)
+  let sisPxRaw = pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability;
+  if (isBig) {
+    const rebClamped = Math.max(9, Math.min(13, rebPer40));
+    sisPxRaw = sisPxRaw * (0.75 + 0.35 * ((rebClamped - 9) / (13 - 9)));
+  }
+  const sisPxTotal = r1(sisPxRaw);
 
   // ── Badges ───────────────────────────────────────────────
   const sisBadges   = assignSISBadges(

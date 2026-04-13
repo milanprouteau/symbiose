@@ -188,6 +188,7 @@ function r1(n: number) { return Math.round(n * 10) / 10; }
 
 export function computeScores(p: PlayerIntermediate, cfg: ThresholdConfig): SectionScores {
   const def = cfg.def[p.posGroup];
+  const isBig = p.posGroup === "BIG";
 
   // ── SIS ──
   const offensiveEfficiency =
@@ -221,9 +222,12 @@ export function computeScores(p: PlayerIntermediate, cfg: ThresholdConfig): Sect
     sc(p.foulsPer40,               cfg.px_fouls.worse,       cfg.px_fouls.better,       cfg.px_fouls.pts) +
     sc(p.stlPer40 + p.blkPer40,   cfg.px_stlBlk.worse,      cfg.px_stlBlk.better,      cfg.px_stlBlk.pts);
 
+  // For BIG: scoring efficiency translates less reliably to NBA (pts 8→5)
+  const pxTsPts  = isBig ? 5 : cfg.px_ts.pts;
+  const pxPppPts = isBig ? 5 : cfg.px_ppp.pts;
   const pxEfficiency =
-    sc(p.tsPercent,    cfg.px_ts.worse,    cfg.px_ts.better,    cfg.px_ts.pts) +
-    sc(p.indivPPP,     cfg.px_ppp.worse,   cfg.px_ppp.better,   cfg.px_ppp.pts) +
+    sc(p.tsPercent,    cfg.px_ts.worse,    cfg.px_ts.better,    pxTsPts) +
+    sc(p.indivPPP,     cfg.px_ppp.worse,   cfg.px_ppp.better,   pxPppPts) +
     sc(p.astToRatio,   cfg.px_astTo.worse, cfg.px_astTo.better, cfg.px_astTo.pts) +
     sc(p.ftPct,        cfg.px_ft.worse,    cfg.px_ft.better,    cfg.px_ft.pts) +
     sc(p.threePAr,     cfg.px_3par.worse,  cfg.px_3par.better,  cfg.px_3par.pts);
@@ -234,16 +238,30 @@ export function computeScores(p: PlayerIntermediate, cfg: ThresholdConfig): Sect
     sc(p.blkPer40,   def.blk.worse, def.blk.better * 1.1, def.blk.pts) +
     sc(p.foulsPer40, cfg.px_defFouls.worse, cfg.px_defFouls.better, cfg.px_defFouls.pts);
 
+  // For BIG: rebounding dominance predicts NBA role better than assist rate
+  const pxUsagePts = isBig ? 5 : cfg.px_usage.pts;
+  const pxRoleStat = isBig
+    ? sc(p.rebPer40, 8, 16, 10)
+    : sc(p.assistRate, cfg.px_ast.worse, cfg.px_ast.better, cfg.px_ast.pts);
   const pxProjectedRole =
-    sc(p.usage,      cfg.px_usage.worse, cfg.px_usage.better, cfg.px_usage.pts) +
-    sc(p.assistRate, cfg.px_ast.worse,   cfg.px_ast.better,   cfg.px_ast.pts) +
-    sc(p.PORPAG,     cfg.px_por.worse,   cfg.px_por.better,   cfg.px_por.pts);
+    sc(p.usage,  cfg.px_usage.worse, cfg.px_usage.better, pxUsagePts) +
+    pxRoleStat +
+    sc(p.PORPAG, cfg.px_por.worse,   cfg.px_por.better,   cfg.px_por.pts);
 
   const pxNBAAdaptability =
     sc(p.rimAttackRate, cfg.px_rimAttack.worse, cfg.px_rimAttack.better, cfg.px_rimAttack.pts) +
     sc(p.threePAr,      cfg.px_spacing.worse,   cfg.px_spacing.better,   cfg.px_spacing.pts) +
     sc(p.freeThrowRate, cfg.px_ftRate.worse,    cfg.px_ftRate.better,    cfg.px_ftRate.pts) +
     sc(p.efgPct,        cfg.px_efg.worse,       cfg.px_efg.better,       cfg.px_efg.pts);
+
+  // For BIG: apply a rebounding translation multiplier.
+  // Centers who dominate the glass (≥13 REB/40) translate reliably; non-dominant bigs (≤9) are penalised.
+  let sisPxRaw = pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability;
+  if (isBig) {
+    const rebClamped = Math.max(9, Math.min(13, p.rebPer40));
+    const rebMult    = 0.75 + 0.35 * ((rebClamped - 9) / (13 - 9));
+    sisPxRaw         = sisPxRaw * rebMult;
+  }
 
   return {
     sis: {
@@ -255,7 +273,7 @@ export function computeScores(p: PlayerIntermediate, cfg: ThresholdConfig): Sect
       systemWeight:         r1(systemWeight),
     },
     sisPx: {
-      total: r1(pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability),
+      total:                r1(sisPxRaw),
       pxPhysical:           r1(pxPhysical),
       pxEfficiency:         r1(pxEfficiency),
       pxDefensiveMobility:  r1(pxDefensiveMobility),

@@ -76,19 +76,6 @@ export default function PlayerHero({ player: p, photoShadow, allPlayers, nbaProf
                 <span className={styles.playerMeta}>
                   {p.position} · {p.team}
                 </span>
-                {nbaProfile && (
-                  <span
-                    className={styles.profileBadge}
-                    style={{
-                      color: PROFILE_COLORS[nbaProfile.nba_profile],
-                      background: PROFILE_BG[nbaProfile.nba_profile],
-                      borderColor: PROFILE_BORDER[nbaProfile.nba_profile],
-                    }}
-                    title={`${nbaProfile.profile_confidence.toFixed(0)}% de confiance`}
-                  >
-                    {PROFILE_LABELS[nbaProfile.nba_profile] ?? nbaProfile.nba_profile}
-                  </span>
-                )}
               </div>
             </div>
 

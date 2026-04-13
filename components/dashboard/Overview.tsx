@@ -89,18 +89,6 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
         {p.position} · {p.team} · {p.conference} — {p.games} matchs, {p.starts} titulaires
       </p>
 
-      {/* ── Badge profil NBA ── */}
-      {nbaProfile && (
-        <div className={styles.profileBadgeRow}>
-          <span className={`${styles.profileBadge} ${styles[`badge${nbaProfile.nba_profile.replace("_", "")}`]}`}>
-            {nbaProfile.nba_profile === "NBA_READY" ? "NBA Ready"
-             : nbaProfile.nba_profile === "LATE_BLOOMER" ? "Late Bloomer"
-             : "Role Player"}
-          </span>
-          <span className={styles.profileConf}>{nbaProfile.profile_confidence.toFixed(0)}% confiance</span>
-        </div>
-      )}
-
       {/* ── Barre de stats ── */}
       <div className={styles.statsBar}>
         <div className={styles.statsGroup}>
@@ -139,8 +127,11 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                     }}>{sis.toFixed(1)}</span>
                     {sisBreakdown && (
                       <button
-                        className={`${styles.infoBtn} ${activeTooltip === "sis" ? styles.infoBtnActive : ""}`}
-                        onClick={() => setActiveTooltip((t) => t === "sis" ? null : "sis")}
+                        className={styles.infoBtn}
+                        onClick={() => {
+                          if (window.matchMedia("(hover: none)").matches)
+                            setActiveTooltip((t) => t === "sis" ? null : "sis");
+                        }}
                         aria-label="Détail SIS"
                         aria-expanded={activeTooltip === "sis"}
                       >i</button>
@@ -168,8 +159,11 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                     }}>{sisPx.toFixed(1)}</span>
                     {sisPxBreakdown && (
                       <button
-                        className={`${styles.infoBtn} ${activeTooltip === "sisPx" ? styles.infoBtnActive : ""}`}
-                        onClick={() => setActiveTooltip((t) => t === "sisPx" ? null : "sisPx")}
+                        className={styles.infoBtn}
+                        onClick={() => {
+                          if (window.matchMedia("(hover: none)").matches)
+                            setActiveTooltip((t) => t === "sisPx" ? null : "sisPx");
+                        }}
                         aria-label="Détail SIS-Px"
                         aria-expanded={activeTooltip === "sisPx"}
                       >i</button>

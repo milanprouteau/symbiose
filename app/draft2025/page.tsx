@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function Draft2025Page() {
-  return <DraftTable data={data} year={2025} mae={13.2} corr={0.73} />;
+  return <DraftTable data={data} year={2025} mae={17.4} corr={0.43} />;
 }
