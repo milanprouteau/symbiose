@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import type { Player } from "@/types/player";
 import type { StatRanking } from "@/lib/playerRankings";
 import type { LineupEntry } from "@/types/stats";
 import { findSimilarPlayers, distanceToScore } from "@/lib/similarPlayers";
 import LineupAccordion from "./LineupAccordion";
 import StatCounter from "@/components/ui/StatCounter";
+import { useInView } from "@/hooks/useInView";
 import styles from "./Overview.module.scss";
 
 type SISBreakdown = {
@@ -56,6 +57,7 @@ type Props = {
 
 export default function Overview({ player: p, rankings, topLineups = [], sis, sisPx, sisBreakdown, sisPxBreakdown, nbaProfile }: Props) {
   const [activeTooltip, setActiveTooltip] = useState<"sis" | "sisPx" | null>(null);
+  const [similarRef, similarInView] = useInView({ threshold: 0.1 });
 
   const similarPlayers = findSimilarPlayers({
     ppg: p.ppg,
@@ -234,7 +236,7 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
       )}
 
       {/* ── Profils similaires ── */}
-      <div className={styles.similarSection}>
+      <div ref={similarRef as React.RefObject<HTMLDivElement>} className={styles.similarSection}>
         <h2 className={styles.sectionTitle}>Profils similaires</h2>
         <div className={styles.similarList}>
           {similarPlayers.map((sp, i) => (
@@ -270,7 +272,7 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                 return (
                   <div className={styles.similarBarWrapper}>
                     <div className={styles.similarBar}>
-                      <div className={styles.similarBarFill} style={{ width: `${score}%`, background: color }} />
+                      <div className={styles.similarBarFill} style={{ width: similarInView ? `${score}%` : "0%", background: color, transitionDelay: similarInView ? `${i * 80}ms` : "0ms" }} />
                     </div>
                     <span className={styles.similarScore} style={{ color }}>{score}%</span>
                   </div>

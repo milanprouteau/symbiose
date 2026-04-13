@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
+import { useInView } from "@/hooks/useInView";
 import styles from "./RadarChart.module.scss";
 
 export type RadarAxis = {
@@ -31,10 +32,15 @@ type Tooltip = {
 };
 
 const RINGS = [0.25, 0.5, 0.75, 1];
+const ANIM_DURATION = 700; // ms
 
 function polarToXY(angle: number, radius: number, cx: number, cy: number) {
   const rad = (angle - 90) * (Math.PI / 180);
   return { x: cx + radius * Math.cos(rad), y: cy + radius * Math.sin(rad) };
+}
+
+function easeOutCubic(t: number) {
+  return 1 - Math.pow(1 - t, 3);
 }
 
 export default function RadarChart({ players, axes, size = 280 }: Props) {
@@ -44,23 +50,80 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
   const angleStep = 360 / axes.length;
   const [tooltip, setTooltip] = useState<Tooltip | null>(null);
 
+    // Animation progress: 0 → 1
+  const [progress, setProgress] = useState(0);
+  const rafRef = useRef<number>(0);
+  const [containerRef, inView] = useInView({ threshold: 0.2 });
+
+  // Track previous player values for morphing interpolation
+  const prevPlayersRef = useRef<RadarPlayer[]>([]);
+  const playersKey = players.map((p) => p.name).join("|");
+  const prevPlayersKey = useRef(playersKey);
+  const [animKey, setAnimKey] = useState(0);
+  const isMorphAnim = useRef(false);
+
+  useEffect(() => {
+    if (playersKey !== prevPlayersKey.current) {
+      isMorphAnim.current = true;
+      prevPlayersKey.current = playersKey;
+      setAnimKey((k) => k + 1);
+    }
+  }, [playersKey]);
+
+  useEffect(() => {
+    if (!inView && animKey === 0) return;
+    // Capture previous players before starting morph
+    prevPlayersRef.current = isMorphAnim.current ? prevPlayersRef.current : [];
+    isMorphAnim.current = false;
+    setProgress(0);
+    cancelAnimationFrame(rafRef.current);
+    const startTime = performance.now();
+    const animate = (now: number) => {
+      const t = Math.min((now - startTime) / ANIM_DURATION, 1);
+      setProgress(easeOutCubic(t));
+      if (t < 1) rafRef.current = requestAnimationFrame(animate);
+      else prevPlayersRef.current = players;
+    };
+    rafRef.current = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [inView, animKey]); // eslint-disable-line react-hooks/exhaustive-deps
+
   const polygons = useMemo(() => {
-    return players.map((player) => {
+    const prev = prevPlayersRef.current;
+    return players.map((player, pi) => {
+      const prevPlayer = prev[pi];
       const points = axes.map((axis, i) => {
         const raw = player.values[axis.key] ?? 0;
         const norm = axis.invert
           ? Math.max(0, 1 - raw / axis.max)
           : Math.min(raw / axis.max, 1);
-        const r = norm * maxR;
+        const targetR = norm * maxR;
+
+        // If we have previous values, interpolate from them; otherwise scale from 0
+        let r: number;
+        if (prevPlayer) {
+          const prevRaw = prevPlayer.values[axis.key] ?? 0;
+          const prevNorm = axis.invert
+            ? Math.max(0, 1 - prevRaw / axis.max)
+            : Math.min(prevRaw / axis.max, 1);
+          const prevR = prevNorm * maxR;
+          r = prevR + (targetR - prevR) * progress;
+        } else {
+          r = targetR * progress;
+        }
+
         const angle = i * angleStep;
         return polarToXY(angle, r, cx, cy);
       });
       return { ...player, points };
     });
-  }, [players, axes, cx, cy, maxR, angleStep]);
+  }, [players, axes, cx, cy, maxR, angleStep, progress]);
 
   return (
-    <div className={styles.container}>
+    <div
+      ref={containerRef as React.RefObject<HTMLDivElement>}
+      className={styles.container}
+    >
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} style={{ overflow: "visible" }}>
         {/* Background rings */}
         {RINGS.map((pct) => {

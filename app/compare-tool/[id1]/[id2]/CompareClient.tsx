@@ -1,7 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Loader from "@/components/ui/Loader";
 import Link from "next/link";
 import { motion, AnimatePresence, LayoutGroup } from "motion/react";
 import PlayerPhotoCard from "@/components/dashboard/PlayerPhotoCard";
@@ -151,6 +152,12 @@ export default function CompareClient({
   const [sel2, setSel2] = useState(id2);
   const [courtTab, setCourtTab] = useState<CourtTab>("Tirs");
   const [collapsedSections, setCollapsedSections] = useState<Set<string>>(new Set());
+  const [isNavigating, setIsNavigating] = useState(false);
+
+  // Reset loader if navigation was cancelled or failed
+  useEffect(() => {
+    setIsNavigating(false);
+  }, [id1, id2]);
 
   const toggleSection = (key: string) => {
     setCollapsedSections((prev) => {
@@ -163,6 +170,7 @@ export default function CompareClient({
 
   const navigate = (newId1: string, newId2: string) => {
     if (newId1 && newId2) {
+      setIsNavigating(true);
       router.push(`/compare-tool/${newId1}/${newId2}`);
     }
   };
@@ -202,6 +210,11 @@ export default function CompareClient({
 
   return (
     <div className={styles.container}>
+      {isNavigating && (
+        <div className={styles.loaderOverlay}>
+          <Loader />
+        </div>
+      )}
       <div className={styles.selectGrid}>
         <PlayerSelect players={allPlayers} value={sel1} onChange={handleSel1} label="Joueur 1" excludeId={sel2} />
         <PlayerSelect players={allPlayers} value={sel2} onChange={handleSel2} label="Joueur 2" excludeId={sel1} />

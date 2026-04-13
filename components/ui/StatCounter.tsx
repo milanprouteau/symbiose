@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useInView } from "@/hooks/useInView";
 
 type Props = {
   value: number;
@@ -12,8 +13,10 @@ type Props = {
 export default function StatCounter({ value, decimals = 1, duration = 1100, className }: Props) {
   const [display, setDisplay] = useState(0);
   const rafRef = useRef<number>(0);
+  const [containerRef, inView] = useInView({ threshold: 0.1 });
 
   useEffect(() => {
+    if (!inView) return;
     const startTime = performance.now();
     const animate = (currentTime: number) => {
       const progress = Math.min((currentTime - startTime) / duration, 1);
@@ -25,7 +28,11 @@ export default function StatCounter({ value, decimals = 1, duration = 1100, clas
     };
     rafRef.current = requestAnimationFrame(animate);
     return () => cancelAnimationFrame(rafRef.current);
-  }, [value, duration]);
+  }, [value, duration, inView]);
 
-  return <span className={className}>{display.toFixed(decimals)}</span>;
+  return (
+    <span ref={containerRef as React.RefObject<HTMLSpanElement>} className={className}>
+      {display.toFixed(decimals)}
+    </span>
+  );
 }

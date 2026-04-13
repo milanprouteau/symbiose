@@ -479,3 +479,16 @@
   font-family: var(--font-heading);
   padding: 5rem 0;
 }
+
+.loaderOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(13, 13, 13, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: chartFadeIn 0.2s ease;
+}

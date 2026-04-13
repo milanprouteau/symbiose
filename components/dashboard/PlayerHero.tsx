@@ -2,6 +2,7 @@ import type { Player } from "@/types/player";
 import styles from "./PlayerHero.module.scss";
 import CompareButton from "./CompareButton";
 import PlayerPhotoCard from "./PlayerPhotoCard";
+import { getTeamDisplayColor, hexToRgb } from "@/lib/teamColors";
 
 type IndexEntry = { id: number; name: string; team: string };
 
@@ -42,9 +43,17 @@ const PROFILE_BORDER: Record<string, string> = {
 };
 
 export default function PlayerHero({ player: p, photoShadow, allPlayers, nbaProfile }: Props) {
-  console.log('player', p);
+  const teamColor = getTeamDisplayColor(p.team);
+  const teamRgb = teamColor ? hexToRgb(teamColor) : null;
+
   return (
-    <section className={styles.section}>
+    <section
+      className={styles.section}
+      style={teamRgb ? ({
+        "--team-color": teamColor,
+        "--team-rgb": teamRgb,
+      } as React.CSSProperties) : undefined}
+    >
       <div className={styles.inner}>
 
         <div className={styles.grid}>

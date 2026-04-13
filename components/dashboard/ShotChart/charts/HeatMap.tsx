@@ -37,6 +37,7 @@ export default function HeatMap({ shots }: Props) {
             width={VB_W}
             height={VB_H}
             preserveAspectRatio="none"
+            style={{ animation: "heatIn 0.5s ease" }}
           />
         )}
 

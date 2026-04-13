@@ -36,12 +36,21 @@ export default function ZoneChart({ shots }: Props) {
       >
         <Court />
 
-        {zoneStats.map((zone) => {
+        {zoneStats.map((zone, i) => {
           const hasStat = zone.total > 0;
           const fill = hasStat ? colorScale(zone.pct) : emptyFill;
+          const delay = `${i * 45}ms`;
 
           return (
-            <g key={zone.id}>
+            <g
+              key={zone.id}
+              style={{
+                transformBox: "fill-box",
+                transformOrigin: "center",
+                animation: `zoneIn 0.35s ease backwards`,
+                animationDelay: delay,
+              }}
+            >
               <path
                 d={zone.path}
                 fill={fill}

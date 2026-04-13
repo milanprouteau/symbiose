@@ -72,8 +72,8 @@ const COLUMNS: { key: SortKey; label: string; w: string }[] = [
   { key: "threePct", label: "3P%",     w: "w14" },
   { key: "ftPct",    label: "FT%",     w: "w14" },
   { key: "usage",    label: "USG%",    w: "w14" },
-  { key: "sis",      label: "SIS",        w: "w14" },
-  { key: "sisPx",   label: "SIS-Px", w: "w14" },
+  { key: "sis",      label: "SIS",     w: "w14" },
+  { key: "sisPx",    label: "SIS-Px",  w: "w14" },
 ];
 
 export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
@@ -84,15 +84,12 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
     return [...players].sort((a, b) => {
       const av = a[sortKey];
       const bv = b[sortKey];
-      
-      // Special handling for mockDraftPick - players without picks go to the end
+
       if (sortKey === "mockDraftPick") {
         const aPick = a.mockDraftPick ?? Infinity;
         const bPick = b.mockDraftPick ?? Infinity;
         return sortDir === "asc" ? aPick - bPick : bPick - aPick;
       }
-
-      // Special handling for sis / sisPx - null values go to the end
       if (sortKey === "sis") {
         const aS = a.sis ?? -Infinity;
         const bS = b.sis ?? -Infinity;
@@ -103,11 +100,8 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
         const bS = b.sisPx ?? -Infinity;
         return sortDir === "asc" ? aS - bS : bS - aS;
       }
-      
       if (typeof av === "string" && typeof bv === "string") {
-        return sortDir === "asc"
-          ? av.localeCompare(bv)
-          : bv.localeCompare(av);
+        return sortDir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
       }
       return sortDir === "asc"
         ? (av as number) - (bv as number)
@@ -136,9 +130,7 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
           <tr className={styles.headerRow}>
             <th
               onClick={() => handleSort("mockDraftPick")}
-              className={`${styles.rankHeader} ${
-                sortKey === "mockDraftPick" ? styles.colHeaderActive : ""
-              }`}
+              className={`${styles.rankHeader} ${sortKey === "mockDraftPick" ? styles.colHeaderActive : ""}`}
             >
               Prediction{arrow("mockDraftPick")}
             </th>
@@ -146,9 +138,7 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
               <th
                 key={col.key}
                 onClick={() => handleSort(col.key)}
-                className={`${styles.colHeader} ${styles[col.w]} ${
-                  col.key === sortKey ? styles.colHeaderActive : ""
-                }`}
+                className={`${styles.colHeader} ${styles[col.w]} ${col.key === sortKey ? styles.colHeaderActive : ""}`}
               >
                 {col.label}{arrow(col.key)}
               </th>
@@ -156,11 +146,8 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
           </tr>
         </thead>
         <tbody>
-          {sorted.map((p, i) => (
-            <tr
-              key={p.id}
-              className={styles.bodyRow}
-            >
+          {sorted.map((p) => (
+            <tr key={p.id} className={styles.bodyRow}>
               <td className={styles.rankCell}>
                 {p.mockDraftPick ? `#${p.mockDraftPick}` : "—"}
               </td>
@@ -198,7 +185,6 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                 }
                 if (col.key === "sisPx") {
                   const score = p.sisPx;
-                  // ML range réel : ~23–71, médiane ~50
                   const color =
                     score == null ? undefined
                     : score >= 60 ? "var(--color-primary-orange)"
@@ -213,10 +199,7 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                 }
                 const display = typeof val === "object" ? null : val;
                 return (
-                  <td
-                    key={col.key}
-                    className={`${styles.cell} ${styles[col.w]}`}
-                  >
+                  <td key={col.key} className={`${styles.cell} ${styles[col.w]}`}>
                     {display}
                   </td>
                 );

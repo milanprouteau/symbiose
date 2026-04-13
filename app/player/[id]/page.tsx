@@ -15,6 +15,7 @@ import { buildPlayer } from "@/lib/buildPlayer";
 import { calculatePlayerRankings } from "@/lib/playerRankings";
 import { calculateSIS } from "@/lib/sisScore";
 import { teamDropShadow } from "@/lib/teamColors";
+import PlayerPageClient from "@/components/dashboard/PlayerPageClient";
 import type { PlayRaw } from "@/lib/api";
 import type { PlayerDataBundle, GameLogEntry } from "@/types/stats";
 
@@ -206,23 +207,34 @@ export default async function PlayerPage({ params }: Props) {
   const photoShadow = teamDropShadow(player.team);
 
   return (
-    <div>
-      <PlayerHero
-        player={player}
-        photoShadow={photoShadow}
-        nbaProfile={nbaProfile}
-        allPlayers={allPlayerStats.map((ps) => ({
-          id: ps.athleteId,
-          name: ps.name,
-          team: ps.team,
-        }))}
-      />
-      <PlayerTabs
-        overview={<Overview player={player} rankings={playerRankings} topLineups={stats.topLineups ?? []} sis={sis} sisPx={sisPx} sisBreakdown={sisBreakdown} sisPxBreakdown={sisPxBreakdown} nbaProfile={nbaProfile} />}
-        offensive={<ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />}
-        defensive={<Defensive player={player} radarPlayer={radarPlayer} opponentFG={opponentFG} />}
-        gameLog={<GameLog gameLog={data.gameLog ?? []} />}
-      />
-    </div>
+    <PlayerPageClient
+      name={player.name}
+      photoUrl={player.photoUrl}
+      team={player.team}
+      position={player.position}
+      ppg={player.ppg}
+      rpg={player.rpg}
+      apg={player.apg}
+      hero={
+        <PlayerHero
+          player={player}
+          photoShadow={photoShadow}
+          nbaProfile={nbaProfile}
+          allPlayers={allPlayerStats.map((ps) => ({
+            id: ps.athleteId,
+            name: ps.name,
+            team: ps.team,
+          }))}
+        />
+      }
+      tabs={
+        <PlayerTabs
+          overview={<Overview player={player} rankings={playerRankings} topLineups={stats.topLineups ?? []} sis={sis} sisPx={sisPx} sisBreakdown={sisBreakdown} sisPxBreakdown={sisPxBreakdown} nbaProfile={nbaProfile} />}
+          offensive={<ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />}
+          defensive={<Defensive player={player} radarPlayer={radarPlayer} opponentFG={opponentFG} />}
+          gameLog={<GameLog gameLog={data.gameLog ?? []} />}
+        />
+      }
+    />
   );
 }

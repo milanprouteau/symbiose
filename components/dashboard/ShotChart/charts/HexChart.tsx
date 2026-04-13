@@ -47,6 +47,12 @@ export default function HexChart({ shots }: Props) {
               fillOpacity={0.88}
               stroke="#1D1D1B"
               strokeWidth={1.25}
+              style={{
+                transformBox: "fill-box",
+                transformOrigin: "center",
+                animation: "hexIn 0.3s ease backwards",
+                animationDelay: `${Math.min(i * 18, 400)}ms`,
+              }}
             />
           );
         })}
