@@ -161,11 +161,11 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                       <Link href={`/player/${p.id}`} className={styles.nameLink}>
                         {val as string}
                       </Link>
-                      {profile && badgeStyle && (
+                      {/* {profile && badgeStyle && (
                         <span className={styles.profileBadge} style={badgeStyle}>
                           {PROFILE_LABELS[profile.label] ?? profile.label}
                         </span>
-                      )}
+                      )} */}
                     </td>
                   );
                 }
