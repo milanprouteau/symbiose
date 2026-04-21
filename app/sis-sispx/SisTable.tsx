@@ -13,12 +13,12 @@ export type SisRow = {
   overall: number | null;
   draftTeam: string | null;
   position: string | null;
-  games: number;
-  ppg: number;
-  rpg: number;
-  apg: number;
-  usage: number;
-  sis: number;
+  games: number | null;
+  ppg: number | null;
+  rpg: number | null;
+  apg: number | null;
+  usage: number | null;
+  sis: number | null;
   sisPx: number;
 };
 
@@ -148,13 +148,13 @@ export default function SisTable({ rows }: { rows: SisRow[] }) {
               </td>
               <td className={styles.td}>{r.position ?? "—"}</td>
               <td className={styles.td}>{r.team}</td>
-              <td className={`${styles.td} ${styles.num}`}>{r.games}</td>
-              <td className={`${styles.td} ${styles.num}`}>{r.ppg.toFixed(1)}</td>
-              <td className={`${styles.td} ${styles.num}`}>{r.rpg.toFixed(1)}</td>
-              <td className={`${styles.td} ${styles.num}`}>{r.apg.toFixed(1)}</td>
-              <td className={`${styles.td} ${styles.num}`}>{r.usage.toFixed(1)}</td>
-              <td className={`${styles.td} ${styles.num} ${styles.score}`} style={{ color: sisColor(r.sis) }}>
-                {r.sis.toFixed(1)}
+              <td className={`${styles.td} ${styles.num}`}>{r.games ?? "—"}</td>
+              <td className={`${styles.td} ${styles.num}`}>{r.ppg != null ? r.ppg.toFixed(1) : "—"}</td>
+              <td className={`${styles.td} ${styles.num}`}>{r.rpg != null ? r.rpg.toFixed(1) : "—"}</td>
+              <td className={`${styles.td} ${styles.num}`}>{r.apg != null ? r.apg.toFixed(1) : "—"}</td>
+              <td className={`${styles.td} ${styles.num}`}>{r.usage != null ? r.usage.toFixed(1) : "—"}</td>
+              <td className={`${styles.td} ${styles.num} ${styles.score}`} style={{ color: r.sis != null ? sisColor(r.sis) : undefined }}>
+                {r.sis != null ? r.sis.toFixed(1) : "—"}
               </td>
               <td className={`${styles.td} ${styles.num} ${styles.score}`} style={{ color: sisColor(r.sisPx) }}>
                 {r.sisPx.toFixed(1)}

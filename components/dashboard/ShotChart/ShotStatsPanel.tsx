@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import type { Shot } from "@/types/player";
 import type { PlayerShootingStats } from "@/types/stats";
-import { buildRows, buildRowsFromShots, type ShotStatRow } from "@/lib/shotStats";
+import { buildRows, buildRowsFromShots } from "@/lib/shotStats";
 import styles from "./ShotStatsPanel.module.scss";
 import RadarChart, { type RadarAxis, type RadarPlayer } from "../RadarChart";
 

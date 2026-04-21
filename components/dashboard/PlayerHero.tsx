@@ -18,31 +18,7 @@ type Props = {
   nbaProfile?: NBAProfileData | null;
 };
 
-const PROFILE_LABELS: Record<string, string> = {
-  NBA_READY: "NBA Ready",
-  LATE_BLOOMER: "Late Bloomer",
-  ROLE_PLAYER: "Role Player",
-};
-
-const PROFILE_COLORS: Record<string, string> = {
-  NBA_READY: "var(--color-primary-orange)",
-  LATE_BLOOMER: "var(--color-primary-yellow)",
-  ROLE_PLAYER: "var(--color-text-muted)",
-};
-
-const PROFILE_BG: Record<string, string> = {
-  NBA_READY: "rgba(255,108,34,0.1)",
-  LATE_BLOOMER: "rgba(255,214,0,0.07)",
-  ROLE_PLAYER: "var(--color-surface)",
-};
-
-const PROFILE_BORDER: Record<string, string> = {
-  NBA_READY: "rgba(255,108,34,0.4)",
-  LATE_BLOOMER: "rgba(255,214,0,0.3)",
-  ROLE_PLAYER: "var(--color-border)",
-};
-
-export default function PlayerHero({ player: p, photoShadow, allPlayers, nbaProfile }: Props) {
+export default function PlayerHero({ player: p, photoShadow, allPlayers }: Props) {
   const teamColor = getTeamDisplayColor(p.team);
   const teamRgb = teamColor ? hexToRgb(teamColor) : null;
 

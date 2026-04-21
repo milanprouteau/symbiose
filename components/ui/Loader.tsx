@@ -33,6 +33,7 @@ export default function Loader() {
         className={styles.rotatingContainer}
         id="rotating-image-container"
       >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/MASCOTTE/MASCOTTE-SYMBIOSE_rond.svg"
           alt="Loading Wheel"

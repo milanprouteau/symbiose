@@ -1,111 +1,98 @@
-import draftHistory from "@/data/draft-history.json";
+import sispxMlAll from "@/data/sispx_ml_all.json";
 
-export type DraftedPlayer = {
+export type MLPlayer = {
   name: string;
   team: string;
-  overall: number;
-  draftTeam: string;
   draftYear: number;
-  athleteSourceId: string | null;
+  overall: number | null;
+  draftTeam: string | null;
   position: string | null;
-  // Original 7 stats
-  points: number | null;
-  assists: number | null;
-  rebounds: number | null;
-  steals: number | null;
-  blocks: number | null;
-  usage: number | null;
-  fieldGoalsPct: number | null;
-  // Enriched stats
-  threePtPct: number | null;
-  ftPct: number | null;
-  topg: number | null;
-  tsPct: number | null;
-  orebPct: number | null;
-  astToRatio: number | null;
+  posGroup: string;
+  sisPx: number;
+  sisPx_raw: number;
+  sisPx_pts: number;
+  sisPx_reb: number;
+  sisPx_ast: number;
+  sisPx_mpg: number;
+  sisPx_stl: number;
+  sisPx_blk: number;
+  sisPx_porpag: number;
+  proj_pts: number;
+  proj_reb: number;
+  proj_ast: number;
+  proj_mpg: number;
+  proj_stl: number | null;
+  proj_blk: number | null;
 };
 
-export type SimilarPlayer = DraftedPlayer & { distance: number };
+export type SimilarPlayer = MLPlayer & { distance: number };
 
 export const ALL_STAT_KEYS = [
-  "points",
-  "rebounds",
-  "assists",
-  "steals",
-  "blocks",
-  "fieldGoalsPct",
-  "usage",
-  "threePtPct",
-  "ftPct",
-  "topg",
-  "tsPct",
-  "orebPct",
-  "astToRatio",
+  "sisPx_pts",
+  "sisPx_reb",
+  "sisPx_ast",
+  "sisPx_mpg",
+  "sisPx_stl",
+  "sisPx_blk",
+  "sisPx_porpag",
 ] as const;
 
 export type StatKey = (typeof ALL_STAT_KEYS)[number];
-
 export type StatWeights = Record<StatKey, number>;
 
 export const DEFAULT_WEIGHTS: StatWeights = {
-  points:      1,
-  rebounds:    1,
-  assists:     1,
-  steals:      1,
-  blocks:      1,
-  fieldGoalsPct: 1,
-  usage:       1,
-  threePtPct:  1,
-  ftPct:       1,
-  topg:        1,
-  tsPct:       1,
-  orebPct:     1,
-  astToRatio:  1,
+  sisPx_pts:    1,
+  sisPx_reb:    1,
+  sisPx_ast:    1,
+  sisPx_mpg:    1,
+  sisPx_stl:    1,
+  sisPx_blk:    1,
+  sisPx_porpag: 1,
 };
 
-// Keep players that have all 7 original stats
-const validPlayers = (draftHistory as DraftedPlayer[]).filter(
-  (p) =>
-    p.points != null &&
-    p.rebounds != null &&
-    p.assists != null &&
-    p.steals != null &&
-    p.blocks != null &&
-    p.fieldGoalsPct != null &&
-    p.usage != null,
+// Weight applied to the total sisPx when computing distance — fixed, not user-adjustable.
+// High enough to keep matches at a similar level, but not so high as to ignore profile shape.
+const SISPX_TOTAL_WEIGHT = 3;
+
+const validPlayers = (sispxMlAll as unknown as MLPlayer[]).filter(
+  (p) => p.sisPx != null && p.posGroup != null,
 );
 
-// Compute z-params per stat from non-null values
-type ZParams = Record<StatKey, { mean: number; std: number }>;
+type ZParams = Record<string, { mean: number; std: number }>;
 
 function computeZParams(): ZParams {
-  const result = {} as ZParams;
+  const result: ZParams = {};
+
   for (const key of ALL_STAT_KEYS) {
     const values = validPlayers
-      .map((p) => p[key] as number | null)
+      .map((p) => p[key])
       .filter((v): v is number => v != null);
     const n = values.length || 1;
     const mean = values.reduce((a, b) => a + b, 0) / n;
     const variance = values.reduce((a, v) => a + (v - mean) ** 2, 0) / n;
     result[key] = { mean, std: Math.sqrt(variance) || 1 };
   }
+
+  // Z-params for total sisPx
+  const sisPxVals = validPlayers.map((p) => p.sisPx).filter((v) => v != null);
+  const n = sisPxVals.length || 1;
+  const mean = sisPxVals.reduce((a, b) => a + b, 0) / n;
+  const variance = sisPxVals.reduce((a, v) => a + (v - mean) ** 2, 0) / n;
+  result["sisPx"] = { mean, std: Math.sqrt(variance) || 1 };
+
   return result;
 }
 
 const zParams = computeZParams();
 
-function zNorm(value: number, key: StatKey): number {
+function zNorm(value: number, key: string): number {
   return (value - zParams[key].mean) / zParams[key].std;
 }
 
-/**
- * Weighted Euclidean distance with null-skipping.
- * Normalizes by total active weight so distances stay comparable
- * regardless of how many stats are available for a historical player.
- */
 function weightedDistance(
   current: Record<StatKey, number>,
-  historical: DraftedPlayer,
+  currentSisPx: number,
+  historical: MLPlayer,
   weights: StatWeights,
 ): number {
   let sum = 0;
@@ -114,72 +101,42 @@ function weightedDistance(
   for (const key of ALL_STAT_KEYS) {
     const w = weights[key] ?? 0;
     if (w === 0) continue;
-
-    const hVal = historical[key] as number | null;
-    if (hVal == null) continue; // skip missing historical stats
-
+    const hVal = historical[key];
+    if (hVal == null) continue;
     const zC = zNorm(current[key], key);
     const zH = zNorm(hVal, key);
     sum += w * (zC - zH) ** 2;
     totalWeight += w;
   }
 
+  // Total sisPx — anchors matches to a similar performance level
+  const zCS = zNorm(currentSisPx, "sisPx");
+  const zHS = zNorm(historical.sisPx, "sisPx");
+  sum += SISPX_TOTAL_WEIGHT * (zCS - zHS) ** 2;
+  totalWeight += SISPX_TOTAL_WEIGHT;
+
   return totalWeight > 0 ? Math.sqrt(sum / totalWeight) : Infinity;
 }
 
-/** Convert distance to 0–100 match score */
 export function distanceToScore(distance: number): number {
   return Math.max(0, Math.round(100 - distance * 20));
 }
 
-/**
- * Find the N most similar historical drafted players.
- * Backward-compatible wrapper using default weights.
- */
-export function findSimilarPlayers(
-  playerStats: {
-    ppg: string;
-    rpg: string;
-    apg: string;
-    spg: string;
-    bpg: string;
-    fgPct: number;
-    usage: number;
-  },
-  n = 5,
-): SimilarPlayer[] {
-  return findSimilarPlayersWeighted(
-    {
-      points:        parseFloat(playerStats.ppg),
-      rebounds:      parseFloat(playerStats.rpg),
-      assists:       parseFloat(playerStats.apg),
-      steals:        parseFloat(playerStats.spg),
-      blocks:        parseFloat(playerStats.bpg),
-      fieldGoalsPct: playerStats.fgPct,
-      usage:         playerStats.usage,
-      threePtPct:    0,
-      ftPct:         0,
-      topg:          0,
-      tsPct:         0,
-      orebPct:       0,
-      astToRatio:    0,
-    },
-    { ...DEFAULT_WEIGHTS, threePtPct: 0, ftPct: 0, topg: 0, tsPct: 0, orebPct: 0, astToRatio: 0 },
-    n,
-  );
-}
-
-/**
- * Full weighted similarity with all 13 stats.
- */
 export function findSimilarPlayersWeighted(
-  stats: Record<StatKey, number>,
+  scores: Record<StatKey, number>,
+  sisPxTotal: number,
+  posGroup: string,
   weights: StatWeights,
   n = 5,
+  filterByPos = true,
 ): SimilarPlayer[] {
-  const scored = validPlayers.map((p) => ({
+  const pool = filterByPos
+    ? validPlayers.filter((p) => p.posGroup === posGroup)
+    : validPlayers;
+
+  const scored = pool.map((p) => ({
     ...p,
-    distance: weightedDistance(stats, p, weights),
+    distance: weightedDistance(scores, sisPxTotal, p, weights),
   }));
 
   scored.sort((a, b) => a.distance - b.distance);

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import type { Player } from "@/types/player";
 import type { StatRanking } from "@/lib/playerRankings";
 import type { LineupEntry } from "@/types/stats";
-import { findSimilarPlayers, distanceToScore } from "@/lib/similarPlayers";
+import { findSimilarPlayersWeighted, distanceToScore, DEFAULT_WEIGHTS, type StatKey } from "@/lib/similarPlayers";
 import LineupAccordion from "./LineupAccordion";
 import StatCounter from "@/components/ui/StatCounter";
 import { useInView } from "@/hooks/useInView";
@@ -26,6 +26,7 @@ type SISPxBreakdown = {
   sisPx_stl?: number;
   sisPx_blk?: number;
   sisPx_fg?: number;
+  sisPx_porpag?: number;
   proj_pts: number;
   proj_reb: number;
   proj_ast: number;
@@ -55,19 +56,27 @@ type Props = {
   nbaProfile?: NBAProfileData | null;
 };
 
-export default function Overview({ player: p, rankings, topLineups = [], sis, sisPx, sisBreakdown, sisPxBreakdown, nbaProfile }: Props) {
+export default function Overview({ player: p, rankings, topLineups = [], sis, sisPx, sisBreakdown, sisPxBreakdown }: Props) {
   const [activeTooltip, setActiveTooltip] = useState<"sis" | "sisPx" | null>(null);
   const [similarRef, similarInView] = useInView({ threshold: 0.1 });
 
-  const similarPlayers = findSimilarPlayers({
-    ppg: p.ppg,
-    rpg: p.rpg,
-    apg: p.apg,
-    spg: p.spg,
-    bpg: p.bpg,
-    fgPct: p.fgPct,
-    usage: p.usage,
-  });
+  const similarPlayers = (() => {
+    if (!sisPxBreakdown) return [];
+    const scores: Record<StatKey, number> = {
+      sisPx_pts:    sisPxBreakdown.sisPx_pts,
+      sisPx_reb:    sisPxBreakdown.sisPx_reb,
+      sisPx_ast:    sisPxBreakdown.sisPx_ast,
+      sisPx_mpg:    sisPxBreakdown.sisPx_mpg,
+      sisPx_stl:    sisPxBreakdown.sisPx_stl ?? 50,
+      sisPx_blk:    sisPxBreakdown.sisPx_blk ?? 50,
+      sisPx_porpag: sisPxBreakdown.sisPx_porpag ?? 50,
+    };
+    const posGroupMapped = sisPxBreakdown.posGroup === "G" ? "Guard"
+      : sisPxBreakdown.posGroup === "BIG" ? "Center"
+      : sisPxBreakdown.posGroup === "WING" ? "Forward"
+      : sisPxBreakdown.posGroup;
+    return findSimilarPlayersWeighted(scores, sisPx ?? 50, posGroupMapped, DEFAULT_WEIGHTS, 5, true);
+  })();
 
   const mainStats = [
     { label: "PPG", value: Number(p.ppg), rank: rankings?.ppg },
@@ -248,20 +257,19 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                 <div className={styles.similarInfo}>
                   <span className={styles.similarName}>{sp.name}</span>
                   <span className={styles.similarMeta}>
-                    {sp.position} · {sp.team} ({sp.draftYear})
+                    {sp.posGroup} · {sp.team} ({sp.draftYear})
                   </span>
                 </div>
                 <div className={styles.similarDraft}>
-                  <span className={styles.similarPick}>Pick #{sp.overall}</span>
+                  <span className={styles.similarPick}>Pick #{sp.overall ?? "?"}</span>
                   <span className={styles.similarTeam}>{sp.draftTeam}</span>
                 </div>
               </div>
               <div className={styles.similarStats}>
-                <span>{sp.points} pts</span>
-                <span>{sp.rebounds} reb</span>
-                <span>{sp.assists} ast</span>
-                <span>{sp.fieldGoalsPct}% FG</span>
-                <span>{sp.usage}% Usage</span>
+                <span>{sp.proj_pts.toFixed(1)} pts</span>
+                <span>{sp.proj_reb.toFixed(1)} reb</span>
+                <span>{sp.proj_ast.toFixed(1)} ast</span>
+                <span>{sp.sisPx} SisPx</span>
               </div>
               {(() => {
                 const score = distanceToScore(sp.distance);

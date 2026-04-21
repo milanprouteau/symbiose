@@ -88,6 +88,7 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
     return () => cancelAnimationFrame(rafRef.current);
   }, [inView, animKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  /* eslint-disable react-hooks/refs */
   const polygons = useMemo(() => {
     const prev = prevPlayersRef.current;
     return players.map((player, pi) => {
@@ -118,6 +119,7 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
       return { ...player, points };
     });
   }, [players, axes, cx, cy, maxR, angleStep, progress]);
+  /* eslint-enable react-hooks/refs */
 
   return (
     <div

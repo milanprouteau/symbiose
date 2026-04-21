@@ -15,9 +15,6 @@ export function buildRows(ss: PlayerShootingStats): ShotStatRow[] {
   const twoJ = ss.twoPointJumpers ?? { attempted: 0, made: 0, pct: 0 };
   const threeJ = ss.threePointJumpers ?? { attempted: 0, made: 0, pct: 0 };
 
-  const closeAttempted = dunks.attempted + layups.attempted + tipIns.attempted;
-  const closeMade = dunks.made + layups.made + tipIns.made;
-
   return [
     { 
       label: "Dunks", 

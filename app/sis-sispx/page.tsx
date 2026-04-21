@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import prospectsSisData from "@/data/prospects-sis.json";
+import sispxMlData from "@/data/sispx_ml.json";
 import draftSisData from "@/data/players/draft-sis-all.json";
 import SisTable, { type SisRow } from "./SisTable";
 import styles from "./page.module.scss";
@@ -10,20 +10,20 @@ export const metadata: Metadata = {
 };
 
 export default function SisSispxPage() {
-  const prospects: SisRow[] = (prospectsSisData as typeof prospectsSisData).map((p) => ({
-    id: p.id,
+  const prospects: SisRow[] = (sispxMlData as typeof sispxMlData).map((p) => ({
+    id: p.id ?? 0,
     name: p.name,
     team: p.team,
     year: null,
-    overall: null,
+    overall: p.overall ?? null,
     draftTeam: null,
-    position: p.position ?? null,
-    games: p.games,
-    ppg: p.ppg,
-    rpg: p.rpg,
-    apg: p.apg,
-    usage: p.usage,
-    sis: p.sis,
+    position: null,
+    games: null,
+    ppg: null,
+    rpg: null,
+    apg: null,
+    usage: null,
+    sis: null,
     sisPx: p.sisPx,
   }));
 

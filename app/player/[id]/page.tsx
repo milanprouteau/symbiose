@@ -17,7 +17,7 @@ import { calculateSIS } from "@/lib/sisScore";
 import { teamDropShadow } from "@/lib/teamColors";
 import PlayerPageClient from "@/components/dashboard/PlayerPageClient";
 import type { PlayRaw } from "@/lib/api";
-import type { PlayerDataBundle, GameLogEntry } from "@/types/stats";
+import type { PlayerDataBundle } from "@/types/stats";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -125,7 +125,7 @@ export default async function PlayerPage({ params }: Props) {
   type MLSisPxEntry = {
     name: string; sisPx: number; posGroup: string;
     sisPx_pts: number; sisPx_reb: number; sisPx_ast: number; sisPx_mpg: number;
-    sisPx_stl?: number; sisPx_blk?: number; sisPx_fg?: number;
+    sisPx_stl?: number; sisPx_blk?: number; sisPx_fg?: number; sisPx_porpag?: number;
     proj_pts: number; proj_reb: number; proj_ast: number; proj_mpg: number;
     proj_stl?: number; proj_blk?: number; proj_fg_pct?: number;
   };
@@ -137,7 +137,7 @@ export default async function PlayerPage({ params }: Props) {
   let sisPx: number | null = null;
   let sisPxBreakdown: {
     sisPx_pts: number; sisPx_reb: number; sisPx_ast: number; sisPx_mpg: number;
-    sisPx_stl?: number; sisPx_blk?: number; sisPx_fg?: number;
+    sisPx_stl?: number; sisPx_blk?: number; sisPx_fg?: number; sisPx_porpag?: number;
     proj_pts: number; proj_reb: number; proj_ast: number; proj_mpg: number;
     proj_stl?: number; proj_blk?: number; proj_fg_pct?: number;
     posGroup: string;
@@ -154,7 +154,7 @@ export default async function PlayerPage({ params }: Props) {
       sisPxBreakdown = {
         sisPx_pts: entry.sisPx_pts, sisPx_reb: entry.sisPx_reb,
         sisPx_ast: entry.sisPx_ast, sisPx_mpg: entry.sisPx_mpg,
-        sisPx_stl: entry.sisPx_stl, sisPx_blk: entry.sisPx_blk, sisPx_fg: entry.sisPx_fg,
+        sisPx_stl: entry.sisPx_stl, sisPx_blk: entry.sisPx_blk, sisPx_fg: entry.sisPx_fg, sisPx_porpag: entry.sisPx_porpag,
         proj_pts: entry.proj_pts,   proj_reb: entry.proj_reb,
         proj_ast: entry.proj_ast,   proj_mpg: entry.proj_mpg,
         proj_stl: entry.proj_stl,   proj_blk: entry.proj_blk, proj_fg_pct: entry.proj_fg_pct,

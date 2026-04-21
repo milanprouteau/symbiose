@@ -28,36 +28,8 @@ export type PlayerEntry = {
 type SortKey = keyof PlayerEntry;
 type SortDir = "asc" | "desc";
 
-const PROFILE_LABELS: Record<string, string> = {
-  NBA_READY:    "NBA Ready",
-  LATE_BLOOMER: "Late Bloomer",
-  ROLE_PLAYER:  "Role Player",
-};
 
-const BADGE_STYLES: Record<string, React.CSSProperties> = {
-  NBA_READY: {
-    color: "var(--color-primary-orange)",
-    borderColor: "rgba(255,108,34,0.35)",
-    background: "rgba(255,108,34,0.07)",
-  },
-  LATE_BLOOMER: {
-    color: "var(--color-primary-yellow)",
-    borderColor: "rgba(255,214,0,0.3)",
-    background: "rgba(255,214,0,0.06)",
-  },
-  ROLE_PLAYER: {
-    color: "var(--color-text-muted)",
-    borderColor: "var(--color-border)",
-    background: "transparent",
-  },
-};
 
-const COL_WIDTH_MAP: Record<string, string> = {
-  "w-44": "w44",
-  "w-12": "w12",
-  "w-28": "w28",
-  "w-14": "w14",
-};
 
 const COLUMNS: { key: SortKey; label: string; w: string }[] = [
   { key: "name",     label: "Joueur",  w: "w44" },
@@ -154,18 +126,11 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
               {COLUMNS.map((col) => {
                 const val = p[col.key];
                 if (col.key === "name") {
-                  const profile = p.nbaProfile;
-                  const badgeStyle = profile ? BADGE_STYLES[profile.label] : undefined;
                   return (
                     <td key={col.key} className={`${styles.cell} ${styles[col.w]}`}>
                       <Link href={`/player/${p.id}`} className={styles.nameLink}>
                         {val as string}
                       </Link>
-                      {/* {profile && badgeStyle && (
-                        <span className={styles.profileBadge} style={badgeStyle}>
-                          {PROFILE_LABELS[profile.label] ?? profile.label}
-                        </span>
-                      )} */}
                     </td>
                   );
                 }

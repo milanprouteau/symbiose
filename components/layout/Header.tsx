@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Scale, Users } from "lucide-react";
+import { Scale } from "lucide-react";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 import styles from "./Header.module.scss";
 

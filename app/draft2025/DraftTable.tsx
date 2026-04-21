@@ -79,7 +79,7 @@ export default function DraftTable({ data, year, mae, corr }: Props) {
   }
 
   const rows = useMemo(() => {
-    let filtered = posFilter === "all" ? data : data.filter((r) => r.posGroup === posFilter);
+    const filtered = posFilter === "all" ? data : data.filter((r) => r.posGroup === posFilter);
     return [...filtered].sort((a, b) => {
       const av = a[sortKey]; const bv = b[sortKey];
       const cmp = typeof av === "string" ? (av as string).localeCompare(bv as string) : (av as number) - (bv as number);

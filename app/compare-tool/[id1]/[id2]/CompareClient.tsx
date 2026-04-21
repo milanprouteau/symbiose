@@ -154,8 +154,9 @@ export default function CompareClient({
   const [collapsedSections, setCollapsedSections] = useState<Set<string>>(new Set());
   const [isNavigating, setIsNavigating] = useState(false);
 
-  // Reset loader if navigation was cancelled or failed
+  // Reset loader when navigation completes (ids change in props)
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsNavigating(false);
   }, [id1, id2]);
 

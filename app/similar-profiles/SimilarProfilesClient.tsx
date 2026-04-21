@@ -6,28 +6,29 @@ import {
   distanceToScore,
   DEFAULT_WEIGHTS,
   type StatWeights,
+  type StatKey,
 } from "@/lib/similarPlayers";
 import type { PlayerProfileData } from "./page";
 import styles from "./page.module.scss";
 
-const STAT_DEFS: { key: keyof StatWeights; label: string; statKey: keyof PlayerProfileData; decimals: number; suffix?: string }[] = [
-  { key: "points",        label: "PPG",    statKey: "points",        decimals: 1 },
-  { key: "rebounds",      label: "RPG",    statKey: "rebounds",      decimals: 1 },
-  { key: "assists",       label: "APG",    statKey: "assists",       decimals: 1 },
-  { key: "steals",        label: "SPG",    statKey: "steals",        decimals: 1 },
-  { key: "blocks",        label: "BPG",    statKey: "blocks",        decimals: 1 },
-  { key: "fieldGoalsPct", label: "FG%",    statKey: "fieldGoalsPct", decimals: 1, suffix: "%" },
-  { key: "usage",         label: "USG%",   statKey: "usage",         decimals: 1, suffix: "%" },
-  { key: "threePtPct",    label: "3PT%",   statKey: "threePtPct",    decimals: 1, suffix: "%" },
-  { key: "ftPct",         label: "FT%",    statKey: "ftPct",         decimals: 1, suffix: "%" },
-  { key: "topg",          label: "TO/G",   statKey: "topg",          decimals: 1 },
-  { key: "tsPct",         label: "TS%",    statKey: "tsPct",         decimals: 1, suffix: "%" },
-  { key: "orebPct",       label: "OREB%",  statKey: "orebPct",       decimals: 1, suffix: "%" },
-  { key: "astToRatio",    label: "AST/TO", statKey: "astToRatio",    decimals: 2 },
+const STAT_DEFS: { key: StatKey; label: string }[] = [
+  { key: "sisPx_pts",    label: "Scoring"     },
+  { key: "sisPx_reb",    label: "Rebonds"      },
+  { key: "sisPx_ast",    label: "Playmaking"   },
+  { key: "sisPx_mpg",    label: "Minutes"      },
+  { key: "sisPx_stl",    label: "Steals"       },
+  { key: "sisPx_blk",    label: "Blocks"       },
+  { key: "sisPx_porpag", label: "Impact"       },
 ];
 
 const WEIGHT_STEPS = [0, 0.5, 1, 1.5, 2, 3];
 const WEIGHT_LABELS: Record<number, string> = { 0: "OFF", 0.5: "×0.5", 1: "×1", 1.5: "×1.5", 2: "×2", 3: "×3" };
+
+const POS_COLORS: Record<string, string> = {
+  Guard:   "var(--color-primary-orange)",
+  Forward: "#60b8f5",
+  Center:  "#9b7fe8",
+};
 
 function scoreColor(score: number): string {
   if (score >= 80) return "var(--color-primary-orange)";
@@ -38,45 +39,37 @@ function scoreColor(score: number): string {
 
 export default function SimilarProfilesClient({ players }: { players: PlayerProfileData[] }) {
   const [weights, setWeights] = useState<StatWeights>({ ...DEFAULT_WEIGHTS });
+  const [filterByPos, setFilterByPos] = useState(true);
 
   const allResults = useMemo(() =>
-    players.map((p) => ({
-      player: p,
-      similar: findSimilarPlayersWeighted(
-        {
-          points:        p.points,
-          rebounds:      p.rebounds,
-          assists:       p.assists,
-          steals:        p.steals,
-          blocks:        p.blocks,
-          fieldGoalsPct: p.fieldGoalsPct,
-          usage:         p.usage,
-          threePtPct:    p.threePtPct,
-          ftPct:         p.ftPct,
-          topg:          p.topg,
-          tsPct:         p.tsPct,
-          orebPct:       p.orebPct,
-          astToRatio:    p.astToRatio,
-        },
-        weights,
-        5,
-      ),
-    })),
-    [players, weights],
+    players.map((p) => {
+      const scores: Record<StatKey, number> = {
+        sisPx_pts:    p.sisPx_pts,
+        sisPx_reb:    p.sisPx_reb,
+        sisPx_ast:    p.sisPx_ast,
+        sisPx_mpg:    p.sisPx_mpg,
+        sisPx_stl:    p.sisPx_stl,
+        sisPx_blk:    p.sisPx_blk,
+        sisPx_porpag: p.sisPx_porpag,
+      };
+      return {
+        player: p,
+        similar: findSimilarPlayersWeighted(scores, p.sisPx, p.posGroup, weights, 5, filterByPos),
+      };
+    }),
+    [players, weights, filterByPos],
   );
 
-  const setWeight = (key: keyof StatWeights, val: number) => {
+  const setWeight = (key: StatKey, val: number) =>
     setWeights((w) => ({ ...w, [key]: val }));
-  };
 
   const resetWeights = () => setWeights({ ...DEFAULT_WEIGHTS });
-
   const allDefault = Object.values(weights).every((v) => v === 1);
 
   return (
     <div className={styles.clientRoot}>
 
-      {/* ── Weight panel ── */}
+      {/* ── Controls ── */}
       <div className={styles.weightPanel}>
         <div className={styles.weightGrid}>
           {STAT_DEFS.map(({ key, label }) => {
@@ -103,6 +96,22 @@ export default function SimilarProfilesClient({ players }: { players: PlayerProf
             );
           })}
         </div>
+
+        <div className={styles.posFilterRow}>
+          <button
+            className={`${styles.posFilterBtn} ${filterByPos ? styles.posFilterActive : ""}`}
+            onClick={() => setFilterByPos(true)}
+          >
+            Même poste
+          </button>
+          <button
+            className={`${styles.posFilterBtn} ${!filterByPos ? styles.posFilterActive : ""}`}
+            onClick={() => setFilterByPos(false)}
+          >
+            Tous postes
+          </button>
+        </div>
+
         {!allDefault && (
           <button className={styles.resetBtn} onClick={resetWeights}>
             Réinitialiser
@@ -113,16 +122,30 @@ export default function SimilarProfilesClient({ players }: { players: PlayerProf
       {/* ── Player cards ── */}
       <div className={styles.cardList}>
         {allResults.map(({ player: p, similar }) => (
-          <div key={p.id} className={styles.card}>
+          <div key={p.name} className={styles.card}>
 
-            {/* Player header */}
+            {/* Header */}
             <div className={styles.cardHeader}>
               <div className={styles.cardIdentity}>
-                <a href={`/player/${p.id}`} className={styles.cardName}>{p.name}</a>
-                <span className={styles.cardMeta}>{p.position} · {p.team} · {p.games} G</span>
+                <a href={p.id ? `/player/${p.id}` : "#"} className={styles.cardName}>{p.name}</a>
+                <span className={styles.cardMeta}>
+                  <span className={styles.posTag} style={{ color: POS_COLORS[p.posGroup] ?? "inherit" }}>
+                    {p.posGroup}
+                  </span>
+                  {" · "}{p.team}
+                  {p.overall != null && <>{" · "}#{p.overall}</>}
+                  {" · "}<span className={styles.sisPxTotal}>{p.sisPx} SisPx</span>
+                </span>
+                <div className={styles.projStats}>
+                  <span>{p.proj_pts.toFixed(1)} pts</span>
+                  <span>{p.proj_reb.toFixed(1)} reb</span>
+                  <span>{p.proj_ast.toFixed(1)} ast</span>
+                  <span className={styles.projLabel}>proj. NBA/36</span>
+                </div>
               </div>
               <div className={styles.cardStats}>
-                {STAT_DEFS.map(({ key, label, statKey, decimals, suffix }) => {
+                {STAT_DEFS.map(({ key, label }) => {
+                  const val = p[key as keyof PlayerProfileData] as number;
                   const isOff = weights[key] === 0;
                   const boosted = weights[key] > 1;
                   return (
@@ -130,10 +153,11 @@ export default function SimilarProfilesClient({ players }: { players: PlayerProf
                       key={key}
                       className={`${styles.statChip} ${isOff ? styles.statChipOff : ""} ${boosted ? styles.statChipBoosted : ""}`}
                     >
-                      <span className={styles.statChipVal}>
-                        {(p[statKey] as number).toFixed(decimals)}{suffix ?? ""}
-                      </span>
+                      <span className={styles.statChipVal}>{val.toFixed(0)}</span>
                       <span className={styles.statChipLabel}>{label}</span>
+                      <div className={styles.statChipBar}>
+                        <div className={styles.statChipBarFill} style={{ width: `${val}%` }} />
+                      </div>
                     </div>
                   );
                 })}
@@ -149,9 +173,13 @@ export default function SimilarProfilesClient({ players }: { players: PlayerProf
                     <span className={styles.similarRank}>{i + 1}</span>
                     <span className={styles.similarName}>{sp.name}</span>
                     <span className={styles.similarMeta}>
-                      {sp.position ?? "—"} · {sp.team} · {sp.draftYear}
+                      <span style={{ color: POS_COLORS[sp.posGroup] ?? "inherit", fontSize: "0.7rem" }}>
+                        {sp.posGroup}
+                      </span>
+                      {" · "}{sp.team}{" · "}{sp.draftYear}
                     </span>
-                    <span className={styles.similarPick}>#{sp.overall}</span>
+                    <span className={styles.similarPick}>#{sp.overall ?? "?"}</span>
+                    <span className={styles.similarSisPx}>{sp.sisPx}</span>
                     <span className={styles.similarScore} style={{ color: scoreColor(score) }}>
                       {score}%
                     </span>
