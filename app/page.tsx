@@ -95,7 +95,9 @@ export default async function HomePage() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Top NCAA Prospects</h1>
-      <PlayerTable players={enrichedPlayers} />
+      <div className={styles.tableCard}>
+        <PlayerTable players={enrichedPlayers} />
+      </div>
     </div>
   );
 }

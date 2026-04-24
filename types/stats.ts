@@ -170,6 +170,7 @@ export type PlayerProfile = {
   position: string | null;
   height: number | null;       // in inches
   weight: number | null;       // in lbs
+  wingspan: number | null;     // compact feet-inch notation, e.g. 72 = 7'2", 610 = 6'10" (manually added, not returned by API)
   hometown: {
     city: string | null;
     state: string | null;

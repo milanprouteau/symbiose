@@ -1,5 +1,5 @@
 import type { PlayerSeasonStats, PlayerProfile } from "@/types/stats";
-import { formatHeight, formatWeight, calculateAge } from "@/lib/formatters";
+import { formatHeight, formatWeight, formatWingspan, calculateAge } from "@/lib/formatters";
 
 export type StatRow = {
   label: string;
@@ -63,6 +63,8 @@ export function buildStatSections(
   const height2  = formatHeight(profile2?.height);
   const weight1  = formatWeight(profile1?.weight);
   const weight2  = formatWeight(profile2?.weight);
+  const wingspan1 = formatWingspan(profile1?.wingspan);
+  const wingspan2 = formatWingspan(profile2?.wingspan);
 
   const row = (
     label: string,
@@ -77,12 +79,13 @@ export function buildStatSections(
     {
       title: "General",
       rows: [
-        row("Age",      age1 ?? "—",            age2 ?? "—"),
-        row("Taille",   height1 ?? "—",          height2 ?? "—"),
-        row("Poids",    weight1 ?? "—",          weight2 ?? "—"),
-        row("Position", profile1?.position ?? "—", profile2?.position ?? "—"),
-        row("Games",    p1.games,                p2.games),
-        row("MPG",      fix1(mpg1),              fix1(mpg2)),
+        row("Age",       age1 ?? "—",              age2 ?? "—"),
+        row("Taille",    height1 ?? "—",            height2 ?? "—"),
+        row("Poids",     weight1 ?? "—",            weight2 ?? "—"),
+        row("Envergure", wingspan1 ?? "—",          wingspan2 ?? "—"),
+        row("Position",  profile1?.position ?? "—", profile2?.position ?? "—"),
+        row("Games",     p1.games,                  p2.games),
+        row("MPG",       fix1(mpg1),                fix1(mpg2)),
       ],
     },
     {

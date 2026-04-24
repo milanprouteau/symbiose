@@ -25,6 +25,8 @@ export type Player = {
   heightInches: number | null; // raw inches
   weight: string | null;       // formatted e.g. "250 lbs"
   weightRaw: number | null;    // raw lbs
+  wingspan: string | null;     // formatted e.g. "2m18"
+  wingspanInches: number | null; // raw inches
   hometown: string | null;     // formatted e.g. "Miami, FL"
   dateOfBirth: string | null;  // formatted e.g. "Jan 15, 2005"
 

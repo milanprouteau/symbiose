@@ -1,6 +1,6 @@
 import type { PlayerDataBundle } from "@/types/stats";
 import type { Player } from "@/types/player";
-import { formatHeight, formatWeight } from "@/lib/formatters";
+import { formatHeight, formatWeight, formatWingspan, wingspanToInches } from "@/lib/formatters";
 import { getTeamAbbreviation } from "@/lib/teamColors";
 
 /** Build a team logo slug from the team name */
@@ -44,6 +44,8 @@ export function buildPlayer(bundle: PlayerDataBundle): Player {
     heightInches: p?.height ?? null,
     weight: formatWeight(p?.weight),
     weightRaw: p?.weight ?? null,
+    wingspan: formatWingspan(p?.wingspan),
+    wingspanInches: wingspanToInches(p?.wingspan),
     hometown: p?.hometown
       ? [p.hometown.city, p.hometown.state].filter(Boolean).join(", ") || null
       : null,

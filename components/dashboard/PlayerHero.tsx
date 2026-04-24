@@ -78,6 +78,12 @@ export default function PlayerHero({ player: p, photoShadow, allPlayers }: Props
                     <span className={styles.overviewValue}>{p.weight}</span>
                   </li>
                 )}
+                {p.wingspan && (
+                  <li className={styles.overviewItem}>
+                    <span className={styles.overviewLabel}>Envergure</span>
+                    <span className={styles.overviewValue}>{p.wingspan}</span>
+                  </li>
+                )}
                 {p.dateOfBirth && (
                   <li className={styles.overviewItem}>
                     <span className={styles.overviewLabel}>Né le</span>

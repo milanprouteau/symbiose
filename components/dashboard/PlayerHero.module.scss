@@ -55,7 +55,10 @@
   z-index: 1;
 
   @media (min-width: 1024px) {
-    position: static;
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
     order: 1;
     padding: 0 0.75rem;
     background: linear-gradient(
@@ -64,6 +67,14 @@
       rgba(var(--team-rgb, 255,108,34), 0.05) 50%,
       rgba(var(--team-rgb, 255,108,34), 0.14) 100%
     );
+
+    /* Desktop : séparateur à droite du joueur → débordement à gauche. */
+    &::before,
+    &::after {
+      right: auto;
+      left: 0;
+      transform: translateX(-50%);
+    }
   }
 }
 

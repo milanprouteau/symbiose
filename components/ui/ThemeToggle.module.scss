@@ -11,10 +11,19 @@
   cursor: pointer;
   transition: color 0.2s, border-color 0.2s, background 0.2s;
   flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
 
   &:hover {
     color: var(--color-text);
     border-color: var(--color-primary-orange);
     background: rgba(255, 108, 34, 0.08);
   }
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
 }

@@ -15,6 +15,7 @@ import { buildPlayer } from "@/lib/buildPlayer";
 import { calculatePlayerRankings } from "@/lib/playerRankings";
 import { calculateSIS } from "@/lib/sisScore";
 import { teamDropShadow } from "@/lib/teamColors";
+import { loadWingspans, getWingspan } from "@/lib/wingspan";
 import PlayerPageClient from "@/components/dashboard/PlayerPageClient";
 import type { PlayRaw } from "@/lib/api";
 import type { PlayerDataBundle } from "@/types/stats";
@@ -80,11 +81,30 @@ export default async function PlayerPage({ params }: Props) {
 
   const data = JSON.parse(raw);
 
+  // Load manual wingspan data (single source of truth for display)
+  const wingspans = await loadWingspans();
+  const manualWingspan = getWingspan(wingspans, id);
+
+  const profile = data.profile ?? null;
+  const mergedProfile = profile
+    ? { ...profile, wingspan: manualWingspan ?? profile.wingspan ?? null }
+    : manualWingspan != null
+      ? {
+          jersey: null,
+          position: null,
+          height: null,
+          weight: null,
+          wingspan: manualWingspan,
+          hometown: null,
+          dateOfBirth: null,
+        }
+      : null;
+
   const stats: PlayerDataBundle = {
     playerStats: data.playerStats,
     shootingStats: data.shootingStats,
     teamStats: data.teamStats,
-    profile: data.profile ?? null,
+    profile: mergedProfile,
     topLineups: data.topLineups ?? [],
   };
 

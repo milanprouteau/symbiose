@@ -178,35 +178,44 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
         {/* Player polygons */}
         {polygons.map((p, idx) => {
           const pts = p.points.map((pt) => `${pt.x},${pt.y}`).join(" ");
+          const dotsReady = progress > 0.65;
           return (
             <g key={idx}>
               <polygon
                 points={pts}
                 fill={p.color}
-                fillOpacity={0.15}
+                fillOpacity={0.15 * progress}
                 stroke={p.color}
                 strokeWidth={2}
+                strokeOpacity={0.4 + 0.6 * progress}
               />
-              {p.points.map((pt, j) => (
-                <circle
-                  key={j}
-                  cx={pt.x}
-                  cy={pt.y}
-                  r={tooltip?.label === axes[j].label && tooltip?.color === p.color ? 5 : 3}
-                  fill={p.color}
-                  style={{ cursor: "pointer", transition: "r 0.15s" }}
-                  onMouseEnter={() =>
-                    setTooltip({
-                      x: pt.x,
-                      y: pt.y,
-                      label: axes[j].label,
-                      value: (p.values[axes[j].key] ?? 0).toFixed(1),
-                      color: p.color,
-                    })
-                  }
-                  onMouseLeave={() => setTooltip(null)}
-                />
-              ))}
+              {p.points.map((pt, j) => {
+                const isHovered = tooltip?.label === axes[j].label && tooltip?.color === p.color;
+                return (
+                  <circle
+                    key={j}
+                    cx={pt.x}
+                    cy={pt.y}
+                    r={isHovered ? 5 : 3}
+                    fill={p.color}
+                    style={{
+                      cursor: "pointer",
+                      opacity: dotsReady ? 1 : 0,
+                      transition: `opacity 0.35s ease ${j * 45}ms, r 0.15s`,
+                    }}
+                    onMouseEnter={() =>
+                      setTooltip({
+                        x: pt.x,
+                        y: pt.y,
+                        label: axes[j].label,
+                        value: (p.values[axes[j].key] ?? 0).toFixed(1),
+                        color: p.color,
+                      })
+                    }
+                    onMouseLeave={() => setTooltip(null)}
+                  />
+                );
+              })}
             </g>
           );
         })}
