@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# Claude Code (local settings & runtime locks)
+.claude/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
@@ -44,3 +47,6 @@ next-env.d.ts
 contexte.md
 TODO.md
 PlayerList.md
+
+# fetched PBP cache (regenerable via scripts/fetch-game-pbp.mjs)
+/data/pbp/

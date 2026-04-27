@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 import Loader from "@/components/ui/Loader";
 import Link from "next/link";
 import { motion, AnimatePresence, LayoutGroup } from "motion/react";
@@ -17,6 +17,7 @@ import styles from "./CompareClient.module.scss";
 import ScatterView from "./ScatterView";
 import ComparisonSlider, { COURT_TABS, type CourtTab } from "./ComparisonSlider";
 import PlayerSelect from "./PlayerSelect";
+import ArchetypeButterfly from "@/components/dashboard/ArchetypeButterfly";
 import { buildStatSections, type PlayerPercentiles } from "@/lib/compareStats";
 
 export const COMPARE_AXES: RadarAxis[] = [
@@ -56,6 +57,10 @@ type Props = {
   percentiles2?: PlayerPercentiles | null;
   tsPlusRating1?: number | null;
   tsPlusRating2?: number | null;
+  sis1?: number | null;
+  sis2?: number | null;
+  sisPx1?: number | null;
+  sisPx2?: number | null;
 };
 
 function calcPpp(ps: PlayerSeasonStats): number {
@@ -146,6 +151,10 @@ export default function CompareClient({
   percentiles2,
   tsPlusRating1,
   tsPlusRating2,
+  sis1,
+  sis2,
+  sisPx1,
+  sisPx2,
 }: Props) {
   const router = useRouter();
   const [sel1, setSel1] = useState(id1);
@@ -194,6 +203,7 @@ export default function CompareClient({
         profile1, profile2,
         percentiles1, percentiles2,
         tsPlusRating1, tsPlusRating2,
+        sis1, sis2, sisPx1, sisPx2,
       )
     : [];
 
@@ -342,7 +352,8 @@ export default function CompareClient({
 
           {/* ── Stats comparison tables by section ── */}
           {statSections.map((section) => (
-            <div key={section.title} className={styles.statSection}>
+            <Fragment key={section.title}>
+            <div className={styles.statSection}>
               <button
                 className={`${styles.sectionHeader} ${!collapsedSections.has(section.title) ? styles.sectionHeaderOpen : ""}`}
                 onClick={() => toggleSection(section.title)}
@@ -413,6 +424,41 @@ export default function CompareClient({
                 )}
               </AnimatePresence>
             </div>
+            {section.title === "Tirs" && (
+              <div className={styles.statSection}>
+                <button
+                  className={`${styles.sectionHeader} ${!collapsedSections.has("archetypes") ? styles.sectionHeaderOpen : ""}`}
+                  onClick={() => toggleSection("archetypes")}
+                >
+                  <span className={styles.sectionLabel}>Archétypes</span>
+                  <span className={`${styles.sectionChevron} ${!collapsedSections.has("archetypes") ? styles.sectionChevronOpen : ""}`}>▾</span>
+                </button>
+                <AnimatePresence initial={false}>
+                  {!collapsedSections.has("archetypes") && (
+                    <motion.div
+                      key="archetypes"
+                      variants={accordionVariants}
+                      initial="hidden"
+                      animate="visible"
+                      exit="exit"
+                      style={{ overflow: "hidden" }}
+                    >
+                      <div className={styles.sectionBody}>
+                        <ArchetypeButterfly
+                          archetypes1={player1.archetypesHE ?? null}
+                          archetypes2={player2.archetypesHE ?? null}
+                          name1={player1.playerStats.name}
+                          name2={player2.playerStats.name}
+                          color1="#FF6C22"
+                          color2="#74D0ED"
+                        />
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            )}
+            </Fragment>
           ))}
         </div>
       ) : (

@@ -34,6 +34,10 @@ export function buildStatSections(
   pcts2?: PlayerPercentiles | null,
   tsPlus1?: number | null,
   tsPlus2?: number | null,
+  sis1?: number | null,
+  sis2?: number | null,
+  sisPx1?: number | null,
+  sisPx2?: number | null,
 ): StatSection[] {
   const g1 = p1.games || 1;
   const g2 = p2.games || 1;
@@ -86,6 +90,18 @@ export function buildStatSections(
         row("Position",  profile1?.position ?? "—", profile2?.position ?? "—"),
         row("Games",     p1.games,                  p2.games),
         row("MPG",       fix1(mpg1),                fix1(mpg2)),
+        row(
+          "SIS",
+          sis1 != null ? fix1(sis1) : "—",
+          sis2 != null ? fix1(sis2) : "—",
+          sis1 != null && sis2 != null ? cmp(sis1, sis2) : null,
+        ),
+        row(
+          "SIS-Px",
+          sisPx1 != null ? fix1(sisPx1) : "—",
+          sisPx2 != null ? fix1(sisPx2) : "—",
+          sisPx1 != null && sisPx2 != null ? cmp(sisPx1, sisPx2) : null,
+        ),
       ],
     },
     {

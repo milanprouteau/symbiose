@@ -8,7 +8,9 @@ import Overview from "@/components/dashboard/Overview";
 import ShotChart from "@/components/dashboard/ShotChart";
 import Defensive from "@/components/dashboard/Defensive";
 import GameLog from "@/components/dashboard/GameLog";
+import ArchetypeChart from "@/components/dashboard/ArchetypeChart";
 import type { RadarPlayer } from "@/components/dashboard/RadarChart";
+import type { ArchetypesHE } from "@/types/stats";
 
 import { mapPlaysToShots } from "@/lib/mapShots";
 import { buildPlayer } from "@/lib/buildPlayer";
@@ -192,6 +194,7 @@ export default async function PlayerPage({ params }: Props) {
 
   const plays: PlayRaw[] = data.shots ?? [];
   const shots = mapPlaysToShots(plays, Number(id));
+  const archetypesHE: ArchetypesHE | null = data.archetypesHE ?? null;
   const opponentFG = data.teamStats.opponentStats.fieldGoals.pct;
 
   const ps = stats.playerStats;
@@ -250,7 +253,12 @@ export default async function PlayerPage({ params }: Props) {
       tabs={
         <PlayerTabs
           overview={<Overview player={player} rankings={playerRankings} topLineups={stats.topLineups ?? []} sis={sis} sisPx={sisPx} sisBreakdown={sisBreakdown} sisPxBreakdown={sisPxBreakdown} nbaProfile={nbaProfile} />}
-          offensive={<ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />}
+          offensive={
+            <>
+              <ShotChart shots={shots} shootingStats={stats.shootingStats} radarPlayer={radarPlayer} />
+              <ArchetypeChart archetypes={archetypesHE} />
+            </>
+          }
           defensive={<Defensive player={player} radarPlayer={radarPlayer} opponentFG={opponentFG} />}
           gameLog={<GameLog gameLog={data.gameLog ?? []} />}
         />

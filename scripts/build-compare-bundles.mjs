@@ -17,6 +17,18 @@ const ROOT        = path.resolve(__dirname, "..");
 const PLAYERS_DIR = path.join(ROOT, "data", "players");
 const COMPARE_DIR = path.join(ROOT, "data", "compare");
 const AVERAGES_PATH = path.join(ROOT, "data", "ncaa-averages.json");
+const WINGSPAN_PATH = path.join(PLAYERS_DIR, "wingspan.json");
+
+// ── Load manual wingspan map (single source of truth for wingspan display) ──
+let wingspans = {};
+if (fs.existsSync(WINGSPAN_PATH)) {
+  try {
+    wingspans = JSON.parse(fs.readFileSync(WINGSPAN_PATH, "utf-8")) || {};
+    console.log(`  📏 Loaded ${Object.keys(wingspans).length} manual wingspans`);
+  } catch (err) {
+    console.warn(`  ⚠️  Failed to parse wingspan.json:`, err.message);
+  }
+}
 
 // ── Load NCAA averages (optional — skip percentiles if missing) ──
 let ncaaAverages = null;
@@ -135,14 +147,30 @@ function mapShots(plays, playerId) {
 // ── Main ──
 fs.mkdirSync(COMPARE_DIR, { recursive: true });
 
-const files = fs.readdirSync(PLAYERS_DIR).filter(
-  (f) => f.endsWith(".json") && f !== "index.json" && !f.includes("/")
-);
+// Only pick per-player files (numeric id) — excludes index.json, wingspan.json, etc.
+const files = fs.readdirSync(PLAYERS_DIR).filter((f) => /^\d+\.json$/.test(f));
 
 let count = 0;
 for (const file of files) {
   const fullPath = path.join(PLAYERS_DIR, file);
   const data = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
+
+  // Merge manual wingspan into profile (wingspan.json is the source of truth, never overridden)
+  const manualWs = wingspans[String(data.id)];
+  const baseProfile = data.profile ?? null;
+  const profile = baseProfile
+    ? { ...baseProfile, wingspan: manualWs ?? baseProfile.wingspan ?? null }
+    : manualWs != null
+      ? {
+          jersey: null,
+          position: null,
+          height: null,
+          weight: null,
+          wingspan: manualWs,
+          hometown: null,
+          dateOfBirth: null,
+        }
+      : null;
 
   const lean = {
     id:            data.id,
@@ -151,10 +179,11 @@ for (const file of files) {
     playerStats:   data.playerStats,
     shootingStats: data.shootingStats,
     teamStats:     data.teamStats,
-    profile:       data.profile ?? null,
+    profile,
     shots:         mapShots(data.shots ?? [], data.id),
     percentiles:   computePercentiles(data.playerStats),
     tsPlusRating:  computeTsPlus(data.playerStats),
+    archetypesHE:  data.archetypesHE ?? null,
   };
 
   fs.writeFileSync(path.join(COMPARE_DIR, file), JSON.stringify(lean));

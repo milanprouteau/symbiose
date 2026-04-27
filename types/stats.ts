@@ -237,6 +237,45 @@ export type LineupEntry = {
   opponentStats?: LineupStatBlock;
 };
 
+// ── Hoop-Explorer archetypes (parsed from clipboard dumps) ──
+
+export const ARCHETYPE_KEYS = [
+  "rimAttack", "attackKick", "perimeterSniper", "dribbleJumper", "midRange",
+  "hitsCutter", "perimeterCut", "pnrPasser", "bigCutRoll", "postUp",
+  "insideOut", "pickAndPop", "highLow", "rebScramble", "transition",
+] as const;
+
+export type ArchetypeKey = (typeof ARCHETYPE_KEYS)[number];
+
+export const ARCHETYPE_LABELS: Record<ArchetypeKey, string> = {
+  rimAttack:       "Rim Attack",
+  attackKick:      "Attack & Kick",
+  perimeterSniper: "Perimeter Sniper",
+  dribbleJumper:   "Dribble Jumper",
+  midRange:        "Mid-Range",
+  hitsCutter:      "Hits Cutter",
+  perimeterCut:    "Perimeter Cut",
+  pnrPasser:       "PnR Passer",
+  bigCutRoll:      "Big Cut & Roll",
+  postUp:          "Post-Up",
+  insideOut:       "Inside-Out",
+  pickAndPop:      "Pick & Pop",
+  highLow:         "High-Low",
+  rebScramble:     "Reb. & Scramble",
+  transition:      "Transition",
+};
+
+export type ArchetypeEntry = {
+  ppp: number;
+  percentile: number;
+  freqPer100: number;
+} | null;
+
+export type ArchetypesHE = {
+  season: string;
+  items: Record<ArchetypeKey, ArchetypeEntry>;
+};
+
 // ── Combined player data bundle (what we cache locally) ──
 
 export type PlayerDataBundle = {
@@ -246,4 +285,5 @@ export type PlayerDataBundle = {
   profile?: PlayerProfile | null;
   gameLog?: GameLogEntry[];
   topLineups?: LineupEntry[];
+  archetypesHE?: ArchetypesHE | null;
 };

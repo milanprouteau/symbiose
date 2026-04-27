@@ -245,8 +245,9 @@ export default function RadarChart({ players, axes, size = 280 }: Props) {
         })()}
       </svg>
 
-      {/* Legend */}
-      {players.length > 0 && (
+      {/* Legend — only when multiple players (compare); single-player pages
+          don't need a name label since the page is already the player's. */}
+      {players.length > 1 && (
         <div className={styles.legend}>
           {players.map((p, i) => (
             <div key={i} className={styles.legendItem}>

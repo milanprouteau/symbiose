@@ -200,19 +200,6 @@
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   padding: 0.75rem;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 36px;
-    background: linear-gradient(to bottom, transparent, var(--color-surface-fade));
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    pointer-events: none;
-  }
 }
 
 /* Stats comparison table */

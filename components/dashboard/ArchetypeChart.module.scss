@@ -1,0 +1,193 @@
+.container {
+  width: 100%;
+  padding: 2rem 1.5rem;
+
+  /* Defaults = dark theme: dark chart bg, white axes/grid, white off-bar text. */
+  --chart-bg: #0F0F0D;
+  --chart-axis: rgba(255, 255, 255, 0.7);
+  --chart-tick: rgba(255, 255, 255, 0.6);
+  --chart-grid: rgba(255, 255, 255, 0.10);
+  --chart-grid-v: rgba(255, 255, 255, 0.06);
+  --chart-x-label: rgba(255, 255, 255, 0.85);
+  --chart-x-label-active: #FFFFFF;
+
+  /* 3-color efficiency palette: green (good) → yellow/blue (avg) → orange (bad).
+     Elite vs good both use green; opacity differentiates the two. */
+  --bar-elite: var(--color-secondary-green);
+  --bar-good:  var(--color-secondary-green);
+  --bar-mid:   var(--color-primary-yellow);
+  --bar-bad:   var(--color-primary-orange);
+  --bar-empty: rgba(255, 255, 255, 0.18);
+  --bar-hover-stroke: #FFFFFF;
+
+  /* On-bar (over colored bar) text is always black; off-bar contrast flips. */
+  --freq-text-on-bar: #000000;
+  --freq-unit-on-bar: rgba(0, 0, 0, 0.75);
+  --freq-text-off-bar: rgba(255, 255, 255, 0.92);
+  --freq-unit-off-bar: rgba(255, 255, 255, 0.6);
+}
+
+:root[data-theme="light"] .container {
+  --chart-bg: #FFFFFF;
+  --chart-axis: rgba(0, 0, 0, 0.75);
+  --chart-tick: rgba(0, 0, 0, 0.6);
+  --chart-grid: rgba(0, 0, 0, 0.12);
+  --chart-grid-v: rgba(0, 0, 0, 0.06);
+  --chart-x-label: rgba(0, 0, 0, 0.85);
+  --chart-x-label-active: #000000;
+
+  --bar-empty: rgba(0, 0, 0, 0.10);
+  --bar-hover-stroke: #000000;
+
+  /* On-bar text stays black; off-bar text needs to be dark on the light bg. */
+  --freq-text-off-bar: rgba(0, 0, 0, 0.85);
+  --freq-unit-off-bar: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--color-primary-orange);
+  margin-bottom: 1rem;
+}
+
+.chartWrapper {
+  position: relative;
+  border-radius: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: var(--chart-bg);
+
+  /* Hide scrollbar but keep horizontal scroll on mobile. */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-family: var(--font-body);
+
+  /* On narrow screens, freeze the chart at its desktop size and let the
+     wrapper scroll horizontally — labels and bars stay readable. */
+  @media (max-width: 900px) {
+    width: 900px;
+    min-width: 900px;
+  }
+}
+
+.bg            { fill: var(--chart-bg); }
+.axisTitle     { fill: var(--chart-axis); }
+.axisTick      { fill: var(--chart-tick); }
+.gridH         { stroke: var(--chart-grid); }
+.gridV         { stroke: var(--chart-grid-v); }
+.xLabel        { fill: var(--chart-x-label); }
+.xLabelActive  { fill: var(--chart-x-label-active); font-weight: 600; }
+
+/* Bar tiers — elite vs good use the same green, opacity adjusts intensity. */
+.barElite { fill: var(--bar-elite); fill-opacity: 1; }
+.barGood  { fill: var(--bar-good);  fill-opacity: 0.55; }
+.barMid   { fill: var(--bar-mid);   fill-opacity: 1; }
+.barBad   { fill: var(--bar-bad);   fill-opacity: 0.85; }
+.barEmpty { fill: var(--bar-empty); }
+
+.barHovered {
+  stroke: var(--bar-hover-stroke);
+  stroke-width: 2;
+}
+
+/* Frequency labels — black on bars, white off-bar (short bars over dark bg) */
+.freqText    { fill: var(--freq-text-on-bar); }
+.freqUnit    { fill: var(--freq-unit-on-bar); }
+.freqTextOff { fill: var(--freq-text-off-bar); }
+.freqUnitOff { fill: var(--freq-unit-off-bar); }
+
+.empty {
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+/* ── Tooltip — fixed-positioned so it can escape the scroll-clipped wrapper ── */
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  min-width: 240px;
+  max-width: 320px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.75rem 0.9rem;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+:root[data-theme="light"] .tooltip {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.tipName {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-primary-orange);
+  margin-bottom: 0.4rem;
+}
+
+.tipDesc {
+  font-style: italic;
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.tipStats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0;
+}
+
+.tipRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+
+  dt {
+    color: var(--color-text-secondary);
+  }
+
+  dd {
+    margin: 0;
+    color: var(--color-text);
+    font-variant-numeric: tabular-nums;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+/* PPP tier color in tooltip — same 3-color palette */
+.pppElite { color: var(--color-secondary-green); }
+.pppGood  { color: var(--color-secondary-green); opacity: 0.85; }
+.pppMid   { color: var(--color-primary-yellow); }
+.pppBad   { color: var(--color-primary-orange); }
+.pppEmpty { color: var(--color-text-muted); }
+
+.tipEmpty {
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  margin: 0;
+  font-style: italic;
+}

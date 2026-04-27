@@ -122,8 +122,8 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
     t += 500;
     push(t, () => setOverlay((o) => ({ ...o, phase: "revealMid" })));
 
-    // Phase 2 — révèle picks 14 → 5, 550ms entre chaque
-    const MID_STEP = 550;
+    // Phase 2 — révèle picks 14 → 5, rythme rapide
+    const MID_STEP = 280;
     for (let i = 0; i < 10; i++) {
       t += MID_STEP;
       push(t, () => setOverlay((o) => ({ ...o, midRevealedCount: i + 1 })));
@@ -156,10 +156,10 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
         continue;
       }
 
-      // Durée du roll proportionnelle à la taille du pool (plus il y a d'équipes, plus c'est long).
-      const rollDuration = pool.length >= 4 ? 1000 : pool.length === 3 ? 900 : 800;
-      const tickMs = 70;
-      const rollTicks = Math.max(8, Math.round(rollDuration / tickMs));
+      // Plus le pool rétrécit, plus le roll est long (effet suspense croissant).
+      const rollDuration = pool.length >= 4 ? 700 : pool.length === 3 ? 900 : 1100;
+      // Densité de ticks : ~14 frames quel que soit le pool, l'easing fait le travail visuel.
+      const rollTicks = 14;
 
       // Shuffle du pool pour que les équipes ne défilent pas dans un ordre prévisible.
       const shuffledPool = [...pool].sort(() => Math.random() - 0.5);
@@ -172,8 +172,10 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
         topLanded: false,
       })));
 
+      // easeOutCubic : ticks rapprochés au début, de plus en plus espacés à la fin → effet roulette qui ralentit.
+      const easeOut = (x: number) => 1 - Math.pow(1 - x, 3);
       for (let j = 0; j < rollTicks; j++) {
-        const tickT = rollStart + Math.round(((j + 1) / rollTicks) * rollDuration);
+        const tickT = rollStart + Math.round(easeOut((j + 1) / rollTicks) * rollDuration);
         const logo = shuffledPool[j % shuffledPool.length];
         push(tickT, () => setOverlay((o) => ({ ...o, topRollingLogo: logo })));
       }
@@ -266,7 +268,7 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
           disabled={overlay.open}
           title="Simule la lottery selon les probabilités officielles"
         >
-          Lotterie
+          Loterie
         </button>
         {isSimulated && !overlay.open && (
           <button

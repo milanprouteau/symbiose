@@ -2,7 +2,13 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2.25rem;
+}
+
+/* ── Section générique ── */
+.section {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ── Métadonnées ── */
@@ -21,7 +27,9 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 1.25rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-subtle);
   background:
     linear-gradient(135deg, rgba(255, 108, 34, 0.07) 0%, transparent 50%),
     linear-gradient(315deg, rgba(255, 108, 34, 0.07) 0%, transparent 50%),
@@ -89,26 +97,60 @@
 
 /* ── Sections communes ── */
 .sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   font-family: var(--font-heading);
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   color: var(--color-primary-white);
-  margin-bottom: 0.75rem;
-  padding: 0 10px;
+  margin: 0 0 0.85rem;
+
+  &::before {
+    content: "";
+    width: 3px;
+    height: 0.9rem;
+    background: var(--color-primary-orange);
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, var(--color-border-subtle), transparent);
+  }
+}
+
+/* Panneau commun pour lineups & similar */
+%sectionPanel {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem 1rem 1.15rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-subtle);
+  background:
+    linear-gradient(135deg, rgba(255, 108, 34, 0.035) 0%, transparent 55%),
+    linear-gradient(315deg, rgba(255, 108, 34, 0.035) 0%, transparent 55%),
+    var(--color-surface);
+
+  @media (max-width: 640px) {
+    padding: 0.9rem 0.75rem 1rem;
+  }
 }
 
 /* ── Top Lineups ── */
 .lineupsSection {
-  display: flex;
-  flex-direction: column;
+  @extend %sectionPanel;
 }
 
 /* ── Lineup Accordion ── */
 .lineupAccordion {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
 }
 
 .lineupItem {
@@ -124,23 +166,28 @@
   align-items: center;
   padding: 0.55rem 0.75rem;
   background:
-    linear-gradient(135deg, rgba(255, 108, 34, 0.06) 0%, transparent 50%),
-    linear-gradient(315deg, rgba(255, 108, 34, 0.06) 0%, transparent 50%),
-    var(--color-surface);
-  border-top: 1px solid var(--color-border-subtle);
-  border-bottom: 1px solid var(--color-border-subtle);
-  border-left: 0;
-  border-right: 0;
+    linear-gradient(135deg, rgba(255, 108, 34, 0.07) 0%, transparent 50%),
+    linear-gradient(315deg, rgba(255, 108, 34, 0.07) 0%, transparent 50%),
+    var(--color-surface-raised);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 6px;
   cursor: pointer;
   text-align: left;
-  transition: background 0.15s;
+  transition: background 0.15s, border-color 0.15s;
 
   &:hover {
     background:
-      linear-gradient(135deg, rgba(255, 108, 34, 0.11) 0%, transparent 50%),
-      linear-gradient(315deg, rgba(255, 108, 34, 0.11) 0%, transparent 50%),
-      var(--color-surface-raised);
+      linear-gradient(135deg, rgba(255, 108, 34, 0.12) 0%, transparent 50%),
+      linear-gradient(315deg, rgba(255, 108, 34, 0.12) 0%, transparent 50%),
+      var(--color-surface-high);
+    border-color: var(--color-border);
   }
+}
+
+.lineupRowOpen {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-color: transparent;
 }
 
 .lineupRank {
@@ -235,8 +282,12 @@
 
 /* ── Lineup detail panel ── */
 .lineupDetail {
-  background: var(--color-background);
+  background: var(--color-surface);
   padding: 0.5rem 0.75rem 0.6rem;
+  border: 1px solid var(--color-border-subtle);
+  border-top: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .lineupDetailTime {
@@ -428,8 +479,7 @@
 
 /* ── Profils similaires ── */
 .similarSection {
-  display: flex;
-  flex-direction: column;
+  @extend %sectionPanel;
 }
 
 .similarList {
@@ -449,17 +499,17 @@
   padding: 0.75rem 1rem;
   border-radius: 8px;
   background:
-    linear-gradient(135deg, rgba(255, 108, 34, 0.07) 0%, transparent 50%),
-    linear-gradient(315deg, rgba(255, 108, 34, 0.07) 0%, transparent 50%),
-    var(--color-surface);
+    linear-gradient(135deg, rgba(255, 108, 34, 0.08) 0%, transparent 50%),
+    linear-gradient(315deg, rgba(255, 108, 34, 0.08) 0%, transparent 50%),
+    var(--color-surface-raised);
   border: 1px solid var(--color-border-subtle);
   transition: background 0.2s, border-color 0.2s;
 
   &:hover {
     background:
-      linear-gradient(135deg, rgba(255, 108, 34, 0.13) 0%, transparent 50%),
-      linear-gradient(315deg, rgba(255, 108, 34, 0.13) 0%, transparent 50%),
-      var(--color-surface-raised);
+      linear-gradient(135deg, rgba(255, 108, 34, 0.14) 0%, transparent 50%),
+      linear-gradient(315deg, rgba(255, 108, 34, 0.14) 0%, transparent 50%),
+      var(--color-surface-high);
     border-color: var(--color-border);
   }
 }
