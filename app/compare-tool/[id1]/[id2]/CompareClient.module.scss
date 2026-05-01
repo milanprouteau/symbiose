@@ -256,6 +256,11 @@
   &:hover {
     background: var(--color-surface);
   }
+
+  /* When followed by a gauge row, treat the value+gauge as one unit */
+  &:has(+ .gaugeRow) {
+    border-bottom: 0;
+  }
 }
 
 .tdRight {
@@ -282,6 +287,53 @@
 
 .notBetter {
   color: var(--color-text-secondary);
+}
+
+/* ── Gauge row (orange/blue bars under each stat) ── */
+.gaugeRow {
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.gaugeCell {
+  padding: 0 0 0.45rem;
+}
+
+.gaugeBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 4px;
+  gap: 3px;
+}
+
+.gaugeTrack {
+  position: relative;
+  height: 100%;
+  background: var(--color-border-subtle);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.gaugeSeg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-radius: 2px;
+  transition: opacity 0.2s ease;
+}
+
+.gaugeSegLeft {
+  right: 0;
+  background: #FF6C22;
+}
+
+.gaugeSegRight {
+  left: 0;
+  background: #74D0ED;
+}
+
+.gaugeFaded {
+  opacity: 0.35;
 }
 
 /* ── Percentile badges ── */

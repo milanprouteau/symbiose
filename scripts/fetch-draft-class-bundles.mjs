@@ -193,7 +193,7 @@ async function processYear(year) {
           seasonType: "postseason",
         });
         await delay(200);
-      } catch (_) {
+      } catch {
         // postseason may not exist
       }
       teamGames = [

@@ -62,7 +62,7 @@ const SEASON = "2026";
       seasonType: "postseason",
     });
     console.log(`   Postseason: ${postseasonGames.length} team games`);
-  } catch (_) {
+  } catch {
     console.log(`   Postseason: none available`);
   }
 

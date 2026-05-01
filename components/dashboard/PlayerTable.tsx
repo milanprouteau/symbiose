@@ -195,11 +195,6 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
     push(t, () => setOverlay((o) => ({ ...o, open: false, phase: "closed" })));
   }, []);
 
-  const closeOverlay = useCallback(() => {
-    clearTimers();
-    setOverlay((o) => ({ ...o, open: false, phase: "closed" }));
-  }, []);
-
   const handleReset = useCallback(() => {
     clearTimers();
     setPickOrder(getPreLotteryOrder());
@@ -290,7 +285,6 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
           topRollingPick={overlay.topRollingPick}
           topRollingLogo={overlay.topRollingLogo}
           topLanded={overlay.topLanded}
-          onClose={closeOverlay}
         />
       )}
       <table className={styles.table}>
@@ -472,7 +466,6 @@ function LotteryOverlay({
   topRollingPick,
   topRollingLogo,
   topLanded,
-  onClose,
 }: {
   phase: OverlayPhase;
   pickOrder: PickSlot[];
@@ -481,7 +474,6 @@ function LotteryOverlay({
   topRollingPick: number | null;
   topRollingLogo: TeamAbbr;
   topLanded: boolean;
-  onClose: () => void;
 }) {
   const lotteryPicks = pickOrder
     .filter((p) => p.pick >= 1 && p.pick <= 14)

@@ -136,11 +136,14 @@ function calculateSIS(bundle) {
     score(stlPer40 + blkPer40, 1.0, 5.0, 5);
   const pxPhysical = px_height + px_mobility;
 
-  const px_ts    = score(tsPercent,              52,   65,   8);
-  const px_ppp   = score(indivPPP,               0.85, 1.20, 8);
-  const px_astTo = score(ps.assistsTurnoverRatio, 0.5, 2.5,  3);
-  const px_ft    = score(ps.freeThrows.pct,      58,   90,   3);
-  const px_3par  = score(threePAr * 100,          5,   60,   3);
+  const isBig = pg === "BIG";
+
+  // For BIG: scoring efficiency translates less reliably to NBA (pts 8→5)
+  const px_ts    = score(tsPercent,               52,   65,   isBig ? 5 : 8);
+  const px_ppp   = score(indivPPP,                0.85, 1.20, isBig ? 5 : 8);
+  const px_astTo = score(ps.assistsTurnoverRatio, 0.5,  2.5,  3);
+  const px_ft    = score(ps.freeThrows.pct,       58,   90,   3);
+  const px_3par  = score(threePAr * 100,           5,   60,   3);
   const pxEfficiency = px_ts + px_ppp + px_astTo + px_ft + px_3par;
 
   const px_stl  = score(stlPer40,   def.stl[0], def.stl[1], 5);
@@ -148,18 +151,31 @@ function calculateSIS(bundle) {
   const px_foul = score(foulsPer40, 5.0,         1.5,        5);
   const pxDefensiveMobility = px_stl + px_blk + px_foul;
 
-  const px_usage = score(ps.usage,  15, 33, 7);
-  const px_ast2  = score(assistRate, 3, 28, 7);
-  const px_por   = score(ps.PORPAG, 1.0, 5.5, 6);
-  const pxProjectedRole = px_usage + px_ast2 + px_por;
+  // For BIG: rebounding dominance predicts NBA role better than assist rate
+  const px_usage    = score(ps.usage,   15, 33, isBig ? 5 : 7);
+  const px_roleStat = isBig
+    ? score(rebPer40,  8, 16, 10)
+    : score(assistRate, 3, 28,  7);
+  const px_por      = score(ps.PORPAG, 1.0, 5.5, 6);
+  const pxProjectedRole = px_usage + px_roleStat + px_por;
 
   const px_spacing = score(threePAr * 100,              5, 60, 5);
   const px_ftRate  = score(ps.freeThrowRate,           15, 55, 5);
   const px_efg     = score(ps.effectiveFieldGoalPct,   48, 62, 5);
-  const px_rimAtk  = 5 * 0.5; // fallback ≈ médiane (pas de shootingStats dans le script)
+  const shooting = bundle.shootingStats;
+  const rimAttackRate = (shooting && shooting.trackedShots > 0)
+    ? (shooting.layups.attempted / shooting.trackedShots) * 100
+    : 25;
+  const px_rimAtk  = score(rimAttackRate, 15, 55, 5);
   const pxNBAAdaptability = px_rimAtk + px_spacing + px_ftRate + px_efg;
 
-  const sisPxTotal = r1(pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability);
+  // For BIG: apply rebounding translation multiplier (REB/40 < 9 → penalised, ≥ 13 → bonus)
+  let sisPxRaw = pxPhysical + pxEfficiency + pxDefensiveMobility + pxProjectedRole + pxNBAAdaptability;
+  if (isBig) {
+    const rebClamped = Math.max(9, Math.min(13, rebPer40));
+    sisPxRaw = sisPxRaw * (0.75 + 0.35 * ((rebClamped - 9) / (13 - 9)));
+  }
+  const sisPxTotal = r1(sisPxRaw);
 
   return {
     sis: {

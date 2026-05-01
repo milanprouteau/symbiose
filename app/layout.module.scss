@@ -10,6 +10,7 @@
   padding-top: calc(140px + 1.5rem);
 
   @media (max-width: 640px) {
+    padding-inline: 0.5rem;
     padding-top: calc(80px + 1.5rem);
   }
 }

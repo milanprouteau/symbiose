@@ -16,7 +16,6 @@ import { mapPlaysToShots } from "@/lib/mapShots";
 import { buildPlayer } from "@/lib/buildPlayer";
 import { calculatePlayerRankings } from "@/lib/playerRankings";
 import { calculateSIS } from "@/lib/sisScore";
-import { teamDropShadow } from "@/lib/teamColors";
 import { loadWingspans, getWingspan } from "@/lib/wingspan";
 import PlayerPageClient from "@/components/dashboard/PlayerPageClient";
 import type { PlayRaw } from "@/lib/api";
@@ -227,21 +226,25 @@ export default async function PlayerPage({ params }: Props) {
     },
   };
 
-  const photoShadow = teamDropShadow(player.team);
-
   return (
     <PlayerPageClient
+      id={Number(id)}
       name={player.name}
       photoUrl={player.photoUrl}
       team={player.team}
+      teamAbbreviation={player.teamAbbreviation}
       position={player.position}
       ppg={player.ppg}
       rpg={player.rpg}
       apg={player.apg}
+      allPlayers={allPlayerStats.map((ps) => ({
+        id: ps.athleteId,
+        name: ps.name,
+        team: ps.team,
+      }))}
       hero={
         <PlayerHero
           player={player}
-          photoShadow={photoShadow}
           nbaProfile={nbaProfile}
           allPlayers={allPlayerStats.map((ps) => ({
             id: ps.athleteId,

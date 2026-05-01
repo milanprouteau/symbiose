@@ -94,12 +94,6 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
 
   return (
     <div className={styles.container}>
-
-      {/* ── Métadonnées compactes ── */}
-      <p className={styles.meta}>
-        {p.position} · {p.team} · {p.conference} — {p.games} matchs, {p.starts} titulaires
-      </p>
-
       {/* ── Barre de stats ── */}
       <div className={styles.statsBar}>
         <div className={styles.statsGroup}>
@@ -265,12 +259,6 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                   <span className={styles.similarTeam}>{sp.draftTeam}</span>
                 </div>
               </div>
-              <div className={styles.similarStats}>
-                <span>{sp.proj_pts.toFixed(1)} pts</span>
-                <span>{sp.proj_reb.toFixed(1)} reb</span>
-                <span>{sp.proj_ast.toFixed(1)} ast</span>
-                <span>{sp.sisPx} SisPx</span>
-              </div>
               {(() => {
                 const score = distanceToScore(sp.distance);
                 const color = score >= 80 ? "var(--color-primary-orange)"
@@ -279,13 +267,92 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                             : "var(--color-text-muted)";
                 return (
                   <div className={styles.similarBarWrapper}>
-                    <div className={styles.similarBar}>
-                      <div className={styles.similarBarFill} style={{ width: similarInView ? `${score}%` : "0%", background: color, transitionDelay: similarInView ? `${i * 80}ms` : "0ms" }} />
+                    <div className={styles.similarBarTrack}>
+                      <div className={styles.similarBarRow}>
+                        <div className={styles.similarBarCol}>
+                          <div className={styles.similarBarLine}>
+                            <div className={styles.similarBar}>
+                              <div className={styles.similarBarFill} style={{ width: similarInView ? `${score}%` : "0%", background: color, transitionDelay: similarInView ? `${i * 80}ms` : "0ms" }} />
+                            </div>
+                            <span className={styles.similarScore} style={{ color }}>{score}%</span>
+                          </div>
+                          <span className={styles.similarBarCaption}>Matching</span>
+                        </div>
+                      </div>
+                      <div className={styles.similarStatsOverlay} aria-hidden>
+                        {[
+                          { label: "PTS", val: sp.proj_pts },
+                          { label: "REB", val: sp.proj_reb },
+                          { label: "AST", val: sp.proj_ast },
+                          { label: "STL", val: sp.proj_stl },
+                          { label: "BLK", val: sp.proj_blk },
+                        ].map(({ label, val }) => (
+                          <div key={label} className={styles.similarStatChip}>
+                            <span className={styles.similarStatVal}>
+                              {val != null ? val.toFixed(1) : "—"}
+                            </span>
+                            <span className={styles.similarStatLabel}>{label}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                    <span className={styles.similarScore} style={{ color }}>{score}%</span>
+                    <div
+                      className={styles.similarSisPxWrap}
+                      title="SisPx — projection NBA pondérée (0-100)"
+                    >
+                      <svg
+                        className={styles.similarSisPxRing}
+                        viewBox="0 0 36 36"
+                        aria-label={`SisPx ${sp.sisPx}`}
+                      >
+                        <circle
+                          className={styles.similarSisPxRingBg}
+                          cx="18"
+                          cy="18"
+                          r="15.915"
+                          fill="none"
+                        />
+                        <circle
+                          className={styles.similarSisPxRingFg}
+                          cx="18"
+                          cy="18"
+                          r="15.915"
+                          fill="none"
+                          strokeDasharray="100 100"
+                          strokeDashoffset={similarInView ? 100 - Math.max(0, Math.min(100, sp.sisPx)) : 100}
+                          style={{ transitionDelay: similarInView ? `${i * 80}ms` : "0ms" }}
+                        />
+                        <text
+                          x="18"
+                          y="18"
+                          className={styles.similarSisPxRingText}
+                          textAnchor="middle"
+                          dominantBaseline="central"
+                        >
+                          {sp.sisPx}
+                        </text>
+                      </svg>
+                      <span className={styles.similarSisPxLabel}>SisPx</span>
+                    </div>
                   </div>
                 );
               })()}
+              <svg
+                className={styles.similarChevron}
+                viewBox="0 0 32 8"
+                aria-hidden
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M2 6 L16 2 L30 6"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.25"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  vectorEffect="non-scaling-stroke"
+                />
+              </svg>
             </div>
           ))}
         </div>

@@ -192,7 +192,7 @@ async function main() {
           seasonType: "postseason",
         });
         await delay(200);
-      } catch (_) {
+      } catch {
         // postseason may not exist yet
       }
       teamGames = [
@@ -247,12 +247,18 @@ async function main() {
         ? (JSON.parse(fs.readFileSync(filePath, "utf-8"))?.profile ?? {})
         : {};
 
+      // NOTE: `wingspan` is manual data. Canonical source = data/players/wingspan.json
+      // (merged at build-time by build-compare-bundles.mjs and at runtime on the player page).
+      // `weight` is also partially manual (the API sometimes returns null, e.g. for international
+      // players). We prefer any already-stored value over the API response so that manual
+      // corrections are preserved across fetches.
       const profile = rosterEntry
         ? {
             jersey: rosterEntry.jersey ?? null,
             position: rosterEntry.position ?? null,
             height: rosterEntry.height ?? null,
-            weight: rosterEntry.weight ?? existingProfile.weight ?? null,
+            weight: existingProfile.weight ?? rosterEntry.weight ?? null,
+            wingspan: existingProfile.wingspan ?? rosterEntry.wingspan ?? null,
             hometown: rosterEntry.hometown
               ? {
                   city: rosterEntry.hometown.city ?? null,
@@ -261,7 +267,9 @@ async function main() {
               : null,
             dateOfBirth: rosterEntry.dateOfBirth ?? existingProfile.dateOfBirth ?? null,
           }
-        : null;
+        : existingProfile && Object.keys(existingProfile).length > 0
+          ? existingProfile
+          : null;
 
       // Extract game log for this player (match by name since athleteId varies per game)
       const gameLog = (teamGames || [])

@@ -135,6 +135,35 @@ function pctClass(topPct: number): string {
   return styles.pctWeak;
 }
 
+/**
+ * Compute left/right gauge widths (0–100) for a stat row.
+ * Returns null when the row isn't quantitatively comparable
+ * (textual values, ratios like "5/10", missing data, signed deltas).
+ */
+function getGaugeShares(
+  v1: string | number,
+  v2: string | number,
+  label: string,
+): { left: number; right: number } | null {
+  const s1 = String(v1);
+  const s2 = String(v2);
+  if (s1 === "—" || s2 === "—") return null;
+  if (s1.includes("/") || s2.includes("/")) return null;
+  // Signed delta stats (e.g. TS+) — bar wouldn't be meaningful
+  if (label === "TS+") return null;
+  const n1 = parseFloat(s1);
+  const n2 = parseFloat(s2);
+  if (Number.isNaN(n1) || Number.isNaN(n2)) return null;
+  const a1 = Math.abs(n1);
+  const a2 = Math.abs(n2);
+  const isPercent = s1.trim().endsWith("%") && s2.trim().endsWith("%");
+  const denom = isPercent ? 100 : Math.max(a1, a2);
+  if (denom <= 0) return null;
+  const left  = Math.min((a1 / denom) * 100, 100);
+  const right = Math.min((a2 / denom) * 100, 100);
+  return { left, right };
+}
+
 export default function CompareClient({
   player1,
   player2,
@@ -219,6 +248,81 @@ export default function CompareClient({
     }
   };
 
+  const shotChartsBlock = hasComparison && (
+    <div className={styles.courtSection}>
+      <button
+        className={`${styles.sectionHeader} ${!collapsedSections.has("shotCharts") ? styles.sectionHeaderOpen : ""}`}
+        onClick={() => toggleSection("shotCharts")}
+      >
+        <span className={styles.sectionLabel}>Shot Charts</span>
+        <span className={`${styles.sectionChevron} ${!collapsedSections.has("shotCharts") ? styles.sectionChevronOpen : ""}`}>▾</span>
+      </button>
+
+      <AnimatePresence initial={false}>
+        {!collapsedSections.has("shotCharts") && (
+          <motion.div
+            key="shotCharts"
+            variants={accordionVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            style={{ overflow: "hidden" }}
+          >
+            <div className={styles.sectionBody}>
+              <LayoutGroup id="courtTabs">
+                <div className={styles.courtTabBar}>
+                  {COURT_TABS.map((tab) => (
+                    <button
+                      key={tab}
+                      onClick={() => setCourtTab(tab)}
+                      className={`${styles.courtTab} ${courtTab === tab ? styles.courtTabActive : ""}`}
+                    >
+                      {courtTab === tab && (
+                        <motion.div
+                          layoutId="courtTabIndicator"
+                          className={styles.courtTabIndicator}
+                          transition={{ type: "spring", bounce: 0.2, duration: 0.35 }}
+                        />
+                      )}
+                      <span className={styles.courtTabText}>{tab}</span>
+                    </button>
+                  ))}
+                </div>
+              </LayoutGroup>
+
+              {/* Desktop — two courts side-by-side */}
+              <div className={styles.courtDesktop}>
+                <div className={styles.courtPanel}>
+                  <span className={styles.courtPlayerLabel} style={{ color: "#FF6C22" }}>
+                    {player1.playerStats.name}
+                  </span>
+                  {renderDesktopChart(shots1, "#FF6C22")}
+                </div>
+                <div className={styles.courtPanel}>
+                  <span className={styles.courtPlayerLabel} style={{ color: "#74D0ED" }}>
+                    {player2.playerStats.name}
+                  </span>
+                  {renderDesktopChart(shots2, "#74D0ED")}
+                </div>
+              </div>
+
+              {/* Mobile — comparison slider */}
+              <div className={styles.courtMobile}>
+                <ComparisonSlider
+                  activeTab={courtTab}
+                  shots1={shots1}
+                  shots2={shots2}
+                  name1={player1.playerStats.name}
+                  name2={player2.playerStats.name}
+                />
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+
   return (
     <div className={styles.container}>
       {isNavigating && (
@@ -276,80 +380,6 @@ export default function CompareClient({
             </div>
           </div>
 
-          {/* ── Shot chart section ── */}
-          <div className={styles.courtSection}>
-            <button
-              className={`${styles.sectionHeader} ${!collapsedSections.has("shotCharts") ? styles.sectionHeaderOpen : ""}`}
-              onClick={() => toggleSection("shotCharts")}
-            >
-              <span className={styles.sectionLabel}>Shot Charts</span>
-              <span className={`${styles.sectionChevron} ${!collapsedSections.has("shotCharts") ? styles.sectionChevronOpen : ""}`}>▾</span>
-            </button>
-
-            <AnimatePresence initial={false}>
-              {!collapsedSections.has("shotCharts") && (
-                <motion.div
-                  key="shotCharts"
-                  variants={accordionVariants}
-                  initial="hidden"
-                  animate="visible"
-                  exit="exit"
-                  style={{ overflow: "hidden" }}
-                >
-                  <div className={styles.sectionBody}>
-                    <LayoutGroup id="courtTabs">
-                      <div className={styles.courtTabBar}>
-                        {COURT_TABS.map((tab) => (
-                          <button
-                            key={tab}
-                            onClick={() => setCourtTab(tab)}
-                            className={`${styles.courtTab} ${courtTab === tab ? styles.courtTabActive : ""}`}
-                          >
-                            {courtTab === tab && (
-                              <motion.div
-                                layoutId="courtTabIndicator"
-                                className={styles.courtTabIndicator}
-                                transition={{ type: "spring", bounce: 0.2, duration: 0.35 }}
-                              />
-                            )}
-                            <span className={styles.courtTabText}>{tab}</span>
-                          </button>
-                        ))}
-                      </div>
-                    </LayoutGroup>
-
-                    {/* Desktop — two courts side-by-side */}
-                    <div className={styles.courtDesktop}>
-                      <div className={styles.courtPanel}>
-                        <span className={styles.courtPlayerLabel} style={{ color: "#FF6C22" }}>
-                          {player1.playerStats.name}
-                        </span>
-                        {renderDesktopChart(shots1, "#FF6C22")}
-                      </div>
-                      <div className={styles.courtPanel}>
-                        <span className={styles.courtPlayerLabel} style={{ color: "#74D0ED" }}>
-                          {player2.playerStats.name}
-                        </span>
-                        {renderDesktopChart(shots2, "#74D0ED")}
-                      </div>
-                    </div>
-
-                    {/* Mobile — comparison slider */}
-                    <div className={styles.courtMobile}>
-                      <ComparisonSlider
-                        activeTab={courtTab}
-                        shots1={shots1}
-                        shots2={shots2}
-                        name1={player1.playerStats.name}
-                        name2={player2.playerStats.name}
-                      />
-                    </div>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-
           {/* ── Stats comparison tables by section ── */}
           {statSections.map((section) => (
             <Fragment key={section.title}>
@@ -386,25 +416,56 @@ export default function CompareClient({
                           initial="hidden"
                           animate="visible"
                         >
-                          {section.rows.map((row) => {
+                          {section.rows.map((row, rowIdx) => {
                             const top1 = row.statKey ? getTopPct(percentiles1?.[row.statKey], row.lowerIsBetter) : null;
                             const top2 = row.statKey ? getTopPct(percentiles2?.[row.statKey], row.lowerIsBetter) : null;
+                            const showGauge = section.title !== "General" || row.label === "SIS" || row.label === "SIS-Px";
+                            const shares = showGauge ? getGaugeShares(row.v1, row.v2, row.label) : null;
+                            const baseDelay = 0.18 + rowIdx * 0.05;
+                            const leftDuration  = shares ? 0.45 + (shares.left  / 100) * 0.6 : 0;
+                            const rightDuration = shares ? 0.45 + (shares.right / 100) * 0.6 : 0;
                             return (
-                              <motion.tr key={row.label} variants={tableRowVariants} className={styles.dataRow}>
-                                <td className={`${styles.tdRight} ${row.better === 1 ? styles.better : styles.notBetter}`}>
-                                  <span>{row.v1}</span>
-                                  {top1 != null && (
-                                    <span className={`${styles.pctBadge} ${pctClass(top1)}`}>(top {Math.max(1, top1)}%)</span>
-                                  )}
-                                </td>
-                                <td className={styles.tdCenter}>{row.label}</td>
-                                <td className={`${styles.tdLeft} ${row.better === 2 ? styles.better : styles.notBetter}`}>
-                                  <span>{row.v2}</span>
-                                  {top2 != null && (
-                                    <span className={`${styles.pctBadge} ${pctClass(top2)}`}>(top {Math.max(1, top2)}%)</span>
-                                  )}
-                                </td>
-                              </motion.tr>
+                              <Fragment key={row.label}>
+                                <motion.tr variants={tableRowVariants} className={styles.dataRow}>
+                                  <td className={`${styles.tdRight} ${row.better === 1 ? styles.better : styles.notBetter}`}>
+                                    <span>{row.v1}</span>
+                                    {top1 != null && (
+                                      <span className={`${styles.pctBadge} ${pctClass(top1)}`}>(top {Math.max(1, top1)}%)</span>
+                                    )}
+                                  </td>
+                                  <td className={styles.tdCenter}>{row.label}</td>
+                                  <td className={`${styles.tdLeft} ${row.better === 2 ? styles.better : styles.notBetter}`}>
+                                    <span>{row.v2}</span>
+                                    {top2 != null && (
+                                      <span className={`${styles.pctBadge} ${pctClass(top2)}`}>(top {Math.max(1, top2)}%)</span>
+                                    )}
+                                  </td>
+                                </motion.tr>
+                                {shares && (
+                                  <tr className={styles.gaugeRow}>
+                                    <td colSpan={3} className={styles.gaugeCell}>
+                                      <div className={styles.gaugeBar} aria-hidden="true">
+                                        <div className={styles.gaugeTrack}>
+                                          <motion.div
+                                            className={`${styles.gaugeSeg} ${styles.gaugeSegLeft} ${row.better === 2 ? styles.gaugeFaded : ""}`}
+                                            initial={{ width: "0%" }}
+                                            animate={{ width: `${shares.left}%` }}
+                                            transition={{ duration: leftDuration, delay: baseDelay, ease: [0.22, 1, 0.36, 1] }}
+                                          />
+                                        </div>
+                                        <div className={styles.gaugeTrack}>
+                                          <motion.div
+                                            className={`${styles.gaugeSeg} ${styles.gaugeSegRight} ${row.better === 1 ? styles.gaugeFaded : ""}`}
+                                            initial={{ width: "0%" }}
+                                            animate={{ width: `${shares.right}%` }}
+                                            transition={{ duration: rightDuration, delay: baseDelay, ease: [0.22, 1, 0.36, 1] }}
+                                          />
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                )}
+                              </Fragment>
                             );
                           })}
                         </motion.tbody>
@@ -424,6 +485,7 @@ export default function CompareClient({
                 )}
               </AnimatePresence>
             </div>
+            {section.title === "Tirs" && shotChartsBlock}
             {section.title === "Tirs" && (
               <div className={styles.statSection}>
                 <button

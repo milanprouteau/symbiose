@@ -1,19 +1,56 @@
 .section {
-  width: 100%;
-  background:
-    linear-gradient(135deg, rgba(var(--team-rgb, 255,108,34), 0.08) 0%, transparent 40%),
-    var(--color-surface-raised);
-  border-radius: 14px;
+  position: relative;
+  width: auto;
+  /* Full-bleed : casse le padding du <main> et colle au header en haut */
+  margin: -1.5rem -1.5rem 1.5rem;
+
+  @media (max-width: 640px) {
+    margin-inline: -0.5rem;
+  }
+  background: var(--color-surface-raised);
+  border-radius: 0 0 18px 18px;
   box-shadow:
-    rgba(0, 0, 0, 0.8) 0px 10px 28px,
-    rgba(var(--team-rgb, 255,108,34), 0.12) 0px 0px 60px -10px;
-  border: 1px solid rgba(var(--team-rgb, 255,108,34), 0.2);
+    rgba(0, 0, 0, 0.55) 0px 18px 40px -18px,
+    rgba(var(--team-rgb, 255,108,34), 0.18) 0px 0px 80px -20px inset;
+  border-bottom: 1px solid rgba(var(--team-rgb, 255,108,34), 0.28);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Watermark : initiales université en fond — desktop seulement */
+.bgInitials {
+  display: none;
+
+  @media (min-width: 1024px) {
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    transform: translateY(-50%);
+    display: block;
+    font-family: var(--font-graduate);
+    font-weight: 800;
+    font-size: clamp(7rem, 22vw, 17rem);
+    line-height: 0.85;
+    letter-spacing: -0.03em;
+    color: rgba(var(--team-rgb, 255,108,34), 0.16);
+    text-transform: uppercase;
+    user-select: none;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 0;
+    mask-image: linear-gradient(to left, #000 0%, #000 40%, transparent 90%);
+    -webkit-mask-image: linear-gradient(to left, #000 0%, #000 40%, transparent 90%);
+  }
 }
 
 .inner {
+  position: relative;
+  z-index: 1;
   max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
+  padding-inline: 1.5rem;
+  padding-block: 1rem 1rem;
 }
 
 .grid {
@@ -40,54 +77,16 @@
 }
 
 
-/* ── Séparateur vertical : Initiales team ── */
-.teamSeparator {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 0 0.35rem;
-  user-select: none;
-  z-index: 1;
-
-  @media (min-width: 1024px) {
-    position: relative;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    order: 1;
-    padding: 0 0.75rem;
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--team-rgb, 255,108,34), 0.14) 0%,
-      rgba(var(--team-rgb, 255,108,34), 0.05) 50%,
-      rgba(var(--team-rgb, 255,108,34), 0.14) 100%
-    );
-
-    /* Desktop : séparateur à droite du joueur → débordement à gauche. */
-    &::before,
-    &::after {
-      right: auto;
-      left: 0;
-      transform: translateX(-50%);
-    }
-  }
-}
-
-.teamChar {
-  font-family: var(--font-graduate);
-  font-size: 3rem;
-  font-weight: 800;
-  color: var(--color-text-secondary);
-  line-height: 1;
-  letter-spacing: 0.05em;
-  flex: 1;
-  display: flex;
-  align-items: center;
+/* ── Trait horizontal team-color ── */
+.divider {
+  height: 1px;
+  margin: 0.85rem 0;
+  background: linear-gradient(
+    to right,
+    rgba(var(--team-rgb, 255,108,34), 0.55) 0%,
+    rgba(var(--team-rgb, 255,108,34), 0.15) 60%,
+    transparent 100%
+  );
 }
 
 /* ── Colonne centre : Infos principales ── */
@@ -105,13 +104,19 @@
 }
 
 .playerName {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  color: var(--color-primary-orange);
-  line-height: 1;
+  font-family: var(--font-graduate);
+  font-size: 1.75rem;
+  color: var(--color-primary-white);
+  line-height: 0.95;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
 
   @media (min-width: 768px) {
-    font-size: 1.875rem;
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 3rem;
   }
 }
 
@@ -124,43 +129,56 @@
 }
 
 .statsRow {
-  margin-top: 1.25rem;
+  margin-top: 0.75rem;
   display: flex;
   gap: 1.5rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid rgba(var(--team-rgb, 255,108,34), 0.22);
+  border-bottom: 1px solid rgba(var(--team-rgb, 255,108,34), 0.22);
+
+  @media (min-width: 768px) {
+    gap: 2.25rem;
+  }
 }
 
 .statItem {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  gap: 0.25rem;
 }
 
 .statValue {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-family: var(--font-graduate);
+  font-size: 1.6rem;
+  font-weight: 800;
   color: var(--color-primary-yellow);
   text-shadow: var(--yellow-text-shadow);
   line-height: 1;
+  -webkit-text-stroke: 0.5px currentColor;
+
+  @media (min-width: 768px) {
+    font-size: 2.1rem;
+  }
 }
 
 .statLabel {
   font-family: var(--font-heading);
   font-size: 10px;
-  color: var(--color-primary-white);
+  color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-top: 0.25rem;
+  letter-spacing: 0.14em;
 }
 
 /* ── Colonne droite : Overview ── */
 .overviewCol {
-  padding: 1rem 1.5rem 1.25rem;
+  padding: 0.75rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   @media (min-width: 768px) {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 
   @media (min-width: 1024px) {
@@ -229,13 +247,9 @@
 }
 
 .jersey {
-  color: var(--color-primary-yellow);
-  text-shadow: var(--yellow-text-shadow);
-  margin-right: 0.5rem;
-}
-
-.compareWrap {
-  margin-top: 1rem;
+  color: var(--team-color, var(--color-primary-orange));
+  margin-right: 0.6rem;
+  font-weight: 700;
 }
 
 .metaRow {
@@ -244,4 +258,16 @@
   gap: 0.6rem;
   flex-wrap: wrap;
   margin-top: 0.25rem;
+}
+
+.compareSlot {
+  display: none;
+
+  @media (min-width: 769px) {
+    display: block;
+    position: absolute;
+    top: 1.1rem;
+    right: 1.5rem;
+    z-index: 2;
+  }
 }

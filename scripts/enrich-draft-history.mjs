@@ -64,7 +64,6 @@ for (const p of history) {
 console.log(`\n🏀 Enriching ${history.length} players across ${groups.size} team/year combos\n`);
 
 let enriched = 0;
-let notFound = 0;
 let apiErrors = 0;
 let comboIdx = 0;
 
@@ -81,7 +80,7 @@ for (const [, { team, year }] of groups) {
       team,
     });
     await delay(200);
-  } catch (err) {
+  } catch {
     apiErrors++;
     continue;
   }

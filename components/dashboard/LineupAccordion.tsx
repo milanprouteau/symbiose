@@ -27,17 +27,19 @@ type StatRowDef = {
   label: string;
   get: (b: LineupStatBlock) => string;
   higherIsBetter: boolean;
+  /** Fixed max for the gauge (e.g., 100 for percentage stats). Undefined = scale relative to max(n1, n2). */
+  scale?: number;
 };
 
 const STAT_ROWS: StatRowDef[] = [
-  { label: "FG%",   get: (b) => pct(b.fgPct),                                    higherIsBetter: true },
-  { label: "3PT%",  get: (b) => pct(b.threePtPct),                                higherIsBetter: true },
-  { label: "eFG%",  get: (b) => pct(b.eFgPct),                                    higherIsBetter: true },
-  { label: "TS%",   get: (b) => pct(b.trueShooting),                              higherIsBetter: true },
+  { label: "FG%",   get: (b) => pct(b.fgPct),                                    higherIsBetter: true,  scale: 100 },
+  { label: "3PT%",  get: (b) => pct(b.threePtPct),                                higherIsBetter: true,  scale: 100 },
+  { label: "eFG%",  get: (b) => pct(b.eFgPct),                                    higherIsBetter: true,  scale: 100 },
+  { label: "TS%",   get: (b) => pct(b.trueShooting),                              higherIsBetter: true,  scale: 100 },
   { label: "AST",   get: (b) => String(b.assists),                                higherIsBetter: true },
   { label: "STL",   get: (b) => String(b.steals),                                 higherIsBetter: true },
   { label: "BLK",   get: (b) => String(b.blocks),                                 higherIsBetter: true },
-  { label: "TO%",   get: (b) => toRatio(b.turnovers, b.possessions),              higherIsBetter: false },
+  { label: "TO%",   get: (b) => toRatio(b.turnovers, b.possessions),              higherIsBetter: false, scale: 100 },
   { label: "OR",    get: (b) => String(b.offRebounds),                            higherIsBetter: true },
   { label: "DR",    get: (b) => String(b.defRebounds),                            higherIsBetter: true },
 ];
@@ -132,13 +134,21 @@ export default function LineupAccordion({ lineups, currentPlayerId }: Props) {
                       <span>STAT</span>
                       <span>ADVERSE</span>
                     </div>
-                    {STAT_ROWS.map(({ label, get, higherIsBetter }) => {
+                    {STAT_ROWS.map(({ label, get, higherIsBetter, scale }, rowIdx) => {
                       const v1 = get(lu.teamStats!);
                       const v2 = get(lu.opponentStats!);
                       const n1 = parseFloat(v1);
                       const n2 = parseFloat(v2);
                       const teamBetter = higherIsBetter ? n1 > n2 : n1 < n2;
                       const oppBetter  = higherIsBetter ? n2 > n1 : n2 < n1;
+                      const a1 = Math.abs(n1) || 0;
+                      const a2 = Math.abs(n2) || 0;
+                      const denom = scale ?? Math.max(a1, a2);
+                      const leftShare  = denom > 0 ? Math.min((a1 / denom) * 100, 100) : 0;
+                      const rightShare = denom > 0 ? Math.min((a2 / denom) * 100, 100) : 0;
+                      const baseDelay = 0.18 + rowIdx * 0.05;
+                      const leftDuration  = 0.45 + (leftShare  / 100) * 0.6;
+                      const rightDuration = 0.45 + (rightShare / 100) * 0.6;
                       return (
                         <div key={label} className={styles.lineupCompareRow}>
                           <span className={`${styles.lineupCompareVal} ${styles.lineupCompareLeft} ${teamBetter ? styles.lineupBetter : ""}`}>
@@ -148,6 +158,24 @@ export default function LineupAccordion({ lineups, currentPlayerId }: Props) {
                           <span className={`${styles.lineupCompareVal} ${styles.lineupCompareRight} ${oppBetter ? styles.lineupBetter : ""}`}>
                             {v2}
                           </span>
+                          <div className={styles.lineupCompareBar} aria-hidden="true">
+                            <div className={styles.lineupCompareBarTrack}>
+                              <motion.div
+                                className={`${styles.lineupCompareBarSeg} ${styles.lineupCompareBarLeft} ${teamBetter ? styles.lineupBarBetter : ""}`}
+                                initial={{ width: "0%" }}
+                                animate={{ width: `${leftShare}%` }}
+                                transition={{ duration: leftDuration, delay: baseDelay, ease: [0.22, 1, 0.36, 1] }}
+                              />
+                            </div>
+                            <div className={styles.lineupCompareBarTrack}>
+                              <motion.div
+                                className={`${styles.lineupCompareBarSeg} ${styles.lineupCompareBarRight} ${oppBetter ? styles.lineupBarBetter : ""}`}
+                                initial={{ width: "0%" }}
+                                animate={{ width: `${rightShare}%` }}
+                                transition={{ duration: rightDuration, delay: baseDelay, ease: [0.22, 1, 0.36, 1] }}
+                              />
+                            </div>
+                          </div>
                         </div>
                       );
                     })}

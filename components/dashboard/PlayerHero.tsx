@@ -1,7 +1,7 @@
 import type { Player } from "@/types/player";
 import styles from "./PlayerHero.module.scss";
-import CompareButton from "./CompareButton";
 import PlayerPhotoCard from "./PlayerPhotoCard";
+import CompareButton from "./CompareButton";
 import { getTeamDisplayColor, hexToRgb } from "@/lib/teamColors";
 
 type IndexEntry = { id: number; name: string; team: string };
@@ -13,39 +13,41 @@ type NBAProfileData = {
 
 type Props = {
   player: Player;
-  photoShadow?: string;
-  allPlayers?: IndexEntry[];
   nbaProfile?: NBAProfileData | null;
+  allPlayers?: IndexEntry[];
 };
 
-export default function PlayerHero({ player: p, photoShadow, allPlayers }: Props) {
+export default function PlayerHero({ player: p, allPlayers }: Props) {
   const teamColor = getTeamDisplayColor(p.team);
   const teamRgb = teamColor ? hexToRgb(teamColor) : null;
+
+  const sectionStyle: React.CSSProperties = teamRgb
+    ? ({ "--team-color": teamColor, "--team-rgb": teamRgb } as React.CSSProperties)
+    : {};
 
   return (
     <section
       className={styles.section}
-      style={teamRgb ? ({
-        "--team-color": teamColor,
-        "--team-rgb": teamRgb,
-      } as React.CSSProperties) : undefined}
+      style={sectionStyle}
     >
+      <span className={styles.bgInitials} aria-hidden="true">
+        {p.teamAbbreviation}
+      </span>
+      {allPlayers && allPlayers.length > 0 && (
+        <div className={styles.compareSlot}>
+          <CompareButton currentPlayerId={p.id} allPlayers={allPlayers} align="right" />
+        </div>
+      )}
       <div className={styles.inner}>
 
         <div className={styles.grid}>
 
           {/* ── Colonne gauche : Photo joueur ── */}
           <div className={styles.photoCol}>
-            <div className={styles.teamSeparator} aria-hidden="true">
-              {p.teamAbbreviation.split("").map((char, i) => (
-                <span key={i} className={styles.teamChar}>{char}</span>
-              ))}
-            </div>
             <PlayerPhotoCard
               photoUrl={p.photoUrl}
               logoUrl={p.teamLogoUrl}
               name={p.name}
-              shadow={photoShadow}
               size="md"
             />
           </div>
@@ -63,6 +65,8 @@ export default function PlayerHero({ player: p, photoShadow, allPlayers }: Props
                 </span>
               </div>
             </div>
+
+            <div className={styles.divider} aria-hidden="true" />
 
             <div className={styles.overviewRow}>
               <ul className={styles.overviewList}>
@@ -97,10 +101,6 @@ export default function PlayerHero({ player: p, photoShadow, allPlayers }: Props
                   </li>
                 )}
               </ul>
-
-              {allPlayers && allPlayers.length > 0 && (
-                <CompareButton currentPlayerId={p.id} allPlayers={allPlayers} />
-              )}
             </div>
           </div>
         </div>
