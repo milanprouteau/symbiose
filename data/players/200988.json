@@ -243,7 +243,8 @@
     "jersey": "8",
     "position": "Forward",
     "height": 82,
-    "weight": 215,
+    "weight": 211,
+    "wingspan": null,
     "hometown": {
       "city": "Atlanta",
       "state": "GA"
@@ -716,8 +717,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604538,
-      "sourceId": "401817262113596795",
+      "id": 37604539,
+      "sourceId": "401817262113597055",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -728,7 +729,7 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 44,
       "awayScore": 19,
       "homeWinProbability": 0.999,
       "period": 1,
@@ -737,7 +738,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:44:09.000Z",
+      "wallclock": "2025-11-04T00:44:26.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -823,8 +824,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604539,
-      "sourceId": "401817262113597055",
+      "id": 37604538,
+      "sourceId": "401817262113596795",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -835,7 +836,7 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 43,
       "awayScore": 19,
       "homeWinProbability": 0.999,
       "period": 1,
@@ -844,7 +845,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:44:26.000Z",
+      "wallclock": "2025-11-04T00:44:09.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -1041,8 +1042,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604627,
-      "sourceId": "401817262113617937",
+      "id": 37604633,
+      "sourceId": "401817262113618328",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -1053,17 +1054,17 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 60,
       "awayScore": 25,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:15:02.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "wallclock": "2025-11-04T01:15:20.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -1075,7 +1076,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -1148,8 +1149,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604633,
-      "sourceId": "401817262113618328",
+      "id": 37604627,
+      "sourceId": "401817262113617937",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -1160,17 +1161,17 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 59,
       "awayScore": 25,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:15:20.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
+      "wallclock": "2025-11-04T01:15:02.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -1182,7 +1183,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -1699,8 +1700,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604799,
-      "sourceId": "401817262113650071",
+      "id": 37604798,
+      "sourceId": "401817262113649956",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -1711,7 +1712,7 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 81,
       "awayScore": 49,
       "homeWinProbability": 1,
       "period": 2,
@@ -1720,7 +1721,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:51:55.000Z",
+      "wallclock": "2025-11-04T01:51:36.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -1806,8 +1807,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604798,
-      "sourceId": "401817262113649956",
+      "id": 37604799,
+      "sourceId": "401817262113650071",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -1818,7 +1819,7 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 82,
       "awayScore": 49,
       "homeWinProbability": 1,
       "period": 2,
@@ -1827,7 +1828,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:51:36.000Z",
+      "wallclock": "2025-11-04T01:51:55.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -2478,9 +2479,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38223052,
-      "sourceId": "401817263113882604",
-      "playType": "JumpShot",
+      "id": 38223058,
+      "sourceId": "401817263113882912",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -2496,11 +2497,11 @@
       "period": 1,
       "clock": "10:32",
       "secondsRemaining": 632,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T00:24:00.000Z",
-      "playText": "Caleb Wilson made Jumper.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T00:24:49.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -2512,16 +2513,16 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 178.6,
-          "y": 145
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -2585,9 +2586,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38223058,
-      "sourceId": "401817263113882912",
-      "playType": "MadeFreeThrow",
+      "id": 38223052,
+      "sourceId": "401817263113882604",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -2603,11 +2604,11 @@
       "period": 1,
       "clock": "10:32",
       "secondsRemaining": 632,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T00:24:49.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T00:24:00.000Z",
+      "playText": "Caleb Wilson made Jumper.",
       "participants": [
         {
           "id": 200988,
@@ -2619,16 +2620,16 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 178.6,
+          "y": 145
         }
       },
       "onFloor": [
@@ -6362,8 +6363,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697916,
-      "sourceId": "401817264114162432",
+      "id": 38697919,
+      "sourceId": "401817264114162490",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -6380,11 +6381,11 @@
       "period": 2,
       "clock": "10:25",
       "secondsRemaining": 625,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:49:54.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
+      "wallclock": "2025-11-12T01:50:11.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -6396,7 +6397,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6469,8 +6470,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697919,
-      "sourceId": "401817264114162490",
+      "id": 38697916,
+      "sourceId": "401817264114162432",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -6487,11 +6488,11 @@
       "period": 2,
       "clock": "10:25",
       "secondsRemaining": 625,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:50:11.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "wallclock": "2025-11-12T01:49:54.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -6503,7 +6504,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6897,8 +6898,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697990,
-      "sourceId": "401817264114166316",
+      "id": 38697985,
+      "sourceId": "401817264114166186",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -6915,11 +6916,11 @@
       "period": 2,
       "clock": "6:42",
       "secondsRemaining": 402,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T02:03:24.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "wallclock": "2025-11-12T02:02:59.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -6931,7 +6932,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7004,8 +7005,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38697985,
-      "sourceId": "401817264114166186",
+      "id": 38697990,
+      "sourceId": "401817264114166316",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -7022,11 +7023,11 @@
       "period": 2,
       "clock": "6:42",
       "secondsRemaining": 402,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T02:02:59.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
+      "wallclock": "2025-11-12T02:03:24.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -7038,7 +7039,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8197,8 +8198,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39016949,
-      "sourceId": "401817265114334957",
+      "id": 39016950,
+      "sourceId": "401817265114335013",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -8209,16 +8210,16 @@
       "opponent": "North Carolina Central",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 21,
       "awayScore": 9,
-      "homeWinProbability": 0.906,
+      "homeWinProbability": 0.924,
       "period": 1,
       "clock": "9:59",
       "secondsRemaining": 599,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:30:20.000Z",
+      "wallclock": "2025-11-15T02:30:34.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -8304,8 +8305,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39016950,
-      "sourceId": "401817265114335013",
+      "id": 39016949,
+      "sourceId": "401817265114334957",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -8316,16 +8317,16 @@
       "opponent": "North Carolina Central",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 20,
       "awayScore": 9,
-      "homeWinProbability": 0.924,
+      "homeWinProbability": 0.906,
       "period": 1,
       "clock": "9:59",
       "secondsRemaining": 599,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:30:34.000Z",
+      "wallclock": "2025-11-15T02:30:20.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -9937,8 +9938,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39421632,
-      "sourceId": "401817266114548579",
+      "id": 39421631,
+      "sourceId": "401817266114548553",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -9955,11 +9956,11 @@
       "period": 2,
       "clock": "19:50",
       "secondsRemaining": 1190,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T01:11:25.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "wallclock": "2025-11-19T01:11:23.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -9971,7 +9972,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10044,8 +10045,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39421631,
-      "sourceId": "401817266114548553",
+      "id": 39421632,
+      "sourceId": "401817266114548579",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -10062,11 +10063,11 @@
       "period": 2,
       "clock": "19:50",
       "secondsRemaining": 1190,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T01:11:23.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
+      "wallclock": "2025-11-19T01:11:25.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -10078,7 +10079,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11875,8 +11876,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124259,
-      "sourceId": "401817198114961914",
+      "id": 40124266,
+      "sourceId": "401817198114961988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -11887,16 +11888,16 @@
       "opponent": "St. Bonaventure",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 19,
       "awayScore": 10,
-      "homeWinProbability": 0.839,
+      "homeWinProbability": 0.856,
       "period": 1,
       "clock": "13:00",
       "secondsRemaining": 780,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:18:14.000Z",
+      "wallclock": "2025-11-25T23:18:41.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -11982,8 +11983,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124266,
-      "sourceId": "401817198114961988",
+      "id": 40124259,
+      "sourceId": "401817198114961914",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -11994,16 +11995,16 @@
       "opponent": "St. Bonaventure",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 18,
       "awayScore": 10,
-      "homeWinProbability": 0.856,
+      "homeWinProbability": 0.839,
       "period": 1,
       "clock": "13:00",
       "secondsRemaining": 780,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:18:41.000Z",
+      "wallclock": "2025-11-25T23:18:14.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -13270,8 +13271,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124442,
-      "sourceId": "401817198114970154",
+      "id": 40124443,
+      "sourceId": "401817198114970278",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -13282,16 +13283,16 @@
       "opponent": "St. Bonaventure",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 45,
       "awayScore": 38,
-      "homeWinProbability": 0.829,
+      "homeWinProbability": 0.834,
       "period": 2,
       "clock": "17:42",
       "secondsRemaining": 1062,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T00:13:59.000Z",
+      "wallclock": "2025-11-26T00:14:18.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -13377,8 +13378,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40124443,
-      "sourceId": "401817198114970278",
+      "id": 40124442,
+      "sourceId": "401817198114970154",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -13389,16 +13390,16 @@
       "opponent": "St. Bonaventure",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 44,
       "awayScore": 38,
-      "homeWinProbability": 0.834,
+      "homeWinProbability": 0.829,
       "period": 2,
       "clock": "17:42",
       "secondsRemaining": 1062,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T00:14:18.000Z",
+      "wallclock": "2025-11-26T00:13:59.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -14233,8 +14234,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40397374,
-      "sourceId": "401817267115091290",
+      "id": 40397371,
+      "sourceId": "401817267115091274",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 127,
@@ -14245,16 +14246,16 @@
       "opponent": "North Carolina",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 5,
       "awayScore": 7,
-      "homeWinProbability": 0.61,
+      "homeWinProbability": 0.567,
       "period": 1,
       "clock": "16:25",
       "secondsRemaining": 985,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T21:37:29.000Z",
+      "wallclock": "2025-11-27T21:37:09.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -14340,8 +14341,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40397371,
-      "sourceId": "401817267115091274",
+      "id": 40397374,
+      "sourceId": "401817267115091290",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 127,
@@ -14352,16 +14353,16 @@
       "opponent": "North Carolina",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 7,
-      "homeWinProbability": 0.567,
+      "homeWinProbability": 0.61,
       "period": 1,
       "clock": "16:25",
       "secondsRemaining": 985,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T21:37:09.000Z",
+      "wallclock": "2025-11-27T21:37:29.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -18755,8 +18756,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40778997,
-      "sourceId": "401806365115363609",
+      "id": 40778999,
+      "sourceId": "401806365115363612",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -18768,16 +18769,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 49,
-      "homeWinProbability": 0.764,
+      "awayScore": 50,
+      "homeWinProbability": 0.745,
       "period": 2,
       "clock": "7:33",
       "secondsRemaining": 453,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T04:25:10.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "wallclock": "2025-12-03T04:25:24.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -18789,7 +18790,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18862,8 +18863,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40778999,
-      "sourceId": "401806365115363612",
+      "id": 40778997,
+      "sourceId": "401806365115363609",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -18875,16 +18876,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 50,
-      "homeWinProbability": 0.745,
+      "awayScore": 49,
+      "homeWinProbability": 0.764,
       "period": 2,
       "clock": "7:33",
       "secondsRemaining": 453,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T04:25:24.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
+      "wallclock": "2025-12-03T04:25:10.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -18896,7 +18897,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19076,8 +19077,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40779035,
-      "sourceId": "401806365115363824",
+      "id": 40779042,
+      "sourceId": "401806365115363858",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -19089,15 +19090,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 53,
-      "homeWinProbability": 0.778,
+      "awayScore": 54,
+      "homeWinProbability": 0.71,
       "period": 2,
       "clock": "4:26",
       "secondsRemaining": 266,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T04:32:00.000Z",
+      "wallclock": "2025-12-03T04:32:20.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -19183,8 +19184,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40779042,
-      "sourceId": "401806365115363858",
+      "id": 40779035,
+      "sourceId": "401806365115363824",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -19196,15 +19197,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 54,
-      "homeWinProbability": 0.71,
+      "awayScore": 53,
+      "homeWinProbability": 0.778,
       "period": 2,
       "clock": "4:26",
       "secondsRemaining": 266,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T04:32:20.000Z",
+      "wallclock": "2025-12-03T04:32:00.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -19619,8 +19620,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40779093,
-      "sourceId": "401806365115364569",
+      "id": 40779091,
+      "sourceId": "401806365115364564",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -19632,16 +19633,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 67,
-      "homeWinProbability": 0.04,
+      "awayScore": 66,
+      "homeWinProbability": 0.107,
       "period": 2,
       "clock": "0:02",
       "secondsRemaining": 2,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T04:53:05.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
+      "wallclock": "2025-12-03T04:52:51.000Z",
+      "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -19653,7 +19654,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19726,8 +19727,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40779091,
-      "sourceId": "401806365115364564",
+      "id": 40779093,
+      "sourceId": "401806365115364569",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -19739,16 +19740,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 66,
-      "homeWinProbability": 0.107,
+      "awayScore": 67,
+      "homeWinProbability": 0.04,
       "period": 2,
       "clock": "0:02",
       "secondsRemaining": 2,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T04:52:51.000Z",
-      "playText": "Caleb Wilson missed Free Throw.",
+      "wallclock": "2025-12-03T04:53:05.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
           "id": 200988,
@@ -19760,7 +19761,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20158,113 +20159,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333144,
-      "sourceId": "401817268115667013",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 97,
-      "opponent": "Georgetown",
-      "opponentConference": "Big East",
-      "opponentSeed": null,
-      "homeScore": 10,
-      "awayScore": 14,
-      "homeWinProbability": 0.512,
-      "period": 1,
-      "clock": "15:19",
-      "secondsRemaining": 919,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-07T22:12:46.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
-      "participants": [
-        {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 8177,
-          "name": "Caleb Williams",
-          "team": "Georgetown"
-        },
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 267,
-          "name": "KJ Lewis",
-          "team": "Georgetown"
-        },
-        {
-          "id": 8182,
-          "name": "Jayden Fort",
-          "team": "Georgetown"
-        },
-        {
-          "id": 169,
-          "name": "Langston Love",
-          "team": "Georgetown"
-        },
-        {
-          "id": 6786,
-          "name": "Kyan Evans",
-          "team": "North Carolina"
-        },
-        {
-          "id": 7872,
-          "name": "Jeremiah Williams",
-          "team": "Georgetown"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 3326,
-          "name": "Jonathan Powell",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 210203,
-      "gameSourceId": "401817268",
-      "gameStartDate": "2025-12-07T22:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41333145,
       "sourceId": "401817268115667050",
       "playType": "MadeFreeThrow",
@@ -20372,8 +20266,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333199,
-      "sourceId": "401817268115669099",
+      "id": 41333144,
+      "sourceId": "401817268115667013",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -20384,16 +20278,123 @@
       "opponent": "Georgetown",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 10,
+      "awayScore": 14,
+      "homeWinProbability": 0.512,
+      "period": 1,
+      "clock": "15:19",
+      "secondsRemaining": 919,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-07T22:12:46.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
+      "participants": [
+        {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 8177,
+          "name": "Caleb Williams",
+          "team": "Georgetown"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 267,
+          "name": "KJ Lewis",
+          "team": "Georgetown"
+        },
+        {
+          "id": 8182,
+          "name": "Jayden Fort",
+          "team": "Georgetown"
+        },
+        {
+          "id": 169,
+          "name": "Langston Love",
+          "team": "Georgetown"
+        },
+        {
+          "id": 6786,
+          "name": "Kyan Evans",
+          "team": "North Carolina"
+        },
+        {
+          "id": 7872,
+          "name": "Jeremiah Williams",
+          "team": "Georgetown"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 3326,
+          "name": "Jonathan Powell",
+          "team": "North Carolina"
+        }
+      ]
+    },
+    {
+      "gameId": 210203,
+      "gameSourceId": "401817268",
+      "gameStartDate": "2025-12-07T22:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41333202,
+      "sourceId": "401817268115669162",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 97,
+      "opponent": "Georgetown",
+      "opponentConference": "Big East",
+      "opponentSeed": null,
+      "homeScore": 24,
       "awayScore": 21,
-      "homeWinProbability": 0.703,
+      "homeWinProbability": 0.718,
       "period": 1,
       "clock": "10:22",
       "secondsRemaining": 622,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T22:26:08.000Z",
+      "wallclock": "2025-12-07T22:26:28.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -20479,8 +20480,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41333202,
-      "sourceId": "401817268115669162",
+      "id": 41333199,
+      "sourceId": "401817268115669099",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -20491,16 +20492,16 @@
       "opponent": "Georgetown",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 23,
       "awayScore": 21,
-      "homeWinProbability": 0.718,
+      "homeWinProbability": 0.703,
       "period": 1,
       "clock": "10:22",
       "secondsRemaining": 622,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T22:26:28.000Z",
+      "wallclock": "2025-12-07T22:26:08.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -21989,113 +21990,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41625790,
-      "sourceId": "401817269115806266",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 268,
-      "opponent": "South Carolina Upstate",
-      "opponentConference": "Big South",
-      "opponentSeed": null,
-      "homeScore": 24,
-      "awayScore": 21,
-      "homeWinProbability": 0.716,
-      "period": 1,
-      "clock": "6:07",
-      "secondsRemaining": 367,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-13T19:33:15.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
-      "participants": [
-        {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3020,
-          "name": "Learic Davis",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 5706,
-          "name": "Jaydon Young",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 202085,
-          "name": "Tyler Smith",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 2846,
-          "name": "Carmelo Adkins",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 2838,
-          "name": "Karmani Gregory",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 6786,
-          "name": "Kyan Evans",
-          "team": "North Carolina"
-        },
-        {
-          "id": 202075,
-          "name": "Coen Collier",
-          "team": "South Carolina Upstate"
-        }
-      ]
-    },
-    {
-      "gameId": 210245,
-      "gameSourceId": "401817269",
-      "gameStartDate": "2025-12-13T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41625799,
       "sourceId": "401817269115806355",
       "playType": "MadeFreeThrow",
@@ -22203,8 +22097,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41625807,
-      "sourceId": "401817269115806778",
+      "id": 41625790,
+      "sourceId": "401817269115806266",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 268,
+      "opponent": "South Carolina Upstate",
+      "opponentConference": "Big South",
+      "opponentSeed": null,
+      "homeScore": 24,
+      "awayScore": 21,
+      "homeWinProbability": 0.716,
+      "period": 1,
+      "clock": "6:07",
+      "secondsRemaining": 367,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-13T19:33:15.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
+      "participants": [
+        {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3020,
+          "name": "Learic Davis",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 5706,
+          "name": "Jaydon Young",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 202085,
+          "name": "Tyler Smith",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 2846,
+          "name": "Carmelo Adkins",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 2838,
+          "name": "Karmani Gregory",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 6786,
+          "name": "Kyan Evans",
+          "team": "North Carolina"
+        },
+        {
+          "id": 202075,
+          "name": "Coen Collier",
+          "team": "South Carolina Upstate"
+        }
+      ]
+    },
+    {
+      "gameId": 210245,
+      "gameSourceId": "401817269",
+      "gameStartDate": "2025-12-13T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41625803,
+      "sourceId": "401817269115806674",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -22224,7 +22225,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T19:35:07.000Z",
+      "wallclock": "2025-12-13T19:34:49.000Z",
       "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
@@ -22310,8 +22311,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41625803,
-      "sourceId": "401817269115806674",
+      "id": 41625807,
+      "sourceId": "401817269115806778",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -22331,7 +22332,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T19:34:49.000Z",
+      "wallclock": "2025-12-13T19:35:07.000Z",
       "playText": "Caleb Wilson missed Free Throw.",
       "participants": [
         {
@@ -23182,6 +23183,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 41625901,
+      "sourceId": "401817269115813148",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 268,
+      "opponent": "South Carolina Upstate",
+      "opponentConference": "Big South",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 35,
+      "homeWinProbability": 0.918,
+      "period": 2,
+      "clock": "16:17",
+      "secondsRemaining": 977,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-13T20:10:27.000Z",
+      "playText": "Caleb Wilson made Free Throw.",
+      "participants": [
+        {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2838,
+          "name": "Karmani Gregory",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        },
+        {
+          "id": 2845,
+          "name": "Isaiah Skinner",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 202085,
+          "name": "Tyler Smith",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 6786,
+          "name": "Kyan Evans",
+          "team": "North Carolina"
+        },
+        {
+          "id": 83,
+          "name": "Jarin Stevenson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 202073,
+          "name": "Mason Bendinger",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 202082,
+          "name": "Jafeth Martinez",
+          "team": "South Carolina Upstate"
+        }
+      ]
+    },
+    {
+      "gameId": 210245,
+      "gameSourceId": "401817269",
+      "gameStartDate": "2025-12-13T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 41625895,
       "sourceId": "401817269115813014",
       "playType": "MadeFreeThrow",
@@ -23289,8 +23397,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41625901,
-      "sourceId": "401817269115813148",
+      "id": 41625917,
+      "sourceId": "401817269115815702",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -23301,16 +23409,16 @@
       "opponent": "South Carolina Upstate",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 45,
-      "awayScore": 35,
-      "homeWinProbability": 0.918,
+      "homeScore": 50,
+      "awayScore": 37,
+      "homeWinProbability": 0.952,
       "period": 2,
-      "clock": "16:17",
-      "secondsRemaining": 977,
+      "clock": "15:02",
+      "secondsRemaining": 902,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T20:10:27.000Z",
+      "wallclock": "2025-12-13T20:19:25.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -23347,6 +23455,11 @@
           "team": "North Carolina"
         },
         {
+          "id": 202075,
+          "name": "Coen Collier",
+          "team": "South Carolina Upstate"
+        },
+        {
           "id": 200973,
           "name": "Luka Bogavac",
           "team": "North Carolina"
@@ -23354,6 +23467,11 @@
         {
           "id": 2845,
           "name": "Isaiah Skinner",
+          "team": "South Carolina Upstate"
+        },
+        {
+          "id": 2846,
+          "name": "Carmelo Adkins",
           "team": "South Carolina Upstate"
         },
         {
@@ -23375,16 +23493,6 @@
           "id": 83,
           "name": "Jarin Stevenson",
           "team": "North Carolina"
-        },
-        {
-          "id": 202073,
-          "name": "Mason Bendinger",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 202082,
-          "name": "Jafeth Martinez",
-          "team": "South Carolina Upstate"
         }
       ]
     },
@@ -23507,8 +23615,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41625917,
-      "sourceId": "401817269115815702",
+      "id": 41626019,
+      "sourceId": "401817269115822935",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -23519,123 +23627,16 @@
       "opponent": "South Carolina Upstate",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 50,
-      "awayScore": 37,
-      "homeWinProbability": 0.952,
-      "period": 2,
-      "clock": "15:02",
-      "secondsRemaining": 902,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-13T20:19:25.000Z",
-      "playText": "Caleb Wilson made Free Throw.",
-      "participants": [
-        {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2838,
-          "name": "Karmani Gregory",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 202075,
-          "name": "Coen Collier",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        },
-        {
-          "id": 2845,
-          "name": "Isaiah Skinner",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 2846,
-          "name": "Carmelo Adkins",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 202085,
-          "name": "Tyler Smith",
-          "team": "South Carolina Upstate"
-        },
-        {
-          "id": 6786,
-          "name": "Kyan Evans",
-          "team": "North Carolina"
-        },
-        {
-          "id": 83,
-          "name": "Jarin Stevenson",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 210245,
-      "gameSourceId": "401817269",
-      "gameStartDate": "2025-12-13T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 41626024,
-      "sourceId": "401817269115823023",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 268,
-      "opponent": "South Carolina Upstate",
-      "opponentConference": "Big South",
-      "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 60,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "3:25",
       "secondsRemaining": 205,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T20:44:13.000Z",
+      "wallclock": "2025-12-13T20:43:50.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -23721,8 +23722,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41626019,
-      "sourceId": "401817269115822935",
+      "id": 41626024,
+      "sourceId": "401817269115823023",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -23733,16 +23734,16 @@
       "opponent": "South Carolina Upstate",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 60,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "3:25",
       "secondsRemaining": 205,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T20:43:50.000Z",
+      "wallclock": "2025-12-13T20:44:13.000Z",
       "playText": "Caleb Wilson made Free Throw.",
       "participants": [
         {
@@ -24692,8 +24693,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921385,
-      "sourceId": "401817270115976850",
+      "id": 41921378,
+      "sourceId": "401817270115976796",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -24710,11 +24711,11 @@
       "period": 1,
       "clock": "14:12",
       "secondsRemaining": 852,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:21:56.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "wallclock": "2025-12-17T01:21:36.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -24726,7 +24727,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -24799,8 +24800,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921378,
-      "sourceId": "401817270115976796",
+      "id": 41921385,
+      "sourceId": "401817270115976850",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -24817,11 +24818,11 @@
       "period": 1,
       "clock": "14:12",
       "secondsRemaining": 852,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:21:36.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2025-12-17T01:21:56.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -24833,7 +24834,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25013,8 +25014,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921471,
-      "sourceId": "401817270115980197",
+      "id": 41921477,
+      "sourceId": "401817270115980282",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -25025,17 +25026,17 @@
       "opponent": "East Tennessee State",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 25,
       "awayScore": 21,
-      "homeWinProbability": 0.716,
+      "homeWinProbability": 0.776,
       "period": 1,
       "clock": "4:26",
       "secondsRemaining": 266,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:41:53.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2025-12-17T01:42:12.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -25047,7 +25048,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25120,8 +25121,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921477,
-      "sourceId": "401817270115980282",
+      "id": 41921471,
+      "sourceId": "401817270115980197",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -25132,17 +25133,17 @@
       "opponent": "East Tennessee State",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 24,
       "awayScore": 21,
-      "homeWinProbability": 0.776,
+      "homeWinProbability": 0.716,
       "period": 1,
       "clock": "4:26",
       "secondsRemaining": 266,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:42:12.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2025-12-17T01:41:53.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -25154,7 +25155,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25980,8 +25981,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921594,
-      "sourceId": "401817270115986190",
+      "id": 41921595,
+      "sourceId": "401817270115986204",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -25992,17 +25993,17 @@
       "opponent": "East Tennessee State",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 51,
       "awayScore": 37,
-      "homeWinProbability": 0.958,
+      "homeWinProbability": 0.964,
       "period": 2,
       "clock": "13:09",
       "secondsRemaining": 789,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:28:08.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2025-12-17T02:28:20.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -26087,8 +26088,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921595,
-      "sourceId": "401817270115986204",
+      "id": 41921594,
+      "sourceId": "401817270115986190",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -26099,17 +26100,17 @@
       "opponent": "East Tennessee State",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 51,
+      "homeScore": 50,
       "awayScore": 37,
-      "homeWinProbability": 0.964,
+      "homeWinProbability": 0.958,
       "period": 2,
       "clock": "13:09",
       "secondsRemaining": 789,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:28:20.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2025-12-17T02:28:08.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -26737,8 +26738,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921671,
-      "sourceId": "401817270115988180",
+      "id": 41921666,
+      "sourceId": "401817270115988140",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -26755,11 +26756,11 @@
       "period": 2,
       "clock": "5:22",
       "secondsRemaining": 322,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:48:27.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "wallclock": "2025-12-17T02:48:06.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -26771,7 +26772,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -26844,8 +26845,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41921666,
-      "sourceId": "401817270115988140",
+      "id": 41921671,
+      "sourceId": "401817270115988180",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -26862,11 +26863,11 @@
       "period": 2,
       "clock": "5:22",
       "secondsRemaining": 322,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:48:06.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2025-12-17T02:48:27.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -26878,7 +26879,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30197,8 +30198,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528752,
-      "sourceId": "401817271116346249",
+      "id": 42528747,
+      "sourceId": "401817271116346202",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -30209,17 +30210,17 @@
       "opponent": "East Carolina",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 24,
-      "homeWinProbability": 0.98,
+      "homeWinProbability": 0.974,
       "period": 1,
       "clock": "2:24",
       "secondsRemaining": 144,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T01:52:53.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2025-12-23T01:52:33.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -30304,8 +30305,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528747,
-      "sourceId": "401817271116346202",
+      "id": 42528752,
+      "sourceId": "401817271116346249",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -30316,17 +30317,17 @@
       "opponent": "East Carolina",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 24,
-      "homeWinProbability": 0.974,
+      "homeWinProbability": 0.98,
       "period": 1,
       "clock": "2:24",
       "secondsRemaining": 144,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T01:52:33.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2025-12-23T01:52:53.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -30522,8 +30523,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528816,
-      "sourceId": "401817271116347954",
+      "id": 42528818,
+      "sourceId": "401817271116347971",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -30543,8 +30544,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:17:31.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2025-12-23T02:17:47.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -30629,8 +30630,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528818,
-      "sourceId": "401817271116347971",
+      "id": 42528816,
+      "sourceId": "401817271116347954",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -30650,8 +30651,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:17:47.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "wallclock": "2025-12-23T02:17:31.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -31493,9 +31494,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528925,
-      "sourceId": "401817271116349776",
-      "playType": "LayUpShot",
+      "id": 42528933,
+      "sourceId": "401817271116349835",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -31505,7 +31506,7 @@
       "opponent": "East Carolina",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 37,
       "homeWinProbability": 1,
       "period": 2,
@@ -31513,9 +31514,9 @@
       "secondsRemaining": 584,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-23T02:44:04.000Z",
-      "playText": "Caleb Wilson misses layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-23T02:44:42.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -31528,15 +31529,15 @@
           "name": "Caleb Wilson"
         },
         "made": false,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -31600,9 +31601,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528933,
-      "sourceId": "401817271116349835",
-      "playType": "MadeFreeThrow",
+      "id": 42528925,
+      "sourceId": "401817271116349776",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -31612,7 +31613,7 @@
       "opponent": "East Carolina",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 37,
       "homeWinProbability": 1,
       "period": 2,
@@ -31620,9 +31621,9 @@
       "secondsRemaining": 584,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-23T02:44:42.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "scoreValue": 2,
+      "wallclock": "2025-12-23T02:44:04.000Z",
+      "playText": "Caleb Wilson misses layup",
       "participants": [
         {
           "id": 200988,
@@ -31635,15 +31636,15 @@
           "name": "Caleb Wilson"
         },
         "made": false,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 230
         }
       },
       "onFloor": [
@@ -31925,8 +31926,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528963,
-      "sourceId": "401817271116350276",
+      "id": 42528962,
+      "sourceId": "401817271116350275",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -31937,7 +31938,7 @@
       "opponent": "East Carolina",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 41,
       "homeWinProbability": 1,
       "period": 2,
@@ -31947,7 +31948,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-23T02:51:17.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -32032,8 +32033,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42528962,
-      "sourceId": "401817271116350275",
+      "id": 42528963,
+      "sourceId": "401817271116350276",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -32044,7 +32045,7 @@
       "opponent": "East Carolina",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 41,
       "homeWinProbability": 1,
       "period": 2,
@@ -32054,7 +32055,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-23T02:51:17.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -32353,9 +32354,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42882030,
-      "sourceId": "401820639116507318",
-      "playType": "LayUpShot",
+      "id": 42882034,
+      "sourceId": "401820639116507402",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -32365,17 +32366,17 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 8,
       "awayScore": 7,
-      "homeWinProbability": 0.607,
+      "homeWinProbability": 0.659,
       "period": 1,
       "clock": "13:06",
       "secondsRemaining": 786,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-31T00:15:59.000Z",
-      "playText": "Caleb Wilson makes layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-31T00:16:30.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 1",
       "participants": [
         {
           "id": 200988,
@@ -32388,15 +32389,15 @@
           "name": "Caleb Wilson"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -32460,9 +32461,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42882034,
-      "sourceId": "401820639116507402",
-      "playType": "MadeFreeThrow",
+      "id": 42882030,
+      "sourceId": "401820639116507318",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -32472,17 +32473,17 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 8,
+      "homeScore": 7,
       "awayScore": 7,
-      "homeWinProbability": 0.659,
+      "homeWinProbability": 0.607,
       "period": 1,
       "clock": "13:06",
       "secondsRemaining": 786,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-31T00:16:30.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-31T00:15:59.000Z",
+      "playText": "Caleb Wilson makes layup",
       "participants": [
         {
           "id": 200988,
@@ -32495,15 +32496,15 @@
           "name": "Caleb Wilson"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 230
         }
       },
       "onFloor": [
@@ -32678,8 +32679,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42882041,
-      "sourceId": "401820639116507752",
+      "id": 42882040,
+      "sourceId": "401820639116507697",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -32690,17 +32691,17 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 12,
       "awayScore": 7,
-      "homeWinProbability": 0.79,
+      "homeWinProbability": 0.779,
       "period": 1,
       "clock": "12:10",
       "secondsRemaining": 730,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T00:18:39.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2025-12-31T00:18:19.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -32785,8 +32786,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42882040,
-      "sourceId": "401820639116507697",
+      "id": 42882041,
+      "sourceId": "401820639116507752",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -32797,17 +32798,17 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 12,
+      "homeScore": 13,
       "awayScore": 7,
-      "homeWinProbability": 0.779,
+      "homeWinProbability": 0.79,
       "period": 1,
       "clock": "12:10",
       "secondsRemaining": 730,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T00:18:19.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2025-12-31T00:18:39.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -33546,8 +33547,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42882173,
-      "sourceId": "401820639116511556",
+      "id": 42882176,
+      "sourceId": "401820639116511576",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -33564,11 +33565,11 @@
       "period": 1,
       "clock": "0:50",
       "secondsRemaining": 50,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T00:50:36.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2025-12-31T00:51:05.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -33580,7 +33581,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33653,8 +33654,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42882176,
-      "sourceId": "401820639116511576",
+      "id": 42882173,
+      "sourceId": "401820639116511556",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -33671,11 +33672,11 @@
       "period": 1,
       "clock": "0:50",
       "secondsRemaining": 50,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T00:51:05.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "wallclock": "2025-12-31T00:50:36.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -33687,7 +33688,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36162,8 +36163,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43207279,
-      "sourceId": "401820648116742227",
+      "id": 43207275,
+      "sourceId": "401820648116742060",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -36175,16 +36176,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 48,
-      "homeWinProbability": 0.801,
+      "awayScore": 47,
+      "homeWinProbability": 0.824,
       "period": 2,
       "clock": "15:51",
       "secondsRemaining": 951,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:34:16.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-01-03T20:33:54.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -36196,7 +36197,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36269,8 +36270,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43207275,
-      "sourceId": "401820648116742060",
+      "id": 43207279,
+      "sourceId": "401820648116742227",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -36282,16 +36283,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 47,
-      "homeWinProbability": 0.824,
+      "awayScore": 48,
+      "homeWinProbability": 0.801,
       "period": 2,
       "clock": "15:51",
       "secondsRemaining": 951,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:33:54.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2026-01-03T20:34:16.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -36303,7 +36304,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -37026,113 +37027,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923869,
-      "sourceId": "401820661117192398",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 342,
-      "opponent": "Wake Forest",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 15,
-      "awayScore": 4,
-      "homeWinProbability": 0.894,
-      "period": 1,
-      "clock": "13:53",
-      "secondsRemaining": 833,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T23:23:52.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 376,
-          "name": "Myles Colvin",
-          "team": "Wake Forest"
-        },
-        {
-          "id": 5768,
-          "name": "Tre'Von Spillers",
-          "team": "Wake Forest"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 7325,
-          "name": "Nate Calmese",
-          "team": "Wake Forest"
-        },
-        {
-          "id": 1074,
-          "name": "Cooper Schwieger",
-          "team": "Wake Forest"
-        },
-        {
-          "id": 5773,
-          "name": "Juke Harris",
-          "team": "Wake Forest"
-        },
-        {
-          "id": 83,
-          "name": "Jarin Stevenson",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200978,
-          "name": "Derek Dixon",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200973,
-          "name": "Luka Bogavac",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 214408,
-      "gameSourceId": "401820661",
-      "gameStartDate": "2026-01-10T23:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43923872,
       "sourceId": "401820661117192520",
       "playType": "MadeFreeThrow",
@@ -37240,9 +37134,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923884,
-      "sourceId": "401820661117192961",
-      "playType": "TipShot",
+      "id": 43923869,
+      "sourceId": "401820661117192398",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -37252,17 +37146,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 18,
-      "awayScore": 13,
-      "homeWinProbability": 0.749,
+      "homeScore": 15,
+      "awayScore": 4,
+      "homeWinProbability": 0.894,
       "period": 1,
-      "clock": "12:09",
-      "secondsRemaining": 729,
+      "clock": "13:53",
+      "secondsRemaining": 833,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-10T23:26:10.000Z",
-      "playText": "Caleb Wilson makes 0-foot tip in layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-10T23:23:52.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -37275,26 +37169,26 @@
           "name": "Caleb Wilson"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
         {
-          "id": 5768,
-          "name": "Tre'Von Spillers",
+          "id": 376,
+          "name": "Myles Colvin",
           "team": "Wake Forest"
         },
         {
-          "id": 7777,
-          "name": "Mekhi Mason",
+          "id": 5768,
+          "name": "Tre'Von Spillers",
           "team": "Wake Forest"
         },
         {
@@ -37391,6 +37285,113 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5768,
+          "name": "Tre'Von Spillers",
+          "team": "Wake Forest"
+        },
+        {
+          "id": 7777,
+          "name": "Mekhi Mason",
+          "team": "Wake Forest"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 7325,
+          "name": "Nate Calmese",
+          "team": "Wake Forest"
+        },
+        {
+          "id": 1074,
+          "name": "Cooper Schwieger",
+          "team": "Wake Forest"
+        },
+        {
+          "id": 5773,
+          "name": "Juke Harris",
+          "team": "Wake Forest"
+        },
+        {
+          "id": 83,
+          "name": "Jarin Stevenson",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200978,
+          "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200973,
+          "name": "Luka Bogavac",
+          "team": "North Carolina"
+        }
+      ]
+    },
+    {
+      "gameId": 214408,
+      "gameSourceId": "401820661",
+      "gameStartDate": "2026-01-10T23:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43923884,
+      "sourceId": "401820661117192961",
+      "playType": "TipShot",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 342,
+      "opponent": "Wake Forest",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 18,
+      "awayScore": 13,
+      "homeWinProbability": 0.749,
+      "period": 1,
+      "clock": "12:09",
+      "secondsRemaining": 729,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-01-10T23:26:10.000Z",
+      "playText": "Caleb Wilson makes 0-foot tip in layup",
+      "participants": [
+        {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 56.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -37565,9 +37566,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923955,
-      "sourceId": "401820661117196930",
-      "playType": "LayUpShot",
+      "id": 43923957,
+      "sourceId": "401820661117197082",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -37583,11 +37584,11 @@
       "period": 1,
       "clock": "7:04",
       "secondsRemaining": 424,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-10T23:41:42.000Z",
-      "playText": "Caleb Wilson makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-10T23:42:26.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 1",
       "participants": [
         {
           "id": 200988,
@@ -37599,16 +37600,16 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37672,9 +37673,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43923957,
-      "sourceId": "401820661117197082",
-      "playType": "MadeFreeThrow",
+      "id": 43923955,
+      "sourceId": "401820661117196930",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 200,
       "team": "North Carolina",
@@ -37690,11 +37691,11 @@
       "period": 1,
       "clock": "7:04",
       "secondsRemaining": 424,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T23:42:26.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-10T23:41:42.000Z",
+      "playText": "Caleb Wilson makes layup",
       "participants": [
         {
           "id": 200988,
@@ -37706,16 +37707,16 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 235
         }
       },
       "onFloor": [
@@ -38219,8 +38220,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43924076,
-      "sourceId": "401820661117202668",
+      "id": 43924075,
+      "sourceId": "401820661117202619",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -38231,17 +38232,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 60,
       "awayScore": 53,
-      "homeWinProbability": 0.809,
+      "homeWinProbability": 0.857,
       "period": 2,
       "clock": "14:53",
       "secondsRemaining": 893,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T00:25:57.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-01-11T00:25:41.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -38326,8 +38327,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43924075,
-      "sourceId": "401820661117202619",
+      "id": 43924076,
+      "sourceId": "401820661117202668",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -38338,17 +38339,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 61,
       "awayScore": 53,
-      "homeWinProbability": 0.857,
+      "homeWinProbability": 0.809,
       "period": 2,
       "clock": "14:53",
       "secondsRemaining": 893,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T00:25:41.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2026-01-11T00:25:57.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -38651,8 +38652,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43924221,
-      "sourceId": "401820661117206380",
+      "id": 43924219,
+      "sourceId": "401820661117206320",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -38663,17 +38664,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 75,
       "awayScore": 74,
-      "homeWinProbability": 0.737,
+      "homeWinProbability": 0.718,
       "period": 2,
       "clock": "3:22",
       "secondsRemaining": 202,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:05:40.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-01-11T01:05:13.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -38685,7 +38686,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38758,8 +38759,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43924219,
-      "sourceId": "401820661117206320",
+      "id": 43924221,
+      "sourceId": "401820661117206380",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -38770,17 +38771,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 74,
-      "homeWinProbability": 0.718,
+      "homeWinProbability": 0.737,
       "period": 2,
       "clock": "3:22",
       "secondsRemaining": 202,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T01:05:13.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2026-01-11T01:05:40.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -38792,7 +38793,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41449,8 +41450,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44308477,
-      "sourceId": "401820672117349191",
+      "id": 44308476,
+      "sourceId": "401820672117349182",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -41462,16 +41463,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 87,
-      "homeWinProbability": 0.27,
+      "awayScore": 86,
+      "homeWinProbability": 0.332,
       "period": 2,
       "clock": "2:12",
       "secondsRemaining": 132,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:06:06.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-01-15T04:05:53.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -41556,8 +41557,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44308476,
-      "sourceId": "401820672117349182",
+      "id": 44308477,
+      "sourceId": "401820672117349191",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -41569,16 +41570,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 86,
-      "homeWinProbability": 0.332,
+      "awayScore": 87,
+      "homeWinProbability": 0.27,
       "period": 2,
       "clock": "2:12",
       "secondsRemaining": 132,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:05:53.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2026-01-15T04:06:06.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -44041,8 +44042,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973180,
-      "sourceId": "401820687117671673",
+      "id": 44973182,
+      "sourceId": "401820687117671679",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -44062,8 +44063,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:06:19.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2026-01-22T00:06:35.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -44148,8 +44149,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973182,
-      "sourceId": "401820687117671679",
+      "id": 44973180,
+      "sourceId": "401820687117671673",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -44169,8 +44170,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:06:35.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "wallclock": "2026-01-22T00:06:19.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -44798,113 +44799,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973309,
-      "sourceId": "401820687117679701",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 200,
-      "team": "North Carolina",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 213,
-      "opponent": "Notre Dame",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 26,
-      "awayScore": 17,
-      "homeWinProbability": 0.862,
-      "period": 1,
-      "clock": "6:26",
-      "secondsRemaining": 386,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T00:34:31.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 200988,
-          "name": "Caleb Wilson"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5706,
-          "name": "Jaydon Young",
-          "team": "North Carolina"
-        },
-        {
-          "id": 201200,
-          "name": "Jalen Haralson",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 201202,
-          "name": "Brady Koehler",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 201199,
-          "name": "Ryder Frost",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 8163,
-          "name": "Cole Certa",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 200978,
-          "name": "Derek Dixon",
-          "team": "North Carolina"
-        },
-        {
-          "id": 8158,
-          "name": "Braeden Shrewsberry",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 238,
-          "name": "Seth Trimble",
-          "team": "North Carolina"
-        },
-        {
-          "id": 270,
-          "name": "Henri Veesaar",
-          "team": "North Carolina"
-        },
-        {
-          "id": 200988,
-          "name": "Caleb Wilson",
-          "team": "North Carolina"
-        }
-      ]
-    },
-    {
-      "gameId": 214571,
-      "gameSourceId": "401820687",
-      "gameStartDate": "2026-01-22T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 44973308,
       "sourceId": "401820687117679600",
       "playType": "MadeFreeThrow",
@@ -45012,8 +44906,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973330,
-      "sourceId": "401820687117681233",
+      "id": 44973309,
+      "sourceId": "401820687117679701",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -45024,17 +44918,124 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 26,
+      "awayScore": 17,
+      "homeWinProbability": 0.862,
+      "period": 1,
+      "clock": "6:26",
+      "secondsRemaining": 386,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T00:34:31.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 200988,
+          "name": "Caleb Wilson"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5706,
+          "name": "Jaydon Young",
+          "team": "North Carolina"
+        },
+        {
+          "id": 201200,
+          "name": "Jalen Haralson",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 201202,
+          "name": "Brady Koehler",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 201199,
+          "name": "Ryder Frost",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 8163,
+          "name": "Cole Certa",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 200978,
+          "name": "Derek Dixon",
+          "team": "North Carolina"
+        },
+        {
+          "id": 8158,
+          "name": "Braeden Shrewsberry",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 238,
+          "name": "Seth Trimble",
+          "team": "North Carolina"
+        },
+        {
+          "id": 270,
+          "name": "Henri Veesaar",
+          "team": "North Carolina"
+        },
+        {
+          "id": 200988,
+          "name": "Caleb Wilson",
+          "team": "North Carolina"
+        }
+      ]
+    },
+    {
+      "gameId": 214571,
+      "gameSourceId": "401820687",
+      "gameStartDate": "2026-01-22T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 44973329,
+      "sourceId": "401820687117680992",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 200,
+      "team": "North Carolina",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 213,
+      "opponent": "Notre Dame",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 29,
       "awayScore": 23,
-      "homeWinProbability": 0.824,
+      "homeWinProbability": 0.796,
       "period": 1,
       "clock": "4:52",
       "secondsRemaining": 292,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:39:24.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-01-22T00:38:46.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -45119,8 +45120,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973329,
-      "sourceId": "401820687117680992",
+      "id": 44973330,
+      "sourceId": "401820687117681233",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -45131,17 +45132,17 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 23,
-      "homeWinProbability": 0.796,
+      "homeWinProbability": 0.824,
       "period": 1,
       "clock": "4:52",
       "secondsRemaining": 292,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:38:46.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2026-01-22T00:39:24.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -45333,8 +45334,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973345,
-      "sourceId": "401820687117683032",
+      "id": 44973349,
+      "sourceId": "401820687117683098",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -45345,17 +45346,17 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 25,
-      "homeWinProbability": 0.895,
+      "homeWinProbability": 0.933,
       "period": 1,
       "clock": "3:04",
       "secondsRemaining": 184,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:45:28.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2026-01-22T00:45:47.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -45367,7 +45368,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45440,8 +45441,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44973349,
-      "sourceId": "401820687117683098",
+      "id": 44973345,
+      "sourceId": "401820687117683032",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -45452,17 +45453,17 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 25,
-      "homeWinProbability": 0.933,
+      "homeWinProbability": 0.895,
       "period": 1,
       "clock": "3:04",
       "secondsRemaining": 184,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:45:47.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-01-22T00:45:28.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -45474,7 +45475,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47608,8 +47609,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45213779,
-      "sourceId": "401820697117836105",
+      "id": 45213778,
+      "sourceId": "401820697117836027",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -47626,11 +47627,11 @@
       "period": 1,
       "clock": "3:53",
       "secondsRemaining": 233,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T17:45:50.000Z",
-      "playText": "Caleb Wilson misses free throw 2 of 2",
+      "wallclock": "2026-01-24T17:45:29.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -47642,7 +47643,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47715,8 +47716,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45213778,
-      "sourceId": "401820697117836027",
+      "id": 45213779,
+      "sourceId": "401820697117836105",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -47733,11 +47734,11 @@
       "period": 1,
       "clock": "3:53",
       "secondsRemaining": 233,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T17:45:29.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2026-01-24T17:45:50.000Z",
+      "playText": "Caleb Wilson misses free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -47749,7 +47750,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51627,8 +51628,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46121572,
-      "sourceId": "401820714118336024",
+      "id": 46121571,
+      "sourceId": "401820714118335991",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -51639,17 +51640,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 10,
-      "homeWinProbability": 0.819,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "10:08",
       "secondsRemaining": 608,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-03T00:28:24.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-02-03T00:28:10.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -51734,8 +51735,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46121571,
-      "sourceId": "401820714118335991",
+      "id": 46121572,
+      "sourceId": "401820714118336024",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -51746,17 +51747,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 10,
-      "homeWinProbability": 0.791,
+      "homeWinProbability": 0.819,
       "period": 1,
       "clock": "10:08",
       "secondsRemaining": 608,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-03T00:28:10.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2026-02-03T00:28:24.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -53236,8 +53237,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46121706,
-      "sourceId": "401820714118338740",
+      "id": 46121708,
+      "sourceId": "401820714118338763",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -53248,17 +53249,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 36,
-      "homeWinProbability": 0.978,
+      "homeWinProbability": 0.979,
       "period": 2,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-03T01:16:41.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 2",
+      "wallclock": "2026-02-03T01:16:56.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -53270,7 +53271,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53343,8 +53344,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46121708,
-      "sourceId": "401820714118338763",
+      "id": 46121706,
+      "sourceId": "401820714118338740",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 200,
@@ -53355,17 +53356,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 36,
-      "homeWinProbability": 0.979,
+      "homeWinProbability": 0.978,
       "period": 2,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-03T01:16:56.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-02-03T01:16:41.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -53377,7 +53378,7 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -56783,9 +56784,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46780966,
-      "sourceId": "401820731118724254",
-      "playType": "MadeFreeThrow",
+      "id": 46780969,
+      "sourceId": "401820731118724153",
+      "playType": "DunkShot",
       "isHomeTeam": false,
       "teamId": 200,
       "team": "North Carolina",
@@ -56801,12 +56802,16 @@
       "period": 2,
       "clock": "18:19",
       "secondsRemaining": 1099,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T01:05:31.000Z",
-      "playText": "Caleb Wilson misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T01:05:04.000Z",
+      "playText": "Caleb Wilson makes 4-foot dunk (Seth Trimble assists)",
       "participants": [
+        {
+          "id": 238,
+          "name": "Seth Trimble"
+        },
         {
           "id": 200988,
           "name": "Caleb Wilson"
@@ -56817,16 +56822,16 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 238,
+          "name": "Seth Trimble"
         },
         "location": {
-          "x": 75.2,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -56890,9 +56895,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46780969,
-      "sourceId": "401820731118724153",
-      "playType": "DunkShot",
+      "id": 46780966,
+      "sourceId": "401820731118724254",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
       "team": "North Carolina",
@@ -56908,16 +56913,12 @@
       "period": 2,
       "clock": "18:19",
       "secondsRemaining": 1099,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T01:05:04.000Z",
-      "playText": "Caleb Wilson makes 4-foot dunk (Seth Trimble assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T01:05:31.000Z",
+      "playText": "Caleb Wilson misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 238,
-          "name": "Seth Trimble"
-        },
         {
           "id": 200988,
           "name": "Caleb Wilson"
@@ -56928,16 +56929,16 @@
           "id": 200988,
           "name": "Caleb Wilson"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 238,
-          "name": "Seth Trimble"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 225
         }
       },
       "onFloor": [
@@ -57647,8 +57648,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781114,
-      "sourceId": "401820731118728453",
+      "id": 46781119,
+      "sourceId": "401820731118728497",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -57660,7 +57661,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 59,
+      "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "4:20",
@@ -57668,8 +57669,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T01:41:38.000Z",
-      "playText": "Caleb Wilson makes free throw 1 of 2",
+      "wallclock": "2026-02-11T01:42:05.000Z",
+      "playText": "Caleb Wilson makes free throw 2 of 2",
       "participants": [
         {
           "id": 200988,
@@ -57754,8 +57755,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46781119,
-      "sourceId": "401820731118728497",
+      "id": 46781114,
+      "sourceId": "401820731118728453",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 200,
@@ -57767,7 +57768,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 60,
+      "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
       "clock": "4:20",
@@ -57775,8 +57776,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T01:42:05.000Z",
-      "playText": "Caleb Wilson makes free throw 2 of 2",
+      "wallclock": "2026-02-11T01:41:38.000Z",
+      "playText": "Caleb Wilson makes free throw 1 of 2",
       "participants": [
         {
           "id": 200988,
@@ -58970,86 +58971,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.07,
-        "percentile": 94.1,
-        "freqPer100": 4.8
-      },
-      "attackKick": {
-        "ppp": 1.01,
-        "percentile": 63.8,
-        "freqPer100": 2.3
-      },
-      "perimeterSniper": {
-        "ppp": 0.79,
-        "percentile": 21.4,
-        "freqPer100": 1.1
-      },
-      "dribbleJumper": {
-        "ppp": 0.74,
-        "percentile": 21.5,
-        "freqPer100": 0.8
-      },
-      "midRange": {
-        "ppp": 0.97,
-        "percentile": 92.5,
-        "freqPer100": 1.8
-      },
-      "hitsCutter": {
-        "ppp": 1.18,
-        "percentile": 90.5,
-        "freqPer100": 3.5
-      },
-      "perimeterCut": {
-        "ppp": 1.34,
-        "percentile": 83.7,
-        "freqPer100": 2.6
-      },
-      "pnrPasser": {
-        "ppp": 1.27,
-        "percentile": 98.4,
-        "freqPer100": 1.7
-      },
-      "bigCutRoll": {
-        "ppp": 1.37,
-        "percentile": 93.7,
-        "freqPer100": 9.4
-      },
-      "postUp": {
-        "ppp": 1.03,
-        "percentile": 94,
-        "freqPer100": 25.1
-      },
-      "insideOut": {
-        "ppp": 1,
-        "percentile": 69.2,
-        "freqPer100": 10.3
-      },
-      "pickAndPop": {
-        "ppp": 0.94,
-        "percentile": 44,
-        "freqPer100": 3
-      },
-      "highLow": {
-        "ppp": 1.24,
-        "percentile": 91.7,
-        "freqPer100": 5
-      },
-      "rebScramble": {
-        "ppp": 1.35,
-        "percentile": 76.8,
-        "freqPer100": 11.9
-      },
-      "transition": {
-        "ppp": 1.41,
-        "percentile": 85.1,
-        "freqPer100": 17
       }
     }
   }

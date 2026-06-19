@@ -243,7 +243,8 @@
     "jersey": "23",
     "position": "Forward",
     "height": 81,
-    "weight": 240,
+    "weight": 241,
+    "wingspan": null,
     "hometown": {
       "city": "Pennsauken",
       "state": "NJ"
@@ -5565,113 +5566,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39554158,
-      "sourceId": "401822996114609929",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 170,
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 171,
-      "opponent": "Middle Tennessee",
-      "opponentConference": "CUSA",
-      "opponentSeed": null,
-      "homeScore": 54,
-      "awayScore": 38,
-      "homeWinProbability": 0.98,
-      "period": 2,
-      "clock": "14:42",
-      "secondsRemaining": 882,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-20T00:54:28.000Z",
-      "playText": "Yaxel Lendeborg made Free Throw.",
-      "participants": [
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 3951,
-          "name": "Yaxel Lendeborg"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 681,
-          "name": "Alec Oglesby",
-          "team": "Middle Tennessee"
-        },
-        {
-          "id": 677,
-          "name": "Tre Green",
-          "team": "Middle Tennessee"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        },
-        {
-          "id": 7013,
-          "name": "Sean Smith",
-          "team": "Middle Tennessee"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 237,
-          "name": "Elliot Cadeau",
-          "team": "Michigan"
-        },
-        {
-          "id": 674,
-          "name": "Jarred Hall",
-          "team": "Middle Tennessee"
-        },
-        {
-          "id": 668,
-          "name": "Kamari Lands",
-          "team": "Middle Tennessee"
-        },
-        {
-          "id": 5611,
-          "name": "Nimari Burnett",
-          "team": "Michigan"
-        },
-        {
-          "id": 5609,
-          "name": "Roddy Gayle Jr.",
-          "team": "Michigan"
-        }
-      ]
-    },
-    {
-      "gameId": 213309,
-      "gameSourceId": "401822996",
-      "gameStartDate": "2025-11-19T23:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 39554151,
       "sourceId": "401822996114609453",
       "playType": "LayUpShot",
@@ -5779,8 +5673,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39554170,
-      "sourceId": "401822996114610085",
+      "id": 39554158,
+      "sourceId": "401822996114609929",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -5791,16 +5685,16 @@
       "opponent": "Middle Tennessee",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 54,
       "awayScore": 38,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.98,
       "period": 2,
-      "clock": "13:59",
-      "secondsRemaining": 839,
+      "clock": "14:42",
+      "secondsRemaining": 882,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T00:55:46.000Z",
+      "wallclock": "2025-11-20T00:54:28.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -5823,6 +5717,113 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 681,
+          "name": "Alec Oglesby",
+          "team": "Middle Tennessee"
+        },
+        {
+          "id": 677,
+          "name": "Tre Green",
+          "team": "Middle Tennessee"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        },
+        {
+          "id": 7013,
+          "name": "Sean Smith",
+          "team": "Middle Tennessee"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 237,
+          "name": "Elliot Cadeau",
+          "team": "Michigan"
+        },
+        {
+          "id": 674,
+          "name": "Jarred Hall",
+          "team": "Middle Tennessee"
+        },
+        {
+          "id": 668,
+          "name": "Kamari Lands",
+          "team": "Middle Tennessee"
+        },
+        {
+          "id": 5611,
+          "name": "Nimari Burnett",
+          "team": "Michigan"
+        },
+        {
+          "id": 5609,
+          "name": "Roddy Gayle Jr.",
+          "team": "Michigan"
+        }
+      ]
+    },
+    {
+      "gameId": 213309,
+      "gameSourceId": "401822996",
+      "gameStartDate": "2025-11-19T23:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 39554168,
+      "sourceId": "401822996114610055",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 171,
+      "opponent": "Middle Tennessee",
+      "opponentConference": "CUSA",
+      "opponentSeed": null,
+      "homeScore": 56,
+      "awayScore": 38,
+      "homeWinProbability": 0.991,
+      "period": 2,
+      "clock": "13:59",
+      "secondsRemaining": 839,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-11-20T00:55:36.000Z",
+      "playText": "Yaxel Lendeborg made Layup.",
+      "participants": [
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 3951,
+          "name": "Yaxel Lendeborg"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 836.6,
+          "y": 260
         }
       },
       "onFloor": [
@@ -5886,9 +5887,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39554168,
-      "sourceId": "401822996114610055",
-      "playType": "LayUpShot",
+      "id": 39554170,
+      "sourceId": "401822996114610085",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -5898,17 +5899,17 @@
       "opponent": "Middle Tennessee",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 38,
-      "homeWinProbability": 0.991,
+      "homeWinProbability": 0.994,
       "period": 2,
       "clock": "13:59",
       "secondsRemaining": 839,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-20T00:55:36.000Z",
-      "playText": "Yaxel Lendeborg made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-20T00:55:46.000Z",
+      "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
           "id": 3951,
@@ -5921,15 +5922,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -7618,9 +7619,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40084877,
-      "sourceId": "401823764114936258",
-      "playType": "LayUpShot",
+      "id": 40084879,
+      "sourceId": "401823764114936295",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -7636,11 +7637,11 @@
       "period": 1,
       "clock": "9:23",
       "secondsRemaining": 563,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-25T04:00:15.000Z",
-      "playText": "Yaxel Lendeborg made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T04:00:41.000Z",
+      "playText": "Yaxel Lendeborg missed Free Throw.",
       "participants": [
         {
           "id": 3951,
@@ -7652,8 +7653,8 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -7725,9 +7726,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40084879,
-      "sourceId": "401823764114936295",
-      "playType": "MadeFreeThrow",
+      "id": 40084877,
+      "sourceId": "401823764114936258",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -7743,11 +7744,11 @@
       "period": 1,
       "clock": "9:23",
       "secondsRemaining": 563,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T04:00:41.000Z",
-      "playText": "Yaxel Lendeborg missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-25T04:00:15.000Z",
+      "playText": "Yaxel Lendeborg made Layup.",
       "participants": [
         {
           "id": 3951,
@@ -7759,8 +7760,8 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -9261,9 +9262,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40219292,
-      "sourceId": "401823479114999098",
-      "playType": "LayUpShot",
+      "id": 40219296,
+      "sourceId": "401823479114999184",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -9273,17 +9274,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 44,
       "awayScore": 24,
-      "homeWinProbability": 0.984,
+      "homeWinProbability": 0.988,
       "period": 1,
       "clock": "4:29",
       "secondsRemaining": 269,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-26T02:15:23.000Z",
-      "playText": "Yaxel Lendeborg made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-26T02:16:00.000Z",
+      "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
           "id": 3951,
@@ -9296,15 +9297,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -9368,9 +9369,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40219296,
-      "sourceId": "401823479114999184",
-      "playType": "MadeFreeThrow",
+      "id": 40219292,
+      "sourceId": "401823479114999098",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -9380,17 +9381,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 43,
       "awayScore": 24,
-      "homeWinProbability": 0.988,
+      "homeWinProbability": 0.984,
       "period": 1,
       "clock": "4:29",
       "secondsRemaining": 269,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-26T02:16:00.000Z",
-      "playText": "Yaxel Lendeborg made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-26T02:15:23.000Z",
+      "playText": "Yaxel Lendeborg made Layup.",
       "participants": [
         {
           "id": 3951,
@@ -9403,15 +9404,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 250
         }
       },
       "onFloor": [
@@ -10890,8 +10891,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316399,
-      "sourceId": "401831214115074801",
+      "id": 40316398,
+      "sourceId": "401831214115074792",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -10908,11 +10909,11 @@
       "period": 1,
       "clock": "5:57",
       "secondsRemaining": 357,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:19:09.000Z",
-      "playText": "Yaxel Lendeborg missed Free Throw.",
+      "wallclock": "2025-11-27T03:18:50.000Z",
+      "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
           "id": 3951,
@@ -10924,7 +10925,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10997,8 +10998,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316398,
-      "sourceId": "401831214115074792",
+      "id": 40316399,
+      "sourceId": "401831214115074801",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -11015,11 +11016,11 @@
       "period": 1,
       "clock": "5:57",
       "secondsRemaining": 357,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:18:50.000Z",
-      "playText": "Yaxel Lendeborg made Free Throw.",
+      "wallclock": "2025-11-27T03:19:09.000Z",
+      "playText": "Yaxel Lendeborg missed Free Throw.",
       "participants": [
         {
           "id": 3951,
@@ -11031,7 +11032,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11429,8 +11430,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316453,
-      "sourceId": "401831214115075219",
+      "id": 40316454,
+      "sourceId": "401831214115075223",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -11441,16 +11442,16 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 29,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.994,
       "period": 1,
       "clock": "0:56",
       "secondsRemaining": 56,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:29:50.000Z",
+      "wallclock": "2025-11-27T03:30:06.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -11536,8 +11537,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316454,
-      "sourceId": "401831214115075223",
+      "id": 40316453,
+      "sourceId": "401831214115075219",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -11548,16 +11549,16 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 29,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.993,
       "period": 1,
       "clock": "0:56",
       "secondsRemaining": 56,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:30:06.000Z",
+      "wallclock": "2025-11-27T03:29:50.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -11861,9 +11862,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316591,
-      "sourceId": "401831214115076833",
-      "playType": "DunkShot",
+      "id": 40316593,
+      "sourceId": "401831214115076844",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -11873,7 +11874,7 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 41,
       "homeWinProbability": 1,
       "period": 2,
@@ -11881,14 +11882,10 @@
       "secondsRemaining": 645,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-27T04:15:19.000Z",
-      "playText": "Yaxel Lendeborg made Dunk. Assisted by Elliot Cadeau.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-27T04:15:52.000Z",
+      "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
-        {
-          "id": 237,
-          "name": "Elliot Cadeau"
-        },
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
@@ -11900,15 +11897,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 237,
-          "name": "Elliot Cadeau"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -11972,9 +11969,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316593,
-      "sourceId": "401831214115076844",
-      "playType": "MadeFreeThrow",
+      "id": 40316591,
+      "sourceId": "401831214115076833",
+      "playType": "DunkShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -11984,7 +11981,7 @@
       "opponent": "Gonzaga",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 41,
       "homeWinProbability": 1,
       "period": 2,
@@ -11992,10 +11989,14 @@
       "secondsRemaining": 645,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-27T04:15:52.000Z",
-      "playText": "Yaxel Lendeborg made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-27T04:15:19.000Z",
+      "playText": "Yaxel Lendeborg made Dunk. Assisted by Elliot Cadeau.",
       "participants": [
+        {
+          "id": 237,
+          "name": "Elliot Cadeau"
+        },
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
@@ -12007,15 +12008,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 237,
+          "name": "Elliot Cadeau"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 240
         }
       },
       "onFloor": [
@@ -15222,8 +15223,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41431801,
-      "sourceId": "401823566115706278",
+      "id": 41431804,
+      "sourceId": "401823566115706352",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -15234,7 +15235,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 45,
       "homeWinProbability": 1,
       "period": 2,
@@ -15243,7 +15244,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T01:11:21.000Z",
+      "wallclock": "2025-12-10T01:11:38.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -15329,8 +15330,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41431804,
-      "sourceId": "401823566115706352",
+      "id": 41431801,
+      "sourceId": "401823566115706278",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -15341,7 +15342,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 45,
       "homeWinProbability": 1,
       "period": 2,
@@ -15350,7 +15351,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T01:11:38.000Z",
+      "wallclock": "2025-12-10T01:11:21.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -16855,8 +16856,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41742646,
-      "sourceId": "401825408115865033",
+      "id": 41742856,
+      "sourceId": "401825408115865041",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -16868,15 +16869,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 44,
-      "homeWinProbability": 0.719,
+      "awayScore": 45,
+      "homeWinProbability": 0.642,
       "period": 1,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T01:55:42.000Z",
+      "wallclock": "2025-12-14T01:56:09.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -16962,8 +16963,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41742856,
-      "sourceId": "401825408115865041",
+      "id": 41742646,
+      "sourceId": "401825408115865033",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -16975,15 +16976,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 45,
-      "homeWinProbability": 0.642,
+      "awayScore": 44,
+      "homeWinProbability": 0.719,
       "period": 1,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T01:56:09.000Z",
+      "wallclock": "2025-12-14T01:55:42.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -17719,8 +17720,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41743191,
-      "sourceId": "401825408115867745",
+      "id": 41743189,
+      "sourceId": "401825408115867738",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -17732,15 +17733,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 68,
-      "homeWinProbability": 0.085,
+      "awayScore": 67,
+      "homeWinProbability": 0.175,
       "period": 2,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T02:39:34.000Z",
+      "wallclock": "2025-12-14T02:38:58.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -17933,8 +17934,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41743189,
-      "sourceId": "401825408115867738",
+      "id": 41743191,
+      "sourceId": "401825408115867745",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -17946,15 +17947,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 67,
-      "homeWinProbability": 0.175,
+      "awayScore": 68,
+      "homeWinProbability": 0.085,
       "period": 2,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T02:38:58.000Z",
+      "wallclock": "2025-12-14T02:39:34.000Z",
       "playText": "Yaxel Lendeborg made Free Throw.",
       "participants": [
         {
@@ -22071,8 +22072,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43147386,
-      "sourceId": "401825411116661218",
+      "id": 43147384,
+      "sourceId": "401825411116661210",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -22083,17 +22084,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 0,
-      "homeWinProbability": 0.801,
+      "homeWinProbability": 0.795,
       "period": 1,
       "clock": "16:17",
       "secondsRemaining": 977,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T00:07:37.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-03T00:07:23.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -22105,7 +22106,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -22178,8 +22179,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43147384,
-      "sourceId": "401825411116661210",
+      "id": 43147386,
+      "sourceId": "401825411116661218",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -22190,17 +22191,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 0,
-      "homeWinProbability": 0.795,
+      "homeWinProbability": 0.801,
       "period": 1,
       "clock": "16:17",
       "secondsRemaining": 977,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T00:07:23.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
+      "wallclock": "2026-01-03T00:07:37.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -22212,7 +22213,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -24449,8 +24450,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43555051,
-      "sourceId": "401825423116899612",
+      "id": 43555048,
+      "sourceId": "401825423116899602",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -24462,16 +24463,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 60,
-      "awayScore": 67,
-      "homeWinProbability": 0.086,
+      "awayScore": 66,
+      "homeWinProbability": 0.156,
       "period": 2,
       "clock": "5:12",
       "secondsRemaining": 312,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:55:05.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-07T01:54:49.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -24556,8 +24557,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43555048,
-      "sourceId": "401825423116899602",
+      "id": 43555051,
+      "sourceId": "401825423116899612",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -24569,16 +24570,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 60,
-      "awayScore": 66,
-      "homeWinProbability": 0.156,
+      "awayScore": 67,
+      "homeWinProbability": 0.086,
       "period": 2,
       "clock": "5:12",
       "secondsRemaining": 312,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:54:49.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-07T01:55:05.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -26280,8 +26281,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43860153,
-      "sourceId": "401825432117125630",
+      "id": 43860150,
+      "sourceId": "401825432117125423",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -26292,17 +26293,17 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 88,
+      "homeScore": 87,
       "awayScore": 90,
-      "homeWinProbability": 0.081,
+      "homeWinProbability": 0.053,
       "period": 2,
       "clock": "0:15",
       "secondsRemaining": 15,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:17:41.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-10T20:17:20.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -26387,8 +26388,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43860150,
-      "sourceId": "401825432117125423",
+      "id": 43860153,
+      "sourceId": "401825432117125630",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -26399,17 +26400,17 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 88,
       "awayScore": 90,
-      "homeWinProbability": 0.053,
+      "homeWinProbability": 0.081,
       "period": 2,
       "clock": "0:15",
       "secondsRemaining": 15,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:17:20.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-10T20:17:41.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -29094,8 +29095,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44540935,
-      "sourceId": "401825450117522466",
+      "id": 44540934,
+      "sourceId": "401825450117522388",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -29107,16 +29108,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 37,
-      "homeWinProbability": 0.473,
+      "awayScore": 36,
+      "homeWinProbability": 0.516,
       "period": 1,
       "clock": "3:44",
       "secondsRemaining": 224,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:49:28.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-17T21:49:12.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -29201,8 +29202,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44540934,
-      "sourceId": "401825450117522388",
+      "id": 44540935,
+      "sourceId": "401825450117522466",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -29214,16 +29215,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 36,
-      "homeWinProbability": 0.516,
+      "awayScore": 37,
+      "homeWinProbability": 0.473,
       "period": 1,
       "clock": "3:44",
       "secondsRemaining": 224,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:49:12.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-17T21:49:28.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -30826,8 +30827,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44907099,
-      "sourceId": "401825456117650332",
+      "id": 44907104,
+      "sourceId": "401825456117650377",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -30838,17 +30839,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 40,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.995,
       "period": 2,
       "clock": "13:43",
       "secondsRemaining": 823,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T01:22:17.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-21T01:22:43.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -30933,8 +30934,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44907104,
-      "sourceId": "401825456117650377",
+      "id": 44907099,
+      "sourceId": "401825456117650332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -30945,17 +30946,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 40,
-      "homeWinProbability": 0.995,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "13:43",
       "secondsRemaining": 823,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T01:22:43.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-21T01:22:17.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -33101,8 +33102,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171437,
-      "sourceId": "401825464117819394",
+      "id": 45171433,
+      "sourceId": "401825464117819381",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -33122,8 +33123,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T02:18:59.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
+      "wallclock": "2026-01-24T02:18:29.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -33208,8 +33209,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171433,
-      "sourceId": "401825464117819381",
+      "id": 45171437,
+      "sourceId": "401825464117819394",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -33229,8 +33230,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T02:18:29.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
+      "wallclock": "2026-01-24T02:18:59.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -33529,8 +33530,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171474,
-      "sourceId": "401825464117819722",
+      "id": 45171472,
+      "sourceId": "401825464117819720",
       "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
@@ -33541,17 +33542,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 40,
       "awayScore": 40,
-      "homeWinProbability": 0.658,
+      "homeWinProbability": 0.58,
       "period": 2,
       "clock": "15:30",
       "secondsRemaining": 930,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-24T02:30:44.000Z",
-      "playText": "Yaxel Lendeborg makes layup",
+      "wallclock": "2026-01-24T02:30:41.000Z",
+      "playText": "Yaxel Lendeborg misses driving layup",
       "participants": [
         {
           "id": 3951,
@@ -33563,7 +33564,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -33571,8 +33572,8 @@
           "name": null
         },
         "location": {
-          "x": 827.2,
-          "y": 265
+          "x": 883.6,
+          "y": 295
         }
       },
       "onFloor": [
@@ -33636,8 +33637,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171472,
-      "sourceId": "401825464117819720",
+      "id": 45171474,
+      "sourceId": "401825464117819722",
       "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
@@ -33648,17 +33649,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 42,
       "awayScore": 40,
-      "homeWinProbability": 0.58,
+      "homeWinProbability": 0.658,
       "period": 2,
       "clock": "15:30",
       "secondsRemaining": 930,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2026-01-24T02:30:41.000Z",
-      "playText": "Yaxel Lendeborg misses driving layup",
+      "wallclock": "2026-01-24T02:30:44.000Z",
+      "playText": "Yaxel Lendeborg makes layup",
       "participants": [
         {
           "id": 3951,
@@ -33670,7 +33671,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -33678,8 +33679,8 @@
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 295
+          "x": 827.2,
+          "y": 265
         }
       },
       "onFloor": [
@@ -34730,8 +34731,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45494998,
-      "sourceId": "401825474117988231",
+      "id": 45494997,
+      "sourceId": "401825474117988223",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -34742,17 +34743,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 52,
-      "homeWinProbability": 0.42,
+      "homeWinProbability": 0.4,
       "period": 2,
       "clock": "19:19",
       "secondsRemaining": 1159,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:03:21.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-28T01:03:03.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -34837,8 +34838,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45494997,
-      "sourceId": "401825474117988223",
+      "id": 45494998,
+      "sourceId": "401825474117988231",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -34849,17 +34850,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 52,
-      "homeWinProbability": 0.4,
+      "homeWinProbability": 0.42,
       "period": 2,
       "clock": "19:19",
       "secondsRemaining": 1159,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:03:03.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-28T01:03:21.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -35479,8 +35480,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45495157,
-      "sourceId": "401825474117993188",
+      "id": 45495158,
+      "sourceId": "401825474117993230",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -35491,17 +35492,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 70,
-      "homeWinProbability": 0.378,
+      "homeWinProbability": 0.426,
       "period": 2,
       "clock": "3:36",
       "secondsRemaining": 216,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:46:22.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-28T01:46:43.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -35586,8 +35587,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45495158,
-      "sourceId": "401825474117993230",
+      "id": 45495157,
+      "sourceId": "401825474117993188",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -35598,17 +35599,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 70,
-      "homeWinProbability": 0.426,
+      "homeWinProbability": 0.378,
       "period": 2,
       "clock": "3:36",
       "secondsRemaining": 216,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:46:43.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-28T01:46:22.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -36125,8 +36126,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45770834,
-      "sourceId": "401825481118151810",
+      "id": 45770840,
+      "sourceId": "401825481118151868",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -36138,16 +36139,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 5,
-      "awayScore": 10,
+      "awayScore": 11,
       "homeWinProbability": 0.423,
       "period": 1,
       "clock": "14:27",
       "secondsRemaining": 867,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T01:17:36.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
+      "wallclock": "2026-01-31T01:18:05.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -36159,7 +36160,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36232,8 +36233,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45770840,
-      "sourceId": "401825481118151868",
+      "id": 45770834,
+      "sourceId": "401825481118151810",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -36245,16 +36246,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 5,
-      "awayScore": 11,
+      "awayScore": 10,
       "homeWinProbability": 0.423,
       "period": 1,
       "clock": "14:27",
       "secondsRemaining": 867,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T01:18:05.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-31T01:17:36.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -36266,7 +36267,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36981,9 +36982,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45771006,
-      "sourceId": "401825481118155868",
-      "playType": "MadeFreeThrow",
+      "id": 45771004,
+      "sourceId": "401825481118155858",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -36994,20 +36995,24 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 34,
-      "homeWinProbability": 0.13,
+      "awayScore": 33,
+      "homeWinProbability": 0.177,
       "period": 1,
       "clock": "2:28",
       "secondsRemaining": 148,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T01:57:31.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T01:57:07.000Z",
+      "playText": "Yaxel Lendeborg makes layup (L.J. Cason assists)",
       "participants": [
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
+        },
+        {
+          "id": 5617,
+          "name": "L.J. Cason"
         }
       ],
       "shotInfo": {
@@ -37016,15 +37021,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 5617,
+          "name": "L.J. Cason"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 285
         }
       },
       "onFloor": [
@@ -37088,9 +37093,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45771004,
-      "sourceId": "401825481118155858",
-      "playType": "LayUpShot",
+      "id": 45771006,
+      "sourceId": "401825481118155868",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -37101,24 +37106,20 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 33,
-      "homeWinProbability": 0.177,
+      "awayScore": 34,
+      "homeWinProbability": 0.13,
       "period": 1,
       "clock": "2:28",
       "secondsRemaining": 148,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T01:57:07.000Z",
-      "playText": "Yaxel Lendeborg makes layup (L.J. Cason assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T01:57:31.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 1",
       "participants": [
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
-        },
-        {
-          "id": 5617,
-          "name": "L.J. Cason"
         }
       ],
       "shotInfo": {
@@ -37127,15 +37128,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 5617,
-          "name": "L.J. Cason"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37849,8 +37850,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45771216,
-      "sourceId": "401825481118158030",
+      "id": 45771215,
+      "sourceId": "401825481118158024",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -37862,16 +37863,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 57,
-      "homeWinProbability": 0.572,
+      "awayScore": 56,
+      "homeWinProbability": 0.616,
       "period": 2,
       "clock": "7:19",
       "secondsRemaining": 439,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T03:01:08.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-01-31T03:00:46.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -37956,8 +37957,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45771215,
-      "sourceId": "401825481118158024",
+      "id": 45771216,
+      "sourceId": "401825481118158030",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -37969,16 +37970,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 56,
-      "homeWinProbability": 0.616,
+      "awayScore": 57,
+      "homeWinProbability": 0.572,
       "period": 2,
       "clock": "7:19",
       "secondsRemaining": 439,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T03:00:46.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-01-31T03:01:08.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -38491,8 +38492,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45771311,
-      "sourceId": "401825481118158415",
+      "id": 45771313,
+      "sourceId": "401825481118158418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -38504,15 +38505,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 81,
-      "homeWinProbability": 0.001,
+      "awayScore": 83,
+      "homeWinProbability": null,
       "period": 2,
       "clock": "0:31",
       "secondsRemaining": 31,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T03:31:32.000Z",
+      "wallclock": "2026-01-31T03:32:12.000Z",
       "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
@@ -38598,8 +38599,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45771313,
-      "sourceId": "401825481118158418",
+      "id": 45771311,
+      "sourceId": "401825481118158415",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -38611,15 +38612,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 83,
-      "homeWinProbability": null,
+      "awayScore": 81,
+      "homeWinProbability": 0.001,
       "period": 2,
       "clock": "0:31",
       "secondsRemaining": 31,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T03:32:12.000Z",
+      "wallclock": "2026-01-31T03:31:32.000Z",
       "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
@@ -42078,9 +42079,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46833424,
-      "sourceId": "401825509118772679",
-      "playType": "LayUpShot",
+      "id": 46833432,
+      "sourceId": "401825509118772762",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -42091,21 +42092,17 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 15,
-      "awayScore": 12,
+      "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
       "clock": "15:02",
       "secondsRemaining": 902,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-12T01:54:26.000Z",
-      "playText": "Yaxel Lendeborg makes driving layup (Elliot Cadeau assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-12T01:54:57.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 237,
-          "name": "Elliot Cadeau"
-        },
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
@@ -42117,15 +42114,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 237,
-          "name": "Elliot Cadeau"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 290
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -42189,9 +42186,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46833432,
-      "sourceId": "401825509118772762",
-      "playType": "MadeFreeThrow",
+      "id": 46833424,
+      "sourceId": "401825509118772679",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -42202,17 +42199,21 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 15,
-      "awayScore": 13,
+      "awayScore": 12,
       "homeWinProbability": null,
       "period": 1,
       "clock": "15:02",
       "secondsRemaining": 902,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-12T01:54:57.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-12T01:54:26.000Z",
+      "playText": "Yaxel Lendeborg makes driving layup (Elliot Cadeau assists)",
       "participants": [
+        {
+          "id": 237,
+          "name": "Elliot Cadeau"
+        },
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
@@ -42224,15 +42225,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 237,
+          "name": "Elliot Cadeau"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 290
         }
       },
       "onFloor": [
@@ -43374,8 +43375,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46833786,
-      "sourceId": "401825509118785129",
+      "id": 46833784,
+      "sourceId": "401825509118785098",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -43387,16 +43388,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 69,
+      "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:34",
       "secondsRemaining": 394,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T03:34:53.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-02-12T03:34:31.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -43408,7 +43409,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -43481,8 +43482,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46833784,
-      "sourceId": "401825509118785098",
+      "id": 46833786,
+      "sourceId": "401825509118785129",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -43494,16 +43495,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 68,
+      "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:34",
       "secondsRemaining": 394,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T03:34:31.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
+      "wallclock": "2026-02-12T03:34:53.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -43515,7 +43516,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44349,8 +44350,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049875,
-      "sourceId": "401825514118886833",
+      "id": 47049872,
+      "sourceId": "401825514118886752",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -44367,11 +44368,11 @@
       "period": 1,
       "clock": "14:14",
       "secondsRemaining": 854,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:03:29.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
+      "wallclock": "2026-02-14T18:03:09.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -44383,7 +44384,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44456,8 +44457,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049872,
-      "sourceId": "401825514118886752",
+      "id": 47049875,
+      "sourceId": "401825514118886833",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -44474,11 +44475,11 @@
       "period": 1,
       "clock": "14:14",
       "secondsRemaining": 854,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:03:09.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-02-14T18:03:29.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -44490,7 +44491,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44991,8 +44992,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47050035,
-      "sourceId": "401825514118891204",
+      "id": 47050088,
+      "sourceId": "401825514118891227",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -45003,17 +45004,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 23,
-      "homeWinProbability": 0.771,
+      "homeWinProbability": 0.796,
       "period": 1,
       "clock": "6:26",
       "secondsRemaining": 386,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:24:00.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
+      "wallclock": "2026-02-14T18:24:12.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -45025,7 +45026,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45098,8 +45099,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47050088,
-      "sourceId": "401825514118891227",
+      "id": 47050035,
+      "sourceId": "401825514118891204",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -45110,17 +45111,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 23,
-      "homeWinProbability": 0.796,
+      "homeWinProbability": 0.771,
       "period": 1,
       "clock": "6:26",
       "secondsRemaining": 386,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:24:12.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-02-14T18:24:00.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -45132,7 +45133,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48039,9 +48040,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47744866,
-      "sourceId": "401817238119363041",
-      "playType": "MadeFreeThrow",
+      "id": 47744862,
+      "sourceId": "401817238119362979",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -48057,11 +48058,11 @@
       "period": 1,
       "clock": "17:28",
       "secondsRemaining": 1048,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T23:40:12.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-21T23:39:44.000Z",
+      "playText": "Yaxel Lendeborg makes 12-foot pullup jump shot",
       "participants": [
         {
           "id": 3951,
@@ -48073,16 +48074,16 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 799,
+          "y": 175
         }
       },
       "onFloor": [
@@ -48146,9 +48147,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47744862,
-      "sourceId": "401817238119362979",
-      "playType": "JumpShot",
+      "id": 47744866,
+      "sourceId": "401817238119363041",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -48164,11 +48165,11 @@
       "period": 1,
       "clock": "17:28",
       "secondsRemaining": 1048,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-21T23:39:44.000Z",
-      "playText": "Yaxel Lendeborg makes 12-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T23:40:12.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 1",
       "participants": [
         {
           "id": 3951,
@@ -48180,16 +48181,16 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 799,
-          "y": 175
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -54012,8 +54013,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48774134,
-      "sourceId": "401825560119945202",
+      "id": 48774137,
+      "sourceId": "401825560119945274",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -54030,11 +54031,11 @@
       "period": 2,
       "clock": "9:29",
       "secondsRemaining": 569,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-06T02:35:56.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-06T02:36:20.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -54046,7 +54047,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54054,8 +54055,8 @@
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -54119,8 +54120,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48774137,
-      "sourceId": "401825560119945274",
+      "id": 48774134,
+      "sourceId": "401825560119945202",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -54137,11 +54138,11 @@
       "period": 2,
       "clock": "9:29",
       "secondsRemaining": 569,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-06T02:36:20.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
+      "wallclock": "2026-03-06T02:35:56.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -54153,7 +54154,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54161,8 +54162,8 @@
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -54995,8 +54996,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49099914,
-      "sourceId": "401825568120104053",
+      "id": 49099913,
+      "sourceId": "401825568120104024",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -55007,7 +55008,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 4,
       "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
@@ -55016,8 +55017,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T20:45:55.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-08T20:45:35.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -55102,8 +55103,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49099913,
-      "sourceId": "401825568120104024",
+      "id": 49099914,
+      "sourceId": "401825568120104053",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -55114,7 +55115,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
@@ -55123,8 +55124,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T20:45:35.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-08T20:45:55.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -55320,8 +55321,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49099947,
-      "sourceId": "401825568120104770",
+      "id": 49099948,
+      "sourceId": "401825568120104772",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -55332,7 +55333,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 12,
       "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
@@ -55341,8 +55342,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T20:56:32.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-08T20:56:46.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -55427,8 +55428,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49099948,
-      "sourceId": "401825568120104772",
+      "id": 49099947,
+      "sourceId": "401825568120104770",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -55439,7 +55440,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 12,
+      "homeScore": 11,
       "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
@@ -55448,8 +55449,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T20:56:46.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-08T20:56:32.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -55962,8 +55963,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49100086,
-      "sourceId": "401825568120106545",
+      "id": 49100091,
+      "sourceId": "401825568120106563",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -55974,7 +55975,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 33,
       "homeWinProbability": null,
       "period": 1,
@@ -55983,8 +55984,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T21:31:51.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-08T21:32:12.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -56069,8 +56070,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49100091,
-      "sourceId": "401825568120106563",
+      "id": 49100086,
+      "sourceId": "401825568120106545",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -56081,7 +56082,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 33,
       "homeWinProbability": null,
       "period": 1,
@@ -56090,8 +56091,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T21:32:12.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-08T21:31:51.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -58471,113 +58472,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49385077,
-      "sourceId": "401851380120233814",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 170,
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 216,
-      "opponent": "Ohio State",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 67,
-      "awayScore": 64,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "1:24",
-      "secondsRemaining": 84,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-13T18:07:12.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 3951,
-          "name": "Yaxel Lendeborg"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7844,
-          "name": "Gabe Cupps",
-          "team": "Ohio State"
-        },
-        {
-          "id": 420,
-          "name": "Bruce Thornton",
-          "team": "Ohio State"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 201240,
-          "name": "Amare Bynum",
-          "team": "Ohio State"
-        },
-        {
-          "id": 422,
-          "name": "Devin Royal",
-          "team": "Ohio State"
-        },
-        {
-          "id": 237,
-          "name": "Elliot Cadeau",
-          "team": "Michigan"
-        },
-        {
-          "id": 5647,
-          "name": "Morez Johnson Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 425,
-          "name": "John Mobley Jr.",
-          "team": "Ohio State"
-        },
-        {
-          "id": 200517,
-          "name": "Trey McKenney",
-          "team": "Michigan"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        }
-      ]
-    },
-    {
-      "gameId": 372394,
-      "gameSourceId": "401851380",
-      "gameStartDate": "2026-03-13T16:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49385081,
       "sourceId": "401851380120233862",
       "playType": "MadeFreeThrow",
@@ -58685,8 +58579,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49385110,
-      "sourceId": "401851380120234285",
+      "id": 49385077,
+      "sourceId": "401851380120233814",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -58697,7 +58591,114 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 67,
+      "awayScore": 64,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "1:24",
+      "secondsRemaining": 84,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-13T18:07:12.000Z",
+      "playText": "Yaxel Lendeborg misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 3951,
+          "name": "Yaxel Lendeborg"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7844,
+          "name": "Gabe Cupps",
+          "team": "Ohio State"
+        },
+        {
+          "id": 420,
+          "name": "Bruce Thornton",
+          "team": "Ohio State"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 201240,
+          "name": "Amare Bynum",
+          "team": "Ohio State"
+        },
+        {
+          "id": 422,
+          "name": "Devin Royal",
+          "team": "Ohio State"
+        },
+        {
+          "id": 237,
+          "name": "Elliot Cadeau",
+          "team": "Michigan"
+        },
+        {
+          "id": 5647,
+          "name": "Morez Johnson Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 425,
+          "name": "John Mobley Jr.",
+          "team": "Ohio State"
+        },
+        {
+          "id": 200517,
+          "name": "Trey McKenney",
+          "team": "Michigan"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        }
+      ]
+    },
+    {
+      "gameId": 372394,
+      "gameSourceId": "401851380",
+      "gameStartDate": "2026-03-13T16:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49385115,
+      "sourceId": "401851380120234292",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 216,
+      "opponent": "Ohio State",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 71,
       "awayScore": 67,
       "homeWinProbability": null,
       "period": 2,
@@ -58706,8 +58707,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T18:15:24.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-13T18:15:57.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -58792,8 +58793,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49385115,
-      "sourceId": "401851380120234292",
+      "id": 49385110,
+      "sourceId": "401851380120234285",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -58804,7 +58805,7 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 67,
       "homeWinProbability": null,
       "period": 2,
@@ -58813,8 +58814,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T18:15:57.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-13T18:15:24.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -61840,8 +61841,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49549424,
-      "sourceId": "401856486120303332",
+      "id": 49549425,
+      "sourceId": "401856486120303337",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -61852,7 +61853,7 @@
       "opponent": "Howard",
       "opponentConference": "MEAC",
       "opponentSeed": 16,
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 2,
       "homeWinProbability": null,
       "period": 1,
@@ -61861,8 +61862,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T23:33:40.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-19T23:33:56.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -61947,8 +61948,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49549425,
-      "sourceId": "401856486120303337",
+      "id": 49549424,
+      "sourceId": "401856486120303332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -61959,7 +61960,7 @@
       "opponent": "Howard",
       "opponentConference": "MEAC",
       "opponentSeed": 16,
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 2,
       "homeWinProbability": null,
       "period": 1,
@@ -61968,8 +61969,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T23:33:56.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-19T23:33:40.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -64123,8 +64124,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49591817,
-      "sourceId": "401856532120339404",
+      "id": 49591824,
+      "sourceId": "401856532120339411",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -64135,7 +64136,7 @@
       "opponent": "Saint Louis",
       "opponentConference": "A-10",
       "opponentSeed": 9,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
@@ -64144,8 +64145,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T17:04:51.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-21T17:05:15.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -64230,8 +64231,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49591824,
-      "sourceId": "401856532120339411",
+      "id": 49591817,
+      "sourceId": "401856532120339404",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -64242,7 +64243,7 @@
       "opponent": "Saint Louis",
       "opponentConference": "A-10",
       "opponentSeed": 9,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
@@ -64251,8 +64252,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T17:05:15.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-21T17:04:51.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -65427,8 +65428,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650278,
-      "sourceId": "401856572120393856",
+      "id": 49650279,
+      "sourceId": "401856572120393862",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -65439,7 +65440,7 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": 4,
-      "homeScore": 8,
+      "homeScore": 9,
       "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
@@ -65448,8 +65449,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:03:20.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-03-28T00:03:43.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -65534,8 +65535,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650279,
-      "sourceId": "401856572120393862",
+      "id": 49650278,
+      "sourceId": "401856572120393856",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -65546,7 +65547,7 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": 4,
-      "homeScore": 9,
+      "homeScore": 8,
       "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
@@ -65555,8 +65556,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T00:03:43.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-03-28T00:03:20.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -68249,9 +68250,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661084,
-      "sourceId": "401856576120400990",
-      "playType": "MadeFreeThrow",
+      "id": 49661080,
+      "sourceId": "401856576120400984",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -68261,7 +68262,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": 6,
-      "homeScore": 22,
+      "homeScore": 21,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -68269,10 +68270,14 @@
       "secondsRemaining": 559,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-29T18:47:37.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-29T18:46:49.000Z",
+      "playText": "Yaxel Lendeborg makes driving layup (Elliot Cadeau assists)",
       "participants": [
+        {
+          "id": 237,
+          "name": "Elliot Cadeau"
+        },
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
@@ -68284,15 +68289,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 237,
+          "name": "Elliot Cadeau"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 255
         }
       },
       "onFloor": [
@@ -68356,9 +68361,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661080,
-      "sourceId": "401856576120400984",
-      "playType": "LayUpShot",
+      "id": 49661084,
+      "sourceId": "401856576120400990",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -68368,7 +68373,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": 6,
-      "homeScore": 21,
+      "homeScore": 22,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -68376,14 +68381,10 @@
       "secondsRemaining": 559,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-29T18:46:49.000Z",
-      "playText": "Yaxel Lendeborg makes driving layup (Elliot Cadeau assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-29T18:47:37.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 237,
-          "name": "Elliot Cadeau"
-        },
         {
           "id": 3951,
           "name": "Yaxel Lendeborg"
@@ -68395,15 +68396,15 @@
           "name": "Yaxel Lendeborg"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 237,
-          "name": "Elliot Cadeau"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -70096,8 +70097,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661250,
-      "sourceId": "401856576120401754",
+      "id": 49661251,
+      "sourceId": "401856576120401755",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -70114,11 +70115,11 @@
       "period": 2,
       "clock": "14:02",
       "secondsRemaining": 842,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-03-29T19:56:01.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -70130,7 +70131,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70203,8 +70204,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661251,
-      "sourceId": "401856576120401755",
+      "id": 49661250,
+      "sourceId": "401856576120401754",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -70221,11 +70222,11 @@
       "period": 2,
       "clock": "14:02",
       "secondsRemaining": 842,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-03-29T19:56:01.000Z",
-      "playText": "Yaxel Lendeborg misses free throw 2 of 2",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -70237,7 +70238,7 @@
           "id": 3951,
           "name": "Yaxel Lendeborg"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71960,8 +71961,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49687332,
-      "sourceId": "401856600120417055",
+      "id": 49687333,
+      "sourceId": "401856600120417056",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -71972,7 +71973,7 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": 2,
-      "homeScore": 20,
+      "homeScore": 21,
       "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
@@ -71981,8 +71982,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-07T01:26:14.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
+      "wallclock": "2026-04-07T01:26:33.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
       "participants": [
         {
           "id": 3951,
@@ -72067,8 +72068,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49687333,
-      "sourceId": "401856600120417056",
+      "id": 49687332,
+      "sourceId": "401856600120417055",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -72079,7 +72080,7 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": 2,
-      "homeScore": 21,
+      "homeScore": 20,
       "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
@@ -72088,8 +72089,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-07T01:26:33.000Z",
-      "playText": "Yaxel Lendeborg makes free throw 2 of 2",
+      "wallclock": "2026-04-07T01:26:14.000Z",
+      "playText": "Yaxel Lendeborg makes free throw 1 of 2",
       "participants": [
         {
           "id": 3951,
@@ -75022,86 +75023,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.23,
-        "percentile": 99.5,
-        "freqPer100": 5.9
-      },
-      "attackKick": {
-        "ppp": 1.17,
-        "percentile": 98.5,
-        "freqPer100": 5.9
-      },
-      "perimeterSniper": {
-        "ppp": 1.21,
-        "percentile": 93.7,
-        "freqPer100": 8.7
-      },
-      "dribbleJumper": {
-        "ppp": 1.07,
-        "percentile": 87.2,
-        "freqPer100": 4.9
-      },
-      "midRange": {
-        "ppp": 0.82,
-        "percentile": 63.8,
-        "freqPer100": 1.2
-      },
-      "hitsCutter": {
-        "ppp": 1.26,
-        "percentile": 97.3,
-        "freqPer100": 3.9
-      },
-      "perimeterCut": {
-        "ppp": 1.55,
-        "percentile": 97.7,
-        "freqPer100": 2.6
-      },
-      "pnrPasser": {
-        "ppp": 1.38,
-        "percentile": 100,
-        "freqPer100": 3.4
-      },
-      "bigCutRoll": {
-        "ppp": 1.61,
-        "percentile": 100,
-        "freqPer100": 3.3
-      },
-      "postUp": {
-        "ppp": 1.13,
-        "percentile": 99.1,
-        "freqPer100": 10.7
-      },
-      "insideOut": {
-        "ppp": 1.16,
-        "percentile": 99,
-        "freqPer100": 9.9
-      },
-      "pickAndPop": {
-        "ppp": 1.23,
-        "percentile": 93.3,
-        "freqPer100": 8
-      },
-      "highLow": {
-        "ppp": 1.4,
-        "percentile": 100,
-        "freqPer100": 4.1
-      },
-      "rebScramble": {
-        "ppp": 1.53,
-        "percentile": 93.5,
-        "freqPer100": 9.2
-      },
-      "transition": {
-        "ppp": 1.48,
-        "percentile": 92.2,
-        "freqPer100": 18.5
       }
     }
   }

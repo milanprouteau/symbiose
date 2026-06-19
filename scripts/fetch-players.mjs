@@ -42,57 +42,52 @@ const PLAYERS = [
   { name: "Caleb Wilson", team: "North Carolina", id: 200988 },
   { name: "Kingston Flemings", team: "Houston", id: 199596 },
   { name: "Keaton Wagler", team: "Illinois", id: 199686 },
-  { name: "Nate Ament", team: "Tennessee", id: 202445 },
   { name: "Darius Acuff", team: "Arkansas", id: 198012 },
-  { name: "Mikel Brown Jr.", team: "Louisville", id: 200182 },
-  { name: "Labaron Philon", team: "Alabama", id: 85 },
-  { name: "Hannes Steinbach", team: "Washington", id: 203279 },
-  { name: "Yaxel Lendeborg", team: "Michigan", id: 3951 },
-  { name: "Patrick Ngongba II", team: "Duke", id: 216 },
-  { name: "Braylon Mullins", team: "Uconn", id: 202778 },
-  { name: "Jayden Quaintance", team: "Kentucky", id: 7639 },
-  { name: "Thomas Haugh", team: "Florida", id: 502 },
-  { name: "Koa Peat", team: "Arizona", id: 197993 },
   { name: "Brayden Burries", team: "Arizona", id: 197982 },
-  { name: "Bennett Stirtz", team: "Iowa", id: 3596 },
-  { name: "Christian Anderson", team: "Texas Tech", id: 7593 },
+  { name: "Mikel Brown Jr.", team: "Louisville", id: 200182 },
+  { name: "Nate Ament", team: "Tennessee", id: 202445 },
+  { name: "Labaron Philon", team: "Alabama", id: 85 },
+  { name: "Yaxel Lendeborg", team: "Michigan", id: 3951 },
+  { name: "Hannes Steinbach", team: "Washington", id: 203279 },
+  { name: "Jayden Quaintance", team: "Kentucky", id: 7639 },
   { name: "Chris Cenac Jr.", team: "Houston", id: 199595 },
-  { name: "Joshua Jefferson", team: "Iowa State", id: 142 },
-  { name: "Tounde Yessoufou", team: "Baylor", id: 198155 },
-  { name: "Aday Mara", team: "Michigan", id: 535 },
   { name: "Cameron Carr", team: "Baylor", id: 309 },
+  { name: "Aday Mara", team: "Michigan", id: 535 },
+  { name: "Bennett Stirtz", team: "Iowa", id: 3596 },
+  { name: "Koa Peat", team: "Arizona", id: 197993 },
+  { name: "Allen Graves", team: "Santa Clara", id: 833 },
+  { name: "Isaiah Evans", team: "Duke", id: 211 },
+  { name: "Tounde Yessoufou", team: "Baylor", id: 198155 },
   { name: "Morez Johnson Jr.", team: "Michigan", id: 5647 },
+  { name: "Joshua Jefferson", team: "Iowa State", id: 142 },
+  { name: "Dailyn Swain", team: "Texas", id: 4065 },
+  { name: "Christian Anderson", team: "Texas Tech", id: 7593 },
   { name: "Tyler Tanner", team: "Vanderbilt", id: 4562 },
   { name: "Amari Allen", team: "Alabama", id: 197881 },
   { name: "Ebuka Okorie", team: "Stanford", id: 202245 },
-  { name: "Malachi Moreno", team: "Kentucky", id: 199963 },
-  { name: "Isaiah Evans", team: "Duke", id: 211 },
-  { name: "Dailyn Swain", team: "Texas", id: 4065 },
-  { name: "Alijah Arenas", team: "USC", id: 202954 },
-  { name: "Flory Bidunga", team: "Kansas", id: 53 },
-  { name: "Henri Veesaar", team: "North Carolina", id: 270 },
   { name: "Meleek Thomas", team: "Arkansas", id: 198026 },
-  { name: "Juke Harris", team: "Wake Forest", id: 5773 },
-  { name: "Richie Saunders", team: "BYU", id: 7673 },
-  { name: "Braden Smith", team: "Purdue", id: 368 },
   { name: "Alex Karaban", team: "Uconn", id: 7792 },
+  { name: "Henri Veesaar", team: "North Carolina", id: 270 },
+  { name: "Flory Bidunga", team: "Kansas", id: 53 },
+  { name: "Tarris Reed Jr.", team: "Uconn", id: 7799 },
   { name: "Zuby Ejiofor", team: "St. John's", id: 1424 },
   { name: "Ryan Conwell", team: "Louisville", id: 4066 },
-  { name: "JT Toppin", team: "Texas Tech", id: 7581 },
-  { name: "Joseph Tugler", team: "Houston", id: 112 },
-  { name: "Alex Condon", team: "Florida", id: 496 },
-  { name: "Tarris Reed Jr.", team: "Uconn", id: 7799 },
-  { name: "Motiejus Krivas", team: "Arizona", id: 274 },
-  { name: "Rueben Chinyelu", team: "Florida", id: 497 },
-  { name: "Bruce Thornton", team: "Ohio State", id: 420 },
   { name: "Milan Momcilovic", team: "Iowa State", id: 149 },
   { name: "Jaden Bradley", team: "Arizona", id: 269 },
-  { name: "Paul McNeil Jr.", team: "NC State", id: 2862 },
+  { name: "Richie Saunders", team: "BYU", id: 7673 },
+  { name: "Bruce Thornton", team: "Ohio State", id: 420 },
+  { name: "Braden Smith", team: "Purdue", id: 368 },
+  { name: "Otega Oweh", team: "Kentucky", id: 562 },
+  { name: "Trevon Brazile", team: "Arkansas", id: 7827 },
+  { name: "Emanuel Sharp", team: "Houston", id: 115 },
   { name: "Tamin Lipsey", team: "Iowa State", id: 144 },
+  { name: "Baba Miller", team: "Cincinnati", id: 3921 },
+  { name: "Milos Uzan", team: "Houston", id: 114 },
   { name: "Nate Bittle", team: "Oregon", id: 7241 },
-  { name: "Miles Byrd", team: "San Diego State", id: 8457 },
   { name: "Keyshawn Hall", team: "Auburn", id: 334 },
-  { name: "Johann Grunloh", team: "Virginia", id: 203192 },
+  { name: "Paul McNeil Jr.", team: "NC State", id: 2862 },
+  { name: "Dillon Mitchell", team: "St. John's", id: 465 },
+  { name: "Jeremy Fears Jr.", team: "Michigan State", id: 2474 },
 ];
 
 /* ── API helpers ── */
@@ -243,9 +238,11 @@ async function main() {
 
       // Read existing file to preserve manually-set fields the API doesn't return
       const filePath = path.join(OUT_DIR, `${player.id}.json`);
-      const existingProfile = fs.existsSync(filePath)
-        ? (JSON.parse(fs.readFileSync(filePath, "utf-8"))?.profile ?? {})
+      const existingFile = fs.existsSync(filePath)
+        ? JSON.parse(fs.readFileSync(filePath, "utf-8"))
         : {};
+      const existingProfile   = existingFile?.profile      ?? {};
+      const existingTopLineups = existingFile?.topLineups  ?? [];
 
       // NOTE: `wingspan` is manual data. Canonical source = data/players/wingspan.json
       // (merged at build-time by build-compare-bundles.mjs and at runtime on the player page).
@@ -265,7 +262,9 @@ async function main() {
                   state: rosterEntry.hometown.state ?? null,
                 }
               : null,
-            dateOfBirth: rosterEntry.dateOfBirth ?? existingProfile.dateOfBirth ?? null,
+            // Manual DOB wins: a hand-entered dateOfBirth is never overwritten,
+            // even if the API later starts returning one.
+            dateOfBirth: existingProfile.dateOfBirth ?? rosterEntry.dateOfBirth ?? null,
           }
         : existingProfile && Object.keys(existingProfile).length > 0
           ? existingProfile
@@ -313,6 +312,7 @@ async function main() {
         profile,
         shots,
         gameLog,
+        topLineups: existingTopLineups,
       };
 
       // Save individual file

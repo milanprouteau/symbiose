@@ -1,199 +1,218 @@
 .page {
-  max-width: 1400px;
+  max-width: 920px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: 2.5rem 1.25rem 5rem;
 }
 
-.header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-}
-
-.calibLink {
-  background: rgba(255,108,34,0.1);
-  border: 1px solid rgba(255,108,34,0.3);
-  border-radius: 6px;
-  color: var(--color-primary-orange);
-  font-family: var(--font-heading);
-  font-size: 0.8rem;
-  padding: 0.4rem 0.9rem;
-  text-decoration: none;
-  &:hover { background: rgba(255,108,34,0.2); }
+/* ── Hero ── */
+.hero {
+  margin-bottom: 2.5rem;
 }
 
 .title {
   font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 2.75rem);
   color: var(--color-primary-orange);
-  font-size: 2rem;
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.6rem;
+  line-height: 1.1;
 }
 
 .subtitle {
   font-family: var(--font-body);
+  font-size: 1.05rem;
   color: var(--color-secondary-beige);
-  font-size: 0.85rem;
+  line-height: 1.6;
   margin: 0;
+  max-width: 640px;
 }
 
-/* ── Controls ── */
-.controls {
+.intro {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--color-text-secondary);
+  margin: 1.5rem 0 0;
+  max-width: 680px;
+
+  strong { color: var(--color-primary-white); }
+}
+
+/* ── Cartes comparatives ── */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 2.75rem 0;
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: 1.5rem 1.5rem 1.75rem;
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.search {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 6px;
+.cardSis { border-top: 3px solid var(--color-primary-orange); }
+.cardPx  { border-top: 3px solid var(--color-secondary-blue); }
+
+.cardTag {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin: 0 0 0.35rem;
+}
+
+.cardName {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  margin: 0 0 0.2rem;
   color: var(--color-primary-white);
+}
+
+.cardSis .cardName { color: var(--color-primary-orange); }
+.cardPx  .cardName { color: var(--color-secondary-blue); }
+
+.cardQuestion {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--color-secondary-beige);
+  margin: 0 0 1rem;
+}
+
+.cardLead {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin: 0 0 1.25rem;
+}
+
+.principles {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+
+  li {
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 0.7rem;
+    font-family: var(--font-body);
+    font-size: 0.86rem;
+    line-height: 1.55;
+    color: var(--color-text-secondary);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.5em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      opacity: 0.5;
+    }
+
+    strong { color: var(--color-primary-white); font-weight: 600; }
+  }
+}
+
+.pillarsLabel {
+  font-family: var(--font-heading);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin: auto 0 0.6rem;
+}
+
+.pillars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pillar {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.cardSis .pillar { background: rgba(255, 108, 34, 0.08); border-color: rgba(255, 108, 34, 0.3); }
+.cardPx  .pillar { background: rgba(90, 150, 255, 0.08); border-color: rgba(90, 150, 255, 0.3); }
+
+/* ── Lire ensemble ── */
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-primary-white);
+  margin: 0 0 1.25rem;
+}
+
+.combos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.combo {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}
+
+.comboLabel {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  color: var(--color-primary-orange);
+  flex-shrink: 0;
+  min-width: 170px;
+  padding-top: 0.05rem;
+}
+
+.comboText {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin: 0;
+
+  strong { color: var(--color-primary-white); }
+}
+
+/* ── Note recette maison ── */
+.note {
+  background: var(--color-surface-fade, rgba(255, 255, 255, 0.03));
+  border: 1px solid var(--color-border-subtle, var(--color-border));
+  border-radius: 10px;
+  padding: 1.1rem 1.35rem;
   font-family: var(--font-body);
   font-size: 0.85rem;
-  padding: 0.4rem 0.75rem;
-  width: 200px;
-  outline: none;
+  line-height: 1.65;
+  color: var(--color-text-muted);
 
-  &::placeholder { color: rgba(255,255,255,0.3); }
-  &:focus { border-color: var(--color-primary-orange); }
-}
-
-.yearSelect {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 6px;
-  color: var(--color-primary-white);
-  cursor: pointer;
-  font-family: var(--font-heading);
-  font-size: 0.8rem;
-  outline: none;
-  padding: 0.35rem 0.75rem;
-  transition: border-color 0.15s;
-
-  option { background: #1a1a1a; }
-  &:focus { border-color: var(--color-primary-orange); }
-}
-
-.count {
-  margin-left: auto;
-  color: rgba(255,255,255,0.35);
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-}
-
-/* ── Table ── */
-.tableWrap {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-
-  &::-webkit-scrollbar { height: 4px; }
-  &::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 3px; }
-}
-
-.table {
-  border-collapse: collapse;
-  font-size: 0.82rem;
-  min-width: 700px;
-}
-
-.th {
-  background: rgba(255,255,255,0.04);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  cursor: pointer;
-  font-family: var(--font-heading);
-  font-size: 0.72rem;
-  letter-spacing: 0.05em;
-  padding: 0.5rem 0.75rem;
-  text-align: left;
-  text-transform: uppercase;
-  user-select: none;
-  white-space: nowrap;
-
-  &:hover { color: rgba(255,255,255,0.75); }
-  &.sorted { color: var(--color-primary-orange); }
-  &.num { text-align: right; }
-}
-
-.row {
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  transition: background 0.1s;
-
-  &:hover { background: rgba(255,255,255,0.04); }
-}
-
-.td, .name {
-  padding: 0.45rem 0.75rem;
-  white-space: nowrap;
-}
-
-.name {
-  color: var(--color-primary-white);
-  font-family: var(--font-heading);
-}
-
-.td {
-  &.num { text-align: right; }
-}
-
-.score {
-  font-family: var(--font-heading);
-  font-size: 0.88rem;
-}
-
-.prospect {
-  background: rgba(255, 108, 34, 0.15);
-  border: 1px solid rgba(255, 108, 34, 0.35);
-  border-radius: 4px;
-  color: var(--color-primary-orange);
-  font-size: 0.72rem;
-  padding: 0.15rem 0.4rem;
-}
-
-.year {
-  color: rgba(255,255,255,0.55);
-}
-
-.arrow {
-  display: inline-block;
-  width: 1ch;
-}
-
-/* ── Pagination ── */
-.pagination {
-  align-items: center;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  padding: 1.25rem 0 0.5rem;
-}
-
-.pageBtn {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 6px;
-  color: var(--color-primary-white);
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 0.3rem 0.85rem;
-  transition: background 0.15s, border-color 0.15s;
-
-  &:hover:not(:disabled) {
-    background: rgba(255,255,255,0.12);
-    border-color: rgba(255,255,255,0.3);
-  }
-  &:disabled {
-    cursor: default;
-    opacity: 0.25;
-  }
-}
-
-.pageInfo {
-  color: rgba(255,255,255,0.45);
-  font-family: var(--font-heading);
-  font-size: 0.82rem;
-  min-width: 5ch;
-  text-align: center;
+  strong { color: var(--color-secondary-beige); }
 }

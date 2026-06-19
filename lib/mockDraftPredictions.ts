@@ -1,62 +1,56 @@
-// Mock draft predictions based on PlayerList.md order (1-60)
+// Mock draft predictions basées sur Tankathon big board (2026), NCAA uniquement, renumérotés 1-51
 export const mockDraftPredictions: Record<number, number> = {
-  198382: 1,   // AJ Dybantsa
+  198977: 1,   // Cameron Boozer
   199883: 2,   // Darryn Peterson
-  198977: 3,   // Cameron Boozer
+  198382: 3,   // AJ Dybantsa
   200988: 4,   // Caleb Wilson
-  199596: 5,   // Kingston Flemings
-  199686: 6,   // Keaton Wagler
-  202445: 7,   // Nate Ament
-  198012: 8,   // Darius Acuff
+  199686: 5,   // Keaton Wagler
+  198012: 6,   // Darius Acuff
+  199596: 7,   // Kingston Flemings
+  197982: 8,   // Brayden Burries
   200182: 9,   // Mikel Brown Jr.
-  85: 10,      // Labaron Philon
-  203279: 11,  // Hannes Steinbach
+  202445: 10,  // Nate Ament
+  85: 11,      // Labaron Philon
   3951: 12,    // Yaxel Lendeborg
-  216: 13,     // Patrick Ngongba II
-  202778: 14,  // Braylon Mullins
-  7639: 15,    // Jayden Quaintance
-  502: 16,     // Thomas Haugh
-  197993: 17,  // Koa Peat
-  197982: 18,  // Brayden Burries
-  3596: 19,    // Bennett Stirtz
-  7593: 20,    // Christian Anderson
-  199595: 21,  // Chris Cenac Jr.
-  142: 22,     // Joshua Jefferson
-  198155: 23,  // Tounde Yessoufou
-  535: 24,     // Aday Mara
-  309: 25,     // Cameron Carr
-  5647: 26,    // Morez Johnson Jr.
-  4562: 27,    // Tyler Tanner
-  197881: 28,  // Amari Allen
-  202245: 29,  // Ebuka Okorie
-  199963: 30,  // Malachi Moreno
-  211: 31,     // Isaiah Evans
-  4065: 32,    // Dailyn Swain
-  202954: 33,  // Alijah Arenas
-  53: 34,      // Flory Bidunga
-  270: 35,     // Henri Veesaar
-  198026: 36,  // Meleek Thomas
-  5773: 37,    // Juke Harris
-  7673: 38,    // Richie Saunders
-  368: 39,     // Braden Smith
-  7792: 40,    // Alex Karaban
-  1424: 41,    // Zuby Ejiofor
-  4066: 42,    // Ryan Conwell
-  7581: 43,    // JT Toppin
-  112: 44,     // Joseph Tugler
-  496: 45,     // Alex Condon
-  7799: 46,    // Tarris Reed Jr.
-  274: 47,     // Motiejus Krivas
-  497: 48,     // Rueben Chinyelu
-  420: 49,     // Bruce Thornton
-  149: 50,     // Milan Momcilovic
-  269: 51,     // Jaden Bradley
-  2862: 52,    // Paul McNeil Jr.
-  144: 53,     // Tamin Lipsey
-  7241: 54,    // Nate Bittle
-  8457: 55,    // Miles Byrd
-  334: 56,     // Keyshawn Hall
-  203192: 57,  // Johann Grunloh
+  203279: 13,  // Hannes Steinbach
+  199595: 14,  // Chris Cenac Jr.
+  309: 15,     // Cameron Carr
+  5647: 16,    // Morez Johnson Jr.
+  535: 17,     // Aday Mara
+  197993: 18,  // Koa Peat
+  198155: 19,  // Tounde Yessoufou
+  7639: 20,    // Jayden Quaintance
+  3596: 21,    // Bennett Stirtz
+  4065: 22,    // Dailyn Swain
+  7593: 23,    // Christian Anderson
+  833: 24,     // Allen Graves
+  211: 25,     // Isaiah Evans
+  202245: 26,  // Ebuka Okorie
+  142: 27,     // Joshua Jefferson
+  198026: 28,  // Meleek Thomas
+  197881: 29,  // Amari Allen
+  4562: 30,    // Tyler Tanner
+  270: 31,     // Henri Veesaar
+  7799: 32,    // Tarris Reed Jr.
+  7792: 33,    // Alex Karaban
+  1424: 34,    // Zuby Ejiofor
+  7673: 35,    // Richie Saunders
+  4066: 36,    // Ryan Conwell
+  269: 37,     // Jaden Bradley
+  53: 38,      // Flory Bidunga
+  149: 39,     // Milan Momcilovic
+  7827: 40,    // Trevon Brazile
+  3921: 41,    // Baba Miller
+  420: 42,     // Bruce Thornton
+  562: 43,     // Otega Oweh
+  115: 44,     // Emanuel Sharp
+  114: 45,     // Milos Uzan
+  368: 46,     // Braden Smith
+  2474: 47,    // Jeremy Fears Jr.
+  144: 48,     // Tamin Lipsey
+  334: 49,     // Keyshawn Hall
+  465: 50,     // Dillon Mitchell
+  7241: 51,    // Nate Bittle
 };
 
 export function getMockDraftPrediction(playerId: number): string {

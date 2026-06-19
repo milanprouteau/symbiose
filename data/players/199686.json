@@ -243,7 +243,8 @@
     "jersey": "23",
     "position": "Guard",
     "height": 78,
-    "weight": 180,
+    "weight": 188,
+    "wingspan": null,
     "hometown": {
       "city": "Shawnee",
       "state": "KS"
@@ -584,8 +585,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37647041,
-      "sourceId": "401827170113665486",
+      "id": 37647040,
+      "sourceId": "401827170113665253",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -602,11 +603,11 @@
       "period": 1,
       "clock": "3:13",
       "secondsRemaining": 193,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:16:20.000Z",
-      "playText": "Keaton Wagler missed Free Throw.",
+      "wallclock": "2025-11-04T02:16:03.000Z",
+      "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -618,7 +619,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -691,8 +692,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37647040,
-      "sourceId": "401827170113665253",
+      "id": 37647041,
+      "sourceId": "401827170113665486",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -709,11 +710,11 @@
       "period": 1,
       "clock": "3:13",
       "secondsRemaining": 193,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:16:03.000Z",
-      "playText": "Keaton Wagler made Free Throw.",
+      "wallclock": "2025-11-04T02:16:20.000Z",
+      "playText": "Keaton Wagler missed Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -725,7 +726,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -3761,8 +3762,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38240381,
-      "sourceId": "401823225113927319",
+      "id": 38240372,
+      "sourceId": "401823225113927254",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -3773,7 +3774,7 @@
       "opponent": "Florida Gulf Coast",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 27,
       "homeWinProbability": 1,
       "period": 1,
@@ -3782,7 +3783,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T02:26:53.000Z",
+      "wallclock": "2025-11-08T02:26:28.000Z",
       "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
@@ -3868,8 +3869,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38240372,
-      "sourceId": "401823225113927254",
+      "id": 38240381,
+      "sourceId": "401823225113927319",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -3880,7 +3881,7 @@
       "opponent": "Florida Gulf Coast",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 27,
       "homeWinProbability": 1,
       "period": 1,
@@ -3889,7 +3890,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T02:26:28.000Z",
+      "wallclock": "2025-11-08T02:26:53.000Z",
       "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
@@ -5905,8 +5906,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38711137,
-      "sourceId": "401811097114186334",
+      "id": 38711133,
+      "sourceId": "401811097114186228",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -5923,11 +5924,11 @@
       "period": 2,
       "clock": "0:06",
       "secondsRemaining": 6,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T03:53:26.000Z",
-      "playText": "Keaton Wagler missed Free Throw.",
+      "wallclock": "2025-11-12T03:51:24.000Z",
+      "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -5939,7 +5940,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6012,8 +6013,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38711133,
-      "sourceId": "401811097114186228",
+      "id": 38711137,
+      "sourceId": "401811097114186334",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -6030,11 +6031,11 @@
       "period": 2,
       "clock": "0:06",
       "secondsRemaining": 6,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T03:51:24.000Z",
-      "playText": "Keaton Wagler made Free Throw.",
+      "wallclock": "2025-11-12T03:53:26.000Z",
+      "playText": "Keaton Wagler missed Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -6046,7 +6047,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7300,8 +7301,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39016665,
-      "sourceId": "401827180114339509",
+      "id": 39016664,
+      "sourceId": "401827180114339484",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -7312,16 +7313,16 @@
       "opponent": "Colgate",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 35,
-      "homeWinProbability": 0.952,
+      "homeWinProbability": 0.936,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T03:05:50.000Z",
+      "wallclock": "2025-11-15T03:05:35.000Z",
       "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
@@ -7407,8 +7408,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39016664,
-      "sourceId": "401827180114339484",
+      "id": 39016665,
+      "sourceId": "401827180114339509",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -7419,16 +7420,16 @@
       "opponent": "Colgate",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 35,
-      "homeWinProbability": 0.936,
+      "homeWinProbability": 0.952,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T03:05:35.000Z",
+      "wallclock": "2025-11-15T03:05:50.000Z",
       "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
@@ -8164,8 +8165,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39016796,
-      "sourceId": "401827180114342768",
+      "id": 39016797,
+      "sourceId": "401827180114342788",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -8176,16 +8177,16 @@
       "opponent": "Colgate",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 54,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "5:04",
       "secondsRemaining": 304,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T03:35:20.000Z",
+      "wallclock": "2025-11-15T03:35:33.000Z",
       "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
@@ -8271,8 +8272,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39016797,
-      "sourceId": "401827180114342788",
+      "id": 39016796,
+      "sourceId": "401827180114342768",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -8283,16 +8284,16 @@
       "opponent": "Colgate",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 54,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "5:04",
       "secondsRemaining": 304,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T03:35:33.000Z",
+      "wallclock": "2025-11-15T03:35:20.000Z",
       "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
@@ -13665,8 +13666,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40067180,
-      "sourceId": "401827181114931369",
+      "id": 40067181,
+      "sourceId": "401827181114931384",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -13683,11 +13684,11 @@
       "period": 2,
       "clock": "1:14",
       "secondsRemaining": 74,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T02:46:42.000Z",
-      "playText": "Keaton Wagler made Free Throw.",
+      "wallclock": "2025-11-25T02:47:00.000Z",
+      "playText": "Keaton Wagler missed Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -13699,7 +13700,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13772,8 +13773,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40067181,
-      "sourceId": "401827181114931384",
+      "id": 40067180,
+      "sourceId": "401827181114931369",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -13790,11 +13791,11 @@
       "period": 2,
       "clock": "1:14",
       "secondsRemaining": 74,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T02:47:00.000Z",
-      "playText": "Keaton Wagler missed Free Throw.",
+      "wallclock": "2025-11-25T02:46:42.000Z",
+      "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -13806,7 +13807,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17993,8 +17994,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41439566,
-      "sourceId": "401825404115714176",
+      "id": 41439567,
+      "sourceId": "401825404115714216",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -18011,11 +18012,11 @@
       "period": 2,
       "clock": "7:19",
       "secondsRemaining": 439,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T02:15:08.000Z",
-      "playText": "Keaton Wagler made Free Throw.",
+      "wallclock": "2025-12-10T02:15:24.000Z",
+      "playText": "Keaton Wagler missed Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -18027,7 +18028,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18100,8 +18101,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41439567,
-      "sourceId": "401825404115714216",
+      "id": 41439566,
+      "sourceId": "401825404115714176",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -18118,11 +18119,11 @@
       "period": 2,
       "clock": "7:19",
       "secondsRemaining": 439,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T02:15:24.000Z",
-      "playText": "Keaton Wagler missed Free Throw.",
+      "wallclock": "2025-12-10T02:15:08.000Z",
+      "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -18134,7 +18135,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20712,9 +20713,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41638811,
-      "sourceId": "401825407115844186",
-      "playType": "MadeFreeThrow",
+      "id": 41638806,
+      "sourceId": "401825407115843650",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -20724,17 +20725,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 66,
-      "homeWinProbability": 0.398,
+      "homeWinProbability": 0.349,
       "period": 2,
       "clock": "7:32",
       "secondsRemaining": 452,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-13T22:32:26.000Z",
-      "playText": "Keaton Wagler made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-13T22:29:11.000Z",
+      "playText": "Keaton Wagler made Layup.",
       "participants": [
         {
           "id": 199686,
@@ -20747,15 +20748,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 235
         }
       },
       "onFloor": [
@@ -20819,9 +20820,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41638806,
-      "sourceId": "401825407115843650",
-      "playType": "LayUpShot",
+      "id": 41638811,
+      "sourceId": "401825407115844186",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -20831,17 +20832,17 @@
       "opponent": "Nebraska",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 66,
-      "homeWinProbability": 0.349,
+      "homeWinProbability": 0.398,
       "period": 2,
       "clock": "7:32",
       "secondsRemaining": 452,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-13T22:29:11.000Z",
-      "playText": "Keaton Wagler made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-13T22:32:26.000Z",
+      "playText": "Keaton Wagler made Free Throw.",
       "participants": [
         {
           "id": 199686,
@@ -20854,15 +20855,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -26804,113 +26805,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43255703,
-      "sourceId": "401825416116805782",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 118,
-      "team": "Illinois",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 226,
-      "opponent": "Penn State",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 21,
-      "awayScore": 33,
-      "homeWinProbability": 0.177,
-      "period": 1,
-      "clock": "5:01",
-      "secondsRemaining": 301,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-04T00:45:36.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 199686,
-          "name": "Keaton Wagler"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199686,
-          "name": "Keaton Wagler"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 201404,
-          "name": "Mason Blackwood",
-          "team": "Penn State"
-        },
-        {
-          "id": 4489,
-          "name": "Saša Ciani",
-          "team": "Penn State"
-        },
-        {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
-          "team": "Illinois"
-        },
-        {
-          "id": 201417,
-          "name": "Melih Tunca",
-          "team": "Penn State"
-        },
-        {
-          "id": 4132,
-          "name": "Dominick Stewart",
-          "team": "Penn State"
-        },
-        {
-          "id": 7820,
-          "name": "Zvonimir Ivisic",
-          "team": "Illinois"
-        },
-        {
-          "id": 4137,
-          "name": "Eli Rice",
-          "team": "Penn State"
-        },
-        {
-          "id": 199686,
-          "name": "Keaton Wagler",
-          "team": "Illinois"
-        },
-        {
-          "id": 7384,
-          "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        }
-      ]
-    },
-    {
-      "gameId": 214291,
-      "gameSourceId": "401825416",
-      "gameStartDate": "2026-01-04T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43255704,
       "sourceId": "401825416116805822",
       "playType": "MadeFreeThrow",
@@ -27018,8 +26912,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43255926,
-      "sourceId": "401825416116811520",
+      "id": 43255703,
+      "sourceId": "401825416116805782",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -27030,16 +26924,16 @@
       "opponent": "Penn State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 49,
-      "awayScore": 63,
-      "homeWinProbability": 0.014,
-      "period": 2,
-      "clock": "5:24",
-      "secondsRemaining": 324,
+      "homeScore": 21,
+      "awayScore": 33,
+      "homeWinProbability": 0.177,
+      "period": 1,
+      "clock": "5:01",
+      "secondsRemaining": 301,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T01:53:21.000Z",
+      "wallclock": "2026-01-04T00:45:36.000Z",
       "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
@@ -27066,8 +26960,18 @@
       },
       "onFloor": [
         {
-          "id": 199686,
-          "name": "Keaton Wagler",
+          "id": 201404,
+          "name": "Mason Blackwood",
+          "team": "Penn State"
+        },
+        {
+          "id": 4489,
+          "name": "Saša Ciani",
+          "team": "Penn State"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
           "team": "Illinois"
         },
         {
@@ -27076,9 +26980,9 @@
           "team": "Illinois"
         },
         {
-          "id": 5640,
-          "name": "Tomislav Ivisic",
-          "team": "Illinois"
+          "id": 201417,
+          "name": "Melih Tunca",
+          "team": "Penn State"
         },
         {
           "id": 4132,
@@ -27086,34 +26990,24 @@
           "team": "Penn State"
         },
         {
-          "id": 4126,
-          "name": "Freddie Dilione V",
-          "team": "Penn State"
-        },
-        {
-          "id": 5643,
-          "name": "Kylan Boswell",
+          "id": 7820,
+          "name": "Zvonimir Ivisic",
           "team": "Illinois"
         },
         {
-          "id": 201412,
-          "name": "Kayden Mingo",
+          "id": 4137,
+          "name": "Eli Rice",
           "team": "Penn State"
         },
         {
-          "id": 201413,
-          "name": "Tibor Mirtic",
-          "team": "Penn State"
+          "id": 199686,
+          "name": "Keaton Wagler",
+          "team": "Illinois"
         },
         {
           "id": 7384,
           "name": "Andrej Stojakovic",
           "team": "Illinois"
-        },
-        {
-          "id": 201410,
-          "name": "Ivan Juric",
-          "team": "Penn State"
         }
       ]
     },
@@ -27232,8 +27126,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43255947,
-      "sourceId": "401825416116811666",
+      "id": 43255926,
+      "sourceId": "401825416116811520",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 118,
+      "team": "Illinois",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 226,
+      "opponent": "Penn State",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 49,
+      "awayScore": 63,
+      "homeWinProbability": 0.014,
+      "period": 2,
+      "clock": "5:24",
+      "secondsRemaining": 324,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-04T01:53:21.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 199686,
+          "name": "Keaton Wagler"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199686,
+          "name": "Keaton Wagler"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 199686,
+          "name": "Keaton Wagler",
+          "team": "Illinois"
+        },
+        {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
+          "id": 5640,
+          "name": "Tomislav Ivisic",
+          "team": "Illinois"
+        },
+        {
+          "id": 4132,
+          "name": "Dominick Stewart",
+          "team": "Penn State"
+        },
+        {
+          "id": 4126,
+          "name": "Freddie Dilione V",
+          "team": "Penn State"
+        },
+        {
+          "id": 5643,
+          "name": "Kylan Boswell",
+          "team": "Illinois"
+        },
+        {
+          "id": 201412,
+          "name": "Kayden Mingo",
+          "team": "Penn State"
+        },
+        {
+          "id": 201413,
+          "name": "Tibor Mirtic",
+          "team": "Penn State"
+        },
+        {
+          "id": 7384,
+          "name": "Andrej Stojakovic",
+          "team": "Illinois"
+        },
+        {
+          "id": 201410,
+          "name": "Ivan Juric",
+          "team": "Penn State"
+        }
+      ]
+    },
+    {
+      "gameId": 214291,
+      "gameSourceId": "401825416",
+      "gameStartDate": "2026-01-04T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43255946,
+      "sourceId": "401825416116811640",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -27245,16 +27246,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 66,
-      "homeWinProbability": 0.011,
+      "awayScore": 65,
+      "homeWinProbability": 0.016,
       "period": 2,
       "clock": "4:37",
       "secondsRemaining": 277,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T01:56:22.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-04T01:56:07.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -27339,8 +27340,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43255946,
-      "sourceId": "401825416116811640",
+      "id": 43255947,
+      "sourceId": "401825416116811666",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -27352,16 +27353,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 65,
-      "homeWinProbability": 0.016,
+      "awayScore": 66,
+      "homeWinProbability": 0.011,
       "period": 2,
       "clock": "4:37",
       "secondsRemaining": 277,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T01:56:07.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-04T01:56:22.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -29395,9 +29396,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43732877,
-      "sourceId": "401825427117042003",
-      "playType": "MadeFreeThrow",
+      "id": 43732875,
+      "sourceId": "401825427117041920",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -29407,7 +29408,7 @@
       "opponent": "Rutgers",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 36,
       "homeWinProbability": 1,
       "period": 2,
@@ -29415,9 +29416,9 @@
       "secondsRemaining": 726,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-09T02:52:59.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-09T02:52:21.000Z",
+      "playText": "Keaton Wagler makes 8-foot jumper",
       "participants": [
         {
           "id": 199686,
@@ -29430,15 +29431,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 827.2,
+          "y": 290
         }
       },
       "onFloor": [
@@ -29502,9 +29503,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43732875,
-      "sourceId": "401825427117041920",
-      "playType": "JumpShot",
+      "id": 43732877,
+      "sourceId": "401825427117042003",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -29514,7 +29515,7 @@
       "opponent": "Rutgers",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 36,
       "homeWinProbability": 1,
       "period": 2,
@@ -29522,9 +29523,9 @@
       "secondsRemaining": 726,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-09T02:52:21.000Z",
-      "playText": "Keaton Wagler makes 8-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-09T02:52:59.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -29537,15 +29538,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 827.2,
-          "y": 290
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -31456,8 +31457,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44146508,
-      "sourceId": "401825435117224239",
+      "id": 44146507,
+      "sourceId": "401825435117224222",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -31474,11 +31475,11 @@
       "period": 2,
       "clock": "7:25",
       "secondsRemaining": 445,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T18:37:57.000Z",
-      "playText": "Keaton Wagler misses free throw 2 of 2",
+      "wallclock": "2026-01-11T18:37:41.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -31490,7 +31491,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31563,8 +31564,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44146507,
-      "sourceId": "401825435117224222",
+      "id": 44146508,
+      "sourceId": "401825435117224239",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -31581,11 +31582,11 @@
       "period": 2,
       "clock": "7:25",
       "secondsRemaining": 445,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T18:37:41.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-11T18:37:57.000Z",
+      "playText": "Keaton Wagler misses free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -31597,7 +31598,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31888,8 +31889,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44146557,
-      "sourceId": "401825435117225042",
+      "id": 44146556,
+      "sourceId": "401825435117225040",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -31901,16 +31902,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 65,
-      "awayScore": 71,
-      "homeWinProbability": 0.041,
+      "awayScore": 70,
+      "homeWinProbability": 0.053,
       "period": 2,
       "clock": "1:15",
       "secondsRemaining": 75,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T18:52:24.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-11T18:52:07.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -31995,8 +31996,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44146556,
-      "sourceId": "401825435117225040",
+      "id": 44146557,
+      "sourceId": "401825435117225042",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -32008,16 +32009,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 65,
-      "awayScore": 70,
-      "homeWinProbability": 0.053,
+      "awayScore": 71,
+      "homeWinProbability": 0.041,
       "period": 2,
       "clock": "1:15",
       "secondsRemaining": 75,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T18:52:07.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-11T18:52:24.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -33612,9 +33613,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44305309,
-      "sourceId": "401825442117344411",
-      "playType": "MadeFreeThrow",
+      "id": 44305305,
+      "sourceId": "401825442117344402",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 118,
       "team": "Illinois",
@@ -33625,16 +33626,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 59,
-      "homeWinProbability": 0.081,
+      "awayScore": 58,
+      "homeWinProbability": 0.119,
       "period": 2,
       "clock": "10:53",
       "secondsRemaining": 653,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T03:01:38.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T03:00:55.000Z",
+      "playText": "Keaton Wagler makes driving layup",
       "participants": [
         {
           "id": 199686,
@@ -33647,15 +33648,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 220
         }
       },
       "onFloor": [
@@ -33719,9 +33720,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44305305,
-      "sourceId": "401825442117344402",
-      "playType": "LayUpShot",
+      "id": 44305309,
+      "sourceId": "401825442117344411",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
       "team": "Illinois",
@@ -33732,16 +33733,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 58,
-      "homeWinProbability": 0.119,
+      "awayScore": 59,
+      "homeWinProbability": 0.081,
       "period": 2,
       "clock": "10:53",
       "secondsRemaining": 653,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T03:00:55.000Z",
-      "playText": "Keaton Wagler makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T03:01:38.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -33754,15 +33755,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 220
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36862,8 +36863,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44509144,
-      "sourceId": "401825446117444003",
+      "id": 44509145,
+      "sourceId": "401825446117444018",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -36874,17 +36875,17 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 67,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "0:52",
       "secondsRemaining": 52,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T18:54:10.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-17T18:54:24.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -36969,8 +36970,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44509145,
-      "sourceId": "401825446117444018",
+      "id": 44509144,
+      "sourceId": "401825446117444003",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -36981,17 +36982,17 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 75,
       "awayScore": 67,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "0:52",
       "secondsRemaining": 52,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T18:54:24.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-17T18:54:10.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -37948,8 +37949,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44976380,
-      "sourceId": "401825460117679929",
+      "id": 44976383,
+      "sourceId": "401825460117680046",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -37966,11 +37967,11 @@
       "period": 1,
       "clock": "5:28",
       "secondsRemaining": 328,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:35:08.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-22T00:35:27.000Z",
+      "playText": "Keaton Wagler misses free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -37982,7 +37983,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38055,8 +38056,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44976383,
-      "sourceId": "401825460117680046",
+      "id": 44976380,
+      "sourceId": "401825460117679929",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -38073,11 +38074,11 @@
       "period": 1,
       "clock": "5:28",
       "secondsRemaining": 328,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T00:35:27.000Z",
-      "playText": "Keaton Wagler misses free throw 2 of 2",
+      "wallclock": "2026-01-22T00:35:08.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -38089,7 +38090,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -40532,8 +40533,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237316,
-      "sourceId": "401825468117888676",
+      "id": 45237315,
+      "sourceId": "401825468117888597",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -40545,16 +40546,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 22,
-      "awayScore": 18,
-      "homeWinProbability": 0.75,
+      "awayScore": 17,
+      "homeWinProbability": 0.752,
       "period": 1,
       "clock": "11:16",
       "secondsRemaining": 676,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T20:26:55.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-24T20:26:42.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -40639,8 +40640,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237315,
-      "sourceId": "401825468117888597",
+      "id": 45237316,
+      "sourceId": "401825468117888676",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -40652,16 +40653,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 22,
-      "awayScore": 17,
-      "homeWinProbability": 0.752,
+      "awayScore": 18,
+      "homeWinProbability": 0.75,
       "period": 1,
       "clock": "11:16",
       "secondsRemaining": 676,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T20:26:42.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-24T20:26:55.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -40853,8 +40854,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237381,
-      "sourceId": "401825468117893531",
+      "id": 45237382,
+      "sourceId": "401825468117893649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -40866,16 +40867,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 30,
-      "homeWinProbability": 0.779,
+      "awayScore": 31,
+      "homeWinProbability": 0.725,
       "period": 1,
       "clock": "4:18",
       "secondsRemaining": 258,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T20:40:21.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-24T20:40:38.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -40960,8 +40961,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237382,
-      "sourceId": "401825468117893649",
+      "id": 45237381,
+      "sourceId": "401825468117893531",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -40973,16 +40974,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 31,
-      "homeWinProbability": 0.725,
+      "awayScore": 30,
+      "homeWinProbability": 0.779,
       "period": 1,
       "clock": "4:18",
       "secondsRemaining": 258,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T20:40:38.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-24T20:40:21.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -42684,8 +42685,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237575,
-      "sourceId": "401825468117912618",
+      "id": 45237571,
+      "sourceId": "401825468117912519",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -42697,16 +42698,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 73,
-      "awayScore": 69,
-      "homeWinProbability": 0.841,
+      "awayScore": 68,
+      "homeWinProbability": 0.859,
       "period": 2,
       "clock": "4:15",
       "secondsRemaining": 255,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:50:21.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-24T21:49:57.000Z",
+      "playText": "Keaton Wagler misses free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -42718,7 +42719,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42791,8 +42792,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237571,
-      "sourceId": "401825468117912519",
+      "id": 45237575,
+      "sourceId": "401825468117912618",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -42804,16 +42805,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 73,
-      "awayScore": 68,
-      "homeWinProbability": 0.859,
+      "awayScore": 69,
+      "homeWinProbability": 0.841,
       "period": 2,
       "clock": "4:15",
       "secondsRemaining": 255,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T21:49:57.000Z",
-      "playText": "Keaton Wagler misses free throw 1 of 2",
+      "wallclock": "2026-01-24T21:50:21.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -42825,7 +42826,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44087,8 +44088,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45676453,
-      "sourceId": "401825479118119094",
+      "id": 45676459,
+      "sourceId": "401825479118119243",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -44099,17 +44100,17 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 9,
-      "homeWinProbability": 0.655,
+      "homeWinProbability": 0.697,
       "period": 1,
       "clock": "11:23",
       "secondsRemaining": 683,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-30T02:36:21.000Z",
-      "playText": "Keaton Wagler misses free throw 1 of 2",
+      "wallclock": "2026-01-30T02:36:49.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -44121,7 +44122,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44194,8 +44195,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45676459,
-      "sourceId": "401825479118119243",
+      "id": 45676453,
+      "sourceId": "401825479118119094",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -44206,17 +44207,17 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 9,
-      "homeWinProbability": 0.697,
+      "homeWinProbability": 0.655,
       "period": 1,
       "clock": "11:23",
       "secondsRemaining": 683,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-30T02:36:49.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-30T02:36:21.000Z",
+      "playText": "Keaton Wagler misses free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -44228,7 +44229,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45819,8 +45820,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45676626,
-      "sourceId": "401825479118128890",
+      "id": 45676625,
+      "sourceId": "401825479118128841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -45831,17 +45832,17 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 46,
-      "homeWinProbability": 0.886,
+      "homeWinProbability": 0.883,
       "period": 2,
       "clock": "12:39",
       "secondsRemaining": 759,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-30T03:35:43.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-01-30T03:35:23.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -45926,8 +45927,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45676625,
-      "sourceId": "401825479118128841",
+      "id": 45676626,
+      "sourceId": "401825479118128890",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -45938,17 +45939,17 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 46,
-      "homeWinProbability": 0.883,
+      "homeWinProbability": 0.886,
       "period": 2,
       "clock": "12:39",
       "secondsRemaining": 759,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-30T03:35:23.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-01-30T03:35:43.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -48855,8 +48856,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46080707,
-      "sourceId": "401825487118328338",
+      "id": 46080708,
+      "sourceId": "401825487118328403",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -48868,16 +48869,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 59,
-      "homeWinProbability": 0.179,
+      "awayScore": 60,
+      "homeWinProbability": 0.154,
       "period": 2,
       "clock": "7:22",
       "secondsRemaining": 442,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T22:44:21.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-01T22:44:39.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -48962,8 +48963,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46080708,
-      "sourceId": "401825487118328403",
+      "id": 46080707,
+      "sourceId": "401825487118328338",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -48975,16 +48976,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 60,
-      "homeWinProbability": 0.154,
+      "awayScore": 59,
+      "homeWinProbability": 0.179,
       "period": 2,
       "clock": "7:22",
       "secondsRemaining": 442,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T22:44:39.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-01T22:44:21.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -49711,113 +49712,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46080768,
-      "sourceId": "401825487118328972",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 118,
-      "team": "Illinois",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 188,
-      "opponent": "Nebraska",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 62,
-      "awayScore": 72,
-      "homeWinProbability": 0.007,
-      "period": 2,
-      "clock": "1:44",
-      "secondsRemaining": 104,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T22:59:08.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 199686,
-          "name": "Keaton Wagler"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199686,
-          "name": "Keaton Wagler"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5583,
-          "name": "Sam Hoiberg",
-          "team": "Nebraska"
-        },
-        {
-          "id": 7384,
-          "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
-          "team": "Illinois"
-        },
-        {
-          "id": 5148,
-          "name": "Jamarques Lawrence",
-          "team": "Nebraska"
-        },
-        {
-          "id": 5587,
-          "name": "Braden Frager",
-          "team": "Nebraska"
-        },
-        {
-          "id": 199686,
-          "name": "Keaton Wagler",
-          "team": "Illinois"
-        },
-        {
-          "id": 5589,
-          "name": "Rienk Mast",
-          "team": "Nebraska"
-        },
-        {
-          "id": 5485,
-          "name": "Pryce Sandfort",
-          "team": "Nebraska"
-        },
-        {
-          "id": 5640,
-          "name": "Tomislav Ivisic",
-          "team": "Illinois"
-        }
-      ]
-    },
-    {
-      "gameId": 214753,
-      "gameSourceId": "401825487",
-      "gameStartDate": "2026-02-01T21:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46080771,
       "sourceId": "401825487118328975",
       "playType": "MadeFreeThrow",
@@ -49925,8 +49819,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46080790,
-      "sourceId": "401825487118329113",
+      "id": 46080768,
+      "sourceId": "401825487118328972",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 118,
+      "team": "Illinois",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 188,
+      "opponent": "Nebraska",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 72,
+      "homeWinProbability": 0.007,
+      "period": 2,
+      "clock": "1:44",
+      "secondsRemaining": 104,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T22:59:08.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 199686,
+          "name": "Keaton Wagler"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199686,
+          "name": "Keaton Wagler"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5583,
+          "name": "Sam Hoiberg",
+          "team": "Nebraska"
+        },
+        {
+          "id": 7384,
+          "name": "Andrej Stojakovic",
+          "team": "Illinois"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
+        },
+        {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
+          "id": 5148,
+          "name": "Jamarques Lawrence",
+          "team": "Nebraska"
+        },
+        {
+          "id": 5587,
+          "name": "Braden Frager",
+          "team": "Nebraska"
+        },
+        {
+          "id": 199686,
+          "name": "Keaton Wagler",
+          "team": "Illinois"
+        },
+        {
+          "id": 5589,
+          "name": "Rienk Mast",
+          "team": "Nebraska"
+        },
+        {
+          "id": 5485,
+          "name": "Pryce Sandfort",
+          "team": "Nebraska"
+        },
+        {
+          "id": 5640,
+          "name": "Tomislav Ivisic",
+          "team": "Illinois"
+        }
+      ]
+    },
+    {
+      "gameId": 214753,
+      "gameSourceId": "401825487",
+      "gameStartDate": "2026-02-01T21:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46080795,
+      "sourceId": "401825487118329122",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -49943,11 +49944,11 @@
       "period": 2,
       "clock": "0:48",
       "secondsRemaining": 48,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T23:04:46.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-01T23:05:05.000Z",
+      "playText": "Keaton Wagler misses free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -49959,7 +49960,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50032,8 +50033,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46080795,
-      "sourceId": "401825487118329122",
+      "id": 46080790,
+      "sourceId": "401825487118329113",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -50050,11 +50051,11 @@
       "period": 2,
       "clock": "0:48",
       "secondsRemaining": 48,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T23:05:05.000Z",
-      "playText": "Keaton Wagler misses free throw 2 of 2",
+      "wallclock": "2026-02-01T23:04:46.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -50066,7 +50067,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50789,8 +50790,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46232384,
-      "sourceId": "401825492118422688",
+      "id": 46232386,
+      "sourceId": "401825492118422694",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -50801,17 +50802,17 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 41,
       "awayScore": 13,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.997,
       "period": 1,
       "clock": "3:07",
       "secondsRemaining": 187,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T02:42:43.000Z",
-      "playText": "Keaton Wagler misses free throw 1 of 2",
+      "wallclock": "2026-02-05T02:42:59.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -50823,7 +50824,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50896,8 +50897,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46232386,
-      "sourceId": "401825492118422694",
+      "id": 46232384,
+      "sourceId": "401825492118422688",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -50908,17 +50909,17 @@
       "opponent": "Northwestern",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 40,
       "awayScore": 13,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.993,
       "period": 1,
       "clock": "3:07",
       "secondsRemaining": 187,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T02:42:59.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-05T02:42:43.000Z",
+      "playText": "Keaton Wagler misses free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -50930,7 +50931,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -52636,8 +52637,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46626748,
-      "sourceId": "401830778118664601",
+      "id": 46626759,
+      "sourceId": "401830778118664606",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -52649,16 +52650,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 38,
-      "homeWinProbability": 0.487,
+      "awayScore": 39,
+      "homeWinProbability": 0.43,
       "period": 1,
       "clock": "0:42",
       "secondsRemaining": 42,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T01:54:01.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-08T01:54:25.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -52743,8 +52744,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46626759,
-      "sourceId": "401830778118664606",
+      "id": 46626748,
+      "sourceId": "401830778118664601",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -52756,16 +52757,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 39,
-      "homeWinProbability": 0.43,
+      "awayScore": 38,
+      "homeWinProbability": 0.487,
       "period": 1,
       "clock": "0:42",
       "secondsRemaining": 42,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T01:54:25.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-08T01:54:01.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -52957,8 +52958,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46626814,
-      "sourceId": "401830778118666390",
+      "id": 46626812,
+      "sourceId": "401830778118666384",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -52970,16 +52971,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 44,
-      "homeWinProbability": 0.236,
+      "awayScore": 43,
+      "homeWinProbability": 0.28,
       "period": 2,
       "clock": "19:09",
       "secondsRemaining": 1149,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:17:04.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-08T02:16:48.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -53064,8 +53065,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46626812,
-      "sourceId": "401830778118666384",
+      "id": 46626814,
+      "sourceId": "401830778118666390",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -53077,16 +53078,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 35,
-      "awayScore": 43,
-      "homeWinProbability": 0.28,
+      "awayScore": 44,
+      "homeWinProbability": 0.236,
       "period": 2,
       "clock": "19:09",
       "secondsRemaining": 1149,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:16:48.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-08T02:17:04.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -53496,8 +53497,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46626905,
-      "sourceId": "401830778118667542",
+      "id": 46626907,
+      "sourceId": "401830778118667548",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -53509,16 +53510,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 47,
-      "homeWinProbability": 0.633,
+      "awayScore": 48,
+      "homeWinProbability": 0.487,
       "period": 2,
       "clock": "13:34",
       "secondsRemaining": 814,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:29:26.000Z",
-      "playText": "Keaton Wagler misses free throw 1 of 2",
+      "wallclock": "2026-02-08T02:29:45.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -53530,7 +53531,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53603,8 +53604,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46626907,
-      "sourceId": "401830778118667548",
+      "id": 46626905,
+      "sourceId": "401830778118667542",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -53616,16 +53617,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 48,
-      "homeWinProbability": 0.487,
+      "awayScore": 47,
+      "homeWinProbability": 0.633,
       "period": 2,
       "clock": "13:34",
       "secondsRemaining": 814,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:29:45.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-08T02:29:26.000Z",
+      "playText": "Keaton Wagler misses free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -53637,7 +53638,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54031,8 +54032,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46627327,
-      "sourceId": "401830778118669903",
+      "id": 46627326,
+      "sourceId": "401830778118669874",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -54044,16 +54045,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 67,
-      "homeWinProbability": 0.266,
+      "awayScore": 66,
+      "homeWinProbability": 0.365,
       "period": 2,
       "clock": "2:28",
       "secondsRemaining": 148,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:59:33.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-08T02:59:11.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -54138,8 +54139,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46627326,
-      "sourceId": "401830778118669874",
+      "id": 46627327,
+      "sourceId": "401830778118669903",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -54151,16 +54152,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 66,
-      "homeWinProbability": 0.365,
+      "awayScore": 67,
+      "homeWinProbability": 0.266,
       "period": 2,
       "clock": "2:28",
       "secondsRemaining": 148,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T02:59:11.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-08T02:59:33.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -56290,9 +56291,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46791698,
-      "sourceId": "401825506118728520",
-      "playType": "MadeFreeThrow",
+      "id": 46791680,
+      "sourceId": "401825506118728145",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -56308,11 +56309,11 @@
       "period": 1,
       "clock": "3:55",
       "secondsRemaining": 235,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T01:42:19.000Z",
-      "playText": "Keaton Wagler misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T01:38:53.000Z",
+      "playText": "Keaton Wagler makes layup",
       "participants": [
         {
           "id": 199686,
@@ -56324,16 +56325,16 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -56397,9 +56398,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46791680,
-      "sourceId": "401825506118728145",
-      "playType": "LayUpShot",
+      "id": 46791698,
+      "sourceId": "401825506118728520",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -56415,11 +56416,11 @@
       "period": 1,
       "clock": "3:55",
       "secondsRemaining": 235,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T01:38:53.000Z",
-      "playText": "Keaton Wagler makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T01:42:19.000Z",
+      "playText": "Keaton Wagler misses free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -56431,16 +56432,16 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -57907,9 +57908,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46792072,
-      "sourceId": "401825506118733202",
-      "playType": "MadeFreeThrow",
+      "id": 46792066,
+      "sourceId": "401825506118733166",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -57919,7 +57920,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -57927,9 +57928,9 @@
       "secondsRemaining": 490,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T02:34:23.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T02:33:49.000Z",
+      "playText": "Keaton Wagler makes 7-foot jumper",
       "participants": [
         {
           "id": 199686,
@@ -57942,15 +57943,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 305
         }
       },
       "onFloor": [
@@ -58014,9 +58015,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46792066,
-      "sourceId": "401825506118733166",
-      "playType": "JumpShot",
+      "id": 46792072,
+      "sourceId": "401825506118733202",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -58026,7 +58027,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -58034,9 +58035,9 @@
       "secondsRemaining": 490,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T02:33:49.000Z",
-      "playText": "Keaton Wagler makes 7-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T02:34:23.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -58049,15 +58050,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 305
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -59734,8 +59735,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47312994,
-      "sourceId": "401825518119029447",
+      "id": 47312995,
+      "sourceId": "401825518119029468",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -59746,17 +59747,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 11,
-      "homeWinProbability": 0.59,
+      "homeWinProbability": 0.616,
       "period": 1,
       "clock": "15:11",
       "secondsRemaining": 911,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T18:13:41.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-15T18:13:57.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -59841,8 +59842,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47312995,
-      "sourceId": "401825518119029468",
+      "id": 47312994,
+      "sourceId": "401825518119029447",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -59853,17 +59854,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 11,
-      "homeWinProbability": 0.616,
+      "homeWinProbability": 0.59,
       "period": 1,
       "clock": "15:11",
       "secondsRemaining": 911,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T18:13:57.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-15T18:13:41.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -61779,8 +61780,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47481707,
-      "sourceId": "401825527119154081",
+      "id": 47481706,
+      "sourceId": "401825527119154039",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -61792,16 +61793,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 10,
-      "homeWinProbability": 0.36,
+      "awayScore": 9,
+      "homeWinProbability": 0.429,
       "period": 1,
       "clock": "15:48",
       "secondsRemaining": 948,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T03:22:23.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-19T03:22:04.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -61886,8 +61887,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47481706,
-      "sourceId": "401825527119154039",
+      "id": 47481707,
+      "sourceId": "401825527119154081",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -61899,16 +61900,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 9,
-      "homeWinProbability": 0.429,
+      "awayScore": 10,
+      "homeWinProbability": 0.36,
       "period": 1,
       "clock": "15:48",
       "secondsRemaining": 948,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T03:22:04.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-19T03:22:23.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -65071,8 +65072,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47752259,
-      "sourceId": "401825532119386992",
+      "id": 47752260,
+      "sourceId": "401825532119387012",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -65084,16 +65085,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 65,
-      "homeWinProbability": 0.617,
+      "awayScore": 66,
+      "homeWinProbability": 0.553,
       "period": 2,
       "clock": "9:09",
       "secondsRemaining": 549,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T02:47:08.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-22T02:47:24.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -65183,8 +65184,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47752260,
-      "sourceId": "401825532119387012",
+      "id": 47752259,
+      "sourceId": "401825532119386992",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -65196,16 +65197,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 66,
-      "homeWinProbability": 0.553,
+      "awayScore": 65,
+      "homeWinProbability": 0.617,
       "period": 2,
       "clock": "9:09",
       "secondsRemaining": 549,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T02:47:24.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-22T02:47:08.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -65863,8 +65864,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47752362,
-      "sourceId": "401825532119389338",
+      "id": 47752366,
+      "sourceId": "401825532119389485",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -65876,16 +65877,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 86,
-      "awayScore": 85,
-      "homeWinProbability": 0.795,
+      "awayScore": 86,
+      "homeWinProbability": 0.604,
       "period": 2,
       "clock": "0:19",
       "secondsRemaining": 19,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T03:17:01.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-02-22T03:18:34.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -65975,8 +65976,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47752366,
-      "sourceId": "401825532119389485",
+      "id": 47752362,
+      "sourceId": "401825532119389338",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -65988,16 +65989,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 86,
-      "awayScore": 86,
-      "homeWinProbability": 0.604,
+      "awayScore": 85,
+      "homeWinProbability": 0.795,
       "period": 2,
       "clock": "0:19",
       "secondsRemaining": 19,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T03:18:34.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-02-22T03:17:01.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -70088,9 +70089,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48619838,
-      "sourceId": "401825553119836427",
-      "playType": "LayUpShot",
+      "id": 48619848,
+      "sourceId": "401825553119836900",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -70106,11 +70107,11 @@
       "period": 1,
       "clock": "10:10",
       "secondsRemaining": 610,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-04T02:17:08.000Z",
-      "playText": "Keaton Wagler makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-04T02:20:25.000Z",
+      "playText": "Keaton Wagler misses free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -70122,16 +70123,16 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -70195,9 +70196,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48619848,
-      "sourceId": "401825553119836900",
-      "playType": "MadeFreeThrow",
+      "id": 48619838,
+      "sourceId": "401825553119836427",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -70213,11 +70214,11 @@
       "period": 1,
       "clock": "10:10",
       "secondsRemaining": 610,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-04T02:20:25.000Z",
-      "playText": "Keaton Wagler misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-04T02:17:08.000Z",
+      "playText": "Keaton Wagler makes layup",
       "participants": [
         {
           "id": 199686,
@@ -70229,16 +70230,16 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 230
         }
       },
       "onFloor": [
@@ -73009,8 +73010,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49098874,
-      "sourceId": "401825567120104054",
+      "id": 49098877,
+      "sourceId": "401825567120104086",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -73022,7 +73023,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 58,
+      "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:47",
@@ -73030,8 +73031,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T20:45:54.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-03-08T20:46:14.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -73116,8 +73117,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49098877,
-      "sourceId": "401825567120104086",
+      "id": 49098874,
+      "sourceId": "401825567120104054",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -73129,7 +73130,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 59,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:47",
@@ -73137,8 +73138,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T20:46:14.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-03-08T20:45:54.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -74630,8 +74631,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49395792,
-      "sourceId": "401851381120237169",
+      "id": 49395793,
+      "sourceId": "401851381120237170",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -74642,7 +74643,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
@@ -74651,8 +74652,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T19:28:51.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-03-13T19:29:09.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -74737,8 +74738,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49395793,
-      "sourceId": "401851381120237170",
+      "id": 49395792,
+      "sourceId": "401851381120237169",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -74749,7 +74750,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
@@ -74758,8 +74759,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T19:29:09.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-03-13T19:28:51.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -81117,8 +81118,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644126,
-      "sourceId": "401856566120388864",
+      "id": 49644123,
+      "sourceId": "401856566120388860",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -81135,11 +81136,11 @@
       "period": 1,
       "clock": "15:31",
       "secondsRemaining": 931,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:16:24.000Z",
-      "playText": "Keaton Wagler misses free throw 2 of 2",
+      "wallclock": "2026-03-27T02:16:06.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -81151,7 +81152,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -81224,8 +81225,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644123,
-      "sourceId": "401856566120388860",
+      "id": 49644126,
+      "sourceId": "401856566120388864",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -81242,11 +81243,11 @@
       "period": 1,
       "clock": "15:31",
       "secondsRemaining": 931,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:16:06.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-03-27T02:16:24.000Z",
+      "playText": "Keaton Wagler misses free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -81258,7 +81259,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -84672,9 +84673,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657552,
-      "sourceId": "401856574120399096",
-      "playType": "MadeFreeThrow",
+      "id": 49657544,
+      "sourceId": "401856574120399085",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -84684,7 +84685,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 38,
       "homeWinProbability": null,
       "period": 2,
@@ -84692,9 +84693,9 @@
       "secondsRemaining": 961,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-28T23:37:57.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-28T23:37:25.000Z",
+      "playText": "Keaton Wagler makes driving layup",
       "participants": [
         {
           "id": 199686,
@@ -84707,15 +84708,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 280
         }
       },
       "onFloor": [
@@ -84779,9 +84780,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657544,
-      "sourceId": "401856574120399085",
-      "playType": "LayUpShot",
+      "id": 49657552,
+      "sourceId": "401856574120399096",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
       "team": "Illinois",
@@ -84791,7 +84792,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 38,
       "homeWinProbability": null,
       "period": 2,
@@ -84799,9 +84800,9 @@
       "secondsRemaining": 961,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-28T23:37:25.000Z",
-      "playText": "Keaton Wagler makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-28T23:37:57.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -84814,15 +84815,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -85643,113 +85644,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657708,
-      "sourceId": "401856574120399410",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 118,
-      "team": "Illinois",
-      "conference": "Big Ten",
-      "teamSeed": 3,
-      "opponentId": 124,
-      "opponent": "Iowa",
-      "opponentConference": "Big Ten",
-      "opponentSeed": 9,
-      "homeScore": 66,
-      "awayScore": 59,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "1:12",
-      "secondsRemaining": 72,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-29T00:22:26.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 199686,
-          "name": "Keaton Wagler"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199686,
-          "name": "Keaton Wagler"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5639,
-          "name": "Ben Humrichous",
-          "team": "Illinois"
-        },
-        {
-          "id": 3594,
-          "name": "Cam Manyawu",
-          "team": "Iowa"
-        },
-        {
-          "id": 5484,
-          "name": "Cooper Koch",
-          "team": "Iowa"
-        },
-        {
-          "id": 199681,
-          "name": "David Mirkovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 3596,
-          "name": "Bennett Stirtz",
-          "team": "Iowa"
-        },
-        {
-          "id": 7384,
-          "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 199686,
-          "name": "Keaton Wagler",
-          "team": "Illinois"
-        },
-        {
-          "id": 3599,
-          "name": "Isaia Howard",
-          "team": "Iowa"
-        },
-        {
-          "id": 199776,
-          "name": "Tate Sage",
-          "team": "Iowa"
-        },
-        {
-          "id": 5643,
-          "name": "Kylan Boswell",
-          "team": "Illinois"
-        }
-      ]
-    },
-    {
-      "gameId": 372604,
-      "gameSourceId": "401856574",
-      "gameStartDate": "2026-03-28T22:09:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49657709,
       "sourceId": "401856574120399411",
       "playType": "MadeFreeThrow",
@@ -85857,8 +85751,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657724,
-      "sourceId": "401856574120399430",
+      "id": 49657708,
+      "sourceId": "401856574120399410",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -85869,7 +85763,114 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 71,
+      "homeScore": 66,
+      "awayScore": 59,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "1:12",
+      "secondsRemaining": 72,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-29T00:22:26.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 199686,
+          "name": "Keaton Wagler"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199686,
+          "name": "Keaton Wagler"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5639,
+          "name": "Ben Humrichous",
+          "team": "Illinois"
+        },
+        {
+          "id": 3594,
+          "name": "Cam Manyawu",
+          "team": "Iowa"
+        },
+        {
+          "id": 5484,
+          "name": "Cooper Koch",
+          "team": "Iowa"
+        },
+        {
+          "id": 199681,
+          "name": "David Mirkovic",
+          "team": "Illinois"
+        },
+        {
+          "id": 3596,
+          "name": "Bennett Stirtz",
+          "team": "Iowa"
+        },
+        {
+          "id": 7384,
+          "name": "Andrej Stojakovic",
+          "team": "Illinois"
+        },
+        {
+          "id": 199686,
+          "name": "Keaton Wagler",
+          "team": "Illinois"
+        },
+        {
+          "id": 3599,
+          "name": "Isaia Howard",
+          "team": "Iowa"
+        },
+        {
+          "id": 199776,
+          "name": "Tate Sage",
+          "team": "Iowa"
+        },
+        {
+          "id": 5643,
+          "name": "Kylan Boswell",
+          "team": "Illinois"
+        }
+      ]
+    },
+    {
+      "gameId": 372604,
+      "gameSourceId": "401856574",
+      "gameStartDate": "2026-03-28T22:09:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49657723,
+      "sourceId": "401856574120399429",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 118,
+      "team": "Illinois",
+      "conference": "Big Ten",
+      "teamSeed": 3,
+      "opponentId": 124,
+      "opponent": "Iowa",
+      "opponentConference": "Big Ten",
+      "opponentSeed": 9,
+      "homeScore": 70,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -85878,8 +85879,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T00:27:42.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-03-29T00:27:41.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -85964,8 +85965,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49657723,
-      "sourceId": "401856574120399429",
+      "id": 49657724,
+      "sourceId": "401856574120399430",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 118,
@@ -85976,7 +85977,7 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": 9,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
@@ -85985,8 +85986,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T00:27:41.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-03-29T00:27:42.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -86285,9 +86286,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49676709,
-      "sourceId": "401856598120414102",
-      "playType": "MadeFreeThrow",
+      "id": 49676705,
+      "sourceId": "401856598120414097",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 118,
       "team": "Illinois",
@@ -86298,16 +86299,16 @@
       "opponentConference": "Big East",
       "opponentSeed": 2,
       "homeScore": 8,
-      "awayScore": 5,
+      "awayScore": 4,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:38",
       "secondsRemaining": 998,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-04-04T22:15:49.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-04-04T22:15:12.000Z",
+      "playText": "Keaton Wagler makes driving layup",
       "participants": [
         {
           "id": 199686,
@@ -86320,15 +86321,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 200
         }
       },
       "onFloor": [
@@ -86392,9 +86393,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49676705,
-      "sourceId": "401856598120414097",
-      "playType": "LayUpShot",
+      "id": 49676709,
+      "sourceId": "401856598120414102",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
       "team": "Illinois",
@@ -86405,16 +86406,16 @@
       "opponentConference": "Big East",
       "opponentSeed": 2,
       "homeScore": 8,
-      "awayScore": 4,
+      "awayScore": 5,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:38",
       "secondsRemaining": 998,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-04-04T22:15:12.000Z",
-      "playText": "Keaton Wagler makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-04-04T22:15:49.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 1",
       "participants": [
         {
           "id": 199686,
@@ -86427,15 +86428,15 @@
           "name": "Keaton Wagler"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 200
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -87145,8 +87146,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49676895,
-      "sourceId": "401856598120414310",
+      "id": 49676894,
+      "sourceId": "401856598120414309",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -87158,7 +87159,7 @@
       "opponentConference": "Big East",
       "opponentSeed": 2,
       "homeScore": 39,
-      "awayScore": 31,
+      "awayScore": 30,
       "homeWinProbability": null,
       "period": 2,
       "clock": "19:27",
@@ -87166,8 +87167,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T23:22:59.000Z",
-      "playText": "Keaton Wagler makes free throw 2 of 2",
+      "wallclock": "2026-04-04T23:22:45.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -87252,8 +87253,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49676894,
-      "sourceId": "401856598120414309",
+      "id": 49676895,
+      "sourceId": "401856598120414310",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -87265,7 +87266,7 @@
       "opponentConference": "Big East",
       "opponentSeed": 2,
       "homeScore": 39,
-      "awayScore": 30,
+      "awayScore": 31,
       "homeWinProbability": null,
       "period": 2,
       "clock": "19:27",
@@ -87273,8 +87274,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T23:22:45.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-04-04T23:22:59.000Z",
+      "playText": "Keaton Wagler makes free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -87684,8 +87685,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49676981,
-      "sourceId": "401856598120414423",
+      "id": 49676982,
+      "sourceId": "401856598120414424",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -87702,11 +87703,11 @@
       "period": 2,
       "clock": "10:57",
       "secondsRemaining": 657,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T23:45:10.000Z",
-      "playText": "Keaton Wagler makes free throw 1 of 2",
+      "wallclock": "2026-04-04T23:45:28.000Z",
+      "playText": "Keaton Wagler misses free throw 2 of 2",
       "participants": [
         {
           "id": 199686,
@@ -87718,7 +87719,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -87791,8 +87792,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49676982,
-      "sourceId": "401856598120414424",
+      "id": 49676981,
+      "sourceId": "401856598120414423",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 118,
@@ -87809,11 +87810,11 @@
       "period": 2,
       "clock": "10:57",
       "secondsRemaining": 657,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T23:45:28.000Z",
-      "playText": "Keaton Wagler misses free throw 2 of 2",
+      "wallclock": "2026-04-04T23:45:10.000Z",
+      "playText": "Keaton Wagler makes free throw 1 of 2",
       "participants": [
         {
           "id": 199686,
@@ -87825,7 +87826,7 @@
           "id": 199686,
           "name": "Keaton Wagler"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -89708,70 +89709,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.07,
-        "percentile": 94.2,
-        "freqPer100": 28.4
-      },
-      "attackKick": {
-        "ppp": 1.05,
-        "percentile": 78.2,
-        "freqPer100": 12
-      },
-      "perimeterSniper": {
-        "ppp": 1.36,
-        "percentile": 98.5,
-        "freqPer100": 8.3
-      },
-      "dribbleJumper": {
-        "ppp": 1.24,
-        "percentile": 98.5,
-        "freqPer100": 12.5
-      },
-      "midRange": {
-        "ppp": 0.78,
-        "percentile": 53.3,
-        "freqPer100": 4.3
-      },
-      "hitsCutter": {
-        "ppp": 1.36,
-        "percentile": 99.8,
-        "freqPer100": 2.8
-      },
-      "perimeterCut": {
-        "ppp": 1.54,
-        "percentile": 97.5,
-        "freqPer100": 3.2
-      },
-      "pnrPasser": {
-        "ppp": 1.11,
-        "percentile": 82.3,
-        "freqPer100": 18.9
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 0.92,
-        "percentile": 76.6,
-        "freqPer100": 1.1
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.2,
-        "percentile": 52.2,
-        "freqPer100": 3.1
-      },
-      "transition": {
-        "ppp": 1.24,
-        "percentile": 53.6,
-        "freqPer100": 5.6
       }
     }
   }

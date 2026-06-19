@@ -8,6 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: siteUrl, lastModified: new Date(), priority: 1 },
     { url: `${siteUrl}/compare-tool`, lastModified: new Date(), priority: 0.8 },
+    { url: `${siteUrl}/sis-sispx`, lastModified: new Date(), priority: 0.6 },
   ];
 
   try {

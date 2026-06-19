@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Scale } from "lucide-react";
 import ThemeToggle from "@/components/ui/ThemeToggle";
+import PlayerSearch from "./PlayerSearch";
 import styles from "./Header.module.scss";
 
 export default function Header() {
@@ -19,8 +20,10 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.headerScrolled : ""}`}>
 
-      {/* Gauche : espace vide pour équilibrer */}
-      <div className={styles.spacer} />
+      {/* Gauche : recherche joueur */}
+      <div className={styles.searchContainer}>
+        <PlayerSearch />
+      </div>
 
       {/* Centre : Logo */}
       <Link href="/" className={styles.logoLink}>

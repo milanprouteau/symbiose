@@ -243,7 +243,8 @@
     "jersey": "43",
     "position": "Guard",
     "height": 77,
-    "weight": 175,
+    "weight": 184,
+    "wingspan": null,
     "hometown": {
       "city": "Eden Prairie",
       "state": "MN"
@@ -960,113 +961,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637258,
-      "sourceId": "401819823113642314",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 326,
-      "opponent": "UT Rio Grande Valley",
-      "opponentConference": "Southland",
-      "opponentSeed": null,
-      "homeScore": 29,
-      "awayScore": 31,
-      "homeWinProbability": 0.523,
-      "period": 1,
-      "clock": "5:04",
-      "secondsRemaining": 304,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T01:41:58.000Z",
-      "playText": "Cameron Carr made Free Throw.",
-      "participants": [
-        {
-          "id": 309,
-          "name": "Cameron Carr"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 309,
-          "name": "Cameron Carr"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 203079,
-          "name": "Filip Brankovic",
-          "team": "UT Rio Grande Valley"
-        },
-        {
-          "id": 7420,
-          "name": "Caden Powell",
-          "team": "Baylor"
-        },
-        {
-          "id": 798,
-          "name": "Koree Cotton",
-          "team": "UT Rio Grande Valley"
-        },
-        {
-          "id": 352,
-          "name": "Isaac Williams IV",
-          "team": "Baylor"
-        },
-        {
-          "id": 15212,
-          "name": "Kye Dickson",
-          "team": "UT Rio Grande Valley"
-        },
-        {
-          "id": 7863,
-          "name": "Zae Blake",
-          "team": "UT Rio Grande Valley"
-        },
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou",
-          "team": "Baylor"
-        },
-        {
-          "id": 5159,
-          "name": "Always Wright",
-          "team": "UT Rio Grande Valley"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 468,
-          "name": "Dan Skillings Jr.",
-          "team": "Baylor"
-        }
-      ]
-    },
-    {
-      "gameId": 212783,
-      "gameSourceId": "401819823",
-      "gameStartDate": "2025-11-04T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 37637252,
       "sourceId": "401819823113641143",
       "playType": "MadeFreeThrow",
@@ -1174,9 +1068,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637278,
-      "sourceId": "401819823113647191",
-      "playType": "JumpShot",
+      "id": 37637258,
+      "sourceId": "401819823113642314",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -1186,17 +1080,17 @@
       "opponent": "UT Rio Grande Valley",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 33,
-      "awayScore": 33,
-      "homeWinProbability": 0.594,
+      "homeScore": 29,
+      "awayScore": 31,
+      "homeWinProbability": 0.523,
       "period": 1,
-      "clock": "3:24",
-      "secondsRemaining": 204,
+      "clock": "5:04",
+      "secondsRemaining": 304,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-04T01:48:10.000Z",
-      "playText": "Cameron Carr made Jumper.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T01:41:58.000Z",
+      "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
           "id": 309,
@@ -1209,15 +1103,122 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 185
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 203079,
+          "name": "Filip Brankovic",
+          "team": "UT Rio Grande Valley"
+        },
+        {
+          "id": 7420,
+          "name": "Caden Powell",
+          "team": "Baylor"
+        },
+        {
+          "id": 798,
+          "name": "Koree Cotton",
+          "team": "UT Rio Grande Valley"
+        },
+        {
+          "id": 352,
+          "name": "Isaac Williams IV",
+          "team": "Baylor"
+        },
+        {
+          "id": 15212,
+          "name": "Kye Dickson",
+          "team": "UT Rio Grande Valley"
+        },
+        {
+          "id": 7863,
+          "name": "Zae Blake",
+          "team": "UT Rio Grande Valley"
+        },
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou",
+          "team": "Baylor"
+        },
+        {
+          "id": 5159,
+          "name": "Always Wright",
+          "team": "UT Rio Grande Valley"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 468,
+          "name": "Dan Skillings Jr.",
+          "team": "Baylor"
+        }
+      ]
+    },
+    {
+      "gameId": 212783,
+      "gameSourceId": "401819823",
+      "gameStartDate": "2025-11-04T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 37637280,
+      "sourceId": "401819823113647649",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 326,
+      "opponent": "UT Rio Grande Valley",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 34,
+      "awayScore": 33,
+      "homeWinProbability": 0.663,
+      "period": 1,
+      "clock": "3:24",
+      "secondsRemaining": 204,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T01:48:47.000Z",
+      "playText": "Cameron Carr made Free Throw.",
+      "participants": [
+        {
+          "id": 309,
+          "name": "Cameron Carr"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 309,
+          "name": "Cameron Carr"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -1281,9 +1282,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637280,
-      "sourceId": "401819823113647649",
-      "playType": "MadeFreeThrow",
+      "id": 37637278,
+      "sourceId": "401819823113647191",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -1293,17 +1294,17 @@
       "opponent": "UT Rio Grande Valley",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 33,
-      "homeWinProbability": 0.663,
+      "homeWinProbability": 0.594,
       "period": 1,
       "clock": "3:24",
       "secondsRemaining": 204,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T01:48:47.000Z",
-      "playText": "Cameron Carr made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-04T01:48:10.000Z",
+      "playText": "Cameron Carr made Jumper.",
       "participants": [
         {
           "id": 309,
@@ -1316,15 +1317,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 185
         }
       },
       "onFloor": [
@@ -1495,8 +1496,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637337,
-      "sourceId": "401819823113665761",
+      "id": 37637340,
+      "sourceId": "401819823113665952",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -1507,16 +1508,16 @@
       "opponent": "UT Rio Grande Valley",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 42,
-      "homeWinProbability": 0.974,
+      "homeWinProbability": 0.977,
       "period": 2,
       "clock": "16:18",
       "secondsRemaining": 978,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:16:51.000Z",
+      "wallclock": "2025-11-04T02:17:14.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -1602,8 +1603,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637340,
-      "sourceId": "401819823113665952",
+      "id": 37637337,
+      "sourceId": "401819823113665761",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -1614,16 +1615,16 @@
       "opponent": "UT Rio Grande Valley",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 42,
-      "homeWinProbability": 0.977,
+      "homeWinProbability": 0.974,
       "period": 2,
       "clock": "16:18",
       "secondsRemaining": 978,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:17:14.000Z",
+      "wallclock": "2025-11-04T02:16:51.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -1927,8 +1928,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637408,
-      "sourceId": "401819823113675568",
+      "id": 37637411,
+      "sourceId": "401819823113675734",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -1939,16 +1940,16 @@
       "opponent": "UT Rio Grande Valley",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 72,
       "awayScore": 57,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "11:16",
       "secondsRemaining": 676,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:34:58.000Z",
+      "wallclock": "2025-11-04T02:35:23.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -2034,8 +2035,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37637411,
-      "sourceId": "401819823113675734",
+      "id": 37637408,
+      "sourceId": "401819823113675568",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -2046,16 +2047,16 @@
       "opponent": "UT Rio Grande Valley",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 71,
       "awayScore": 57,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "11:16",
       "secondsRemaining": 676,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:35:23.000Z",
+      "wallclock": "2025-11-04T02:34:58.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -2878,8 +2879,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38559547,
-      "sourceId": "401819824114064459",
+      "id": 38559552,
+      "sourceId": "401819824114064468",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -2890,16 +2891,16 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 8,
+      "homeScore": 9,
       "awayScore": 11,
-      "homeWinProbability": 0.517,
+      "homeWinProbability": 0.554,
       "period": 1,
       "clock": "14:35",
       "secondsRemaining": 875,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-10T01:46:47.000Z",
+      "wallclock": "2025-11-10T01:47:10.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -2970,8 +2971,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38559552,
-      "sourceId": "401819824114064468",
+      "id": 38559547,
+      "sourceId": "401819824114064459",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -2982,16 +2983,16 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 8,
       "awayScore": 11,
-      "homeWinProbability": 0.554,
+      "homeWinProbability": 0.517,
       "period": 1,
       "clock": "14:35",
       "secondsRemaining": 875,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-10T01:47:10.000Z",
+      "wallclock": "2025-11-10T01:46:47.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -5990,8 +5991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019352,
-      "sourceId": "401819825114344758",
+      "id": 39019353,
+      "sourceId": "401819825114344763",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -6002,7 +6003,7 @@
       "opponent": "Tarleton State",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 90,
+      "homeScore": 91,
       "awayScore": 77,
       "homeWinProbability": 1,
       "period": 2,
@@ -6011,7 +6012,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T04:02:27.000Z",
+      "wallclock": "2025-11-15T04:02:43.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -6097,8 +6098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019353,
-      "sourceId": "401819825114344763",
+      "id": 39019352,
+      "sourceId": "401819825114344758",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -6109,7 +6110,7 @@
       "opponent": "Tarleton State",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 91,
+      "homeScore": 90,
       "awayScore": 77,
       "homeWinProbability": 1,
       "period": 2,
@@ -6118,7 +6119,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T04:02:43.000Z",
+      "wallclock": "2025-11-15T04:02:27.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -7290,8 +7291,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060227,
-      "sourceId": "401819826114889087",
+      "id": 40060226,
+      "sourceId": "401819826114889058",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -7302,16 +7303,16 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 30,
-      "homeWinProbability": 0.896,
+      "homeWinProbability": 0.886,
       "period": 1,
       "clock": "2:44",
       "secondsRemaining": 164,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T19:47:49.000Z",
+      "wallclock": "2025-11-24T19:47:31.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -7397,8 +7398,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060226,
-      "sourceId": "401819826114889058",
+      "id": 40060227,
+      "sourceId": "401819826114889087",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -7409,16 +7410,16 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 30,
-      "homeWinProbability": 0.886,
+      "homeWinProbability": 0.896,
       "period": 1,
       "clock": "2:44",
       "secondsRemaining": 164,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T19:47:31.000Z",
+      "wallclock": "2025-11-24T19:47:49.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -8047,8 +8048,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060411,
-      "sourceId": "401819826114891985",
+      "id": 40060410,
+      "sourceId": "401819826114891972",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -8059,16 +8060,16 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 67,
       "awayScore": 62,
-      "homeWinProbability": 0.884,
+      "homeWinProbability": 0.864,
       "period": 2,
       "clock": "6:16",
       "secondsRemaining": 376,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T20:43:01.000Z",
+      "wallclock": "2025-11-24T20:42:37.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -8154,8 +8155,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060410,
-      "sourceId": "401819826114891972",
+      "id": 40060411,
+      "sourceId": "401819826114891985",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -8166,16 +8167,16 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 68,
       "awayScore": 62,
-      "homeWinProbability": 0.864,
+      "homeWinProbability": 0.884,
       "period": 2,
       "clock": "6:16",
       "secondsRemaining": 376,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T20:42:37.000Z",
+      "wallclock": "2025-11-24T20:43:01.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -8586,8 +8587,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060457,
-      "sourceId": "401819826114892450",
+      "id": 40060461,
+      "sourceId": "401819826114892463",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -8598,17 +8599,17 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 66,
-      "homeWinProbability": 0.928,
+      "homeWinProbability": 0.976,
       "period": 2,
       "clock": "1:57",
       "secondsRemaining": 117,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T20:53:46.000Z",
-      "playText": "Cameron Carr missed Free Throw.",
+      "wallclock": "2025-11-24T20:54:13.000Z",
+      "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
           "id": 309,
@@ -8620,7 +8621,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8693,8 +8694,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40060461,
-      "sourceId": "401819826114892463",
+      "id": 40060457,
+      "sourceId": "401819826114892450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -8705,17 +8706,17 @@
       "opponent": "Creighton",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 66,
-      "homeWinProbability": 0.976,
+      "homeWinProbability": 0.928,
       "period": 2,
       "clock": "1:57",
       "secondsRemaining": 117,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T20:54:13.000Z",
-      "playText": "Cameron Carr made Free Throw.",
+      "wallclock": "2025-11-24T20:53:46.000Z",
+      "playText": "Cameron Carr missed Free Throw.",
       "participants": [
         {
           "id": 309,
@@ -8727,7 +8728,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10635,8 +10636,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116229,
-      "sourceId": "401819827114961080",
+      "id": 40116230,
+      "sourceId": "401819827114961115",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -10647,16 +10648,16 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 49,
       "awayScore": 65,
-      "homeWinProbability": 0.022,
+      "homeWinProbability": 0.026,
       "period": 2,
       "clock": "10:39",
       "secondsRemaining": 639,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:11:06.000Z",
+      "wallclock": "2025-11-25T23:11:20.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -10742,8 +10743,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116230,
-      "sourceId": "401819827114961115",
+      "id": 40116229,
+      "sourceId": "401819827114961080",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -10754,16 +10755,16 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 48,
       "awayScore": 65,
-      "homeWinProbability": 0.026,
+      "homeWinProbability": 0.022,
       "period": 2,
       "clock": "10:39",
       "secondsRemaining": 639,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:11:20.000Z",
+      "wallclock": "2025-11-25T23:11:06.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -11392,8 +11393,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116341,
-      "sourceId": "401819827114963870",
+      "id": 40116342,
+      "sourceId": "401819827114963916",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -11404,16 +11405,16 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 91,
-      "homeWinProbability": 0.002,
+      "homeWinProbability": 0.004,
       "period": 2,
       "clock": "1:49",
       "secondsRemaining": 109,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:36:17.000Z",
+      "wallclock": "2025-11-25T23:36:36.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -11499,8 +11500,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40116342,
-      "sourceId": "401819827114963916",
+      "id": 40116341,
+      "sourceId": "401819827114963870",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -11511,16 +11512,16 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 91,
-      "homeWinProbability": 0.004,
+      "homeWinProbability": 0.002,
       "period": 2,
       "clock": "1:49",
       "secondsRemaining": 109,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:36:36.000Z",
+      "wallclock": "2025-11-25T23:36:17.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -13449,8 +13450,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40318082,
-      "sourceId": "401831219115078440",
+      "id": 40318084,
+      "sourceId": "401831219115078443",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -13462,16 +13463,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 75,
-      "awayScore": 86,
-      "homeWinProbability": 0.001,
+      "awayScore": 87,
+      "homeWinProbability": null,
       "period": 2,
       "clock": "0:30",
       "secondsRemaining": 30,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T05:45:14.000Z",
-      "playText": "Cameron Carr missed Free Throw.",
+      "wallclock": "2025-11-27T05:45:38.000Z",
+      "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
           "id": 309,
@@ -13483,7 +13484,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13556,8 +13557,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40318084,
-      "sourceId": "401831219115078443",
+      "id": 40318082,
+      "sourceId": "401831219115078440",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -13569,16 +13570,16 @@
       "opponentConference": "Mountain West",
       "opponentSeed": null,
       "homeScore": 75,
-      "awayScore": 87,
-      "homeWinProbability": null,
+      "awayScore": 86,
+      "homeWinProbability": 0.001,
       "period": 2,
       "clock": "0:30",
       "secondsRemaining": 30,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T05:45:38.000Z",
-      "playText": "Cameron Carr made Free Throw.",
+      "wallclock": "2025-11-27T05:45:14.000Z",
+      "playText": "Cameron Carr missed Free Throw.",
       "participants": [
         {
           "id": 309,
@@ -13590,7 +13591,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15922,8 +15923,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40771204,
-      "sourceId": "401819828115358492",
+      "id": 40771205,
+      "sourceId": "401819828115358506",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -15934,7 +15935,7 @@
       "opponent": "Sacramento State",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 100,
+      "homeScore": 101,
       "awayScore": 74,
       "homeWinProbability": 1,
       "period": 2,
@@ -15943,7 +15944,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T03:02:53.000Z",
+      "wallclock": "2025-12-03T03:03:11.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -16029,8 +16030,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40771205,
-      "sourceId": "401819828115358506",
+      "id": 40771204,
+      "sourceId": "401819828115358492",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -16041,7 +16042,7 @@
       "opponent": "Sacramento State",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 101,
+      "homeScore": 100,
       "awayScore": 74,
       "homeWinProbability": 1,
       "period": 2,
@@ -16050,7 +16051,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T03:03:11.000Z",
+      "wallclock": "2025-12-03T03:02:53.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -16568,8 +16569,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41108313,
-      "sourceId": "401819829115563641",
+      "id": 41108312,
+      "sourceId": "401819829115563593",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -16581,15 +16582,15 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 10,
-      "homeWinProbability": 0.791,
+      "awayScore": 9,
+      "homeWinProbability": 0.817,
       "period": 1,
       "clock": "10:34",
       "secondsRemaining": 634,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T22:06:45.000Z",
+      "wallclock": "2025-12-06T22:06:28.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -16675,8 +16676,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41108312,
-      "sourceId": "401819829115563593",
+      "id": 41108313,
+      "sourceId": "401819829115563641",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -16688,15 +16689,15 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 9,
-      "homeWinProbability": 0.817,
+      "awayScore": 10,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "10:34",
       "secondsRemaining": 634,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T22:06:28.000Z",
+      "wallclock": "2025-12-06T22:06:45.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -17650,8 +17651,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41108525,
-      "sourceId": "401819829115577689",
+      "id": 41108528,
+      "sourceId": "401819829115577807",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -17663,15 +17664,15 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 52,
-      "homeWinProbability": 0.253,
+      "awayScore": 53,
+      "homeWinProbability": 0.2,
       "period": 2,
       "clock": "12:42",
       "secondsRemaining": 762,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T23:12:37.000Z",
+      "wallclock": "2025-12-06T23:13:03.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -17757,8 +17758,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41108528,
-      "sourceId": "401819829115577807",
+      "id": 41108525,
+      "sourceId": "401819829115577689",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -17770,15 +17771,15 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 53,
-      "homeWinProbability": 0.2,
+      "awayScore": 52,
+      "homeWinProbability": 0.253,
       "period": 2,
       "clock": "12:42",
       "secondsRemaining": 762,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T23:13:03.000Z",
+      "wallclock": "2025-12-06T23:12:37.000Z",
       "playText": "Cameron Carr made Free Throw.",
       "participants": [
         {
@@ -19917,8 +19918,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42183948,
-      "sourceId": "401819831116128286",
+      "id": 42183943,
+      "sourceId": "401819831116128238",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -19929,17 +19930,17 @@
       "opponent": "Alcorn State",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 17,
       "awayScore": 7,
-      "homeWinProbability": 0.886,
+      "homeWinProbability": 0.88,
       "period": 1,
       "clock": "12:58",
       "secondsRemaining": 778,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T01:15:57.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2025-12-20T01:15:37.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -20024,8 +20025,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42183943,
-      "sourceId": "401819831116128238",
+      "id": 42183948,
+      "sourceId": "401819831116128286",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -20036,17 +20037,17 @@
       "opponent": "Alcorn State",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 18,
       "awayScore": 7,
-      "homeWinProbability": 0.88,
+      "homeWinProbability": 0.886,
       "period": 1,
       "clock": "12:58",
       "secondsRemaining": 778,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T01:15:37.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2025-12-20T01:15:57.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -21217,9 +21218,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42184172,
-      "sourceId": "401819831116132821",
-      "playType": "JumpShot",
+      "id": 42184176,
+      "sourceId": "401819831116132892",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -21229,7 +21230,7 @@
       "opponent": "Alcorn State",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 34,
       "homeWinProbability": 1,
       "period": 2,
@@ -21237,17 +21238,13 @@
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-20T02:16:33.000Z",
-      "playText": "Cameron Carr makes 1-foot jumper (Michael Rataj assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-20T02:17:25.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 1",
       "participants": [
         {
           "id": 309,
           "name": "Cameron Carr"
-        },
-        {
-          "id": 6854,
-          "name": "Michael Rataj"
         }
       ],
       "shotInfo": {
@@ -21256,15 +21253,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 6854,
-          "name": "Michael Rataj"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -21328,9 +21325,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42184176,
-      "sourceId": "401819831116132892",
-      "playType": "MadeFreeThrow",
+      "id": 42184172,
+      "sourceId": "401819831116132821",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -21340,7 +21337,7 @@
       "opponent": "Alcorn State",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 34,
       "homeWinProbability": 1,
       "period": 2,
@@ -21348,13 +21345,17 @@
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-20T02:17:25.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-20T02:16:33.000Z",
+      "playText": "Cameron Carr makes 1-foot jumper (Michael Rataj assists)",
       "participants": [
         {
           "id": 309,
           "name": "Cameron Carr"
+        },
+        {
+          "id": 6854,
+          "name": "Michael Rataj"
         }
       ],
       "shotInfo": {
@@ -21363,15 +21364,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 6854,
+          "name": "Michael Rataj"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 245
         }
       },
       "onFloor": [
@@ -25252,9 +25253,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738260,
-      "sourceId": "401819833116428337",
-      "playType": "JumpShot",
+      "id": 42738262,
+      "sourceId": "401819833116428393",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -25264,17 +25265,17 @@
       "opponent": "Arlington Baptist",
       "opponentConference": null,
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 13,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.998,
       "period": 1,
       "clock": "10:39",
       "secondsRemaining": 639,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-29T21:25:09.000Z",
-      "playText": "Cameron Carr makes 5-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2025-12-29T21:25:35.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 1",
       "participants": [
         {
           "id": 309,
@@ -25287,7 +25288,7 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -25359,9 +25360,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738262,
-      "sourceId": "401819833116428393",
-      "playType": "MadeFreeThrow",
+      "id": 42738260,
+      "sourceId": "401819833116428337",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -25371,17 +25372,17 @@
       "opponent": "Arlington Baptist",
       "opponentConference": null,
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 13,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.996,
       "period": 1,
       "clock": "10:39",
       "secondsRemaining": 639,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-29T21:25:35.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-29T21:25:09.000Z",
+      "playText": "Cameron Carr makes 5-foot jumper",
       "participants": [
         {
           "id": 309,
@@ -25394,7 +25395,7 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -25688,9 +25689,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738325,
-      "sourceId": "401819833116429626",
-      "playType": "JumpShot",
+      "id": 42738329,
+      "sourceId": "401819833116429663",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -25706,11 +25707,11 @@
       "period": 1,
       "clock": "6:41",
       "secondsRemaining": 401,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-29T21:36:17.000Z",
-      "playText": "Cameron Carr makes 6-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2025-12-29T21:36:50.000Z",
+      "playText": "Cameron Carr misses free throw 1 of 1",
       "participants": [
         {
           "id": 309,
@@ -25722,8 +25723,8 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -25795,9 +25796,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42738329,
-      "sourceId": "401819833116429663",
-      "playType": "MadeFreeThrow",
+      "id": 42738325,
+      "sourceId": "401819833116429626",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -25813,11 +25814,11 @@
       "period": 1,
       "clock": "6:41",
       "secondsRemaining": 401,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-29T21:36:50.000Z",
-      "playText": "Cameron Carr misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-29T21:36:17.000Z",
+      "playText": "Cameron Carr makes 6-foot jumper",
       "participants": [
         {
           "id": 309,
@@ -25829,8 +25830,8 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -28415,6 +28416,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 43205120,
+      "sourceId": "401827597116752502",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 58,
+      "homeWinProbability": 0.939,
+      "period": 2,
+      "clock": "3:23",
+      "secondsRemaining": 203,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T21:00:31.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 309,
+          "name": "Cameron Carr"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 309,
+          "name": "Cameron Carr"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7420,
+          "name": "Caden Powell",
+          "team": "Baylor"
+        },
+        {
+          "id": 468,
+          "name": "Dan Skillings Jr.",
+          "team": "Baylor"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 6762,
+          "name": "Obi Agbim",
+          "team": "Baylor"
+        },
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou",
+          "team": "Baylor"
+        }
+      ]
+    },
+    {
+      "gameId": 214279,
+      "gameSourceId": "401827597",
+      "gameStartDate": "2026-01-03T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 43205118,
       "sourceId": "401827597116752354",
       "playType": "LayUpShot",
@@ -28526,8 +28634,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43205120,
-      "sourceId": "401827597116752502",
+      "id": 43205138,
+      "sourceId": "401827597116753577",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -28539,123 +28647,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 58,
-      "homeWinProbability": 0.939,
-      "period": 2,
-      "clock": "3:23",
-      "secondsRemaining": 203,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T21:00:31.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 1",
-      "participants": [
-        {
-          "id": 309,
-          "name": "Cameron Carr"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 309,
-          "name": "Cameron Carr"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7420,
-          "name": "Caden Powell",
-          "team": "Baylor"
-        },
-        {
-          "id": 468,
-          "name": "Dan Skillings Jr.",
-          "team": "Baylor"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 5482,
-          "name": "Brock Harding",
-          "team": "TCU"
-        },
-        {
-          "id": 3136,
-          "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 5674,
-          "name": "David Punch",
-          "team": "TCU"
-        },
-        {
-          "id": 6861,
-          "name": "Liutauras Lelevicius",
-          "team": "TCU"
-        },
-        {
-          "id": 5675,
-          "name": "Micah Robinson",
-          "team": "TCU"
-        },
-        {
-          "id": 6762,
-          "name": "Obi Agbim",
-          "team": "Baylor"
-        },
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou",
-          "team": "Baylor"
-        }
-      ]
-    },
-    {
-      "gameId": 214279,
-      "gameSourceId": "401827597",
-      "gameStartDate": "2026-01-03T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 43205135,
-      "sourceId": "401827597116753402",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 287,
-      "opponent": "TCU",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 64,
-      "awayScore": 59,
-      "homeWinProbability": 0.923,
+      "awayScore": 60,
+      "homeWinProbability": 0.875,
       "period": 2,
       "clock": "2:22",
       "secondsRemaining": 142,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T21:03:40.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-03T21:04:04.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -28740,8 +28741,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43205138,
-      "sourceId": "401827597116753577",
+      "id": 43205135,
+      "sourceId": "401827597116753402",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -28753,16 +28754,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 60,
-      "homeWinProbability": 0.875,
+      "awayScore": 59,
+      "homeWinProbability": 0.923,
       "period": 2,
       "clock": "2:22",
       "secondsRemaining": 142,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T21:04:04.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-03T21:03:40.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -28954,8 +28955,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43624557,
-      "sourceId": "401827605116934242",
+      "id": 43624558,
+      "sourceId": "401827605116934273",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -28966,17 +28967,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "homeWinProbability": 0.672,
+      "homeWinProbability": 0.664,
       "period": 1,
       "clock": "18:00",
       "secondsRemaining": 1080,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T01:05:11.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 3",
+      "wallclock": "2026-01-08T01:05:25.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 3",
       "participants": [
         {
           "id": 309,
@@ -29168,8 +29169,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43624558,
-      "sourceId": "401827605116934273",
+      "id": 43624557,
+      "sourceId": "401827605116934242",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -29180,17 +29181,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 2,
+      "homeScore": 1,
       "awayScore": 0,
-      "homeWinProbability": 0.664,
+      "homeWinProbability": 0.672,
       "period": 1,
       "clock": "18:00",
       "secondsRemaining": 1080,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T01:05:25.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 3",
+      "wallclock": "2026-01-08T01:05:11.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 3",
       "participants": [
         {
           "id": 309,
@@ -30246,8 +30247,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43624754,
-      "sourceId": "401827605116945396",
+      "id": 43624752,
+      "sourceId": "401827605116945323",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -30258,17 +30259,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 22,
       "awayScore": 17,
-      "homeWinProbability": 0.787,
+      "homeWinProbability": 0.743,
       "period": 1,
       "clock": "4:41",
       "secondsRemaining": 281,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T01:43:11.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-08T01:42:54.000Z",
+      "playText": "Cameron Carr misses free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -30280,7 +30281,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30353,8 +30354,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43624752,
-      "sourceId": "401827605116945323",
+      "id": 43624754,
+      "sourceId": "401827605116945396",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -30365,17 +30366,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 23,
       "awayScore": 17,
-      "homeWinProbability": 0.743,
+      "homeWinProbability": 0.787,
       "period": 1,
       "clock": "4:41",
       "secondsRemaining": 281,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T01:42:54.000Z",
-      "playText": "Cameron Carr misses free throw 1 of 2",
+      "wallclock": "2026-01-08T01:43:11.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -30387,7 +30388,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30896,8 +30897,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43625046,
-      "sourceId": "401827605116958980",
+      "id": 43625048,
+      "sourceId": "401827605116958988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -30908,17 +30909,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 66,
       "homeWinProbability": 0.004,
       "period": 2,
       "clock": "0:32",
       "secondsRemaining": 32,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:06:53.000Z",
-      "playText": "Cameron Carr misses free throw 1 of 2",
+      "wallclock": "2026-01-08T03:07:11.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -30930,7 +30931,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31003,8 +31004,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43625048,
-      "sourceId": "401827605116958988",
+      "id": 43625046,
+      "sourceId": "401827605116958980",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -31015,17 +31016,17 @@
       "opponent": "Iowa State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 66,
       "homeWinProbability": 0.004,
       "period": 2,
       "clock": "0:32",
       "secondsRemaining": 32,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:07:11.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-08T03:06:53.000Z",
+      "playText": "Cameron Carr misses free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -31037,7 +31038,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32077,113 +32078,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859414,
-      "sourceId": "401827609117082955",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 113,
-      "opponent": "Houston",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 19,
-      "awayScore": 29,
-      "homeWinProbability": 0.264,
-      "period": 1,
-      "clock": "4:33",
-      "secondsRemaining": 273,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T18:42:44.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 309,
-          "name": "Cameron Carr"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 309,
-          "name": "Cameron Carr"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6854,
-          "name": "Michael Rataj",
-          "team": "Baylor"
-        },
-        {
-          "id": 115,
-          "name": "Emanuel Sharp",
-          "team": "Houston"
-        },
-        {
-          "id": 7041,
-          "name": "Kalifa Sakho",
-          "team": "Houston"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 352,
-          "name": "Isaac Williams IV",
-          "team": "Baylor"
-        },
-        {
-          "id": 7420,
-          "name": "Caden Powell",
-          "team": "Baylor"
-        },
-        {
-          "id": 123,
-          "name": "Chase McCarty",
-          "team": "Houston"
-        },
-        {
-          "id": 121,
-          "name": "Ramon Walker Jr.",
-          "team": "Houston"
-        },
-        {
-          "id": 114,
-          "name": "Milos Uzan",
-          "team": "Houston"
-        },
-        {
-          "id": 6762,
-          "name": "Obi Agbim",
-          "team": "Baylor"
-        }
-      ]
-    },
-    {
-      "gameId": 214383,
-      "gameSourceId": "401827609",
-      "gameStartDate": "2026-01-10T18:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43859411,
       "sourceId": "401827609117082883",
       "playType": "MadeFreeThrow",
@@ -32291,8 +32185,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859423,
-      "sourceId": "401827609117083235",
+      "id": 43859414,
+      "sourceId": "401827609117082955",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -32303,16 +32197,16 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 19,
       "awayScore": 29,
-      "homeWinProbability": 0.294,
+      "homeWinProbability": 0.264,
       "period": 1,
-      "clock": "4:18",
-      "secondsRemaining": 258,
+      "clock": "4:33",
+      "secondsRemaining": 273,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T18:44:09.000Z",
+      "wallclock": "2026-01-10T18:42:44.000Z",
       "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
@@ -32344,11 +32238,6 @@
           "team": "Baylor"
         },
         {
-          "id": 199597,
-          "name": "Isiah Harwell",
-          "team": "Houston"
-        },
-        {
           "id": 115,
           "name": "Emanuel Sharp",
           "team": "Houston"
@@ -32376,6 +32265,11 @@
         {
           "id": 123,
           "name": "Chase McCarty",
+          "team": "Houston"
+        },
+        {
+          "id": 121,
+          "name": "Ramon Walker Jr.",
           "team": "Houston"
         },
         {
@@ -32505,8 +32399,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859432,
-      "sourceId": "401827609117083780",
+      "id": 43859423,
+      "sourceId": "401827609117083235",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 113,
+      "opponent": "Houston",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 20,
+      "awayScore": 29,
+      "homeWinProbability": 0.294,
+      "period": 1,
+      "clock": "4:18",
+      "secondsRemaining": 258,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-10T18:44:09.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 309,
+          "name": "Cameron Carr"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 309,
+          "name": "Cameron Carr"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6854,
+          "name": "Michael Rataj",
+          "team": "Baylor"
+        },
+        {
+          "id": 199597,
+          "name": "Isiah Harwell",
+          "team": "Houston"
+        },
+        {
+          "id": 115,
+          "name": "Emanuel Sharp",
+          "team": "Houston"
+        },
+        {
+          "id": 7041,
+          "name": "Kalifa Sakho",
+          "team": "Houston"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 352,
+          "name": "Isaac Williams IV",
+          "team": "Baylor"
+        },
+        {
+          "id": 7420,
+          "name": "Caden Powell",
+          "team": "Baylor"
+        },
+        {
+          "id": 123,
+          "name": "Chase McCarty",
+          "team": "Houston"
+        },
+        {
+          "id": 114,
+          "name": "Milos Uzan",
+          "team": "Houston"
+        },
+        {
+          "id": 6762,
+          "name": "Obi Agbim",
+          "team": "Baylor"
+        }
+      ]
+    },
+    {
+      "gameId": 214383,
+      "gameSourceId": "401827609",
+      "gameStartDate": "2026-01-10T18:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43859431,
+      "sourceId": "401827609117083735",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -32523,11 +32524,11 @@
       "period": 1,
       "clock": "3:59",
       "secondsRemaining": 239,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T18:48:53.000Z",
-      "playText": "Cameron Carr misses free throw 2 of 2",
+      "wallclock": "2026-01-10T18:48:28.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -32539,7 +32540,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32612,8 +32613,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859431,
-      "sourceId": "401827609117083735",
+      "id": 43859432,
+      "sourceId": "401827609117083780",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -32630,11 +32631,11 @@
       "period": 1,
       "clock": "3:59",
       "secondsRemaining": 239,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T18:48:28.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-10T18:48:53.000Z",
+      "playText": "Cameron Carr misses free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -32646,7 +32647,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32933,8 +32934,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859500,
-      "sourceId": "401827609117098042",
+      "id": 43859504,
+      "sourceId": "401827609117098296",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -32945,17 +32946,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 37,
-      "homeWinProbability": 0.19,
+      "homeWinProbability": 0.21,
       "period": 2,
       "clock": "18:15",
       "secondsRemaining": 1095,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:22:19.000Z",
-      "playText": "Cameron Carr misses free throw 1 of 2",
+      "wallclock": "2026-01-10T19:22:40.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -32967,7 +32968,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33040,8 +33041,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859504,
-      "sourceId": "401827609117098296",
+      "id": 43859500,
+      "sourceId": "401827609117098042",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -33052,17 +33053,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 37,
-      "homeWinProbability": 0.21,
+      "homeWinProbability": 0.19,
       "period": 2,
       "clock": "18:15",
       "secondsRemaining": 1095,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:22:40.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-10T19:22:19.000Z",
+      "playText": "Cameron Carr misses free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -33074,7 +33075,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33686,8 +33687,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859692,
-      "sourceId": "401827609117121899",
+      "id": 43859691,
+      "sourceId": "401827609117121790",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -33704,11 +33705,11 @@
       "period": 2,
       "clock": "1:20",
       "secondsRemaining": 80,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:11:49.000Z",
-      "playText": "Cameron Carr misses free throw 2 of 2",
+      "wallclock": "2026-01-10T20:11:35.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -33720,7 +33721,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33793,8 +33794,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859691,
-      "sourceId": "401827609117121790",
+      "id": 43859692,
+      "sourceId": "401827609117121899",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -33811,11 +33812,11 @@
       "period": 2,
       "clock": "1:20",
       "secondsRemaining": 80,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T20:11:35.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-10T20:11:49.000Z",
+      "playText": "Cameron Carr misses free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -33827,7 +33828,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36306,8 +36307,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44495692,
-      "sourceId": "401827624117428850",
+      "id": 44495697,
+      "sourceId": "401827624117428890",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -36319,16 +36320,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 19,
-      "awayScore": 8,
-      "homeWinProbability": 0.891,
+      "awayScore": 9,
+      "homeWinProbability": 0.876,
       "period": 1,
       "clock": "13:29",
       "secondsRemaining": 809,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T01:21:46.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-17T01:22:19.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -36413,8 +36414,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44495697,
-      "sourceId": "401827624117428890",
+      "id": 44495692,
+      "sourceId": "401827624117428850",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -36426,16 +36427,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 19,
-      "awayScore": 9,
-      "homeWinProbability": 0.876,
+      "awayScore": 8,
+      "homeWinProbability": 0.891,
       "period": 1,
       "clock": "13:29",
       "secondsRemaining": 809,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T01:22:19.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-17T01:21:46.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -38890,8 +38891,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44913522,
-      "sourceId": "401827632117658079",
+      "id": 44913523,
+      "sourceId": "401827632117658118",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -38902,17 +38903,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 31,
-      "homeWinProbability": 0.15,
+      "homeWinProbability": 0.145,
       "period": 1,
       "clock": "8:15",
       "secondsRemaining": 495,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T02:32:16.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-21T02:32:36.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -38997,8 +38998,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44913523,
-      "sourceId": "401827632117658118",
+      "id": 44913522,
+      "sourceId": "401827632117658079",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -39009,17 +39010,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 31,
-      "homeWinProbability": 0.145,
+      "homeWinProbability": 0.15,
       "period": 1,
       "clock": "8:15",
       "secondsRemaining": 495,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T02:32:36.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-21T02:32:16.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -39215,8 +39216,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44913558,
-      "sourceId": "401827632117659232",
+      "id": 44913555,
+      "sourceId": "401827632117659165",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -39233,11 +39234,11 @@
       "period": 1,
       "clock": "3:56",
       "secondsRemaining": 236,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T02:47:43.000Z",
-      "playText": "Cameron Carr misses free throw 2 of 2",
+      "wallclock": "2026-01-21T02:47:02.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -39249,7 +39250,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39322,8 +39323,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44913555,
-      "sourceId": "401827632117659165",
+      "id": 44913558,
+      "sourceId": "401827632117659232",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -39340,11 +39341,11 @@
       "period": 1,
       "clock": "3:56",
       "secondsRemaining": 236,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T02:47:02.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-21T02:47:43.000Z",
+      "playText": "Cameron Carr misses free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -39356,7 +39357,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41593,8 +41594,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45381493,
-      "sourceId": "401827641117936985",
+      "id": 45381503,
+      "sourceId": "401827641117937003",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -41605,17 +41606,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 33,
-      "homeWinProbability": 0.592,
+      "homeWinProbability": 0.662,
       "period": 1,
       "clock": "2:01",
       "secondsRemaining": 121,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:00:32.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-01-25T00:00:58.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -41700,8 +41701,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45381503,
-      "sourceId": "401827641117937003",
+      "id": 45381493,
+      "sourceId": "401827641117936985",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -41712,17 +41713,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 33,
-      "homeWinProbability": 0.662,
+      "homeWinProbability": 0.592,
       "period": 1,
       "clock": "2:01",
       "secondsRemaining": 121,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:00:58.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-25T00:00:32.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -42683,9 +42684,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45382700,
-      "sourceId": "401827641117945861",
-      "playType": "JumpShot",
+      "id": 45382730,
+      "sourceId": "401827641117945958",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -42695,17 +42696,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 82,
       "awayScore": 88,
-      "homeWinProbability": 0.016,
+      "homeWinProbability": 0.028,
       "period": 2,
       "clock": "0:57",
       "secondsRemaining": 57,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-25T01:36:13.000Z",
-      "playText": "Cameron Carr makes 3-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-25T01:37:06.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 1",
       "participants": [
         {
           "id": 309,
@@ -42718,15 +42719,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -42790,9 +42791,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45382730,
-      "sourceId": "401827641117945958",
-      "playType": "MadeFreeThrow",
+      "id": 45382700,
+      "sourceId": "401827641117945861",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 20,
       "team": "Baylor",
@@ -42802,17 +42803,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 81,
       "awayScore": 88,
-      "homeWinProbability": 0.028,
+      "homeWinProbability": 0.016,
       "period": 2,
       "clock": "0:57",
       "secondsRemaining": 57,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-25T01:37:06.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-25T01:36:13.000Z",
+      "playText": "Cameron Carr makes 3-foot jumper",
       "participants": [
         {
           "id": 309,
@@ -42825,15 +42826,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 270
         }
       },
       "onFloor": [
@@ -45818,9 +45819,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45835419,
-      "sourceId": "401827657118233066",
-      "playType": "JumpShot",
+      "id": 45835423,
+      "sourceId": "401827657118233256",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
       "team": "Baylor",
@@ -45831,16 +45832,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 22,
-      "awayScore": 24,
-      "homeWinProbability": 0.548,
+      "awayScore": 25,
+      "homeWinProbability": 0.5,
       "period": 1,
       "clock": "6:07",
       "secondsRemaining": 367,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2026-01-31T21:41:40.000Z",
-      "playText": "Cameron Carr makes 24-foot three point jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T21:42:08.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 1",
       "participants": [
         {
           "id": 309,
@@ -45853,15 +45854,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "three_pointer",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 752,
-          "y": 450
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -45925,9 +45926,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45835423,
-      "sourceId": "401827657118233256",
-      "playType": "MadeFreeThrow",
+      "id": 45835419,
+      "sourceId": "401827657118233066",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 20,
       "team": "Baylor",
@@ -45938,16 +45939,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 22,
-      "awayScore": 25,
-      "homeWinProbability": 0.5,
+      "awayScore": 24,
+      "homeWinProbability": 0.548,
       "period": 1,
       "clock": "6:07",
       "secondsRemaining": 367,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T21:42:08.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 1",
+      "scoreValue": 3,
+      "wallclock": "2026-01-31T21:41:40.000Z",
+      "playText": "Cameron Carr makes 24-foot three point jumper",
       "participants": [
         {
           "id": 309,
@@ -45960,15 +45961,15 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "three_pointer",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 752,
+          "y": 450
         }
       },
       "onFloor": [
@@ -46246,8 +46247,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45835631,
-      "sourceId": "401827657118245858",
+      "id": 45835623,
+      "sourceId": "401827657118245736",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -46259,16 +46260,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 43,
-      "homeWinProbability": 0.203,
+      "awayScore": 42,
+      "homeWinProbability": 0.234,
       "period": 2,
       "clock": "17:36",
       "secondsRemaining": 1056,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T22:25:45.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-01-31T22:25:28.000Z",
+      "playText": "Cameron Carr misses free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -46280,7 +46281,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46353,8 +46354,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45835623,
-      "sourceId": "401827657118245736",
+      "id": 45835631,
+      "sourceId": "401827657118245858",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -46366,16 +46367,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 42,
-      "homeWinProbability": 0.234,
+      "awayScore": 43,
+      "homeWinProbability": 0.203,
       "period": 2,
       "clock": "17:36",
       "secondsRemaining": 1056,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T22:25:28.000Z",
-      "playText": "Cameron Carr misses free throw 1 of 2",
+      "wallclock": "2026-01-31T22:25:45.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -46387,7 +46388,7 @@
           "id": 309,
           "name": "Cameron Carr"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47764,8 +47765,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46229894,
-      "sourceId": "401827660118408627",
+      "id": 46229891,
+      "sourceId": "401827660118408471",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -47776,17 +47777,17 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 14,
-      "homeWinProbability": 0.946,
+      "homeWinProbability": 0.931,
       "period": 1,
       "clock": "6:06",
       "secondsRemaining": 366,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T01:38:04.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-02-05T01:37:34.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -47871,8 +47872,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46229891,
-      "sourceId": "401827660118408471",
+      "id": 46229894,
+      "sourceId": "401827660118408627",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -47883,17 +47884,17 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 14,
-      "homeWinProbability": 0.931,
+      "homeWinProbability": 0.946,
       "period": 1,
       "clock": "6:06",
       "secondsRemaining": 366,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T01:37:34.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-02-05T01:38:04.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -48961,6 +48962,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 46230035,
+      "sourceId": "401827660118421143",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 20,
+      "team": "Baylor",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 56,
+      "opponent": "Colorado",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 60,
+      "awayScore": 38,
+      "homeWinProbability": 0.998,
+      "period": 2,
+      "clock": "11:58",
+      "secondsRemaining": 718,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-05T02:30:47.000Z",
+      "playText": "Cameron Carr misses free throw 1 of 3",
+      "participants": [
+        {
+          "id": 309,
+          "name": "Cameron Carr"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 309,
+          "name": "Cameron Carr"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198730,
+          "name": "Jalin Holland",
+          "team": "Colorado"
+        },
+        {
+          "id": 6854,
+          "name": "Michael Rataj",
+          "team": "Baylor"
+        },
+        {
+          "id": 6700,
+          "name": "Bangot Dak",
+          "team": "Colorado"
+        },
+        {
+          "id": 198732,
+          "name": "Ian Inman",
+          "team": "Colorado"
+        },
+        {
+          "id": 222965,
+          "name": "James Nnaji",
+          "team": "Baylor"
+        },
+        {
+          "id": 198733,
+          "name": "Isaiah Johnson",
+          "team": "Colorado"
+        },
+        {
+          "id": 198155,
+          "name": "Tounde Yessoufou",
+          "team": "Baylor"
+        },
+        {
+          "id": 309,
+          "name": "Cameron Carr",
+          "team": "Baylor"
+        },
+        {
+          "id": 6762,
+          "name": "Obi Agbim",
+          "team": "Baylor"
+        },
+        {
+          "id": 6706,
+          "name": "Sebastian Rancik",
+          "team": "Colorado"
+        }
+      ]
+    },
+    {
+      "gameId": 214783,
+      "gameSourceId": "401827660",
+      "gameStartDate": "2026-02-05T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 46230037,
       "sourceId": "401827660118421148",
       "playType": "MadeFreeThrow",
@@ -49103,113 +49211,6 @@
           "name": "Cameron Carr"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198730,
-          "name": "Jalin Holland",
-          "team": "Colorado"
-        },
-        {
-          "id": 6854,
-          "name": "Michael Rataj",
-          "team": "Baylor"
-        },
-        {
-          "id": 6700,
-          "name": "Bangot Dak",
-          "team": "Colorado"
-        },
-        {
-          "id": 198732,
-          "name": "Ian Inman",
-          "team": "Colorado"
-        },
-        {
-          "id": 222965,
-          "name": "James Nnaji",
-          "team": "Baylor"
-        },
-        {
-          "id": 198733,
-          "name": "Isaiah Johnson",
-          "team": "Colorado"
-        },
-        {
-          "id": 198155,
-          "name": "Tounde Yessoufou",
-          "team": "Baylor"
-        },
-        {
-          "id": 309,
-          "name": "Cameron Carr",
-          "team": "Baylor"
-        },
-        {
-          "id": 6762,
-          "name": "Obi Agbim",
-          "team": "Baylor"
-        },
-        {
-          "id": 6706,
-          "name": "Sebastian Rancik",
-          "team": "Colorado"
-        }
-      ]
-    },
-    {
-      "gameId": 214783,
-      "gameSourceId": "401827660",
-      "gameStartDate": "2026-02-05T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 46230035,
-      "sourceId": "401827660118421143",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 20,
-      "team": "Baylor",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 56,
-      "opponent": "Colorado",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 60,
-      "awayScore": 38,
-      "homeWinProbability": 0.998,
-      "period": 2,
-      "clock": "11:58",
-      "secondsRemaining": 718,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-05T02:30:47.000Z",
-      "playText": "Cameron Carr misses free throw 1 of 3",
-      "participants": [
-        {
-          "id": 309,
-          "name": "Cameron Carr"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 309,
-          "name": "Cameron Carr"
-        },
-        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -57173,8 +57174,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47418504,
-      "sourceId": "401827688119099100",
+      "id": 47418509,
+      "sourceId": "401827688119099118",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -57186,7 +57187,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 90,
-      "awayScore": 73,
+      "awayScore": 74,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "0:24",
@@ -57194,8 +57195,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T04:14:34.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-02-18T04:14:59.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -57280,8 +57281,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47418509,
-      "sourceId": "401827688119099118",
+      "id": 47418504,
+      "sourceId": "401827688119099100",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -57293,7 +57294,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 90,
-      "awayScore": 74,
+      "awayScore": 73,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "0:24",
@@ -57301,8 +57302,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T04:14:59.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-02-18T04:14:34.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -61291,8 +61292,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47975785,
-      "sourceId": "401827700119458176",
+      "id": 47975784,
+      "sourceId": "401827700119458168",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -61303,7 +61304,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
@@ -61312,8 +61313,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T03:57:53.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-02-25T03:57:28.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -61398,8 +61399,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47975784,
-      "sourceId": "401827700119458168",
+      "id": 47975785,
+      "sourceId": "401827700119458176",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -61410,7 +61411,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
@@ -61419,8 +61420,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T03:57:28.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-02-25T03:57:53.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -61933,8 +61934,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370211,
-      "sourceId": "401827709119745444",
+      "id": 48370212,
+      "sourceId": "401827709119745485",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -61946,7 +61947,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 6,
-      "awayScore": 4,
+      "awayScore": 5,
       "homeWinProbability": null,
       "period": 1,
       "clock": "17:25",
@@ -61954,8 +61955,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T01:18:36.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-03-01T01:18:56.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -62040,8 +62041,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370212,
-      "sourceId": "401827709119745485",
+      "id": 48370211,
+      "sourceId": "401827709119745444",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -62053,7 +62054,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 6,
-      "awayScore": 5,
+      "awayScore": 4,
       "homeWinProbability": null,
       "period": 1,
       "clock": "17:25",
@@ -62061,8 +62062,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T01:18:56.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-03-01T01:18:36.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -62797,8 +62798,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370298,
-      "sourceId": "401827709119747711",
+      "id": 48370293,
+      "sourceId": "401827709119747656",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -62810,7 +62811,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 24,
+      "awayScore": 23,
       "homeWinProbability": null,
       "period": 1,
       "clock": "8:41",
@@ -62818,8 +62819,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T01:40:26.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-03-01T01:40:04.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -62904,8 +62905,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370293,
-      "sourceId": "401827709119747656",
+      "id": 48370298,
+      "sourceId": "401827709119747711",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -62917,7 +62918,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 23,
+      "awayScore": 24,
       "homeWinProbability": null,
       "period": 1,
       "clock": "8:41",
@@ -62925,8 +62926,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T01:40:04.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-03-01T01:40:26.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -63233,8 +63234,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370358,
-      "sourceId": "401827709119749070",
+      "id": 48370357,
+      "sourceId": "401827709119749058",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -63246,7 +63247,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 30,
-      "awayScore": 39,
+      "awayScore": 38,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:59",
@@ -63254,8 +63255,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T01:55:03.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-03-01T01:54:45.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -63340,8 +63341,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370357,
-      "sourceId": "401827709119749058",
+      "id": 48370358,
+      "sourceId": "401827709119749070",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -63353,7 +63354,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 30,
-      "awayScore": 38,
+      "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:59",
@@ -63361,8 +63362,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T01:54:45.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-03-01T01:55:03.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -63883,8 +63884,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370481,
-      "sourceId": "401827709119752175",
+      "id": 48370486,
+      "sourceId": "401827709119752217",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -63896,7 +63897,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 65,
+      "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:22",
@@ -63904,8 +63905,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:44:45.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-03-01T02:45:09.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -63990,8 +63991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48370486,
-      "sourceId": "401827709119752217",
+      "id": 48370481,
+      "sourceId": "401827709119752175",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -64003,7 +64004,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 66,
+      "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:22",
@@ -64011,8 +64012,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T02:45:09.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-03-01T02:44:45.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -64979,8 +64980,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713198,
-      "sourceId": "401827721119887299",
+      "id": 48713197,
+      "sourceId": "401827721119887196",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -64992,7 +64993,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 44,
+      "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:01",
@@ -65000,8 +65001,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:21:37.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-03-05T03:21:18.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -65086,8 +65087,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713197,
-      "sourceId": "401827721119887196",
+      "id": 48713198,
+      "sourceId": "401827721119887299",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -65099,7 +65100,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 37,
-      "awayScore": 43,
+      "awayScore": 44,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:01",
@@ -65107,8 +65108,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T03:21:18.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-03-05T03:21:37.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -67805,8 +67806,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49181770,
-      "sourceId": "401851282120141303",
+      "id": 49181775,
+      "sourceId": "401851282120141308",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -67818,7 +67819,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 11,
+      "awayScore": 12,
       "homeWinProbability": null,
       "period": 1,
       "clock": "9:28",
@@ -67826,8 +67827,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T16:53:00.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-03-10T16:53:21.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -67912,8 +67913,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49181775,
-      "sourceId": "401851282120141308",
+      "id": 49181770,
+      "sourceId": "401851282120141303",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -67925,7 +67926,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 21,
-      "awayScore": 12,
+      "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
       "clock": "9:28",
@@ -67933,8 +67934,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T16:53:21.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-03-10T16:53:00.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -69953,8 +69954,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49182111,
-      "sourceId": "401851282120143742",
+      "id": 49182114,
+      "sourceId": "401851282120143751",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -69966,7 +69967,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 83,
-      "awayScore": 78,
+      "awayScore": 79,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:01",
@@ -69974,8 +69975,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T18:38:03.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 3",
+      "wallclock": "2026-03-10T18:38:43.000Z",
+      "playText": "Cameron Carr makes free throw 3 of 3",
       "participants": [
         {
           "id": 309,
@@ -70060,8 +70061,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49182114,
-      "sourceId": "401851282120143751",
+      "id": 49182111,
+      "sourceId": "401851282120143742",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -70073,7 +70074,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 83,
-      "awayScore": 79,
+      "awayScore": 78,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:01",
@@ -70081,8 +70082,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-10T18:38:43.000Z",
-      "playText": "Cameron Carr makes free throw 3 of 3",
+      "wallclock": "2026-03-10T18:38:03.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 3",
       "participants": [
         {
           "id": 309,
@@ -71780,8 +71781,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49665740,
-      "sourceId": "401858380120409356",
+      "id": 49665739,
+      "sourceId": "401858380120409355",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -71793,7 +71794,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 99,
       "homeScore": 44,
-      "awayScore": 60,
+      "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:39",
@@ -71801,8 +71802,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-02T04:58:22.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-04-02T04:57:58.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -71887,8 +71888,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49665739,
-      "sourceId": "401858380120409355",
+      "id": 49665740,
+      "sourceId": "401858380120409356",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 20,
@@ -71900,7 +71901,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 99,
       "homeScore": 44,
-      "awayScore": 59,
+      "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:39",
@@ -71908,8 +71909,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-02T04:57:58.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-04-02T04:58:22.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -73730,8 +73731,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49675729,
-      "sourceId": "401858383120412903",
+      "id": 49675730,
+      "sourceId": "401858383120412906",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -73742,7 +73743,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": 99,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 54,
       "homeWinProbability": null,
       "period": 2,
@@ -73751,8 +73752,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T19:07:31.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-04-04T19:07:51.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -73837,8 +73838,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49675730,
-      "sourceId": "401858383120412906",
+      "id": 49675729,
+      "sourceId": "401858383120412903",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -73849,7 +73850,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": 99,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 54,
       "homeWinProbability": null,
       "period": 2,
@@ -73858,8 +73859,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T19:07:51.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-04-04T19:07:31.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -74372,8 +74373,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49675813,
-      "sourceId": "401858383120413133",
+      "id": 49675812,
+      "sourceId": "401858383120413132",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -74384,7 +74385,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": 99,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
@@ -74393,8 +74394,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T19:33:12.000Z",
-      "playText": "Cameron Carr makes free throw 2 of 2",
+      "wallclock": "2026-04-04T19:32:55.000Z",
+      "playText": "Cameron Carr makes free throw 1 of 2",
       "participants": [
         {
           "id": 309,
@@ -74479,8 +74480,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49675812,
-      "sourceId": "401858383120413132",
+      "id": 49675813,
+      "sourceId": "401858383120413133",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 20,
@@ -74491,7 +74492,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": 99,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 74,
       "homeWinProbability": null,
       "period": 2,
@@ -74500,8 +74501,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-04T19:32:55.000Z",
-      "playText": "Cameron Carr makes free throw 1 of 2",
+      "wallclock": "2026-04-04T19:33:12.000Z",
+      "playText": "Cameron Carr makes free throw 2 of 2",
       "participants": [
         {
           "id": 309,
@@ -76226,70 +76227,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.09,
-        "percentile": 95.5,
-        "freqPer100": 16.3
-      },
-      "attackKick": {
-        "ppp": 1.03,
-        "percentile": 72.2,
-        "freqPer100": 10.2
-      },
-      "perimeterSniper": {
-        "ppp": 1.21,
-        "percentile": 92.9,
-        "freqPer100": 15.7
-      },
-      "dribbleJumper": {
-        "ppp": 1.12,
-        "percentile": 92.4,
-        "freqPer100": 7.2
-      },
-      "midRange": {
-        "ppp": 0.98,
-        "percentile": 93.8,
-        "freqPer100": 8.2
-      },
-      "hitsCutter": {
-        "ppp": 1.17,
-        "percentile": 88.5,
-        "freqPer100": 2.3
-      },
-      "perimeterCut": {
-        "ppp": 1.33,
-        "percentile": 82.6,
-        "freqPer100": 8.6
-      },
-      "pnrPasser": {
-        "ppp": 1.27,
-        "percentile": 98.4,
-        "freqPer100": 2.4
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 1.17,
-        "percentile": 99.8,
-        "freqPer100": 0.5
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.29,
-        "percentile": 68.5,
-        "freqPer100": 6
-      },
-      "transition": {
-        "ppp": 1.31,
-        "percentile": 68.6,
-        "freqPer100": 22.4
       }
     }
   }

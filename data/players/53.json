@@ -243,7 +243,7 @@
     "jersey": "40",
     "position": "Forward",
     "height": 82,
-    "weight": 235,
+    "weight": 228,
     "wingspan": 72,
     "hometown": {
       "city": "Kinshasa",
@@ -380,8 +380,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37630945,
-      "sourceId": "401819882113626995",
+      "id": 37630946,
+      "sourceId": "401819882113627221",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -392,16 +392,16 @@
       "opponent": "Green Bay",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 20,
       "awayScore": 8,
-      "homeWinProbability": 0.891,
+      "homeWinProbability": 0.919,
       "period": 1,
       "clock": "11:33",
       "secondsRemaining": 693,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:25:17.000Z",
+      "wallclock": "2025-11-04T01:25:34.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -487,8 +487,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37630946,
-      "sourceId": "401819882113627221",
+      "id": 37630945,
+      "sourceId": "401819882113626995",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -499,16 +499,16 @@
       "opponent": "Green Bay",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 19,
       "awayScore": 8,
-      "homeWinProbability": 0.919,
+      "homeWinProbability": 0.891,
       "period": 1,
       "clock": "11:33",
       "secondsRemaining": 693,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:25:34.000Z",
+      "wallclock": "2025-11-04T01:25:17.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -4795,8 +4795,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39129991,
-      "sourceId": "401819884114364882",
+      "id": 39129990,
+      "sourceId": "401819884114364803",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -4807,16 +4807,16 @@
       "opponent": "Princeton",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 29,
       "awayScore": 24,
-      "homeWinProbability": 0.8,
+      "homeWinProbability": 0.77,
       "period": 1,
       "clock": "2:24",
       "secondsRemaining": 144,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T19:48:05.000Z",
+      "wallclock": "2025-11-15T19:47:41.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -4902,8 +4902,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39129990,
-      "sourceId": "401819884114364803",
+      "id": 39129991,
+      "sourceId": "401819884114364882",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -4914,16 +4914,16 @@
       "opponent": "Princeton",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 24,
-      "homeWinProbability": 0.77,
+      "homeWinProbability": 0.8,
       "period": 1,
       "clock": "2:24",
       "secondsRemaining": 144,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T19:47:41.000Z",
+      "wallclock": "2025-11-15T19:48:05.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -5227,9 +5227,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39130008,
-      "sourceId": "401819884114365432",
-      "playType": "LayUpShot",
+      "id": 39130010,
+      "sourceId": "401819884114365464",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
       "team": "Kansas",
@@ -5239,7 +5239,7 @@
       "opponent": "Princeton",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 29,
       "homeWinProbability": 0.843,
       "period": 1,
@@ -5247,9 +5247,9 @@
       "secondsRemaining": 32,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-15T19:52:35.000Z",
-      "playText": "Flory Bidunga made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-15T19:53:02.000Z",
+      "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
           "id": 53,
@@ -5262,15 +5262,15 @@
           "name": "Flory Bidunga"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -5334,9 +5334,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39130010,
-      "sourceId": "401819884114365464",
-      "playType": "MadeFreeThrow",
+      "id": 39130008,
+      "sourceId": "401819884114365432",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 131,
       "team": "Kansas",
@@ -5346,7 +5346,7 @@
       "opponent": "Princeton",
       "opponentConference": "Ivy",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 29,
       "homeWinProbability": 0.843,
       "period": 1,
@@ -5354,9 +5354,9 @@
       "secondsRemaining": 32,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-15T19:53:02.000Z",
-      "playText": "Flory Bidunga made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-15T19:52:35.000Z",
+      "playText": "Flory Bidunga made Layup.",
       "participants": [
         {
           "id": 53,
@@ -5369,15 +5369,15 @@
           "name": "Flory Bidunga"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -6963,8 +6963,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39441668,
-      "sourceId": "401817232114579669",
+      "id": 39441664,
+      "sourceId": "401817232114579621",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -6984,7 +6984,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T03:44:52.000Z",
+      "wallclock": "2025-11-19T03:44:33.000Z",
       "playText": "Flory Bidunga missed Free Throw.",
       "participants": [
         {
@@ -7070,8 +7070,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39441664,
-      "sourceId": "401817232114579621",
+      "id": 39441668,
+      "sourceId": "401817232114579669",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -7091,7 +7091,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T03:44:33.000Z",
+      "wallclock": "2025-11-19T03:44:52.000Z",
       "playText": "Flory Bidunga missed Free Throw.",
       "participants": [
         {
@@ -8045,113 +8045,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40051216,
-      "sourceId": "401817436114892527",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 131,
-      "team": "Kansas",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 213,
-      "opponent": "Notre Dame",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 15,
-      "awayScore": 15,
-      "homeWinProbability": 0.604,
-      "period": 1,
-      "clock": "11:19",
-      "secondsRemaining": 679,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-24T20:55:05.000Z",
-      "playText": "Flory Bidunga made Layup.",
-      "participants": [
-        {
-          "id": 53,
-          "name": "Flory Bidunga"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 53,
-          "name": "Flory Bidunga"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 240
-        }
-      },
-      "onFloor": [
-        {
-          "id": 63,
-          "name": "Elmarko Jackson",
-          "team": "Kansas"
-        },
-        {
-          "id": 8164,
-          "name": "Sir Mohammed",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 201202,
-          "name": "Brady Koehler",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 8157,
-          "name": "Markus Burton",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 2824,
-          "name": "Melvin Council Jr.",
-          "team": "Kansas"
-        },
-        {
-          "id": 5642,
-          "name": "Tre White",
-          "team": "Kansas"
-        },
-        {
-          "id": 8155,
-          "name": "Kebba Njie",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 8163,
-          "name": "Cole Certa",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 53,
-          "name": "Flory Bidunga",
-          "team": "Kansas"
-        },
-        {
-          "id": 62,
-          "name": "Jamari McDowell",
-          "team": "Kansas"
-        }
-      ]
-    },
-    {
-      "gameId": 210039,
-      "gameSourceId": "401817436",
-      "gameStartDate": "2025-11-24T20:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 40051233,
       "sourceId": "401817436114892685",
       "playType": "MadeFreeThrow",
@@ -8303,6 +8196,113 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 63,
+          "name": "Elmarko Jackson",
+          "team": "Kansas"
+        },
+        {
+          "id": 8164,
+          "name": "Sir Mohammed",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 201202,
+          "name": "Brady Koehler",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 8157,
+          "name": "Markus Burton",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 2824,
+          "name": "Melvin Council Jr.",
+          "team": "Kansas"
+        },
+        {
+          "id": 5642,
+          "name": "Tre White",
+          "team": "Kansas"
+        },
+        {
+          "id": 8155,
+          "name": "Kebba Njie",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 8163,
+          "name": "Cole Certa",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 53,
+          "name": "Flory Bidunga",
+          "team": "Kansas"
+        },
+        {
+          "id": 62,
+          "name": "Jamari McDowell",
+          "team": "Kansas"
+        }
+      ]
+    },
+    {
+      "gameId": 210039,
+      "gameSourceId": "401817436",
+      "gameStartDate": "2025-11-24T20:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 40051216,
+      "sourceId": "401817436114892527",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 131,
+      "team": "Kansas",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 213,
+      "opponent": "Notre Dame",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 15,
+      "awayScore": 15,
+      "homeWinProbability": 0.604,
+      "period": 1,
+      "clock": "11:19",
+      "secondsRemaining": 679,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-11-24T20:55:05.000Z",
+      "playText": "Flory Bidunga made Layup.",
+      "participants": [
+        {
+          "id": 53,
+          "name": "Flory Bidunga"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 53,
+          "name": "Flory Bidunga"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 240
         }
       },
       "onFloor": [
@@ -14871,8 +14871,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40777090,
-      "sourceId": "401812791115362142",
+      "id": 40777089,
+      "sourceId": "401812791115362139",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -14883,16 +14883,16 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 48,
       "awayScore": 50,
-      "homeWinProbability": 0.502,
+      "homeWinProbability": 0.422,
       "period": 2,
       "clock": "6:31",
       "secondsRemaining": 391,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T03:51:42.000Z",
+      "wallclock": "2025-12-03T03:51:21.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -14978,8 +14978,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40777089,
-      "sourceId": "401812791115362139",
+      "id": 40777090,
+      "sourceId": "401812791115362142",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -14990,16 +14990,16 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 49,
       "awayScore": 50,
-      "homeWinProbability": 0.422,
+      "homeWinProbability": 0.502,
       "period": 2,
       "clock": "6:31",
       "secondsRemaining": 391,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T03:51:21.000Z",
+      "wallclock": "2025-12-03T03:51:42.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -15735,8 +15735,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41320057,
-      "sourceId": "401819885115617399",
+      "id": 41320058,
+      "sourceId": "401819885115617402",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -15747,16 +15747,16 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 23,
-      "homeWinProbability": 0.717,
+      "homeWinProbability": 0.769,
       "period": 1,
       "clock": "2:09",
       "secondsRemaining": 129,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T18:54:13.000Z",
+      "wallclock": "2025-12-07T18:54:34.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -15842,8 +15842,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41320058,
-      "sourceId": "401819885115617402",
+      "id": 41320057,
+      "sourceId": "401819885115617399",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -15854,16 +15854,16 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 23,
-      "homeWinProbability": 0.769,
+      "homeWinProbability": 0.717,
       "period": 1,
       "clock": "2:09",
       "secondsRemaining": 129,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T18:54:34.000Z",
+      "wallclock": "2025-12-07T18:54:13.000Z",
       "playText": "Flory Bidunga made Free Throw.",
       "participants": [
         {
@@ -17907,9 +17907,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41923601,
-      "sourceId": "401819886115985120",
-      "playType": "MadeFreeThrow",
+      "id": 41923593,
+      "sourceId": "401819886115985035",
+      "playType": "TipShot",
       "isHomeTeam": true,
       "teamId": 131,
       "team": "Kansas",
@@ -17919,17 +17919,17 @@
       "opponent": "Towson",
       "opponentConference": "CAA",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 17,
       "awayScore": 7,
-      "homeWinProbability": 0.879,
+      "homeWinProbability": 0.873,
       "period": 1,
       "clock": "13:32",
       "secondsRemaining": 812,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-17T02:18:54.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-17T02:18:16.000Z",
+      "playText": "Flory Bidunga makes 0-foot tip in layup",
       "participants": [
         {
           "id": 53,
@@ -17942,15 +17942,15 @@
           "name": "Flory Bidunga"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -18014,9 +18014,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41923593,
-      "sourceId": "401819886115985035",
-      "playType": "TipShot",
+      "id": 41923601,
+      "sourceId": "401819886115985120",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
       "team": "Kansas",
@@ -18026,17 +18026,17 @@
       "opponent": "Towson",
       "opponentConference": "CAA",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 18,
       "awayScore": 7,
-      "homeWinProbability": 0.873,
+      "homeWinProbability": 0.879,
       "period": 1,
       "clock": "13:32",
       "secondsRemaining": 812,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-17T02:18:16.000Z",
-      "playText": "Flory Bidunga makes 0-foot tip in layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-17T02:18:54.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 1",
       "participants": [
         {
           "id": 53,
@@ -18049,15 +18049,15 @@
           "name": "Flory Bidunga"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -18656,8 +18656,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41923834,
-      "sourceId": "401819886115989841",
+      "id": 41923841,
+      "sourceId": "401819886115989919",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -18668,17 +18668,17 @@
       "opponent": "Towson",
       "opponentConference": "CAA",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 27,
-      "homeWinProbability": 0.958,
+      "homeWinProbability": 0.967,
       "period": 2,
       "clock": "16:48",
       "secondsRemaining": 1008,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T03:18:42.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2025-12-17T03:19:10.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -18763,8 +18763,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41923841,
-      "sourceId": "401819886115989919",
+      "id": 41923834,
+      "sourceId": "401819886115989841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -18775,17 +18775,17 @@
       "opponent": "Towson",
       "opponentConference": "CAA",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 27,
-      "homeWinProbability": 0.967,
+      "homeWinProbability": 0.958,
       "period": 2,
       "clock": "16:48",
       "secondsRemaining": 1008,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T03:19:10.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2025-12-17T03:18:42.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -22358,8 +22358,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43583076,
-      "sourceId": "401827601116902047",
+      "id": 43583080,
+      "sourceId": "401827601116902092",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -22370,17 +22370,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 14,
       "awayScore": 14,
-      "homeWinProbability": 0.576,
+      "homeWinProbability": 0.625,
       "period": 1,
       "clock": "14:53",
       "secondsRemaining": 893,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T02:24:51.000Z",
-      "playText": "Flory Bidunga misses free throw 1 of 2",
+      "wallclock": "2026-01-07T02:25:20.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -22392,7 +22392,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -22465,8 +22465,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43583080,
-      "sourceId": "401827601116902092",
+      "id": 43583076,
+      "sourceId": "401827601116902047",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -22477,17 +22477,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 13,
       "awayScore": 14,
-      "homeWinProbability": 0.625,
+      "homeWinProbability": 0.576,
       "period": 1,
       "clock": "14:53",
       "secondsRemaining": 893,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T02:25:20.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-01-07T02:24:51.000Z",
+      "playText": "Flory Bidunga misses free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -22499,7 +22499,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27150,8 +27150,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44916775,
-      "sourceId": "401827633117662876",
+      "id": 44916774,
+      "sourceId": "401827633117662875",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -27163,16 +27163,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 2,
-      "homeWinProbability": 0.669,
+      "awayScore": 1,
+      "homeWinProbability": 0.662,
       "period": 1,
       "clock": "18:51",
       "secondsRemaining": 1131,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T04:13:21.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-01-21T04:13:01.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -27257,8 +27257,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44916774,
-      "sourceId": "401827633117662875",
+      "id": 44916775,
+      "sourceId": "401827633117662876",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -27270,16 +27270,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 1,
-      "homeWinProbability": 0.662,
+      "awayScore": 2,
+      "homeWinProbability": 0.669,
       "period": 1,
       "clock": "18:51",
       "secondsRemaining": 1131,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T04:13:01.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2026-01-21T04:13:21.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -27697,9 +27697,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44917077,
-      "sourceId": "401827633117664013",
-      "playType": "MadeFreeThrow",
+      "id": 44917069,
+      "sourceId": "401827633117663979",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 131,
       "team": "Kansas",
@@ -27710,20 +27710,24 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 56,
-      "homeWinProbability": 0.206,
+      "awayScore": 55,
+      "homeWinProbability": 0.28,
       "period": 2,
       "clock": "11:03",
       "secondsRemaining": 663,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-21T05:41:32.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-21T05:40:49.000Z",
+      "playText": "Flory Bidunga makes layup (Tre White assists)",
       "participants": [
         {
           "id": 53,
           "name": "Flory Bidunga"
+        },
+        {
+          "id": 5642,
+          "name": "Tre White"
         }
       ],
       "shotInfo": {
@@ -27732,15 +27736,15 @@
           "name": "Flory Bidunga"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 5642,
+          "name": "Tre White"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 240
         }
       },
       "onFloor": [
@@ -27804,9 +27808,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44917069,
-      "sourceId": "401827633117663979",
-      "playType": "LayUpShot",
+      "id": 44917077,
+      "sourceId": "401827633117664013",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
       "team": "Kansas",
@@ -27817,24 +27821,20 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 55,
-      "homeWinProbability": 0.28,
+      "awayScore": 56,
+      "homeWinProbability": 0.206,
       "period": 2,
       "clock": "11:03",
       "secondsRemaining": 663,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-21T05:40:49.000Z",
-      "playText": "Flory Bidunga makes layup (Tre White assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-21T05:41:32.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 1",
       "participants": [
         {
           "id": 53,
           "name": "Flory Bidunga"
-        },
-        {
-          "id": 5642,
-          "name": "Tre White"
         }
       ],
       "shotInfo": {
@@ -27843,15 +27843,15 @@
           "name": "Flory Bidunga"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 5642,
-          "name": "Tre White"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -28462,8 +28462,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45285106,
-      "sourceId": "401827644117945804",
+      "id": 45285102,
+      "sourceId": "401827644117945767",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -28483,8 +28483,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T01:35:50.000Z",
-      "playText": "Flory Bidunga misses free throw 2 of 2",
+      "wallclock": "2026-01-25T01:35:36.000Z",
+      "playText": "Flory Bidunga misses free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -28569,8 +28569,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45285102,
-      "sourceId": "401827644117945767",
+      "id": 45285106,
+      "sourceId": "401827644117945804",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -28590,8 +28590,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T01:35:36.000Z",
-      "playText": "Flory Bidunga misses free throw 1 of 2",
+      "wallclock": "2026-01-25T01:35:50.000Z",
+      "playText": "Flory Bidunga misses free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -31938,113 +31938,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45838938,
-      "sourceId": "401827655118258899",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 131,
-      "team": "Kansas",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 18,
-      "opponent": "BYU",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 80,
-      "awayScore": 66,
-      "homeWinProbability": 0.998,
-      "period": 2,
-      "clock": "5:57",
-      "secondsRemaining": 357,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T23:19:15.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 53,
-          "name": "Flory Bidunga"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 53,
-          "name": "Flory Bidunga"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6078,
-          "name": "Jayden Dawson",
-          "team": "Kansas"
-        },
-        {
-          "id": 15031,
-          "name": "Khadim Mboup",
-          "team": "BYU"
-        },
-        {
-          "id": 7674,
-          "name": "Keba Keita",
-          "team": "BYU"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 5642,
-          "name": "Tre White",
-          "team": "Kansas"
-        },
-        {
-          "id": 2824,
-          "name": "Melvin Council Jr.",
-          "team": "Kansas"
-        },
-        {
-          "id": 165,
-          "name": "Robert Wright III",
-          "team": "BYU"
-        },
-        {
-          "id": 199886,
-          "name": "Bryson Tiller",
-          "team": "Kansas"
-        },
-        {
-          "id": 748,
-          "name": "Kennard Davis Jr.",
-          "team": "BYU"
-        },
-        {
-          "id": 53,
-          "name": "Flory Bidunga",
-          "team": "Kansas"
-        }
-      ]
-    },
-    {
-      "gameId": 214706,
-      "gameSourceId": "401827655",
-      "gameStartDate": "2026-01-31T21:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45838937,
       "sourceId": "401827655118258831",
       "playType": "MadeFreeThrow",
@@ -32152,8 +32045,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45838954,
-      "sourceId": "401827655118260979",
+      "id": 45838938,
+      "sourceId": "401827655118258899",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -32164,17 +32057,124 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 80,
+      "awayScore": 66,
+      "homeWinProbability": 0.998,
+      "period": 2,
+      "clock": "5:57",
+      "secondsRemaining": 357,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T23:19:15.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 53,
+          "name": "Flory Bidunga"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 53,
+          "name": "Flory Bidunga"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6078,
+          "name": "Jayden Dawson",
+          "team": "Kansas"
+        },
+        {
+          "id": 15031,
+          "name": "Khadim Mboup",
+          "team": "BYU"
+        },
+        {
+          "id": 7674,
+          "name": "Keba Keita",
+          "team": "BYU"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 5642,
+          "name": "Tre White",
+          "team": "Kansas"
+        },
+        {
+          "id": 2824,
+          "name": "Melvin Council Jr.",
+          "team": "Kansas"
+        },
+        {
+          "id": 165,
+          "name": "Robert Wright III",
+          "team": "BYU"
+        },
+        {
+          "id": 199886,
+          "name": "Bryson Tiller",
+          "team": "Kansas"
+        },
+        {
+          "id": 748,
+          "name": "Kennard Davis Jr.",
+          "team": "BYU"
+        },
+        {
+          "id": 53,
+          "name": "Flory Bidunga",
+          "team": "Kansas"
+        }
+      ]
+    },
+    {
+      "gameId": 214706,
+      "gameSourceId": "401827655",
+      "gameStartDate": "2026-01-31T21:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45838955,
+      "sourceId": "401827655118261060",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 131,
+      "team": "Kansas",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 18,
+      "opponent": "BYU",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 82,
       "awayScore": 71,
-      "homeWinProbability": 0.973,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "4:03",
       "secondsRemaining": 243,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T23:27:22.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2026-01-31T23:27:43.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -32259,8 +32259,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45838955,
-      "sourceId": "401827655118261060",
+      "id": 45838954,
+      "sourceId": "401827655118260979",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -32271,17 +32271,17 @@
       "opponent": "BYU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 81,
       "awayScore": 71,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.973,
       "period": 2,
       "clock": "4:03",
       "secondsRemaining": 243,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T23:27:43.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-01-31T23:27:22.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -36176,8 +36176,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46736073,
-      "sourceId": "401820818118715768",
+      "id": 46736069,
+      "sourceId": "401820818118715760",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -36188,17 +36188,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:06",
       "secondsRemaining": 786,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:37:29.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-02-10T03:37:07.000Z",
+      "playText": "Flory Bidunga misses free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -36210,7 +36210,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36283,8 +36283,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46736069,
-      "sourceId": "401820818118715760",
+      "id": 46736073,
+      "sourceId": "401820818118715768",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -36295,17 +36295,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:06",
       "secondsRemaining": 786,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T03:37:07.000Z",
-      "playText": "Flory Bidunga misses free throw 1 of 2",
+      "wallclock": "2026-02-10T03:37:29.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -36317,7 +36317,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36933,8 +36933,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46736193,
-      "sourceId": "401820818118716427",
+      "id": 46736194,
+      "sourceId": "401820818118716430",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -36945,7 +36945,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
@@ -36954,8 +36954,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T04:08:55.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2026-02-10T04:09:19.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -37040,8 +37040,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46736194,
-      "sourceId": "401820818118716430",
+      "id": 46736193,
+      "sourceId": "401820818118716427",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -37052,7 +37052,7 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
@@ -37061,8 +37061,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T04:09:19.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-02-10T04:08:55.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -38336,8 +38336,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47089751,
-      "sourceId": "401827682118921849",
+      "id": 47089747,
+      "sourceId": "401827682118921729",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -38349,16 +38349,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 52,
+      "awayScore": 51,
       "homeWinProbability": 0.997,
       "period": 2,
       "clock": "5:35",
       "secondsRemaining": 335,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T19:50:16.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-02-14T19:49:56.000Z",
+      "playText": "Flory Bidunga misses free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -38370,7 +38370,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38443,8 +38443,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47089747,
-      "sourceId": "401827682118921729",
+      "id": 47089751,
+      "sourceId": "401827682118921849",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -38456,16 +38456,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 51,
+      "awayScore": 52,
       "homeWinProbability": 0.997,
       "period": 2,
       "clock": "5:35",
       "secondsRemaining": 335,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T19:49:56.000Z",
-      "playText": "Flory Bidunga misses free throw 1 of 2",
+      "wallclock": "2026-02-14T19:50:16.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -38477,7 +38477,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44091,9 +44091,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48659112,
-      "sourceId": "401827715119842845",
-      "playType": "LayUpShot",
+      "id": 48659117,
+      "sourceId": "401827715119842887",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
       "team": "Kansas",
@@ -44109,11 +44109,11 @@
       "period": 2,
       "clock": "19:39",
       "secondsRemaining": 1179,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-04T03:27:56.000Z",
-      "playText": "Flory Bidunga makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-04T03:28:26.000Z",
+      "playText": "Flory Bidunga misses free throw 1 of 1",
       "participants": [
         {
           "id": 53,
@@ -44125,16 +44125,16 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 280
         }
       },
       "onFloor": [
@@ -44198,9 +44198,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48659117,
-      "sourceId": "401827715119842887",
-      "playType": "MadeFreeThrow",
+      "id": 48659112,
+      "sourceId": "401827715119842845",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 131,
       "team": "Kansas",
@@ -44216,11 +44216,11 @@
       "period": 2,
       "clock": "19:39",
       "secondsRemaining": 1179,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-04T03:28:26.000Z",
-      "playText": "Flory Bidunga misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-04T03:27:56.000Z",
+      "playText": "Flory Bidunga makes layup",
       "participants": [
         {
           "id": 53,
@@ -44232,16 +44232,16 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -44852,8 +44852,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48659513,
-      "sourceId": "401827715119845520",
+      "id": 48659514,
+      "sourceId": "401827715119845526",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -44865,7 +44865,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 51,
+      "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:01",
@@ -44873,8 +44873,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T04:11:36.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2026-03-04T04:11:58.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -44959,8 +44959,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48659514,
-      "sourceId": "401827715119845526",
+      "id": 48659513,
+      "sourceId": "401827715119845520",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 131,
@@ -44972,7 +44972,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 52,
+      "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:01",
@@ -44980,8 +44980,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T04:11:58.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-03-04T04:11:36.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -47024,8 +47024,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49331943,
-      "sourceId": "401851302120226677",
+      "id": 49331946,
+      "sourceId": "401851302120226701",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -47036,7 +47036,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 55,
       "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
@@ -47045,8 +47045,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T03:33:24.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2026-03-13T03:33:47.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -47131,8 +47131,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49331946,
-      "sourceId": "401851302120226701",
+      "id": 49331943,
+      "sourceId": "401851302120226677",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -47143,7 +47143,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 54,
       "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
@@ -47152,8 +47152,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T03:33:47.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-03-13T03:33:24.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -48419,8 +48419,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49573989,
-      "sourceId": "401856495120335694",
+      "id": 49573991,
+      "sourceId": "401856495120335698",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -48431,17 +48431,17 @@
       "opponent": "California Baptist",
       "opponentConference": "WAC",
       "opponentSeed": 13,
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
       "homeWinProbability": null,
       "period": 1,
       "clock": "19:04",
       "secondsRemaining": 1144,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T02:09:44.000Z",
-      "playText": "Flory Bidunga misses free throw 1 of 2",
+      "wallclock": "2026-03-21T02:10:02.000Z",
+      "playText": "Flory Bidunga makes free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -48453,7 +48453,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48461,8 +48461,8 @@
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -48526,8 +48526,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49573991,
-      "sourceId": "401856495120335698",
+      "id": 49573989,
+      "sourceId": "401856495120335694",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -48538,17 +48538,17 @@
       "opponent": "California Baptist",
       "opponentConference": "WAC",
       "opponentSeed": 13,
-      "homeScore": 1,
+      "homeScore": 0,
       "awayScore": 0,
       "homeWinProbability": null,
       "period": 1,
       "clock": "19:04",
       "secondsRemaining": 1144,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T02:10:02.000Z",
-      "playText": "Flory Bidunga makes free throw 2 of 2",
+      "wallclock": "2026-03-21T02:09:44.000Z",
+      "playText": "Flory Bidunga misses free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -48560,7 +48560,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -48568,8 +48568,8 @@
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 245
         }
       },
       "onFloor": [
@@ -49279,8 +49279,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49574232,
-      "sourceId": "401856495120337279",
+      "id": 49574233,
+      "sourceId": "401856495120337281",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -49297,11 +49297,11 @@
       "period": 2,
       "clock": "17:27",
       "secondsRemaining": 1047,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T03:24:05.000Z",
-      "playText": "Flory Bidunga makes free throw 1 of 2",
+      "wallclock": "2026-03-21T03:24:23.000Z",
+      "playText": "Flory Bidunga misses free throw 2 of 2",
       "participants": [
         {
           "id": 53,
@@ -49313,7 +49313,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -49386,8 +49386,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49574233,
-      "sourceId": "401856495120337281",
+      "id": 49574232,
+      "sourceId": "401856495120337279",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 131,
@@ -49404,11 +49404,11 @@
       "period": 2,
       "clock": "17:27",
       "secondsRemaining": 1047,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T03:24:23.000Z",
-      "playText": "Flory Bidunga misses free throw 2 of 2",
+      "wallclock": "2026-03-21T03:24:05.000Z",
+      "playText": "Flory Bidunga makes free throw 1 of 2",
       "participants": [
         {
           "id": 53,
@@ -49420,7 +49420,7 @@
           "id": 53,
           "name": "Flory Bidunga"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51709,66 +51709,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": null,
-      "attackKick": null,
-      "perimeterSniper": {
-        "ppp": 0,
-        "percentile": 0.1,
-        "freqPer100": 0.1
-      },
-      "dribbleJumper": null,
-      "midRange": null,
-      "hitsCutter": {
-        "ppp": 1.16,
-        "percentile": 86.6,
-        "freqPer100": 5.3
-      },
-      "perimeterCut": null,
-      "pnrPasser": {
-        "ppp": 1.09,
-        "percentile": 76,
-        "freqPer100": 0.5
-      },
-      "bigCutRoll": {
-        "ppp": 1.52,
-        "percentile": 99.3,
-        "freqPer100": 25.8
-      },
-      "postUp": {
-        "ppp": 0.91,
-        "percentile": 75.7,
-        "freqPer100": 28
-      },
-      "insideOut": {
-        "ppp": 1,
-        "percentile": 68.2,
-        "freqPer100": 14.2
-      },
-      "pickAndPop": {
-        "ppp": 0,
-        "percentile": 1,
-        "freqPer100": 0.3
-      },
-      "highLow": {
-        "ppp": 1.22,
-        "percentile": 90,
-        "freqPer100": 4.8
-      },
-      "rebScramble": {
-        "ppp": 1.34,
-        "percentile": 75.7,
-        "freqPer100": 13.8
-      },
-      "transition": {
-        "ppp": 1.54,
-        "percentile": 95.6,
-        "freqPer100": 7.3
       }
     }
   }

@@ -243,7 +243,8 @@
     "jersey": "15",
     "position": "Center",
     "height": 87,
-    "weight": 255,
+    "weight": 260,
+    "wingspan": null,
     "hometown": {
       "city": "Zaragoza",
       "state": "ESP"
@@ -3061,8 +3062,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38693879,
-      "sourceId": "401817529114153748",
+      "id": 38693880,
+      "sourceId": "401817529114153888",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -3073,16 +3074,16 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 77,
-      "homeWinProbability": 0.178,
+      "homeWinProbability": 0.181,
       "period": 2,
       "clock": "3:44",
       "secondsRemaining": 224,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:30:53.000Z",
+      "wallclock": "2025-11-12T01:31:08.000Z",
       "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
@@ -3168,8 +3169,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38693880,
-      "sourceId": "401817529114153888",
+      "id": 38693879,
+      "sourceId": "401817529114153748",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -3180,16 +3181,16 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 77,
-      "homeWinProbability": 0.181,
+      "homeWinProbability": 0.178,
       "period": 2,
       "clock": "3:44",
       "secondsRemaining": 224,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:31:08.000Z",
+      "wallclock": "2025-11-12T01:30:53.000Z",
       "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
@@ -3610,113 +3611,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019390,
-      "sourceId": "401812252114330020",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 170,
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 287,
-      "opponent": "TCU",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 3,
-      "awayScore": 3,
-      "homeWinProbability": 0.618,
-      "period": 1,
-      "clock": "17:04",
-      "secondsRemaining": 1024,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-15T02:05:40.000Z",
-      "playText": "Aday Mara missed Free Throw.",
-      "participants": [
-        {
-          "id": 535,
-          "name": "Aday Mara"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 535,
-          "name": "Aday Mara"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5674,
-          "name": "David Punch",
-          "team": "TCU"
-        },
-        {
-          "id": 202414,
-          "name": "Xavier Edmonds",
-          "team": "TCU"
-        },
-        {
-          "id": 5482,
-          "name": "Brock Harding",
-          "team": "TCU"
-        },
-        {
-          "id": 6861,
-          "name": "Liutauras Lelevicius",
-          "team": "TCU"
-        },
-        {
-          "id": 237,
-          "name": "Elliot Cadeau",
-          "team": "Michigan"
-        },
-        {
-          "id": 5611,
-          "name": "Nimari Burnett",
-          "team": "Michigan"
-        },
-        {
-          "id": 3136,
-          "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 5609,
-          "name": "Roddy Gayle Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        }
-      ]
-    },
-    {
-      "gameId": 209902,
-      "gameSourceId": "401812252",
-      "gameStartDate": "2025-11-15T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 39019392,
       "sourceId": "401812252114330083",
       "playType": "MadeFreeThrow",
@@ -3824,8 +3718,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019472,
-      "sourceId": "401812252114334018",
+      "id": 39019390,
+      "sourceId": "401812252114330020",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -3836,16 +3730,16 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
-      "awayScore": 10,
-      "homeWinProbability": 0.791,
+      "homeScore": 3,
+      "awayScore": 3,
+      "homeWinProbability": 0.618,
       "period": 1,
-      "clock": "10:30",
-      "secondsRemaining": 630,
+      "clock": "17:04",
+      "secondsRemaining": 1024,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:25:23.000Z",
+      "wallclock": "2025-11-15T02:05:40.000Z",
       "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
@@ -3859,6 +3753,113 @@
           "name": "Aday Mara"
         },
         "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 202414,
+          "name": "Xavier Edmonds",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 237,
+          "name": "Elliot Cadeau",
+          "team": "Michigan"
+        },
+        {
+          "id": 5611,
+          "name": "Nimari Burnett",
+          "team": "Michigan"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 5609,
+          "name": "Roddy Gayle Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        }
+      ]
+    },
+    {
+      "gameId": 209902,
+      "gameSourceId": "401812252",
+      "gameStartDate": "2025-11-15T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 39019482,
+      "sourceId": "401812252114334154",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 16,
+      "awayScore": 11,
+      "homeWinProbability": 0.772,
+      "period": 1,
+      "clock": "10:30",
+      "secondsRemaining": 630,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-15T02:25:54.000Z",
+      "playText": "Aday Mara made Free Throw.",
+      "participants": [
+        {
+          "id": 535,
+          "name": "Aday Mara"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 535,
+          "name": "Aday Mara"
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -3931,8 +3932,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39019482,
-      "sourceId": "401812252114334154",
+      "id": 39019472,
+      "sourceId": "401812252114334018",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -3944,16 +3945,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 11,
-      "homeWinProbability": 0.772,
+      "awayScore": 10,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "10:30",
       "secondsRemaining": 630,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T02:25:54.000Z",
-      "playText": "Aday Mara made Free Throw.",
+      "wallclock": "2025-11-15T02:25:23.000Z",
+      "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
           "id": 535,
@@ -3965,7 +3966,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6658,8 +6659,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40218585,
-      "sourceId": "401823479114991935",
+      "id": 40218543,
+      "sourceId": "401823479114991885",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -6676,11 +6677,11 @@
       "period": 1,
       "clock": "19:04",
       "secondsRemaining": 1144,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T01:39:55.000Z",
-      "playText": "Aday Mara missed Free Throw.",
+      "wallclock": "2025-11-26T01:39:39.000Z",
+      "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
           "id": 535,
@@ -6692,7 +6693,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6765,8 +6766,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40218543,
-      "sourceId": "401823479114991885",
+      "id": 40218585,
+      "sourceId": "401823479114991935",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -6783,11 +6784,11 @@
       "period": 1,
       "clock": "19:04",
       "secondsRemaining": 1144,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T01:39:39.000Z",
-      "playText": "Aday Mara made Free Throw.",
+      "wallclock": "2025-11-26T01:39:55.000Z",
+      "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
           "id": 535,
@@ -6799,7 +6800,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8065,8 +8066,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316314,
-      "sourceId": "401831214115073584",
+      "id": 40316312,
+      "sourceId": "401831214115073582",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -8086,7 +8087,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:00:12.000Z",
+      "wallclock": "2025-11-27T02:59:57.000Z",
       "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
@@ -8172,8 +8173,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316312,
-      "sourceId": "401831214115073582",
+      "id": 40316314,
+      "sourceId": "401831214115073584",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -8193,7 +8194,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T02:59:57.000Z",
+      "wallclock": "2025-11-27T03:00:12.000Z",
       "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
@@ -8604,8 +8605,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316543,
-      "sourceId": "401831214115076459",
+      "id": 40316542,
+      "sourceId": "401831214115076454",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -8622,11 +8623,11 @@
       "period": 2,
       "clock": "14:29",
       "secondsRemaining": 869,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:04:13.000Z",
-      "playText": "Aday Mara missed Free Throw.",
+      "wallclock": "2025-11-27T04:03:54.000Z",
+      "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
           "id": 535,
@@ -8638,7 +8639,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8711,8 +8712,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316542,
-      "sourceId": "401831214115076454",
+      "id": 40316543,
+      "sourceId": "401831214115076459",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -8729,11 +8730,11 @@
       "period": 2,
       "clock": "14:29",
       "secondsRemaining": 869,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:03:54.000Z",
-      "playText": "Aday Mara made Free Throw.",
+      "wallclock": "2025-11-27T04:04:13.000Z",
+      "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
           "id": 535,
@@ -8745,7 +8746,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8929,9 +8930,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316614,
-      "sourceId": "401831214115076937",
-      "playType": "LayUpShot",
+      "id": 40316618,
+      "sourceId": "401831214115076950",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -8947,16 +8948,12 @@
       "period": 2,
       "clock": "8:42",
       "secondsRemaining": 522,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-27T04:19:18.000Z",
-      "playText": "Aday Mara made Layup. Assisted by Elliot Cadeau.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-27T04:19:54.000Z",
+      "playText": "Aday Mara missed Free Throw.",
       "participants": [
-        {
-          "id": 237,
-          "name": "Elliot Cadeau"
-        },
         {
           "id": 535,
           "name": "Aday Mara"
@@ -8967,16 +8964,16 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 237,
-          "name": "Elliot Cadeau"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 94,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -9040,9 +9037,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40316618,
-      "sourceId": "401831214115076950",
-      "playType": "MadeFreeThrow",
+      "id": 40316614,
+      "sourceId": "401831214115076937",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -9058,12 +9055,16 @@
       "period": 2,
       "clock": "8:42",
       "secondsRemaining": 522,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-27T04:19:54.000Z",
-      "playText": "Aday Mara missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-27T04:19:18.000Z",
+      "playText": "Aday Mara made Layup. Assisted by Elliot Cadeau.",
       "participants": [
+        {
+          "id": 237,
+          "name": "Elliot Cadeau"
+        },
         {
           "id": 535,
           "name": "Aday Mara"
@@ -9074,16 +9075,16 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 237,
+          "name": "Elliot Cadeau"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 235
         }
       },
       "onFloor": [
@@ -9476,8 +9477,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41104534,
-      "sourceId": "401825400115561881",
+      "id": 41104533,
+      "sourceId": "401825400115561872",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -9488,16 +9489,16 @@
       "opponent": "Rutgers",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 25,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.994,
       "period": 1,
       "clock": "0:55",
       "secondsRemaining": 55,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:56:20.000Z",
+      "wallclock": "2025-12-06T21:56:00.000Z",
       "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
@@ -9583,8 +9584,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41104533,
-      "sourceId": "401825400115561872",
+      "id": 41104534,
+      "sourceId": "401825400115561881",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -9595,16 +9596,16 @@
       "opponent": "Rutgers",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 25,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.996,
       "period": 1,
       "clock": "0:55",
       "secondsRemaining": 55,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:56:00.000Z",
+      "wallclock": "2025-12-06T21:56:20.000Z",
       "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
@@ -11097,8 +11098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41431741,
-      "sourceId": "401823566115704377",
+      "id": 41431742,
+      "sourceId": "401823566115704409",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -11109,7 +11110,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 35,
       "homeWinProbability": 1,
       "period": 2,
@@ -11118,7 +11119,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T00:58:09.000Z",
+      "wallclock": "2025-12-10T00:58:28.000Z",
       "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
@@ -11204,8 +11205,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41431742,
-      "sourceId": "401823566115704409",
+      "id": 41431741,
+      "sourceId": "401823566115704377",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -11216,7 +11217,7 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 35,
       "homeWinProbability": 1,
       "period": 2,
@@ -11225,7 +11226,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-10T00:58:28.000Z",
+      "wallclock": "2025-12-10T00:58:09.000Z",
       "playText": "Aday Mara made Free Throw.",
       "participants": [
         {
@@ -11965,9 +11966,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41741950,
-      "sourceId": "401825408115862647",
-      "playType": "LayUpShot",
+      "id": 41741960,
+      "sourceId": "401825408115862730",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -11983,19 +11984,15 @@
       "period": 1,
       "clock": "10:57",
       "secondsRemaining": 657,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-14T01:28:12.000Z",
-      "playText": "Aday Mara made Layup. Assisted by L.J. Cason.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-14T01:28:49.000Z",
+      "playText": "Aday Mara missed Free Throw.",
       "participants": [
         {
           "id": 535,
           "name": "Aday Mara"
-        },
-        {
-          "id": 5617,
-          "name": "L.J. Cason"
         }
       ],
       "shotInfo": {
@@ -12003,16 +12000,16 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 5617,
-          "name": "L.J. Cason"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -12076,9 +12073,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41741960,
-      "sourceId": "401825408115862730",
-      "playType": "MadeFreeThrow",
+      "id": 41741950,
+      "sourceId": "401825408115862647",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -12094,15 +12091,19 @@
       "period": 1,
       "clock": "10:57",
       "secondsRemaining": 657,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-14T01:28:49.000Z",
-      "playText": "Aday Mara missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-14T01:28:12.000Z",
+      "playText": "Aday Mara made Layup. Assisted by L.J. Cason.",
       "participants": [
         {
           "id": 535,
           "name": "Aday Mara"
+        },
+        {
+          "id": 5617,
+          "name": "L.J. Cason"
         }
       ],
       "shotInfo": {
@@ -12110,16 +12111,16 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 5617,
+          "name": "L.J. Cason"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 240
         }
       },
       "onFloor": [
@@ -14046,8 +14047,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42399563,
-      "sourceId": "401822185116288455",
+      "id": 42399565,
+      "sourceId": "401822185116288459",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -14067,8 +14068,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T21:46:50.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "wallclock": "2025-12-21T21:47:08.000Z",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -14153,8 +14154,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42399565,
-      "sourceId": "401822185116288459",
+      "id": 42399563,
+      "sourceId": "401822185116288455",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -14174,8 +14175,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T21:47:08.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "wallclock": "2025-12-21T21:46:50.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -14474,8 +14475,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42399585,
-      "sourceId": "401822185116288989",
+      "id": 42399582,
+      "sourceId": "401822185116288941",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -14486,17 +14487,17 @@
       "opponent": "La Salle",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 29,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.993,
       "period": 1,
       "clock": "1:33",
       "secondsRemaining": 93,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T21:50:54.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2025-12-21T21:50:30.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -14581,8 +14582,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42399582,
-      "sourceId": "401822185116288941",
+      "id": 42399585,
+      "sourceId": "401822185116288989",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -14593,17 +14594,17 @@
       "opponent": "La Salle",
       "opponentConference": "A-10",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 29,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.994,
       "period": 1,
       "clock": "1:33",
       "secondsRemaining": 93,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T21:50:30.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2025-12-21T21:50:54.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -15350,8 +15351,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42751200,
-      "sourceId": "401826084116441568",
+      "id": 42751202,
+      "sourceId": "401826084116441696",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -15371,8 +15372,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:04:03.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "wallclock": "2025-12-30T00:04:24.000Z",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -15457,8 +15458,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42751202,
-      "sourceId": "401826084116441696",
+      "id": 42751200,
+      "sourceId": "401826084116441568",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -15478,8 +15479,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:04:24.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "wallclock": "2025-12-30T00:04:03.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -15889,113 +15890,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42751376,
-      "sourceId": "401826084116452206",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 170,
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 162,
-      "opponent": "McNeese",
-      "opponentConference": "Southland",
-      "opponentSeed": null,
-      "homeScore": 40,
-      "awayScore": 23,
-      "homeWinProbability": 0.969,
-      "period": 1,
-      "clock": "5:11",
-      "secondsRemaining": 311,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-30T00:41:42.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 535,
-          "name": "Aday Mara"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 535,
-          "name": "Aday Mara"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 4401,
-          "name": "Tyshawn Archie",
-          "team": "McNeese"
-        },
-        {
-          "id": 5609,
-          "name": "Roddy Gayle Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 7818,
-          "name": "Larry Johnson",
-          "team": "McNeese"
-        },
-        {
-          "id": 5617,
-          "name": "L.J. Cason",
-          "team": "Michigan"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 4096,
-          "name": "Garwey Dual",
-          "team": "McNeese"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        },
-        {
-          "id": 1280,
-          "name": "DJ Richards Jr.",
-          "team": "McNeese"
-        },
-        {
-          "id": 5647,
-          "name": "Morez Johnson Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 200401,
-          "name": "Peitok Machar",
-          "team": "McNeese"
-        }
-      ]
-    },
-    {
-      "gameId": 214214,
-      "gameSourceId": "401826084",
-      "gameStartDate": "2025-12-30T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42751378,
       "sourceId": "401826084116452220",
       "playType": "MadeFreeThrow",
@@ -16103,8 +15997,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42751385,
-      "sourceId": "401826084116452713",
+      "id": 42751376,
+      "sourceId": "401826084116452206",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -16115,16 +16009,16 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 40,
       "awayScore": 23,
-      "homeWinProbability": 0.985,
+      "homeWinProbability": 0.969,
       "period": 1,
-      "clock": "5:08",
-      "secondsRemaining": 308,
+      "clock": "5:11",
+      "secondsRemaining": 311,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:43:33.000Z",
+      "wallclock": "2025-12-30T00:41:42.000Z",
       "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
@@ -16150,11 +16044,6 @@
         }
       },
       "onFloor": [
-        {
-          "id": 6386,
-          "name": "Carl Cherenfant",
-          "team": "McNeese"
-        },
         {
           "id": 4401,
           "name": "Tyshawn Archie",
@@ -16199,6 +16088,11 @@
           "id": 5647,
           "name": "Morez Johnson Jr.",
           "team": "Michigan"
+        },
+        {
+          "id": 200401,
+          "name": "Peitok Machar",
+          "team": "McNeese"
         }
       ]
     },
@@ -16317,8 +16211,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42751392,
-      "sourceId": "401826084116453162",
+      "id": 42751385,
+      "sourceId": "401826084116452713",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -16329,17 +16223,124 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 41,
+      "awayScore": 23,
+      "homeWinProbability": 0.985,
+      "period": 1,
+      "clock": "5:08",
+      "secondsRemaining": 308,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-30T00:43:33.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 535,
+          "name": "Aday Mara"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 535,
+          "name": "Aday Mara"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6386,
+          "name": "Carl Cherenfant",
+          "team": "McNeese"
+        },
+        {
+          "id": 4401,
+          "name": "Tyshawn Archie",
+          "team": "McNeese"
+        },
+        {
+          "id": 5609,
+          "name": "Roddy Gayle Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 7818,
+          "name": "Larry Johnson",
+          "team": "McNeese"
+        },
+        {
+          "id": 5617,
+          "name": "L.J. Cason",
+          "team": "Michigan"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 4096,
+          "name": "Garwey Dual",
+          "team": "McNeese"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        },
+        {
+          "id": 1280,
+          "name": "DJ Richards Jr.",
+          "team": "McNeese"
+        },
+        {
+          "id": 5647,
+          "name": "Morez Johnson Jr.",
+          "team": "Michigan"
+        }
+      ]
+    },
+    {
+      "gameId": 214214,
+      "gameSourceId": "401826084",
+      "gameStartDate": "2025-12-30T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42751393,
+      "sourceId": "401826084116453253",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 162,
+      "opponent": "McNeese",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 44,
       "awayScore": 25,
-      "homeWinProbability": 0.982,
+      "homeWinProbability": 0.987,
       "period": 1,
       "clock": "4:32",
       "secondsRemaining": 272,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:45:02.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2025-12-30T00:45:19.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -16424,8 +16425,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42751393,
-      "sourceId": "401826084116453253",
+      "id": 42751392,
+      "sourceId": "401826084116453162",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -16436,17 +16437,17 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 43,
       "awayScore": 25,
-      "homeWinProbability": 0.987,
+      "homeWinProbability": 0.982,
       "period": 1,
       "clock": "4:32",
       "secondsRemaining": 272,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T00:45:19.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2025-12-30T00:45:02.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -17843,8 +17844,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43147745,
-      "sourceId": "401825411116676239",
+      "id": 43147741,
+      "sourceId": "401825411116676191",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -17855,17 +17856,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 65,
       "awayScore": 42,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "12:05",
       "secondsRemaining": 725,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T01:42:09.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-01-03T01:41:50.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -17877,7 +17878,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17950,8 +17951,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43147741,
-      "sourceId": "401825411116676191",
+      "id": 43147745,
+      "sourceId": "401825411116676239",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -17962,17 +17963,17 @@
       "opponent": "USC",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 66,
       "awayScore": 42,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "12:05",
       "secondsRemaining": 725,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T01:41:50.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "wallclock": "2026-01-03T01:42:09.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -17984,7 +17985,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18168,8 +18169,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43147765,
-      "sourceId": "401825411116677547",
+      "id": 43147767,
+      "sourceId": "401825411116677564",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -18190,7 +18191,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-03T01:50:22.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -18275,8 +18276,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43147767,
-      "sourceId": "401825411116677564",
+      "id": 43147765,
+      "sourceId": "401825411116677547",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -18297,7 +18298,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-03T01:50:22.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -18818,8 +18819,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554754,
-      "sourceId": "401825423116891654",
+      "id": 43554749,
+      "sourceId": "401825423116891610",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -18831,16 +18832,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 12,
-      "awayScore": 17,
-      "homeWinProbability": 0.454,
+      "awayScore": 16,
+      "homeWinProbability": 0.509,
       "period": 1,
       "clock": "10:45",
       "secondsRemaining": 645,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T00:22:50.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-01-07T00:22:28.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -18925,8 +18926,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554749,
-      "sourceId": "401825423116891610",
+      "id": 43554754,
+      "sourceId": "401825423116891654",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -18938,16 +18939,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 12,
-      "awayScore": 16,
-      "homeWinProbability": 0.509,
+      "awayScore": 17,
+      "homeWinProbability": 0.454,
       "period": 1,
       "clock": "10:45",
       "secondsRemaining": 645,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T00:22:28.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-01-07T00:22:50.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -23162,8 +23163,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44540950,
-      "sourceId": "401825450117523179",
+      "id": 44540958,
+      "sourceId": "401825450117523303",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -23175,16 +23176,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 37,
-      "homeWinProbability": 0.619,
+      "awayScore": 38,
+      "homeWinProbability": 0.598,
       "period": 1,
       "clock": "1:43",
       "secondsRemaining": 103,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:52:39.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "wallclock": "2026-01-17T21:53:02.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -23196,7 +23197,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -23269,8 +23270,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44540958,
-      "sourceId": "401825450117523303",
+      "id": 44540950,
+      "sourceId": "401825450117523179",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -23282,16 +23283,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 38,
-      "homeWinProbability": 0.598,
+      "awayScore": 37,
+      "homeWinProbability": 0.619,
       "period": 1,
       "clock": "1:43",
       "secondsRemaining": 103,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:53:02.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-01-17T21:52:39.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -23303,7 +23304,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -23483,8 +23484,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44540967,
-      "sourceId": "401825450117523633",
+      "id": 44540968,
+      "sourceId": "401825450117523699",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -23496,16 +23497,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 39,
-      "homeWinProbability": 0.571,
+      "awayScore": 40,
+      "homeWinProbability": 0.563,
       "period": 1,
       "clock": "0:44",
       "secondsRemaining": 44,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:54:57.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-01-17T21:55:15.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -23590,8 +23591,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44540968,
-      "sourceId": "401825450117523699",
+      "id": 44540967,
+      "sourceId": "401825450117523633",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -23603,16 +23604,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 38,
-      "awayScore": 40,
-      "homeWinProbability": 0.563,
+      "awayScore": 39,
+      "homeWinProbability": 0.571,
       "period": 1,
       "clock": "0:44",
       "secondsRemaining": 44,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T21:55:15.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-01-17T21:54:57.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -27054,8 +27055,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171575,
-      "sourceId": "401825464117820289",
+      "id": 45171576,
+      "sourceId": "401825464117820295",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -27066,17 +27067,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 51,
-      "homeWinProbability": 0.807,
+      "homeWinProbability": 0.841,
       "period": 2,
       "clock": "7:13",
       "secondsRemaining": 433,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T02:56:46.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-01-24T02:57:04.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -27161,8 +27162,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171576,
-      "sourceId": "401825464117820295",
+      "id": 45171575,
+      "sourceId": "401825464117820289",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -27173,17 +27174,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 51,
-      "homeWinProbability": 0.841,
+      "homeWinProbability": 0.807,
       "period": 2,
       "clock": "7:13",
       "secondsRemaining": 433,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T02:57:04.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-01-24T02:56:46.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -27486,8 +27487,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171606,
-      "sourceId": "401825464117820115",
+      "id": 45171609,
+      "sourceId": "401825464117820118",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -27498,17 +27499,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 56,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "3:17",
       "secondsRemaining": 197,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T03:06:54.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-01-24T03:07:21.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -27593,8 +27594,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45171609,
-      "sourceId": "401825464117820118",
+      "id": 45171606,
+      "sourceId": "401825464117820115",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -27605,17 +27606,17 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 56,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "3:17",
       "secondsRemaining": 197,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T03:07:21.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-01-24T03:06:54.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -28251,8 +28252,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45495131,
-      "sourceId": "401825474117992465",
+      "id": 45495130,
+      "sourceId": "401825474117992437",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -28269,11 +28270,11 @@
       "period": 2,
       "clock": "6:05",
       "secondsRemaining": 365,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:39:13.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "wallclock": "2026-01-28T01:38:57.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -28285,7 +28286,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28358,8 +28359,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45495130,
-      "sourceId": "401825474117992437",
+      "id": 45495131,
+      "sourceId": "401825474117992465",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -28376,11 +28377,11 @@
       "period": 2,
       "clock": "6:05",
       "secondsRemaining": 365,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:38:57.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-01-28T01:39:13.000Z",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -28392,7 +28393,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28576,8 +28577,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45495188,
-      "sourceId": "401825474117993961",
+      "id": 45495185,
+      "sourceId": "401825474117993930",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -28594,11 +28595,11 @@
       "period": 2,
       "clock": "0:16",
       "secondsRemaining": 16,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:55:44.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "wallclock": "2026-01-28T01:55:15.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -28610,7 +28611,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28683,8 +28684,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45495185,
-      "sourceId": "401825474117993930",
+      "id": 45495188,
+      "sourceId": "401825474117993961",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -28701,11 +28702,11 @@
       "period": 2,
       "clock": "0:16",
       "secondsRemaining": 16,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T01:55:15.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-01-28T01:55:44.000Z",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -28717,7 +28718,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30411,8 +30412,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46329731,
-      "sourceId": "401825496118440589",
+      "id": 46329734,
+      "sourceId": "401825496118440646",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -30429,11 +30430,11 @@
       "period": 1,
       "clock": "8:50",
       "secondsRemaining": 530,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T23:57:08.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-02-05T23:57:22.000Z",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -30445,7 +30446,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30518,8 +30519,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46329734,
-      "sourceId": "401825496118440646",
+      "id": 46329731,
+      "sourceId": "401825496118440589",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -30536,11 +30537,11 @@
       "period": 1,
       "clock": "8:50",
       "secondsRemaining": 530,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T23:57:22.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "wallclock": "2026-02-05T23:57:08.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -30552,7 +30553,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31057,8 +31058,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46329942,
-      "sourceId": "401825496118464489",
+      "id": 46329943,
+      "sourceId": "401825496118464649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -31069,7 +31070,7 @@
       "opponent": "Penn State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 87,
       "awayScore": 46,
       "homeWinProbability": 1,
       "period": 2,
@@ -31078,8 +31079,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-06T01:05:19.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-02-06T01:05:34.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -31164,8 +31165,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46329943,
-      "sourceId": "401825496118464649",
+      "id": 46329942,
+      "sourceId": "401825496118464489",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -31176,7 +31177,7 @@
       "opponent": "Penn State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 86,
       "awayScore": 46,
       "homeWinProbability": 1,
       "period": 2,
@@ -31185,8 +31186,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-06T01:05:34.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-02-06T01:05:19.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -35528,8 +35529,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46833830,
-      "sourceId": "401825509118786313",
+      "id": 46833828,
+      "sourceId": "401825509118786278",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -35541,16 +35542,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 83,
+      "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:01",
       "secondsRemaining": 121,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T03:49:05.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-02-12T03:48:40.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -35562,7 +35563,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35635,8 +35636,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46833828,
-      "sourceId": "401825509118786278",
+      "id": 46833830,
+      "sourceId": "401825509118786313",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -35648,16 +35649,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 82,
+      "awayScore": 83,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:01",
       "secondsRemaining": 121,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T03:48:40.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "wallclock": "2026-02-12T03:49:05.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -35669,7 +35670,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35853,8 +35854,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049841,
-      "sourceId": "401825514118886444",
+      "id": 47049845,
+      "sourceId": "401825514118886450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -35865,17 +35866,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 3,
-      "homeWinProbability": 0.709,
+      "homeWinProbability": 0.735,
       "period": 1,
       "clock": "16:41",
       "secondsRemaining": 1001,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T17:56:04.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
+      "wallclock": "2026-02-14T17:56:23.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -35887,7 +35888,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35960,8 +35961,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049845,
-      "sourceId": "401825514118886450",
+      "id": 47049841,
+      "sourceId": "401825514118886444",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -35972,17 +35973,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 5,
       "awayScore": 3,
-      "homeWinProbability": 0.735,
+      "homeWinProbability": 0.709,
       "period": 1,
       "clock": "16:41",
       "secondsRemaining": 1001,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T17:56:23.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-02-14T17:56:04.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -35994,7 +35995,7 @@
           "id": 535,
           "name": "Aday Mara"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36717,9 +36718,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47051212,
-      "sourceId": "401825514118915615",
-      "playType": "LayUpShot",
+      "id": 47051224,
+      "sourceId": "401825514118916217",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -36729,17 +36730,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 54,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "6:05",
       "secondsRemaining": 365,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-14T19:36:17.000Z",
-      "playText": "Aday Mara misses layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-14T19:37:25.000Z",
+      "playText": "Aday Mara misses free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -36752,15 +36753,15 @@
           "name": "Aday Mara"
         },
         "made": false,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36824,9 +36825,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47051224,
-      "sourceId": "401825514118916217",
-      "playType": "MadeFreeThrow",
+      "id": 47051212,
+      "sourceId": "401825514118915615",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -36836,17 +36837,17 @@
       "opponent": "UCLA",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 54,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "6:05",
       "secondsRemaining": 365,
       "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-14T19:37:25.000Z",
-      "playText": "Aday Mara misses free throw 2 of 2",
+      "scoreValue": 2,
+      "wallclock": "2026-02-14T19:36:17.000Z",
+      "playText": "Aday Mara misses layup",
       "participants": [
         {
           "id": 535,
@@ -36859,15 +36860,15 @@
           "name": "Aday Mara"
         },
         "made": false,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 250
         }
       },
       "onFloor": [
@@ -37922,113 +37923,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411387,
-      "sourceId": "401825524119081866",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 170,
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 236,
-      "opponent": "Purdue",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 28,
-      "awayScore": 44,
-      "homeWinProbability": 0.126,
-      "period": 1,
-      "clock": "2:37",
-      "secondsRemaining": 157,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T00:14:28.000Z",
-      "playText": "Aday Mara misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 535,
-          "name": "Aday Mara"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 535,
-          "name": "Aday Mara"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 201569,
-          "name": "Omer Mayer",
-          "team": "Purdue"
-        },
-        {
-          "id": 5611,
-          "name": "Nimari Burnett",
-          "team": "Michigan"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 237,
-          "name": "Elliot Cadeau",
-          "team": "Michigan"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 370,
-          "name": "Gicarri Harris",
-          "team": "Purdue"
-        },
-        {
-          "id": 5647,
-          "name": "Morez Johnson Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        }
-      ]
-    },
-    {
-      "gameId": 214968,
-      "gameSourceId": "401825524",
-      "gameStartDate": "2026-02-17T23:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47411393,
       "sourceId": "401825524119081962",
       "playType": "MadeFreeThrow",
@@ -38136,9 +38030,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411400,
-      "sourceId": "401825524119082109",
-      "playType": "JumpShot",
+      "id": 47411387,
+      "sourceId": "401825524119081866",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -38149,16 +38043,123 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 28,
-      "awayScore": 47,
-      "homeWinProbability": 0.05,
+      "awayScore": 44,
+      "homeWinProbability": 0.126,
+      "period": 1,
+      "clock": "2:37",
+      "secondsRemaining": 157,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T00:14:28.000Z",
+      "playText": "Aday Mara misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 535,
+          "name": "Aday Mara"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 535,
+          "name": "Aday Mara"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 201569,
+          "name": "Omer Mayer",
+          "team": "Purdue"
+        },
+        {
+          "id": 5611,
+          "name": "Nimari Burnett",
+          "team": "Michigan"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 237,
+          "name": "Elliot Cadeau",
+          "team": "Michigan"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 370,
+          "name": "Gicarri Harris",
+          "team": "Purdue"
+        },
+        {
+          "id": 5647,
+          "name": "Morez Johnson Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        }
+      ]
+    },
+    {
+      "gameId": 214968,
+      "gameSourceId": "401825524",
+      "gameStartDate": "2026-02-17T23:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47411404,
+      "sourceId": "401825524119082145",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 236,
+      "opponent": "Purdue",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 28,
+      "awayScore": 48,
+      "homeWinProbability": 0.034,
       "period": 1,
       "clock": "1:55",
       "secondsRemaining": 115,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-18T00:16:22.000Z",
-      "playText": "Aday Mara makes 7-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-02-18T00:16:50.000Z",
+      "playText": "Aday Mara makes free throw 1 of 1",
       "participants": [
         {
           "id": 535,
@@ -38171,15 +38172,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 310
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -38243,9 +38244,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411404,
-      "sourceId": "401825524119082145",
-      "playType": "MadeFreeThrow",
+      "id": 47411400,
+      "sourceId": "401825524119082109",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -38256,16 +38257,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 28,
-      "awayScore": 48,
-      "homeWinProbability": 0.034,
+      "awayScore": 47,
+      "homeWinProbability": 0.05,
       "period": 1,
       "clock": "1:55",
       "secondsRemaining": 115,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-18T00:16:50.000Z",
-      "playText": "Aday Mara makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-18T00:16:22.000Z",
+      "playText": "Aday Mara makes 7-foot jumper",
       "participants": [
         {
           "id": 535,
@@ -38278,15 +38279,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 310
         }
       },
       "onFloor": [
@@ -41620,9 +41621,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48234197,
-      "sourceId": "401825544119615817",
-      "playType": "MadeFreeThrow",
+      "id": 48234192,
+      "sourceId": "401825544119615770",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -41633,16 +41634,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 66,
+      "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:12",
       "secondsRemaining": 552,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-28T02:43:39.000Z",
-      "playText": "Aday Mara makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-28T02:42:04.000Z",
+      "playText": "Aday Mara makes layup",
       "participants": [
         {
           "id": 535,
@@ -41655,7 +41656,7 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -41727,9 +41728,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48234192,
-      "sourceId": "401825544119615770",
-      "playType": "LayUpShot",
+      "id": 48234197,
+      "sourceId": "401825544119615817",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -41740,16 +41741,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 65,
+      "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:12",
       "secondsRemaining": 552,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-28T02:42:04.000Z",
-      "playText": "Aday Mara makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-28T02:43:39.000Z",
+      "playText": "Aday Mara makes free throw 1 of 1",
       "participants": [
         {
           "id": 535,
@@ -41762,7 +41763,7 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -44565,9 +44566,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49384941,
-      "sourceId": "401851380120232640",
-      "playType": "MadeFreeThrow",
+      "id": 49384939,
+      "sourceId": "401851380120232622",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -44577,7 +44578,7 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 48,
       "awayScore": 44,
       "homeWinProbability": null,
       "period": 2,
@@ -44585,10 +44586,14 @@
       "secondsRemaining": 818,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-13T17:29:14.000Z",
-      "playText": "Aday Mara makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-13T17:28:41.000Z",
+      "playText": "Aday Mara makes layup (Elliot Cadeau assists)",
       "participants": [
+        {
+          "id": 237,
+          "name": "Elliot Cadeau"
+        },
         {
           "id": 535,
           "name": "Aday Mara"
@@ -44600,15 +44605,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 237,
+          "name": "Elliot Cadeau"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 260
         }
       },
       "onFloor": [
@@ -44672,9 +44677,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49384939,
-      "sourceId": "401851380120232622",
-      "playType": "LayUpShot",
+      "id": 49384941,
+      "sourceId": "401851380120232640",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
       "team": "Michigan",
@@ -44684,7 +44689,7 @@
       "opponent": "Ohio State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 49,
       "awayScore": 44,
       "homeWinProbability": null,
       "period": 2,
@@ -44692,14 +44697,10 @@
       "secondsRemaining": 818,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-13T17:28:41.000Z",
-      "playText": "Aday Mara makes layup (Elliot Cadeau assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-13T17:29:14.000Z",
+      "playText": "Aday Mara makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 237,
-          "name": "Elliot Cadeau"
-        },
         {
           "id": 535,
           "name": "Aday Mara"
@@ -44711,15 +44712,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 237,
-          "name": "Elliot Cadeau"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -46396,6 +46397,113 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
+      "id": 49451613,
+      "sourceId": "401851384120265175",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 170,
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 355,
+      "opponent": "Wisconsin",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 45,
+      "awayScore": 36,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "13:08",
+      "secondsRemaining": 788,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-14T18:25:27.000Z",
+      "playText": "Aday Mara makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 535,
+          "name": "Aday Mara"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 535,
+          "name": "Aday Mara"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 200517,
+          "name": "Trey McKenney",
+          "team": "Michigan"
+        },
+        {
+          "id": 203456,
+          "name": "Will Garlock",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 8458,
+          "name": "Nick Boyd",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 237,
+          "name": "Elliot Cadeau",
+          "team": "Michigan"
+        },
+        {
+          "id": 203460,
+          "name": "Hayden Jones",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 5418,
+          "name": "John Blackwell",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 4402,
+          "name": "Braeden Carrington",
+          "team": "Wisconsin"
+        },
+        {
+          "id": 535,
+          "name": "Aday Mara",
+          "team": "Michigan"
+        },
+        {
+          "id": 5609,
+          "name": "Roddy Gayle Jr.",
+          "team": "Michigan"
+        },
+        {
+          "id": 3951,
+          "name": "Yaxel Lendeborg",
+          "team": "Michigan"
+        }
+      ]
+    },
+    {
+      "gameId": 372427,
+      "gameSourceId": "401851384",
+      "gameStartDate": "2026-03-14T17:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
       "id": 49451607,
       "sourceId": "401851384120265158",
       "playType": "JumpShot",
@@ -46547,113 +46655,6 @@
         "location": {
           "x": 883.6,
           "y": 250
-        }
-      },
-      "onFloor": [
-        {
-          "id": 200517,
-          "name": "Trey McKenney",
-          "team": "Michigan"
-        },
-        {
-          "id": 203456,
-          "name": "Will Garlock",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 8458,
-          "name": "Nick Boyd",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 237,
-          "name": "Elliot Cadeau",
-          "team": "Michigan"
-        },
-        {
-          "id": 203460,
-          "name": "Hayden Jones",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 5418,
-          "name": "John Blackwell",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 4402,
-          "name": "Braeden Carrington",
-          "team": "Wisconsin"
-        },
-        {
-          "id": 535,
-          "name": "Aday Mara",
-          "team": "Michigan"
-        },
-        {
-          "id": 5609,
-          "name": "Roddy Gayle Jr.",
-          "team": "Michigan"
-        },
-        {
-          "id": 3951,
-          "name": "Yaxel Lendeborg",
-          "team": "Michigan"
-        }
-      ]
-    },
-    {
-      "gameId": 372427,
-      "gameSourceId": "401851384",
-      "gameStartDate": "2026-03-14T17:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
-      "id": 49451613,
-      "sourceId": "401851384120265175",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 170,
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 355,
-      "opponent": "Wisconsin",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 45,
-      "awayScore": 36,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "13:08",
-      "secondsRemaining": 788,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-14T18:25:27.000Z",
-      "playText": "Aday Mara makes free throw 1 of 1",
-      "participants": [
-        {
-          "id": 535,
-          "name": "Aday Mara"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 535,
-          "name": "Aday Mara"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
         }
       },
       "onFloor": [
@@ -49654,8 +49655,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49549903,
-      "sourceId": "401856486120311148",
+      "id": 49549887,
+      "sourceId": "401856486120311111",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -49666,7 +49667,7 @@
       "opponent": "Howard",
       "opponentConference": "MEAC",
       "opponentSeed": 16,
-      "homeScore": 81,
+      "homeScore": 80,
       "awayScore": 64,
       "homeWinProbability": null,
       "period": 2,
@@ -49675,8 +49676,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T01:10:09.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-03-20T01:09:48.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -49761,8 +49762,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49549887,
-      "sourceId": "401856486120311111",
+      "id": 49549903,
+      "sourceId": "401856486120311148",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -49773,7 +49774,7 @@
       "opponent": "Howard",
       "opponentConference": "MEAC",
       "opponentSeed": 16,
-      "homeScore": 80,
+      "homeScore": 81,
       "awayScore": 64,
       "homeWinProbability": null,
       "period": 2,
@@ -49782,8 +49783,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T01:09:48.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-03-20T01:10:09.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -54339,8 +54340,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661074,
-      "sourceId": "401856576120400972",
+      "id": 49661075,
+      "sourceId": "401856576120400973",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -54351,7 +54352,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": 6,
-      "homeScore": 18,
+      "homeScore": 19,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -54360,8 +54361,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T18:45:50.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-03-29T18:46:11.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -54446,8 +54447,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661075,
-      "sourceId": "401856576120400973",
+      "id": 49661074,
+      "sourceId": "401856576120400972",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 170,
@@ -54458,7 +54459,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": 6,
-      "homeScore": 19,
+      "homeScore": 18,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -54467,8 +54468,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T18:46:11.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-03-29T18:45:50.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -55639,9 +55640,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49679874,
-      "sourceId": "401856599120414825",
-      "playType": "MadeFreeThrow",
+      "id": 49679872,
+      "sourceId": "401856599120414821",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -55652,20 +55653,24 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 27,
-      "awayScore": 41,
+      "awayScore": 40,
       "homeWinProbability": null,
       "period": 1,
       "clock": "2:36",
       "secondsRemaining": 156,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-04-05T02:12:07.000Z",
-      "playText": "Aday Mara makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-04-05T02:11:37.000Z",
+      "playText": "Aday Mara makes layup (Trey McKenney assists)",
       "participants": [
         {
           "id": 535,
           "name": "Aday Mara"
+        },
+        {
+          "id": 200517,
+          "name": "Trey McKenney"
         }
       ],
       "shotInfo": {
@@ -55674,15 +55679,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 200517,
+          "name": "Trey McKenney"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 230
         }
       },
       "onFloor": [
@@ -55746,9 +55751,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49679872,
-      "sourceId": "401856599120414821",
-      "playType": "LayUpShot",
+      "id": 49679874,
+      "sourceId": "401856599120414825",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -55759,24 +55764,20 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 27,
-      "awayScore": 40,
+      "awayScore": 41,
       "homeWinProbability": null,
       "period": 1,
       "clock": "2:36",
       "secondsRemaining": 156,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-04-05T02:11:37.000Z",
-      "playText": "Aday Mara makes layup (Trey McKenney assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-04-05T02:12:07.000Z",
+      "playText": "Aday Mara makes free throw 1 of 1",
       "participants": [
         {
           "id": 535,
           "name": "Aday Mara"
-        },
-        {
-          "id": 200517,
-          "name": "Trey McKenney"
         }
       ],
       "shotInfo": {
@@ -55785,15 +55786,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 200517,
-          "name": "Trey McKenney"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -55968,8 +55969,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49679888,
-      "sourceId": "401856599120414841",
+      "id": 49679887,
+      "sourceId": "401856599120414840",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -55981,7 +55982,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 27,
-      "awayScore": 45,
+      "awayScore": 44,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:47",
@@ -55989,8 +55990,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-05T02:14:22.000Z",
-      "playText": "Aday Mara makes free throw 2 of 2",
+      "wallclock": "2026-04-05T02:14:00.000Z",
+      "playText": "Aday Mara makes free throw 1 of 2",
       "participants": [
         {
           "id": 535,
@@ -56075,8 +56076,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49679887,
-      "sourceId": "401856599120414840",
+      "id": 49679888,
+      "sourceId": "401856599120414841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
@@ -56088,7 +56089,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 27,
-      "awayScore": 44,
+      "awayScore": 45,
       "homeWinProbability": null,
       "period": 1,
       "clock": "1:47",
@@ -56096,8 +56097,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-04-05T02:14:00.000Z",
-      "playText": "Aday Mara makes free throw 1 of 2",
+      "wallclock": "2026-04-05T02:14:22.000Z",
+      "playText": "Aday Mara makes free throw 2 of 2",
       "participants": [
         {
           "id": 535,
@@ -57169,9 +57170,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49680093,
-      "sourceId": "401856599120415090",
-      "playType": "MadeFreeThrow",
+      "id": 49680091,
+      "sourceId": "401856599120415086",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -57182,16 +57183,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 64,
-      "awayScore": 86,
+      "awayScore": 85,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:19",
       "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-04-05T03:17:55.000Z",
-      "playText": "Aday Mara makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-04-05T03:17:27.000Z",
+      "playText": "Aday Mara makes layup",
       "participants": [
         {
           "id": 535,
@@ -57204,15 +57205,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 230
         }
       },
       "onFloor": [
@@ -57276,9 +57277,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49680091,
-      "sourceId": "401856599120415086",
-      "playType": "LayUpShot",
+      "id": 49680093,
+      "sourceId": "401856599120415090",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 170,
       "team": "Michigan",
@@ -57289,16 +57290,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 64,
-      "awayScore": 85,
+      "awayScore": 86,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:19",
       "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-04-05T03:17:27.000Z",
-      "playText": "Aday Mara makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-04-05T03:17:55.000Z",
+      "playText": "Aday Mara makes free throw 1 of 1",
       "participants": [
         {
           "id": 535,
@@ -57311,15 +57312,15 @@
           "name": "Aday Mara"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -59589,66 +59590,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": null,
-      "attackKick": null,
-      "perimeterSniper": {
-        "ppp": 0.91,
-        "percentile": 42.7,
-        "freqPer100": 0.2
-      },
-      "dribbleJumper": null,
-      "midRange": null,
-      "hitsCutter": {
-        "ppp": 1.23,
-        "percentile": 95.2,
-        "freqPer100": 7.6
-      },
-      "perimeterCut": null,
-      "pnrPasser": {
-        "ppp": 1.24,
-        "percentile": 97.4,
-        "freqPer100": 1.6
-      },
-      "bigCutRoll": {
-        "ppp": 1.48,
-        "percentile": 98.7,
-        "freqPer100": 19.7
-      },
-      "postUp": {
-        "ppp": 0.91,
-        "percentile": 75.5,
-        "freqPer100": 26.5
-      },
-      "insideOut": {
-        "ppp": 1.11,
-        "percentile": 95.2,
-        "freqPer100": 11.6
-      },
-      "pickAndPop": {
-        "ppp": 1.02,
-        "percentile": 59.6,
-        "freqPer100": 0.9
-      },
-      "highLow": {
-        "ppp": 1.24,
-        "percentile": 91.7,
-        "freqPer100": 10.7
-      },
-      "rebScramble": {
-        "ppp": 1.61,
-        "percentile": 96.5,
-        "freqPer100": 10.7
-      },
-      "transition": {
-        "ppp": 1.31,
-        "percentile": 67.8,
-        "freqPer100": 10.5
       }
     }
   }

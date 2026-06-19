@@ -244,6 +244,7 @@
     "position": "Forward",
     "height": 83,
     "weight": 240,
+    "wingspan": null,
     "hometown": {
       "city": "New Orleans",
       "state": "LA"
@@ -11266,113 +11267,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41636812,
-      "sourceId": "401808901115823577",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 113,
-      "team": "Houston",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 193,
-      "opponent": "New Orleans",
-      "opponentConference": "Southland",
-      "opponentSeed": null,
-      "homeScore": 37,
-      "awayScore": 12,
-      "homeWinProbability": 0.991,
-      "period": 1,
-      "clock": "4:49",
-      "secondsRemaining": 289,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-13T20:46:13.000Z",
-      "playText": "Chris Cenac Jr. missed Free Throw.",
-      "participants": [
-        {
-          "id": 199595,
-          "name": "Chris Cenac Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199595,
-          "name": "Chris Cenac Jr."
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 112,
-          "name": "Joseph Tugler",
-          "team": "Houston"
-        },
-        {
-          "id": 6116,
-          "name": "Jakevion Buckley",
-          "team": "New Orleans"
-        },
-        {
-          "id": 199596,
-          "name": "Kingston Flemings",
-          "team": "Houston"
-        },
-        {
-          "id": 199595,
-          "name": "Chris Cenac Jr.",
-          "team": "Houston"
-        },
-        {
-          "id": 115,
-          "name": "Emanuel Sharp",
-          "team": "Houston"
-        },
-        {
-          "id": 200889,
-          "name": "Enzo Boudouma",
-          "team": "New Orleans"
-        },
-        {
-          "id": 114,
-          "name": "Milos Uzan",
-          "team": "Houston"
-        },
-        {
-          "id": 200891,
-          "name": "Jamal Chretien II",
-          "team": "New Orleans"
-        },
-        {
-          "id": 200892,
-          "name": "TJ Cope",
-          "team": "New Orleans"
-        },
-        {
-          "id": 7603,
-          "name": "MJ Thomas",
-          "team": "New Orleans"
-        }
-      ]
-    },
-    {
-      "gameId": 210270,
-      "gameSourceId": "401808901",
-      "gameStartDate": "2025-12-13T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41636809,
       "sourceId": "401808901115823441",
       "playType": "MadeFreeThrow",
@@ -11480,8 +11374,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41636819,
-      "sourceId": "401808901115823930",
+      "id": 41636812,
+      "sourceId": "401808901115823577",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 113,
+      "team": "Houston",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 193,
+      "opponent": "New Orleans",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 37,
+      "awayScore": 12,
+      "homeWinProbability": 0.991,
+      "period": 1,
+      "clock": "4:49",
+      "secondsRemaining": 289,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-13T20:46:13.000Z",
+      "playText": "Chris Cenac Jr. missed Free Throw.",
+      "participants": [
+        {
+          "id": 199595,
+          "name": "Chris Cenac Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199595,
+          "name": "Chris Cenac Jr."
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 112,
+          "name": "Joseph Tugler",
+          "team": "Houston"
+        },
+        {
+          "id": 6116,
+          "name": "Jakevion Buckley",
+          "team": "New Orleans"
+        },
+        {
+          "id": 199596,
+          "name": "Kingston Flemings",
+          "team": "Houston"
+        },
+        {
+          "id": 199595,
+          "name": "Chris Cenac Jr.",
+          "team": "Houston"
+        },
+        {
+          "id": 115,
+          "name": "Emanuel Sharp",
+          "team": "Houston"
+        },
+        {
+          "id": 200889,
+          "name": "Enzo Boudouma",
+          "team": "New Orleans"
+        },
+        {
+          "id": 114,
+          "name": "Milos Uzan",
+          "team": "Houston"
+        },
+        {
+          "id": 200891,
+          "name": "Jamal Chretien II",
+          "team": "New Orleans"
+        },
+        {
+          "id": 200892,
+          "name": "TJ Cope",
+          "team": "New Orleans"
+        },
+        {
+          "id": 7603,
+          "name": "MJ Thomas",
+          "team": "New Orleans"
+        }
+      ]
+    },
+    {
+      "gameId": 210270,
+      "gameSourceId": "401808901",
+      "gameStartDate": "2025-12-13T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41636823,
+      "sourceId": "401808901115823938",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -11501,7 +11502,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T20:47:28.000Z",
+      "wallclock": "2025-12-13T20:47:52.000Z",
       "playText": "Chris Cenac Jr. missed Free Throw.",
       "participants": [
         {
@@ -11587,8 +11588,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41636823,
-      "sourceId": "401808901115823938",
+      "id": 41636819,
+      "sourceId": "401808901115823930",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -11608,7 +11609,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T20:47:52.000Z",
+      "wallclock": "2025-12-13T20:47:28.000Z",
       "playText": "Chris Cenac Jr. missed Free Throw.",
       "participants": [
         {
@@ -15487,8 +15488,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43561385,
-      "sourceId": "401827600116908534",
+      "id": 43561381,
+      "sourceId": "401827600116908503",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -15499,17 +15500,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 60,
-      "homeWinProbability": 0.78,
+      "homeWinProbability": 0.713,
       "period": 2,
       "clock": "1:17",
       "secondsRemaining": 77,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T04:24:14.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-07T04:23:59.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -15521,7 +15522,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15594,8 +15595,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43561381,
-      "sourceId": "401827600116908503",
+      "id": 43561385,
+      "sourceId": "401827600116908534",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -15606,17 +15607,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 60,
-      "homeWinProbability": 0.713,
+      "homeWinProbability": 0.78,
       "period": 2,
       "clock": "1:17",
       "secondsRemaining": 77,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T04:23:59.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
+      "wallclock": "2026-01-07T04:24:14.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -15628,7 +15629,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17013,8 +17014,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44248489,
-      "sourceId": "401827616117281805",
+      "id": 44248486,
+      "sourceId": "401827616117281767",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -17025,17 +17026,17 @@
       "opponent": "West Virginia",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 5,
-      "homeWinProbability": 0.93,
+      "homeWinProbability": 0.905,
       "period": 1,
       "clock": "9:37",
       "secondsRemaining": 577,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:10:26.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-14T02:10:05.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -17120,8 +17121,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44248486,
-      "sourceId": "401827616117281767",
+      "id": 44248489,
+      "sourceId": "401827616117281805",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -17132,17 +17133,17 @@
       "opponent": "West Virginia",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 5,
-      "homeWinProbability": 0.905,
+      "homeWinProbability": 0.93,
       "period": 1,
       "clock": "9:37",
       "secondsRemaining": 577,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:10:05.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-14T02:10:26.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -17338,8 +17339,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44248597,
-      "sourceId": "401827616117283779",
+      "id": 44248601,
+      "sourceId": "401827616117283799",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -17359,8 +17360,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:36:16.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
+      "wallclock": "2026-01-14T02:36:34.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -17445,8 +17446,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44248601,
-      "sourceId": "401827616117283799",
+      "id": 44248597,
+      "sourceId": "401827616117283779",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -17466,8 +17467,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:36:34.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 2 of 2",
+      "wallclock": "2026-01-14T02:36:16.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -20921,8 +20922,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621694,
-      "sourceId": "401827650118054444",
+      "id": 45621691,
+      "sourceId": "401827650118054418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -20939,11 +20940,11 @@
       "period": 2,
       "clock": "7:25",
       "secondsRemaining": 445,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T04:03:02.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 2 of 2",
+      "wallclock": "2026-01-29T04:02:42.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -20955,7 +20956,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -21028,8 +21029,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621691,
-      "sourceId": "401827650118054418",
+      "id": 45621694,
+      "sourceId": "401827650118054444",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -21046,11 +21047,11 @@
       "period": 2,
       "clock": "7:25",
       "secondsRemaining": 445,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T04:02:42.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-29T04:03:02.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -21062,7 +21063,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28317,8 +28318,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47783017,
-      "sourceId": "401827695119309995",
+      "id": 47783019,
+      "sourceId": "401827695119310065",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -28329,17 +28330,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 24,
       "awayScore": 32,
-      "homeWinProbability": 0.309,
+      "homeWinProbability": 0.316,
       "period": 1,
       "clock": "3:43",
       "secondsRemaining": 223,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T20:56:33.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-21T20:56:46.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -28424,8 +28425,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47783019,
-      "sourceId": "401827695119310065",
+      "id": 47783017,
+      "sourceId": "401827695119309995",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -28436,17 +28437,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 23,
       "awayScore": 32,
-      "homeWinProbability": 0.316,
+      "homeWinProbability": 0.309,
       "period": 1,
       "clock": "3:43",
       "secondsRemaining": 223,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T20:56:46.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-21T20:56:33.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -32324,8 +32325,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713359,
-      "sourceId": "401827721119889146",
+      "id": 48713361,
+      "sourceId": "401827721119889150",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -32336,17 +32337,17 @@
       "opponent": "Baylor",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:39",
       "secondsRemaining": 99,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T04:12:58.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-05T04:13:14.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -32358,7 +32359,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32431,8 +32432,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713361,
-      "sourceId": "401827721119889150",
+      "id": 48713359,
+      "sourceId": "401827721119889146",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -32443,17 +32444,17 @@
       "opponent": "Baylor",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:39",
       "secondsRemaining": 99,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T04:13:14.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-05T04:12:58.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -32465,7 +32466,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34928,8 +34929,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49432566,
-      "sourceId": "401851305120256026",
+      "id": 49432548,
+      "sourceId": "401851305120256006",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -34949,8 +34950,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:14:40.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 2 of 2",
+      "wallclock": "2026-03-14T02:14:20.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -35035,8 +35036,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49432548,
-      "sourceId": "401851305120256006",
+      "id": 49432566,
+      "sourceId": "401851305120256026",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -35056,8 +35057,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:14:20.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-14T02:14:40.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -36973,8 +36974,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49545888,
-      "sourceId": "401856493120316856",
+      "id": 49545889,
+      "sourceId": "401856493120316880",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -36985,7 +36986,7 @@
       "opponent": "Idaho",
       "opponentConference": "Big Sky",
       "opponentSeed": 15,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -36994,8 +36995,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T02:40:18.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-20T02:40:31.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -37080,8 +37081,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49545889,
-      "sourceId": "401856493120316880",
+      "id": 49545888,
+      "sourceId": "401856493120316856",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -37092,7 +37093,7 @@
       "opponent": "Idaho",
       "opponentConference": "Big Sky",
       "opponentSeed": 15,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -37101,8 +37102,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T02:40:31.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-20T02:40:18.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -38055,8 +38056,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49593708,
-      "sourceId": "401856535120347607",
+      "id": 49593713,
+      "sourceId": "401856535120347619",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -38067,7 +38068,7 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": 10,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 24,
       "homeWinProbability": null,
       "period": 1,
@@ -38076,8 +38077,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T23:00:19.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-21T23:00:40.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -38162,8 +38163,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49593713,
-      "sourceId": "401856535120347619",
+      "id": 49593708,
+      "sourceId": "401856535120347607",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -38174,7 +38175,7 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": 10,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 24,
       "homeWinProbability": null,
       "period": 1,
@@ -38183,8 +38184,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T23:00:40.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-21T23:00:19.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -39236,8 +39237,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49593950,
-      "sourceId": "401856535120349249",
+      "id": 49593936,
+      "sourceId": "401856535120349212",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -39248,17 +39249,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": 10,
-      "homeScore": 76,
+      "homeScore": 75,
       "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:32",
       "secondsRemaining": 332,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T00:11:20.000Z",
-      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-22T00:10:54.000Z",
+      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 199595,
@@ -39270,7 +39271,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -39343,8 +39344,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49593936,
-      "sourceId": "401856535120349212",
+      "id": 49593950,
+      "sourceId": "401856535120349249",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -39355,17 +39356,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": 10,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:32",
       "secondsRemaining": 332,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T00:10:54.000Z",
-      "playText": "Chris Cenac Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-22T00:11:20.000Z",
+      "playText": "Chris Cenac Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 199595,
@@ -39377,7 +39378,7 @@
           "id": 199595,
           "name": "Chris Cenac Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42025,86 +42026,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 0.75,
-        "percentile": 25.9,
-        "freqPer100": 1.9
-      },
-      "attackKick": {
-        "ppp": 1.08,
-        "percentile": 86.6,
-        "freqPer100": 1.5
-      },
-      "perimeterSniper": {
-        "ppp": 0.93,
-        "percentile": 47.4,
-        "freqPer100": 5.1
-      },
-      "dribbleJumper": {
-        "ppp": 0,
-        "percentile": 1.2,
-        "freqPer100": 3
-      },
-      "midRange": {
-        "ppp": 0.87,
-        "percentile": 75.7,
-        "freqPer100": 4.9
-      },
-      "hitsCutter": {
-        "ppp": 1.09,
-        "percentile": 69,
-        "freqPer100": 2.3
-      },
-      "perimeterCut": {
-        "ppp": 1.34,
-        "percentile": 84.2,
-        "freqPer100": 2.1
-      },
-      "pnrPasser": {
-        "ppp": 1.14,
-        "percentile": 87.3,
-        "freqPer100": 0.4
-      },
-      "bigCutRoll": {
-        "ppp": 1.31,
-        "percentile": 84.1,
-        "freqPer100": 8.2
-      },
-      "postUp": {
-        "ppp": 0.83,
-        "percentile": 53.7,
-        "freqPer100": 26.7
-      },
-      "insideOut": {
-        "ppp": 1.07,
-        "percentile": 89.3,
-        "freqPer100": 6.7
-      },
-      "pickAndPop": {
-        "ppp": 0.99,
-        "percentile": 53.9,
-        "freqPer100": 12.6
-      },
-      "highLow": {
-        "ppp": 1.01,
-        "percentile": 35,
-        "freqPer100": 3.6
-      },
-      "rebScramble": {
-        "ppp": 1.51,
-        "percentile": 92.2,
-        "freqPer100": 10.9
-      },
-      "transition": {
-        "ppp": 1.74,
-        "percentile": 99.6,
-        "freqPer100": 10.3
       }
     }
   }

@@ -56,6 +56,7 @@ const SOCIAL_LINKS = [
 
 const NAV_LINKS = [
   { label: "symbiosebb.fr", href: "https://symbiosebb.fr/", external: true },
+  { label: "Indices SIS / SIS-Px", href: "/sis-sispx", external: false },
   { label: "Mentions légales", href: "/mentions-legales", external: false },
   { label: "Confidentialité", href: "/confidentialite", external: false },
 ];

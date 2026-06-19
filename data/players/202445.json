@@ -243,7 +243,8 @@
     "jersey": "10",
     "position": "Forward",
     "height": 82,
-    "weight": 207,
+    "weight": 211,
+    "wingspan": null,
     "hometown": {
       "city": "Manassas",
       "state": "VA"
@@ -1555,8 +1556,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604248,
-      "sourceId": "401823483113646279",
+      "id": 37604249,
+      "sourceId": "401823483113646416",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -1567,16 +1568,16 @@
       "opponent": "Mercer",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 49,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "5:27",
       "secondsRemaining": 327,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:47:12.000Z",
+      "wallclock": "2025-11-04T01:47:23.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -1662,8 +1663,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604249,
-      "sourceId": "401823483113646416",
+      "id": 37604248,
+      "sourceId": "401823483113646279",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -1674,16 +1675,16 @@
       "opponent": "Mercer",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 49,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "5:27",
       "secondsRemaining": 327,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:47:23.000Z",
+      "wallclock": "2025-11-04T01:47:12.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -1983,9 +1984,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604285,
-      "sourceId": "401823483113654092",
-      "playType": "MadeFreeThrow",
+      "id": 37604283,
+      "sourceId": "401823483113653890",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -1995,7 +1996,7 @@
       "opponent": "Mercer",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
@@ -2003,9 +2004,9 @@
       "secondsRemaining": 131,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T01:58:27.000Z",
-      "playText": "Nate Ament made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-04T01:57:59.000Z",
+      "playText": "Nate Ament made Layup.",
       "participants": [
         {
           "id": 202445,
@@ -2018,15 +2019,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 808.4,
+          "y": 265
         }
       },
       "onFloor": [
@@ -2090,9 +2091,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37604283,
-      "sourceId": "401823483113653890",
-      "playType": "LayUpShot",
+      "id": 37604285,
+      "sourceId": "401823483113654092",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -2102,7 +2103,7 @@
       "opponent": "Mercer",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
@@ -2110,9 +2111,9 @@
       "secondsRemaining": 131,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-04T01:57:59.000Z",
-      "playText": "Nate Ament made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T01:58:27.000Z",
+      "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -2125,15 +2126,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 808.4,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -4300,113 +4301,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38372448,
-      "sourceId": "401823382113970690",
-      "playType": "JumpShot",
-      "isHomeTeam": true,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 210,
-      "opponent": "Northern Kentucky",
-      "opponentConference": "Horizon",
-      "opponentSeed": null,
-      "homeScore": 70,
-      "awayScore": 43,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "12:30",
-      "secondsRemaining": 750,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T21:23:07.000Z",
-      "playText": "Nate Ament made Jumper.",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": true,
-        "range": "jumper",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 817.8,
-          "y": 270
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202455,
-          "name": "Troy Henderson",
-          "team": "Tennessee"
-        },
-        {
-          "id": 201134,
-          "name": "Shawn Nelson",
-          "team": "Northern Kentucky"
-        },
-        {
-          "id": 302,
-          "name": "Felix Okpara",
-          "team": "Tennessee"
-        },
-        {
-          "id": 4561,
-          "name": "Jaylen Carey",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 3093,
-          "name": "LJ Wells",
-          "team": "Northern Kentucky"
-        },
-        {
-          "id": 3089,
-          "name": "Dan Gherezgher",
-          "team": "Northern Kentucky"
-        },
-        {
-          "id": 3099,
-          "name": "Donovan Rakotonanahary",
-          "team": "Northern Kentucky"
-        },
-        {
-          "id": 26019,
-          "name": "Tae Dozier",
-          "team": "Northern Kentucky"
-        }
-      ]
-    },
-    {
-      "gameId": 212958,
-      "gameSourceId": "401823382",
-      "gameStartDate": "2025-11-08T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38372452,
       "sourceId": "401823382113970768",
       "playType": "MadeFreeThrow",
@@ -4514,8 +4408,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38372463,
-      "sourceId": "401823382113971281",
+      "id": 38372448,
+      "sourceId": "401823382113970690",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 210,
+      "opponent": "Northern Kentucky",
+      "opponentConference": "Horizon",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 43,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "12:30",
+      "secondsRemaining": 750,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T21:23:07.000Z",
+      "playText": "Nate Ament made Jumper.",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 817.8,
+          "y": 270
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202455,
+          "name": "Troy Henderson",
+          "team": "Tennessee"
+        },
+        {
+          "id": 201134,
+          "name": "Shawn Nelson",
+          "team": "Northern Kentucky"
+        },
+        {
+          "id": 302,
+          "name": "Felix Okpara",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4561,
+          "name": "Jaylen Carey",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 3093,
+          "name": "LJ Wells",
+          "team": "Northern Kentucky"
+        },
+        {
+          "id": 3089,
+          "name": "Dan Gherezgher",
+          "team": "Northern Kentucky"
+        },
+        {
+          "id": 3099,
+          "name": "Donovan Rakotonanahary",
+          "team": "Northern Kentucky"
+        },
+        {
+          "id": 26019,
+          "name": "Tae Dozier",
+          "team": "Northern Kentucky"
+        }
+      ]
+    },
+    {
+      "gameId": 212958,
+      "gameSourceId": "401823382",
+      "gameStartDate": "2025-11-08T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38372464,
+      "sourceId": "401823382113971338",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -4526,7 +4527,7 @@
       "opponent": "Northern Kentucky",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 43,
       "homeWinProbability": 1,
       "period": 2,
@@ -4535,7 +4536,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T21:27:04.000Z",
+      "wallclock": "2025-11-08T21:27:15.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -4621,8 +4622,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38372464,
-      "sourceId": "401823382113971338",
+      "id": 38372463,
+      "sourceId": "401823382113971281",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -4633,7 +4634,7 @@
       "opponent": "Northern Kentucky",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 43,
       "homeWinProbability": 1,
       "period": 2,
@@ -4642,7 +4643,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T21:27:15.000Z",
+      "wallclock": "2025-11-08T21:27:04.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -5711,8 +5712,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38845617,
-      "sourceId": "401823442114209409",
+      "id": 38845618,
+      "sourceId": "401823442114209450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -5723,16 +5724,16 @@
       "opponent": "North Florida",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 30,
-      "homeWinProbability": 0.767,
+      "homeWinProbability": 0.779,
       "period": 1,
       "clock": "5:59",
       "secondsRemaining": 359,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T00:30:15.000Z",
+      "wallclock": "2025-11-13T00:30:26.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -5818,8 +5819,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38845618,
-      "sourceId": "401823442114209450",
+      "id": 38845617,
+      "sourceId": "401823442114209409",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -5830,16 +5831,16 @@
       "opponent": "North Florida",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 30,
-      "homeWinProbability": 0.779,
+      "homeWinProbability": 0.767,
       "period": 1,
       "clock": "5:59",
       "secondsRemaining": 359,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T00:30:26.000Z",
+      "wallclock": "2025-11-13T00:30:15.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -6032,8 +6033,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38845654,
-      "sourceId": "401823442114212553",
+      "id": 38845658,
+      "sourceId": "401823442114212691",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -6044,17 +6045,17 @@
       "opponent": "North Florida",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 44,
       "awayScore": 30,
-      "homeWinProbability": 0.938,
+      "homeWinProbability": 0.961,
       "period": 1,
       "clock": "2:33",
       "secondsRemaining": 153,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T00:38:57.000Z",
-      "playText": "Nate Ament missed Free Throw.",
+      "wallclock": "2025-11-13T00:39:15.000Z",
+      "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -6066,7 +6067,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -6139,8 +6140,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38845658,
-      "sourceId": "401823442114212691",
+      "id": 38845654,
+      "sourceId": "401823442114212553",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -6151,17 +6152,17 @@
       "opponent": "North Florida",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 43,
       "awayScore": 30,
-      "homeWinProbability": 0.961,
+      "homeWinProbability": 0.938,
       "period": 1,
       "clock": "2:33",
       "secondsRemaining": 153,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T00:39:15.000Z",
-      "playText": "Nate Ament made Free Throw.",
+      "wallclock": "2025-11-13T00:38:57.000Z",
+      "playText": "Nate Ament missed Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -6173,7 +6174,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9048,6 +9049,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 39354123,
+      "sourceId": "401826807114517967",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 241,
+      "opponent": "Rice",
+      "opponentConference": "American",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 41,
+      "homeWinProbability": 0.975,
+      "period": 2,
+      "clock": "13:48",
+      "secondsRemaining": 828,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-18T02:56:29.000Z",
+      "playText": "Nate Ament made Free Throw.",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 363,
+          "name": "Stephen Giwa",
+          "team": "Rice"
+        },
+        {
+          "id": 201657,
+          "name": "Cam Carroll",
+          "team": "Rice"
+        },
+        {
+          "id": 1764,
+          "name": "Dallas Hobbs",
+          "team": "Rice"
+        },
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 201659,
+          "name": "Eternity Eguagie",
+          "team": "Rice"
+        },
+        {
+          "id": 7435,
+          "name": "Jalen Smith",
+          "team": "Rice"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4561,
+          "name": "Jaylen Carey",
+          "team": "Tennessee"
+        },
+        {
+          "id": 308,
+          "name": "Cade Phillips",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202448,
+          "name": "Ethan Burg",
+          "team": "Tennessee"
+        }
+      ]
+    },
+    {
+      "gameId": 213241,
+      "gameSourceId": "401826807",
+      "gameStartDate": "2025-11-18T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 39354122,
       "sourceId": "401826807114517937",
       "playType": "MadeFreeThrow",
@@ -9262,8 +9370,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39354123,
-      "sourceId": "401826807114517967",
+      "id": 39354130,
+      "sourceId": "401826807114518018",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -9275,16 +9383,16 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 41,
-      "homeWinProbability": 0.975,
+      "awayScore": 44,
+      "homeWinProbability": 0.964,
       "period": 2,
-      "clock": "13:48",
-      "secondsRemaining": 828,
-      "scoringPlay": true,
+      "clock": "13:02",
+      "secondsRemaining": 782,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T02:56:29.000Z",
-      "playText": "Nate Ament made Free Throw.",
+      "wallclock": "2025-11-18T02:58:32.000Z",
+      "playText": "Nate Ament missed Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -9296,7 +9404,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9391,113 +9499,6 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-11-18T02:58:11.000Z",
-      "playText": "Nate Ament missed Free Throw.",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 363,
-          "name": "Stephen Giwa",
-          "team": "Rice"
-        },
-        {
-          "id": 201657,
-          "name": "Cam Carroll",
-          "team": "Rice"
-        },
-        {
-          "id": 1764,
-          "name": "Dallas Hobbs",
-          "team": "Rice"
-        },
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 201659,
-          "name": "Eternity Eguagie",
-          "team": "Rice"
-        },
-        {
-          "id": 7435,
-          "name": "Jalen Smith",
-          "team": "Rice"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 4561,
-          "name": "Jaylen Carey",
-          "team": "Tennessee"
-        },
-        {
-          "id": 308,
-          "name": "Cade Phillips",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202448,
-          "name": "Ethan Burg",
-          "team": "Tennessee"
-        }
-      ]
-    },
-    {
-      "gameId": 213241,
-      "gameSourceId": "401826807",
-      "gameStartDate": "2025-11-18T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 39354130,
-      "sourceId": "401826807114518018",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 241,
-      "opponent": "Rice",
-      "opponentConference": "American",
-      "opponentSeed": null,
-      "homeScore": 55,
-      "awayScore": 44,
-      "homeWinProbability": 0.964,
-      "period": 2,
-      "clock": "13:02",
-      "secondsRemaining": 782,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-18T02:58:32.000Z",
       "playText": "Nate Ament missed Free Throw.",
       "participants": [
         {
@@ -9908,8 +9909,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39354215,
-      "sourceId": "401826807114519080",
+      "id": 39354214,
+      "sourceId": "401826807114519044",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -9920,16 +9921,16 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 51,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "7:47",
       "secondsRemaining": 467,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T03:16:25.000Z",
+      "wallclock": "2025-11-18T03:16:11.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -10015,8 +10016,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39354214,
-      "sourceId": "401826807114519044",
+      "id": 39354215,
+      "sourceId": "401826807114519080",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -10027,16 +10028,16 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 51,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "7:47",
       "secondsRemaining": 467,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-18T03:16:11.000Z",
+      "wallclock": "2025-11-18T03:16:25.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -10336,9 +10337,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39354278,
-      "sourceId": "401826807114519766",
-      "playType": "MadeFreeThrow",
+      "id": 39354265,
+      "sourceId": "401826807114519588",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -10348,7 +10349,7 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 57,
       "homeWinProbability": 1,
       "period": 2,
@@ -10356,9 +10357,9 @@
       "secondsRemaining": 239,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-18T03:28:40.000Z",
-      "playText": "Nate Ament made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-18T03:25:37.000Z",
+      "playText": "Nate Ament made Layup.",
       "participants": [
         {
           "id": 202445,
@@ -10371,15 +10372,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 827.2,
+          "y": 230
         }
       },
       "onFloor": [
@@ -10443,9 +10444,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39354265,
-      "sourceId": "401826807114519588",
-      "playType": "LayUpShot",
+      "id": 39354278,
+      "sourceId": "401826807114519766",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -10455,7 +10456,7 @@
       "opponent": "Rice",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 57,
       "homeWinProbability": 1,
       "period": 2,
@@ -10463,9 +10464,9 @@
       "secondsRemaining": 239,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-18T03:25:37.000Z",
-      "playText": "Nate Ament made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-18T03:28:40.000Z",
+      "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -10478,15 +10479,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 827.2,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -10768,8 +10769,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39656267,
-      "sourceId": "401829386114660916",
+      "id": 39656269,
+      "sourceId": "401829386114660950",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -10780,17 +10781,17 @@
       "opponent": "Tennessee State",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 22,
       "awayScore": 4,
       "homeWinProbability": 0.978,
       "period": 1,
       "clock": "11:17",
       "secondsRemaining": 677,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T00:23:11.000Z",
-      "playText": "Nate Ament missed Free Throw.",
+      "wallclock": "2025-11-21T00:23:26.000Z",
+      "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -10802,7 +10803,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10875,8 +10876,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39656269,
-      "sourceId": "401829386114660950",
+      "id": 39656267,
+      "sourceId": "401829386114660916",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -10887,17 +10888,17 @@
       "opponent": "Tennessee State",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 21,
       "awayScore": 4,
       "homeWinProbability": 0.978,
       "period": 1,
       "clock": "11:17",
       "secondsRemaining": 677,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T00:23:26.000Z",
-      "playText": "Nate Ament made Free Throw.",
+      "wallclock": "2025-11-21T00:23:11.000Z",
+      "playText": "Nate Ament missed Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -10909,7 +10910,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11953,8 +11954,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39656481,
-      "sourceId": "401829386114676951",
+      "id": 39656482,
+      "sourceId": "401829386114677058",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -11965,7 +11966,7 @@
       "opponent": "Tennessee State",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 28,
       "homeWinProbability": 1,
       "period": 2,
@@ -11974,7 +11975,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T01:20:38.000Z",
+      "wallclock": "2025-11-21T01:20:56.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -12060,8 +12061,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39656482,
-      "sourceId": "401829386114677058",
+      "id": 39656481,
+      "sourceId": "401829386114676951",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -12072,7 +12073,7 @@
       "opponent": "Tennessee State",
       "opponentConference": "OVC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 28,
       "homeWinProbability": 1,
       "period": 2,
@@ -12081,7 +12082,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T01:20:56.000Z",
+      "wallclock": "2025-11-21T01:20:38.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -13689,8 +13690,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40046749,
-      "sourceId": "401827435114885911",
+      "id": 40046748,
+      "sourceId": "401827435114885870",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -13707,11 +13708,11 @@
       "period": 1,
       "clock": "6:13",
       "secondsRemaining": 373,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T18:41:16.000Z",
-      "playText": "Nate Ament missed Free Throw.",
+      "wallclock": "2025-11-24T18:40:58.000Z",
+      "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -13723,7 +13724,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -13796,8 +13797,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40046748,
-      "sourceId": "401827435114885870",
+      "id": 40046749,
+      "sourceId": "401827435114885911",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -13814,11 +13815,11 @@
       "period": 1,
       "clock": "6:13",
       "secondsRemaining": 373,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T18:40:58.000Z",
-      "playText": "Nate Ament made Free Throw.",
+      "wallclock": "2025-11-24T18:41:16.000Z",
+      "playText": "Nate Ament missed Free Throw.",
       "participants": [
         {
           "id": 202445,
@@ -13830,7 +13831,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15516,8 +15517,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124660,
-      "sourceId": "401824812114961781",
+      "id": 40124661,
+      "sourceId": "401824812114961794",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -15529,15 +15530,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 2,
-      "homeWinProbability": 0.626,
+      "awayScore": 3,
+      "homeWinProbability": 0.599,
       "period": 1,
       "clock": "18:12",
       "secondsRemaining": 1092,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:17:04.000Z",
+      "wallclock": "2025-11-25T23:17:17.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -15623,8 +15624,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124661,
-      "sourceId": "401824812114961794",
+      "id": 40124660,
+      "sourceId": "401824812114961781",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -15636,15 +15637,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 2,
-      "awayScore": 3,
-      "homeWinProbability": 0.599,
+      "awayScore": 2,
+      "homeWinProbability": 0.626,
       "period": 1,
       "clock": "18:12",
       "secondsRemaining": 1092,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T23:17:17.000Z",
+      "wallclock": "2025-11-25T23:17:04.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -16487,8 +16488,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124972,
-      "sourceId": "401824812114978783",
+      "id": 40124977,
+      "sourceId": "401824812114978907",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -16500,15 +16501,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 50,
-      "homeWinProbability": 0.395,
+      "awayScore": 51,
+      "homeWinProbability": 0.303,
       "period": 2,
       "clock": "9:42",
       "secondsRemaining": 582,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T00:46:45.000Z",
+      "wallclock": "2025-11-26T00:47:07.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -16594,8 +16595,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124977,
-      "sourceId": "401824812114978907",
+      "id": 40124972,
+      "sourceId": "401824812114978783",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -16607,15 +16608,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 51,
-      "homeWinProbability": 0.303,
+      "awayScore": 50,
+      "homeWinProbability": 0.395,
       "period": 2,
       "clock": "9:42",
       "secondsRemaining": 582,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T00:47:07.000Z",
+      "wallclock": "2025-11-26T00:46:45.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -17894,8 +17895,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40294796,
-      "sourceId": "401831215115062846",
+      "id": 40294793,
+      "sourceId": "401831215115062788",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -17906,16 +17907,16 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 30,
       "awayScore": 30,
-      "homeWinProbability": 0.659,
+      "homeWinProbability": 0.595,
       "period": 1,
       "clock": "4:12",
       "secondsRemaining": 252,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T00:42:31.000Z",
+      "wallclock": "2025-11-27T00:42:11.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -18001,8 +18002,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40294793,
-      "sourceId": "401831215115062788",
+      "id": 40294796,
+      "sourceId": "401831215115062846",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -18013,16 +18014,16 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 31,
       "awayScore": 30,
-      "homeWinProbability": 0.595,
+      "homeWinProbability": 0.659,
       "period": 1,
       "clock": "4:12",
       "secondsRemaining": 252,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T00:42:11.000Z",
+      "wallclock": "2025-11-27T00:42:31.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -20466,8 +20467,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40766234,
-      "sourceId": "401806366115341617",
+      "id": 40766233,
+      "sourceId": "401806366115341500",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -20479,15 +20480,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 34,
-      "homeWinProbability": 0.624,
+      "awayScore": 33,
+      "homeWinProbability": 0.659,
       "period": 2,
       "clock": "17:31",
       "secondsRemaining": 1051,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T01:18:06.000Z",
+      "wallclock": "2025-12-03T01:17:54.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -20573,8 +20574,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40766233,
-      "sourceId": "401806366115341500",
+      "id": 40766234,
+      "sourceId": "401806366115341617",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -20586,15 +20587,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 33,
-      "homeWinProbability": 0.659,
+      "awayScore": 34,
+      "homeWinProbability": 0.624,
       "period": 2,
       "clock": "17:31",
       "secondsRemaining": 1051,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T01:17:54.000Z",
+      "wallclock": "2025-12-03T01:18:06.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -21223,8 +21224,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40766299,
-      "sourceId": "401806366115345974",
+      "id": 40766302,
+      "sourceId": "401806366115346032",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -21236,15 +21237,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 46,
-      "homeWinProbability": 0.778,
+      "awayScore": 47,
+      "homeWinProbability": 0.751,
       "period": 2,
       "clock": "10:46",
       "secondsRemaining": 646,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T01:36:15.000Z",
+      "wallclock": "2025-12-03T01:36:36.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -21330,8 +21331,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40766302,
-      "sourceId": "401806366115346032",
+      "id": 40766299,
+      "sourceId": "401806366115345974",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -21343,15 +21344,15 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 47,
-      "homeWinProbability": 0.751,
+      "awayScore": 46,
+      "homeWinProbability": 0.778,
       "period": 2,
       "clock": "10:46",
       "secondsRemaining": 646,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T01:36:36.000Z",
+      "wallclock": "2025-12-03T01:36:15.000Z",
       "playText": "Nate Ament made Free Throw.",
       "participants": [
         {
@@ -24461,8 +24462,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41918315,
-      "sourceId": "401817248115976328",
+      "id": 41918317,
+      "sourceId": "401817248115976369",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -24473,17 +24474,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 29,
-      "homeWinProbability": 0.84,
+      "homeWinProbability": 0.891,
       "period": 2,
       "clock": "18:46",
       "secondsRemaining": 1126,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:18:25.000Z",
-      "playText": "Nate Ament misses free throw 1 of 2",
+      "wallclock": "2025-12-17T01:18:38.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -24495,7 +24496,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -24568,8 +24569,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41918317,
-      "sourceId": "401817248115976369",
+      "id": 41918315,
+      "sourceId": "401817248115976328",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -24580,17 +24581,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 29,
-      "homeWinProbability": 0.891,
+      "homeWinProbability": 0.84,
       "period": 2,
       "clock": "18:46",
       "secondsRemaining": 1126,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T01:18:38.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2025-12-17T01:18:25.000Z",
+      "playText": "Nate Ament misses free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -24602,7 +24603,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27077,8 +27078,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42884992,
-      "sourceId": "401829283116515736",
+      "id": 42884994,
+      "sourceId": "401829283116515747",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -27089,17 +27090,17 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 25,
       "awayScore": 17,
-      "homeWinProbability": 0.817,
+      "homeWinProbability": 0.826,
       "period": 1,
       "clock": "6:25",
       "secondsRemaining": 385,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T01:34:51.000Z",
-      "playText": "Nate Ament misses free throw 1 of 2",
+      "wallclock": "2025-12-31T01:35:06.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -27111,7 +27112,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27184,8 +27185,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42884994,
-      "sourceId": "401829283116515747",
+      "id": 42884992,
+      "sourceId": "401829283116515736",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -27196,17 +27197,17 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 24,
       "awayScore": 17,
-      "homeWinProbability": 0.826,
+      "homeWinProbability": 0.817,
       "period": 1,
       "clock": "6:25",
       "secondsRemaining": 385,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T01:35:06.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2025-12-31T01:34:51.000Z",
+      "playText": "Nate Ament misses free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -27218,7 +27219,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27398,8 +27399,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42885014,
-      "sourceId": "401829283116516010",
+      "id": 42885020,
+      "sourceId": "401829283116516042",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -27410,17 +27411,17 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 19,
-      "homeWinProbability": 0.82,
+      "homeWinProbability": 0.857,
       "period": 1,
       "clock": "4:51",
       "secondsRemaining": 291,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T01:37:44.000Z",
-      "playText": "Nate Ament misses free throw 1 of 2",
+      "wallclock": "2025-12-31T01:38:03.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -27432,7 +27433,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27505,8 +27506,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42885020,
-      "sourceId": "401829283116516042",
+      "id": 42885014,
+      "sourceId": "401829283116516010",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -27517,17 +27518,17 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 19,
-      "homeWinProbability": 0.857,
+      "homeWinProbability": 0.82,
       "period": 1,
       "clock": "4:51",
       "secondsRemaining": 291,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T01:38:03.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2025-12-31T01:37:44.000Z",
+      "playText": "Nate Ament misses free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -27539,7 +27540,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28151,9 +28152,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42885278,
-      "sourceId": "401829283116521877",
-      "playType": "JumpShot",
+      "id": 42885280,
+      "sourceId": "401829283116521890",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -28163,7 +28164,7 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 86,
       "awayScore": 38,
       "homeWinProbability": 1,
       "period": 2,
@@ -28171,14 +28172,10 @@
       "secondsRemaining": 391,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-31T02:43:40.000Z",
-      "playText": "Nate Ament makes 10-foot turnaround jump shot (Ja'Kobi Gillespie assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-31T02:44:02.000Z",
+      "playText": "Nate Ament makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie"
-        },
         {
           "id": 202445,
           "name": "Nate Ament"
@@ -28190,11 +28187,11 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "jumper",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie"
+          "id": null,
+          "name": null
         },
         "location": {
           "x": null,
@@ -28262,9 +28259,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42885280,
-      "sourceId": "401829283116521890",
-      "playType": "MadeFreeThrow",
+      "id": 42885278,
+      "sourceId": "401829283116521877",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -28274,7 +28271,7 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 85,
       "awayScore": 38,
       "homeWinProbability": 1,
       "period": 2,
@@ -28282,10 +28279,14 @@
       "secondsRemaining": 391,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-31T02:44:02.000Z",
-      "playText": "Nate Ament makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-31T02:43:40.000Z",
+      "playText": "Nate Ament makes 10-foot turnaround jump shot (Ja'Kobi Gillespie assists)",
       "participants": [
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie"
+        },
         {
           "id": 202445,
           "name": "Nate Ament"
@@ -28297,11 +28298,11 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "jumper",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie"
         },
         "location": {
           "x": null,
@@ -29023,113 +29024,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212093,
-      "sourceId": "401808145116750610",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 12,
-      "opponent": "Arkansas",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 31,
-      "awayScore": 31,
-      "homeWinProbability": 0.606,
-      "period": 1,
-      "clock": "2:00",
-      "secondsRemaining": 120,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T20:54:09.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 307,
-          "name": "J.P. Estrella",
-          "team": "Tennessee"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 4561,
-          "name": "Jaylen Carey",
-          "team": "Tennessee"
-        },
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        },
-        {
-          "id": 202452,
-          "name": "Amari Evans",
-          "team": "Tennessee"
-        }
-      ]
-    },
-    {
-      "gameId": 210562,
-      "gameSourceId": "401808145",
-      "gameStartDate": "2026-01-03T20:10:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43212085,
       "sourceId": "401808145116750505",
       "playType": "MadeFreeThrow",
@@ -29237,8 +29131,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212100,
-      "sourceId": "401808145116751117",
+      "id": 43212093,
+      "sourceId": "401808145116750610",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -29249,17 +29143,17 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 33,
-      "awayScore": 33,
-      "homeWinProbability": 0.591,
+      "homeScore": 31,
+      "awayScore": 31,
+      "homeWinProbability": 0.606,
       "period": 1,
-      "clock": "1:03",
-      "secondsRemaining": 63,
+      "clock": "2:00",
+      "secondsRemaining": 120,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:55:45.000Z",
-      "playText": "Nate Ament misses free throw 1 of 2",
+      "wallclock": "2026-01-03T20:54:09.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -29272,6 +29166,113 @@
           "name": "Nate Ament"
         },
         "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 307,
+          "name": "J.P. Estrella",
+          "team": "Tennessee"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 4561,
+          "name": "Jaylen Carey",
+          "team": "Tennessee"
+        },
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
+        },
+        {
+          "id": 202452,
+          "name": "Amari Evans",
+          "team": "Tennessee"
+        }
+      ]
+    },
+    {
+      "gameId": 210562,
+      "gameSourceId": "401808145",
+      "gameStartDate": "2026-01-03T20:10:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43212104,
+      "sourceId": "401808145116751202",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 12,
+      "opponent": "Arkansas",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 34,
+      "homeWinProbability": 0.562,
+      "period": 1,
+      "clock": "1:03",
+      "secondsRemaining": 63,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T20:56:03.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29344,8 +29345,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212104,
-      "sourceId": "401808145116751202",
+      "id": 43212100,
+      "sourceId": "401808145116751117",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -29357,16 +29358,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 34,
-      "homeWinProbability": 0.562,
+      "awayScore": 33,
+      "homeWinProbability": 0.591,
       "period": 1,
       "clock": "1:03",
       "secondsRemaining": 63,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:56:03.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-03T20:55:45.000Z",
+      "playText": "Nate Ament misses free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -29378,7 +29379,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30739,8 +30740,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212385,
-      "sourceId": "401808145116778052",
+      "id": 43212382,
+      "sourceId": "401808145116777925",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -30752,7 +30753,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 73,
+      "awayScore": 72,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "0:44",
@@ -30760,8 +30761,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:19:48.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:19:29.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -30846,8 +30847,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212382,
-      "sourceId": "401808145116777925",
+      "id": 43212385,
+      "sourceId": "401808145116778052",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -30859,7 +30860,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 72,
+      "awayScore": 73,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "0:44",
@@ -30867,8 +30868,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:19:29.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-03T22:19:48.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -32467,8 +32468,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897018,
-      "sourceId": "401808162117071342",
+      "id": 43897010,
+      "sourceId": "401808162117071324",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -32480,16 +32481,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 10,
-      "awayScore": 12,
-      "homeWinProbability": 0.56,
+      "awayScore": 11,
+      "homeWinProbability": 0.584,
       "period": 1,
       "clock": "12:27",
       "secondsRemaining": 747,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T17:18:12.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-10T17:17:48.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -32574,8 +32575,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43897010,
-      "sourceId": "401808162117071324",
+      "id": 43897018,
+      "sourceId": "401808162117071342",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -32587,16 +32588,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 10,
-      "awayScore": 11,
-      "homeWinProbability": 0.584,
+      "awayScore": 12,
+      "homeWinProbability": 0.56,
       "period": 1,
       "clock": "12:27",
       "secondsRemaining": 747,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T17:17:48.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-10T17:18:12.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -35483,8 +35484,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44225512,
-      "sourceId": "401808175117280533",
+      "id": 44225509,
+      "sourceId": "401808175117280527",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -35495,17 +35496,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 55,
-      "homeWinProbability": 0.727,
+      "homeWinProbability": 0.666,
       "period": 2,
       "clock": "5:29",
       "secondsRemaining": 329,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T01:56:05.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-14T01:55:43.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -35590,8 +35591,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44225509,
-      "sourceId": "401808175117280527",
+      "id": 44225512,
+      "sourceId": "401808175117280533",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -35602,17 +35603,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 55,
-      "homeWinProbability": 0.666,
+      "homeWinProbability": 0.727,
       "period": 2,
       "clock": "5:29",
       "secondsRemaining": 329,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T01:55:43.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-14T01:56:05.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -36339,8 +36340,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44225667,
-      "sourceId": "401808175117283781",
+      "id": 44225662,
+      "sourceId": "401808175117283758",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -36351,17 +36352,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 73,
-      "homeWinProbability": 0.804,
+      "homeWinProbability": 0.691,
       "period": 3,
       "clock": "1:26",
       "secondsRemaining": 86,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:36:18.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-14T02:35:50.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -36446,8 +36447,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44225662,
-      "sourceId": "401808175117283758",
+      "id": 44225667,
+      "sourceId": "401808175117283781",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -36458,17 +36459,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 73,
-      "homeWinProbability": 0.691,
+      "homeWinProbability": 0.804,
       "period": 3,
       "clock": "1:26",
       "secondsRemaining": 86,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:35:50.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-14T02:36:18.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -37092,8 +37093,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44225784,
-      "sourceId": "401808175117285185",
+      "id": 44225781,
+      "sourceId": "401808175117285182",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -37104,17 +37105,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 85,
       "awayScore": 82,
-      "homeWinProbability": 0.99,
+      "homeWinProbability": 0.964,
       "period": 4,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T03:00:18.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-14T02:59:53.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -37204,8 +37205,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44225781,
-      "sourceId": "401808175117285182",
+      "id": 44225784,
+      "sourceId": "401808175117285185",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -37216,17 +37217,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 86,
       "awayScore": 82,
-      "homeWinProbability": 0.964,
+      "homeWinProbability": 0.99,
       "period": 4,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-14T02:59:53.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-14T03:00:18.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -37534,8 +37535,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512413,
-      "sourceId": "401808181117434191",
+      "id": 44512418,
+      "sourceId": "401808181117434218",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -37546,17 +37547,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 18,
-      "homeWinProbability": 0.886,
+      "homeWinProbability": 0.913,
       "period": 1,
       "clock": "8:42",
       "secondsRemaining": 522,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T17:29:18.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-17T17:29:38.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -37641,8 +37642,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512418,
-      "sourceId": "401808181117434218",
+      "id": 44512413,
+      "sourceId": "401808181117434191",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -37653,17 +37654,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 18,
-      "homeWinProbability": 0.913,
+      "homeWinProbability": 0.886,
       "period": 1,
       "clock": "8:42",
       "secondsRemaining": 522,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T17:29:38.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-17T17:29:18.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -37966,8 +37967,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512506,
-      "sourceId": "401808181117435240",
+      "id": 44512507,
+      "sourceId": "401808181117435243",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -37984,11 +37985,11 @@
       "period": 1,
       "clock": "0:19",
       "secondsRemaining": 19,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T17:57:12.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-17T17:57:29.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -38000,7 +38001,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38073,8 +38074,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512507,
-      "sourceId": "401808181117435243",
+      "id": 44512506,
+      "sourceId": "401808181117435240",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -38091,11 +38092,11 @@
       "period": 1,
       "clock": "0:19",
       "secondsRemaining": 19,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T17:57:29.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
+      "wallclock": "2026-01-17T17:57:12.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -38107,7 +38108,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38291,8 +38292,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512562,
-      "sourceId": "401808181117439341",
+      "id": 44512559,
+      "sourceId": "401808181117439296",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -38303,17 +38304,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 38,
-      "homeWinProbability": 0.908,
+      "homeWinProbability": 0.88,
       "period": 2,
       "clock": "17:32",
       "secondsRemaining": 1052,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T18:23:44.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-17T18:23:23.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -38398,8 +38399,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512559,
-      "sourceId": "401808181117439296",
+      "id": 44512562,
+      "sourceId": "401808181117439341",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -38410,17 +38411,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 38,
-      "homeWinProbability": 0.88,
+      "homeWinProbability": 0.908,
       "period": 2,
       "clock": "17:32",
       "secondsRemaining": 1052,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T18:23:23.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-17T18:23:44.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -38727,9 +38728,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512675,
-      "sourceId": "401808181117445057",
-      "playType": "MadeFreeThrow",
+      "id": 44512673,
+      "sourceId": "401808181117444769",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -38739,18 +38740,22 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 69,
       "awayScore": 65,
-      "homeWinProbability": 0.818,
+      "homeWinProbability": 0.783,
       "period": 2,
       "clock": "7:16",
       "secondsRemaining": 436,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T19:02:40.000Z",
-      "playText": "Nate Ament makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T19:02:13.000Z",
+      "playText": "Nate Ament makes layup (Ja'Kobi Gillespie assists)",
       "participants": [
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie"
+        },
         {
           "id": 202445,
           "name": "Nate Ament"
@@ -38762,15 +38767,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 902.4,
+          "y": 220
         }
       },
       "onFloor": [
@@ -38834,9 +38839,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44512673,
-      "sourceId": "401808181117444769",
-      "playType": "LayUpShot",
+      "id": 44512675,
+      "sourceId": "401808181117445057",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -38846,22 +38851,18 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 70,
       "awayScore": 65,
-      "homeWinProbability": 0.783,
+      "homeWinProbability": 0.818,
       "period": 2,
       "clock": "7:16",
       "secondsRemaining": 436,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T19:02:13.000Z",
-      "playText": "Nate Ament makes layup (Ja'Kobi Gillespie assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T19:02:40.000Z",
+      "playText": "Nate Ament makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie"
-        },
         {
           "id": 202445,
           "name": "Nate Ament"
@@ -38873,15 +38874,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 902.4,
-          "y": 220
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -40015,8 +40016,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332442,
-      "sourceId": "401808199117947798",
+      "id": 45332447,
+      "sourceId": "401808199117947825",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -40028,16 +40029,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 22,
-      "awayScore": 13,
-      "homeWinProbability": 0.872,
+      "awayScore": 14,
+      "homeWinProbability": 0.842,
       "period": 1,
       "clock": "9:13",
       "secondsRemaining": 553,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T02:00:53.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-25T02:01:17.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -40122,8 +40123,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332447,
-      "sourceId": "401808199117947825",
+      "id": 45332442,
+      "sourceId": "401808199117947798",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -40135,16 +40136,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 22,
-      "awayScore": 14,
-      "homeWinProbability": 0.842,
+      "awayScore": 13,
+      "homeWinProbability": 0.872,
       "period": 1,
       "clock": "9:13",
       "secondsRemaining": 553,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T02:01:17.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-25T02:00:53.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -40990,8 +40991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332584,
-      "sourceId": "401808199117950793",
+      "id": 45332585,
+      "sourceId": "401808199117950861",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -41008,11 +41009,11 @@
       "period": 2,
       "clock": "16:04",
       "secondsRemaining": 964,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T02:47:29.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-25T02:47:46.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -41024,7 +41025,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41097,8 +41098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332585,
-      "sourceId": "401808199117950861",
+      "id": 45332584,
+      "sourceId": "401808199117950793",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -41115,11 +41116,11 @@
       "period": 2,
       "clock": "16:04",
       "secondsRemaining": 964,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T02:47:46.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
+      "wallclock": "2026-01-25T02:47:29.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -41131,7 +41132,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42278,8 +42279,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332740,
-      "sourceId": "401808199117952762",
+      "id": 45332739,
+      "sourceId": "401808199117952760",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -42291,16 +42292,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 74,
-      "homeWinProbability": 0.355,
+      "awayScore": 73,
+      "homeWinProbability": 0.342,
       "period": 2,
       "clock": "4:42",
       "secondsRemaining": 282,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T03:27:59.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-01-25T03:27:42.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -42385,8 +42386,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45332739,
-      "sourceId": "401808199117952760",
+      "id": 45332740,
+      "sourceId": "401808199117952762",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -42398,16 +42399,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 73,
-      "homeWinProbability": 0.342,
+      "awayScore": 74,
+      "homeWinProbability": 0.355,
       "period": 2,
       "clock": "4:42",
       "secondsRemaining": 282,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T03:27:42.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-01-25T03:27:59.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -43788,9 +43789,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45568590,
-      "sourceId": "401808201118027035",
-      "playType": "JumpShot",
+      "id": 45568594,
+      "sourceId": "401808201118027142",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
       "team": "Tennessee",
@@ -43806,11 +43807,11 @@
       "period": 2,
       "clock": "17:05",
       "secondsRemaining": 1025,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-29T01:03:42.000Z",
-      "playText": "Nate Ament makes 12-foot turnaround jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-01-29T01:04:15.000Z",
+      "playText": "Nate Ament misses free throw 1 of 1",
       "participants": [
         {
           "id": 202445,
@@ -43822,16 +43823,16 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 808.4,
-          "y": 340
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -43895,9 +43896,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45568594,
-      "sourceId": "401808201118027142",
-      "playType": "MadeFreeThrow",
+      "id": 45568590,
+      "sourceId": "401808201118027035",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 292,
       "team": "Tennessee",
@@ -43913,11 +43914,11 @@
       "period": 2,
       "clock": "17:05",
       "secondsRemaining": 1025,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-29T01:04:15.000Z",
-      "playText": "Nate Ament misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-29T01:03:42.000Z",
+      "playText": "Nate Ament makes 12-foot turnaround jump shot",
       "participants": [
         {
           "id": 202445,
@@ -43929,16 +43930,16 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 808.4,
+          "y": 340
         }
       },
       "onFloor": [
@@ -46162,113 +46163,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45919232,
-      "sourceId": "401808213118282486",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 16,
-      "opponent": "Auburn",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 28,
-      "awayScore": 16,
-      "homeWinProbability": 0.92,
-      "period": 1,
-      "clock": "8:19",
-      "secondsRemaining": 499,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T02:08:35.000Z",
-      "playText": "Nate Ament misses free throw 2 of 3",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 9,
-          "name": "Tahaad Pettiford",
-          "team": "Auburn"
-        },
-        {
-          "id": 198094,
-          "name": "Elyjah Freeman",
-          "team": "Auburn"
-        },
-        {
-          "id": 4154,
-          "name": "KeShawn Murphy",
-          "team": "Auburn"
-        },
-        {
-          "id": 202447,
-          "name": "DeWayne Brown II",
-          "team": "Tennessee"
-        },
-        {
-          "id": 4561,
-          "name": "Jaylen Carey",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202452,
-          "name": "Amari Evans",
-          "team": "Tennessee"
-        },
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 7583,
-          "name": "Kevin Overton",
-          "team": "Auburn"
-        },
-        {
-          "id": 198110,
-          "name": "Sebastian Williams-Adams",
-          "team": "Auburn"
-        }
-      ]
-    },
-    {
-      "gameId": 211285,
-      "gameSourceId": "401808213",
-      "gameStartDate": "2026-02-01T01:40:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45919231,
       "sourceId": "401808213118282481",
       "playType": "MadeFreeThrow",
@@ -46411,6 +46305,113 @@
           "name": "Nate Ament"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 9,
+          "name": "Tahaad Pettiford",
+          "team": "Auburn"
+        },
+        {
+          "id": 198094,
+          "name": "Elyjah Freeman",
+          "team": "Auburn"
+        },
+        {
+          "id": 4154,
+          "name": "KeShawn Murphy",
+          "team": "Auburn"
+        },
+        {
+          "id": 202447,
+          "name": "DeWayne Brown II",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4561,
+          "name": "Jaylen Carey",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202452,
+          "name": "Amari Evans",
+          "team": "Tennessee"
+        },
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 7583,
+          "name": "Kevin Overton",
+          "team": "Auburn"
+        },
+        {
+          "id": 198110,
+          "name": "Sebastian Williams-Adams",
+          "team": "Auburn"
+        }
+      ]
+    },
+    {
+      "gameId": 211285,
+      "gameSourceId": "401808213",
+      "gameStartDate": "2026-02-01T01:40:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45919232,
+      "sourceId": "401808213118282486",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 16,
+      "opponent": "Auburn",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 28,
+      "awayScore": 16,
+      "homeWinProbability": 0.92,
+      "period": 1,
+      "clock": "8:19",
+      "secondsRemaining": 499,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T02:08:35.000Z",
+      "playText": "Nate Ament misses free throw 2 of 3",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -49927,8 +49928,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159628,
-      "sourceId": "401808218118358569",
+      "id": 46159629,
+      "sourceId": "401808218118358610",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -49939,17 +49940,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 46,
       "awayScore": 38,
-      "homeWinProbability": 0.859,
+      "homeWinProbability": 0.894,
       "period": 2,
       "clock": "12:19",
       "secondsRemaining": 739,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T01:36:31.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-04T01:36:50.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -50034,8 +50035,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159629,
-      "sourceId": "401808218118358610",
+      "id": 46159628,
+      "sourceId": "401808218118358569",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -50046,17 +50047,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 45,
       "awayScore": 38,
-      "homeWinProbability": 0.894,
+      "homeWinProbability": 0.859,
       "period": 2,
       "clock": "12:19",
       "secondsRemaining": 739,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T01:36:50.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-04T01:36:31.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -50470,9 +50471,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159687,
-      "sourceId": "401808218118360444",
-      "playType": "LayUpShot",
+      "id": 46159689,
+      "sourceId": "401808218118360456",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -50482,25 +50483,21 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 48,
-      "homeWinProbability": 0.988,
+      "homeWinProbability": 0.989,
       "period": 2,
       "clock": "7:32",
       "secondsRemaining": 452,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-04T01:57:28.000Z",
-      "playText": "Nate Ament makes driving layup (Bishop Boswell assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-04T01:57:55.000Z",
+      "playText": "Nate Ament makes free throw 1 of 1",
       "participants": [
         {
           "id": 202445,
           "name": "Nate Ament"
-        },
-        {
-          "id": 314,
-          "name": "Bishop Boswell"
         }
       ],
       "shotInfo": {
@@ -50509,15 +50506,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 314,
-          "name": "Bishop Boswell"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 846,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -50581,9 +50578,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159689,
-      "sourceId": "401808218118360456",
-      "playType": "MadeFreeThrow",
+      "id": 46159687,
+      "sourceId": "401808218118360444",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -50593,21 +50590,25 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 48,
-      "homeWinProbability": 0.989,
+      "homeWinProbability": 0.988,
       "period": 2,
       "clock": "7:32",
       "secondsRemaining": 452,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-04T01:57:55.000Z",
-      "playText": "Nate Ament makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-04T01:57:28.000Z",
+      "playText": "Nate Ament makes driving layup (Bishop Boswell assists)",
       "participants": [
         {
           "id": 202445,
           "name": "Nate Ament"
+        },
+        {
+          "id": 314,
+          "name": "Bishop Boswell"
         }
       ],
       "shotInfo": {
@@ -50616,15 +50617,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 314,
+          "name": "Bishop Boswell"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 240
         }
       },
       "onFloor": [
@@ -50799,8 +50800,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159698,
-      "sourceId": "401808218118360602",
+      "id": 46159697,
+      "sourceId": "401808218118360585",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -50811,7 +50812,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 51,
       "homeWinProbability": 0.992,
       "period": 2,
@@ -50820,8 +50821,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T02:00:32.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-04T02:00:14.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -50906,8 +50907,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159697,
-      "sourceId": "401808218118360585",
+      "id": 46159698,
+      "sourceId": "401808218118360602",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -50918,7 +50919,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 51,
       "homeWinProbability": 0.992,
       "period": 2,
@@ -50927,8 +50928,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T02:00:14.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-04T02:00:32.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -51338,8 +51339,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159733,
-      "sourceId": "401808218118361054",
+      "id": 46159726,
+      "sourceId": "401808218118361019",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -51356,11 +51357,11 @@
       "period": 2,
       "clock": "4:27",
       "secondsRemaining": 267,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T02:08:59.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
+      "wallclock": "2026-02-04T02:08:33.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -51372,7 +51373,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51445,8 +51446,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159726,
-      "sourceId": "401808218118361019",
+      "id": 46159733,
+      "sourceId": "401808218118361054",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -51463,11 +51464,11 @@
       "period": 2,
       "clock": "4:27",
       "secondsRemaining": 267,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T02:08:33.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-04T02:08:59.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -51479,7 +51480,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51659,8 +51660,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159745,
-      "sourceId": "401808218118361513",
+      "id": 46159743,
+      "sourceId": "401808218118361507",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -51671,17 +51672,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 57,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "3:03",
       "secondsRemaining": 183,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T02:14:45.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-04T02:14:35.000Z",
+      "playText": "Nate Ament misses free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -51693,7 +51694,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51766,8 +51767,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46159743,
-      "sourceId": "401808218118361507",
+      "id": 46159745,
+      "sourceId": "401808218118361513",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -51778,17 +51779,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 57,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "3:03",
       "secondsRemaining": 183,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T02:14:35.000Z",
-      "playText": "Nate Ament misses free throw 1 of 2",
+      "wallclock": "2026-02-04T02:14:45.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -51800,7 +51801,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53942,113 +53943,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46563929,
-      "sourceId": "401808220118671685",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 135,
-      "opponent": "Kentucky",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 57,
-      "awayScore": 60,
-      "homeWinProbability": 0.362,
-      "period": 2,
-      "clock": "7:57",
-      "secondsRemaining": 477,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-08T03:28:17.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 202452,
-          "name": "Amari Evans",
-          "team": "Tennessee"
-        },
-        {
-          "id": 199963,
-          "name": "Malachi Moreno",
-          "team": "Kentucky"
-        },
-        {
-          "id": 199960,
-          "name": "Andrija Jelavić",
-          "team": "Kentucky"
-        },
-        {
-          "id": 202447,
-          "name": "DeWayne Brown II",
-          "team": "Tennessee"
-        },
-        {
-          "id": 199961,
-          "name": "Jasper Johnson",
-          "team": "Kentucky"
-        },
-        {
-          "id": 314,
-          "name": "Bishop Boswell",
-          "team": "Tennessee"
-        },
-        {
-          "id": 562,
-          "name": "Otega Oweh",
-          "team": "Kentucky"
-        },
-        {
-          "id": 568,
-          "name": "Collin Chandler",
-          "team": "Kentucky"
-        },
-        {
-          "id": 307,
-          "name": "J.P. Estrella",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        }
-      ]
-    },
-    {
-      "gameId": 211459,
-      "gameSourceId": "401808220",
-      "gameStartDate": "2026-02-08T01:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46563927,
       "sourceId": "401808220118671681",
       "playType": "MadeFreeThrow",
@@ -54156,9 +54050,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46563949,
-      "sourceId": "401808220118671983",
-      "playType": "JumpShot",
+      "id": 46563929,
+      "sourceId": "401808220118671685",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
       "team": "Tennessee",
@@ -54168,17 +54062,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 61,
-      "awayScore": 64,
-      "homeWinProbability": 0.305,
+      "homeScore": 57,
+      "awayScore": 60,
+      "homeWinProbability": 0.362,
       "period": 2,
-      "clock": "5:23",
-      "secondsRemaining": 323,
+      "clock": "7:57",
+      "secondsRemaining": 477,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-08T03:32:08.000Z",
-      "playText": "Nate Ament makes 10-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-02-08T03:28:17.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -54191,15 +54085,122 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 808.4,
-          "y": 305
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202452,
+          "name": "Amari Evans",
+          "team": "Tennessee"
+        },
+        {
+          "id": 199963,
+          "name": "Malachi Moreno",
+          "team": "Kentucky"
+        },
+        {
+          "id": 199960,
+          "name": "Andrija Jelavić",
+          "team": "Kentucky"
+        },
+        {
+          "id": 202447,
+          "name": "DeWayne Brown II",
+          "team": "Tennessee"
+        },
+        {
+          "id": 199961,
+          "name": "Jasper Johnson",
+          "team": "Kentucky"
+        },
+        {
+          "id": 314,
+          "name": "Bishop Boswell",
+          "team": "Tennessee"
+        },
+        {
+          "id": 562,
+          "name": "Otega Oweh",
+          "team": "Kentucky"
+        },
+        {
+          "id": 568,
+          "name": "Collin Chandler",
+          "team": "Kentucky"
+        },
+        {
+          "id": 307,
+          "name": "J.P. Estrella",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        }
+      ]
+    },
+    {
+      "gameId": 211459,
+      "gameSourceId": "401808220",
+      "gameStartDate": "2026-02-08T01:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46563951,
+      "sourceId": "401808220118672008",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 135,
+      "opponent": "Kentucky",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 61,
+      "awayScore": 65,
+      "homeWinProbability": 0.305,
+      "period": 2,
+      "clock": "5:23",
+      "secondsRemaining": 323,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-08T03:32:40.000Z",
+      "playText": "Nate Ament makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -54263,9 +54264,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46563951,
-      "sourceId": "401808220118672008",
-      "playType": "MadeFreeThrow",
+      "id": 46563949,
+      "sourceId": "401808220118671983",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 292,
       "team": "Tennessee",
@@ -54276,16 +54277,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 65,
+      "awayScore": 64,
       "homeWinProbability": 0.305,
       "period": 2,
       "clock": "5:23",
       "secondsRemaining": 323,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-08T03:32:40.000Z",
-      "playText": "Nate Ament makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-08T03:32:08.000Z",
+      "playText": "Nate Ament makes 10-foot jumper",
       "participants": [
         {
           "id": 202445,
@@ -54298,15 +54299,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 808.4,
+          "y": 305
         }
       },
       "onFloor": [
@@ -55789,8 +55790,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46876895,
-      "sourceId": "401808232118781890",
+      "id": 46876890,
+      "sourceId": "401808232118781885",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -55802,7 +55803,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 28,
-      "awayScore": 39,
+      "awayScore": 38,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:18",
@@ -55810,8 +55811,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T02:54:31.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-12T02:54:10.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -55901,8 +55902,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46876890,
-      "sourceId": "401808232118781885",
+      "id": 46876895,
+      "sourceId": "401808232118781890",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -55914,7 +55915,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 28,
-      "awayScore": 38,
+      "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:18",
@@ -55922,8 +55923,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-12T02:54:10.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-12T02:54:31.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -57971,8 +57972,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103101,
-      "sourceId": "401808237118993864",
+      "id": 47103102,
+      "sourceId": "401808237118993934",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -57983,17 +57984,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 21,
       "awayScore": 10,
-      "homeWinProbability": 0.89,
+      "homeWinProbability": 0.914,
       "period": 1,
       "clock": "9:50",
       "secondsRemaining": 590,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T23:25:27.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-14T23:25:43.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -58078,8 +58079,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103102,
-      "sourceId": "401808237118993934",
+      "id": 47103101,
+      "sourceId": "401808237118993864",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -58090,17 +58091,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 20,
       "awayScore": 10,
-      "homeWinProbability": 0.914,
+      "homeWinProbability": 0.89,
       "period": 1,
       "clock": "9:50",
       "secondsRemaining": 590,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T23:25:43.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-14T23:25:27.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -58934,8 +58935,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103272,
-      "sourceId": "401808237119004669",
+      "id": 47103269,
+      "sourceId": "401808237119004627",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -58946,17 +58947,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 46,
       "awayScore": 46,
-      "homeWinProbability": 0.65,
+      "homeWinProbability": 0.568,
       "period": 2,
       "clock": "12:14",
       "secondsRemaining": 734,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:22:56.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-15T00:22:24.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -59041,8 +59042,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103269,
-      "sourceId": "401808237119004627",
+      "id": 47103272,
+      "sourceId": "401808237119004669",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -59053,17 +59054,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 47,
       "awayScore": 46,
-      "homeWinProbability": 0.568,
+      "homeWinProbability": 0.65,
       "period": 2,
       "clock": "12:14",
       "secondsRemaining": 734,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:22:24.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-15T00:22:56.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -60123,113 +60124,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103376,
-      "sourceId": "401808237119008249",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 136,
-      "opponent": "LSU",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 69,
-      "awayScore": 63,
-      "homeWinProbability": 0.947,
-      "period": 2,
-      "clock": "1:27",
-      "secondsRemaining": 87,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-15T00:53:42.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 4311,
-          "name": "Marquel Sutton",
-          "team": "LSU"
-        },
-        {
-          "id": 302,
-          "name": "Felix Okpara",
-          "team": "Tennessee"
-        },
-        {
-          "id": 7760,
-          "name": "Pablo Tamba",
-          "team": "LSU"
-        },
-        {
-          "id": 314,
-          "name": "Bishop Boswell",
-          "team": "Tennessee"
-        },
-        {
-          "id": 307,
-          "name": "J.P. Estrella",
-          "team": "Tennessee"
-        },
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 200254,
-          "name": "Mazi Mosley",
-          "team": "LSU"
-        },
-        {
-          "id": 200256,
-          "name": "Jalen Reece",
-          "team": "LSU"
-        },
-        {
-          "id": 8321,
-          "name": "Robert Miller III",
-          "team": "LSU"
-        }
-      ]
-    },
-    {
-      "gameId": 211630,
-      "gameSourceId": "401808237",
-      "gameStartDate": "2026-02-14T23:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47103377,
       "sourceId": "401808237119008259",
       "playType": "MadeFreeThrow",
@@ -60337,8 +60231,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103380,
-      "sourceId": "401808237119008363",
+      "id": 47103376,
+      "sourceId": "401808237119008249",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -60349,16 +60243,16 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 69,
       "awayScore": 63,
-      "homeWinProbability": 0.983,
+      "homeWinProbability": 0.947,
       "period": 2,
-      "clock": "1:14",
-      "secondsRemaining": 74,
+      "clock": "1:27",
+      "secondsRemaining": 87,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:54:42.000Z",
+      "wallclock": "2026-02-15T00:53:42.000Z",
       "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
@@ -60551,8 +60445,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47103385,
-      "sourceId": "401808237119008419",
+      "id": 47103380,
+      "sourceId": "401808237119008363",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -60563,16 +60457,16 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 70,
       "awayScore": 63,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.983,
       "period": 2,
-      "clock": "0:55",
-      "secondsRemaining": 55,
+      "clock": "1:14",
+      "secondsRemaining": 74,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T00:56:02.000Z",
+      "wallclock": "2026-02-15T00:54:42.000Z",
       "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
@@ -60681,6 +60575,113 @@
       "scoreValue": 1,
       "wallclock": "2026-02-15T00:56:23.000Z",
       "playText": "Nate Ament makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4311,
+          "name": "Marquel Sutton",
+          "team": "LSU"
+        },
+        {
+          "id": 302,
+          "name": "Felix Okpara",
+          "team": "Tennessee"
+        },
+        {
+          "id": 7760,
+          "name": "Pablo Tamba",
+          "team": "LSU"
+        },
+        {
+          "id": 314,
+          "name": "Bishop Boswell",
+          "team": "Tennessee"
+        },
+        {
+          "id": 307,
+          "name": "J.P. Estrella",
+          "team": "Tennessee"
+        },
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 200254,
+          "name": "Mazi Mosley",
+          "team": "LSU"
+        },
+        {
+          "id": 200256,
+          "name": "Jalen Reece",
+          "team": "LSU"
+        },
+        {
+          "id": 8321,
+          "name": "Robert Miller III",
+          "team": "LSU"
+        }
+      ]
+    },
+    {
+      "gameId": 211630,
+      "gameSourceId": "401808237",
+      "gameStartDate": "2026-02-14T23:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47103385,
+      "sourceId": "401808237119008419",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 136,
+      "opponent": "LSU",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 72,
+      "awayScore": 63,
+      "homeWinProbability": 0.997,
+      "period": 2,
+      "clock": "0:55",
+      "secondsRemaining": 55,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-15T00:56:02.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -62933,8 +62934,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47502558,
-      "sourceId": "401808247119138933",
+      "id": 47502578,
+      "sourceId": "401808247119139085",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -62945,17 +62946,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 57,
-      "homeWinProbability": 0.937,
+      "homeWinProbability": 0.951,
       "period": 2,
       "clock": "7:08",
       "secondsRemaining": 428,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T01:46:45.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-19T01:47:20.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -63040,8 +63041,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47502578,
-      "sourceId": "401808247119139085",
+      "id": 47502558,
+      "sourceId": "401808247119138933",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -63052,17 +63053,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 57,
-      "homeWinProbability": 0.951,
+      "homeWinProbability": 0.937,
       "period": 2,
       "clock": "7:08",
       "secondsRemaining": 428,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T01:47:20.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-19T01:46:45.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -63369,9 +63370,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47502628,
-      "sourceId": "401808247119140408",
-      "playType": "JumpShot",
+      "id": 47502639,
+      "sourceId": "401808247119140598",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -63381,17 +63382,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 62,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.977,
       "period": 2,
       "clock": "4:42",
       "secondsRemaining": 282,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-19T01:52:10.000Z",
-      "playText": "Nate Ament makes 7-foot turnaround jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-02-19T01:52:45.000Z",
+      "playText": "Nate Ament makes free throw 1 of 1",
       "participants": [
         {
           "id": 202445,
@@ -63404,15 +63405,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 817.8,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -63476,9 +63477,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47502639,
-      "sourceId": "401808247119140598",
-      "playType": "MadeFreeThrow",
+      "id": 47502628,
+      "sourceId": "401808247119140408",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 292,
       "team": "Tennessee",
@@ -63488,17 +63489,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 62,
-      "homeWinProbability": 0.977,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "4:42",
       "secondsRemaining": 282,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-19T01:52:45.000Z",
-      "playText": "Nate Ament makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-19T01:52:10.000Z",
+      "playText": "Nate Ament makes 7-foot turnaround jump shot",
       "participants": [
         {
           "id": 202445,
@@ -63511,15 +63512,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 817.8,
+          "y": 240
         }
       },
       "onFloor": [
@@ -64229,8 +64230,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47732051,
-      "sourceId": "401808255119269450",
+      "id": 47732015,
+      "sourceId": "401808255119269279",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -64242,16 +64243,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 19,
-      "homeWinProbability": 0.528,
+      "awayScore": 18,
+      "homeWinProbability": 0.593,
       "period": 1,
       "clock": "12:05",
       "secondsRemaining": 725,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T19:22:32.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-21T19:22:13.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -64336,8 +64337,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47732015,
-      "sourceId": "401808255119269279",
+      "id": 47732051,
+      "sourceId": "401808255119269450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -64349,16 +64350,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 18,
-      "awayScore": 18,
-      "homeWinProbability": 0.593,
+      "awayScore": 19,
+      "homeWinProbability": 0.528,
       "period": 1,
       "clock": "12:05",
       "secondsRemaining": 725,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T19:22:13.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-21T19:22:32.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -65406,6 +65407,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 47732672,
+      "sourceId": "401808255119304733",
+      "playType": "TipShot",
+      "isHomeTeam": false,
+      "teamId": 292,
+      "team": "Tennessee",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 336,
+      "opponent": "Vanderbilt",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 53,
+      "awayScore": 53,
+      "homeWinProbability": 0.59,
+      "period": 2,
+      "clock": "8:06",
+      "secondsRemaining": 486,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-02-21T20:41:52.000Z",
+      "playText": "Nate Ament misses tip in layup",
+      "participants": [
+        {
+          "id": 202445,
+          "name": "Nate Ament"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 202445,
+          "name": "Nate Ament"
+        },
+        "made": false,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 883.6,
+          "y": 250
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202452,
+          "name": "Amari Evans",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202447,
+          "name": "DeWayne Brown II",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 202445,
+          "name": "Nate Ament",
+          "team": "Tennessee"
+        },
+        {
+          "id": 235,
+          "name": "Jalen Washington",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 2866,
+          "name": "Mike James",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 203124,
+          "name": "Chandler Bing",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 202448,
+          "name": "Ethan Burg",
+          "team": "Tennessee"
+        }
+      ]
+    },
+    {
+      "gameId": 211804,
+      "gameSourceId": "401808255",
+      "gameStartDate": "2026-02-21T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 47732682,
       "sourceId": "401808255119305045",
       "playType": "MadeFreeThrow",
@@ -65557,113 +65665,6 @@
         "location": {
           "x": null,
           "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 202452,
-          "name": "Amari Evans",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202447,
-          "name": "DeWayne Brown II",
-          "team": "Tennessee"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 202445,
-          "name": "Nate Ament",
-          "team": "Tennessee"
-        },
-        {
-          "id": 235,
-          "name": "Jalen Washington",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 2866,
-          "name": "Mike James",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 203124,
-          "name": "Chandler Bing",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 202448,
-          "name": "Ethan Burg",
-          "team": "Tennessee"
-        }
-      ]
-    },
-    {
-      "gameId": 211804,
-      "gameSourceId": "401808255",
-      "gameStartDate": "2026-02-21T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 47732672,
-      "sourceId": "401808255119304733",
-      "playType": "TipShot",
-      "isHomeTeam": false,
-      "teamId": 292,
-      "team": "Tennessee",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 336,
-      "opponent": "Vanderbilt",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 53,
-      "awayScore": 53,
-      "homeWinProbability": 0.59,
-      "period": 2,
-      "clock": "8:06",
-      "secondsRemaining": 486,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-21T20:41:52.000Z",
-      "playText": "Nate Ament misses tip in layup",
-      "participants": [
-        {
-          "id": 202445,
-          "name": "Nate Ament"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 202445,
-          "name": "Nate Ament"
-        },
-        "made": false,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 883.6,
-          "y": 250
         }
       },
       "onFloor": [
@@ -67665,8 +67666,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47974447,
-      "sourceId": "401808257119457396",
+      "id": 47974448,
+      "sourceId": "401808257119457419",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -67678,7 +67679,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 60,
-      "awayScore": 56,
+      "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:35",
@@ -67686,8 +67687,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T03:40:23.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-25T03:40:37.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -67772,8 +67773,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47974448,
-      "sourceId": "401808257119457419",
+      "id": 47974447,
+      "sourceId": "401808257119457396",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -67785,7 +67786,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 60,
-      "awayScore": 57,
+      "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:35",
@@ -67793,8 +67794,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T03:40:37.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-25T03:40:23.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -68093,8 +68094,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47974470,
-      "sourceId": "401808257119457745",
+      "id": 47974469,
+      "sourceId": "401808257119457739",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -68106,7 +68107,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 60,
+      "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:48",
@@ -68114,8 +68115,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T03:47:54.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-02-25T03:47:41.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -68200,8 +68201,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47974469,
-      "sourceId": "401808257119457739",
+      "id": 47974470,
+      "sourceId": "401808257119457745",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -68213,7 +68214,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 59,
+      "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:48",
@@ -68221,8 +68222,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T03:47:41.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-02-25T03:47:54.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -70479,8 +70480,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306014,
-      "sourceId": "401851562120205934",
+      "id": 49306013,
+      "sourceId": "401851562120205924",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -70491,7 +70492,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 40,
       "awayScore": 49,
       "homeWinProbability": null,
       "period": 2,
@@ -70500,8 +70501,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:04:32.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-12T21:04:18.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -70586,8 +70587,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306013,
-      "sourceId": "401851562120205924",
+      "id": 49306014,
+      "sourceId": "401851562120205934",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -70598,7 +70599,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 41,
       "awayScore": 49,
       "homeWinProbability": null,
       "period": 2,
@@ -70607,8 +70608,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:04:18.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-12T21:04:32.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -70911,8 +70912,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306024,
-      "sourceId": "401851562120206082",
+      "id": 49306027,
+      "sourceId": "401851562120206092",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -70923,7 +70924,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 46,
       "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
@@ -70932,8 +70933,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:07:04.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-12T21:07:26.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -71018,8 +71019,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306027,
-      "sourceId": "401851562120206092",
+      "id": 49306024,
+      "sourceId": "401851562120206082",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -71030,7 +71031,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 45,
       "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
@@ -71039,8 +71040,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:07:26.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-12T21:07:04.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -71775,8 +71776,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306087,
-      "sourceId": "401851562120206805",
+      "id": 49306086,
+      "sourceId": "401851562120206799",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -71793,11 +71794,11 @@
       "period": 2,
       "clock": "3:56",
       "secondsRemaining": 236,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:25:51.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
+      "wallclock": "2026-03-12T21:25:37.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -71809,7 +71810,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71882,8 +71883,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306086,
-      "sourceId": "401851562120206799",
+      "id": 49306087,
+      "sourceId": "401851562120206805",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -71900,11 +71901,11 @@
       "period": 2,
       "clock": "3:56",
       "secondsRemaining": 236,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:25:37.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-12T21:25:51.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -71916,7 +71917,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -72100,8 +72101,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306109,
-      "sourceId": "401851562120207024",
+      "id": 49306113,
+      "sourceId": "401851562120207031",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -72121,8 +72122,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:33:09.000Z",
-      "playText": "Nate Ament misses free throw 1 of 2",
+      "wallclock": "2026-03-12T21:33:27.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -72207,8 +72208,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49306113,
-      "sourceId": "401851562120207031",
+      "id": 49306109,
+      "sourceId": "401851562120207024",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 292,
@@ -72228,8 +72229,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T21:33:27.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
+      "wallclock": "2026-03-12T21:33:09.000Z",
+      "playText": "Nate Ament misses free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -73713,8 +73714,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405828,
-      "sourceId": "401851566120242579",
+      "id": 49405823,
+      "sourceId": "401851566120242566",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -73726,7 +73727,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 53,
+      "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:44",
@@ -73734,8 +73735,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T21:51:24.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-13T21:51:06.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -73820,8 +73821,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405823,
-      "sourceId": "401851566120242566",
+      "id": 49405828,
+      "sourceId": "401851566120242579",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -73833,7 +73834,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 58,
-      "awayScore": 52,
+      "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:44",
@@ -73841,8 +73842,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T21:51:06.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-13T21:51:24.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -74248,8 +74249,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405880,
-      "sourceId": "401851566120242912",
+      "id": 49405886,
+      "sourceId": "401851566120242940",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -74261,7 +74262,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 58,
+      "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:35",
@@ -74269,8 +74270,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:00:33.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-13T22:00:53.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -74355,8 +74356,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405886,
-      "sourceId": "401851566120242940",
+      "id": 49405880,
+      "sourceId": "401851566120242912",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -74368,7 +74369,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 59,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:35",
@@ -74376,8 +74377,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:00:53.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-13T22:00:33.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -74569,8 +74570,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405917,
-      "sourceId": "401851566120243066",
+      "id": 49405910,
+      "sourceId": "401851566120243059",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -74587,11 +74588,11 @@
       "period": 2,
       "clock": "5:05",
       "secondsRemaining": 305,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:03:48.000Z",
-      "playText": "Nate Ament misses free throw 2 of 2",
+      "wallclock": "2026-03-13T22:03:34.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -74603,7 +74604,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -74676,8 +74677,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405910,
-      "sourceId": "401851566120243059",
+      "id": 49405917,
+      "sourceId": "401851566120243066",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -74694,11 +74695,11 @@
       "period": 2,
       "clock": "5:05",
       "secondsRemaining": 305,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:03:34.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-13T22:03:48.000Z",
+      "playText": "Nate Ament misses free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -74710,7 +74711,7 @@
           "id": 202445,
           "name": "Nate Ament"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -77042,8 +77043,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49618408,
-      "sourceId": "401856562120365921",
+      "id": 49618409,
+      "sourceId": "401856562120365924",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -77055,7 +77056,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 3,
       "homeScore": 37,
-      "awayScore": 43,
+      "awayScore": 44,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:46",
@@ -77063,8 +77064,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T23:35:13.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-22T23:35:27.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -77149,8 +77150,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49618409,
-      "sourceId": "401856562120365924",
+      "id": 49618408,
+      "sourceId": "401856562120365921",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -77162,7 +77163,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 3,
       "homeScore": 37,
-      "awayScore": 44,
+      "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:46",
@@ -77170,8 +77171,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T23:35:27.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-22T23:35:13.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -77684,8 +77685,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49618549,
-      "sourceId": "401856562120367473",
+      "id": 49618548,
+      "sourceId": "401856562120367439",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -77697,7 +77698,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 3,
       "homeScore": 71,
-      "awayScore": 72,
+      "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:37",
@@ -77705,8 +77706,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T00:20:56.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-23T00:20:39.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -77791,8 +77792,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49618548,
-      "sourceId": "401856562120367439",
+      "id": 49618549,
+      "sourceId": "401856562120367473",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -77804,7 +77805,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 3,
       "homeScore": 71,
-      "awayScore": 71,
+      "awayScore": 72,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:37",
@@ -77812,8 +77813,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T00:20:39.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-23T00:20:56.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -78988,8 +78989,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49651421,
-      "sourceId": "401856573120396630",
+      "id": 49651426,
+      "sourceId": "401856573120396635",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -79001,7 +79002,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": 2,
       "homeScore": 35,
-      "awayScore": 40,
+      "awayScore": 41,
       "homeWinProbability": null,
       "period": 2,
       "clock": "17:31",
@@ -79009,8 +79010,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T03:50:37.000Z",
-      "playText": "Nate Ament makes free throw 1 of 2",
+      "wallclock": "2026-03-28T03:50:57.000Z",
+      "playText": "Nate Ament makes free throw 2 of 2",
       "participants": [
         {
           "id": 202445,
@@ -79095,8 +79096,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49651426,
-      "sourceId": "401856573120396635",
+      "id": 49651421,
+      "sourceId": "401856573120396630",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
@@ -79108,7 +79109,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": 2,
       "homeScore": 35,
-      "awayScore": 41,
+      "awayScore": 40,
       "homeWinProbability": null,
       "period": 2,
       "clock": "17:31",
@@ -79116,8 +79117,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T03:50:57.000Z",
-      "playText": "Nate Ament makes free throw 2 of 2",
+      "wallclock": "2026-03-28T03:50:37.000Z",
+      "playText": "Nate Ament makes free throw 1 of 2",
       "participants": [
         {
           "id": 202445,
@@ -81144,9 +81145,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661338,
-      "sourceId": "401856576120401909",
-      "playType": "MadeFreeThrow",
+      "id": 49661332,
+      "sourceId": "401856576120401902",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 292,
       "team": "Tennessee",
@@ -81157,16 +81158,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 76,
-      "awayScore": 52,
+      "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:03",
       "secondsRemaining": 483,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-29T20:12:17.000Z",
-      "playText": "Nate Ament makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-29T20:11:41.000Z",
+      "playText": "Nate Ament makes 17-foot floating jump shot",
       "participants": [
         {
           "id": 202445,
@@ -81179,15 +81180,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 225.6,
+          "y": 280
         }
       },
       "onFloor": [
@@ -81251,9 +81252,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661332,
-      "sourceId": "401856576120401902",
-      "playType": "JumpShot",
+      "id": 49661338,
+      "sourceId": "401856576120401909",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 292,
       "team": "Tennessee",
@@ -81264,16 +81265,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 1,
       "homeScore": 76,
-      "awayScore": 51,
+      "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
       "clock": "8:03",
       "secondsRemaining": 483,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-29T20:11:41.000Z",
-      "playText": "Nate Ament makes 17-foot floating jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-03-29T20:12:17.000Z",
+      "playText": "Nate Ament makes free throw 1 of 1",
       "participants": [
         {
           "id": 202445,
@@ -81286,15 +81287,15 @@
           "name": "Nate Ament"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 225.6,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -82809,86 +82810,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 0.96,
-        "percentile": 78.6,
-        "freqPer100": 21.2
-      },
-      "attackKick": {
-        "ppp": 1.04,
-        "percentile": 74.7,
-        "freqPer100": 6.9
-      },
-      "perimeterSniper": {
-        "ppp": 1.05,
-        "percentile": 71.6,
-        "freqPer100": 12.7
-      },
-      "dribbleJumper": {
-        "ppp": 0.96,
-        "percentile": 63.7,
-        "freqPer100": 2.2
-      },
-      "midRange": {
-        "ppp": 0.77,
-        "percentile": 50.8,
-        "freqPer100": 9
-      },
-      "hitsCutter": {
-        "ppp": 1.07,
-        "percentile": 63.9,
-        "freqPer100": 2.6
-      },
-      "perimeterCut": {
-        "ppp": 1.25,
-        "percentile": 66.1,
-        "freqPer100": 4.7
-      },
-      "pnrPasser": {
-        "ppp": 1.09,
-        "percentile": 77.8,
-        "freqPer100": 4.5
-      },
-      "bigCutRoll": {
-        "ppp": 1.36,
-        "percentile": 91.7,
-        "freqPer100": 1.3
-      },
-      "postUp": {
-        "ppp": 0.88,
-        "percentile": 68.1,
-        "freqPer100": 9.4
-      },
-      "insideOut": {
-        "ppp": 1.01,
-        "percentile": 70.9,
-        "freqPer100": 1.9
-      },
-      "pickAndPop": {
-        "ppp": 1.08,
-        "percentile": 73.6,
-        "freqPer100": 2.4
-      },
-      "highLow": {
-        "ppp": 1,
-        "percentile": 33.3,
-        "freqPer100": 1.6
-      },
-      "rebScramble": {
-        "ppp": 1.11,
-        "percentile": 36.2,
-        "freqPer100": 7.3
-      },
-      "transition": {
-        "ppp": 1.33,
-        "percentile": 72.1,
-        "freqPer100": 12.3
       }
     }
   }

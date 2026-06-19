@@ -243,7 +243,8 @@
     "jersey": "10",
     "position": "Forward",
     "height": 80,
-    "weight": 235,
+    "weight": 245,
+    "wingspan": null,
     "hometown": {
       "city": "Chandler",
       "state": "AZ"
@@ -722,8 +723,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619323,
-      "sourceId": "401826885113579987",
+      "id": 37619321,
+      "sourceId": "401826885113579873",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -734,16 +735,16 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 24,
-      "homeWinProbability": 0.362,
+      "homeWinProbability": 0.321,
       "period": 1,
       "clock": "12:12",
       "secondsRemaining": 732,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:21:12.000Z",
+      "wallclock": "2025-11-04T00:20:59.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -829,8 +830,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619321,
-      "sourceId": "401826885113579873",
+      "id": 37619323,
+      "sourceId": "401826885113579987",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -841,16 +842,16 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 24,
-      "homeWinProbability": 0.321,
+      "homeWinProbability": 0.362,
       "period": 1,
       "clock": "12:12",
       "secondsRemaining": 732,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T00:20:59.000Z",
+      "wallclock": "2025-11-04T00:21:12.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -2676,8 +2677,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619915,
-      "sourceId": "401826885113653238",
+      "id": 37619912,
+      "sourceId": "401826885113652931",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -2694,11 +2695,11 @@
       "period": 2,
       "clock": "7:14",
       "secondsRemaining": 434,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:56:59.000Z",
-      "playText": "Koa Peat missed Free Throw.",
+      "wallclock": "2025-11-04T01:56:30.000Z",
+      "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -2710,7 +2711,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -2783,8 +2784,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37619912,
-      "sourceId": "401826885113652931",
+      "id": 37619915,
+      "sourceId": "401826885113653238",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -2801,11 +2802,11 @@
       "period": 2,
       "clock": "7:14",
       "secondsRemaining": 434,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T01:56:30.000Z",
-      "playText": "Koa Peat made Free Throw.",
+      "wallclock": "2025-11-04T01:56:59.000Z",
+      "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -2817,7 +2818,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -3429,113 +3430,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37620029,
-      "sourceId": "401826885113670588",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 11,
-      "team": "Arizona",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 87,
-      "opponent": "Florida",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 90,
-      "awayScore": 87,
-      "homeWinProbability": 0.956,
-      "period": 2,
-      "clock": "0:25",
-      "secondsRemaining": 25,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-04T02:25:09.000Z",
-      "playText": "Koa Peat missed Free Throw.",
-      "participants": [
-        {
-          "id": 197993,
-          "name": "Koa Peat"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 197993,
-          "name": "Koa Peat"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 512,
-          "name": "Isaiah Brown",
-          "team": "Florida"
-        },
-        {
-          "id": 199185,
-          "name": "CJ Ingram",
-          "team": "Florida"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 276,
-          "name": "Anthony Dell'Orso",
-          "team": "Arizona"
-        }
-      ]
-    },
-    {
-      "gameId": 212729,
-      "gameSourceId": "401826885",
-      "gameStartDate": "2025-11-04T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 37620035,
       "sourceId": "401826885113670845",
       "playType": "MadeFreeThrow",
@@ -3643,8 +3537,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37620040,
-      "sourceId": "401826885113671489",
+      "id": 37620029,
+      "sourceId": "401826885113670588",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -3655,16 +3549,123 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 93,
+      "homeScore": 90,
       "awayScore": 87,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.956,
+      "period": 2,
+      "clock": "0:25",
+      "secondsRemaining": 25,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-04T02:25:09.000Z",
+      "playText": "Koa Peat missed Free Throw.",
+      "participants": [
+        {
+          "id": 197993,
+          "name": "Koa Peat"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 197993,
+          "name": "Koa Peat"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 512,
+          "name": "Isaiah Brown",
+          "team": "Florida"
+        },
+        {
+          "id": 199185,
+          "name": "CJ Ingram",
+          "team": "Florida"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 276,
+          "name": "Anthony Dell'Orso",
+          "team": "Arizona"
+        }
+      ]
+    },
+    {
+      "gameId": 212729,
+      "gameSourceId": "401826885",
+      "gameStartDate": "2025-11-04T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 37620039,
+      "sourceId": "401826885113671299",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 11,
+      "team": "Arizona",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 87,
+      "opponent": "Florida",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 92,
+      "awayScore": 87,
+      "homeWinProbability": 0.994,
       "period": 2,
       "clock": "0:14",
       "secondsRemaining": 14,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:26:50.000Z",
+      "wallclock": "2025-11-04T02:26:34.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -3750,8 +3751,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37620039,
-      "sourceId": "401826885113671299",
+      "id": 37620040,
+      "sourceId": "401826885113671489",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -3762,16 +3763,16 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 93,
       "awayScore": 87,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "0:14",
       "secondsRemaining": 14,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:26:34.000Z",
+      "wallclock": "2025-11-04T02:26:50.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -6373,8 +6374,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38711323,
-      "sourceId": "401825588114175894",
+      "id": 38711318,
+      "sourceId": "401825588114175778",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -6385,16 +6386,16 @@
       "opponent": "Northern Arizona",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 32,
       "awayScore": 13,
-      "homeWinProbability": 0.981,
+      "homeWinProbability": 0.978,
       "period": 1,
       "clock": "5:51",
       "secondsRemaining": 351,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T02:38:43.000Z",
+      "wallclock": "2025-11-12T02:38:11.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -6480,8 +6481,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38711318,
-      "sourceId": "401825588114175778",
+      "id": 38711323,
+      "sourceId": "401825588114175894",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -6492,16 +6493,16 @@
       "opponent": "Northern Arizona",
       "opponentConference": "Big Sky",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 33,
       "awayScore": 13,
-      "homeWinProbability": 0.978,
+      "homeWinProbability": 0.981,
       "period": 1,
       "clock": "5:51",
       "secondsRemaining": 351,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T02:38:11.000Z",
+      "wallclock": "2025-11-12T02:38:43.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -7558,8 +7559,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39021435,
-      "sourceId": "401813759114339750",
+      "id": 39021436,
+      "sourceId": "401813759114339798",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -7571,15 +7572,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 6,
-      "awayScore": 4,
-      "homeWinProbability": 0.695,
+      "awayScore": 5,
+      "homeWinProbability": 0.679,
       "period": 1,
       "clock": "16:50",
       "secondsRemaining": 1010,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T03:07:32.000Z",
+      "wallclock": "2025-11-15T03:08:03.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -7665,8 +7666,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39021436,
-      "sourceId": "401813759114339798",
+      "id": 39021435,
+      "sourceId": "401813759114339750",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -7678,15 +7679,15 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 6,
-      "awayScore": 5,
-      "homeWinProbability": 0.679,
+      "awayScore": 4,
+      "homeWinProbability": 0.695,
       "period": 1,
       "clock": "16:50",
       "secondsRemaining": 1010,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T03:08:03.000Z",
+      "wallclock": "2025-11-15T03:07:32.000Z",
       "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
@@ -8204,8 +8205,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39021624,
-      "sourceId": "401813759114345188",
+      "id": 39021626,
+      "sourceId": "401813759114345209",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -8217,16 +8218,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 28,
-      "homeWinProbability": 0.512,
+      "awayScore": 29,
+      "homeWinProbability": 0.458,
       "period": 2,
       "clock": "19:07",
       "secondsRemaining": 1147,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T04:08:22.000Z",
-      "playText": "Koa Peat missed Free Throw.",
+      "wallclock": "2025-11-15T04:08:38.000Z",
+      "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -8238,7 +8239,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8311,8 +8312,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39021626,
-      "sourceId": "401813759114345209",
+      "id": 39021624,
+      "sourceId": "401813759114345188",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -8324,16 +8325,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 25,
-      "awayScore": 29,
-      "homeWinProbability": 0.458,
+      "awayScore": 28,
+      "homeWinProbability": 0.512,
       "period": 2,
       "clock": "19:07",
       "secondsRemaining": 1147,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T04:08:38.000Z",
-      "playText": "Koa Peat made Free Throw.",
+      "wallclock": "2025-11-15T04:08:22.000Z",
+      "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -8345,7 +8346,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10582,8 +10583,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39561237,
-      "sourceId": "401812789114630508",
+      "id": 39561241,
+      "sourceId": "401812789114630608",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -10595,16 +10596,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 62,
-      "homeWinProbability": 0.732,
+      "awayScore": 63,
+      "homeWinProbability": 0.65,
       "period": 2,
       "clock": "1:47",
       "secondsRemaining": 107,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T02:04:00.000Z",
-      "playText": "Koa Peat missed Free Throw.",
+      "wallclock": "2025-11-20T02:04:23.000Z",
+      "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -10616,7 +10617,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10689,8 +10690,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39561241,
-      "sourceId": "401812789114630608",
+      "id": 39561237,
+      "sourceId": "401812789114630508",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -10702,16 +10703,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 63,
-      "homeWinProbability": 0.65,
+      "awayScore": 62,
+      "homeWinProbability": 0.732,
       "period": 2,
       "clock": "1:47",
       "secondsRemaining": 107,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-20T02:04:23.000Z",
-      "playText": "Koa Peat made Free Throw.",
+      "wallclock": "2025-11-20T02:04:00.000Z",
+      "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -10723,7 +10724,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10907,8 +10908,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40084427,
-      "sourceId": "401826740114936588",
+      "id": 40084431,
+      "sourceId": "401826740114937148",
       "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 11,
@@ -10919,17 +10920,17 @@
       "opponent": "Denver",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 29,
       "awayScore": 7,
-      "homeWinProbability": 0.991,
+      "homeWinProbability": 0.989,
       "period": 1,
       "clock": "7:50",
       "secondsRemaining": 470,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-11-25T04:08:10.000Z",
-      "playText": "Koa Peat made Layup.",
+      "wallclock": "2025-11-25T04:34:38.000Z",
+      "playText": "Koa Peat missed Layup.",
       "participants": [
         {
           "id": 197993,
@@ -10941,7 +10942,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -11014,8 +11015,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40084431,
-      "sourceId": "401826740114937148",
+      "id": 40084427,
+      "sourceId": "401826740114936588",
       "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 11,
@@ -11026,17 +11027,17 @@
       "opponent": "Denver",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 31,
       "awayScore": 7,
-      "homeWinProbability": 0.989,
+      "homeWinProbability": 0.991,
       "period": 1,
       "clock": "7:50",
       "secondsRemaining": 470,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 2,
-      "wallclock": "2025-11-25T04:34:38.000Z",
-      "playText": "Koa Peat missed Layup.",
+      "wallclock": "2025-11-25T04:08:10.000Z",
+      "playText": "Koa Peat made Layup.",
       "participants": [
         {
           "id": 197993,
@@ -11048,7 +11049,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "rim",
         "assisted": false,
         "assistedBy": {
@@ -12333,8 +12334,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40546546,
-      "sourceId": "401826886115211768",
+      "id": 40546544,
+      "sourceId": "401826886115211737",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -12345,17 +12346,17 @@
       "opponent": "Norfolk State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 2,
       "awayScore": 3,
-      "homeWinProbability": 0.622,
+      "homeWinProbability": 0.599,
       "period": 1,
       "clock": "18:16",
       "secondsRemaining": 1096,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T21:06:13.000Z",
-      "playText": "Koa Peat made Free Throw.",
+      "wallclock": "2025-11-29T21:06:00.000Z",
+      "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -12367,7 +12368,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12440,8 +12441,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40546544,
-      "sourceId": "401826886115211737",
+      "id": 40546546,
+      "sourceId": "401826886115211768",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -12452,17 +12453,17 @@
       "opponent": "Norfolk State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 3,
-      "homeWinProbability": 0.599,
+      "homeWinProbability": 0.622,
       "period": 1,
       "clock": "18:16",
       "secondsRemaining": 1096,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T21:06:00.000Z",
-      "playText": "Koa Peat missed Free Throw.",
+      "wallclock": "2025-11-29T21:06:13.000Z",
+      "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -12474,7 +12475,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12876,6 +12877,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 40546584,
+      "sourceId": "401826886115213609",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 11,
+      "team": "Arizona",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 196,
+      "opponent": "Norfolk State",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 13,
+      "awayScore": 8,
+      "homeWinProbability": 0.767,
+      "period": 1,
+      "clock": "14:43",
+      "secondsRemaining": 883,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-29T21:16:12.000Z",
+      "playText": "Koa Peat made Free Throw.",
+      "participants": [
+        {
+          "id": 197993,
+          "name": "Koa Peat"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 197993,
+          "name": "Koa Peat"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 276,
+          "name": "Anthony Dell'Orso",
+          "team": "Arizona"
+        },
+        {
+          "id": 2871,
+          "name": "Anthony McComb III",
+          "team": "Norfolk State"
+        },
+        {
+          "id": 200946,
+          "name": "Yel Deeng",
+          "team": "Norfolk State"
+        },
+        {
+          "id": 7856,
+          "name": "Keyontae Lewis",
+          "team": "Norfolk State"
+        },
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 4535,
+          "name": "Jordan Leaks",
+          "team": "Norfolk State"
+        },
+        {
+          "id": 274,
+          "name": "Motiejus Krivas",
+          "team": "Arizona"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 1992,
+          "name": "Elijah Jamison",
+          "team": "Norfolk State"
+        }
+      ]
+    },
+    {
+      "gameId": 213579,
+      "gameSourceId": "401826886",
+      "gameStartDate": "2025-11-29T21:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 40546578,
       "sourceId": "401826886115213461",
       "playType": "LayUpShot",
@@ -12987,115 +13095,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40546584,
-      "sourceId": "401826886115213609",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 11,
-      "team": "Arizona",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 196,
-      "opponent": "Norfolk State",
-      "opponentConference": "MEAC",
-      "opponentSeed": null,
-      "homeScore": 13,
-      "awayScore": 8,
-      "homeWinProbability": 0.767,
-      "period": 1,
-      "clock": "14:43",
-      "secondsRemaining": 883,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-29T21:16:12.000Z",
-      "playText": "Koa Peat made Free Throw.",
-      "participants": [
-        {
-          "id": 197993,
-          "name": "Koa Peat"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 197993,
-          "name": "Koa Peat"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 276,
-          "name": "Anthony Dell'Orso",
-          "team": "Arizona"
-        },
-        {
-          "id": 2871,
-          "name": "Anthony McComb III",
-          "team": "Norfolk State"
-        },
-        {
-          "id": 200946,
-          "name": "Yel Deeng",
-          "team": "Norfolk State"
-        },
-        {
-          "id": 7856,
-          "name": "Keyontae Lewis",
-          "team": "Norfolk State"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 4535,
-          "name": "Jordan Leaks",
-          "team": "Norfolk State"
-        },
-        {
-          "id": 274,
-          "name": "Motiejus Krivas",
-          "team": "Arizona"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 1992,
-          "name": "Elijah Jamison",
-          "team": "Norfolk State"
-        }
-      ]
-    },
-    {
-      "gameId": 213579,
-      "gameSourceId": "401826886",
-      "gameStartDate": "2025-11-29T21:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 40546651,
-      "sourceId": "401826886115216075",
+      "id": 40546659,
+      "sourceId": "401826886115216137",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -13115,7 +13116,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T21:30:59.000Z",
+      "wallclock": "2025-11-29T21:31:21.000Z",
       "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
@@ -13201,8 +13202,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40546659,
-      "sourceId": "401826886115216137",
+      "id": 40546651,
+      "sourceId": "401826886115216075",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -13222,7 +13223,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T21:31:21.000Z",
+      "wallclock": "2025-11-29T21:30:59.000Z",
       "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
@@ -17014,8 +17015,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41705395,
-      "sourceId": "401812266115871789",
+      "id": 41705393,
+      "sourceId": "401812266115871760",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -17027,16 +17028,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 43,
-      "awayScore": 40,
-      "homeWinProbability": 0.725,
+      "awayScore": 39,
+      "homeWinProbability": 0.727,
       "period": 2,
       "clock": "19:23",
       "secondsRemaining": 1163,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T03:50:07.000Z",
-      "playText": "Koa Peat made Free Throw.",
+      "wallclock": "2025-12-14T03:49:52.000Z",
+      "playText": "Koa Peat missed Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -17048,7 +17049,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -17121,8 +17122,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41705393,
-      "sourceId": "401812266115871760",
+      "id": 41705395,
+      "sourceId": "401812266115871789",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -17134,16 +17135,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 43,
-      "awayScore": 39,
-      "homeWinProbability": 0.727,
+      "awayScore": 40,
+      "homeWinProbability": 0.725,
       "period": 2,
       "clock": "19:23",
       "secondsRemaining": 1163,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T03:49:52.000Z",
-      "playText": "Koa Peat missed Free Throw.",
+      "wallclock": "2025-12-14T03:50:07.000Z",
+      "playText": "Koa Peat made Free Throw.",
       "participants": [
         {
           "id": 197993,
@@ -17155,7 +17156,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18639,8 +18640,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924711,
-      "sourceId": "401823529115987649",
+      "id": 41924710,
+      "sourceId": "401823529115987615",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -18651,17 +18652,17 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 25,
-      "homeWinProbability": 0.983,
+      "homeWinProbability": 0.977,
       "period": 1,
       "clock": "4:56",
       "secondsRemaining": 296,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:42:32.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2025-12-17T02:42:26.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -18746,8 +18747,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924710,
-      "sourceId": "401823529115987615",
+      "id": 41924711,
+      "sourceId": "401823529115987649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -18758,17 +18759,17 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 25,
-      "homeWinProbability": 0.977,
+      "homeWinProbability": 0.983,
       "period": 1,
       "clock": "4:56",
       "secondsRemaining": 296,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:42:26.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2025-12-17T02:42:32.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -18964,8 +18965,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924758,
-      "sourceId": "401823529115988423",
+      "id": 41924752,
+      "sourceId": "401823529115988408",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -18985,8 +18986,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:52:17.000Z",
-      "playText": "Koa Peat misses free throw 2 of 2",
+      "wallclock": "2025-12-17T02:51:53.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -19071,8 +19072,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924752,
-      "sourceId": "401823529115988408",
+      "id": 41924758,
+      "sourceId": "401823529115988423",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -19092,8 +19093,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T02:51:53.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2025-12-17T02:52:17.000Z",
+      "playText": "Koa Peat misses free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -19289,8 +19290,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924875,
-      "sourceId": "401823529115990877",
+      "id": 41924874,
+      "sourceId": "401823529115990869",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -19301,7 +19302,7 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 65,
       "awayScore": 39,
       "homeWinProbability": 1,
       "period": 2,
@@ -19310,8 +19311,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T03:34:11.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2025-12-17T03:33:55.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -19396,8 +19397,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924874,
-      "sourceId": "401823529115990869",
+      "id": 41924875,
+      "sourceId": "401823529115990877",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -19408,7 +19409,7 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 66,
       "awayScore": 39,
       "homeWinProbability": 1,
       "period": 2,
@@ -19417,8 +19418,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T03:33:55.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2025-12-17T03:34:11.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -23308,9 +23309,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42768765,
-      "sourceId": "401826888116479746",
-      "playType": "MadeFreeThrow",
+      "id": 42768763,
+      "sourceId": "401826888116479682",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -23320,21 +23321,25 @@
       "opponent": "South Dakota State",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 20,
-      "homeWinProbability": 0.954,
+      "homeWinProbability": 0.945,
       "period": 1,
       "clock": "8:21",
       "secondsRemaining": 501,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-30T02:29:13.000Z",
-      "playText": "Koa Peat makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-30T02:29:05.000Z",
+      "playText": "Koa Peat makes layup (Anthony Dell'Orso assists)",
       "participants": [
         {
           "id": 197993,
           "name": "Koa Peat"
+        },
+        {
+          "id": 276,
+          "name": "Anthony Dell'Orso"
         }
       ],
       "shotInfo": {
@@ -23343,15 +23348,15 @@
           "name": "Koa Peat"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 276,
+          "name": "Anthony Dell'Orso"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 235
         }
       },
       "onFloor": [
@@ -23415,9 +23420,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42768763,
-      "sourceId": "401826888116479682",
-      "playType": "LayUpShot",
+      "id": 42768765,
+      "sourceId": "401826888116479746",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -23427,25 +23432,21 @@
       "opponent": "South Dakota State",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 20,
-      "homeWinProbability": 0.945,
+      "homeWinProbability": 0.954,
       "period": 1,
       "clock": "8:21",
       "secondsRemaining": 501,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-30T02:29:05.000Z",
-      "playText": "Koa Peat makes layup (Anthony Dell'Orso assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-30T02:29:13.000Z",
+      "playText": "Koa Peat makes free throw 1 of 1",
       "participants": [
         {
           "id": 197993,
           "name": "Koa Peat"
-        },
-        {
-          "id": 276,
-          "name": "Anthony Dell'Orso"
         }
       ],
       "shotInfo": {
@@ -23454,15 +23455,15 @@
           "name": "Koa Peat"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 276,
-          "name": "Anthony Dell'Orso"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -24069,8 +24070,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42768915,
-      "sourceId": "401826888116485801",
+      "id": 42768913,
+      "sourceId": "401826888116485787",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -24090,8 +24091,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T03:17:08.000Z",
-      "playText": "Koa Peat misses free throw 2 of 2",
+      "wallclock": "2025-12-30T03:16:49.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -24176,8 +24177,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42768913,
-      "sourceId": "401826888116485787",
+      "id": 42768915,
+      "sourceId": "401826888116485801",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -24197,8 +24198,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T03:16:49.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2025-12-30T03:17:08.000Z",
+      "playText": "Koa Peat misses free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -26903,9 +26904,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43630992,
-      "sourceId": "401827604116954202",
-      "playType": "LayUpShot",
+      "id": 43631000,
+      "sourceId": "401827604116954268",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -26915,25 +26916,21 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 6,
-      "homeWinProbability": 0.879,
+      "homeWinProbability": 0.902,
       "period": 1,
       "clock": "14:07",
       "secondsRemaining": 847,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-08T02:29:15.000Z",
-      "playText": "Koa Peat makes layup (Ivan Kharchenkov assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-08T02:29:46.000Z",
+      "playText": "Koa Peat makes free throw 1 of 1",
       "participants": [
         {
           "id": 197993,
           "name": "Koa Peat"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov"
         }
       ],
       "shotInfo": {
@@ -26942,15 +26939,15 @@
           "name": "Koa Peat"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 197989,
-          "name": "Ivan Kharchenkov"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -27014,9 +27011,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43631000,
-      "sourceId": "401827604116954268",
-      "playType": "MadeFreeThrow",
+      "id": 43630992,
+      "sourceId": "401827604116954202",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -27026,21 +27023,25 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 6,
-      "homeWinProbability": 0.902,
+      "homeWinProbability": 0.879,
       "period": 1,
       "clock": "14:07",
       "secondsRemaining": 847,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-08T02:29:46.000Z",
-      "playText": "Koa Peat makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-08T02:29:15.000Z",
+      "playText": "Koa Peat makes layup (Ivan Kharchenkov assists)",
       "participants": [
         {
           "id": 197993,
           "name": "Koa Peat"
+        },
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov"
         }
       ],
       "shotInfo": {
@@ -27049,15 +27050,15 @@
           "name": "Koa Peat"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 197989,
+          "name": "Ivan Kharchenkov"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 270
         }
       },
       "onFloor": [
@@ -30926,8 +30927,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310001,
-      "sourceId": "401827619117348471",
+      "id": 44309998,
+      "sourceId": "401827619117348426",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -30938,17 +30939,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 5,
       "awayScore": 5,
-      "homeWinProbability": 0.679,
+      "homeWinProbability": 0.618,
       "period": 1,
       "clock": "16:35",
       "secondsRemaining": 995,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:51:33.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-01-15T03:51:07.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -31033,8 +31034,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44309998,
-      "sourceId": "401827619117348426",
+      "id": 44310001,
+      "sourceId": "401827619117348471",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -31045,17 +31046,17 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 5,
-      "homeWinProbability": 0.618,
+      "homeWinProbability": 0.679,
       "period": 1,
       "clock": "16:35",
       "secondsRemaining": 995,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:51:07.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-01-15T03:51:33.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -32979,9 +32980,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310306,
-      "sourceId": "401827619117351604",
-      "playType": "LayUpShot",
+      "id": 44310309,
+      "sourceId": "401827619117351656",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -32991,25 +32992,21 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 66,
       "awayScore": 59,
-      "homeWinProbability": 0.872,
+      "homeWinProbability": 0.873,
       "period": 2,
       "clock": "10:10",
       "secondsRemaining": 610,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T05:19:32.000Z",
-      "playText": "Koa Peat makes layup (Jaden Bradley assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T05:23:30.000Z",
+      "playText": "Koa Peat makes free throw 1 of 1",
       "participants": [
         {
           "id": 197993,
           "name": "Koa Peat"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley"
         }
       ],
       "shotInfo": {
@@ -33018,15 +33015,15 @@
           "name": "Koa Peat"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 269,
-          "name": "Jaden Bradley"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -33090,9 +33087,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310309,
-      "sourceId": "401827619117351656",
-      "playType": "MadeFreeThrow",
+      "id": 44310306,
+      "sourceId": "401827619117351604",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -33102,21 +33099,25 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 65,
       "awayScore": 59,
-      "homeWinProbability": 0.873,
+      "homeWinProbability": 0.872,
       "period": 2,
       "clock": "10:10",
       "secondsRemaining": 610,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T05:23:30.000Z",
-      "playText": "Koa Peat makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T05:19:32.000Z",
+      "playText": "Koa Peat makes layup (Jaden Bradley assists)",
       "participants": [
         {
           "id": 197993,
           "name": "Koa Peat"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley"
         }
       ],
       "shotInfo": {
@@ -33125,15 +33126,15 @@
           "name": "Koa Peat"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 269,
+          "name": "Jaden Bradley"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 230
         }
       },
       "onFloor": [
@@ -34172,8 +34173,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44544419,
-      "sourceId": "401827625117546450",
+      "id": 44544423,
+      "sourceId": "401827625117546513",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -34193,8 +34194,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:21:17.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-01-17T23:21:33.000Z",
+      "playText": "Koa Peat misses free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -34279,8 +34280,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44544423,
-      "sourceId": "401827625117546513",
+      "id": 44544419,
+      "sourceId": "401827625117546450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -34300,8 +34301,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:21:33.000Z",
-      "playText": "Koa Peat misses free throw 2 of 2",
+      "wallclock": "2026-01-17T23:21:17.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -34818,8 +34819,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44991044,
-      "sourceId": "401827637117708296",
+      "id": 44991040,
+      "sourceId": "401827637117708256",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -34830,17 +34831,17 @@
       "opponent": "Cincinnati",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 12,
-      "homeWinProbability": 0.732,
+      "homeWinProbability": 0.715,
       "period": 1,
       "clock": "11:06",
       "secondsRemaining": 666,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T02:38:28.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-01-22T02:38:07.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -34852,7 +34853,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -34925,8 +34926,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44991040,
-      "sourceId": "401827637117708256",
+      "id": 44991044,
+      "sourceId": "401827637117708296",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -34937,17 +34938,17 @@
       "opponent": "Cincinnati",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 12,
-      "homeWinProbability": 0.715,
+      "homeWinProbability": 0.732,
       "period": 1,
       "clock": "11:06",
       "secondsRemaining": 666,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T02:38:07.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-01-22T02:38:28.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -34959,7 +34960,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35357,8 +35358,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44991201,
-      "sourceId": "401827637117714245",
+      "id": 44991203,
+      "sourceId": "401827637117714270",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -35369,17 +35370,17 @@
       "opponent": "Cincinnati",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 31,
-      "homeWinProbability": 0.73,
+      "homeWinProbability": 0.776,
       "period": 2,
       "clock": "17:41",
       "secondsRemaining": 1061,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T03:34:40.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-01-22T03:34:55.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -35391,7 +35392,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35464,8 +35465,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44991203,
-      "sourceId": "401827637117714270",
+      "id": 44991201,
+      "sourceId": "401827637117714245",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -35476,17 +35477,17 @@
       "opponent": "Cincinnati",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 31,
-      "homeWinProbability": 0.776,
+      "homeWinProbability": 0.73,
       "period": 2,
       "clock": "17:41",
       "secondsRemaining": 1061,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-22T03:34:55.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-01-22T03:34:40.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -35498,7 +35499,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38274,8 +38275,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475082,
-      "sourceId": "401820816117979228",
+      "id": 45475083,
+      "sourceId": "401820816117979229",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -38287,16 +38288,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 50,
-      "homeWinProbability": 0.214,
+      "awayScore": 51,
+      "homeWinProbability": 0.158,
       "period": 2,
       "clock": "17:23",
       "secondsRemaining": 1043,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T03:24:32.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-01-27T03:25:39.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -38381,8 +38382,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475083,
-      "sourceId": "401820816117979229",
+      "id": 45475082,
+      "sourceId": "401820816117979228",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -38394,16 +38395,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 51,
-      "homeWinProbability": 0.158,
+      "awayScore": 50,
+      "homeWinProbability": 0.214,
       "period": 2,
       "clock": "17:23",
       "secondsRemaining": 1043,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T03:25:39.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-01-27T03:24:32.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -39031,8 +39032,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475248,
-      "sourceId": "401820816117979418",
+      "id": 45475246,
+      "sourceId": "401820816117979416",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -39052,8 +39053,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T04:12:29.000Z",
-      "playText": "Koa Peat misses free throw 2 of 2",
+      "wallclock": "2026-01-27T04:11:56.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -39138,8 +39139,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45475246,
-      "sourceId": "401820816117979416",
+      "id": 45475248,
+      "sourceId": "401820816117979418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 11,
@@ -39159,8 +39160,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-27T04:11:56.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-01-27T04:12:29.000Z",
+      "playText": "Koa Peat misses free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -42075,8 +42076,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46472127,
-      "sourceId": "401827665118614263",
+      "id": 46472125,
+      "sourceId": "401827665118614153",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -42087,17 +42088,17 @@
       "opponent": "Oklahoma State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 18,
-      "homeWinProbability": 0.912,
+      "homeWinProbability": 0.885,
       "period": 1,
       "clock": "4:48",
       "secondsRemaining": 288,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:48:42.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-02-07T21:48:08.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -42182,8 +42183,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46472125,
-      "sourceId": "401827665118614153",
+      "id": 46472127,
+      "sourceId": "401827665118614263",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -42194,17 +42195,17 @@
       "opponent": "Oklahoma State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 18,
-      "homeWinProbability": 0.885,
+      "homeWinProbability": 0.912,
       "period": 1,
       "clock": "4:48",
       "secondsRemaining": 288,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:48:08.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-02-07T21:48:42.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -42832,8 +42833,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46472205,
-      "sourceId": "401827665118623744",
+      "id": 46472204,
+      "sourceId": "401827665118623649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -42850,11 +42851,11 @@
       "period": 2,
       "clock": "16:33",
       "secondsRemaining": 993,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T22:21:56.000Z",
-      "playText": "Koa Peat misses free throw 2 of 2",
+      "wallclock": "2026-02-07T22:21:44.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -42866,7 +42867,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -42939,8 +42940,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46472204,
-      "sourceId": "401827665118623649",
+      "id": 46472205,
+      "sourceId": "401827665118623744",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -42957,11 +42958,11 @@
       "period": 2,
       "clock": "16:33",
       "secondsRemaining": 993,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T22:21:44.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-02-07T22:21:56.000Z",
+      "playText": "Koa Peat misses free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -42973,7 +42974,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45973,8 +45974,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48288522,
-      "sourceId": "401827707119685191",
+      "id": 48288525,
+      "sourceId": "401827707119685280",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -45985,7 +45986,7 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 5,
       "homeWinProbability": null,
       "period": 1,
@@ -45994,8 +45995,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T21:09:11.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-02-28T21:09:29.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -46080,8 +46081,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48288525,
-      "sourceId": "401827707119685280",
+      "id": 48288522,
+      "sourceId": "401827707119685191",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -46092,7 +46093,7 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 5,
       "homeWinProbability": null,
       "period": 1,
@@ -46101,8 +46102,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T21:09:29.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-02-28T21:09:11.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -47931,8 +47932,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48576458,
-      "sourceId": "401820821119801268",
+      "id": 48576460,
+      "sourceId": "401820821119801277",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -47952,8 +47953,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-03T02:08:40.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-03-03T02:08:55.000Z",
+      "playText": "Koa Peat misses free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -48038,8 +48039,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48576460,
-      "sourceId": "401820821119801277",
+      "id": 48576458,
+      "sourceId": "401820821119801268",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -48059,8 +48060,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-03T02:08:55.000Z",
-      "playText": "Koa Peat misses free throw 2 of 2",
+      "wallclock": "2026-03-03T02:08:40.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -55212,8 +55213,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459680,
-      "sourceId": "401851306120272684",
+      "id": 49459683,
+      "sourceId": "401851306120272687",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -55224,7 +55225,7 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 20,
       "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
@@ -55233,8 +55234,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T22:35:17.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-03-14T22:35:39.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -55319,8 +55320,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459683,
-      "sourceId": "401851306120272687",
+      "id": 49459680,
+      "sourceId": "401851306120272684",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -55331,7 +55332,7 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 19,
       "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
@@ -55340,8 +55341,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T22:35:39.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-14T22:35:17.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -56397,8 +56398,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459837,
-      "sourceId": "401851306120274558",
+      "id": 49459833,
+      "sourceId": "401851306120274533",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -56409,17 +56410,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 48,
       "awayScore": 36,
       "homeWinProbability": null,
       "period": 2,
       "clock": "17:29",
       "secondsRemaining": 1049,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T23:36:26.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-14T23:36:05.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -56431,7 +56432,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -56504,8 +56505,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459833,
-      "sourceId": "401851306120274533",
+      "id": 49459837,
+      "sourceId": "401851306120274558",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -56516,17 +56517,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 49,
       "awayScore": 36,
       "homeWinProbability": null,
       "period": 2,
       "clock": "17:29",
       "secondsRemaining": 1049,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T23:36:05.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-03-14T23:36:26.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -56538,7 +56539,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -56718,8 +56719,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459855,
-      "sourceId": "401851306120274772",
+      "id": 49459857,
+      "sourceId": "401851306120274774",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -56730,17 +56731,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:35",
       "secondsRemaining": 935,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T23:44:39.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-03-14T23:44:52.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -56752,7 +56753,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -56825,8 +56826,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459857,
-      "sourceId": "401851306120274774",
+      "id": 49459855,
+      "sourceId": "401851306120274772",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -56837,17 +56838,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 39,
       "homeWinProbability": null,
       "period": 2,
       "clock": "15:35",
       "secondsRemaining": 935,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T23:44:52.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-14T23:44:39.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -56859,7 +56860,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -57253,8 +57254,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459999,
-      "sourceId": "401851306120275480",
+      "id": 49459998,
+      "sourceId": "401851306120275478",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -57265,7 +57266,7 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -57274,8 +57275,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T00:19:50.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-15T00:19:31.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -57360,8 +57361,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459998,
-      "sourceId": "401851306120275478",
+      "id": 49459999,
+      "sourceId": "401851306120275480",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -57372,7 +57373,7 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -57381,8 +57382,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T00:19:31.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-03-15T00:19:50.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -59952,9 +59953,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49615523,
-      "sourceId": "401856565120367179",
-      "playType": "MadeFreeThrow",
+      "id": 49615524,
+      "sourceId": "401856565120367200",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -59964,17 +59965,17 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": 9,
-      "homeScore": 7,
+      "homeScore": 5,
       "awayScore": 2,
       "homeWinProbability": null,
       "period": 1,
       "clock": "18:07",
       "secondsRemaining": 1087,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-23T00:14:32.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "scoreValue": 2,
+      "wallclock": "2026-03-23T00:13:49.000Z",
+      "playText": "Koa Peat misses layup",
       "participants": [
         {
           "id": 197993,
@@ -59986,16 +59987,16 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
-        "range": "free_throw",
+        "made": false,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 280
         }
       },
       "onFloor": [
@@ -60166,9 +60167,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49615524,
-      "sourceId": "401856565120367200",
-      "playType": "LayUpShot",
+      "id": 49615523,
+      "sourceId": "401856565120367179",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
       "team": "Arizona",
@@ -60178,17 +60179,17 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": 9,
-      "homeScore": 5,
+      "homeScore": 7,
       "awayScore": 2,
       "homeWinProbability": null,
       "period": 1,
       "clock": "18:07",
       "secondsRemaining": 1087,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-23T00:13:49.000Z",
-      "playText": "Koa Peat misses layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-23T00:14:32.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -60200,16 +60201,16 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
-        "range": "rim",
+        "made": true,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -61454,8 +61455,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49615861,
-      "sourceId": "401856565120370335",
+      "id": 49615863,
+      "sourceId": "401856565120370342",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -61466,17 +61467,17 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": 9,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:19",
       "secondsRemaining": 559,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:58:40.000Z",
-      "playText": "Koa Peat misses free throw 1 of 2",
+      "wallclock": "2026-03-23T01:58:56.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -61488,7 +61489,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -61561,8 +61562,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49615863,
-      "sourceId": "401856565120370342",
+      "id": 49615861,
+      "sourceId": "401856565120370335",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -61573,17 +61574,17 @@
       "opponent": "Utah State",
       "opponentConference": "Mountain West",
       "opponentSeed": 9,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:19",
       "secondsRemaining": 559,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-23T01:58:56.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-23T01:58:40.000Z",
+      "playText": "Koa Peat misses free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -61595,7 +61596,7 @@
           "id": 197993,
           "name": "Koa Peat"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -62211,113 +62212,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644535,
-      "sourceId": "401856569120388921",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 11,
-      "team": "Arizona",
-      "conference": "Big 12",
-      "teamSeed": 1,
-      "opponentId": 12,
-      "opponent": "Arkansas",
-      "opponentConference": "SEC",
-      "opponentSeed": 4,
-      "homeScore": 17,
-      "awayScore": 11,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "13:45",
-      "secondsRemaining": 825,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-27T02:19:06.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 197993,
-          "name": "Koa Peat"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 197993,
-          "name": "Koa Peat"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 197989,
-          "name": "Ivan Kharchenkov",
-          "team": "Arizona"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 265,
-          "name": "Tobe Awaka",
-          "team": "Arizona"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 197993,
-          "name": "Koa Peat",
-          "team": "Arizona"
-        },
-        {
-          "id": 269,
-          "name": "Jaden Bradley",
-          "team": "Arizona"
-        },
-        {
-          "id": 3103,
-          "name": "Malique Ewin",
-          "team": "Arkansas"
-        },
-        {
-          "id": 197982,
-          "name": "Brayden Burries",
-          "team": "Arizona"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 372595,
-      "gameSourceId": "401856569",
-      "gameStartDate": "2026-03-27T02:06:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49644536,
       "sourceId": "401856569120388923",
       "playType": "MadeFreeThrow",
@@ -62425,8 +62319,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644591,
-      "sourceId": "401856569120389286",
+      "id": 49644535,
+      "sourceId": "401856569120388921",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -62437,7 +62331,114 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": 4,
-      "homeScore": 30,
+      "homeScore": 17,
+      "awayScore": 11,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "13:45",
+      "secondsRemaining": 825,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-27T02:19:06.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 197993,
+          "name": "Koa Peat"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 197993,
+          "name": "Koa Peat"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 197989,
+          "name": "Ivan Kharchenkov",
+          "team": "Arizona"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 265,
+          "name": "Tobe Awaka",
+          "team": "Arizona"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 197993,
+          "name": "Koa Peat",
+          "team": "Arizona"
+        },
+        {
+          "id": 269,
+          "name": "Jaden Bradley",
+          "team": "Arizona"
+        },
+        {
+          "id": 3103,
+          "name": "Malique Ewin",
+          "team": "Arkansas"
+        },
+        {
+          "id": 197982,
+          "name": "Brayden Burries",
+          "team": "Arizona"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 372595,
+      "gameSourceId": "401856569",
+      "gameStartDate": "2026-03-27T02:06:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49644588,
+      "sourceId": "401856569120389280",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 11,
+      "team": "Arizona",
+      "conference": "Big 12",
+      "teamSeed": 1,
+      "opponentId": 12,
+      "opponent": "Arkansas",
+      "opponentConference": "SEC",
+      "opponentSeed": 4,
+      "homeScore": 29,
       "awayScore": 19,
       "homeWinProbability": null,
       "period": 1,
@@ -62446,8 +62447,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:32:39.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-27T02:32:14.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -62532,8 +62533,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644588,
-      "sourceId": "401856569120389280",
+      "id": 49644591,
+      "sourceId": "401856569120389286",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -62544,7 +62545,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": 4,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 19,
       "homeWinProbability": null,
       "period": 1,
@@ -62553,8 +62554,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:32:14.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-03-27T02:32:39.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -63293,8 +63294,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644868,
-      "sourceId": "401856569120390484",
+      "id": 49644871,
+      "sourceId": "401856569120390487",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -63305,7 +63306,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": 4,
-      "homeScore": 99,
+      "homeScore": 100,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -63314,8 +63315,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T04:10:44.000Z",
-      "playText": "Koa Peat makes free throw 1 of 2",
+      "wallclock": "2026-03-27T04:11:00.000Z",
+      "playText": "Koa Peat makes free throw 2 of 2",
       "participants": [
         {
           "id": 197993,
@@ -63400,8 +63401,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644871,
-      "sourceId": "401856569120390487",
+      "id": 49644868,
+      "sourceId": "401856569120390484",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 11,
@@ -63412,7 +63413,7 @@
       "opponent": "Arkansas",
       "opponentConference": "SEC",
       "opponentSeed": 4,
-      "homeScore": 100,
+      "homeScore": 99,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -63421,8 +63422,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T04:11:00.000Z",
-      "playText": "Koa Peat makes free throw 2 of 2",
+      "wallclock": "2026-03-27T04:10:44.000Z",
+      "playText": "Koa Peat makes free throw 1 of 2",
       "participants": [
         {
           "id": 197993,
@@ -69719,86 +69720,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 0.89,
-        "percentile": 62.5,
-        "freqPer100": 4.1
-      },
-      "attackKick": {
-        "ppp": 1.12,
-        "percentile": 92.8,
-        "freqPer100": 1.9
-      },
-      "perimeterSniper": {
-        "ppp": 0.86,
-        "percentile": 31.5,
-        "freqPer100": 0.7
-      },
-      "dribbleJumper": {
-        "ppp": 0,
-        "percentile": 1.2,
-        "freqPer100": 0.3
-      },
-      "midRange": {
-        "ppp": 0.76,
-        "percentile": 47.9,
-        "freqPer100": 3.1
-      },
-      "hitsCutter": {
-        "ppp": 1.14,
-        "percentile": 83,
-        "freqPer100": 3.8
-      },
-      "perimeterCut": {
-        "ppp": 1.3,
-        "percentile": 76.8,
-        "freqPer100": 3.6
-      },
-      "pnrPasser": {
-        "ppp": 1.09,
-        "percentile": 77.8,
-        "freqPer100": 3.1
-      },
-      "bigCutRoll": {
-        "ppp": 1.31,
-        "percentile": 83.8,
-        "freqPer100": 13.2
-      },
-      "postUp": {
-        "ppp": 0.82,
-        "percentile": 48.6,
-        "freqPer100": 26.6
-      },
-      "insideOut": {
-        "ppp": 1.06,
-        "percentile": 88.2,
-        "freqPer100": 9.8
-      },
-      "pickAndPop": {
-        "ppp": 1.09,
-        "percentile": 74.6,
-        "freqPer100": 1.8
-      },
-      "highLow": {
-        "ppp": 1.09,
-        "percentile": 66.7,
-        "freqPer100": 8.3
-      },
-      "rebScramble": {
-        "ppp": 1.37,
-        "percentile": 79.1,
-        "freqPer100": 7.8
-      },
-      "transition": {
-        "ppp": 1.37,
-        "percentile": 80.2,
-        "freqPer100": 12
       }
     }
   }

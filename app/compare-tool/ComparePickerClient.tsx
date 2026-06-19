@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import styles from "./ComparePicker.module.scss";
 import Loader from "@/components/ui/Loader";
 import overlayStyles from "@/components/ui/NavigationLoader.module.scss";
+import PlayerPicker from "./PlayerPicker";
 
 type IndexEntry = { id: number; name: string; team: string };
 
@@ -25,47 +26,20 @@ export default function ComparePickerClient({ allPlayers }: Props) {
       </h1>
 
       <div className={styles.selectGrid}>
-        <div className={styles.selectGroup}>
-          <label className={styles.label}>
-            Joueur 1
-          </label>
-          <select
-            value={sel1}
-            onChange={(e) => setSel1(e.target.value)}
-            className={styles.select}
-          >
-            <option value="">Choisir un joueur</option>
-            {allPlayers
-              .slice()
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((p) => (
-              <option key={p.id} value={String(p.id)}>
-                {p.name} — {p.team}
-              </option>
-            ))}
-          </select>
-        </div>
-
-        <div className={styles.selectGroup}>
-          <label className={styles.label}>
-            Joueur 2
-          </label>
-          <select
-            value={sel2}
-            onChange={(e) => setSel2(e.target.value)}
-            className={styles.select}
-          >
-            <option value="">Choisir un joueur</option>
-            {allPlayers
-              .slice()
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((p) => (
-              <option key={p.id} value={String(p.id)}>
-                {p.name} — {p.team}
-              </option>
-            ))}
-          </select>
-        </div>
+        <PlayerPicker
+          label="Joueur 1"
+          value={sel1}
+          onChange={setSel1}
+          allPlayers={allPlayers}
+          excludeId={sel2}
+        />
+        <PlayerPicker
+          label="Joueur 2"
+          value={sel2}
+          onChange={setSel2}
+          allPlayers={allPlayers}
+          excludeId={sel1}
+        />
       </div>
 
       <button

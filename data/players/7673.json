@@ -243,7 +243,8 @@
     "jersey": "15",
     "position": "Forward",
     "height": 77,
-    "weight": 200,
+    "weight": 204,
+    "wingspan": null,
     "hometown": {
       "city": "Riverton",
       "state": "UT"
@@ -819,8 +820,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37759104,
-      "sourceId": "401819834113698800",
+      "id": 37759103,
+      "sourceId": "401819834113698713",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -831,16 +832,16 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 19,
-      "homeWinProbability": 0.857,
+      "homeWinProbability": 0.82,
       "period": 1,
       "clock": "6:11",
       "secondsRemaining": 371,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T03:34:42.000Z",
+      "wallclock": "2025-11-04T03:34:28.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -926,8 +927,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37759103,
-      "sourceId": "401819834113698713",
+      "id": 37759104,
+      "sourceId": "401819834113698800",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -938,16 +939,16 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 19,
-      "homeWinProbability": 0.82,
+      "homeWinProbability": 0.857,
       "period": 1,
       "clock": "6:11",
       "secondsRemaining": 371,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T03:34:28.000Z",
+      "wallclock": "2025-11-04T03:34:42.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -2218,8 +2219,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37759405,
-      "sourceId": "401819834113711453",
+      "id": 37759408,
+      "sourceId": "401819834113711491",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -2230,16 +2231,16 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 64,
-      "homeWinProbability": 0.992,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "0:06",
       "secondsRemaining": 6,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T05:02:27.000Z",
+      "wallclock": "2025-11-04T05:02:41.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -2325,8 +2326,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37759408,
-      "sourceId": "401819834113711491",
+      "id": 37759405,
+      "sourceId": "401819834113711453",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -2337,16 +2338,16 @@
       "opponent": "Villanova",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 64,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.992,
       "period": 2,
       "clock": "0:06",
       "secondsRemaining": 6,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T05:02:41.000Z",
+      "wallclock": "2025-11-04T05:02:27.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -4485,9 +4486,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38755306,
-      "sourceId": "401819835114177684",
-      "playType": "LayUpShot",
+      "id": 38755308,
+      "sourceId": "401819835114177794",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -4503,11 +4504,11 @@
       "period": 1,
       "clock": "4:33",
       "secondsRemaining": 273,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-12T02:46:49.000Z",
-      "playText": "Richie Saunders made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-12T02:47:16.000Z",
+      "playText": "Richie Saunders missed Free Throw.",
       "participants": [
         {
           "id": 7673,
@@ -4519,16 +4520,16 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -4592,9 +4593,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38755308,
-      "sourceId": "401819835114177794",
-      "playType": "MadeFreeThrow",
+      "id": 38755306,
+      "sourceId": "401819835114177684",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -4610,11 +4611,11 @@
       "period": 1,
       "clock": "4:33",
       "secondsRemaining": 273,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-12T02:47:16.000Z",
-      "playText": "Richie Saunders missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-12T02:46:49.000Z",
+      "playText": "Richie Saunders made Layup.",
       "participants": [
         {
           "id": 7673,
@@ -4626,16 +4627,16 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 255
         }
       },
       "onFloor": [
@@ -4806,8 +4807,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38755335,
-      "sourceId": "401819835114179842",
+      "id": 38755340,
+      "sourceId": "401819835114179888",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -4818,16 +4819,16 @@
       "opponent": "Delaware",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 37,
-      "homeWinProbability": 0.468,
+      "homeWinProbability": 0.527,
       "period": 1,
       "clock": "0:02",
       "secondsRemaining": 2,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T02:59:06.000Z",
+      "wallclock": "2025-11-12T02:59:31.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -4913,8 +4914,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38755340,
-      "sourceId": "401819835114179888",
+      "id": 38755335,
+      "sourceId": "401819835114179842",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -4925,16 +4926,16 @@
       "opponent": "Delaware",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 37,
-      "homeWinProbability": 0.527,
+      "homeWinProbability": 0.468,
       "period": 1,
       "clock": "0:02",
       "secondsRemaining": 2,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T02:59:31.000Z",
+      "wallclock": "2025-11-12T02:59:06.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -6970,8 +6971,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39140440,
-      "sourceId": "401812788114412004",
+      "id": 39140436,
+      "sourceId": "401812788114411999",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -6983,16 +6984,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 33,
-      "homeWinProbability": 0.952,
+      "awayScore": 32,
+      "homeWinProbability": 0.968,
       "period": 2,
       "clock": "18:24",
       "secondsRemaining": 1104,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T01:30:05.000Z",
-      "playText": "Richie Saunders made Free Throw.",
+      "wallclock": "2025-11-16T01:29:51.000Z",
+      "playText": "Richie Saunders missed Free Throw.",
       "participants": [
         {
           "id": 7673,
@@ -7004,7 +7005,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7077,8 +7078,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39140436,
-      "sourceId": "401812788114411999",
+      "id": 39140440,
+      "sourceId": "401812788114412004",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -7090,16 +7091,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 32,
-      "homeWinProbability": 0.968,
+      "awayScore": 33,
+      "homeWinProbability": 0.952,
       "period": 2,
       "clock": "18:24",
       "secondsRemaining": 1104,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T01:29:51.000Z",
-      "playText": "Richie Saunders missed Free Throw.",
+      "wallclock": "2025-11-16T01:30:05.000Z",
+      "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
           "id": 7673,
@@ -7111,7 +7112,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -7505,8 +7506,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39140511,
-      "sourceId": "401812788114414619",
+      "id": 39140510,
+      "sourceId": "401812788114414611",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -7518,15 +7519,15 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 62,
-      "awayScore": 48,
-      "homeWinProbability": 0.975,
+      "awayScore": 47,
+      "homeWinProbability": 0.988,
       "period": 2,
       "clock": "11:45",
       "secondsRemaining": 705,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T01:55:13.000Z",
+      "wallclock": "2025-11-16T01:55:03.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -7612,8 +7613,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39140510,
-      "sourceId": "401812788114414611",
+      "id": 39140511,
+      "sourceId": "401812788114414619",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -7625,15 +7626,15 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 62,
-      "awayScore": 47,
-      "homeWinProbability": 0.988,
+      "awayScore": 48,
+      "homeWinProbability": 0.975,
       "period": 2,
       "clock": "11:45",
       "secondsRemaining": 705,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T01:55:03.000Z",
+      "wallclock": "2025-11-16T01:55:13.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -9991,8 +9992,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39729036,
-      "sourceId": "401819836114713468",
+      "id": 39729031,
+      "sourceId": "401819836114713439",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -10009,11 +10010,11 @@
       "period": 2,
       "clock": "10:02",
       "secondsRemaining": 602,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T22:36:37.000Z",
-      "playText": "Richie Saunders missed Free Throw.",
+      "wallclock": "2025-11-21T22:36:17.000Z",
+      "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
           "id": 7673,
@@ -10025,7 +10026,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10098,8 +10099,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39729031,
-      "sourceId": "401819836114713439",
+      "id": 39729036,
+      "sourceId": "401819836114713468",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -10116,11 +10117,11 @@
       "period": 2,
       "clock": "10:02",
       "secondsRemaining": 602,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T22:36:17.000Z",
-      "playText": "Richie Saunders made Free Throw.",
+      "wallclock": "2025-11-21T22:36:37.000Z",
+      "playText": "Richie Saunders missed Free Throw.",
       "participants": [
         {
           "id": 7673,
@@ -10132,7 +10133,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -12924,8 +12925,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40472783,
-      "sourceId": "401830886115173387",
+      "id": 40472782,
+      "sourceId": "401830886115173304",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -12937,15 +12938,15 @@
       "opponentConference": "A-10",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 30,
-      "homeWinProbability": 0.814,
+      "awayScore": 29,
+      "homeWinProbability": 0.843,
       "period": 1,
       "clock": "0:49",
       "secondsRemaining": 49,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T03:18:56.000Z",
+      "wallclock": "2025-11-29T03:18:31.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -13031,8 +13032,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40472782,
-      "sourceId": "401830886115173304",
+      "id": 40472783,
+      "sourceId": "401830886115173387",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -13044,15 +13045,15 @@
       "opponentConference": "A-10",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 29,
-      "homeWinProbability": 0.843,
+      "awayScore": 30,
+      "homeWinProbability": 0.814,
       "period": 1,
       "clock": "0:49",
       "secondsRemaining": 49,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-29T03:18:31.000Z",
+      "wallclock": "2025-11-29T03:18:56.000Z",
       "playText": "Richie Saunders made Free Throw.",
       "participants": [
         {
@@ -15577,6 +15578,117 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 40894233,
+      "sourceId": "401819837115449043",
+      "playType": "JumpShot",
+      "isHomeTeam": true,
+      "teamId": 18,
+      "team": "BYU",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 39,
+      "opponent": "California Baptist",
+      "opponentConference": "WAC",
+      "opponentSeed": null,
+      "homeScore": 81,
+      "awayScore": 45,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "7:19",
+      "secondsRemaining": 439,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-12-04T03:41:27.000Z",
+      "playText": "Richie Saunders made Jumper. Assisted by Robert Wright III.",
+      "participants": [
+        {
+          "id": 165,
+          "name": "Robert Wright III"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 7673,
+          "name": "Richie Saunders"
+        },
+        "made": true,
+        "range": "jumper",
+        "assisted": true,
+        "assistedBy": {
+          "id": 165,
+          "name": "Robert Wright III"
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5042,
+          "name": "Monty Bowser",
+          "team": "California Baptist"
+        },
+        {
+          "id": 7159,
+          "name": "Martel Williams",
+          "team": "California Baptist"
+        },
+        {
+          "id": 7674,
+          "name": "Keba Keita",
+          "team": "BYU"
+        },
+        {
+          "id": 7677,
+          "name": "Mihailo Bošković",
+          "team": "BYU"
+        },
+        {
+          "id": 165,
+          "name": "Robert Wright III",
+          "team": "BYU"
+        },
+        {
+          "id": 7160,
+          "name": "Bradey Henige",
+          "team": "California Baptist"
+        },
+        {
+          "id": 7673,
+          "name": "Richie Saunders",
+          "team": "BYU"
+        },
+        {
+          "id": 198384,
+          "name": "Aleksej Kostić",
+          "team": "BYU"
+        },
+        {
+          "id": 198424,
+          "name": "Jordan Muller",
+          "team": "California Baptist"
+        },
+        {
+          "id": 198413,
+          "name": "Rene D'Amelio",
+          "team": "California Baptist"
+        }
+      ]
+    },
+    {
+      "gameId": 213695,
+      "gameSourceId": "401819837",
+      "gameStartDate": "2025-12-04T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 40894229,
       "sourceId": "401819837115449026",
       "playType": "JumpShot",
@@ -15724,117 +15836,6 @@
         "assistedBy": {
           "id": null,
           "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5042,
-          "name": "Monty Bowser",
-          "team": "California Baptist"
-        },
-        {
-          "id": 7159,
-          "name": "Martel Williams",
-          "team": "California Baptist"
-        },
-        {
-          "id": 7674,
-          "name": "Keba Keita",
-          "team": "BYU"
-        },
-        {
-          "id": 7677,
-          "name": "Mihailo Bošković",
-          "team": "BYU"
-        },
-        {
-          "id": 165,
-          "name": "Robert Wright III",
-          "team": "BYU"
-        },
-        {
-          "id": 7160,
-          "name": "Bradey Henige",
-          "team": "California Baptist"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders",
-          "team": "BYU"
-        },
-        {
-          "id": 198384,
-          "name": "Aleksej Kostić",
-          "team": "BYU"
-        },
-        {
-          "id": 198424,
-          "name": "Jordan Muller",
-          "team": "California Baptist"
-        },
-        {
-          "id": 198413,
-          "name": "Rene D'Amelio",
-          "team": "California Baptist"
-        }
-      ]
-    },
-    {
-      "gameId": 213695,
-      "gameSourceId": "401819837",
-      "gameStartDate": "2025-12-04T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 40894233,
-      "sourceId": "401819837115449043",
-      "playType": "JumpShot",
-      "isHomeTeam": true,
-      "teamId": 18,
-      "team": "BYU",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 39,
-      "opponent": "California Baptist",
-      "opponentConference": "WAC",
-      "opponentSeed": null,
-      "homeScore": 81,
-      "awayScore": 45,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "7:19",
-      "secondsRemaining": 439,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-04T03:41:27.000Z",
-      "playText": "Richie Saunders made Jumper. Assisted by Robert Wright III.",
-      "participants": [
-        {
-          "id": 165,
-          "name": "Robert Wright III"
-        },
-        {
-          "id": 7673,
-          "name": "Richie Saunders"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 7673,
-          "name": "Richie Saunders"
-        },
-        "made": true,
-        "range": "jumper",
-        "assisted": true,
-        "assistedBy": {
-          "id": 165,
-          "name": "Robert Wright III"
         },
         "location": {
           "x": null,
@@ -20123,9 +20124,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41923306,
-      "sourceId": "401819839115987654",
-      "playType": "MadeFreeThrow",
+      "id": 41923298,
+      "sourceId": "401819839115987576",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -20135,17 +20136,17 @@
       "opponent": "Pacific",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 14,
-      "homeWinProbability": 0.988,
+      "homeWinProbability": 0.975,
       "period": 1,
       "clock": "1:53",
       "secondsRemaining": 113,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-17T02:42:36.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-17T02:41:52.000Z",
+      "playText": "Richie Saunders makes layup",
       "participants": [
         {
           "id": 7673,
@@ -20158,15 +20159,15 @@
           "name": "Richie Saunders"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 265
         }
       },
       "onFloor": [
@@ -20230,9 +20231,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41923298,
-      "sourceId": "401819839115987576",
-      "playType": "LayUpShot",
+      "id": 41923306,
+      "sourceId": "401819839115987654",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
       "team": "BYU",
@@ -20242,17 +20243,17 @@
       "opponent": "Pacific",
       "opponentConference": "WCC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 14,
-      "homeWinProbability": 0.975,
+      "homeWinProbability": 0.988,
       "period": 1,
       "clock": "1:53",
       "secondsRemaining": 113,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-17T02:41:52.000Z",
-      "playText": "Richie Saunders makes layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-17T02:42:36.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 1",
       "participants": [
         {
           "id": 7673,
@@ -20265,15 +20266,15 @@
           "name": "Richie Saunders"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -21419,8 +21420,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42210790,
-      "sourceId": "401819840116133875",
+      "id": 42210789,
+      "sourceId": "401819840116133869",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -21431,17 +21432,17 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 4,
       "awayScore": 6,
-      "homeWinProbability": 0.591,
+      "homeWinProbability": 0.579,
       "period": 1,
       "clock": "16:49",
       "secondsRemaining": 1009,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T02:37:34.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2025-12-20T02:37:20.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -21526,8 +21527,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42210789,
-      "sourceId": "401819840116133869",
+      "id": 42210790,
+      "sourceId": "401819840116133875",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -21538,17 +21539,17 @@
       "opponent": "Abilene Christian",
       "opponentConference": "WAC",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 6,
-      "homeWinProbability": 0.579,
+      "homeWinProbability": 0.591,
       "period": 1,
       "clock": "16:49",
       "secondsRemaining": 1009,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T02:37:20.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 2",
+      "wallclock": "2025-12-20T02:37:34.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -29651,8 +29652,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627833,
-      "sourceId": "401827606116961161",
+      "id": 43627840,
+      "sourceId": "401827606116961195",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -29663,7 +29664,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 47,
       "homeWinProbability": 1,
       "period": 2,
@@ -29672,8 +29673,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:36:48.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 2",
+      "wallclock": "2026-01-08T03:37:10.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -29758,8 +29759,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43627840,
-      "sourceId": "401827606116961195",
+      "id": 43627833,
+      "sourceId": "401827606116961161",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -29770,7 +29771,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 47,
       "homeWinProbability": 1,
       "period": 2,
@@ -29779,8 +29780,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:37:10.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-08T03:36:48.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -32370,8 +32371,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43983944,
-      "sourceId": "401827613117218509",
+      "id": 43983946,
+      "sourceId": "401827613117218522",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -32383,16 +32384,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 73,
-      "homeWinProbability": 0.398,
+      "awayScore": 74,
+      "homeWinProbability": 0.316,
       "period": 2,
       "clock": "7:53",
       "secondsRemaining": 473,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T04:52:36.000Z",
-      "playText": "Richie Saunders misses free throw 1 of 2",
+      "wallclock": "2026-01-11T04:52:52.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -32404,7 +32405,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32477,8 +32478,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43983946,
-      "sourceId": "401827613117218522",
+      "id": 43983944,
+      "sourceId": "401827613117218509",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -32490,16 +32491,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 74,
-      "homeWinProbability": 0.316,
+      "awayScore": 73,
+      "homeWinProbability": 0.398,
       "period": 2,
       "clock": "7:53",
       "secondsRemaining": 473,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T04:52:52.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-11T04:52:36.000Z",
+      "playText": "Richie Saunders misses free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -32511,7 +32512,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32905,8 +32906,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43984036,
-      "sourceId": "401827613117219271",
+      "id": 43984037,
+      "sourceId": "401827613117219272",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -32918,16 +32919,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 88,
-      "homeWinProbability": 0.023,
+      "awayScore": 89,
+      "homeWinProbability": 0.015,
       "period": 2,
       "clock": "0:08",
       "secondsRemaining": 8,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T05:21:31.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 2",
+      "wallclock": "2026-01-11T05:21:45.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -33012,8 +33013,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43984037,
-      "sourceId": "401827613117219272",
+      "id": 43984036,
+      "sourceId": "401827613117219271",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 18,
@@ -33025,16 +33026,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 89,
-      "homeWinProbability": 0.015,
+      "awayScore": 88,
+      "homeWinProbability": 0.023,
       "period": 2,
       "clock": "0:08",
       "secondsRemaining": 8,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T05:21:45.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-11T05:21:31.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -33440,8 +33441,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44358937,
-      "sourceId": "401827620117350005",
+      "id": 44358946,
+      "sourceId": "401827620117350020",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -33452,17 +33453,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 10,
-      "homeWinProbability": 0.472,
+      "homeWinProbability": 0.51,
       "period": 1,
       "clock": "14:25",
       "secondsRemaining": 865,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:24:11.000Z",
-      "playText": "Richie Saunders misses free throw 1 of 2",
+      "wallclock": "2026-01-15T04:24:31.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -33474,7 +33475,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33547,8 +33548,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44358946,
-      "sourceId": "401827620117350020",
+      "id": 44358937,
+      "sourceId": "401827620117350005",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -33559,17 +33560,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 10,
-      "homeWinProbability": 0.51,
+      "homeWinProbability": 0.472,
       "period": 1,
       "clock": "14:25",
       "secondsRemaining": 865,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:24:31.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-15T04:24:11.000Z",
+      "playText": "Richie Saunders misses free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -33581,7 +33582,7 @@
           "id": 7673,
           "name": "Richie Saunders"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33872,8 +33873,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359090,
-      "sourceId": "401827620117350650",
+      "id": 44359088,
+      "sourceId": "401827620117350649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -33884,17 +33885,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 20,
+      "homeScore": 19,
       "awayScore": 16,
-      "homeWinProbability": 0.767,
+      "homeWinProbability": 0.697,
       "period": 1,
       "clock": "8:33",
       "secondsRemaining": 513,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:39:21.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-15T04:39:03.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -33979,8 +33980,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359088,
-      "sourceId": "401827620117350649",
+      "id": 44359090,
+      "sourceId": "401827620117350650",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -33991,17 +33992,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 20,
       "awayScore": 16,
-      "homeWinProbability": 0.697,
+      "homeWinProbability": 0.767,
       "period": 1,
       "clock": "8:33",
       "secondsRemaining": 513,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:39:03.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 2",
+      "wallclock": "2026-01-15T04:39:21.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -35489,8 +35490,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359476,
-      "sourceId": "401827620117352424",
+      "id": 44359477,
+      "sourceId": "401827620117352425",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -35501,17 +35502,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 67,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "0:18",
       "secondsRemaining": 18,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T06:27:02.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 2",
+      "wallclock": "2026-01-15T06:27:17.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -35596,8 +35597,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44359477,
-      "sourceId": "401827620117352425",
+      "id": 44359476,
+      "sourceId": "401827620117352424",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -35608,17 +35609,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 67,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "0:18",
       "secondsRemaining": 18,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T06:27:17.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-15T06:27:02.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -38834,8 +38835,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45378910,
-      "sourceId": "401827642117937389",
+      "id": 45379127,
+      "sourceId": "401827642117937429",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -38846,17 +38847,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 56,
-      "homeWinProbability": 0.869,
+      "homeWinProbability": 0.882,
       "period": 2,
       "clock": "11:00",
       "secondsRemaining": 660,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:05:00.000Z",
-      "playText": "Richie Saunders makes free throw 1 of 2",
+      "wallclock": "2026-01-25T00:05:12.000Z",
+      "playText": "Richie Saunders makes free throw 2 of 2",
       "participants": [
         {
           "id": 7673,
@@ -38941,8 +38942,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45379127,
-      "sourceId": "401827642117937429",
+      "id": 45378910,
+      "sourceId": "401827642117937389",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 18,
@@ -38953,17 +38954,17 @@
       "opponent": "Utah",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 56,
-      "homeWinProbability": 0.882,
+      "homeWinProbability": 0.869,
       "period": 2,
       "clock": "11:00",
       "secondsRemaining": 660,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:05:12.000Z",
-      "playText": "Richie Saunders makes free throw 2 of 2",
+      "wallclock": "2026-01-25T00:05:00.000Z",
+      "playText": "Richie Saunders makes free throw 1 of 2",
       "participants": [
         {
           "id": 7673,
@@ -50782,70 +50783,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.17,
-        "percentile": 98.4,
-        "freqPer100": 19.6
-      },
-      "attackKick": {
-        "ppp": 1.05,
-        "percentile": 78.2,
-        "freqPer100": 8.6
-      },
-      "perimeterSniper": {
-        "ppp": 1.02,
-        "percentile": 64.5,
-        "freqPer100": 27.1
-      },
-      "dribbleJumper": {
-        "ppp": 0.89,
-        "percentile": 48.5,
-        "freqPer100": 2.2
-      },
-      "midRange": {
-        "ppp": 1.07,
-        "percentile": 98.5,
-        "freqPer100": 4.4
-      },
-      "hitsCutter": {
-        "ppp": 1.41,
-        "percentile": 100,
-        "freqPer100": 2.1
-      },
-      "perimeterCut": {
-        "ppp": 1.48,
-        "percentile": 95.7,
-        "freqPer100": 5
-      },
-      "pnrPasser": {
-        "ppp": 1.04,
-        "percentile": 61.5,
-        "freqPer100": 3.6
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 1.23,
-        "percentile": 100,
-        "freqPer100": 0.6
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.45,
-        "percentile": 88.3,
-        "freqPer100": 7.7
-      },
-      "transition": {
-        "ppp": 1.58,
-        "percentile": 97.1,
-        "freqPer100": 19
       }
     }
   }

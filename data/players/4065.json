@@ -243,7 +243,8 @@
     "jersey": "3",
     "position": "Guard",
     "height": 80,
-    "weight": 220,
+    "weight": 211,
+    "wingspan": null,
     "hometown": {
       "city": "Columbus",
       "state": "OH"
@@ -4455,8 +4456,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38854915,
-      "sourceId": "401812284114231411",
+      "id": 38854912,
+      "sourceId": "401812284114231298",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -4473,11 +4474,11 @@
       "period": 1,
       "clock": "4:02",
       "secondsRemaining": 242,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T01:39:51.000Z",
-      "playText": "Dailyn Swain missed Free Throw.",
+      "wallclock": "2025-11-13T01:39:31.000Z",
+      "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
           "id": 4065,
@@ -4489,7 +4490,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4562,8 +4563,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38854912,
-      "sourceId": "401812284114231298",
+      "id": 38854915,
+      "sourceId": "401812284114231411",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -4580,11 +4581,11 @@
       "period": 1,
       "clock": "4:02",
       "secondsRemaining": 242,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T01:39:31.000Z",
-      "playText": "Dailyn Swain made Free Throw.",
+      "wallclock": "2025-11-13T01:39:51.000Z",
+      "playText": "Dailyn Swain missed Free Throw.",
       "participants": [
         {
           "id": 4065,
@@ -4596,7 +4597,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -5525,9 +5526,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39103631,
-      "sourceId": "401829425114351038",
-      "playType": "LayUpShot",
+      "id": 39103637,
+      "sourceId": "401829425114351096",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -5537,17 +5538,17 @@
       "opponent": "Kansas City",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 10,
       "awayScore": 2,
-      "homeWinProbability": 0.811,
+      "homeWinProbability": 0.817,
       "period": 1,
       "clock": "16:21",
       "secondsRemaining": 981,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-15T18:06:37.000Z",
-      "playText": "Dailyn Swain made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-15T18:07:17.000Z",
+      "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
           "id": 4065,
@@ -5560,15 +5561,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -5632,9 +5633,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39103637,
-      "sourceId": "401829425114351096",
-      "playType": "MadeFreeThrow",
+      "id": 39103631,
+      "sourceId": "401829425114351038",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -5644,17 +5645,17 @@
       "opponent": "Kansas City",
       "opponentConference": "Summit",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 9,
       "awayScore": 2,
-      "homeWinProbability": 0.817,
+      "homeWinProbability": 0.811,
       "period": 1,
       "clock": "16:21",
       "secondsRemaining": 981,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-15T18:07:17.000Z",
-      "playText": "Dailyn Swain made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-15T18:06:37.000Z",
+      "playText": "Dailyn Swain made Layup.",
       "participants": [
         {
           "id": 4065,
@@ -5667,15 +5668,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 270
         }
       },
       "onFloor": [
@@ -7360,8 +7361,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39438965,
-      "sourceId": "401812628114568705",
+      "id": 39438974,
+      "sourceId": "401812628114568804",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -7372,16 +7373,16 @@
       "opponent": "Rider",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 25,
       "awayScore": 14,
-      "homeWinProbability": 0.878,
+      "homeWinProbability": 0.894,
       "period": 1,
       "clock": "9:41",
       "secondsRemaining": 581,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T02:24:45.000Z",
+      "wallclock": "2025-11-19T02:25:20.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -7472,8 +7473,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39438974,
-      "sourceId": "401812628114568804",
+      "id": 39438965,
+      "sourceId": "401812628114568705",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -7484,16 +7485,16 @@
       "opponent": "Rider",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 24,
       "awayScore": 14,
-      "homeWinProbability": 0.894,
+      "homeWinProbability": 0.878,
       "period": 1,
       "clock": "9:41",
       "secondsRemaining": 581,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T02:25:20.000Z",
+      "wallclock": "2025-11-19T02:24:45.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -8698,8 +8699,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39439158,
-      "sourceId": "401812628114577239",
+      "id": 39439151,
+      "sourceId": "401812628114577150",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -8710,7 +8711,7 @@
       "opponent": "Rider",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 35,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -8719,7 +8720,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T03:22:18.000Z",
+      "wallclock": "2025-11-19T03:21:56.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -8805,8 +8806,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39439151,
-      "sourceId": "401812628114577150",
+      "id": 39439158,
+      "sourceId": "401812628114577239",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -8817,7 +8818,7 @@
       "opponent": "Rider",
       "opponentConference": "MAAC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 35,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -8826,7 +8827,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T03:21:56.000Z",
+      "wallclock": "2025-11-19T03:22:18.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -9447,6 +9448,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 40105516,
+      "sourceId": "401819818114937905",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 10,
+      "opponent": "Arizona State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 16,
+      "awayScore": 15,
+      "homeWinProbability": 0.638,
+      "period": 1,
+      "clock": "9:10",
+      "secondsRemaining": 550,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T05:10:43.000Z",
+      "playText": "Dailyn Swain made Free Throw.",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8339,
+          "name": "Maurice Odum",
+          "team": "Arizona State"
+        },
+        {
+          "id": 13337,
+          "name": "Anthony Johnson",
+          "team": "Arizona State"
+        },
+        {
+          "id": 197999,
+          "name": "Andrija Grbović",
+          "team": "Arizona State"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        },
+        {
+          "id": 371,
+          "name": "Camden Heide",
+          "team": "Texas"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 2806,
+          "name": "Marcus Adams Jr.",
+          "team": "Arizona State"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        },
+        {
+          "id": 2524,
+          "name": "Bryce Ford",
+          "team": "Arizona State"
+        }
+      ]
+    },
+    {
+      "gameId": 213468,
+      "gameSourceId": "401819818",
+      "gameStartDate": "2025-11-25T04:43:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 40105517,
       "sourceId": "401819818114937909",
       "playType": "MadeFreeThrow",
@@ -9554,8 +9662,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40105516,
-      "sourceId": "401819818114937905",
+      "id": 40105535,
+      "sourceId": "401819818114937976",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -9566,16 +9674,16 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 20,
       "awayScore": 15,
-      "homeWinProbability": 0.638,
+      "homeWinProbability": 0.787,
       "period": 1,
-      "clock": "9:10",
-      "secondsRemaining": 550,
+      "clock": "8:09",
+      "secondsRemaining": 489,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-25T05:10:43.000Z",
+      "wallclock": "2025-11-25T05:13:14.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -9697,113 +9805,6 @@
         },
         "made": true,
         "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 8339,
-          "name": "Maurice Odum",
-          "team": "Arizona State"
-        },
-        {
-          "id": 13337,
-          "name": "Anthony Johnson",
-          "team": "Arizona State"
-        },
-        {
-          "id": 197999,
-          "name": "Andrija Grbović",
-          "team": "Arizona State"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Texas"
-        },
-        {
-          "id": 371,
-          "name": "Camden Heide",
-          "team": "Texas"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 2806,
-          "name": "Marcus Adams Jr.",
-          "team": "Arizona State"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        },
-        {
-          "id": 2524,
-          "name": "Bryce Ford",
-          "team": "Arizona State"
-        }
-      ]
-    },
-    {
-      "gameId": 213468,
-      "gameSourceId": "401819818",
-      "gameStartDate": "2025-11-25T04:43:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 40105535,
-      "sourceId": "401819818114937976",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 10,
-      "opponent": "Arizona State",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 20,
-      "awayScore": 15,
-      "homeWinProbability": 0.787,
-      "period": 1,
-      "clock": "8:09",
-      "secondsRemaining": 489,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T05:13:14.000Z",
-      "playText": "Dailyn Swain made Free Throw.",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -10089,9 +10090,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40105656,
-      "sourceId": "401819818114938814",
-      "playType": "LayUpShot",
+      "id": 40105658,
+      "sourceId": "401819818114938835",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -10107,11 +10108,11 @@
       "period": 2,
       "clock": "18:40",
       "secondsRemaining": 1120,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-25T05:58:21.000Z",
-      "playText": "Dailyn Swain made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T05:58:47.000Z",
+      "playText": "Dailyn Swain missed Free Throw.",
       "participants": [
         {
           "id": 4065,
@@ -10123,8 +10124,8 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -10196,9 +10197,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40105658,
-      "sourceId": "401819818114938835",
-      "playType": "MadeFreeThrow",
+      "id": 40105656,
+      "sourceId": "401819818114938814",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -10214,11 +10215,11 @@
       "period": 2,
       "clock": "18:40",
       "secondsRemaining": 1120,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T05:58:47.000Z",
-      "playText": "Dailyn Swain missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-25T05:58:21.000Z",
+      "playText": "Dailyn Swain made Layup.",
       "participants": [
         {
           "id": 4065,
@@ -10230,8 +10231,8 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -15182,8 +15183,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317009,
-      "sourceId": "401831202115076397",
+      "id": 40317006,
+      "sourceId": "401831202115076390",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -15194,16 +15195,16 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 59,
+      "homeScore": 58,
       "awayScore": 56,
-      "homeWinProbability": 0.681,
+      "homeWinProbability": 0.726,
       "period": 2,
       "clock": "12:57",
       "secondsRemaining": 777,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:01:56.000Z",
+      "wallclock": "2025-11-27T04:01:38.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -15289,8 +15290,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317006,
-      "sourceId": "401831202115076390",
+      "id": 40317009,
+      "sourceId": "401831202115076397",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -15301,16 +15302,16 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 59,
       "awayScore": 56,
-      "homeWinProbability": 0.726,
+      "homeWinProbability": 0.681,
       "period": 2,
       "clock": "12:57",
       "secondsRemaining": 777,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:01:38.000Z",
+      "wallclock": "2025-11-27T04:01:56.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -15507,8 +15508,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317122,
-      "sourceId": "401831202115077198",
+      "id": 40317123,
+      "sourceId": "401831202115077199",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -15519,16 +15520,16 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 88,
+      "homeScore": 89,
       "awayScore": 81,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.994,
       "period": 2,
       "clock": "2:24",
       "secondsRemaining": 144,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:32:23.000Z",
+      "wallclock": "2025-11-27T04:32:36.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -15614,8 +15615,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40317123,
-      "sourceId": "401831202115077199",
+      "id": 40317122,
+      "sourceId": "401831202115077198",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -15626,16 +15627,16 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 89,
+      "homeScore": 88,
       "awayScore": 81,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "2:24",
       "secondsRemaining": 144,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T04:32:36.000Z",
+      "wallclock": "2025-11-27T04:32:23.000Z",
       "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
@@ -20287,8 +20288,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41598547,
-      "sourceId": "401812794115788307",
+      "id": 41598545,
+      "sourceId": "401812794115788217",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -20300,16 +20301,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 39,
-      "homeWinProbability": 0.794,
+      "awayScore": 38,
+      "homeWinProbability": 0.834,
       "period": 2,
       "clock": "18:02",
       "secondsRemaining": 1082,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T02:16:10.000Z",
-      "playText": "Dailyn Swain made Free Throw.",
+      "wallclock": "2025-12-13T02:15:59.000Z",
+      "playText": "Dailyn Swain missed Free Throw.",
       "participants": [
         {
           "id": 4065,
@@ -20321,7 +20322,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20394,8 +20395,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41598545,
-      "sourceId": "401812794115788217",
+      "id": 41598547,
+      "sourceId": "401812794115788307",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -20407,16 +20408,16 @@
       "opponentConference": "Big East",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 38,
-      "homeWinProbability": 0.834,
+      "awayScore": 39,
+      "homeWinProbability": 0.794,
       "period": 2,
       "clock": "18:02",
       "secondsRemaining": 1082,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T02:15:59.000Z",
-      "playText": "Dailyn Swain missed Free Throw.",
+      "wallclock": "2025-12-13T02:16:10.000Z",
+      "playText": "Dailyn Swain made Free Throw.",
       "participants": [
         {
           "id": 4065,
@@ -20428,7 +20429,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20608,8 +20609,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41598726,
-      "sourceId": "401812794115789724",
+      "id": 41598724,
+      "sourceId": "401812794115789715",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -20629,7 +20630,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T02:59:40.000Z",
+      "wallclock": "2025-12-13T02:59:24.000Z",
       "playText": "Dailyn Swain missed Free Throw.",
       "participants": [
         {
@@ -20715,8 +20716,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41598724,
-      "sourceId": "401812794115789715",
+      "id": 41598726,
+      "sourceId": "401812794115789724",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -20736,7 +20737,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T02:59:24.000Z",
+      "wallclock": "2025-12-13T02:59:40.000Z",
       "playText": "Dailyn Swain missed Free Throw.",
       "participants": [
         {
@@ -23212,8 +23213,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42529326,
-      "sourceId": "401823044116347297",
+      "id": 42529329,
+      "sourceId": "401823044116347336",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -23224,17 +23225,17 @@
       "opponent": "Maryland Eastern Shore",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 38,
-      "homeWinProbability": 0.936,
+      "homeWinProbability": 0.947,
       "period": 2,
       "clock": "16:17",
       "secondsRemaining": 977,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:08:31.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2025-12-23T02:08:46.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -23319,8 +23320,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42529329,
-      "sourceId": "401823044116347336",
+      "id": 42529326,
+      "sourceId": "401823044116347297",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -23331,17 +23332,17 @@
       "opponent": "Maryland Eastern Shore",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 38,
-      "homeWinProbability": 0.947,
+      "homeWinProbability": 0.936,
       "period": 2,
       "clock": "16:17",
       "secondsRemaining": 977,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-23T02:08:46.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2025-12-23T02:08:31.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -24408,118 +24409,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42529549,
-      "sourceId": "401823044116351008",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 159,
-      "opponent": "Maryland Eastern Shore",
-      "opponentConference": "MEAC",
-      "opponentSeed": null,
-      "homeScore": 93,
-      "awayScore": 68,
-      "homeWinProbability": 1,
-      "period": 2,
-      "clock": "0:35",
-      "secondsRemaining": 35,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-23T03:03:52.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 200371,
-          "name": "Zion Obanla",
-          "team": "Maryland Eastern Shore"
-        },
-        {
-          "id": 3311,
-          "name": "Maurio Hanson Jr.",
-          "team": "Maryland Eastern Shore"
-        },
-        {
-          "id": 202497,
-          "name": "Declan Duru Jr.",
-          "team": "Texas"
-        },
-        {
-          "id": 200362,
-          "name": "Levi Beckwith",
-          "team": "Maryland Eastern Shore"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        },
-        {
-          "id": 200369,
-          "name": "Joseph Locandro",
-          "team": "Maryland Eastern Shore"
-        },
-        {
-          "id": 200368,
-          "name": "Jaden Johnson",
-          "team": "Maryland Eastern Shore"
-        },
-        {
-          "id": 4547,
-          "name": "Maurice Vassel",
-          "team": "Maryland Eastern Shore"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        }
-      ]
-    },
-    {
-      "gameId": 214161,
-      "gameSourceId": "401823044",
-      "gameStartDate": "2025-12-23T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42529550,
       "sourceId": "401823044116351009",
       "playType": "MadeFreeThrow",
@@ -24625,6 +24514,118 @@
       ]
     },
     {
+      "gameId": 214161,
+      "gameSourceId": "401823044",
+      "gameStartDate": "2025-12-23T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42529549,
+      "sourceId": "401823044116351008",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 159,
+      "opponent": "Maryland Eastern Shore",
+      "opponentConference": "MEAC",
+      "opponentSeed": null,
+      "homeScore": 93,
+      "awayScore": 68,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "0:35",
+      "secondsRemaining": 35,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-23T03:03:52.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 200371,
+          "name": "Zion Obanla",
+          "team": "Maryland Eastern Shore"
+        },
+        {
+          "id": 3311,
+          "name": "Maurio Hanson Jr.",
+          "team": "Maryland Eastern Shore"
+        },
+        {
+          "id": 202497,
+          "name": "Declan Duru Jr.",
+          "team": "Texas"
+        },
+        {
+          "id": 200362,
+          "name": "Levi Beckwith",
+          "team": "Maryland Eastern Shore"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        },
+        {
+          "id": 200369,
+          "name": "Joseph Locandro",
+          "team": "Maryland Eastern Shore"
+        },
+        {
+          "id": 200368,
+          "name": "Jaden Johnson",
+          "team": "Maryland Eastern Shore"
+        },
+        {
+          "id": 4547,
+          "name": "Maurice Vassel",
+          "team": "Maryland Eastern Shore"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Texas"
+        }
+      ]
+    },
+    {
       "gameId": 210557,
       "gameSourceId": "401808150",
       "gameStartDate": "2026-01-03T23:00:00.000Z",
@@ -24632,8 +24633,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43252661,
-      "sourceId": "401808150116790741",
+      "id": 43252662,
+      "sourceId": "401808150116790766",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -24644,17 +24645,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 4,
-      "homeWinProbability": 0.571,
+      "homeWinProbability": 0.618,
       "period": 1,
       "clock": "18:31",
       "secondsRemaining": 1111,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T23:04:30.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-03T23:04:44.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -24739,8 +24740,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43252662,
-      "sourceId": "401808150116790766",
+      "id": 43252661,
+      "sourceId": "401808150116790741",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -24751,17 +24752,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 4,
-      "homeWinProbability": 0.618,
+      "homeWinProbability": 0.571,
       "period": 1,
       "clock": "18:31",
       "secondsRemaining": 1111,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T23:04:44.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-03T23:04:30.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -25171,6 +25172,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 43252731,
+      "sourceId": "401808150116793674",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 174,
+      "opponent": "Mississippi State",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 17,
+      "awayScore": 18,
+      "homeWinProbability": 0.6,
+      "period": 1,
+      "clock": "12:11",
+      "secondsRemaining": 731,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T23:16:45.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8175,
+          "name": "Jayden Epps",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 200588,
+          "name": "Jamarion Davis-Fleming",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Texas"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        },
+        {
+          "id": 1428,
+          "name": "Simeon Wilcher",
+          "team": "Texas"
+        },
+        {
+          "id": 3953,
+          "name": "Ja'Borri McGhee",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 7621,
+          "name": "Achor Achor",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 4158,
+          "name": "Josh Hubbard",
+          "team": "Mississippi State"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        }
+      ]
+    },
+    {
+      "gameId": 210557,
+      "gameSourceId": "401808150",
+      "gameStartDate": "2026-01-03T23:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 43252742,
       "sourceId": "401808150116793820",
       "playType": "MadeFreeThrow",
@@ -25385,8 +25493,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43252731,
-      "sourceId": "401808150116793674",
+      "id": 43252802,
+      "sourceId": "401808150116797350",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -25397,124 +25505,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 17,
-      "awayScore": 18,
-      "homeWinProbability": 0.6,
-      "period": 1,
-      "clock": "12:11",
-      "secondsRemaining": 731,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T23:16:45.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 8175,
-          "name": "Jayden Epps",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 200588,
-          "name": "Jamarion Davis-Fleming",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        },
-        {
-          "id": 1428,
-          "name": "Simeon Wilcher",
-          "team": "Texas"
-        },
-        {
-          "id": 3953,
-          "name": "Ja'Borri McGhee",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 7621,
-          "name": "Achor Achor",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 4158,
-          "name": "Josh Hubbard",
-          "team": "Mississippi State"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Texas"
-        }
-      ]
-    },
-    {
-      "gameId": 210557,
-      "gameSourceId": "401808150",
-      "gameStartDate": "2026-01-03T23:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 43252803,
-      "sourceId": "401808150116797360",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 174,
-      "opponent": "Mississippi State",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 22,
       "awayScore": 27,
-      "homeWinProbability": 0.493,
+      "homeWinProbability": 0.441,
       "period": 1,
       "clock": "7:48",
       "secondsRemaining": 468,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T23:34:32.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-03T23:34:18.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -25599,8 +25600,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43252802,
-      "sourceId": "401808150116797350",
+      "id": 43252803,
+      "sourceId": "401808150116797360",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -25611,17 +25612,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 23,
       "awayScore": 27,
-      "homeWinProbability": 0.441,
+      "homeWinProbability": 0.493,
       "period": 1,
       "clock": "7:48",
       "secondsRemaining": 468,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T23:34:18.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-03T23:34:32.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -27430,9 +27431,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43253051,
-      "sourceId": "401808150116805474",
-      "playType": "MadeFreeThrow",
+      "id": 43253043,
+      "sourceId": "401808150116805391",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -27442,17 +27443,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 65,
-      "homeWinProbability": 0.765,
+      "homeWinProbability": 0.727,
       "period": 2,
       "clock": "8:33",
       "secondsRemaining": 513,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-04T00:42:57.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-04T00:42:17.000Z",
+      "playText": "Dailyn Swain makes driving layup",
       "participants": [
         {
           "id": 4065,
@@ -27465,15 +27466,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 250
         }
       },
       "onFloor": [
@@ -27537,9 +27538,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43253043,
-      "sourceId": "401808150116805391",
-      "playType": "LayUpShot",
+      "id": 43253051,
+      "sourceId": "401808150116805474",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -27549,17 +27550,17 @@
       "opponent": "Mississippi State",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 65,
-      "homeWinProbability": 0.727,
+      "homeWinProbability": 0.765,
       "period": 2,
       "clock": "8:33",
       "secondsRemaining": 513,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-04T00:42:17.000Z",
-      "playText": "Dailyn Swain makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-04T00:42:57.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -27572,15 +27573,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -27965,8 +27966,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43253087,
-      "sourceId": "401808150116806401",
+      "id": 43253086,
+      "sourceId": "401808150116806392",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -27983,11 +27984,11 @@
       "period": 2,
       "clock": "4:13",
       "secondsRemaining": 253,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T00:54:07.000Z",
-      "playText": "Dailyn Swain misses free throw 2 of 2",
+      "wallclock": "2026-01-04T00:53:51.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -27999,7 +28000,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28072,8 +28073,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43253086,
-      "sourceId": "401808150116806392",
+      "id": 43253087,
+      "sourceId": "401808150116806401",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -28090,11 +28091,11 @@
       "period": 2,
       "clock": "4:13",
       "secondsRemaining": 253,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-04T00:53:51.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-04T00:54:07.000Z",
+      "playText": "Dailyn Swain misses free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -28106,7 +28107,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29269,8 +29270,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43560421,
-      "sourceId": "401808160116904893",
+      "id": 43560424,
+      "sourceId": "401808160116904912",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -29282,16 +29283,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 29,
-      "homeWinProbability": 0.955,
+      "awayScore": 30,
+      "homeWinProbability": 0.952,
       "period": 1,
       "clock": "0:43",
       "secondsRemaining": 43,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T03:04:22.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-07T03:04:39.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -29376,8 +29377,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43560424,
-      "sourceId": "401808160116904912",
+      "id": 43560421,
+      "sourceId": "401808160116904893",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -29389,16 +29390,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 44,
-      "awayScore": 30,
-      "homeWinProbability": 0.952,
+      "awayScore": 29,
+      "homeWinProbability": 0.955,
       "period": 1,
       "clock": "0:43",
       "secondsRemaining": 43,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T03:04:39.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-07T03:04:22.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -30664,8 +30665,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43981993,
-      "sourceId": "401808168117215609",
+      "id": 43981985,
+      "sourceId": "401808168117215586",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -30685,8 +30686,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T02:57:17.000Z",
-      "playText": "Dailyn Swain misses free throw 2 of 2",
+      "wallclock": "2026-01-11T02:56:45.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -30771,8 +30772,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43981985,
-      "sourceId": "401808168117215586",
+      "id": 43981993,
+      "sourceId": "401808168117215609",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -30792,8 +30793,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T02:56:45.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 2",
+      "wallclock": "2026-01-11T02:57:17.000Z",
+      "playText": "Dailyn Swain misses free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -31092,113 +31093,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982068,
-      "sourceId": "401808168117216566",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 5,
-      "opponent": "Alabama",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 75,
-      "awayScore": 78,
-      "homeWinProbability": 0.387,
-      "period": 2,
-      "clock": "4:07",
-      "secondsRemaining": 247,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-11T03:18:55.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 6139,
-          "name": "Keitenn Bristow",
-          "team": "Alabama"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        },
-        {
-          "id": 4075,
-          "name": "Lassina Traore",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 197887,
-          "name": "London Jemison",
-          "team": "Alabama"
-        },
-        {
-          "id": 3111,
-          "name": "Taylor Bol Bowen",
-          "team": "Alabama"
-        },
-        {
-          "id": 371,
-          "name": "Camden Heide",
-          "team": "Texas"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        }
-      ]
-    },
-    {
-      "gameId": 210745,
-      "gameSourceId": "401808168",
-      "gameStartDate": "2026-01-11T01:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43982064,
       "sourceId": "401808168117216422",
       "playType": "MadeFreeThrow",
@@ -31306,8 +31200,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982090,
-      "sourceId": "401808168117216808",
+      "id": 43982068,
+      "sourceId": "401808168117216566",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 5,
+      "opponent": "Alabama",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 75,
+      "awayScore": 78,
+      "homeWinProbability": 0.387,
+      "period": 2,
+      "clock": "4:07",
+      "secondsRemaining": 247,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-11T03:18:55.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6139,
+          "name": "Keitenn Bristow",
+          "team": "Alabama"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Texas"
+        },
+        {
+          "id": 4075,
+          "name": "Lassina Traore",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 197887,
+          "name": "London Jemison",
+          "team": "Alabama"
+        },
+        {
+          "id": 3111,
+          "name": "Taylor Bol Bowen",
+          "team": "Alabama"
+        },
+        {
+          "id": 371,
+          "name": "Camden Heide",
+          "team": "Texas"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        }
+      ]
+    },
+    {
+      "gameId": 210745,
+      "gameSourceId": "401808168",
+      "gameStartDate": "2026-01-11T01:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43982085,
+      "sourceId": "401808168117216785",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -31319,16 +31320,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 81,
-      "homeWinProbability": 0.303,
+      "awayScore": 80,
+      "homeWinProbability": 0.452,
       "period": 2,
       "clock": "3:20",
       "secondsRemaining": 200,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:25:00.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-11T03:24:37.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -31413,8 +31414,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43982085,
-      "sourceId": "401808168117216785",
+      "id": 43982090,
+      "sourceId": "401808168117216808",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -31426,16 +31427,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 80,
-      "homeWinProbability": 0.452,
+      "awayScore": 81,
+      "homeWinProbability": 0.303,
       "period": 2,
       "clock": "3:20",
       "secondsRemaining": 200,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T03:24:37.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-11T03:25:00.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -34770,8 +34771,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44581652,
-      "sourceId": "401808183117558371",
+      "id": 44581647,
+      "sourceId": "401808183117558312",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -34782,17 +34783,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 48,
-      "homeWinProbability": 0.226,
+      "homeWinProbability": 0.206,
       "period": 2,
       "clock": "14:16",
       "secondsRemaining": 856,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T00:34:14.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-18T00:33:52.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -34877,8 +34878,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44581647,
-      "sourceId": "401808183117558312",
+      "id": 44581652,
+      "sourceId": "401808183117558371",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -34889,17 +34890,17 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 48,
-      "homeWinProbability": 0.206,
+      "homeWinProbability": 0.226,
       "period": 2,
       "clock": "14:16",
       "secondsRemaining": 856,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-18T00:33:52.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-18T00:34:14.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -35519,9 +35520,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44581811,
-      "sourceId": "401808183117562451",
-      "playType": "MadeFreeThrow",
+      "id": 44581809,
+      "sourceId": "401808183117562392",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -35531,21 +35532,25 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 67,
       "awayScore": 73,
-      "homeWinProbability": 0.068,
+      "homeWinProbability": 0.031,
       "period": 2,
       "clock": "0:53",
       "secondsRemaining": 53,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-18T01:14:15.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-18T01:13:44.000Z",
+      "playText": "Dailyn Swain makes layup (Tramon Mark assists)",
       "participants": [
         {
           "id": 4065,
           "name": "Dailyn Swain"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark"
         }
       ],
       "shotInfo": {
@@ -35554,15 +35559,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 448,
+          "name": "Tramon Mark"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 235
         }
       },
       "onFloor": [
@@ -35626,9 +35631,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44581809,
-      "sourceId": "401808183117562392",
-      "playType": "LayUpShot",
+      "id": 44581811,
+      "sourceId": "401808183117562451",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -35638,25 +35643,21 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 68,
       "awayScore": 73,
-      "homeWinProbability": 0.031,
+      "homeWinProbability": 0.068,
       "period": 2,
       "clock": "0:53",
       "secondsRemaining": 53,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-18T01:13:44.000Z",
-      "playText": "Dailyn Swain makes layup (Tramon Mark assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-18T01:14:15.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
           "name": "Dailyn Swain"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark"
         }
       ],
       "shotInfo": {
@@ -35665,15 +35666,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 448,
-          "name": "Tramon Mark"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36058,9 +36059,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44980112,
-      "sourceId": "401808185117673031",
-      "playType": "MadeFreeThrow",
+      "id": 44980105,
+      "sourceId": "401808185117672046",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -36071,16 +36072,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 7,
-      "homeWinProbability": 0.623,
+      "awayScore": 6,
+      "homeWinProbability": 0.642,
       "period": 1,
       "clock": "15:25",
       "secondsRemaining": 925,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T00:10:23.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-22T00:06:52.000Z",
+      "playText": "Dailyn Swain makes 5-foot turnaround jump shot",
       "participants": [
         {
           "id": 4065,
@@ -36093,15 +36094,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 285
         }
       },
       "onFloor": [
@@ -36165,9 +36166,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44980105,
-      "sourceId": "401808185117672046",
-      "playType": "JumpShot",
+      "id": 44980112,
+      "sourceId": "401808185117673031",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -36178,16 +36179,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 6,
-      "homeWinProbability": 0.642,
+      "awayScore": 7,
+      "homeWinProbability": 0.623,
       "period": 1,
       "clock": "15:25",
       "secondsRemaining": 925,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-22T00:06:52.000Z",
-      "playText": "Dailyn Swain makes 5-foot turnaround jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T00:10:23.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -36200,15 +36201,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 94,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37889,9 +37890,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44980433,
-      "sourceId": "401808185117698138",
-      "playType": "JumpShot",
+      "id": 44980437,
+      "sourceId": "401808185117698312",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -37902,16 +37903,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 62,
-      "homeWinProbability": 0.909,
+      "awayScore": 63,
+      "homeWinProbability": 0.854,
       "period": 2,
       "clock": "7:19",
       "secondsRemaining": 439,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-22T01:44:50.000Z",
-      "playText": "Dailyn Swain makes 10-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-22T01:45:17.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -37924,15 +37925,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 789.6,
-          "y": 250
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37996,9 +37997,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44980437,
-      "sourceId": "401808185117698312",
-      "playType": "MadeFreeThrow",
+      "id": 44980433,
+      "sourceId": "401808185117698138",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -38009,16 +38010,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 63,
-      "homeWinProbability": 0.854,
+      "awayScore": 62,
+      "homeWinProbability": 0.909,
       "period": 2,
       "clock": "7:19",
       "secondsRemaining": 439,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-22T01:45:17.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-22T01:44:50.000Z",
+      "playText": "Dailyn Swain makes 10-foot jumper",
       "participants": [
         {
           "id": 4065,
@@ -38031,15 +38032,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 789.6,
+          "y": 250
         }
       },
       "onFloor": [
@@ -40049,9 +40050,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45219310,
-      "sourceId": "401808198117870500",
-      "playType": "MadeFreeThrow",
+      "id": 45219306,
+      "sourceId": "401808198117870174",
+      "playType": "DunkShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -40067,11 +40068,11 @@
       "period": 2,
       "clock": "9:57",
       "secondsRemaining": 597,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T19:33:43.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-24T19:33:02.000Z",
+      "playText": "Dailyn Swain makes 2-foot dunk",
       "participants": [
         {
           "id": 4065,
@@ -40083,16 +40084,16 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 245
         }
       },
       "onFloor": [
@@ -40156,9 +40157,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45219306,
-      "sourceId": "401808198117870174",
-      "playType": "DunkShot",
+      "id": 45219310,
+      "sourceId": "401808198117870500",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -40174,11 +40175,11 @@
       "period": 2,
       "clock": "9:57",
       "secondsRemaining": 597,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-24T19:33:02.000Z",
-      "playText": "Dailyn Swain makes 2-foot dunk",
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T19:33:43.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -40190,16 +40191,16 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41559,8 +41560,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45566100,
-      "sourceId": "401808200118025522",
+      "id": 45566103,
+      "sourceId": "401808200118025578",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -41572,16 +41573,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 41,
-      "homeWinProbability": 0.412,
+      "awayScore": 42,
+      "homeWinProbability": 0.285,
       "period": 1,
       "clock": "0:00",
       "secondsRemaining": 0,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T00:54:33.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 3",
+      "wallclock": "2026-01-29T00:54:54.000Z",
+      "playText": "Dailyn Swain makes free throw 3 of 3",
       "participants": [
         {
           "id": 4065,
@@ -41666,8 +41667,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45566103,
-      "sourceId": "401808200118025578",
+      "id": 45566100,
+      "sourceId": "401808200118025522",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -41679,16 +41680,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 42,
-      "homeWinProbability": 0.285,
+      "awayScore": 41,
+      "homeWinProbability": 0.412,
       "period": 1,
       "clock": "0:00",
       "secondsRemaining": 0,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T00:54:54.000Z",
-      "playText": "Dailyn Swain makes free throw 3 of 3",
+      "wallclock": "2026-01-29T00:54:33.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 3",
       "participants": [
         {
           "id": 4065,
@@ -43303,8 +43304,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45566277,
-      "sourceId": "401808200118042550",
+      "id": 45566278,
+      "sourceId": "401808200118042607",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -43316,16 +43317,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 70,
-      "homeWinProbability": 0.987,
+      "awayScore": 71,
+      "homeWinProbability": 0.986,
       "period": 2,
       "clock": "1:58",
       "secondsRemaining": 118,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T02:05:28.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-29T02:05:44.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -43410,8 +43411,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45566278,
-      "sourceId": "401808200118042607",
+      "id": 45566277,
+      "sourceId": "401808200118042550",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -43423,16 +43424,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 71,
-      "homeWinProbability": 0.986,
+      "awayScore": 70,
+      "homeWinProbability": 0.987,
       "period": 2,
       "clock": "1:58",
       "secondsRemaining": 118,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T02:05:44.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-29T02:05:28.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -44924,8 +44925,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45818895,
-      "sourceId": "401808214118203355",
+      "id": 45818894,
+      "sourceId": "401808214118203275",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -44937,16 +44938,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 41,
-      "homeWinProbability": 0.565,
+      "awayScore": 40,
+      "homeWinProbability": 0.58,
       "period": 2,
       "clock": "15:51",
       "secondsRemaining": 951,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T20:19:32.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-01-31T20:19:19.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -45031,8 +45032,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45818894,
-      "sourceId": "401808214118203275",
+      "id": 45818895,
+      "sourceId": "401808214118203355",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -45044,16 +45045,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 40,
-      "awayScore": 40,
-      "homeWinProbability": 0.58,
+      "awayScore": 41,
+      "homeWinProbability": 0.565,
       "period": 2,
       "clock": "15:51",
       "secondsRemaining": 951,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T20:19:19.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-01-31T20:19:32.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -45245,9 +45246,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45818957,
-      "sourceId": "401808214118211010",
-      "playType": "LayUpShot",
+      "id": 45818959,
+      "sourceId": "401808214118211348",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -45258,16 +45259,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 52,
-      "homeWinProbability": 0.801,
+      "awayScore": 53,
+      "homeWinProbability": 0.75,
       "period": 2,
       "clock": "9:49",
       "secondsRemaining": 589,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T20:35:46.000Z",
-      "playText": "Dailyn Swain makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T20:36:17.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -45280,15 +45281,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 300
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -45352,9 +45353,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45818959,
-      "sourceId": "401808214118211348",
-      "playType": "MadeFreeThrow",
+      "id": 45818957,
+      "sourceId": "401808214118211010",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -45365,16 +45366,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 53,
-      "homeWinProbability": 0.75,
+      "awayScore": 52,
+      "homeWinProbability": 0.801,
       "period": 2,
       "clock": "9:49",
       "secondsRemaining": 589,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T20:36:17.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T20:35:46.000Z",
+      "playText": "Dailyn Swain makes driving layup",
       "participants": [
         {
           "id": 4065,
@@ -45387,15 +45388,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 300
         }
       },
       "onFloor": [
@@ -46323,8 +46324,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158166,
-      "sourceId": "401808217118351052",
+      "id": 46158164,
+      "sourceId": "401808217118351038",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -46335,17 +46336,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 8,
       "awayScore": 16,
-      "homeWinProbability": 0.387,
+      "homeWinProbability": 0.369,
       "period": 1,
       "clock": "11:45",
       "secondsRemaining": 705,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T00:19:17.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-04T00:19:04.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -46430,8 +46431,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158164,
-      "sourceId": "401808217118351038",
+      "id": 46158166,
+      "sourceId": "401808217118351052",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -46442,17 +46443,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 8,
+      "homeScore": 9,
       "awayScore": 16,
-      "homeWinProbability": 0.369,
+      "homeWinProbability": 0.387,
       "period": 1,
       "clock": "11:45",
       "secondsRemaining": 705,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T00:19:04.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-04T00:19:17.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -46973,8 +46974,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158369,
-      "sourceId": "401808217118352786",
+      "id": 46158370,
+      "sourceId": "401808217118352830",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -46985,17 +46986,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 25,
       "awayScore": 27,
-      "homeWinProbability": 0.505,
+      "homeWinProbability": 0.547,
       "period": 1,
       "clock": "5:19",
       "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T00:35:45.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-04T00:36:06.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -47080,8 +47081,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158370,
-      "sourceId": "401808217118352830",
+      "id": 46158369,
+      "sourceId": "401808217118352786",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -47092,17 +47093,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 24,
       "awayScore": 27,
-      "homeWinProbability": 0.547,
+      "homeWinProbability": 0.505,
       "period": 1,
       "clock": "5:19",
       "secondsRemaining": 319,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-04T00:36:06.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-04T00:35:45.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -47508,113 +47509,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158623,
-      "sourceId": "401808217118357236",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 266,
-      "opponent": "South Carolina",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 45,
-      "awayScore": 44,
-      "homeWinProbability": 0.646,
-      "period": 2,
-      "clock": "13:56",
-      "secondsRemaining": 836,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-04T01:22:52.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5737,
-          "name": "Elijah Strong",
-          "team": "South Carolina"
-        },
-        {
-          "id": 371,
-          "name": "Camden Heide",
-          "team": "Texas"
-        },
-        {
-          "id": 3206,
-          "name": "Myles Stute",
-          "team": "South Carolina"
-        },
-        {
-          "id": 481,
-          "name": "Kobe Knox",
-          "team": "South Carolina"
-        },
-        {
-          "id": 202048,
-          "name": "Eli Ellis",
-          "team": "South Carolina"
-        },
-        {
-          "id": 202053,
-          "name": "Grant Polk",
-          "team": "South Carolina"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Texas"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        }
-      ]
-    },
-    {
-      "gameId": 211337,
-      "gameSourceId": "401808217",
-      "gameStartDate": "2026-02-04T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46158613,
       "sourceId": "401808217118357173",
       "playType": "MadeFreeThrow",
@@ -47722,9 +47616,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158643,
-      "sourceId": "401808217118357610",
-      "playType": "LayUpShot",
+      "id": 46158623,
+      "sourceId": "401808217118357236",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -47734,17 +47628,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 45,
       "awayScore": 44,
-      "homeWinProbability": 0.755,
+      "homeWinProbability": 0.646,
       "period": 2,
-      "clock": "13:24",
-      "secondsRemaining": 804,
+      "clock": "13:56",
+      "secondsRemaining": 836,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-04T01:26:54.000Z",
-      "playText": "Dailyn Swain makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-04T01:22:52.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -47757,15 +47651,122 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 275
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5737,
+          "name": "Elijah Strong",
+          "team": "South Carolina"
+        },
+        {
+          "id": 371,
+          "name": "Camden Heide",
+          "team": "Texas"
+        },
+        {
+          "id": 3206,
+          "name": "Myles Stute",
+          "team": "South Carolina"
+        },
+        {
+          "id": 481,
+          "name": "Kobe Knox",
+          "team": "South Carolina"
+        },
+        {
+          "id": 202048,
+          "name": "Eli Ellis",
+          "team": "South Carolina"
+        },
+        {
+          "id": 202053,
+          "name": "Grant Polk",
+          "team": "South Carolina"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        }
+      ]
+    },
+    {
+      "gameId": 211337,
+      "gameSourceId": "401808217",
+      "gameStartDate": "2026-02-04T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46158648,
+      "sourceId": "401808217118357650",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 266,
+      "opponent": "South Carolina",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 48,
+      "awayScore": 44,
+      "homeWinProbability": 0.767,
+      "period": 2,
+      "clock": "13:24",
+      "secondsRemaining": 804,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-04T01:27:17.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -47829,9 +47830,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46158648,
-      "sourceId": "401808217118357650",
-      "playType": "MadeFreeThrow",
+      "id": 46158643,
+      "sourceId": "401808217118357610",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -47841,17 +47842,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 44,
-      "homeWinProbability": 0.767,
+      "homeWinProbability": 0.755,
       "period": 2,
       "clock": "13:24",
       "secondsRemaining": 804,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-04T01:27:17.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-04T01:26:54.000Z",
+      "playText": "Dailyn Swain makes layup",
       "participants": [
         {
           "id": 4065,
@@ -47864,15 +47865,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 275
         }
       },
       "onFloor": [
@@ -49569,113 +49570,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46458677,
-      "sourceId": "401808226118598424",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 220,
-      "opponent": "Ole Miss",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 71,
-      "awayScore": 68,
-      "homeWinProbability": 0.815,
-      "period": 2,
-      "clock": "1:55",
-      "secondsRemaining": 115,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-07T21:01:49.000Z",
-      "playText": "Dailyn Swain makes layup",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 864.8,
-          "y": 250
-        }
-      },
-      "onFloor": [
-        {
-          "id": 201316,
-          "name": "Patton Pinkins",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        },
-        {
-          "id": 598,
-          "name": "Eduardo Klafke",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 8118,
-          "name": "Kezza Giffa",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Texas"
-        },
-        {
-          "id": 201311,
-          "name": "Ilias Kamardine",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 589,
-          "name": "Malik Dia",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        }
-      ]
-    },
-    {
-      "gameId": 211453,
-      "gameSourceId": "401808226",
-      "gameStartDate": "2026-02-07T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46458679,
       "sourceId": "401808226118598634",
       "playType": "MadeFreeThrow",
@@ -49783,8 +49677,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46458698,
-      "sourceId": "401808226118601225",
+      "id": 46458677,
+      "sourceId": "401808226118598424",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 220,
+      "opponent": "Ole Miss",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 71,
+      "awayScore": 68,
+      "homeWinProbability": 0.815,
+      "period": 2,
+      "clock": "1:55",
+      "secondsRemaining": 115,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-02-07T21:01:49.000Z",
+      "playText": "Dailyn Swain makes layup",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 864.8,
+          "y": 250
+        }
+      },
+      "onFloor": [
+        {
+          "id": 201316,
+          "name": "Patton Pinkins",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Texas"
+        },
+        {
+          "id": 598,
+          "name": "Eduardo Klafke",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 8118,
+          "name": "Kezza Giffa",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        },
+        {
+          "id": 201311,
+          "name": "Ilias Kamardine",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 589,
+          "name": "Malik Dia",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        }
+      ]
+    },
+    {
+      "gameId": 211453,
+      "gameSourceId": "401808226",
+      "gameStartDate": "2026-02-07T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46458697,
+      "sourceId": "401808226118601183",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -49795,17 +49796,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 68,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "0:15",
       "secondsRemaining": 15,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:09:19.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-07T21:09:05.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -49890,8 +49891,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46458697,
-      "sourceId": "401808226118601183",
+      "id": 46458698,
+      "sourceId": "401808226118601225",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -49902,17 +49903,17 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 68,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "0:15",
       "secondsRemaining": 15,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:09:05.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-07T21:09:19.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -51293,8 +51294,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47156497,
-      "sourceId": "401808236119022353",
+      "id": 47156496,
+      "sourceId": "401808236119022349",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -51306,16 +51307,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 43,
-      "awayScore": 48,
-      "homeWinProbability": 0.338,
+      "awayScore": 47,
+      "homeWinProbability": 0.374,
       "period": 2,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T03:19:10.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-15T03:18:56.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -51400,8 +51401,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47156496,
-      "sourceId": "401808236119022349",
+      "id": 47156497,
+      "sourceId": "401808236119022353",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -51413,16 +51414,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 43,
-      "awayScore": 47,
-      "homeWinProbability": 0.374,
+      "awayScore": 48,
+      "homeWinProbability": 0.338,
       "period": 2,
       "clock": "12:47",
       "secondsRemaining": 767,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T03:18:56.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-15T03:19:10.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -52906,8 +52907,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417279,
-      "sourceId": "401808243119093077",
+      "id": 47417285,
+      "sourceId": "401808243119093132",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -52918,17 +52919,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 12,
+      "homeScore": 13,
       "awayScore": 13,
-      "homeWinProbability": 0.585,
+      "homeWinProbability": 0.598,
       "period": 1,
       "clock": "12:43",
       "secondsRemaining": 763,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T02:17:59.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 2",
+      "wallclock": "2026-02-18T02:18:21.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -52940,7 +52941,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53013,8 +53014,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417285,
-      "sourceId": "401808243119093132",
+      "id": 47417279,
+      "sourceId": "401808243119093077",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -53025,17 +53026,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 12,
       "awayScore": 13,
-      "homeWinProbability": 0.598,
+      "homeWinProbability": 0.585,
       "period": 1,
       "clock": "12:43",
       "secondsRemaining": 763,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T02:18:21.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-18T02:17:59.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -53047,7 +53048,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53873,8 +53874,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417474,
-      "sourceId": "401808243119096354",
+      "id": 47417470,
+      "sourceId": "401808243119096332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -53885,17 +53886,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 41,
-      "homeWinProbability": 0.968,
+      "homeWinProbability": 0.964,
       "period": 2,
       "clock": "16:16",
       "secondsRemaining": 976,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T03:15:11.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-18T03:14:47.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -53907,7 +53908,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53980,8 +53981,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417470,
-      "sourceId": "401808243119096332",
+      "id": 47417474,
+      "sourceId": "401808243119096354",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -53992,17 +53993,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 41,
-      "homeWinProbability": 0.964,
+      "homeWinProbability": 0.968,
       "period": 2,
       "clock": "16:16",
       "secondsRemaining": 976,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T03:14:47.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 2",
+      "wallclock": "2026-02-18T03:15:11.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -54014,7 +54015,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54515,8 +54516,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417621,
-      "sourceId": "401808243119098439",
+      "id": 47417622,
+      "sourceId": "401808243119098467",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -54527,17 +54528,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 85,
       "awayScore": 78,
-      "homeWinProbability": 0.985,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "2:31",
       "secondsRemaining": 151,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T03:56:12.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-18T03:56:28.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -54622,8 +54623,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47417622,
-      "sourceId": "401808243119098467",
+      "id": 47417621,
+      "sourceId": "401808243119098439",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -54634,17 +54635,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 84,
       "awayScore": 78,
-      "homeWinProbability": 0.997,
+      "homeWinProbability": 0.985,
       "period": 2,
       "clock": "2:31",
       "secondsRemaining": 151,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T03:56:28.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-18T03:56:12.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -56128,113 +56129,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47706891,
-      "sourceId": "401808251119330561",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 98,
-      "opponent": "Georgia",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 58,
-      "awayScore": 48,
-      "homeWinProbability": 0.907,
-      "period": 2,
-      "clock": "14:28",
-      "secondsRemaining": 868,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T21:51:45.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Texas"
-        },
-        {
-          "id": 7390,
-          "name": "Jeremiah Wilkinson",
-          "team": "Georgia"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        },
-        {
-          "id": 6889,
-          "name": "Jordan Ross",
-          "team": "Georgia"
-        },
-        {
-          "id": 7672,
-          "name": "Kanon Catchings",
-          "team": "Georgia"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 199387,
-          "name": "Jake Wilkins",
-          "team": "Georgia"
-        },
-        {
-          "id": 1428,
-          "name": "Simeon Wilcher",
-          "team": "Texas"
-        },
-        {
-          "id": 25,
-          "name": "Somtochukwu Cyril",
-          "team": "Georgia"
-        }
-      ]
-    },
-    {
-      "gameId": 211808,
-      "gameSourceId": "401808251",
-      "gameStartDate": "2026-02-21T20:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47706890,
       "sourceId": "401808251119330476",
       "playType": "MadeFreeThrow",
@@ -56342,8 +56236,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47706901,
-      "sourceId": "401808251119331142",
+      "id": 47706891,
+      "sourceId": "401808251119330561",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -56354,17 +56248,17 @@
       "opponent": "Georgia",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 60,
-      "awayScore": 51,
-      "homeWinProbability": 0.903,
+      "homeScore": 58,
+      "awayScore": 48,
+      "homeWinProbability": 0.907,
       "period": 2,
-      "clock": "13:29",
-      "secondsRemaining": 809,
+      "clock": "14:28",
+      "secondsRemaining": 868,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:54:00.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-21T21:51:45.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -56472,6 +56366,113 @@
       "scoreValue": 1,
       "wallclock": "2026-02-21T21:54:20.000Z",
       "playText": "Dailyn Swain makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        },
+        {
+          "id": 7390,
+          "name": "Jeremiah Wilkinson",
+          "team": "Georgia"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        },
+        {
+          "id": 6889,
+          "name": "Jordan Ross",
+          "team": "Georgia"
+        },
+        {
+          "id": 7672,
+          "name": "Kanon Catchings",
+          "team": "Georgia"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 199387,
+          "name": "Jake Wilkins",
+          "team": "Georgia"
+        },
+        {
+          "id": 1428,
+          "name": "Simeon Wilcher",
+          "team": "Texas"
+        },
+        {
+          "id": 25,
+          "name": "Somtochukwu Cyril",
+          "team": "Georgia"
+        }
+      ]
+    },
+    {
+      "gameId": 211808,
+      "gameSourceId": "401808251",
+      "gameStartDate": "2026-02-21T20:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47706901,
+      "sourceId": "401808251119331142",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 98,
+      "opponent": "Georgia",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 60,
+      "awayScore": 51,
+      "homeWinProbability": 0.903,
+      "period": 2,
+      "clock": "13:29",
+      "secondsRemaining": 809,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T21:54:00.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -56984,8 +56985,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47707027,
-      "sourceId": "401808251119342640",
+      "id": 47707022,
+      "sourceId": "401808251119342515",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -56997,16 +56998,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 75,
-      "homeWinProbability": 0.998,
+      "awayScore": 74,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "2:21",
       "secondsRemaining": 141,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T22:28:59.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-21T22:28:32.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -57091,8 +57092,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47707022,
-      "sourceId": "401808251119342515",
+      "id": 47707027,
+      "sourceId": "401808251119342640",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -57104,16 +57105,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 84,
-      "awayScore": 74,
-      "homeWinProbability": 0.999,
+      "awayScore": 75,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "2:21",
       "secondsRemaining": 141,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T22:28:32.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-21T22:28:59.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -58054,113 +58055,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48038263,
-      "sourceId": "401808264119488012",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 87,
-      "opponent": "Florida",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 42,
-      "awayScore": 43,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "17:36",
-      "secondsRemaining": 1056,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-26T01:13:34.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 371,
-          "name": "Camden Heide",
-          "team": "Texas"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 496,
-          "name": "Alex Condon",
-          "team": "Florida"
-        },
-        {
-          "id": 497,
-          "name": "Rueben Chinyelu",
-          "team": "Florida"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        }
-      ]
-    },
-    {
-      "gameId": 211879,
-      "gameSourceId": "401808264",
-      "gameStartDate": "2026-02-26T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48038258,
       "sourceId": "401808264119487891",
       "playType": "MadeFreeThrow",
@@ -58268,8 +58162,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48038272,
-      "sourceId": "401808264119489101",
+      "id": 48038263,
+      "sourceId": "401808264119488012",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -58280,17 +58174,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
-      "awayScore": 47,
+      "homeScore": 42,
+      "awayScore": 43,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "16:01",
-      "secondsRemaining": 961,
+      "clock": "17:36",
+      "secondsRemaining": 1056,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T01:16:43.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "wallclock": "2026-02-26T01:13:34.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -58316,8 +58210,13 @@
       },
       "onFloor": [
         {
-          "id": 437,
-          "name": "Chendall Weaver",
+          "id": 371,
+          "name": "Camden Heide",
+          "team": "Texas"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
           "team": "Texas"
         },
         {
@@ -58331,8 +58230,8 @@
           "team": "Florida"
         },
         {
-          "id": 506,
-          "name": "Micah Handlogten",
+          "id": 497,
+          "name": "Rueben Chinyelu",
           "team": "Florida"
         },
         {
@@ -58343,11 +58242,6 @@
         {
           "id": 4065,
           "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 442,
-          "name": "Nic Codie",
           "team": "Texas"
         },
         {
@@ -58419,6 +58313,113 @@
         "location": {
           "x": 864.8,
           "y": 275
+        }
+      },
+      "onFloor": [
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 496,
+          "name": "Alex Condon",
+          "team": "Florida"
+        },
+        {
+          "id": 506,
+          "name": "Micah Handlogten",
+          "team": "Florida"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 442,
+          "name": "Nic Codie",
+          "team": "Texas"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        }
+      ]
+    },
+    {
+      "gameId": 211879,
+      "gameSourceId": "401808264",
+      "gameStartDate": "2026-02-26T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48038272,
+      "sourceId": "401808264119489101",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 87,
+      "opponent": "Florida",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 47,
+      "awayScore": 47,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "16:01",
+      "secondsRemaining": 961,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-26T01:16:43.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -59445,8 +59446,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48038459,
-      "sourceId": "401808264119503472",
+      "id": 48038454,
+      "sourceId": "401808264119503409",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -59457,7 +59458,7 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
@@ -59466,8 +59467,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T02:09:37.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-02-26T02:09:14.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -59552,8 +59553,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48038454,
-      "sourceId": "401808264119503409",
+      "id": 48038459,
+      "sourceId": "401808264119503472",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -59564,7 +59565,7 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 82,
       "homeWinProbability": null,
       "period": 2,
@@ -59573,8 +59574,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T02:09:14.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-02-26T02:09:37.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -61910,113 +61911,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48717675,
-      "sourceId": "401808273119864120",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 12,
-      "opponent": "Arkansas",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 19,
-      "awayScore": 9,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "13:05",
-      "secondsRemaining": 785,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-05T00:17:38.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3103,
-          "name": "Malique Ewin",
-          "team": "Arkansas"
-        },
-        {
-          "id": 1428,
-          "name": "Simeon Wilcher",
-          "team": "Texas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 442,
-          "name": "Nic Codie",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 437,
-          "name": "Chendall Weaver",
-          "team": "Texas"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 212064,
-      "gameSourceId": "401808273",
-      "gameStartDate": "2026-03-05T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48717671,
       "sourceId": "401808273119864015",
       "playType": "LayUpShot",
@@ -62124,8 +62018,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48717687,
-      "sourceId": "401808273119864441",
+      "id": 48717675,
+      "sourceId": "401808273119864120",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -62137,16 +62031,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 19,
-      "awayScore": 10,
+      "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
-      "clock": "12:36",
-      "secondsRemaining": 756,
+      "clock": "13:05",
+      "secondsRemaining": 785,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T00:19:26.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-03-05T00:17:38.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -62159,6 +62053,113 @@
           "name": "Dailyn Swain"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3103,
+          "name": "Malique Ewin",
+          "team": "Arkansas"
+        },
+        {
+          "id": 1428,
+          "name": "Simeon Wilcher",
+          "team": "Texas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 442,
+          "name": "Nic Codie",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 437,
+          "name": "Chendall Weaver",
+          "team": "Texas"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 212064,
+      "gameSourceId": "401808273",
+      "gameStartDate": "2026-03-05T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48717681,
+      "sourceId": "401808273119864403",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 12,
+      "opponent": "Arkansas",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 9,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "12:36",
+      "secondsRemaining": 756,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-05T00:19:06.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -62231,8 +62232,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48717681,
-      "sourceId": "401808273119864403",
+      "id": 48717687,
+      "sourceId": "401808273119864441",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -62244,16 +62245,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 19,
-      "awayScore": 9,
+      "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:36",
       "secondsRemaining": 756,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T00:19:06.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 2",
+      "wallclock": "2026-03-05T00:19:26.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -62265,7 +62266,7 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -63971,8 +63972,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49052041,
-      "sourceId": "401808287120071091",
+      "id": 49052039,
+      "sourceId": "401808287120071054",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -63983,7 +63984,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 4,
       "awayScore": 4,
       "homeWinProbability": null,
       "period": 1,
@@ -63992,8 +63993,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T01:38:04.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-03-08T01:37:49.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -64078,8 +64079,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49052039,
-      "sourceId": "401808287120071054",
+      "id": 49052041,
+      "sourceId": "401808287120071091",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -64090,7 +64091,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 4,
       "homeWinProbability": null,
       "period": 1,
@@ -64099,8 +64100,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T01:37:49.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-03-08T01:38:04.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -64724,8 +64725,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49052361,
-      "sourceId": "401808287120074635",
+      "id": 49052372,
+      "sourceId": "401808287120074677",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -64736,7 +64737,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
@@ -64745,8 +64746,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T02:13:33.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-03-08T02:13:57.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -64831,8 +64832,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49052372,
-      "sourceId": "401808287120074677",
+      "id": 49052361,
+      "sourceId": "401808287120074635",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -64843,7 +64844,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
@@ -64852,8 +64853,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T02:13:57.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-03-08T02:13:33.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -65921,9 +65922,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49052708,
-      "sourceId": "401808287120079938",
-      "playType": "MadeFreeThrow",
+      "id": 49052706,
+      "sourceId": "401808287120079886",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -65939,11 +65940,11 @@
       "period": 2,
       "clock": "8:48",
       "secondsRemaining": 528,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-08T03:13:49.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-08T03:13:24.000Z",
+      "playText": "Dailyn Swain makes 10-foot jumper",
       "participants": [
         {
           "id": 4065,
@@ -65955,16 +65956,16 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 345
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -66028,9 +66029,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49052706,
-      "sourceId": "401808287120079886",
-      "playType": "JumpShot",
+      "id": 49052708,
+      "sourceId": "401808287120079938",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
       "team": "Texas",
@@ -66046,11 +66047,11 @@
       "period": 2,
       "clock": "8:48",
       "secondsRemaining": 528,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-08T03:13:24.000Z",
-      "playText": "Dailyn Swain makes 10-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-03-08T03:13:49.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -66062,16 +66063,16 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 345
         }
       },
       "onFloor": [
@@ -67017,8 +67018,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49238803,
-      "sourceId": "401851559120179184",
+      "id": 49238816,
+      "sourceId": "401851559120179235",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -67029,7 +67030,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
@@ -67038,8 +67039,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T23:15:42.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-03-11T23:16:07.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -67124,8 +67125,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49238816,
-      "sourceId": "401851559120179235",
+      "id": 49238803,
+      "sourceId": "401851559120179184",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -67136,7 +67137,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
@@ -67145,8 +67146,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-11T23:16:07.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-03-11T23:15:42.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -68749,8 +68750,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49239123,
-      "sourceId": "401851559120183462",
+      "id": 49239124,
+      "sourceId": "401851559120183468",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -68761,7 +68762,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 53,
       "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
@@ -68770,8 +68771,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T00:48:13.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-03-12T00:48:27.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -68856,8 +68857,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49239124,
-      "sourceId": "401851559120183468",
+      "id": 49239123,
+      "sourceId": "401851559120183462",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 295,
@@ -68868,7 +68869,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 52,
       "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
@@ -68877,8 +68878,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T00:48:27.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-03-12T00:48:13.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -69934,8 +69935,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49502370,
-      "sourceId": "401856434120286205",
+      "id": 49502361,
+      "sourceId": "401856434120286176",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 251,
@@ -69947,7 +69948,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 11,
       "homeScore": 9,
-      "awayScore": 14,
+      "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:20",
@@ -69955,8 +69956,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-18T01:44:56.000Z",
-      "playText": "Dailyn Swain makes free throw 2 of 2",
+      "wallclock": "2026-03-18T01:44:15.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -70041,8 +70042,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49502361,
-      "sourceId": "401856434120286176",
+      "id": 49502370,
+      "sourceId": "401856434120286205",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 251,
@@ -70054,7 +70055,7 @@
       "opponentConference": "ACC",
       "opponentSeed": 11,
       "homeScore": 9,
-      "awayScore": 13,
+      "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:20",
@@ -70062,8 +70063,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-18T01:44:15.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 2",
+      "wallclock": "2026-03-18T01:44:56.000Z",
+      "playText": "Dailyn Swain makes free throw 2 of 2",
       "participants": [
         {
           "id": 4065,
@@ -71012,9 +71013,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49502604,
-      "sourceId": "401856434120287405",
-      "playType": "MadeFreeThrow",
+      "id": 49502598,
+      "sourceId": "401856434120287377",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 251,
       "team": "Texas",
@@ -71030,11 +71031,11 @@
       "period": 2,
       "clock": "14:37",
       "secondsRemaining": 877,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-18T03:03:18.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-18T03:02:46.000Z",
+      "playText": "Dailyn Swain makes layup",
       "participants": [
         {
           "id": 4065,
@@ -71046,8 +71047,8 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -71119,9 +71120,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49502598,
-      "sourceId": "401856434120287377",
-      "playType": "LayUpShot",
+      "id": 49502604,
+      "sourceId": "401856434120287405",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 251,
       "team": "Texas",
@@ -71137,11 +71138,11 @@
       "period": 2,
       "clock": "14:37",
       "secondsRemaining": 877,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-18T03:02:46.000Z",
-      "playText": "Dailyn Swain makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-18T03:03:18.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -71153,8 +71154,8 @@
           "id": 4065,
           "name": "Dailyn Swain"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -72304,9 +72305,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541538,
-      "sourceId": "401856484120304940",
-      "playType": "LayUpShot",
+      "id": 49541540,
+      "sourceId": "401856484120304955",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -72317,16 +72318,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 6,
       "homeScore": 17,
-      "awayScore": 19,
+      "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:03",
       "secondsRemaining": 783,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-19T23:48:56.000Z",
-      "playText": "Dailyn Swain makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-19T23:49:21.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -72339,15 +72340,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 190
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -72411,9 +72412,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49541540,
-      "sourceId": "401856484120304955",
-      "playType": "MadeFreeThrow",
+      "id": 49541538,
+      "sourceId": "401856484120304940",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -72424,16 +72425,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 6,
       "homeScore": 17,
-      "awayScore": 20,
+      "awayScore": 19,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:03",
       "secondsRemaining": 783,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-19T23:49:21.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-19T23:48:56.000Z",
+      "playText": "Dailyn Swain makes driving layup",
       "participants": [
         {
           "id": 4065,
@@ -72446,15 +72447,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 190
         }
       },
       "onFloor": [
@@ -76212,113 +76213,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645329,
-      "sourceId": "401856568120386367",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 295,
-      "team": "Texas",
-      "conference": "SEC",
-      "teamSeed": 11,
-      "opponentId": 236,
-      "opponent": "Purdue",
-      "opponentConference": "Big Ten",
-      "opponentSeed": 2,
-      "homeScore": 41,
-      "awayScore": 42,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "17:36",
-      "secondsRemaining": 1056,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-27T00:28:09.000Z",
-      "playText": "Dailyn Swain misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4065,
-          "name": "Dailyn Swain"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 442,
-          "name": "Nic Codie",
-          "team": "Texas"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        },
-        {
-          "id": 3922,
-          "name": "Matas Vokietaitis",
-          "team": "Texas"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 372587,
-      "gameSourceId": "401856568",
-      "gameStartDate": "2026-03-26T23:10:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49645331,
       "sourceId": "401856568120386369",
       "playType": "MadeFreeThrow",
@@ -76426,8 +76320,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645337,
-      "sourceId": "401856568120386377",
+      "id": 49645329,
+      "sourceId": "401856568120386367",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
@@ -76438,17 +76332,17 @@
       "opponent": "Purdue",
       "opponentConference": "Big Ten",
       "opponentSeed": 2,
-      "homeScore": 43,
-      "awayScore": 44,
+      "homeScore": 41,
+      "awayScore": 42,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "16:55",
-      "secondsRemaining": 1015,
+      "clock": "17:36",
+      "secondsRemaining": 1056,
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T00:29:48.000Z",
-      "playText": "Dailyn Swain misses free throw 2 of 2",
+      "wallclock": "2026-03-27T00:28:09.000Z",
+      "playText": "Dailyn Swain misses free throw 1 of 2",
       "participants": [
         {
           "id": 4065,
@@ -76568,6 +76462,113 @@
           "name": "Dailyn Swain"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 442,
+          "name": "Nic Codie",
+          "team": "Texas"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Texas"
+        },
+        {
+          "id": 3922,
+          "name": "Matas Vokietaitis",
+          "team": "Texas"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 372587,
+      "gameSourceId": "401856568",
+      "gameStartDate": "2026-03-26T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49645337,
+      "sourceId": "401856568120386377",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 295,
+      "team": "Texas",
+      "conference": "SEC",
+      "teamSeed": 11,
+      "opponentId": 236,
+      "opponent": "Purdue",
+      "opponentConference": "Big Ten",
+      "opponentSeed": 2,
+      "homeScore": 43,
+      "awayScore": 44,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "16:55",
+      "secondsRemaining": 1015,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-27T00:29:48.000Z",
+      "playText": "Dailyn Swain misses free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4065,
+          "name": "Dailyn Swain"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -77508,9 +77509,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645677,
-      "sourceId": "401856568120388153",
-      "playType": "LayUpShot",
+      "id": 49645681,
+      "sourceId": "401856568120388172",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -77521,16 +77522,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 2,
       "homeScore": 77,
-      "awayScore": 76,
+      "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:11",
       "secondsRemaining": 11,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-27T01:29:01.000Z",
-      "playText": "Dailyn Swain makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-27T01:29:55.000Z",
+      "playText": "Dailyn Swain makes free throw 1 of 1",
       "participants": [
         {
           "id": 4065,
@@ -77543,15 +77544,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -77615,9 +77616,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645681,
-      "sourceId": "401856568120388172",
-      "playType": "MadeFreeThrow",
+      "id": 49645677,
+      "sourceId": "401856568120388153",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 295,
       "team": "Texas",
@@ -77628,16 +77629,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 2,
       "homeScore": 77,
-      "awayScore": 77,
+      "awayScore": 76,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:11",
       "secondsRemaining": 11,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-27T01:29:55.000Z",
-      "playText": "Dailyn Swain makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T01:29:01.000Z",
+      "playText": "Dailyn Swain makes layup",
       "participants": [
         {
           "id": 4065,
@@ -77650,15 +77651,15 @@
           "name": "Dailyn Swain"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 270
         }
       },
       "onFloor": [
@@ -78869,86 +78870,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.05,
-        "percentile": 92.2,
-        "freqPer100": 25.9
-      },
-      "attackKick": {
-        "ppp": 1.06,
-        "percentile": 80.6,
-        "freqPer100": 9.7
-      },
-      "perimeterSniper": {
-        "ppp": 1.14,
-        "percentile": 86.7,
-        "freqPer100": 4.6
-      },
-      "dribbleJumper": {
-        "ppp": 1.04,
-        "percentile": 80.8,
-        "freqPer100": 5.7
-      },
-      "midRange": {
-        "ppp": 0.96,
-        "percentile": 91.6,
-        "freqPer100": 4.3
-      },
-      "hitsCutter": {
-        "ppp": 1.11,
-        "percentile": 73.6,
-        "freqPer100": 3.1
-      },
-      "perimeterCut": {
-        "ppp": 1.49,
-        "percentile": 96.1,
-        "freqPer100": 3.6
-      },
-      "pnrPasser": {
-        "ppp": 1.18,
-        "percentile": 93.3,
-        "freqPer100": 6.2
-      },
-      "bigCutRoll": {
-        "ppp": 1.56,
-        "percentile": 99.7,
-        "freqPer100": 0.9
-      },
-      "postUp": {
-        "ppp": 1,
-        "percentile": 90.6,
-        "freqPer100": 7.7
-      },
-      "insideOut": {
-        "ppp": 1.05,
-        "percentile": 84.8,
-        "freqPer100": 2.8
-      },
-      "pickAndPop": {
-        "ppp": 1.16,
-        "percentile": 87,
-        "freqPer100": 0.9
-      },
-      "highLow": {
-        "ppp": 1.13,
-        "percentile": 76.7,
-        "freqPer100": 1.3
-      },
-      "rebScramble": {
-        "ppp": 1.42,
-        "percentile": 85.7,
-        "freqPer100": 5.8
-      },
-      "transition": {
-        "ppp": 1.34,
-        "percentile": 74.5,
-        "freqPer100": 17.4
       }
     }
   }

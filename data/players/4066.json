@@ -243,7 +243,8 @@
     "jersey": "3",
     "position": "Guard",
     "height": 76,
-    "weight": 215,
+    "weight": 214,
+    "wingspan": null,
     "hometown": {
       "city": "Indianapolis",
       "state": "IN"
@@ -319,8 +320,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37734468,
-      "sourceId": "401817239113668643",
+      "id": 37734469,
+      "sourceId": "401817239113668645",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -331,9 +332,9 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 2,
-      "homeWinProbability": 0.911,
+      "homeWinProbability": 0.956,
       "period": 1,
       "clock": "14:36",
       "secondsRemaining": 876,
@@ -426,8 +427,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37734469,
-      "sourceId": "401817239113668645",
+      "id": 37734468,
+      "sourceId": "401817239113668643",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -438,9 +439,9 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 2,
-      "homeWinProbability": 0.956,
+      "homeWinProbability": 0.911,
       "period": 1,
       "clock": "14:36",
       "secondsRemaining": 876,
@@ -858,8 +859,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37734621,
-      "sourceId": "401817239113685913",
+      "id": 37734630,
+      "sourceId": "401817239113686003",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -870,16 +871,16 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 45,
       "awayScore": 8,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 1,
       "clock": "5:05",
       "secondsRemaining": 305,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:54:17.000Z",
+      "wallclock": "2025-11-04T02:54:44.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -965,8 +966,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37734630,
-      "sourceId": "401817239113686003",
+      "id": 37734621,
+      "sourceId": "401817239113685913",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -977,16 +978,16 @@
       "opponent": "South Carolina State",
       "opponentConference": "MEAC",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 44,
       "awayScore": 8,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 1,
       "clock": "5:05",
       "secondsRemaining": 305,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:54:44.000Z",
+      "wallclock": "2025-11-04T02:54:17.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -2154,8 +2155,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38174796,
-      "sourceId": "401817240113816022",
+      "id": 38174791,
+      "sourceId": "401817240113815975",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -2166,17 +2167,17 @@
       "opponent": "Jackson State",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 12,
+      "homeScore": 11,
       "awayScore": 6,
-      "homeWinProbability": 0.804,
+      "homeWinProbability": 0.768,
       "period": 1,
       "clock": "15:12",
       "secondsRemaining": 912,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-07T00:12:42.000Z",
-      "playText": "Ryan Conwell made Free Throw.",
+      "wallclock": "2025-11-07T00:12:28.000Z",
+      "playText": "Ryan Conwell missed Free Throw.",
       "participants": [
         {
           "id": 4066,
@@ -2188,7 +2189,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -2261,8 +2262,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38174791,
-      "sourceId": "401817240113815975",
+      "id": 38174796,
+      "sourceId": "401817240113816022",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -2273,17 +2274,17 @@
       "opponent": "Jackson State",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 12,
       "awayScore": 6,
-      "homeWinProbability": 0.768,
+      "homeWinProbability": 0.804,
       "period": 1,
       "clock": "15:12",
       "secondsRemaining": 912,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-07T00:12:28.000Z",
-      "playText": "Ryan Conwell missed Free Throw.",
+      "wallclock": "2025-11-07T00:12:42.000Z",
+      "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
           "id": 4066,
@@ -2295,7 +2296,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4421,8 +4422,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38707793,
-      "sourceId": "401817241114150315",
+      "id": 38707796,
+      "sourceId": "401817241114150404",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -4433,16 +4434,16 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 23,
       "awayScore": 22,
-      "homeWinProbability": 0.596,
+      "homeWinProbability": 0.641,
       "period": 1,
       "clock": "10:54",
       "secondsRemaining": 654,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:22:47.000Z",
+      "wallclock": "2025-11-12T01:23:05.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -4528,8 +4529,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38707796,
-      "sourceId": "401817241114150404",
+      "id": 38707793,
+      "sourceId": "401817241114150315",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -4540,16 +4541,16 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 22,
       "awayScore": 22,
-      "homeWinProbability": 0.641,
+      "homeWinProbability": 0.596,
       "period": 1,
       "clock": "10:54",
       "secondsRemaining": 654,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:23:05.000Z",
+      "wallclock": "2025-11-12T01:22:47.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -4746,8 +4747,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38707833,
-      "sourceId": "401817241114152819",
+      "id": 38707830,
+      "sourceId": "401817241114152716",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -4758,16 +4759,16 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 29,
       "awayScore": 22,
-      "homeWinProbability": 0.838,
+      "homeWinProbability": 0.823,
       "period": 1,
       "clock": "8:06",
       "secondsRemaining": 486,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:28:19.000Z",
+      "wallclock": "2025-11-12T01:28:02.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -4853,8 +4854,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38707830,
-      "sourceId": "401817241114152716",
+      "id": 38707833,
+      "sourceId": "401817241114152819",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -4865,16 +4866,16 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 22,
-      "homeWinProbability": 0.823,
+      "homeWinProbability": 0.838,
       "period": 1,
       "clock": "8:06",
       "secondsRemaining": 486,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:28:02.000Z",
+      "wallclock": "2025-11-12T01:28:19.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -6581,8 +6582,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38708198,
-      "sourceId": "401817241114182275",
+      "id": 38708202,
+      "sourceId": "401817241114182308",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -6602,7 +6603,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T03:16:56.000Z",
+      "wallclock": "2025-11-12T03:17:16.000Z",
       "playText": "Ryan Conwell missed Free Throw.",
       "participants": [
         {
@@ -6688,8 +6689,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38708202,
-      "sourceId": "401817241114182308",
+      "id": 38708198,
+      "sourceId": "401817241114182275",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -6709,7 +6710,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T03:17:16.000Z",
+      "wallclock": "2025-11-12T03:16:56.000Z",
       "playText": "Ryan Conwell missed Free Throw.",
       "participants": [
         {
@@ -7223,8 +7224,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39100968,
-      "sourceId": "401817242114349489",
+      "id": 39100965,
+      "sourceId": "401817242114349483",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -7235,16 +7236,16 @@
       "opponent": "Ohio",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 7,
-      "homeWinProbability": 0.765,
+      "homeWinProbability": 0.702,
       "period": 1,
       "clock": "17:02",
       "secondsRemaining": 1022,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T17:12:47.000Z",
+      "wallclock": "2025-11-15T17:12:30.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -7330,8 +7331,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39100965,
-      "sourceId": "401817242114349483",
+      "id": 39100968,
+      "sourceId": "401817242114349489",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -7342,16 +7343,16 @@
       "opponent": "Ohio",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 7,
-      "homeWinProbability": 0.702,
+      "homeWinProbability": 0.765,
       "period": 1,
       "clock": "17:02",
       "secondsRemaining": 1022,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T17:12:30.000Z",
+      "wallclock": "2025-11-15T17:12:47.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -11353,8 +11354,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39738278,
-      "sourceId": "401817243114744085",
+      "id": 39738273,
+      "sourceId": "401817243114744044",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -11366,15 +11367,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 74,
-      "homeWinProbability": 0.001,
+      "awayScore": 73,
+      "homeWinProbability": 0.002,
       "period": 2,
       "clock": "0:22",
       "secondsRemaining": 22,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T01:58:03.000Z",
+      "wallclock": "2025-11-22T01:57:45.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -11460,8 +11461,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39738273,
-      "sourceId": "401817243114744044",
+      "id": 39738278,
+      "sourceId": "401817243114744085",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -11473,15 +11474,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 73,
-      "homeWinProbability": 0.002,
+      "awayScore": 74,
+      "homeWinProbability": 0.001,
       "period": 2,
       "clock": "0:22",
       "secondsRemaining": 22,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-22T01:57:45.000Z",
+      "wallclock": "2025-11-22T01:58:03.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -14940,8 +14941,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40315137,
-      "sourceId": "401817245115075343",
+      "id": 40315134,
+      "sourceId": "401817245115075337",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -14952,7 +14953,7 @@
       "opponent": "NJIT",
       "opponentConference": "Am. East",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 75,
       "awayScore": 32,
       "homeWinProbability": 1,
       "period": 2,
@@ -14961,7 +14962,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:33:30.000Z",
+      "wallclock": "2025-11-27T03:33:13.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -15047,8 +15048,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40315134,
-      "sourceId": "401817245115075337",
+      "id": 40315137,
+      "sourceId": "401817245115075343",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -15059,7 +15060,7 @@
       "opponent": "NJIT",
       "opponentConference": "Am. East",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 76,
       "awayScore": 32,
       "homeWinProbability": 1,
       "period": 2,
@@ -15068,7 +15069,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T03:33:13.000Z",
+      "wallclock": "2025-11-27T03:33:30.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -17421,113 +17422,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886943,
-      "sourceId": "401806374115434427",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 150,
-      "team": "Louisville",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 12,
-      "opponent": "Arkansas",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 72,
-      "awayScore": 65,
-      "homeWinProbability": 0.917,
-      "period": 2,
-      "clock": "6:26",
-      "secondsRemaining": 386,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-04T02:14:01.000Z",
-      "playText": "Ryan Conwell made Free Throw.",
-      "participants": [
-        {
-          "id": 4066,
-          "name": "Ryan Conwell"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4066,
-          "name": "Ryan Conwell"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 200182,
-          "name": "Mikel Brown Jr.",
-          "team": "Louisville"
-        },
-        {
-          "id": 3421,
-          "name": "Kasean Pryor",
-          "team": "Louisville"
-        },
-        {
-          "id": 4066,
-          "name": "Ryan Conwell",
-          "team": "Louisville"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 200186,
-          "name": "Sananda Fru",
-          "team": "Louisville"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7518,
-          "name": "Adrian Wooley",
-          "team": "Louisville"
-        }
-      ]
-    },
-    {
-      "gameId": 210144,
-      "gameSourceId": "401806374",
-      "gameStartDate": "2025-12-04T00:15:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 40886942,
       "sourceId": "401806374115434376",
       "playType": "MadeFreeThrow",
@@ -17635,8 +17529,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886965,
-      "sourceId": "401806374115436862",
+      "id": 40886943,
+      "sourceId": "401806374115434427",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 150,
+      "team": "Louisville",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 12,
+      "opponent": "Arkansas",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 72,
+      "awayScore": 65,
+      "homeWinProbability": 0.917,
+      "period": 2,
+      "clock": "6:26",
+      "secondsRemaining": 386,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-04T02:14:01.000Z",
+      "playText": "Ryan Conwell made Free Throw.",
+      "participants": [
+        {
+          "id": 4066,
+          "name": "Ryan Conwell"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4066,
+          "name": "Ryan Conwell"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 200182,
+          "name": "Mikel Brown Jr.",
+          "team": "Louisville"
+        },
+        {
+          "id": 3421,
+          "name": "Kasean Pryor",
+          "team": "Louisville"
+        },
+        {
+          "id": 4066,
+          "name": "Ryan Conwell",
+          "team": "Louisville"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 200186,
+          "name": "Sananda Fru",
+          "team": "Louisville"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7518,
+          "name": "Adrian Wooley",
+          "team": "Louisville"
+        }
+      ]
+    },
+    {
+      "gameId": 210144,
+      "gameSourceId": "401806374",
+      "gameStartDate": "2025-12-04T00:15:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 40886968,
+      "sourceId": "401806374115436991",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -17648,15 +17649,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 72,
-      "homeWinProbability": 0.926,
+      "awayScore": 73,
+      "homeWinProbability": 0.894,
       "period": 2,
       "clock": "3:28",
       "secondsRemaining": 208,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T02:23:16.000Z",
+      "wallclock": "2025-12-04T02:23:36.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -17742,8 +17743,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886968,
-      "sourceId": "401806374115436991",
+      "id": 40886965,
+      "sourceId": "401806374115436862",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -17755,15 +17756,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 73,
-      "homeWinProbability": 0.894,
+      "awayScore": 72,
+      "homeWinProbability": 0.926,
       "period": 2,
       "clock": "3:28",
       "secondsRemaining": 208,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T02:23:36.000Z",
+      "wallclock": "2025-12-04T02:23:16.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -19038,8 +19039,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41093922,
-      "sourceId": "401817246115531887",
+      "id": 41093923,
+      "sourceId": "401817246115531898",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 84,
@@ -19050,16 +19051,16 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 33,
       "awayScore": 20,
-      "homeWinProbability": 0.916,
+      "homeWinProbability": 0.938,
       "period": 1,
       "clock": "5:30",
       "secondsRemaining": 330,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T19:59:58.000Z",
+      "wallclock": "2025-12-06T20:00:13.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -19145,8 +19146,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41093923,
-      "sourceId": "401817246115531898",
+      "id": 41093922,
+      "sourceId": "401817246115531887",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 84,
@@ -19157,16 +19158,16 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 32,
       "awayScore": 20,
-      "homeWinProbability": 0.938,
+      "homeWinProbability": 0.916,
       "period": 1,
       "clock": "5:30",
       "secondsRemaining": 330,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T20:00:13.000Z",
+      "wallclock": "2025-12-06T19:59:58.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -19795,113 +19796,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41094088,
-      "sourceId": "401817246115547042",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 84,
-      "team": "Indiana",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 150,
-      "opponent": "Louisville",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 58,
-      "awayScore": 46,
-      "homeWinProbability": 0.967,
-      "period": 2,
-      "clock": "12:12",
-      "secondsRemaining": 732,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-06T20:50:18.000Z",
-      "playText": "Ryan Conwell made Free Throw.",
-      "participants": [
-        {
-          "id": 4066,
-          "name": "Ryan Conwell"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4066,
-          "name": "Ryan Conwell"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 2534,
-          "name": "Tayton Conerway",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 4066,
-          "name": "Ryan Conwell",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 501,
-          "name": "Sam Alexis",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 3416,
-          "name": "J'Vonne Hadley",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 7045,
-          "name": "Lamar Wilkerson",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 200182,
-          "name": "Mikel Brown Jr.",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 3319,
-          "name": "Tucker DeVries",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 5389,
-          "name": "Conor Enright",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 200186,
-          "name": "Sananda Fru",
-          "team": "Fairleigh Dickinson"
-        },
-        {
-          "id": 8193,
-          "name": "Isaac McKneely",
-          "team": "Fairleigh Dickinson"
-        }
-      ]
-    },
-    {
-      "gameId": 210197,
-      "gameSourceId": "401817246",
-      "gameStartDate": "2025-12-06T19:15:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41094084,
       "sourceId": "401817246115546916",
       "playType": "MadeFreeThrow",
@@ -20031,6 +19925,113 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-06T20:50:02.000Z",
+      "playText": "Ryan Conwell made Free Throw.",
+      "participants": [
+        {
+          "id": 4066,
+          "name": "Ryan Conwell"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4066,
+          "name": "Ryan Conwell"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 2534,
+          "name": "Tayton Conerway",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 4066,
+          "name": "Ryan Conwell",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 501,
+          "name": "Sam Alexis",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 3416,
+          "name": "J'Vonne Hadley",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 7045,
+          "name": "Lamar Wilkerson",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 200182,
+          "name": "Mikel Brown Jr.",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 3319,
+          "name": "Tucker DeVries",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 5389,
+          "name": "Conor Enright",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 200186,
+          "name": "Sananda Fru",
+          "team": "Fairleigh Dickinson"
+        },
+        {
+          "id": 8193,
+          "name": "Isaac McKneely",
+          "team": "Fairleigh Dickinson"
+        }
+      ]
+    },
+    {
+      "gameId": 210197,
+      "gameSourceId": "401817246",
+      "gameStartDate": "2025-12-06T19:15:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41094088,
+      "sourceId": "401817246115547042",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 84,
+      "team": "Indiana",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 150,
+      "opponent": "Louisville",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 58,
+      "awayScore": 46,
+      "homeWinProbability": 0.967,
+      "period": 2,
+      "clock": "12:12",
+      "secondsRemaining": 732,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-06T20:50:18.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -20548,8 +20549,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41094229,
-      "sourceId": "401817246115556672",
+      "id": 41094228,
+      "sourceId": "401817246115556614",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 84,
@@ -20560,7 +20561,7 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 87,
+      "homeScore": 86,
       "awayScore": 78,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -20569,7 +20570,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:32:44.000Z",
+      "wallclock": "2025-12-06T21:32:31.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -20655,8 +20656,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41094228,
-      "sourceId": "401817246115556614",
+      "id": 41094229,
+      "sourceId": "401817246115556672",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 84,
@@ -20667,7 +20668,7 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 87,
       "awayScore": 78,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -20676,7 +20677,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:32:31.000Z",
+      "wallclock": "2025-12-06T21:32:44.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -21634,8 +21635,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41695747,
-      "sourceId": "401817247115830117",
+      "id": 41695788,
+      "sourceId": "401817247115830223",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -21646,16 +21647,16 @@
       "opponent": "Memphis",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 54,
       "awayScore": 35,
-      "homeWinProbability": 0.99,
+      "homeWinProbability": 0.994,
       "period": 1,
       "clock": "1:33",
       "secondsRemaining": 93,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T21:19:29.000Z",
+      "wallclock": "2025-12-13T21:20:00.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -21741,8 +21742,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41695788,
-      "sourceId": "401817247115830223",
+      "id": 41695747,
+      "sourceId": "401817247115830117",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -21753,16 +21754,16 @@
       "opponent": "Memphis",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 54,
+      "homeScore": 53,
       "awayScore": 35,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.99,
       "period": 1,
       "clock": "1:33",
       "secondsRemaining": 93,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T21:20:00.000Z",
+      "wallclock": "2025-12-13T21:19:29.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -22391,8 +22392,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41696237,
-      "sourceId": "401817247115841633",
+      "id": 41696235,
+      "sourceId": "401817247115841598",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -22403,7 +22404,7 @@
       "opponent": "Memphis",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
@@ -22412,7 +22413,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T22:18:22.000Z",
+      "wallclock": "2025-12-13T22:18:10.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -22498,8 +22499,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41696235,
-      "sourceId": "401817247115841598",
+      "id": 41696237,
+      "sourceId": "401817247115841633",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -22510,7 +22511,7 @@
       "opponent": "Memphis",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
@@ -22519,7 +22520,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T22:18:10.000Z",
+      "wallclock": "2025-12-13T22:18:22.000Z",
       "playText": "Ryan Conwell made Free Throw.",
       "participants": [
         {
@@ -30789,8 +30790,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43140126,
-      "sourceId": "401820643116676515",
+      "id": 43140124,
+      "sourceId": "401820643116675702",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -30802,16 +30803,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 21,
-      "homeWinProbability": 0.859,
+      "awayScore": 20,
+      "homeWinProbability": 0.882,
       "period": 1,
       "clock": "6:38",
       "secondsRemaining": 398,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T01:43:53.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-01-03T01:39:01.000Z",
+      "playText": "Ryan Conwell misses free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -30823,7 +30824,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -30896,8 +30897,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43140124,
-      "sourceId": "401820643116675702",
+      "id": 43140126,
+      "sourceId": "401820643116676515",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -30909,16 +30910,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 20,
-      "homeWinProbability": 0.882,
+      "awayScore": 21,
+      "homeWinProbability": 0.859,
       "period": 1,
       "clock": "6:38",
       "secondsRemaining": 398,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T01:39:01.000Z",
-      "playText": "Ryan Conwell misses free throw 1 of 2",
+      "wallclock": "2026-01-03T01:43:53.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -30930,7 +30931,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -32410,8 +32411,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43140324,
-      "sourceId": "401820643116683269",
+      "id": 43140321,
+      "sourceId": "401820643116683248",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -32423,16 +32424,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 54,
-      "homeWinProbability": 0.737,
+      "awayScore": 53,
+      "homeWinProbability": 0.804,
       "period": 2,
       "clock": "10:02",
       "secondsRemaining": 602,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T02:45:57.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-01-03T02:45:28.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -32517,8 +32518,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43140321,
-      "sourceId": "401820643116683248",
+      "id": 43140324,
+      "sourceId": "401820643116683269",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -32530,16 +32531,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 57,
-      "awayScore": 53,
-      "homeWinProbability": 0.804,
+      "awayScore": 54,
+      "homeWinProbability": 0.737,
       "period": 2,
       "clock": "10:02",
       "secondsRemaining": 602,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T02:45:28.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-01-03T02:45:57.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -34990,8 +34991,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554575,
-      "sourceId": "401820650116899799",
+      "id": 43554574,
+      "sourceId": "401820650116899787",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -35002,17 +35003,17 @@
       "opponent": "Duke",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 65,
       "awayScore": 73,
-      "homeWinProbability": 0.265,
+      "homeWinProbability": 0.182,
       "period": 2,
       "clock": "5:58",
       "secondsRemaining": 358,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:58:21.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-01-07T01:58:06.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -35097,8 +35098,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554574,
-      "sourceId": "401820650116899787",
+      "id": 43554575,
+      "sourceId": "401820650116899799",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -35109,17 +35110,17 @@
       "opponent": "Duke",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 66,
       "awayScore": 73,
-      "homeWinProbability": 0.182,
+      "homeWinProbability": 0.265,
       "period": 2,
       "clock": "5:58",
       "secondsRemaining": 358,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:58:06.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-01-07T01:58:21.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -40178,9 +40179,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44587755,
-      "sourceId": "401820679117568995",
-      "playType": "LayUpShot",
+      "id": 44587759,
+      "sourceId": "401820679117569071",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
       "team": "Louisville",
@@ -40191,21 +40192,17 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 65,
+      "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:41",
       "secondsRemaining": 1001,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-18T02:17:52.000Z",
-      "playText": "Ryan Conwell makes layup (Aly Khalifa assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-18T02:18:24.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 3428,
-          "name": "Aly Khalifa"
-        },
         {
           "id": 4066,
           "name": "Ryan Conwell"
@@ -40217,15 +40214,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 3428,
-          "name": "Aly Khalifa"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 65.8,
-          "y": 265
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -40289,9 +40286,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44587759,
-      "sourceId": "401820679117569071",
-      "playType": "MadeFreeThrow",
+      "id": 44587755,
+      "sourceId": "401820679117568995",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 150,
       "team": "Louisville",
@@ -40302,17 +40299,21 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 66,
+      "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:41",
       "secondsRemaining": 1001,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-18T02:18:24.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-18T02:17:52.000Z",
+      "playText": "Ryan Conwell makes layup (Aly Khalifa assists)",
       "participants": [
+        {
+          "id": 3428,
+          "name": "Aly Khalifa"
+        },
         {
           "id": 4066,
           "name": "Ryan Conwell"
@@ -40324,15 +40325,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 3428,
+          "name": "Aly Khalifa"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 265
         }
       },
       "onFloor": [
@@ -46460,8 +46461,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45822318,
-      "sourceId": "401820710118218499",
+      "id": 45822323,
+      "sourceId": "401820710118218574",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -46472,17 +46473,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 65,
-      "homeWinProbability": 0.926,
+      "homeWinProbability": 0.966,
       "period": 2,
       "clock": "6:59",
       "secondsRemaining": 419,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T20:56:54.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-01-31T20:57:10.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -46567,8 +46568,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45822323,
-      "sourceId": "401820710118218574",
+      "id": 45822318,
+      "sourceId": "401820710118218499",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -46579,17 +46580,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 65,
-      "homeWinProbability": 0.966,
+      "homeWinProbability": 0.926,
       "period": 2,
       "clock": "6:59",
       "secondsRemaining": 419,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T20:57:10.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-01-31T20:56:54.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -48402,113 +48403,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46242048,
-      "sourceId": "401820718118412180",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 150,
-      "team": "Louisville",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 213,
-      "opponent": "Notre Dame",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 63,
-      "awayScore": 54,
-      "homeWinProbability": 0.95,
-      "period": 2,
-      "clock": "6:00",
-      "secondsRemaining": 360,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-05T01:48:40.000Z",
-      "playText": "Ryan Conwell makes driving layup",
-      "participants": [
-        {
-          "id": 4066,
-          "name": "Ryan Conwell"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4066,
-          "name": "Ryan Conwell"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 103.4,
-          "y": 215
-        }
-      },
-      "onFloor": [
-        {
-          "id": 200198,
-          "name": "Vangelis Zougris",
-          "team": "Louisville"
-        },
-        {
-          "id": 3421,
-          "name": "Kasean Pryor",
-          "team": "Louisville"
-        },
-        {
-          "id": 5034,
-          "name": "Carson Towt",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 7518,
-          "name": "Adrian Wooley",
-          "team": "Louisville"
-        },
-        {
-          "id": 201202,
-          "name": "Brady Koehler",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 8158,
-          "name": "Braeden Shrewsberry",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 4066,
-          "name": "Ryan Conwell",
-          "team": "Louisville"
-        },
-        {
-          "id": 201200,
-          "name": "Jalen Haralson",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 200182,
-          "name": "Mikel Brown Jr.",
-          "team": "Louisville"
-        },
-        {
-          "id": 8163,
-          "name": "Cole Certa",
-          "team": "Notre Dame"
-        }
-      ]
-    },
-    {
-      "gameId": 214775,
-      "gameSourceId": "401820718",
-      "gameStartDate": "2026-02-05T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46242050,
       "sourceId": "401820718118412316",
       "playType": "MadeFreeThrow",
@@ -48616,8 +48510,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46242078,
-      "sourceId": "401820718118415159",
+      "id": 46242048,
+      "sourceId": "401820718118412180",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 150,
+      "team": "Louisville",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 213,
+      "opponent": "Notre Dame",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 63,
+      "awayScore": 54,
+      "homeWinProbability": 0.95,
+      "period": 2,
+      "clock": "6:00",
+      "secondsRemaining": 360,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-02-05T01:48:40.000Z",
+      "playText": "Ryan Conwell makes driving layup",
+      "participants": [
+        {
+          "id": 4066,
+          "name": "Ryan Conwell"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4066,
+          "name": "Ryan Conwell"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 103.4,
+          "y": 215
+        }
+      },
+      "onFloor": [
+        {
+          "id": 200198,
+          "name": "Vangelis Zougris",
+          "team": "Louisville"
+        },
+        {
+          "id": 3421,
+          "name": "Kasean Pryor",
+          "team": "Louisville"
+        },
+        {
+          "id": 5034,
+          "name": "Carson Towt",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 7518,
+          "name": "Adrian Wooley",
+          "team": "Louisville"
+        },
+        {
+          "id": 201202,
+          "name": "Brady Koehler",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 8158,
+          "name": "Braeden Shrewsberry",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 4066,
+          "name": "Ryan Conwell",
+          "team": "Louisville"
+        },
+        {
+          "id": 201200,
+          "name": "Jalen Haralson",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 200182,
+          "name": "Mikel Brown Jr.",
+          "team": "Louisville"
+        },
+        {
+          "id": 8163,
+          "name": "Cole Certa",
+          "team": "Notre Dame"
+        }
+      ]
+    },
+    {
+      "gameId": 214775,
+      "gameSourceId": "401820718",
+      "gameStartDate": "2026-02-05T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46242077,
+      "sourceId": "401820718118414723",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -48628,7 +48629,7 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 54,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -48637,8 +48638,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T01:59:26.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-02-05T01:59:03.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -48723,8 +48724,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46242077,
-      "sourceId": "401820718118414723",
+      "id": 46242078,
+      "sourceId": "401820718118415159",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -48735,7 +48736,7 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 54,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -48744,8 +48745,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-05T01:59:03.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-02-05T01:59:26.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -49480,8 +49481,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46443461,
-      "sourceId": "401820729118521998",
+      "id": 46443460,
+      "sourceId": "401820729118521994",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -49493,16 +49494,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 43,
-      "homeWinProbability": 0.21,
+      "awayScore": 42,
+      "homeWinProbability": 0.258,
       "period": 1,
       "clock": "0:49",
       "secondsRemaining": 49,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T17:47:37.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-02-07T17:47:21.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -49587,8 +49588,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46443460,
-      "sourceId": "401820729118521994",
+      "id": 46443461,
+      "sourceId": "401820729118521998",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -49600,16 +49601,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 42,
-      "homeWinProbability": 0.258,
+      "awayScore": 43,
+      "homeWinProbability": 0.21,
       "period": 1,
       "clock": "0:49",
       "secondsRemaining": 49,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T17:47:21.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-02-07T17:47:37.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -50673,8 +50674,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46738138,
-      "sourceId": "401820730118701966",
+      "id": 46738140,
+      "sourceId": "401820730118701968",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -50685,7 +50686,7 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 22,
       "awayScore": 12,
       "homeWinProbability": null,
       "period": 1,
@@ -50694,8 +50695,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T00:19:07.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 3",
+      "wallclock": "2026-02-10T00:19:20.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 3",
       "participants": [
         {
           "id": 4066,
@@ -50887,8 +50888,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46738140,
-      "sourceId": "401820730118701968",
+      "id": 46738138,
+      "sourceId": "401820730118701966",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -50899,7 +50900,7 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 21,
       "awayScore": 12,
       "homeWinProbability": null,
       "period": 1,
@@ -50908,8 +50909,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T00:19:20.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 3",
+      "wallclock": "2026-02-10T00:19:07.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 3",
       "participants": [
         {
           "id": 4066,
@@ -51648,9 +51649,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46738664,
-      "sourceId": "401820730118706344",
-      "playType": "JumpShot",
+      "id": 46738667,
+      "sourceId": "401820730118706426",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
       "team": "Louisville",
@@ -51660,7 +51661,7 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 62,
       "awayScore": 38,
       "homeWinProbability": null,
       "period": 2,
@@ -51668,9 +51669,9 @@
       "secondsRemaining": 1153,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-10T01:12:49.000Z",
-      "playText": "Ryan Conwell makes 4-foot turnaround jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-02-10T01:13:16.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 1",
       "participants": [
         {
           "id": 4066,
@@ -51683,15 +51684,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 94,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -51755,9 +51756,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46738667,
-      "sourceId": "401820730118706426",
-      "playType": "MadeFreeThrow",
+      "id": 46738664,
+      "sourceId": "401820730118706344",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 150,
       "team": "Louisville",
@@ -51767,7 +51768,7 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 61,
       "awayScore": 38,
       "homeWinProbability": null,
       "period": 2,
@@ -51775,9 +51776,9 @@
       "secondsRemaining": 1153,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-10T01:13:16.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-10T01:12:49.000Z",
+      "playText": "Ryan Conwell makes 4-foot turnaround jump shot",
       "participants": [
         {
           "id": 4066,
@@ -51790,15 +51791,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 94,
+          "y": 240
         }
       },
       "onFloor": [
@@ -52413,8 +52414,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46738897,
-      "sourceId": "401820730118708246",
+      "id": 46738894,
+      "sourceId": "401820730118708242",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -52425,7 +52426,7 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 81,
       "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
@@ -52434,8 +52435,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T01:33:14.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-02-10T01:33:00.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -52520,8 +52521,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46738894,
-      "sourceId": "401820730118708242",
+      "id": 46738897,
+      "sourceId": "401820730118708246",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -52532,7 +52533,7 @@
       "opponent": "NC State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 82,
       "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
@@ -52541,8 +52542,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-10T01:33:00.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-02-10T01:33:14.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -54692,8 +54693,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47072147,
-      "sourceId": "401817250118984994",
+      "id": 47072152,
+      "sourceId": "401817250118985160",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -54705,16 +54706,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 51,
-      "awayScore": 63,
-      "homeWinProbability": 0.061,
+      "awayScore": 64,
+      "homeWinProbability": 0.042,
       "period": 2,
       "clock": "9:36",
       "secondsRemaining": 576,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T22:50:30.000Z",
-      "playText": "Ryan Conwell misses free throw 1 of 2",
+      "wallclock": "2026-02-14T22:50:47.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -54726,7 +54727,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -54799,8 +54800,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47072152,
-      "sourceId": "401817250118985160",
+      "id": 47072147,
+      "sourceId": "401817250118984994",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -54812,16 +54813,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 51,
-      "awayScore": 64,
-      "homeWinProbability": 0.042,
+      "awayScore": 63,
+      "homeWinProbability": 0.061,
       "period": 2,
       "clock": "9:36",
       "secondsRemaining": 576,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T22:50:47.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-02-14T22:50:30.000Z",
+      "playText": "Ryan Conwell misses free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -54833,7 +54834,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -58144,9 +58145,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47736796,
-      "sourceId": "401820756119303360",
-      "playType": "MadeFreeThrow",
+      "id": 47736793,
+      "sourceId": "401820756119303043",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 150,
       "team": "Louisville",
@@ -58156,18 +58157,22 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 55,
       "awayScore": 37,
-      "homeWinProbability": 0.995,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "13:59",
       "secondsRemaining": 839,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T20:39:21.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-21T20:38:52.000Z",
+      "playText": "Ryan Conwell makes layup (Aly Khalifa assists)",
       "participants": [
+        {
+          "id": 3428,
+          "name": "Aly Khalifa"
+        },
         {
           "id": 4066,
           "name": "Ryan Conwell"
@@ -58179,15 +58184,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 3428,
+          "name": "Aly Khalifa"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 141,
+          "y": 270
         }
       },
       "onFloor": [
@@ -58251,9 +58256,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47736793,
-      "sourceId": "401820756119303043",
-      "playType": "LayUpShot",
+      "id": 47736796,
+      "sourceId": "401820756119303360",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
       "team": "Louisville",
@@ -58263,22 +58268,18 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 55,
+      "homeScore": 56,
       "awayScore": 37,
-      "homeWinProbability": 0.993,
+      "homeWinProbability": 0.995,
       "period": 2,
       "clock": "13:59",
       "secondsRemaining": 839,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-21T20:38:52.000Z",
-      "playText": "Ryan Conwell makes layup (Aly Khalifa assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T20:39:21.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 3428,
-          "name": "Aly Khalifa"
-        },
         {
           "id": 4066,
           "name": "Ryan Conwell"
@@ -58290,15 +58291,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 3428,
-          "name": "Aly Khalifa"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 141,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -61378,9 +61379,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47948727,
-      "sourceId": "401820762119433389",
-      "playType": "MadeFreeThrow",
+      "id": 47948723,
+      "sourceId": "401820762119433375",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 150,
       "team": "Louisville",
@@ -61391,16 +61392,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 61,
+      "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "4:03",
       "secondsRemaining": 243,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-24T01:50:39.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-24T01:50:01.000Z",
+      "playText": "Ryan Conwell makes driving layup",
       "participants": [
         {
           "id": 4066,
@@ -61413,15 +61414,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -61485,9 +61486,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47948723,
-      "sourceId": "401820762119433375",
-      "playType": "LayUpShot",
+      "id": 47948727,
+      "sourceId": "401820762119433389",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
       "team": "Louisville",
@@ -61498,16 +61499,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 60,
+      "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "4:03",
       "secondsRemaining": 243,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-24T01:50:01.000Z",
-      "playText": "Ryan Conwell makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-24T01:50:39.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 1",
       "participants": [
         {
           "id": 4066,
@@ -61520,15 +61521,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -64949,8 +64950,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48622460,
-      "sourceId": "401820781119839945",
+      "id": 48622459,
+      "sourceId": "401820781119839913",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -64961,7 +64962,7 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
@@ -64970,8 +64971,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T02:50:33.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-03-04T02:50:17.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -65056,8 +65057,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48622459,
-      "sourceId": "401820781119839913",
+      "id": 48622460,
+      "sourceId": "401820781119839945",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -65068,7 +65069,7 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 18,
       "homeWinProbability": null,
       "period": 1,
@@ -65077,8 +65078,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T02:50:17.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-03-04T02:50:33.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -68413,8 +68414,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48928552,
-      "sourceId": "401820790120041939",
+      "id": 48928549,
+      "sourceId": "401820790120041796",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -68426,7 +68427,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 87,
-      "awayScore": 91,
+      "awayScore": 90,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:06",
@@ -68434,8 +68435,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T21:17:18.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-03-07T21:16:38.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -68520,8 +68521,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48928549,
-      "sourceId": "401820790120041796",
+      "id": 48928552,
+      "sourceId": "401820790120041939",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -68533,7 +68534,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 87,
-      "awayScore": 90,
+      "awayScore": 91,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:06",
@@ -68541,8 +68542,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T21:16:38.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-03-07T21:17:18.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -71433,8 +71434,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49302228,
-      "sourceId": "401851178120200956",
+      "id": 49302229,
+      "sourceId": "401851178120200967",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -71446,7 +71447,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 27,
-      "awayScore": 29,
+      "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
       "clock": "5:31",
@@ -71454,8 +71455,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T19:29:49.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-03-12T19:30:09.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -71540,8 +71541,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49302229,
-      "sourceId": "401851178120200967",
+      "id": 49302228,
+      "sourceId": "401851178120200956",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -71553,7 +71554,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 27,
-      "awayScore": 30,
+      "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
       "clock": "5:31",
@@ -71561,8 +71562,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T19:30:09.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-03-12T19:29:49.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -72721,9 +72722,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49302449,
-      "sourceId": "401851178120205218",
-      "playType": "MadeFreeThrow",
+      "id": 49302447,
+      "sourceId": "401851178120205187",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 150,
       "team": "Louisville",
@@ -72734,16 +72735,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 62,
+      "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:21",
       "secondsRemaining": 381,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-12T20:49:46.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-12T20:49:15.000Z",
+      "playText": "Ryan Conwell makes driving layup",
       "participants": [
         {
           "id": 4066,
@@ -72756,15 +72757,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 225
         }
       },
       "onFloor": [
@@ -72828,9 +72829,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49302447,
-      "sourceId": "401851178120205187",
-      "playType": "LayUpShot",
+      "id": 49302449,
+      "sourceId": "401851178120205218",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
       "team": "Louisville",
@@ -72841,16 +72842,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 61,
+      "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:21",
       "secondsRemaining": 381,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-12T20:49:15.000Z",
-      "playText": "Ryan Conwell makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-12T20:49:46.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 1",
       "participants": [
         {
           "id": 4066,
@@ -72863,15 +72864,15 @@
           "name": "Ryan Conwell"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -73149,8 +73150,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49302476,
-      "sourceId": "401851178120205598",
+      "id": 49302477,
+      "sourceId": "401851178120205611",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -73162,7 +73163,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 63,
+      "awayScore": 64,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:59",
@@ -73170,8 +73171,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T20:58:04.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-03-12T20:58:18.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -73256,8 +73257,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49302477,
-      "sourceId": "401851178120205611",
+      "id": 49302476,
+      "sourceId": "401851178120205598",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -73269,7 +73270,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 64,
+      "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
       "clock": "3:59",
@@ -73277,8 +73278,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T20:58:18.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-03-12T20:58:04.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -74120,8 +74121,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49536280,
-      "sourceId": "401856482120295766",
+      "id": 49536290,
+      "sourceId": "401856482120295776",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -74132,17 +74133,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": 11,
-      "homeScore": 10,
+      "homeScore": 11,
       "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:24",
       "secondsRemaining": 804,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T17:43:57.000Z",
-      "playText": "Ryan Conwell misses free throw 1 of 2",
+      "wallclock": "2026-03-19T17:44:19.000Z",
+      "playText": "Ryan Conwell makes free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -74154,7 +74155,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -74227,8 +74228,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49536290,
-      "sourceId": "401856482120295776",
+      "id": 49536280,
+      "sourceId": "401856482120295766",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 150,
@@ -74239,17 +74240,17 @@
       "opponent": "South Florida",
       "opponentConference": "American",
       "opponentSeed": 11,
-      "homeScore": 11,
+      "homeScore": 10,
       "awayScore": 7,
       "homeWinProbability": null,
       "period": 1,
       "clock": "13:24",
       "secondsRemaining": 804,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T17:44:19.000Z",
-      "playText": "Ryan Conwell makes free throw 2 of 2",
+      "wallclock": "2026-03-19T17:43:57.000Z",
+      "playText": "Ryan Conwell misses free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -74261,7 +74262,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -78120,8 +78121,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49591402,
-      "sourceId": "401856531120344192",
+      "id": 49591393,
+      "sourceId": "401856531120344150",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -78138,11 +78139,11 @@
       "period": 2,
       "clock": "12:58",
       "secondsRemaining": 778,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T20:16:06.000Z",
-      "playText": "Ryan Conwell misses free throw 2 of 2",
+      "wallclock": "2026-03-21T20:15:47.000Z",
+      "playText": "Ryan Conwell makes free throw 1 of 2",
       "participants": [
         {
           "id": 4066,
@@ -78154,7 +78155,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -78227,8 +78228,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49591393,
-      "sourceId": "401856531120344150",
+      "id": 49591402,
+      "sourceId": "401856531120344192",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 150,
@@ -78245,11 +78246,11 @@
       "period": 2,
       "clock": "12:58",
       "secondsRemaining": 778,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T20:15:47.000Z",
-      "playText": "Ryan Conwell makes free throw 1 of 2",
+      "wallclock": "2026-03-21T20:16:06.000Z",
+      "playText": "Ryan Conwell misses free throw 2 of 2",
       "participants": [
         {
           "id": 4066,
@@ -78261,7 +78262,7 @@
           "id": 4066,
           "name": "Ryan Conwell"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -80418,70 +80419,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.07,
-        "percentile": 93.9,
-        "freqPer100": 17.8
-      },
-      "attackKick": {
-        "ppp": 1.14,
-        "percentile": 96.3,
-        "freqPer100": 9.7
-      },
-      "perimeterSniper": {
-        "ppp": 1.08,
-        "percentile": 76,
-        "freqPer100": 23.7
-      },
-      "dribbleJumper": {
-        "ppp": 0.97,
-        "percentile": 65.7,
-        "freqPer100": 8.9
-      },
-      "midRange": {
-        "ppp": 0.85,
-        "percentile": 72.8,
-        "freqPer100": 2.5
-      },
-      "hitsCutter": {
-        "ppp": 1.17,
-        "percentile": 87.5,
-        "freqPer100": 1.9
-      },
-      "perimeterCut": {
-        "ppp": 1.38,
-        "percentile": 88.5,
-        "freqPer100": 5.3
-      },
-      "pnrPasser": {
-        "ppp": 1.25,
-        "percentile": 97.4,
-        "freqPer100": 5.6
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 0.79,
-        "percentile": 39.7,
-        "freqPer100": 0.5
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.11,
-        "percentile": 36.2,
-        "freqPer100": 5
-      },
-      "transition": {
-        "ppp": 1.16,
-        "percentile": 36,
-        "freqPer100": 19
       }
     }
   }

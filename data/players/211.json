@@ -243,7 +243,8 @@
     "jersey": "3",
     "position": "Guard",
     "height": 78,
-    "weight": 180,
+    "weight": 186,
+    "wingspan": null,
     "hometown": {
       "city": "Fayetteville",
       "state": "NC"
@@ -856,8 +857,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38038970,
-      "sourceId": "401817228113749864",
+      "id": 38038964,
+      "sourceId": "401817228113749824",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -868,17 +869,17 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 29,
-      "homeWinProbability": 0.712,
+      "homeWinProbability": 0.696,
       "period": 1,
       "clock": "2:51",
       "secondsRemaining": 171,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T02:47:41.000Z",
-      "playText": "Isaiah Evans made Free Throw.",
+      "wallclock": "2025-11-05T02:47:21.000Z",
+      "playText": "Isaiah Evans missed Free Throw.",
       "participants": [
         {
           "id": 211,
@@ -890,7 +891,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -963,8 +964,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38038964,
-      "sourceId": "401817228113749824",
+      "id": 38038970,
+      "sourceId": "401817228113749864",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -975,17 +976,17 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 29,
-      "homeWinProbability": 0.696,
+      "homeWinProbability": 0.712,
       "period": 1,
       "clock": "2:51",
       "secondsRemaining": 171,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T02:47:21.000Z",
-      "playText": "Isaiah Evans missed Free Throw.",
+      "wallclock": "2025-11-05T02:47:41.000Z",
+      "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
           "id": 211,
@@ -997,7 +998,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -2521,113 +2522,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38367397,
-      "sourceId": "401817229113955013",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 348,
-      "opponent": "Western Carolina",
-      "opponentConference": "SoCon",
-      "opponentSeed": null,
-      "homeScore": 31,
-      "awayScore": 15,
-      "homeWinProbability": 0.964,
-      "period": 1,
-      "clock": "5:22",
-      "secondsRemaining": 322,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T19:22:06.000Z",
-      "playText": "Isaiah Evans made Free Throw.",
-      "participants": [
-        {
-          "id": 211,
-          "name": "Isaiah Evans"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 211,
-          "name": "Isaiah Evans"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 903,
-          "name": "Abdulai Fanta Kabba",
-          "team": "Western Carolina"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 2175,
-          "name": "Julien Soumaoro",
-          "team": "Western Carolina"
-        },
-        {
-          "id": 203325,
-          "name": "Tayeshaun Smith",
-          "team": "Western Carolina"
-        },
-        {
-          "id": 3724,
-          "name": "Fischer Brown",
-          "team": "Western Carolina"
-        },
-        {
-          "id": 3726,
-          "name": "CJ Hyland",
-          "team": "Western Carolina"
-        },
-        {
-          "id": 216,
-          "name": "Patrick Ngongba II",
-          "team": "Duke"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 212,
-          "name": "Darren Harris",
-          "team": "Duke"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 209829,
-      "gameSourceId": "401817229",
-      "gameStartDate": "2025-11-08T18:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38367388,
       "sourceId": "401817229113954919",
       "playType": "MadeFreeThrow",
@@ -2735,8 +2629,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38367455,
-      "sourceId": "401817229113956859",
+      "id": 38367397,
+      "sourceId": "401817229113955013",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -2747,16 +2641,123 @@
       "opponent": "Western Carolina",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 31,
+      "awayScore": 15,
+      "homeWinProbability": 0.964,
+      "period": 1,
+      "clock": "5:22",
+      "secondsRemaining": 322,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T19:22:06.000Z",
+      "playText": "Isaiah Evans made Free Throw.",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 903,
+          "name": "Abdulai Fanta Kabba",
+          "team": "Western Carolina"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 2175,
+          "name": "Julien Soumaoro",
+          "team": "Western Carolina"
+        },
+        {
+          "id": 203325,
+          "name": "Tayeshaun Smith",
+          "team": "Western Carolina"
+        },
+        {
+          "id": 3724,
+          "name": "Fischer Brown",
+          "team": "Western Carolina"
+        },
+        {
+          "id": 3726,
+          "name": "CJ Hyland",
+          "team": "Western Carolina"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 212,
+          "name": "Darren Harris",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 209829,
+      "gameSourceId": "401817229",
+      "gameStartDate": "2025-11-08T18:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38367460,
+      "sourceId": "401817229113956970",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 348,
+      "opponent": "Western Carolina",
+      "opponentConference": "SoCon",
+      "opponentSeed": null,
+      "homeScore": 45,
       "awayScore": 21,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.999,
       "period": 1,
       "clock": "0:13",
       "secondsRemaining": 13,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T19:37:28.000Z",
+      "wallclock": "2025-11-08T19:37:49.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -2842,8 +2843,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38367460,
-      "sourceId": "401817229113956970",
+      "id": 38367455,
+      "sourceId": "401817229113956859",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -2854,16 +2855,16 @@
       "opponent": "Western Carolina",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 44,
       "awayScore": 21,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.996,
       "period": 1,
       "clock": "0:13",
       "secondsRemaining": 13,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T19:37:49.000Z",
+      "wallclock": "2025-11-08T19:37:28.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -4142,8 +4143,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745252,
-      "sourceId": "401817230114134590",
+      "id": 38745250,
+      "sourceId": "401817230114134451",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -4155,16 +4156,16 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 30,
-      "homeWinProbability": 0.269,
+      "awayScore": 29,
+      "homeWinProbability": 0.314,
       "period": 1,
       "clock": "7:04",
       "secondsRemaining": 424,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:38:55.000Z",
-      "playText": "Isaiah Evans made Free Throw.",
+      "wallclock": "2025-11-12T00:38:39.000Z",
+      "playText": "Isaiah Evans missed Free Throw.",
       "participants": [
         {
           "id": 211,
@@ -4176,7 +4177,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4249,8 +4250,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745250,
-      "sourceId": "401817230114134451",
+      "id": 38745252,
+      "sourceId": "401817230114134590",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -4262,16 +4263,16 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 20,
-      "awayScore": 29,
-      "homeWinProbability": 0.314,
+      "awayScore": 30,
+      "homeWinProbability": 0.269,
       "period": 1,
       "clock": "7:04",
       "secondsRemaining": 424,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:38:39.000Z",
-      "playText": "Isaiah Evans missed Free Throw.",
+      "wallclock": "2025-11-12T00:38:55.000Z",
+      "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
           "id": 211,
@@ -4283,7 +4284,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -5010,8 +5011,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745664,
-      "sourceId": "401817230114149275",
+      "id": 38745686,
+      "sourceId": "401817230114149478",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -5023,7 +5024,7 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 57,
+      "awayScore": 58,
       "homeWinProbability": 0.002,
       "period": 2,
       "clock": "16:43",
@@ -5031,7 +5032,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:20:19.000Z",
+      "wallclock": "2025-11-12T01:20:46.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -5117,8 +5118,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745686,
-      "sourceId": "401817230114149478",
+      "id": 38745664,
+      "sourceId": "401817230114149275",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -5130,7 +5131,7 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 58,
+      "awayScore": 57,
       "homeWinProbability": 0.002,
       "period": 2,
       "clock": "16:43",
@@ -5138,7 +5139,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:20:46.000Z",
+      "wallclock": "2025-11-12T01:20:19.000Z",
       "playText": "Isaiah Evans made Free Throw.",
       "participants": [
         {
@@ -17814,8 +17815,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299531,
-      "sourceId": "401817237116230181",
+      "id": 42299530,
+      "sourceId": "401817237116230171",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -17826,17 +17827,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 61,
-      "homeWinProbability": 0.83,
+      "homeWinProbability": 0.792,
       "period": 2,
       "clock": "8:47",
       "secondsRemaining": 527,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T03:06:38.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2025-12-21T03:06:22.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -17921,8 +17922,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299530,
-      "sourceId": "401817237116230171",
+      "id": 42299531,
+      "sourceId": "401817237116230181",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -17933,17 +17934,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 61,
-      "homeWinProbability": 0.792,
+      "homeWinProbability": 0.83,
       "period": 2,
       "clock": "8:47",
       "secondsRemaining": 527,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T03:06:22.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2025-12-21T03:06:38.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -18353,113 +18354,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967453,
-      "sourceId": "401820636116571293",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 101,
-      "opponent": "Georgia Tech",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 22,
-      "awayScore": 23,
-      "homeWinProbability": 0.571,
-      "period": 1,
-      "clock": "10:40",
-      "secondsRemaining": 640,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-31T21:25:35.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 211,
-          "name": "Isaiah Evans"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 211,
-          "name": "Isaiah Evans"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 5499,
-          "name": "Peyton Marshall",
-          "team": "Georgia Tech"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 5740,
-          "name": "Chas Kelley III",
-          "team": "Georgia Tech"
-        },
-        {
-          "id": 8242,
-          "name": "Jaeden Mustaf",
-          "team": "Georgia Tech"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 216,
-          "name": "Patrick Ngongba II",
-          "team": "Duke"
-        },
-        {
-          "id": 199423,
-          "name": "Akai Fleming",
-          "team": "Georgia Tech"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 199425,
-          "name": "Cole Kirouac",
-          "team": "Georgia Tech"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 214248,
-      "gameSourceId": "401820636",
-      "gameStartDate": "2025-12-31T21:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42967452,
       "sourceId": "401820636116571252",
       "playType": "MadeFreeThrow",
@@ -18567,9 +18461,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967492,
-      "sourceId": "401820636116572201",
-      "playType": "LayUpShot",
+      "id": 42967453,
+      "sourceId": "401820636116571293",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -18579,17 +18473,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 30,
-      "awayScore": 29,
-      "homeWinProbability": 0.638,
+      "homeScore": 22,
+      "awayScore": 23,
+      "homeWinProbability": 0.571,
       "period": 1,
-      "clock": "6:49",
-      "secondsRemaining": 409,
+      "clock": "10:40",
+      "secondsRemaining": 640,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-31T21:33:20.000Z",
-      "playText": "Isaiah Evans makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-31T21:25:35.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -18602,15 +18496,122 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 280
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 5499,
+          "name": "Peyton Marshall",
+          "team": "Georgia Tech"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5740,
+          "name": "Chas Kelley III",
+          "team": "Georgia Tech"
+        },
+        {
+          "id": 8242,
+          "name": "Jaeden Mustaf",
+          "team": "Georgia Tech"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 199423,
+          "name": "Akai Fleming",
+          "team": "Georgia Tech"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 199425,
+          "name": "Cole Kirouac",
+          "team": "Georgia Tech"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 214248,
+      "gameSourceId": "401820636",
+      "gameStartDate": "2025-12-31T21:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42967499,
+      "sourceId": "401820636116572870",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 101,
+      "opponent": "Georgia Tech",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 31,
+      "awayScore": 29,
+      "homeWinProbability": 0.699,
+      "period": 1,
+      "clock": "6:49",
+      "secondsRemaining": 409,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-31T21:37:24.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -18674,9 +18675,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967499,
-      "sourceId": "401820636116572870",
-      "playType": "MadeFreeThrow",
+      "id": 42967492,
+      "sourceId": "401820636116572201",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -18686,17 +18687,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 30,
       "awayScore": 29,
-      "homeWinProbability": 0.699,
+      "homeWinProbability": 0.638,
       "period": 1,
       "clock": "6:49",
       "secondsRemaining": 409,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-31T21:37:24.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-31T21:33:20.000Z",
+      "playText": "Isaiah Evans makes driving layup",
       "participants": [
         {
           "id": 211,
@@ -18709,15 +18710,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 280
         }
       },
       "onFloor": [
@@ -18995,8 +18996,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967530,
-      "sourceId": "401820636116573499",
+      "id": 42967531,
+      "sourceId": "401820636116573538",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -19007,17 +19008,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 33,
       "awayScore": 35,
-      "homeWinProbability": 0.487,
+      "homeWinProbability": 0.513,
       "period": 1,
       "clock": "4:22",
       "secondsRemaining": 262,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T21:41:59.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2025-12-31T21:42:16.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -19102,8 +19103,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967531,
-      "sourceId": "401820636116573538",
+      "id": 42967530,
+      "sourceId": "401820636116573499",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -19114,17 +19115,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 32,
       "awayScore": 35,
-      "homeWinProbability": 0.513,
+      "homeWinProbability": 0.487,
       "period": 1,
       "clock": "4:22",
       "secondsRemaining": 262,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-31T21:42:16.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2025-12-31T21:41:59.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -22251,8 +22252,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215784,
-      "sourceId": "401820644116788835",
+      "id": 43215785,
+      "sourceId": "401820644116788901",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -22264,16 +22265,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 88,
-      "homeWinProbability": 0.088,
+      "awayScore": 89,
+      "homeWinProbability": 0.06,
       "period": 2,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:55:43.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-03T22:56:04.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -22358,8 +22359,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215785,
-      "sourceId": "401820644116788901",
+      "id": 43215784,
+      "sourceId": "401820644116788835",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -22371,16 +22372,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 89,
-      "homeWinProbability": 0.06,
+      "awayScore": 88,
+      "homeWinProbability": 0.088,
       "period": 2,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:56:04.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:55:43.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -22572,8 +22573,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43553747,
-      "sourceId": "401820650116890471",
+      "id": 43553742,
+      "sourceId": "401820650116890418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -22585,16 +22586,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 9,
-      "awayScore": 6,
-      "homeWinProbability": 0.723,
+      "awayScore": 5,
+      "homeWinProbability": 0.782,
       "period": 1,
       "clock": "16:37",
       "secondsRemaining": 997,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T00:08:33.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-07T00:08:12.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -22679,8 +22680,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43553742,
-      "sourceId": "401820650116890418",
+      "id": 43553747,
+      "sourceId": "401820650116890471",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -22692,16 +22693,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 9,
-      "awayScore": 5,
-      "homeWinProbability": 0.782,
+      "awayScore": 6,
+      "homeWinProbability": 0.723,
       "period": 1,
       "clock": "16:37",
       "secondsRemaining": 997,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T00:08:12.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-07T00:08:33.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -24185,113 +24186,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554465,
-      "sourceId": "401820650116896152",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 150,
-      "opponent": "Louisville",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 53,
-      "awayScore": 48,
-      "homeWinProbability": 0.802,
-      "period": 2,
-      "clock": "16:04",
-      "secondsRemaining": 964,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-07T01:19:04.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 211,
-          "name": "Isaiah Evans"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 211,
-          "name": "Isaiah Evans"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3428,
-          "name": "Aly Khalifa",
-          "team": "Louisville"
-        },
-        {
-          "id": 3429,
-          "name": "Kobe Rodgers",
-          "team": "Louisville"
-        },
-        {
-          "id": 4066,
-          "name": "Ryan Conwell",
-          "team": "Louisville"
-        },
-        {
-          "id": 3416,
-          "name": "J'Vonne Hadley",
-          "team": "Louisville"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 8193,
-          "name": "Isaac McKneely",
-          "team": "Louisville"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 214348,
-      "gameSourceId": "401820650",
-      "gameStartDate": "2026-01-07T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43554470,
       "sourceId": "401820650116896177",
       "playType": "MadeFreeThrow",
@@ -24399,9 +24293,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554515,
-      "sourceId": "401820650116897892",
-      "playType": "LayUpShot",
+      "id": 43554465,
+      "sourceId": "401820650116896152",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -24411,17 +24305,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 55,
-      "awayScore": 58,
-      "homeWinProbability": 0.438,
+      "homeScore": 53,
+      "awayScore": 48,
+      "homeWinProbability": 0.802,
       "period": 2,
-      "clock": "11:46",
-      "secondsRemaining": 706,
+      "clock": "16:04",
+      "secondsRemaining": 964,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-07T01:36:31.000Z",
-      "playText": "Isaiah Evans makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-07T01:19:04.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -24434,15 +24328,122 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 235
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3428,
+          "name": "Aly Khalifa",
+          "team": "Louisville"
+        },
+        {
+          "id": 3429,
+          "name": "Kobe Rodgers",
+          "team": "Louisville"
+        },
+        {
+          "id": 4066,
+          "name": "Ryan Conwell",
+          "team": "Louisville"
+        },
+        {
+          "id": 3416,
+          "name": "J'Vonne Hadley",
+          "team": "Louisville"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 8193,
+          "name": "Isaac McKneely",
+          "team": "Louisville"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 214348,
+      "gameSourceId": "401820650",
+      "gameStartDate": "2026-01-07T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43554520,
+      "sourceId": "401820650116898341",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 150,
+      "opponent": "Louisville",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 55,
+      "awayScore": 59,
+      "homeWinProbability": 0.389,
+      "period": 2,
+      "clock": "11:46",
+      "secondsRemaining": 706,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-07T01:41:12.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -24506,9 +24507,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554520,
-      "sourceId": "401820650116898341",
-      "playType": "MadeFreeThrow",
+      "id": 43554515,
+      "sourceId": "401820650116897892",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -24519,16 +24520,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 59,
-      "homeWinProbability": 0.389,
+      "awayScore": 58,
+      "homeWinProbability": 0.438,
       "period": 2,
       "clock": "11:46",
       "secondsRemaining": 706,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-07T01:41:12.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-07T01:36:31.000Z",
+      "playText": "Isaiah Evans makes driving layup",
       "participants": [
         {
           "id": 211,
@@ -24541,15 +24542,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 235
         }
       },
       "onFloor": [
@@ -25049,8 +25050,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43869953,
-      "sourceId": "401820657117094723",
+      "id": 43869956,
+      "sourceId": "401820657117094841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -25061,17 +25062,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 13,
-      "homeWinProbability": 0.354,
+      "homeWinProbability": 0.357,
       "period": 1,
       "clock": "16:03",
       "secondsRemaining": 963,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:17:06.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-10T19:17:24.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -25156,8 +25157,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43869956,
-      "sourceId": "401820657117094841",
+      "id": 43869953,
+      "sourceId": "401820657117094723",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -25168,17 +25169,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 4,
       "awayScore": 13,
-      "homeWinProbability": 0.357,
+      "homeWinProbability": 0.354,
       "period": 1,
       "clock": "16:03",
       "secondsRemaining": 963,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:17:24.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-10T19:17:06.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -26563,113 +26564,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43870318,
-      "sourceId": "401820657117153828",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 248,
-      "opponent": "SMU",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 79,
-      "awayScore": 73,
-      "homeWinProbability": 0.99,
-      "period": 2,
-      "clock": "0:20",
-      "secondsRemaining": 20,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T21:16:57.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 211,
-          "name": "Isaiah Evans"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 211,
-          "name": "Isaiah Evans"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 4635,
-          "name": "Corey Washington",
-          "team": "SMU"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 6159,
-          "name": "Samet Yigitoglu",
-          "team": "SMU"
-        },
-        {
-          "id": 202026,
-          "name": "Jaden Toombs",
-          "team": "SMU"
-        },
-        {
-          "id": 216,
-          "name": "Patrick Ngongba II",
-          "team": "Duke"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 795,
-          "name": "Jaron Pierre Jr.",
-          "team": "SMU"
-        },
-        {
-          "id": 6148,
-          "name": "B.J. Edwards",
-          "team": "SMU"
-        }
-      ]
-    },
-    {
-      "gameId": 214412,
-      "gameSourceId": "401820657",
-      "gameStartDate": "2026-01-10T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43870319,
       "sourceId": "401820657117153980",
       "playType": "MadeFreeThrow",
@@ -26777,8 +26671,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43870326,
-      "sourceId": "401820657117154362",
+      "id": 43870318,
+      "sourceId": "401820657117153828",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -26789,17 +26683,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 79,
       "awayScore": 73,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.99,
       "period": 2,
-      "clock": "0:09",
-      "secondsRemaining": 9,
+      "clock": "0:20",
+      "secondsRemaining": 20,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T21:18:18.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-10T21:16:57.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -26984,35 +26878,35 @@
       ]
     },
     {
-      "gameId": 214465,
-      "gameSourceId": "401820666",
-      "gameStartDate": "2026-01-15T04:10:00.000Z",
+      "gameId": 214412,
+      "gameSourceId": "401820657",
+      "gameStartDate": "2026-01-10T19:00:00.000Z",
       "season": 2026,
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310447,
-      "sourceId": "401820666117349588",
+      "id": 43870326,
+      "sourceId": "401820657117154362",
       "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
+      "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
       "conference": "ACC",
       "teamSeed": null,
-      "opponentId": 40,
-      "opponent": "California",
+      "opponentId": 248,
+      "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 3,
-      "awayScore": 3,
-      "homeWinProbability": 0.618,
-      "period": 1,
-      "clock": "17:24",
-      "secondsRemaining": 1044,
+      "homeScore": 82,
+      "awayScore": 73,
+      "homeWinProbability": 1,
+      "period": 2,
+      "clock": "0:09",
+      "secondsRemaining": 9,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:14:59.000Z",
+      "wallclock": "2026-01-10T21:18:18.000Z",
       "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
@@ -27026,6 +26920,113 @@
           "name": "Isaiah Evans"
         },
         "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 4635,
+          "name": "Corey Washington",
+          "team": "SMU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 6159,
+          "name": "Samet Yigitoglu",
+          "team": "SMU"
+        },
+        {
+          "id": 202026,
+          "name": "Jaden Toombs",
+          "team": "SMU"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 795,
+          "name": "Jaron Pierre Jr.",
+          "team": "SMU"
+        },
+        {
+          "id": 6148,
+          "name": "B.J. Edwards",
+          "team": "SMU"
+        }
+      ]
+    },
+    {
+      "gameId": 214465,
+      "gameSourceId": "401820666",
+      "gameStartDate": "2026-01-15T04:10:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 44310445,
+      "sourceId": "401820666117349586",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 40,
+      "opponent": "California",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "homeWinProbability": 0.663,
+      "period": 1,
+      "clock": "17:24",
+      "secondsRemaining": 1044,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T04:14:55.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 211,
+          "name": "Isaiah Evans"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 211,
+          "name": "Isaiah Evans"
+        },
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -27098,8 +27099,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310445,
-      "sourceId": "401820666117349586",
+      "id": 44310447,
+      "sourceId": "401820666117349588",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -27111,16 +27112,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 3,
-      "awayScore": 2,
-      "homeWinProbability": 0.663,
+      "awayScore": 3,
+      "homeWinProbability": 0.618,
       "period": 1,
       "clock": "17:24",
       "secondsRemaining": 1044,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T04:14:55.000Z",
-      "playText": "Isaiah Evans misses free throw 1 of 2",
+      "wallclock": "2026-01-15T04:14:59.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -27132,7 +27133,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31636,8 +31637,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208602,
-      "sourceId": "401820689117850167",
+      "id": 45208603,
+      "sourceId": "401820689117850209",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -31648,17 +31649,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 53,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "7:56",
       "secondsRemaining": 476,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T18:37:34.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-01-24T18:37:47.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -31743,8 +31744,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208603,
-      "sourceId": "401820689117850209",
+      "id": 45208602,
+      "sourceId": "401820689117850167",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -31755,17 +31756,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 53,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "7:56",
       "secondsRemaining": 476,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T18:37:47.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-01-24T18:37:34.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -40643,8 +40644,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049211,
-      "sourceId": "401820740118895179",
+      "id": 47049285,
+      "sourceId": "401820740118895312",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -40655,17 +40656,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 62,
       "awayScore": 40,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "7:10",
       "secondsRemaining": 430,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:42:07.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 3",
+      "wallclock": "2026-02-14T18:42:36.000Z",
+      "playText": "Isaiah Evans makes free throw 3 of 3",
       "participants": [
         {
           "id": 211,
@@ -40857,8 +40858,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47049285,
-      "sourceId": "401820740118895312",
+      "id": 47049211,
+      "sourceId": "401820740118895179",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -40869,17 +40870,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 60,
       "awayScore": 40,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "7:10",
       "secondsRemaining": 430,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T18:42:36.000Z",
-      "playText": "Isaiah Evans makes free throw 3 of 3",
+      "wallclock": "2026-02-14T18:42:07.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 3",
       "participants": [
         {
           "id": 211,
@@ -41392,8 +41393,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363387,
-      "sourceId": "401820747119066742",
+      "id": 47363384,
+      "sourceId": "401820747119066715",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -41404,17 +41405,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 1,
+      "homeScore": 0,
       "awayScore": 2,
-      "homeWinProbability": 0.649,
+      "homeWinProbability": 0.565,
       "period": 1,
       "clock": "19:23",
       "secondsRemaining": 1163,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T00:02:34.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-17T00:02:20.000Z",
+      "playText": "Isaiah Evans misses free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -41426,7 +41427,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41499,8 +41500,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363384,
-      "sourceId": "401820747119066715",
+      "id": 47363387,
+      "sourceId": "401820747119066742",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -41511,17 +41512,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 2,
-      "homeWinProbability": 0.565,
+      "homeWinProbability": 0.649,
       "period": 1,
       "clock": "19:23",
       "secondsRemaining": 1163,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T00:02:20.000Z",
-      "playText": "Isaiah Evans misses free throw 1 of 2",
+      "wallclock": "2026-02-17T00:02:34.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -41533,7 +41534,7 @@
           "id": 211,
           "name": "Isaiah Evans"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41820,9 +41821,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363617,
-      "sourceId": "401820747119067614",
-      "playType": "LayUpShot",
+      "id": 47363622,
+      "sourceId": "401820747119067647",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -41832,17 +41833,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 9,
-      "homeWinProbability": 0.791,
+      "homeWinProbability": 0.822,
       "period": 1,
       "clock": "10:53",
       "secondsRemaining": 653,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-17T00:20:56.000Z",
-      "playText": "Isaiah Evans makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-17T00:21:20.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
       "participants": [
         {
           "id": 211,
@@ -41855,15 +41856,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 300
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -41927,9 +41928,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363622,
-      "sourceId": "401820747119067647",
-      "playType": "MadeFreeThrow",
+      "id": 47363617,
+      "sourceId": "401820747119067614",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -41939,17 +41940,17 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 9,
-      "homeWinProbability": 0.822,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "10:53",
       "secondsRemaining": 653,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-17T00:21:20.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-17T00:20:56.000Z",
+      "playText": "Isaiah Evans makes driving layup",
       "participants": [
         {
           "id": 211,
@@ -41962,15 +41963,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 300
         }
       },
       "onFloor": [
@@ -45173,8 +45174,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967864,
-      "sourceId": "401820767119438841",
+      "id": 47967865,
+      "sourceId": "401820767119438846",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -45186,7 +45187,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 10,
+      "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:36",
@@ -45194,8 +45195,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:12:08.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-02-25T00:12:14.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -45280,8 +45281,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967865,
-      "sourceId": "401820767119438846",
+      "id": 47967864,
+      "sourceId": "401820767119438841",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -45293,7 +45294,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 11,
+      "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:36",
@@ -45301,8 +45302,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:12:14.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-25T00:12:08.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -46041,8 +46042,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47968080,
-      "sourceId": "401820767119446064",
+      "id": 47968079,
+      "sourceId": "401820767119446049",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -46054,7 +46055,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 24,
-      "awayScore": 56,
+      "awayScore": 55,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:56",
@@ -46062,8 +46063,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:17:39.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-02-25T01:17:22.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -46148,8 +46149,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47968079,
-      "sourceId": "401820767119446049",
+      "id": 47968080,
+      "sourceId": "401820767119446064",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -46161,7 +46162,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 24,
-      "awayScore": 55,
+      "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:56",
@@ -46169,8 +46170,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T01:17:22.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-02-25T01:17:39.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -51693,8 +51694,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343000,
-      "sourceId": "401851179120212638",
+      "id": 49342997,
+      "sourceId": "401851179120212574",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -51705,7 +51706,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -51714,8 +51715,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:19:27.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-03-12T23:19:04.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -51800,8 +51801,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49342997,
-      "sourceId": "401851179120212574",
+      "id": 49343000,
+      "sourceId": "401851179120212638",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -51812,7 +51813,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 15,
       "homeWinProbability": null,
       "period": 1,
@@ -51821,8 +51822,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:19:04.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-03-12T23:19:27.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -59370,8 +59371,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539948,
-      "sourceId": "401856478120298350",
+      "id": 49539950,
+      "sourceId": "401856478120298351",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -59382,7 +59383,7 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
@@ -59391,8 +59392,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T21:01:06.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-03-19T21:01:21.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -59477,8 +59478,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539950,
-      "sourceId": "401856478120298351",
+      "id": 49539948,
+      "sourceId": "401856478120298350",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -59489,7 +59490,7 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
@@ -59498,8 +59499,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T21:01:21.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-03-19T21:01:06.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -60020,8 +60021,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49592168,
-      "sourceId": "401856530120346394",
+      "id": 49592169,
+      "sourceId": "401856530120346395",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -60032,7 +60033,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 20,
+      "homeScore": 21,
       "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
@@ -60041,8 +60042,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T21:49:48.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 2",
+      "wallclock": "2026-03-21T21:50:04.000Z",
+      "playText": "Isaiah Evans makes free throw 2 of 2",
       "participants": [
         {
           "id": 211,
@@ -60127,8 +60128,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49592169,
-      "sourceId": "401856530120346395",
+      "id": 49592168,
+      "sourceId": "401856530120346394",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -60139,7 +60140,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 21,
+      "homeScore": 20,
       "awayScore": 20,
       "homeWinProbability": null,
       "period": 1,
@@ -60148,8 +60149,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T21:50:04.000Z",
-      "playText": "Isaiah Evans makes free throw 2 of 2",
+      "wallclock": "2026-03-21T21:49:48.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 2",
       "participants": [
         {
           "id": 211,
@@ -60341,9 +60342,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49592188,
-      "sourceId": "401856530120346452",
-      "playType": "MadeFreeThrow",
+      "id": 49592186,
+      "sourceId": "401856530120346444",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -60353,7 +60354,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -60361,9 +60362,9 @@
       "secondsRemaining": 489,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-21T21:53:23.000Z",
-      "playText": "Isaiah Evans makes free throw 1 of 1",
+      "scoreValue": 3,
+      "wallclock": "2026-03-21T21:52:58.000Z",
+      "playText": "Isaiah Evans makes 26-foot three point jumper",
       "participants": [
         {
           "id": 211,
@@ -60376,15 +60377,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "three_pointer",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 291.4,
+          "y": 155
         }
       },
       "onFloor": [
@@ -60448,9 +60449,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49592186,
-      "sourceId": "401856530120346444",
-      "playType": "JumpShot",
+      "id": 49592188,
+      "sourceId": "401856530120346452",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -60460,7 +60461,7 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -60468,9 +60469,9 @@
       "secondsRemaining": 489,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 3,
-      "wallclock": "2026-03-21T21:52:58.000Z",
-      "playText": "Isaiah Evans makes 26-foot three point jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-03-21T21:53:23.000Z",
+      "playText": "Isaiah Evans makes free throw 1 of 1",
       "participants": [
         {
           "id": 211,
@@ -60483,15 +60484,15 @@
           "name": "Isaiah Evans"
         },
         "made": true,
-        "range": "three_pointer",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 291.4,
-          "y": 155
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -65513,70 +65514,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.15,
-        "percentile": 98.1,
-        "freqPer100": 17.6
-      },
-      "attackKick": {
-        "ppp": 1.02,
-        "percentile": 69.2,
-        "freqPer100": 6.7
-      },
-      "perimeterSniper": {
-        "ppp": 1.18,
-        "percentile": 91,
-        "freqPer100": 29.7
-      },
-      "dribbleJumper": {
-        "ppp": 1.05,
-        "percentile": 84.9,
-        "freqPer100": 5
-      },
-      "midRange": {
-        "ppp": 0.79,
-        "percentile": 55.2,
-        "freqPer100": 4.4
-      },
-      "hitsCutter": {
-        "ppp": 1.31,
-        "percentile": 99.3,
-        "freqPer100": 2.6
-      },
-      "perimeterCut": {
-        "ppp": 1.54,
-        "percentile": 97.5,
-        "freqPer100": 4.6
-      },
-      "pnrPasser": {
-        "ppp": 1.21,
-        "percentile": 95.4,
-        "freqPer100": 4.3
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 1.01,
-        "percentile": 92,
-        "freqPer100": 0.2
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.27,
-        "percentile": 64.5,
-        "freqPer100": 8.1
-      },
-      "transition": {
-        "ppp": 1.21,
-        "percentile": 48.3,
-        "freqPer100": 16.8
       }
     }
   }

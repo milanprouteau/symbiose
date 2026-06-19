@@ -88,6 +88,7 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
   const advancedStats = [
     { label: "FG%",  value: p.fgPct,                    decimals: 1 },
     { label: "3PT%", value: p.threePtPct,                decimals: 1 },
+    { label: "FT%",  value: p.ftPct,                     decimals: 1 },
     { label: "TS%",  value: p.trueShootingPct,           decimals: 1 },
     { label: "USG%", value: p.usage,                     decimals: 1 },
   ];
@@ -144,9 +145,9 @@ export default function Overview({ player: p, rankings, topLineups = [], sis, si
                     {sisBreakdown && (
                       <div className={styles.indexTooltip}>
                         <div className={styles.tooltipRow}><span>Offensive</span><span>{sisBreakdown.offensiveEfficiency.toFixed(1)}<em>/25</em></span></div>
-                        <div className={styles.tooltipRow}><span>Défensif</span><span>{sisBreakdown.defensiveImpact.toFixed(1)}<em>/25</em></span></div>
+                        <div className={styles.tooltipRow}><span>Défensif</span><span>{sisBreakdown.defensiveImpact.toFixed(1)}<em>/22</em></span></div>
                         <div className={styles.tooltipRow}><span>Avancé</span><span>{sisBreakdown.advancedEfficiency.toFixed(1)}<em>/20</em></span></div>
-                        <div className={styles.tooltipRow}><span>Hustle</span><span>{sisBreakdown.hustle.toFixed(1)}<em>/15</em></span></div>
+                        <div className={styles.tooltipRow}><span>Hustle</span><span>{sisBreakdown.hustle.toFixed(1)}<em>/18</em></span></div>
                         <div className={styles.tooltipRow}><span>Système</span><span>{sisBreakdown.systemWeight.toFixed(1)}<em>/15</em></span></div>
                       </div>
                     )}

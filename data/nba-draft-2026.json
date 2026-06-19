@@ -1,56 +1,21 @@
 {
   "draftYear": 2026,
   "lotteryDate": "2026-05-10",
-  "lottery": {
-    "teams": [
-      { "rank": 1,  "team": "WAS", "odds": 14.0 },
-      { "rank": 2,  "team": "IND", "odds": 14.0 },
-      { "rank": 3,  "team": "BKN", "odds": 14.0 },
-      { "rank": 4,  "team": "UTA", "odds": 11.5 },
-      { "rank": 5,  "team": "SAC", "odds": 11.5 },
-      { "rank": 6,  "team": "MEM", "odds": 9.0 },
-      { "rank": 7,  "team": "NOP", "odds": 6.8 },
-      { "rank": 8,  "team": "DAL", "odds": 6.7 },
-      { "rank": 9,  "team": "CHI", "odds": 4.5 },
-      { "rank": 10, "team": "MIL", "odds": 3.0 },
-      { "rank": 11, "team": "GSW", "odds": 2.0 },
-      { "rank": 12, "team": "LAC", "odds": 1.5 },
-      { "rank": 13, "team": "MIA", "odds": 1.0 },
-      { "rank": 14, "team": "CHA", "odds": 0.5 }
-    ],
-    "baseOwners": {
-      "WAS": "WAS",
-      "IND": "IND",
-      "BKN": "BKN",
-      "UTA": "UTA",
-      "SAC": "SAC",
-      "MEM": "MEM",
-      "NOP": "ATL",
-      "DAL": "DAL",
-      "CHI": "CHI",
-      "MIL": "MIL",
-      "GSW": "GSW",
-      "LAC": "OKC",
-      "MIA": "MIA",
-      "CHA": "CHA"
-    },
-    "swapRules": [
-      {
-        "type": "conditionalOutsideTop4",
-        "origin": "IND",
-        "to": "LAC",
-        "note": "LAC récupère le pick IND s'il sort du top 4"
-      },
-      {
-        "type": "mostFavorableOf",
-        "origins": ["NOP", "MIL"],
-        "bestTo": "ATL",
-        "worstTo": "MIL",
-        "note": "ATL prend le meilleur des deux picks NOP/MIL, MIL conserve le moins bon"
-      }
-    ]
-  },
   "picks": [
+    { "pick": 1,  "round": 1, "origin": "WAS", "owner": "WAS" },
+    { "pick": 2,  "round": 1, "origin": "UTA", "owner": "UTA" },
+    { "pick": 3,  "round": 1, "origin": "MEM", "owner": "MEM" },
+    { "pick": 4,  "round": 1, "origin": "CHI", "owner": "CHI" },
+    { "pick": 5,  "round": 1, "origin": "IND", "owner": "LAC" },
+    { "pick": 6,  "round": 1, "origin": "BKN", "owner": "BKN" },
+    { "pick": 7,  "round": 1, "origin": "SAC", "owner": "SAC" },
+    { "pick": 8,  "round": 1, "origin": "NOP", "owner": "ATL" },
+    { "pick": 9,  "round": 1, "origin": "DAL", "owner": "DAL" },
+    { "pick": 10, "round": 1, "origin": "MIL", "owner": "MIL" },
+    { "pick": 11, "round": 1, "origin": "GSW", "owner": "GSW" },
+    { "pick": 12, "round": 1, "origin": "LAC", "owner": "OKC" },
+    { "pick": 13, "round": 1, "origin": "MIA", "owner": "MIA" },
+    { "pick": 14, "round": 1, "origin": "CHA", "owner": "CHA" },
     { "pick": 15, "round": 1, "origin": "POR", "owner": "CHI" },
     { "pick": 16, "round": 1, "origin": "PHX", "owner": "MEM" },
     { "pick": 17, "round": 1, "origin": "PHI", "owner": "OKC" },

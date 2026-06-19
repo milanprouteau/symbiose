@@ -243,7 +243,8 @@
     "jersey": "5",
     "position": "Guard",
     "height": 75,
-    "weight": 190,
+    "weight": 186,
+    "wingspan": null,
     "hometown": {
       "city": "Detroit",
       "state": "MI"
@@ -3492,8 +3493,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38398745,
-      "sourceId": "401826785113997990",
+      "id": 38398742,
+      "sourceId": "401826785113997973",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -3510,11 +3511,11 @@
       "period": 2,
       "clock": "17:09",
       "secondsRemaining": 1029,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-09T01:15:45.000Z",
-      "playText": "Darius Acuff Jr. missed Free Throw.",
+      "wallclock": "2025-11-09T01:15:30.000Z",
+      "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -3526,7 +3527,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -3599,8 +3600,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38398742,
-      "sourceId": "401826785113997973",
+      "id": 38398745,
+      "sourceId": "401826785113997990",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -3617,11 +3618,11 @@
       "period": 2,
       "clock": "17:09",
       "secondsRemaining": 1029,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-09T01:15:30.000Z",
-      "playText": "Darius Acuff Jr. made Free Throw.",
+      "wallclock": "2025-11-09T01:15:45.000Z",
+      "playText": "Darius Acuff Jr. missed Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -3633,7 +3634,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4027,8 +4028,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38398830,
-      "sourceId": "401826785114000319",
+      "id": 38398833,
+      "sourceId": "401826785114000351",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -4045,11 +4046,11 @@
       "period": 2,
       "clock": "9:41",
       "secondsRemaining": 581,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-09T01:39:25.000Z",
-      "playText": "Darius Acuff Jr. made Free Throw.",
+      "wallclock": "2025-11-09T01:39:52.000Z",
+      "playText": "Darius Acuff Jr. missed Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -4061,7 +4062,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -4134,8 +4135,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38398833,
-      "sourceId": "401826785114000351",
+      "id": 38398830,
+      "sourceId": "401826785114000319",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -4152,11 +4153,11 @@
       "period": 2,
       "clock": "9:41",
       "secondsRemaining": 581,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-09T01:39:52.000Z",
-      "playText": "Darius Acuff Jr. missed Free Throw.",
+      "wallclock": "2025-11-09T01:39:25.000Z",
+      "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -4168,7 +4169,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -8157,8 +8158,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39012241,
-      "sourceId": "401826786114325195",
+      "id": 39012242,
+      "sourceId": "401826786114325205",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -8169,16 +8170,16 @@
       "opponent": "Samford",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 28,
-      "homeWinProbability": 0.87,
+      "homeWinProbability": 0.912,
       "period": 1,
       "clock": "3:46",
       "secondsRemaining": 226,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T01:38:08.000Z",
+      "wallclock": "2025-11-15T01:38:19.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -8264,8 +8265,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39012242,
-      "sourceId": "401826786114325205",
+      "id": 39012241,
+      "sourceId": "401826786114325195",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -8276,16 +8277,16 @@
       "opponent": "Samford",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 28,
-      "homeWinProbability": 0.912,
+      "homeWinProbability": 0.87,
       "period": 1,
       "clock": "3:46",
       "secondsRemaining": 226,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T01:38:19.000Z",
+      "wallclock": "2025-11-15T01:38:08.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -8589,9 +8590,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39012271,
-      "sourceId": "401826786114325878",
-      "playType": "LayUpShot",
+      "id": 39012273,
+      "sourceId": "401826786114326024",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -8601,17 +8602,17 @@
       "opponent": "Samford",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 31,
-      "homeWinProbability": 0.879,
+      "homeWinProbability": 0.919,
       "period": 1,
       "clock": "1:28",
       "secondsRemaining": 88,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-15T01:41:55.000Z",
-      "playText": "Darius Acuff Jr. made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-15T01:42:22.000Z",
+      "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -8624,15 +8625,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 200
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -8696,9 +8697,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39012273,
-      "sourceId": "401826786114326024",
-      "playType": "MadeFreeThrow",
+      "id": 39012271,
+      "sourceId": "401826786114325878",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -8708,17 +8709,17 @@
       "opponent": "Samford",
       "opponentConference": "SoCon",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 31,
-      "homeWinProbability": 0.919,
+      "homeWinProbability": 0.879,
       "period": 1,
       "clock": "1:28",
       "secondsRemaining": 88,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-15T01:42:22.000Z",
-      "playText": "Darius Acuff Jr. made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-15T01:41:55.000Z",
+      "playText": "Darius Acuff Jr. made Layup.",
       "participants": [
         {
           "id": 198012,
@@ -8731,15 +8732,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 200
         }
       },
       "onFloor": [
@@ -9992,8 +9993,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39434441,
-      "sourceId": "401826787114547131",
+      "id": 39434436,
+      "sourceId": "401826787114547006",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -10004,16 +10005,16 @@
       "opponent": "Winthrop",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 5,
-      "homeWinProbability": 0.689,
+      "homeWinProbability": 0.679,
       "period": 1,
       "clock": "16:55",
       "secondsRemaining": 1015,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T01:06:24.000Z",
+      "wallclock": "2025-11-19T01:06:00.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -10099,8 +10100,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39434436,
-      "sourceId": "401826787114547006",
+      "id": 39434441,
+      "sourceId": "401826787114547131",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -10111,16 +10112,16 @@
       "opponent": "Winthrop",
       "opponentConference": "Big South",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 5,
-      "homeWinProbability": 0.679,
+      "homeWinProbability": 0.689,
       "period": 1,
       "clock": "16:55",
       "secondsRemaining": 1015,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T01:06:00.000Z",
+      "wallclock": "2025-11-19T01:06:24.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -14332,8 +14333,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40406904,
-      "sourceId": "401817234115099078",
+      "id": 40406908,
+      "sourceId": "401817234115099090",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -14344,17 +14345,17 @@
       "opponent": "Duke",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 39,
-      "homeWinProbability": 0.155,
+      "homeWinProbability": 0.187,
       "period": 1,
       "clock": "2:42",
       "secondsRemaining": 162,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T02:00:52.000Z",
-      "playText": "Darius Acuff Jr. missed Free Throw.",
+      "wallclock": "2025-11-28T02:01:17.000Z",
+      "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -14366,7 +14367,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -14439,8 +14440,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40406908,
-      "sourceId": "401817234115099090",
+      "id": 40406904,
+      "sourceId": "401817234115099078",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -14451,17 +14452,17 @@
       "opponent": "Duke",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 39,
-      "homeWinProbability": 0.187,
+      "homeWinProbability": 0.155,
       "period": 1,
       "clock": "2:42",
       "secondsRemaining": 162,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T02:01:17.000Z",
-      "playText": "Darius Acuff Jr. made Free Throw.",
+      "wallclock": "2025-11-28T02:00:52.000Z",
+      "playText": "Darius Acuff Jr. missed Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -14473,7 +14474,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -16722,8 +16723,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886652,
-      "sourceId": "401806374115405022",
+      "id": 40886647,
+      "sourceId": "401806374115404898",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -16734,16 +16735,16 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 30,
       "awayScore": 19,
-      "homeWinProbability": 0.922,
+      "homeWinProbability": 0.909,
       "period": 1,
       "clock": "7:57",
       "secondsRemaining": 477,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T00:50:52.000Z",
+      "wallclock": "2025-12-04T00:50:23.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -16829,8 +16830,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886647,
-      "sourceId": "401806374115404898",
+      "id": 40886652,
+      "sourceId": "401806374115405022",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -16841,16 +16842,16 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 31,
       "awayScore": 19,
-      "homeWinProbability": 0.909,
+      "homeWinProbability": 0.922,
       "period": 1,
       "clock": "7:57",
       "secondsRemaining": 477,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-04T00:50:23.000Z",
+      "wallclock": "2025-12-04T00:50:52.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -18668,9 +18669,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886952,
-      "sourceId": "401806374115435187",
-      "playType": "LayUpShot",
+      "id": 40886956,
+      "sourceId": "401806374115435297",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -18680,17 +18681,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 69,
-      "homeWinProbability": 0.981,
+      "homeWinProbability": 0.982,
       "period": 2,
       "clock": "4:45",
       "secondsRemaining": 285,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-04T02:16:47.000Z",
-      "playText": "Darius Acuff Jr. made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-04T02:17:22.000Z",
+      "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -18703,15 +18704,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 215
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -18775,9 +18776,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40886956,
-      "sourceId": "401806374115435297",
-      "playType": "MadeFreeThrow",
+      "id": 40886952,
+      "sourceId": "401806374115435187",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -18787,17 +18788,17 @@
       "opponent": "Louisville",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 69,
-      "homeWinProbability": 0.982,
+      "homeWinProbability": 0.981,
       "period": 2,
       "clock": "4:45",
       "secondsRemaining": 285,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-04T02:17:22.000Z",
-      "playText": "Darius Acuff Jr. made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-04T02:16:47.000Z",
+      "playText": "Darius Acuff Jr. made Layup.",
       "participants": [
         {
           "id": 198012,
@@ -18810,15 +18811,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 215
         }
       },
       "onFloor": [
@@ -20396,8 +20397,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41098607,
-      "sourceId": "401826791115560576",
+      "id": 41098598,
+      "sourceId": "401826791115560497",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -20408,17 +20409,17 @@
       "opponent": "Fresno State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 19,
-      "homeWinProbability": 0.888,
+      "homeWinProbability": 0.855,
       "period": 1,
       "clock": "1:26",
       "secondsRemaining": 86,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:47:39.000Z",
-      "playText": "Darius Acuff Jr. made Free Throw.",
+      "wallclock": "2025-12-06T21:47:19.000Z",
+      "playText": "Darius Acuff Jr. missed Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -20430,7 +20431,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20503,8 +20504,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41098598,
-      "sourceId": "401826791115560497",
+      "id": 41098607,
+      "sourceId": "401826791115560576",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -20515,17 +20516,17 @@
       "opponent": "Fresno State",
       "opponentConference": "Mountain West",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 19,
-      "homeWinProbability": 0.855,
+      "homeWinProbability": 0.888,
       "period": 1,
       "clock": "1:26",
       "secondsRemaining": 86,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T21:47:19.000Z",
-      "playText": "Darius Acuff Jr. missed Free Throw.",
+      "wallclock": "2025-12-06T21:47:39.000Z",
+      "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
           "id": 198012,
@@ -20537,7 +20538,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -22580,8 +22581,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647331,
-      "sourceId": "401826789115792872",
+      "id": 41647332,
+      "sourceId": "401826789115792884",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -22592,16 +22593,16 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 31,
       "awayScore": 36,
-      "homeWinProbability": 0.375,
+      "homeWinProbability": 0.402,
       "period": 1,
       "clock": "5:12",
       "secondsRemaining": 312,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T17:39:17.000Z",
+      "wallclock": "2025-12-13T17:39:26.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -22687,8 +22688,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41647332,
-      "sourceId": "401826789115792884",
+      "id": 41647331,
+      "sourceId": "401826789115792872",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -22699,16 +22700,16 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 30,
       "awayScore": 36,
-      "homeWinProbability": 0.402,
+      "homeWinProbability": 0.375,
       "period": 1,
       "clock": "5:12",
       "secondsRemaining": 312,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T17:39:26.000Z",
+      "wallclock": "2025-12-13T17:39:17.000Z",
       "playText": "Darius Acuff Jr. made Free Throw.",
       "participants": [
         {
@@ -27150,8 +27151,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924368,
-      "sourceId": "401823497115990728",
+      "id": 41924369,
+      "sourceId": "401823497115990738",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -27162,7 +27163,7 @@
       "opponent": "Queens University",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 51,
       "homeWinProbability": 1,
       "period": 2,
@@ -27171,8 +27172,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T03:31:24.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-17T03:31:35.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -27257,8 +27258,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41924369,
-      "sourceId": "401823497115990738",
+      "id": 41924368,
+      "sourceId": "401823497115990728",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -27269,7 +27270,7 @@
       "opponent": "Queens University",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 51,
       "homeWinProbability": 1,
       "period": 2,
@@ -27278,8 +27279,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T03:31:35.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2025-12-17T03:31:24.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -27911,8 +27912,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42268900,
-      "sourceId": "401820294116210917",
+      "id": 42268901,
+      "sourceId": "401820294116210922",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -27929,11 +27930,11 @@
       "period": 1,
       "clock": "17:47",
       "secondsRemaining": 1067,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T22:48:14.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-20T22:48:25.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -27945,7 +27946,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28018,8 +28019,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42268901,
-      "sourceId": "401820294116210922",
+      "id": 42268900,
+      "sourceId": "401820294116210917",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -28036,11 +28037,11 @@
       "period": 1,
       "clock": "17:47",
       "secondsRemaining": 1067,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T22:48:25.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 2 of 2",
+      "wallclock": "2025-12-20T22:48:14.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -28052,7 +28053,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -29968,8 +29969,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42269246,
-      "sourceId": "401820294116221086",
+      "id": 42269245,
+      "sourceId": "401820294116221065",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -29980,17 +29981,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 62,
       "awayScore": 74,
-      "homeWinProbability": 0.022,
+      "homeWinProbability": 0.013,
       "period": 2,
       "clock": "10:09",
       "secondsRemaining": 609,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T00:31:05.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2025-12-21T00:31:03.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -30075,8 +30076,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42269245,
-      "sourceId": "401820294116221065",
+      "id": 42269246,
+      "sourceId": "401820294116221086",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -30087,17 +30088,17 @@
       "opponent": "Houston",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 62,
+      "homeScore": 63,
       "awayScore": 74,
-      "homeWinProbability": 0.013,
+      "homeWinProbability": 0.022,
       "period": 2,
       "clock": "10:09",
       "secondsRemaining": 609,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T00:31:03.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2025-12-21T00:31:05.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -34843,9 +34844,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212193,
-      "sourceId": "401808145116761936",
-      "playType": "LayUpShot",
+      "id": 43212197,
+      "sourceId": "401808145116762113",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -34855,17 +34856,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 48,
       "awayScore": 47,
-      "homeWinProbability": 0.638,
+      "homeWinProbability": 0.641,
       "period": 2,
       "clock": "14:25",
       "secondsRemaining": 865,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-03T21:27:38.000Z",
-      "playText": "Darius Acuff Jr. makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-03T21:28:06.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 198012,
@@ -34878,15 +34879,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -34950,9 +34951,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212197,
-      "sourceId": "401808145116762113",
-      "playType": "MadeFreeThrow",
+      "id": 43212193,
+      "sourceId": "401808145116761936",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -34962,17 +34963,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 47,
       "awayScore": 47,
-      "homeWinProbability": 0.641,
+      "homeWinProbability": 0.638,
       "period": 2,
       "clock": "14:25",
       "secondsRemaining": 865,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-03T21:28:06.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-03T21:27:38.000Z",
+      "playText": "Darius Acuff Jr. makes driving layup",
       "participants": [
         {
           "id": 198012,
@@ -34985,15 +34986,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 230
         }
       },
       "onFloor": [
@@ -36131,8 +36132,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212374,
-      "sourceId": "401808145116777112",
+      "id": 43212375,
+      "sourceId": "401808145116777234",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -36143,7 +36144,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 82,
+      "homeScore": 83,
       "awayScore": 69,
       "homeWinProbability": 1,
       "period": 2,
@@ -36152,8 +36153,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:17:21.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-03T22:17:37.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -36238,8 +36239,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43212375,
-      "sourceId": "401808145116777234",
+      "id": 43212374,
+      "sourceId": "401808145116777112",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -36250,7 +36251,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 82,
       "awayScore": 69,
       "homeWinProbability": 1,
       "period": 2,
@@ -36259,8 +36260,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:17:37.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:17:21.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -37649,8 +37650,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628181,
-      "sourceId": "401808159116958865",
+      "id": 43628182,
+      "sourceId": "401808159116958866",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -37662,8 +37663,8 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 43,
-      "homeWinProbability": 0.334,
+      "awayScore": 44,
+      "homeWinProbability": 0.285,
       "period": 2,
       "clock": "18:32",
       "secondsRemaining": 1112,
@@ -37671,7 +37672,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-08T03:05:57.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -37756,8 +37757,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628182,
-      "sourceId": "401808159116958866",
+      "id": 43628181,
+      "sourceId": "401808159116958865",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -37769,8 +37770,8 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 44,
-      "homeWinProbability": 0.285,
+      "awayScore": 43,
+      "homeWinProbability": 0.334,
       "period": 2,
       "clock": "18:32",
       "secondsRemaining": 1112,
@@ -37778,7 +37779,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-08T03:05:57.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -38620,8 +38621,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628301,
-      "sourceId": "401808159116960612",
+      "id": 43628304,
+      "sourceId": "401808159116960618",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -38633,16 +38634,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 63,
-      "homeWinProbability": 0.189,
+      "awayScore": 64,
+      "homeWinProbability": 0.2,
       "period": 2,
       "clock": "10:37",
       "secondsRemaining": 637,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:31:08.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-08T03:31:27.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -38727,8 +38728,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628304,
-      "sourceId": "401808159116960618",
+      "id": 43628301,
+      "sourceId": "401808159116960612",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -38740,16 +38741,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 64,
-      "homeWinProbability": 0.2,
+      "awayScore": 63,
+      "homeWinProbability": 0.189,
       "period": 2,
       "clock": "10:37",
       "secondsRemaining": 637,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:31:27.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-08T03:31:08.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -39163,8 +39164,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628332,
-      "sourceId": "401808159116961187",
+      "id": 43628325,
+      "sourceId": "401808159116961139",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -39176,16 +39177,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 73,
-      "homeWinProbability": 0.046,
+      "awayScore": 72,
+      "homeWinProbability": 0.038,
       "period": 2,
       "clock": "8:50",
       "secondsRemaining": 530,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:37:25.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-08T03:37:01.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -39270,8 +39271,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628325,
-      "sourceId": "401808159116961139",
+      "id": 43628332,
+      "sourceId": "401808159116961187",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -39283,16 +39284,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 72,
-      "homeWinProbability": 0.038,
+      "awayScore": 73,
+      "homeWinProbability": 0.046,
       "period": 2,
       "clock": "8:50",
       "secondsRemaining": 530,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:37:01.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-08T03:37:25.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -40031,113 +40032,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628411,
-      "sourceId": "401808159116962622",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 220,
-      "opponent": "Ole Miss",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 82,
-      "awayScore": 88,
-      "homeWinProbability": 0.065,
-      "period": 2,
-      "clock": "2:43",
-      "secondsRemaining": 163,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-08T03:58:59.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 598,
-          "name": "Eduardo Klafke",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 201316,
-          "name": "Patton Pinkins",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 3414,
-          "name": "James Scott",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3424,
-          "name": "Koren Johnson",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 8118,
-          "name": "Kezza Giffa",
-          "team": "Ole Miss"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 210619,
-      "gameSourceId": "401808159",
-      "gameStartDate": "2026-01-08T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 43628413,
       "sourceId": "401808159116962630",
       "playType": "MadeFreeThrow",
@@ -40245,8 +40139,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628431,
-      "sourceId": "401808159116962860",
+      "id": 43628411,
+      "sourceId": "401808159116962622",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 220,
+      "opponent": "Ole Miss",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 82,
+      "awayScore": 88,
+      "homeWinProbability": 0.065,
+      "period": 2,
+      "clock": "2:43",
+      "secondsRemaining": 163,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-08T03:58:59.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 598,
+          "name": "Eduardo Klafke",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 201316,
+          "name": "Patton Pinkins",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 3414,
+          "name": "James Scott",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3424,
+          "name": "Koren Johnson",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 8118,
+          "name": "Kezza Giffa",
+          "team": "Ole Miss"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 210619,
+      "gameSourceId": "401808159",
+      "gameStartDate": "2026-01-08T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 43628428,
+      "sourceId": "401808159116962835",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -40258,16 +40259,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 91,
-      "homeWinProbability": 0.051,
+      "awayScore": 90,
+      "homeWinProbability": 0.071,
       "period": 2,
       "clock": "1:09",
       "secondsRemaining": 69,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:02:03.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-08T04:01:44.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -40352,8 +40353,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43628428,
-      "sourceId": "401808159116962835",
+      "id": 43628431,
+      "sourceId": "401808159116962860",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -40365,16 +40366,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 85,
-      "awayScore": 90,
-      "homeWinProbability": 0.071,
+      "awayScore": 91,
+      "homeWinProbability": 0.051,
       "period": 2,
       "clock": "1:09",
       "secondsRemaining": 69,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:01:44.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-08T04:02:03.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -41755,8 +41756,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43922685,
-      "sourceId": "401808161117199427",
+      "id": 43922688,
+      "sourceId": "401808161117199481",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -41768,16 +41769,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 33,
-      "homeWinProbability": 0.97,
+      "awayScore": 34,
+      "homeWinProbability": 0.973,
       "period": 1,
       "clock": "0:02",
       "secondsRemaining": 2,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T23:59:53.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-11T00:00:08.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -41862,8 +41863,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43922688,
-      "sourceId": "401808161117199481",
+      "id": 43922685,
+      "sourceId": "401808161117199427",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -41875,16 +41876,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 34,
-      "homeWinProbability": 0.973,
+      "awayScore": 33,
+      "homeWinProbability": 0.97,
       "period": 1,
       "clock": "0:02",
       "secondsRemaining": 2,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-11T00:00:08.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-10T23:59:53.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -44692,9 +44693,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44306048,
-      "sourceId": "401808173117345213",
-      "playType": "JumpShot",
+      "id": 44306050,
+      "sourceId": "401808173117345262",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -44704,17 +44705,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 43,
-      "homeWinProbability": 0.941,
+      "homeWinProbability": 0.956,
       "period": 2,
       "clock": "17:25",
       "secondsRemaining": 1045,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T03:10:26.000Z",
-      "playText": "Darius Acuff Jr. makes 13-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T03:10:48.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 198012,
@@ -44727,15 +44728,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 761.4,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -44799,9 +44800,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44306050,
-      "sourceId": "401808173117345262",
-      "playType": "MadeFreeThrow",
+      "id": 44306048,
+      "sourceId": "401808173117345213",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -44811,17 +44812,17 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 43,
-      "homeWinProbability": 0.956,
+      "homeWinProbability": 0.941,
       "period": 2,
       "clock": "17:25",
       "secondsRemaining": 1045,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T03:10:48.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T03:10:26.000Z",
+      "playText": "Darius Acuff Jr. makes 13-foot pullup jump shot",
       "participants": [
         {
           "id": 198012,
@@ -44834,15 +44835,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 761.4,
+          "y": 225
         }
       },
       "onFloor": [
@@ -45346,8 +45347,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44306094,
-      "sourceId": "401808173117346276",
+      "id": 44306105,
+      "sourceId": "401808173117346427",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -45358,7 +45359,7 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 81,
       "awayScore": 50,
       "homeWinProbability": 1,
       "period": 2,
@@ -45367,8 +45368,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:25:27.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-15T03:25:46.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -45453,8 +45454,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44306105,
-      "sourceId": "401808173117346427",
+      "id": 44306094,
+      "sourceId": "401808173117346276",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -45465,7 +45466,7 @@
       "opponent": "South Carolina",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 80,
       "awayScore": 50,
       "homeWinProbability": 1,
       "period": 2,
@@ -45474,8 +45475,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:25:46.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-01-15T03:25:27.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -53384,113 +53385,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45247607,
-      "sourceId": "401808192117937384",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 136,
-      "opponent": "LSU",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 84,
-      "awayScore": 81,
-      "homeWinProbability": 0.892,
-      "period": 2,
-      "clock": "0:31",
-      "secondsRemaining": 31,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-25T00:04:59.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 8423,
-          "name": "Max Mackinnon",
-          "team": "LSU"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 4161,
-          "name": "Mike Nwoko",
-          "team": "LSU"
-        },
-        {
-          "id": 3205,
-          "name": "Nick Pringle",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7760,
-          "name": "Pablo Tamba",
-          "team": "LSU"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 4311,
-          "name": "Marquel Sutton",
-          "team": "LSU"
-        },
-        {
-          "id": 7355,
-          "name": "Dedan Thomas Jr.",
-          "team": "LSU"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 211114,
-      "gameSourceId": "401808192",
-      "gameStartDate": "2026-01-24T22:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 45247609,
       "sourceId": "401808192117937421",
       "playType": "MadeFreeThrow",
@@ -53598,8 +53492,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45247618,
-      "sourceId": "401808192117937790",
+      "id": 45247607,
+      "sourceId": "401808192117937384",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 136,
+      "opponent": "LSU",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 84,
+      "awayScore": 81,
+      "homeWinProbability": 0.892,
+      "period": 2,
+      "clock": "0:31",
+      "secondsRemaining": 31,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-25T00:04:59.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8423,
+          "name": "Max Mackinnon",
+          "team": "LSU"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 4161,
+          "name": "Mike Nwoko",
+          "team": "LSU"
+        },
+        {
+          "id": 3205,
+          "name": "Nick Pringle",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7760,
+          "name": "Pablo Tamba",
+          "team": "LSU"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 4311,
+          "name": "Marquel Sutton",
+          "team": "LSU"
+        },
+        {
+          "id": 7355,
+          "name": "Dedan Thomas Jr.",
+          "team": "LSU"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 211114,
+      "gameSourceId": "401808192",
+      "gameStartDate": "2026-01-24T22:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 45247617,
+      "sourceId": "401808192117937748",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -53616,11 +53617,11 @@
       "period": 2,
       "clock": "0:06",
       "secondsRemaining": 6,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:08:20.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 2 of 2",
+      "wallclock": "2026-01-25T00:08:04.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -53632,7 +53633,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53705,8 +53706,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45247617,
-      "sourceId": "401808192117937748",
+      "id": 45247618,
+      "sourceId": "401808192117937790",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -53723,11 +53724,11 @@
       "period": 2,
       "clock": "0:06",
       "secondsRemaining": 6,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-25T00:08:04.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-01-25T00:08:20.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -53739,7 +53740,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -59218,6 +59219,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 45871987,
+      "sourceId": "401808207118275341",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 135,
+      "opponent": "Kentucky",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 47,
+      "awayScore": 51,
+      "homeWinProbability": 0.397,
+      "period": 2,
+      "clock": "14:27",
+      "secondsRemaining": 867,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T01:00:28.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3103,
+          "name": "Malique Ewin",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 567,
+          "name": "Brandon Garrison",
+          "team": "Kentucky"
+        },
+        {
+          "id": 568,
+          "name": "Collin Chandler",
+          "team": "Kentucky"
+        },
+        {
+          "id": 88,
+          "name": "Mouhamed Dioubate",
+          "team": "Kentucky"
+        },
+        {
+          "id": 503,
+          "name": "Denzel Aberdeen",
+          "team": "Kentucky"
+        },
+        {
+          "id": 562,
+          "name": "Otega Oweh",
+          "team": "Kentucky"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 211291,
+      "gameSourceId": "401808207",
+      "gameStartDate": "2026-01-31T23:35:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 45871983,
       "sourceId": "401808207118275292",
       "playType": "LayUpShot",
@@ -59348,113 +59456,6 @@
       "scoreValue": 1,
       "wallclock": "2026-02-01T01:00:35.000Z",
       "playText": "Darius Acuff Jr. makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 3103,
-          "name": "Malique Ewin",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 567,
-          "name": "Brandon Garrison",
-          "team": "Kentucky"
-        },
-        {
-          "id": 568,
-          "name": "Collin Chandler",
-          "team": "Kentucky"
-        },
-        {
-          "id": 88,
-          "name": "Mouhamed Dioubate",
-          "team": "Kentucky"
-        },
-        {
-          "id": 503,
-          "name": "Denzel Aberdeen",
-          "team": "Kentucky"
-        },
-        {
-          "id": 562,
-          "name": "Otega Oweh",
-          "team": "Kentucky"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 211291,
-      "gameSourceId": "401808207",
-      "gameStartDate": "2026-01-31T23:35:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 45871987,
-      "sourceId": "401808207118275341",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 135,
-      "opponent": "Kentucky",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 47,
-      "awayScore": 51,
-      "homeWinProbability": 0.397,
-      "period": 2,
-      "clock": "14:27",
-      "secondsRemaining": 867,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T01:00:28.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -61271,9 +61272,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46441133,
-      "sourceId": "401808222118520573",
-      "playType": "MadeFreeThrow",
+      "id": 46441122,
+      "sourceId": "401808222118520448",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 12,
       "team": "Arkansas",
@@ -61284,16 +61285,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 13,
-      "awayScore": 29,
-      "homeWinProbability": 0.098,
+      "awayScore": 28,
+      "homeWinProbability": 0.1,
       "period": 1,
       "clock": "8:48",
       "secondsRemaining": 528,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-07T17:27:32.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-07T17:25:44.000Z",
+      "playText": "Darius Acuff Jr. makes layup",
       "participants": [
         {
           "id": 198012,
@@ -61306,15 +61307,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 864.8,
+          "y": 245
         }
       },
       "onFloor": [
@@ -61378,9 +61379,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46441122,
-      "sourceId": "401808222118520448",
-      "playType": "LayUpShot",
+      "id": 46441133,
+      "sourceId": "401808222118520573",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
       "team": "Arkansas",
@@ -61391,16 +61392,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 13,
-      "awayScore": 28,
-      "homeWinProbability": 0.1,
+      "awayScore": 29,
+      "homeWinProbability": 0.098,
       "period": 1,
       "clock": "8:48",
       "secondsRemaining": 528,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-07T17:25:44.000Z",
-      "playText": "Darius Acuff Jr. makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-07T17:27:32.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 198012,
@@ -61413,15 +61414,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 864.8,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -62353,8 +62354,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46441254,
-      "sourceId": "401808222118524767",
+      "id": 46441253,
+      "sourceId": "401808222118524696",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -62366,16 +62367,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 49,
-      "homeWinProbability": 0.052,
+      "awayScore": 48,
+      "homeWinProbability": 0.057,
       "period": 2,
       "clock": "18:23",
       "secondsRemaining": 1103,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:11:31.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-07T18:11:15.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -62460,8 +62461,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46441253,
-      "sourceId": "401808222118524696",
+      "id": 46441254,
+      "sourceId": "401808222118524767",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -62473,16 +62474,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 48,
-      "homeWinProbability": 0.057,
+      "awayScore": 49,
+      "homeWinProbability": 0.052,
       "period": 2,
       "clock": "18:23",
       "secondsRemaining": 1103,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T18:11:15.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-07T18:11:31.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -69515,8 +69516,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47154046,
-      "sourceId": "401808233119023893",
+      "id": 47154045,
+      "sourceId": "401808233119023883",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -69527,7 +69528,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 85,
       "awayScore": 72,
       "homeWinProbability": 1,
       "period": 2,
@@ -69536,8 +69537,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T03:38:53.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-15T03:38:40.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -69622,8 +69623,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47154045,
-      "sourceId": "401808233119023883",
+      "id": 47154046,
+      "sourceId": "401808233119023893",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -69634,7 +69635,7 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 86,
       "awayScore": 72,
       "homeWinProbability": 1,
       "period": 2,
@@ -69643,8 +69644,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-15T03:38:40.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-15T03:38:53.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -73453,8 +73454,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474856,
-      "sourceId": "401808244119146709",
+      "id": 47474855,
+      "sourceId": "401808244119146642",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -73466,16 +73467,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 103,
-      "awayScore": 105,
-      "homeWinProbability": 0.309,
+      "awayScore": 104,
+      "homeWinProbability": 0.418,
       "period": 3,
       "clock": "1:13",
       "secondsRemaining": 73,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:20:35.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-19T02:20:18.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -73565,8 +73566,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474855,
-      "sourceId": "401808244119146642",
+      "id": 47474856,
+      "sourceId": "401808244119146709",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -73578,16 +73579,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 103,
-      "awayScore": 104,
-      "homeWinProbability": 0.418,
+      "awayScore": 105,
+      "homeWinProbability": 0.309,
       "period": 3,
       "clock": "1:13",
       "secondsRemaining": 73,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:20:18.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-19T02:20:35.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -73905,118 +73906,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474884,
-      "sourceId": "401808244119148532",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 5,
-      "opponent": "Alabama",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 107,
-      "awayScore": 107,
-      "homeWinProbability": 0.207,
-      "period": 4,
-      "clock": "3:42",
-      "secondsRemaining": 222,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-19T02:30:30.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 3103,
-          "name": "Malique Ewin",
-          "team": "Arkansas"
-        },
-        {
-          "id": 89,
-          "name": "Aiden Sherrell",
-          "team": "Alabama"
-        },
-        {
-          "id": 91,
-          "name": "Latrell Wrightsell",
-          "team": "Alabama"
-        },
-        {
-          "id": 1307,
-          "name": "Noah Williamson",
-          "team": "Alabama"
-        },
-        {
-          "id": 85,
-          "name": "Labaron Philon Jr.",
-          "team": "Alabama"
-        },
-        {
-          "id": 197881,
-          "name": "Amari Allen",
-          "team": "Alabama"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        },
-        {
-          "id": 92,
-          "name": "Aden Holloway",
-          "team": "Alabama"
-        },
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 211684,
-      "gameSourceId": "401808244",
-      "gameStartDate": "2026-02-19T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47474886,
       "sourceId": "401808244119148536",
       "playType": "MadeFreeThrow",
@@ -74129,8 +74018,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474904,
-      "sourceId": "401808244119150165",
+      "id": 47474884,
+      "sourceId": "401808244119148532",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -74141,17 +74030,17 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 112,
-      "awayScore": 113,
-      "homeWinProbability": 0.994,
+      "homeScore": 107,
+      "awayScore": 107,
+      "homeWinProbability": 0.207,
       "period": 4,
-      "clock": "1:31",
-      "secondsRemaining": 91,
-      "scoringPlay": true,
+      "clock": "3:42",
+      "secondsRemaining": 222,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:41:04.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 3 of 3",
+      "wallclock": "2026-02-19T02:30:30.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -74163,7 +74052,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -74176,11 +74065,6 @@
         }
       },
       "onFloor": [
-        {
-          "id": 7831,
-          "name": "Jaden Karuletwa",
-          "team": "Arkansas"
-        },
         {
           "id": 3103,
           "name": "Malique Ewin",
@@ -74230,6 +74114,11 @@
           "id": 92,
           "name": "Aden Holloway",
           "team": "Alabama"
+        },
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
         }
       ]
     },
@@ -74241,8 +74130,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47474902,
-      "sourceId": "401808244119150109",
+      "id": 47474904,
+      "sourceId": "401808244119150165",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -74254,7 +74143,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 112,
-      "awayScore": 111,
+      "awayScore": 113,
       "homeWinProbability": 0.994,
       "period": 4,
       "clock": "1:31",
@@ -74262,8 +74151,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:40:41.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 3",
+      "wallclock": "2026-02-19T02:41:04.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 198012,
@@ -74465,6 +74354,118 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 47474902,
+      "sourceId": "401808244119150109",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 5,
+      "opponent": "Alabama",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 112,
+      "awayScore": 111,
+      "homeWinProbability": 0.994,
+      "period": 4,
+      "clock": "1:31",
+      "secondsRemaining": 91,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-19T02:40:41.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 3",
+      "participants": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7831,
+          "name": "Jaden Karuletwa",
+          "team": "Arkansas"
+        },
+        {
+          "id": 3103,
+          "name": "Malique Ewin",
+          "team": "Arkansas"
+        },
+        {
+          "id": 89,
+          "name": "Aiden Sherrell",
+          "team": "Alabama"
+        },
+        {
+          "id": 91,
+          "name": "Latrell Wrightsell",
+          "team": "Alabama"
+        },
+        {
+          "id": 1307,
+          "name": "Noah Williamson",
+          "team": "Alabama"
+        },
+        {
+          "id": 85,
+          "name": "Labaron Philon Jr.",
+          "team": "Alabama"
+        },
+        {
+          "id": 197881,
+          "name": "Amari Allen",
+          "team": "Alabama"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        },
+        {
+          "id": 92,
+          "name": "Aden Holloway",
+          "team": "Alabama"
+        }
+      ]
+    },
+    {
+      "gameId": 211684,
+      "gameSourceId": "401808244",
+      "gameStartDate": "2026-02-19T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 47474921,
       "sourceId": "401808244119150916",
       "playType": "JumpShot",
@@ -74577,8 +74578,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47712708,
-      "sourceId": "401808249119316266",
+      "id": 47712709,
+      "sourceId": "401808249119316332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -74589,17 +74590,17 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 5,
+      "homeScore": 6,
       "awayScore": 9,
-      "homeWinProbability": 0.506,
+      "homeWinProbability": 0.517,
       "period": 1,
       "clock": "17:20",
       "secondsRemaining": 1040,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:14:06.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-21T21:14:19.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -74684,8 +74685,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47712709,
-      "sourceId": "401808249119316332",
+      "id": 47712708,
+      "sourceId": "401808249119316266",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -74696,17 +74697,17 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 5,
       "awayScore": 9,
-      "homeWinProbability": 0.517,
+      "homeWinProbability": 0.506,
       "period": 1,
       "clock": "17:20",
       "secondsRemaining": 1040,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:14:19.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-21T21:14:06.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -75445,113 +75446,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47712785,
-      "sourceId": "401808249119323773",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 177,
-      "opponent": "Missouri",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 22,
-      "awayScore": 24,
-      "homeWinProbability": 0.552,
-      "period": 1,
-      "clock": "9:20",
-      "secondsRemaining": 560,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T21:33:20.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        },
-        {
-          "id": 5495,
-          "name": "Mark Mitchell",
-          "team": "Missouri"
-        },
-        {
-          "id": 5504,
-          "name": "Jacob Crews",
-          "team": "Missouri"
-        },
-        {
-          "id": 5496,
-          "name": "Anthony Robinson II",
-          "team": "Missouri"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 5510,
-          "name": "T.O. Barrett",
-          "team": "Missouri"
-        },
-        {
-          "id": 3103,
-          "name": "Malique Ewin",
-          "team": "Arkansas"
-        },
-        {
-          "id": 5505,
-          "name": "Trent Burns",
-          "team": "Missouri"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 211810,
-      "gameSourceId": "401808249",
-      "gameStartDate": "2026-02-21T21:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47712784,
       "sourceId": "401808249119323715",
       "playType": "MadeFreeThrow",
@@ -75659,8 +75553,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47712818,
-      "sourceId": "401808249119327592",
+      "id": 47712785,
+      "sourceId": "401808249119323773",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -75671,17 +75565,124 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 22,
+      "awayScore": 24,
+      "homeWinProbability": 0.552,
+      "period": 1,
+      "clock": "9:20",
+      "secondsRemaining": 560,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T21:33:20.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
+        },
+        {
+          "id": 5495,
+          "name": "Mark Mitchell",
+          "team": "Missouri"
+        },
+        {
+          "id": 5504,
+          "name": "Jacob Crews",
+          "team": "Missouri"
+        },
+        {
+          "id": 5496,
+          "name": "Anthony Robinson II",
+          "team": "Missouri"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 5510,
+          "name": "T.O. Barrett",
+          "team": "Missouri"
+        },
+        {
+          "id": 3103,
+          "name": "Malique Ewin",
+          "team": "Arkansas"
+        },
+        {
+          "id": 5505,
+          "name": "Trent Burns",
+          "team": "Missouri"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 211810,
+      "gameSourceId": "401808249",
+      "gameStartDate": "2026-02-21T21:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47712819,
+      "sourceId": "401808249119327643",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 177,
+      "opponent": "Missouri",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 26,
       "awayScore": 32,
-      "homeWinProbability": 0.362,
+      "homeWinProbability": 0.396,
       "period": 1,
       "clock": "5:55",
       "secondsRemaining": 355,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:42:53.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-21T21:43:04.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -75766,8 +75767,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47712819,
-      "sourceId": "401808249119327643",
+      "id": 47712818,
+      "sourceId": "401808249119327592",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -75778,17 +75779,17 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 25,
       "awayScore": 32,
-      "homeWinProbability": 0.396,
+      "homeWinProbability": 0.362,
       "period": 1,
       "clock": "5:55",
       "secondsRemaining": 355,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:43:04.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-21T21:42:53.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -77494,8 +77495,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47713086,
-      "sourceId": "401808249119358457",
+      "id": 47713085,
+      "sourceId": "401808249119358379",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -77506,17 +77507,17 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 94,
+      "homeScore": 93,
       "awayScore": 82,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "0:51",
       "secondsRemaining": 51,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:21:29.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-21T23:21:15.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -77601,8 +77602,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47713085,
-      "sourceId": "401808249119358379",
+      "id": 47713086,
+      "sourceId": "401808249119358457",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -77613,17 +77614,17 @@
       "opponent": "Missouri",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 93,
+      "homeScore": 94,
       "awayScore": 82,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "0:51",
       "secondsRemaining": 51,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:21:15.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-21T23:21:29.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -81271,8 +81272,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48087159,
-      "sourceId": "401808259119516192",
+      "id": 48087156,
+      "sourceId": "401808259119516178",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -81283,7 +81284,7 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 97,
+      "homeScore": 96,
       "awayScore": 84,
       "homeWinProbability": null,
       "period": 2,
@@ -81292,8 +81293,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T04:27:03.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-02-26T04:26:45.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -81378,8 +81379,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48087156,
-      "sourceId": "401808259119516178",
+      "id": 48087159,
+      "sourceId": "401808259119516192",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -81390,7 +81391,7 @@
       "opponent": "Texas A&M",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 96,
+      "homeScore": 97,
       "awayScore": 84,
       "homeWinProbability": null,
       "period": 2,
@@ -81399,8 +81400,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T04:26:45.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-02-26T04:27:03.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -83859,8 +83860,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486836,
-      "sourceId": "401808266119754210",
+      "id": 48486834,
+      "sourceId": "401808266119754188",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -83872,16 +83873,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 41,
+      "awayScore": 40,
       "homeWinProbability": null,
       "period": 2,
       "clock": "14:06",
       "secondsRemaining": 846,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:14:38.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-01T03:14:20.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -83893,7 +83894,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -83966,8 +83967,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48486834,
-      "sourceId": "401808266119754188",
+      "id": 48486836,
+      "sourceId": "401808266119754210",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -83979,16 +83980,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 70,
-      "awayScore": 40,
+      "awayScore": 41,
       "homeWinProbability": null,
       "period": 2,
       "clock": "14:06",
       "secondsRemaining": 846,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T03:14:20.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-01T03:14:38.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -84000,7 +84001,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -89303,8 +89304,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49408764,
-      "sourceId": "401851568120256134",
+      "id": 49408766,
+      "sourceId": "401851568120256140",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -89315,17 +89316,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 10,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:25",
       "secondsRemaining": 985,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:16:45.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-14T02:16:57.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -89337,7 +89338,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -89410,8 +89411,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49408766,
-      "sourceId": "401851568120256140",
+      "id": 49408764,
+      "sourceId": "401851568120256134",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -89422,17 +89423,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 9,
       "awayScore": 9,
       "homeWinProbability": null,
       "period": 1,
       "clock": "16:25",
       "secondsRemaining": 985,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:16:57.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-14T02:16:45.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -89444,7 +89445,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -89624,8 +89625,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49408807,
-      "sourceId": "401851568120256698",
+      "id": 49408806,
+      "sourceId": "401851568120256691",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -89636,7 +89637,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 12,
+      "homeScore": 11,
       "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
@@ -89645,8 +89646,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:26:13.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-14T02:26:01.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -89731,8 +89732,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49408806,
-      "sourceId": "401851568120256691",
+      "id": 49408807,
+      "sourceId": "401851568120256698",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -89743,7 +89744,7 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 11,
+      "homeScore": 12,
       "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
@@ -89752,8 +89753,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:26:01.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-14T02:26:13.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -92862,8 +92863,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49409167,
-      "sourceId": "401851568120260514",
+      "id": 49409166,
+      "sourceId": "401851568120260513",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -92880,11 +92881,11 @@
       "period": 2,
       "clock": "0:10",
       "secondsRemaining": 10,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T04:24:33.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 2 of 2",
+      "wallclock": "2026-03-14T04:24:13.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -92896,7 +92897,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -92969,8 +92970,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49409166,
-      "sourceId": "401851568120260513",
+      "id": 49409167,
+      "sourceId": "401851568120260514",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -92987,11 +92988,11 @@
       "period": 2,
       "clock": "0:10",
       "secondsRemaining": 10,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T04:24:13.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-14T04:24:33.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -93003,7 +93004,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -95989,9 +95990,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49455106,
-      "sourceId": "401851570120270529",
-      "playType": "JumpShot",
+      "id": 49455109,
+      "sourceId": "401851570120270647",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -96001,7 +96002,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
@@ -96009,9 +96010,9 @@
       "secondsRemaining": 193,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-14T21:34:21.000Z",
-      "playText": "Darius Acuff Jr. makes 14-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-03-14T21:38:08.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
       "participants": [
         {
           "id": 198012,
@@ -96024,15 +96025,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 47,
-          "y": 390
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -96096,9 +96097,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49455109,
-      "sourceId": "401851570120270647",
-      "playType": "MadeFreeThrow",
+      "id": 49455106,
+      "sourceId": "401851570120270529",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 12,
       "team": "Arkansas",
@@ -96108,7 +96109,7 @@
       "opponent": "Ole Miss",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
@@ -96116,9 +96117,9 @@
       "secondsRemaining": 193,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-14T21:38:08.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-14T21:34:21.000Z",
+      "playText": "Darius Acuff Jr. makes 14-foot jumper",
       "participants": [
         {
           "id": 198012,
@@ -96131,15 +96132,15 @@
           "name": "Darius Acuff Jr."
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 47,
+          "y": 390
         }
       },
       "onFloor": [
@@ -97606,8 +97607,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489672,
-      "sourceId": "401851571120280019",
+      "id": 49489671,
+      "sourceId": "401851571120280003",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -97618,7 +97619,7 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
@@ -97627,8 +97628,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T17:26:27.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-15T17:26:02.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -97713,8 +97714,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489671,
-      "sourceId": "401851571120280003",
+      "id": 49489672,
+      "sourceId": "401851571120280019",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -97725,7 +97726,7 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
@@ -97734,8 +97735,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T17:26:02.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-15T17:26:27.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -99009,8 +99010,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489813,
-      "sourceId": "401851571120280847",
+      "id": 49489816,
+      "sourceId": "401851571120280856",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -99021,7 +99022,7 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 48,
+      "homeScore": 49,
       "awayScore": 49,
       "homeWinProbability": null,
       "period": 2,
@@ -99030,8 +99031,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T18:15:49.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-15T18:16:03.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -99116,8 +99117,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489816,
-      "sourceId": "401851571120280856",
+      "id": 49489813,
+      "sourceId": "401851571120280847",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -99128,7 +99129,7 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 48,
       "awayScore": 49,
       "homeWinProbability": null,
       "period": 2,
@@ -99137,8 +99138,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T18:16:03.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-15T18:15:49.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -101078,8 +101079,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489972,
-      "sourceId": "401851571120281737",
+      "id": 49489971,
+      "sourceId": "401851571120281736",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -101090,7 +101091,7 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 83,
       "awayScore": 72,
       "homeWinProbability": null,
       "period": 2,
@@ -101099,8 +101100,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T19:07:31.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-15T19:07:14.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -101185,8 +101186,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489971,
-      "sourceId": "401851571120281736",
+      "id": 49489972,
+      "sourceId": "401851571120281737",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -101197,7 +101198,7 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 84,
       "awayScore": 72,
       "homeWinProbability": null,
       "period": 2,
@@ -101206,8 +101207,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T19:07:14.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-15T19:07:31.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -105620,113 +105621,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49597814,
-      "sourceId": "401856536120352064",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 12,
-      "team": "Arkansas",
-      "conference": "SEC",
-      "teamSeed": 4,
-      "opponentId": 109,
-      "opponent": "High Point",
-      "opponentConference": "Big South",
-      "opponentSeed": 12,
-      "homeScore": 41,
-      "awayScore": 39,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "0:41",
-      "secondsRemaining": 41,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-22T02:29:00.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198012,
-          "name": "Darius Acuff Jr."
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 1481,
-          "name": "Vincent Brady II",
-          "team": "High Point"
-        },
-        {
-          "id": 4607,
-          "name": "Rob Martin",
-          "team": "High Point"
-        },
-        {
-          "id": 1090,
-          "name": "Owen Aquino",
-          "team": "High Point"
-        },
-        {
-          "id": 198012,
-          "name": "Darius Acuff Jr.",
-          "team": "Arkansas"
-        },
-        {
-          "id": 8120,
-          "name": "Chase Johnston",
-          "team": "High Point"
-        },
-        {
-          "id": 4076,
-          "name": "Cam'Ron Fletcher",
-          "team": "High Point"
-        },
-        {
-          "id": 7824,
-          "name": "D.J. Wagner",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7827,
-          "name": "Trevon Brazile",
-          "team": "Arkansas"
-        },
-        {
-          "id": 198026,
-          "name": "Meleek Thomas",
-          "team": "Arkansas"
-        },
-        {
-          "id": 7825,
-          "name": "Billy Richmond III",
-          "team": "Arkansas"
-        }
-      ]
-    },
-    {
-      "gameId": 372569,
-      "gameSourceId": "401856536",
-      "gameStartDate": "2026-03-22T01:45:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49597810,
       "sourceId": "401856536120352053",
       "playType": "MadeFreeThrow",
@@ -105834,8 +105728,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49597820,
-      "sourceId": "401856536120352111",
+      "id": 49597814,
+      "sourceId": "401856536120352064",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -105846,17 +105740,17 @@
       "opponent": "High Point",
       "opponentConference": "Big South",
       "opponentSeed": 12,
-      "homeScore": 42,
-      "awayScore": 42,
+      "homeScore": 41,
+      "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
-      "clock": "0:03",
-      "secondsRemaining": 3,
+      "clock": "0:41",
+      "secondsRemaining": 41,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T02:31:19.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-22T02:29:00.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -105882,6 +105776,16 @@
       },
       "onFloor": [
         {
+          "id": 1481,
+          "name": "Vincent Brady II",
+          "team": "High Point"
+        },
+        {
+          "id": 4607,
+          "name": "Rob Martin",
+          "team": "High Point"
+        },
+        {
           "id": 1090,
           "name": "Owen Aquino",
           "team": "High Point"
@@ -105890,11 +105794,6 @@
           "id": 198012,
           "name": "Darius Acuff Jr.",
           "team": "Arkansas"
-        },
-        {
-          "id": 275,
-          "name": "Conrad Martinez",
-          "team": "High Point"
         },
         {
           "id": 8120,
@@ -105910,11 +105809,6 @@
           "id": 7824,
           "name": "D.J. Wagner",
           "team": "Arkansas"
-        },
-        {
-          "id": 8123,
-          "name": "Braden Hausen",
-          "team": "High Point"
         },
         {
           "id": 7827,
@@ -106048,8 +105942,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49597847,
-      "sourceId": "401856536120352556",
+      "id": 49597820,
+      "sourceId": "401856536120352111",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -106060,7 +105954,114 @@
       "opponent": "High Point",
       "opponentConference": "Big South",
       "opponentSeed": 12,
-      "homeScore": 47,
+      "homeScore": 42,
+      "awayScore": 42,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "0:03",
+      "secondsRemaining": 3,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-22T02:31:19.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198012,
+          "name": "Darius Acuff Jr."
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 1090,
+          "name": "Owen Aquino",
+          "team": "High Point"
+        },
+        {
+          "id": 198012,
+          "name": "Darius Acuff Jr.",
+          "team": "Arkansas"
+        },
+        {
+          "id": 275,
+          "name": "Conrad Martinez",
+          "team": "High Point"
+        },
+        {
+          "id": 8120,
+          "name": "Chase Johnston",
+          "team": "High Point"
+        },
+        {
+          "id": 4076,
+          "name": "Cam'Ron Fletcher",
+          "team": "High Point"
+        },
+        {
+          "id": 7824,
+          "name": "D.J. Wagner",
+          "team": "Arkansas"
+        },
+        {
+          "id": 8123,
+          "name": "Braden Hausen",
+          "team": "High Point"
+        },
+        {
+          "id": 7827,
+          "name": "Trevon Brazile",
+          "team": "Arkansas"
+        },
+        {
+          "id": 198026,
+          "name": "Meleek Thomas",
+          "team": "Arkansas"
+        },
+        {
+          "id": 7825,
+          "name": "Billy Richmond III",
+          "team": "Arkansas"
+        }
+      ]
+    },
+    {
+      "gameId": 372569,
+      "gameSourceId": "401856536",
+      "gameStartDate": "2026-03-22T01:45:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49597846,
+      "sourceId": "401856536120352550",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 12,
+      "team": "Arkansas",
+      "conference": "SEC",
+      "teamSeed": 4,
+      "opponentId": 109,
+      "opponent": "High Point",
+      "opponentConference": "Big South",
+      "opponentSeed": 12,
+      "homeScore": 46,
       "awayScore": 42,
       "homeWinProbability": null,
       "period": 2,
@@ -106069,8 +106070,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T02:55:50.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-22T02:55:40.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -106155,8 +106156,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49597846,
-      "sourceId": "401856536120352550",
+      "id": 49597847,
+      "sourceId": "401856536120352556",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -106167,7 +106168,7 @@
       "opponent": "High Point",
       "opponentConference": "Big South",
       "opponentSeed": 12,
-      "homeScore": 46,
+      "homeScore": 47,
       "awayScore": 42,
       "homeWinProbability": null,
       "period": 2,
@@ -106176,8 +106177,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T02:55:40.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-22T02:55:50.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -108529,8 +108530,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49598066,
-      "sourceId": "401856536120353364",
+      "id": 49598065,
+      "sourceId": "401856536120353363",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -108541,7 +108542,7 @@
       "opponent": "High Point",
       "opponentConference": "Big South",
       "opponentSeed": 12,
-      "homeScore": 94,
+      "homeScore": 93,
       "awayScore": 88,
       "homeWinProbability": null,
       "period": 2,
@@ -108550,8 +108551,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T03:51:21.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-22T03:51:07.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -108636,8 +108637,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49598065,
-      "sourceId": "401856536120353363",
+      "id": 49598066,
+      "sourceId": "401856536120353364",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 12,
@@ -108648,7 +108649,7 @@
       "opponent": "High Point",
       "opponentConference": "Big South",
       "opponentSeed": 12,
-      "homeScore": 93,
+      "homeScore": 94,
       "awayScore": 88,
       "homeWinProbability": null,
       "period": 2,
@@ -108657,8 +108658,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T03:51:07.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-22T03:51:21.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -108850,8 +108851,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644494,
-      "sourceId": "401856569120388679",
+      "id": 49644497,
+      "sourceId": "401856569120388718",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -108863,16 +108864,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 6,
-      "awayScore": 2,
+      "awayScore": 4,
       "homeWinProbability": null,
       "period": 1,
       "clock": "17:41",
       "secondsRemaining": 1061,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:09:58.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 3",
+      "wallclock": "2026-03-27T02:10:56.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 3 of 3",
       "participants": [
         {
           "id": 198012,
@@ -108884,7 +108885,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -108957,8 +108958,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644497,
-      "sourceId": "401856569120388718",
+      "id": 49644494,
+      "sourceId": "401856569120388679",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -108970,16 +108971,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 6,
-      "awayScore": 4,
+      "awayScore": 2,
       "homeWinProbability": null,
       "period": 1,
       "clock": "17:41",
       "secondsRemaining": 1061,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T02:10:56.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 3 of 3",
+      "wallclock": "2026-03-27T02:09:58.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 3",
       "participants": [
         {
           "id": 198012,
@@ -108991,7 +108992,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -110681,8 +110682,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644719,
-      "sourceId": "401856569120390007",
+      "id": 49644718,
+      "sourceId": "401856569120390005",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -110694,7 +110695,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 65,
-      "awayScore": 51,
+      "awayScore": 50,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:28",
@@ -110702,8 +110703,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T03:27:36.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-27T03:27:25.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -110788,8 +110789,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644718,
-      "sourceId": "401856569120390005",
+      "id": 49644719,
+      "sourceId": "401856569120390007",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -110801,7 +110802,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 65,
-      "awayScore": 50,
+      "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:28",
@@ -110809,8 +110810,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T03:27:25.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 1 of 2",
+      "wallclock": "2026-03-27T03:27:36.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -112294,8 +112295,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644909,
-      "sourceId": "401856569120390550",
+      "id": 49644911,
+      "sourceId": "401856569120390552",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -112307,16 +112308,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 106,
-      "awayScore": 83,
+      "awayScore": 84,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:11",
       "secondsRemaining": 131,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T04:21:14.000Z",
-      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
+      "wallclock": "2026-03-27T04:21:26.000Z",
+      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
       "participants": [
         {
           "id": 198012,
@@ -112328,7 +112329,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -112401,8 +112402,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49644911,
-      "sourceId": "401856569120390552",
+      "id": 49644909,
+      "sourceId": "401856569120390550",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 12,
@@ -112414,16 +112415,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": 1,
       "homeScore": 106,
-      "awayScore": 84,
+      "awayScore": 83,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:11",
       "secondsRemaining": 131,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T04:21:26.000Z",
-      "playText": "Darius Acuff Jr. makes free throw 2 of 2",
+      "wallclock": "2026-03-27T04:21:14.000Z",
+      "playText": "Darius Acuff Jr. misses free throw 1 of 2",
       "participants": [
         {
           "id": 198012,
@@ -112435,7 +112436,7 @@
           "id": 198012,
           "name": "Darius Acuff Jr."
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -113766,70 +113767,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.02,
-        "percentile": 89.2,
-        "freqPer100": 26.4
-      },
-      "attackKick": {
-        "ppp": 1.13,
-        "percentile": 95.7,
-        "freqPer100": 10.4
-      },
-      "perimeterSniper": {
-        "ppp": 1.37,
-        "percentile": 98.6,
-        "freqPer100": 9.8
-      },
-      "dribbleJumper": {
-        "ppp": 1.28,
-        "percentile": 99.4,
-        "freqPer100": 5.5
-      },
-      "midRange": {
-        "ppp": 0.84,
-        "percentile": 68.9,
-        "freqPer100": 8.3
-      },
-      "hitsCutter": {
-        "ppp": 1.35,
-        "percentile": 99.6,
-        "freqPer100": 5.2
-      },
-      "perimeterCut": {
-        "ppp": 1.54,
-        "percentile": 97.5,
-        "freqPer100": 2.4
-      },
-      "pnrPasser": {
-        "ppp": 1.23,
-        "percentile": 96.6,
-        "freqPer100": 11
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 0.86,
-        "percentile": 61,
-        "freqPer100": 0.9
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.64,
-        "percentile": 97,
-        "freqPer100": 2.9
-      },
-      "transition": {
-        "ppp": 1.34,
-        "percentile": 75.1,
-        "freqPer100": 17.2
       }
     }
   }

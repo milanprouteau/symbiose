@@ -4,10 +4,10 @@
     "team": "Iowa State",
     "position": "F",
     "nba_profile": "NBA_READY",
-    "profile_confidence": 80.0,
-    "proba_nba_ready": 80.0,
-    "proba_late_bloomer": 7.0,
-    "proba_role_player": 13.0
+    "profile_confidence": 80,
+    "proba_nba_ready": 80,
+    "proba_late_bloomer": 7,
+    "proba_role_player": 13
   },
   {
     "name": "Ryan Conwell",
@@ -15,19 +15,9 @@
     "position": "G",
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 88.7,
-    "proba_nba_ready": 10.0,
+    "proba_nba_ready": 10,
     "proba_late_bloomer": 1.3,
     "proba_role_player": 88.7
-  },
-  {
-    "name": "Juke Harris",
-    "team": "Wake Forest",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 91.2,
-    "proba_nba_ready": 6.4,
-    "proba_late_bloomer": 2.4,
-    "proba_role_player": 91.2
   },
   {
     "name": "Keyshawn Hall",
@@ -36,18 +26,8 @@
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 78.3,
     "proba_nba_ready": 13.7,
-    "proba_late_bloomer": 8.0,
+    "proba_late_bloomer": 8,
     "proba_role_player": 78.3
-  },
-  {
-    "name": "Johann Grunloh",
-    "team": "Virginia",
-    "position": "C",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 50.8,
-    "proba_nba_ready": 44.1,
-    "proba_late_bloomer": 5.1,
-    "proba_role_player": 50.8
   },
   {
     "name": "Nate Bittle",
@@ -85,19 +65,9 @@
     "position": "G",
     "nba_profile": "LATE_BLOOMER",
     "profile_confidence": 49.5,
-    "proba_nba_ready": 15.0,
+    "proba_nba_ready": 15,
     "proba_late_bloomer": 49.5,
     "proba_role_player": 35.5
-  },
-  {
-    "name": "JT Toppin",
-    "team": "Texas Tech",
-    "position": "F",
-    "nba_profile": "NBA_READY",
-    "profile_confidence": 70.7,
-    "proba_nba_ready": 70.7,
-    "proba_late_bloomer": 1.2,
-    "proba_role_player": 28.0
   },
   {
     "name": "Hannes Steinbach",
@@ -166,7 +136,7 @@
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 51.3,
     "proba_nba_ready": 7.7,
-    "proba_late_bloomer": 41.0,
+    "proba_late_bloomer": 41,
     "proba_role_player": 51.3
   },
   {
@@ -204,30 +174,20 @@
     "team": "NC State",
     "position": "G",
     "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 96.0,
+    "profile_confidence": 96,
     "proba_nba_ready": 2.6,
     "proba_late_bloomer": 1.4,
-    "proba_role_player": 96.0
+    "proba_role_player": 96
   },
   {
     "name": "Tamin Lipsey",
     "team": "Iowa State",
     "position": "G",
     "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 44.0,
+    "profile_confidence": 44,
     "proba_nba_ready": 18.7,
     "proba_late_bloomer": 37.3,
-    "proba_role_player": 44.0
-  },
-  {
-    "name": "Thomas Haugh",
-    "team": "Florida",
-    "position": "F",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 91.7,
-    "proba_nba_ready": 6.4,
-    "proba_late_bloomer": 1.9,
-    "proba_role_player": 91.7
+    "proba_role_player": 44
   },
   {
     "name": "Darius Acuff",
@@ -236,18 +196,8 @@
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 88.2,
     "proba_nba_ready": 6.8,
-    "proba_late_bloomer": 5.0,
+    "proba_late_bloomer": 5,
     "proba_role_player": 88.2
-  },
-  {
-    "name": "Patrick Ngongba II",
-    "team": "Duke",
-    "position": "C",
-    "nba_profile": "NBA_READY",
-    "profile_confidence": 38.3,
-    "proba_nba_ready": 38.3,
-    "proba_late_bloomer": 24.3,
-    "proba_role_player": 37.5
   },
   {
     "name": "AJ Dybantsa",
@@ -290,22 +240,12 @@
     "proba_role_player": 65.8
   },
   {
-    "name": "Joseph Tugler",
-    "team": "Houston",
-    "position": "F",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 75.4,
-    "proba_nba_ready": 21.2,
-    "proba_late_bloomer": 3.4,
-    "proba_role_player": 75.4
-  },
-  {
     "name": "Cameron Carr",
     "team": "Baylor",
     "position": "G",
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 60.3,
-    "proba_nba_ready": 34.0,
+    "proba_nba_ready": 34,
     "proba_late_bloomer": 5.7,
     "proba_role_player": 60.3
   },
@@ -317,7 +257,7 @@
     "profile_confidence": 94.3,
     "proba_nba_ready": 94.3,
     "proba_late_bloomer": 2.8,
-    "proba_role_player": 3.0
+    "proba_role_player": 3
   },
   {
     "name": "Labaron Philon",
@@ -336,7 +276,7 @@
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 62.7,
     "proba_nba_ready": 28.3,
-    "proba_late_bloomer": 9.0,
+    "proba_late_bloomer": 9,
     "proba_role_player": 62.7
   },
   {
@@ -345,7 +285,7 @@
     "position": "G",
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 58.8,
-    "proba_nba_ready": 7.0,
+    "proba_nba_ready": 7,
     "proba_late_bloomer": 34.2,
     "proba_role_player": 58.8
   },
@@ -366,7 +306,7 @@
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 78.4,
     "proba_nba_ready": 8.5,
-    "proba_late_bloomer": 13.0,
+    "proba_late_bloomer": 13,
     "proba_role_player": 78.4
   },
   {
@@ -384,10 +324,10 @@
     "team": "Baylor",
     "position": "G",
     "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 97.0,
+    "profile_confidence": 97,
     "proba_nba_ready": 1.3,
     "proba_late_bloomer": 1.7,
-    "proba_role_player": 97.0
+    "proba_role_player": 97
   },
   {
     "name": "Darryn Peterson",
@@ -396,18 +336,8 @@
     "nba_profile": "NBA_READY",
     "profile_confidence": 87.1,
     "proba_nba_ready": 87.1,
-    "proba_late_bloomer": 1.0,
+    "proba_late_bloomer": 1,
     "proba_role_player": 11.9
-  },
-  {
-    "name": "Motiejus Krivas",
-    "team": "Arizona",
-    "position": "C",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 80.8,
-    "proba_nba_ready": 16.5,
-    "proba_late_bloomer": 2.7,
-    "proba_role_player": 80.8
   },
   {
     "name": "Alex Karaban",
@@ -415,8 +345,8 @@
     "position": "F",
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 63.9,
-    "proba_nba_ready": 24.0,
-    "proba_late_bloomer": 12.0,
+    "proba_nba_ready": 24,
+    "proba_late_bloomer": 12,
     "proba_role_player": 63.9
   },
   {
@@ -430,23 +360,13 @@
     "proba_role_player": 76.5
   },
   {
-    "name": "Alex Condon",
-    "team": "Florida",
-    "position": "F",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 66.9,
-    "proba_nba_ready": 21.8,
-    "proba_late_bloomer": 11.3,
-    "proba_role_player": 66.9
-  },
-  {
     "name": "Kingston Flemings",
     "team": "Houston",
     "position": "G",
     "nba_profile": "LATE_BLOOMER",
-    "profile_confidence": 43.0,
+    "profile_confidence": 43,
     "proba_nba_ready": 30.3,
-    "proba_late_bloomer": 43.0,
+    "proba_late_bloomer": 43,
     "proba_role_player": 26.7
   },
   {
@@ -466,28 +386,8 @@
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 48.1,
     "proba_nba_ready": 28.8,
-    "proba_late_bloomer": 23.0,
+    "proba_late_bloomer": 23,
     "proba_role_player": 48.1
-  },
-  {
-    "name": "Malachi Moreno",
-    "team": "Kentucky",
-    "position": "C",
-    "nba_profile": "LATE_BLOOMER",
-    "profile_confidence": 40.5,
-    "proba_nba_ready": 20.1,
-    "proba_late_bloomer": 40.5,
-    "proba_role_player": 39.4
-  },
-  {
-    "name": "Braylon Mullins",
-    "team": "Uconn",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 96.9,
-    "proba_nba_ready": 2.0,
-    "proba_late_bloomer": 1.1,
-    "proba_role_player": 96.9
   },
   {
     "name": "Bennett Stirtz",
@@ -520,22 +420,12 @@
     "proba_role_player": 12.6
   },
   {
-    "name": "Alijah Arenas",
-    "team": "USC",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 53.7,
-    "proba_nba_ready": 45.0,
-    "proba_late_bloomer": 1.3,
-    "proba_role_player": 53.7
-  },
-  {
     "name": "Richie Saunders",
     "team": "BYU",
     "position": "F",
     "nba_profile": "ROLE_PLAYER",
     "profile_confidence": 88.2,
-    "proba_nba_ready": 4.0,
+    "proba_nba_ready": 4,
     "proba_late_bloomer": 7.8,
     "proba_role_player": 88.2
   },
@@ -550,23 +440,83 @@
     "proba_role_player": 88.6
   },
   {
-    "name": "Miles Byrd",
-    "team": "San Diego State",
-    "position": "G",
+    "name": "Otega Oweh",
+    "team": "Kentucky",
+    "position": "Guard",
     "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 97.4,
-    "proba_nba_ready": 2.3,
-    "proba_late_bloomer": 0.3,
-    "proba_role_player": 97.4
+    "profile_confidence": 85,
+    "proba_nba_ready": 41,
+    "proba_late_bloomer": 4,
+    "proba_role_player": 56
   },
   {
-    "name": "Rueben Chinyelu",
-    "team": "Florida",
-    "position": "C",
+    "name": "Trevon Brazile",
+    "team": "Arkansas",
+    "position": "Forward",
     "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 73.1,
-    "proba_nba_ready": 10.3,
-    "proba_late_bloomer": 16.7,
-    "proba_role_player": 73.1
+    "profile_confidence": 68,
+    "proba_nba_ready": 18,
+    "proba_late_bloomer": 13,
+    "proba_role_player": 68
+  },
+  {
+    "name": "Emanuel Sharp",
+    "team": "Houston",
+    "position": "Guard",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 69,
+    "proba_nba_ready": 25,
+    "proba_late_bloomer": 11,
+    "proba_role_player": 64
+  },
+  {
+    "name": "Milos Uzan",
+    "team": "Houston",
+    "position": "Guard",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 60,
+    "proba_nba_ready": 21,
+    "proba_late_bloomer": 18,
+    "proba_role_player": 60
+  },
+  {
+    "name": "Allen Graves",
+    "team": "Santa Clara",
+    "position": "Forward",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 66,
+    "proba_nba_ready": 17,
+    "proba_late_bloomer": 17,
+    "proba_role_player": 66
+  },
+  {
+    "name": "Dillon Mitchell",
+    "team": "St. John's",
+    "position": "Forward",
+    "nba_profile": "NBA_READY",
+    "profile_confidence": 67,
+    "proba_nba_ready": 46,
+    "proba_late_bloomer": 13,
+    "proba_role_player": 41
+  },
+  {
+    "name": "Baba Miller",
+    "team": "Cincinnati",
+    "position": "Forward",
+    "nba_profile": "NBA_READY",
+    "profile_confidence": 73,
+    "proba_nba_ready": 50,
+    "proba_late_bloomer": 4,
+    "proba_role_player": 46
+  },
+  {
+    "name": "Jeremy Fears Jr.",
+    "team": "Michigan State",
+    "position": "Guard",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 64,
+    "proba_nba_ready": 24,
+    "proba_late_bloomer": 15,
+    "proba_role_player": 61
   }
 ]

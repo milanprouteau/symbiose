@@ -243,7 +243,8 @@
     "jersey": "4",
     "position": "Guard",
     "height": 76,
-    "weight": 190,
+    "weight": 183,
+    "wingspan": null,
     "hometown": {
       "city": "San Antonio",
       "state": "TX"
@@ -811,8 +812,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37638554,
-      "sourceId": "401824809113686518",
+      "id": 37638556,
+      "sourceId": "401824809113686595",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -823,17 +824,17 @@
       "opponent": "Lehigh",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 51,
       "homeWinProbability": 0.999,
       "period": 2,
       "clock": "4:28",
       "secondsRemaining": 268,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:56:11.000Z",
-      "playText": "Kingston Flemings missed Free Throw.",
+      "wallclock": "2025-11-04T02:56:25.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -845,7 +846,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -918,8 +919,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37638556,
-      "sourceId": "401824809113686595",
+      "id": 37638554,
+      "sourceId": "401824809113686518",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -930,17 +931,17 @@
       "opponent": "Lehigh",
       "opponentConference": "Patriot",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 51,
       "homeWinProbability": 0.999,
       "period": 2,
       "clock": "4:28",
       "secondsRemaining": 268,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:56:25.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "wallclock": "2025-11-04T02:56:11.000Z",
+      "playText": "Kingston Flemings missed Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -952,7 +953,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -2090,9 +2091,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38373469,
-      "sourceId": "401824810113975377",
-      "playType": "MadeFreeThrow",
+      "id": 38373463,
+      "sourceId": "401824810113975366",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -2102,17 +2103,17 @@
       "opponent": "Towson",
       "opponentConference": "CAA",
       "opponentSeed": null,
-      "homeScore": 57,
+      "homeScore": 56,
       "awayScore": 46,
-      "homeWinProbability": 0.985,
+      "homeWinProbability": 0.974,
       "period": 2,
       "clock": "7:00",
       "secondsRemaining": 420,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T21:48:32.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T21:48:01.000Z",
+      "playText": "Kingston Flemings made Layup.",
       "participants": [
         {
           "id": 199596,
@@ -2125,15 +2126,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 295
         }
       },
       "onFloor": [
@@ -2197,9 +2198,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38373463,
-      "sourceId": "401824810113975366",
-      "playType": "LayUpShot",
+      "id": 38373469,
+      "sourceId": "401824810113975377",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -2209,17 +2210,17 @@
       "opponent": "Towson",
       "opponentConference": "CAA",
       "opponentSeed": null,
-      "homeScore": 56,
+      "homeScore": 57,
       "awayScore": 46,
-      "homeWinProbability": 0.974,
+      "homeWinProbability": 0.985,
       "period": 2,
       "clock": "7:00",
       "secondsRemaining": 420,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T21:48:01.000Z",
-      "playText": "Kingston Flemings made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T21:48:32.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -2232,15 +2233,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 295
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -3711,8 +3712,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38853591,
-      "sourceId": "401824811114235181",
+      "id": 38853584,
+      "sourceId": "401824811114235067",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -3723,7 +3724,7 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 36,
       "awayScore": 17,
       "homeWinProbability": 0.985,
       "period": 1,
@@ -3732,7 +3733,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T01:51:22.000Z",
+      "wallclock": "2025-11-13T01:50:58.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -3818,8 +3819,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38853584,
-      "sourceId": "401824811114235067",
+      "id": 38853591,
+      "sourceId": "401824811114235181",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -3830,7 +3831,7 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 37,
       "awayScore": 17,
       "homeWinProbability": 0.985,
       "period": 1,
@@ -3839,7 +3840,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-13T01:50:58.000Z",
+      "wallclock": "2025-11-13T01:51:22.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -5895,113 +5896,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39283111,
-      "sourceId": "401809305114459426",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 113,
-      "team": "Houston",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 16,
-      "opponent": "Auburn",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 16,
-      "awayScore": 16,
-      "homeWinProbability": 0.61,
-      "period": 1,
-      "clock": "9:00",
-      "secondsRemaining": 540,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-16T20:33:19.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
-      "participants": [
-        {
-          "id": 199596,
-          "name": "Kingston Flemings"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199596,
-          "name": "Kingston Flemings"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 199595,
-          "name": "Chris Cenac Jr.",
-          "team": "Houston"
-        },
-        {
-          "id": 198094,
-          "name": "Elyjah Freeman",
-          "team": "Auburn"
-        },
-        {
-          "id": 4154,
-          "name": "KeShawn Murphy",
-          "team": "Auburn"
-        },
-        {
-          "id": 198110,
-          "name": "Sebastian Williams-Adams",
-          "team": "Auburn"
-        },
-        {
-          "id": 112,
-          "name": "Joseph Tugler",
-          "team": "Houston"
-        },
-        {
-          "id": 334,
-          "name": "Keyshawn Hall",
-          "team": "Auburn"
-        },
-        {
-          "id": 199596,
-          "name": "Kingston Flemings",
-          "team": "Houston"
-        },
-        {
-          "id": 114,
-          "name": "Milos Uzan",
-          "team": "Houston"
-        },
-        {
-          "id": 115,
-          "name": "Emanuel Sharp",
-          "team": "Houston"
-        },
-        {
-          "id": 198099,
-          "name": "Kaden Magwood",
-          "team": "Auburn"
-        }
-      ]
-    },
-    {
-      "gameId": 209937,
-      "gameSourceId": "401809305",
-      "gameStartDate": "2025-11-16T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 39283110,
       "sourceId": "401809305114459385",
       "playType": "MadeFreeThrow",
@@ -6109,8 +6003,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39283162,
-      "sourceId": "401809305114462786",
+      "id": 39283111,
+      "sourceId": "401809305114459426",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 113,
+      "team": "Houston",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 16,
+      "opponent": "Auburn",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 16,
+      "awayScore": 16,
+      "homeWinProbability": 0.61,
+      "period": 1,
+      "clock": "9:00",
+      "secondsRemaining": 540,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-11-16T20:33:19.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
+      "participants": [
+        {
+          "id": 199596,
+          "name": "Kingston Flemings"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199596,
+          "name": "Kingston Flemings"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 199595,
+          "name": "Chris Cenac Jr.",
+          "team": "Houston"
+        },
+        {
+          "id": 198094,
+          "name": "Elyjah Freeman",
+          "team": "Auburn"
+        },
+        {
+          "id": 4154,
+          "name": "KeShawn Murphy",
+          "team": "Auburn"
+        },
+        {
+          "id": 198110,
+          "name": "Sebastian Williams-Adams",
+          "team": "Auburn"
+        },
+        {
+          "id": 112,
+          "name": "Joseph Tugler",
+          "team": "Houston"
+        },
+        {
+          "id": 334,
+          "name": "Keyshawn Hall",
+          "team": "Auburn"
+        },
+        {
+          "id": 199596,
+          "name": "Kingston Flemings",
+          "team": "Houston"
+        },
+        {
+          "id": 114,
+          "name": "Milos Uzan",
+          "team": "Houston"
+        },
+        {
+          "id": 115,
+          "name": "Emanuel Sharp",
+          "team": "Houston"
+        },
+        {
+          "id": 198099,
+          "name": "Kaden Magwood",
+          "team": "Auburn"
+        }
+      ]
+    },
+    {
+      "gameId": 209937,
+      "gameSourceId": "401809305",
+      "gameStartDate": "2025-11-16T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 39283163,
+      "sourceId": "401809305114462940",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -6122,15 +6123,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 27,
-      "homeWinProbability": 0.491,
+      "awayScore": 28,
+      "homeWinProbability": 0.446,
       "period": 1,
       "clock": "5:07",
       "secondsRemaining": 307,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T20:45:37.000Z",
+      "wallclock": "2025-11-16T20:46:19.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -6216,8 +6217,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39283163,
-      "sourceId": "401809305114462940",
+      "id": 39283162,
+      "sourceId": "401809305114462786",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -6229,15 +6230,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 28,
-      "homeWinProbability": 0.446,
+      "awayScore": 27,
+      "homeWinProbability": 0.491,
       "period": 1,
       "clock": "5:07",
       "secondsRemaining": 307,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-16T20:46:19.000Z",
+      "wallclock": "2025-11-16T20:45:37.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -9486,8 +9487,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40062628,
-      "sourceId": "401817481114899472",
+      "id": 40062627,
+      "sourceId": "401817481114899438",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -9504,11 +9505,11 @@
       "period": 1,
       "clock": "19:18",
       "secondsRemaining": 1158,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T23:08:10.000Z",
-      "playText": "Kingston Flemings missed Free Throw.",
+      "wallclock": "2025-11-24T23:07:59.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -9520,7 +9521,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9593,8 +9594,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40062627,
-      "sourceId": "401817481114899438",
+      "id": 40062628,
+      "sourceId": "401817481114899472",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -9611,11 +9612,11 @@
       "period": 1,
       "clock": "19:18",
       "secondsRemaining": 1158,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-24T23:07:59.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "wallclock": "2025-11-24T23:08:10.000Z",
+      "playText": "Kingston Flemings missed Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -9627,7 +9628,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11765,9 +11766,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124670,
-      "sourceId": "401824812114962003",
-      "playType": "MadeFreeThrow",
+      "id": 40124668,
+      "sourceId": "401824812114961948",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -11777,17 +11778,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 10,
+      "homeScore": 9,
       "awayScore": 3,
-      "homeWinProbability": 0.812,
+      "homeWinProbability": 0.806,
       "period": 1,
       "clock": "17:09",
       "secondsRemaining": 1029,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T23:18:58.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-25T23:18:29.000Z",
+      "playText": "Kingston Flemings made Layup.",
       "participants": [
         {
           "id": 199596,
@@ -11800,15 +11801,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 245
         }
       },
       "onFloor": [
@@ -11872,9 +11873,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124668,
-      "sourceId": "401824812114961948",
-      "playType": "LayUpShot",
+      "id": 40124670,
+      "sourceId": "401824812114962003",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -11884,17 +11885,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 9,
+      "homeScore": 10,
       "awayScore": 3,
-      "homeWinProbability": 0.806,
+      "homeWinProbability": 0.812,
       "period": 1,
       "clock": "17:09",
       "secondsRemaining": 1029,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-25T23:18:29.000Z",
-      "playText": "Kingston Flemings made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T23:18:58.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -11907,15 +11908,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -12086,9 +12087,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124697,
-      "sourceId": "401824812114962644",
-      "playType": "MadeFreeThrow",
+      "id": 40124693,
+      "sourceId": "401824812114962628",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -12098,17 +12099,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 12,
       "awayScore": 11,
-      "homeWinProbability": 0.672,
+      "homeWinProbability": 0.661,
       "period": 1,
       "clock": "14:57",
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-25T23:25:23.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-25T23:24:54.000Z",
+      "playText": "Kingston Flemings made Layup.",
       "participants": [
         {
           "id": 199596,
@@ -12121,15 +12122,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 883.6,
+          "y": 235
         }
       },
       "onFloor": [
@@ -12193,9 +12194,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40124693,
-      "sourceId": "401824812114962628",
-      "playType": "LayUpShot",
+      "id": 40124697,
+      "sourceId": "401824812114962644",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -12205,17 +12206,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 12,
+      "homeScore": 13,
       "awayScore": 11,
-      "homeWinProbability": 0.661,
+      "homeWinProbability": 0.672,
       "period": 1,
       "clock": "14:57",
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-25T23:24:54.000Z",
-      "playText": "Kingston Flemings made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-25T23:25:23.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -12228,15 +12229,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 883.6,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -14908,8 +14909,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40278238,
-      "sourceId": "401831217115052332",
+      "id": 40278236,
+      "sourceId": "401831217115052323",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -14920,17 +14921,17 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 54,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "0:52",
       "secondsRemaining": 52,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T22:31:21.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "wallclock": "2025-11-26T22:31:10.000Z",
+      "playText": "Kingston Flemings missed Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -14942,7 +14943,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15015,8 +15016,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40278236,
-      "sourceId": "401831217115052323",
+      "id": 40278238,
+      "sourceId": "401831217115052332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -15027,17 +15028,17 @@
       "opponent": "Notre Dame",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 54,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "0:52",
       "secondsRemaining": 52,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-26T22:31:10.000Z",
-      "playText": "Kingston Flemings missed Free Throw.",
+      "wallclock": "2025-11-26T22:31:21.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
           "id": 199596,
@@ -15049,7 +15050,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15776,8 +15777,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41138801,
-      "sourceId": "401824813115594518",
+      "id": 41138802,
+      "sourceId": "401824813115594528",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -15788,16 +15789,16 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 35,
       "awayScore": 26,
-      "homeWinProbability": 0.868,
+      "homeWinProbability": 0.871,
       "period": 1,
       "clock": "4:10",
       "secondsRemaining": 250,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:45:42.000Z",
+      "wallclock": "2025-12-07T01:45:58.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -15883,8 +15884,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41138802,
-      "sourceId": "401824813115594528",
+      "id": 41138801,
+      "sourceId": "401824813115594518",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -15895,16 +15896,16 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 34,
       "awayScore": 26,
-      "homeWinProbability": 0.871,
+      "homeWinProbability": 0.868,
       "period": 1,
       "clock": "4:10",
       "secondsRemaining": 250,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-07T01:45:58.000Z",
+      "wallclock": "2025-12-07T01:45:42.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -18610,113 +18611,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41636705,
-      "sourceId": "401808901115815914",
-      "playType": "JumpShot",
-      "isHomeTeam": true,
-      "teamId": 113,
-      "team": "Houston",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 193,
-      "opponent": "New Orleans",
-      "opponentConference": "Southland",
-      "opponentSeed": null,
-      "homeScore": 14,
-      "awayScore": 6,
-      "homeWinProbability": 0.832,
-      "period": 1,
-      "clock": "12:44",
-      "secondsRemaining": 764,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-13T20:20:10.000Z",
-      "playText": "Kingston Flemings made Jumper.",
-      "participants": [
-        {
-          "id": 199596,
-          "name": "Kingston Flemings"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199596,
-          "name": "Kingston Flemings"
-        },
-        "made": true,
-        "range": "jumper",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 65.8,
-          "y": 135
-        }
-      },
-      "onFloor": [
-        {
-          "id": 199597,
-          "name": "Isiah Harwell",
-          "team": "Houston"
-        },
-        {
-          "id": 200898,
-          "name": "Panagiotis Pagonis",
-          "team": "New Orleans"
-        },
-        {
-          "id": 199596,
-          "name": "Kingston Flemings",
-          "team": "Houston"
-        },
-        {
-          "id": 7603,
-          "name": "MJ Thomas",
-          "team": "New Orleans"
-        },
-        {
-          "id": 117,
-          "name": "Cedric Lath",
-          "team": "Houston"
-        },
-        {
-          "id": 4896,
-          "name": "Coleton Benson",
-          "team": "New Orleans"
-        },
-        {
-          "id": 6116,
-          "name": "Jakevion Buckley",
-          "team": "New Orleans"
-        },
-        {
-          "id": 115,
-          "name": "Emanuel Sharp",
-          "team": "Houston"
-        },
-        {
-          "id": 121,
-          "name": "Ramon Walker Jr.",
-          "team": "Houston"
-        },
-        {
-          "id": 8294,
-          "name": "Mathok Majok",
-          "team": "New Orleans"
-        }
-      ]
-    },
-    {
-      "gameId": 210270,
-      "gameSourceId": "401808901",
-      "gameStartDate": "2025-12-13T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 41636711,
       "sourceId": "401808901115816170",
       "playType": "MadeFreeThrow",
@@ -18824,9 +18718,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41636716,
-      "sourceId": "401808901115816500",
-      "playType": "MadeFreeThrow",
+      "id": 41636705,
+      "sourceId": "401808901115815914",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -18836,17 +18730,17 @@
       "opponent": "New Orleans",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 18,
+      "homeScore": 14,
       "awayScore": 6,
-      "homeWinProbability": 0.927,
+      "homeWinProbability": 0.832,
       "period": 1,
-      "clock": "12:29",
-      "secondsRemaining": 749,
+      "clock": "12:44",
+      "secondsRemaining": 764,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-13T20:22:08.000Z",
-      "playText": "Kingston Flemings made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-13T20:20:10.000Z",
+      "playText": "Kingston Flemings made Jumper.",
       "participants": [
         {
           "id": 199596,
@@ -18859,15 +18753,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 65.8,
+          "y": 135
         }
       },
       "onFloor": [
@@ -18897,19 +18791,19 @@
           "team": "Houston"
         },
         {
-          "id": 200897,
-          "name": "Kedrick Osby",
-          "team": "New Orleans"
-        },
-        {
-          "id": 120,
-          "name": "Mercy Miller",
-          "team": "Houston"
-        },
-        {
           "id": 4896,
           "name": "Coleton Benson",
           "team": "New Orleans"
+        },
+        {
+          "id": 6116,
+          "name": "Jakevion Buckley",
+          "team": "New Orleans"
+        },
+        {
+          "id": 115,
+          "name": "Emanuel Sharp",
+          "team": "Houston"
         },
         {
           "id": 121,
@@ -19042,8 +18936,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41636724,
-      "sourceId": "401808901115817235",
+      "id": 41636716,
+      "sourceId": "401808901115816500",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -19054,16 +18948,16 @@
       "opponent": "New Orleans",
       "opponentConference": "Southland",
       "opponentSeed": null,
-      "homeScore": 19,
+      "homeScore": 18,
       "awayScore": 6,
-      "homeWinProbability": 0.934,
+      "homeWinProbability": 0.927,
       "period": 1,
-      "clock": "12:03",
-      "secondsRemaining": 723,
+      "clock": "12:29",
+      "secondsRemaining": 749,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T20:24:31.000Z",
+      "wallclock": "2025-12-13T20:22:08.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -19171,6 +19065,113 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2025-12-13T20:24:46.000Z",
+      "playText": "Kingston Flemings made Free Throw.",
+      "participants": [
+        {
+          "id": 199596,
+          "name": "Kingston Flemings"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199596,
+          "name": "Kingston Flemings"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 199597,
+          "name": "Isiah Harwell",
+          "team": "Houston"
+        },
+        {
+          "id": 200898,
+          "name": "Panagiotis Pagonis",
+          "team": "New Orleans"
+        },
+        {
+          "id": 199596,
+          "name": "Kingston Flemings",
+          "team": "Houston"
+        },
+        {
+          "id": 7603,
+          "name": "MJ Thomas",
+          "team": "New Orleans"
+        },
+        {
+          "id": 117,
+          "name": "Cedric Lath",
+          "team": "Houston"
+        },
+        {
+          "id": 200897,
+          "name": "Kedrick Osby",
+          "team": "New Orleans"
+        },
+        {
+          "id": 120,
+          "name": "Mercy Miller",
+          "team": "Houston"
+        },
+        {
+          "id": 4896,
+          "name": "Coleton Benson",
+          "team": "New Orleans"
+        },
+        {
+          "id": 121,
+          "name": "Ramon Walker Jr.",
+          "team": "Houston"
+        },
+        {
+          "id": 8294,
+          "name": "Mathok Majok",
+          "team": "New Orleans"
+        }
+      ]
+    },
+    {
+      "gameId": 210270,
+      "gameSourceId": "401808901",
+      "gameStartDate": "2025-12-13T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 41636724,
+      "sourceId": "401808901115817235",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 113,
+      "team": "Houston",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 193,
+      "opponent": "New Orleans",
+      "opponentConference": "Southland",
+      "opponentSeed": null,
+      "homeScore": 19,
+      "awayScore": 6,
+      "homeWinProbability": 0.934,
+      "period": 1,
+      "clock": "12:03",
+      "secondsRemaining": 723,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-13T20:24:31.000Z",
       "playText": "Kingston Flemings made Free Throw.",
       "participants": [
         {
@@ -20453,8 +20454,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42268949,
-      "sourceId": "401820294116211745",
+      "id": 42268941,
+      "sourceId": "401820294116211696",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -20466,16 +20467,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 11,
-      "awayScore": 15,
-      "homeWinProbability": 0.485,
+      "awayScore": 14,
+      "homeWinProbability": 0.526,
       "period": 1,
       "clock": "14:20",
       "secondsRemaining": 860,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T22:57:27.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2025-12-20T22:57:03.000Z",
+      "playText": "Kingston Flemings misses free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -20487,7 +20488,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20560,8 +20561,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42268941,
-      "sourceId": "401820294116211696",
+      "id": 42268949,
+      "sourceId": "401820294116211745",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -20573,16 +20574,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 11,
-      "awayScore": 14,
-      "homeWinProbability": 0.526,
+      "awayScore": 15,
+      "homeWinProbability": 0.485,
       "period": 1,
       "clock": "14:20",
       "secondsRemaining": 860,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-20T22:57:03.000Z",
-      "playText": "Kingston Flemings misses free throw 1 of 2",
+      "wallclock": "2025-12-20T22:57:27.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -20594,7 +20595,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -21646,8 +21647,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42269148,
-      "sourceId": "401820294116219593",
+      "id": 42269147,
+      "sourceId": "401820294116219585",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -21659,16 +21660,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 55,
-      "homeWinProbability": 0.182,
+      "awayScore": 54,
+      "homeWinProbability": 0.218,
       "period": 2,
       "clock": "17:45",
       "secondsRemaining": 1065,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T00:01:31.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2025-12-21T00:01:20.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -21753,8 +21754,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42269147,
-      "sourceId": "401820294116219585",
+      "id": 42269148,
+      "sourceId": "401820294116219593",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -21766,16 +21767,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 45,
-      "awayScore": 54,
-      "homeWinProbability": 0.218,
+      "awayScore": 55,
+      "homeWinProbability": 0.182,
       "period": 2,
       "clock": "17:45",
       "secondsRemaining": 1065,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T00:01:20.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2025-12-21T00:01:31.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -24127,8 +24128,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42781555,
-      "sourceId": "401823001116478056",
+      "id": 42781558,
+      "sourceId": "401823001116478197",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -24139,17 +24140,17 @@
       "opponent": "Middle Tennessee",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 37,
-      "homeWinProbability": 0.781,
+      "homeWinProbability": 0.814,
       "period": 2,
       "clock": "14:06",
       "secondsRemaining": 846,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T02:20:04.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2025-12-30T02:20:24.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -24234,8 +24235,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42781558,
-      "sourceId": "401823001116478197",
+      "id": 42781555,
+      "sourceId": "401823001116478056",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -24246,17 +24247,17 @@
       "opponent": "Middle Tennessee",
       "opponentConference": "CUSA",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 37,
-      "homeWinProbability": 0.814,
+      "homeWinProbability": 0.781,
       "period": 2,
       "clock": "14:06",
       "secondsRemaining": 846,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-30T02:20:24.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2025-12-30T02:20:04.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -30496,8 +30497,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43561118,
-      "sourceId": "401827600116906862",
+      "id": 43561120,
+      "sourceId": "401827600116906894",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -30508,17 +30509,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 35,
-      "homeWinProbability": 0.724,
+      "homeWinProbability": 0.731,
       "period": 2,
       "clock": "15:40",
       "secondsRemaining": 940,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T03:40:30.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-07T03:40:44.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -30603,8 +30604,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43561120,
-      "sourceId": "401827600116906894",
+      "id": 43561118,
+      "sourceId": "401827600116906862",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -30615,17 +30616,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 35,
-      "homeWinProbability": 0.731,
+      "homeWinProbability": 0.724,
       "period": 2,
       "clock": "15:40",
       "secondsRemaining": 940,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T03:40:44.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-07T03:40:30.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -31578,8 +31579,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43561396,
-      "sourceId": "401827600116908604",
+      "id": 43561398,
+      "sourceId": "401827600116908614",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -31596,11 +31597,11 @@
       "period": 2,
       "clock": "0:11",
       "secondsRemaining": 11,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T04:26:14.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-07T04:26:31.000Z",
+      "playText": "Kingston Flemings misses free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -31612,7 +31613,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -31685,8 +31686,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43561398,
-      "sourceId": "401827600116908614",
+      "id": 43561396,
+      "sourceId": "401827600116908604",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -31703,11 +31704,11 @@
       "period": 2,
       "clock": "0:11",
       "secondsRemaining": 11,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T04:26:31.000Z",
-      "playText": "Kingston Flemings misses free throw 2 of 2",
+      "wallclock": "2026-01-07T04:26:14.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -31719,7 +31720,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -37654,9 +37655,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44813317,
-      "sourceId": "401827631117607547",
-      "playType": "LayUpShot",
+      "id": 44813323,
+      "sourceId": "401827631117607554",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -37666,7 +37667,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 50,
       "homeWinProbability": 1,
       "period": 2,
@@ -37674,9 +37675,9 @@
       "secondsRemaining": 722,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-19T00:54:28.000Z",
-      "playText": "Kingston Flemings makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-19T00:55:18.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 1",
       "participants": [
         {
           "id": 199596,
@@ -37689,15 +37690,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 855.4,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37761,9 +37762,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44813323,
-      "sourceId": "401827631117607554",
-      "playType": "MadeFreeThrow",
+      "id": 44813317,
+      "sourceId": "401827631117607547",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -37773,7 +37774,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 50,
       "homeWinProbability": 1,
       "period": 2,
@@ -37781,9 +37782,9 @@
       "secondsRemaining": 722,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-19T00:55:18.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-19T00:54:28.000Z",
+      "playText": "Kingston Flemings makes driving layup",
       "participants": [
         {
           "id": 199596,
@@ -37796,15 +37797,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 855.4,
+          "y": 280
         }
       },
       "onFloor": [
@@ -38086,8 +38087,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44813388,
-      "sourceId": "401827631117607867",
+      "id": 44813391,
+      "sourceId": "401827631117607870",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -38098,7 +38099,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 83,
+      "homeScore": 84,
       "awayScore": 66,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -38107,8 +38108,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-19T01:15:47.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-19T01:16:01.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -38193,8 +38194,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44813391,
-      "sourceId": "401827631117607870",
+      "id": 44813388,
+      "sourceId": "401827631117607867",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -38205,7 +38206,7 @@
       "opponent": "Arizona State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 83,
       "awayScore": 66,
       "homeWinProbability": 0.999,
       "period": 2,
@@ -38214,8 +38215,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-19T01:16:01.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-19T01:15:47.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -39493,8 +39494,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231755,
-      "sourceId": "401827646117866812",
+      "id": 45231750,
+      "sourceId": "401827646117866549",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -39506,16 +39507,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 30,
-      "homeWinProbability": 0.342,
+      "awayScore": 29,
+      "homeWinProbability": 0.395,
       "period": 1,
       "clock": "10:43",
       "secondsRemaining": 643,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:25:24.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-24T19:24:57.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -39600,8 +39601,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231750,
-      "sourceId": "401827646117866549",
+      "id": 45231755,
+      "sourceId": "401827646117866812",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -39613,16 +39614,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 23,
-      "awayScore": 29,
-      "homeWinProbability": 0.395,
+      "awayScore": 30,
+      "homeWinProbability": 0.342,
       "period": 1,
       "clock": "10:43",
       "secondsRemaining": 643,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:24:57.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-24T19:25:24.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -40139,8 +40140,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231840,
-      "sourceId": "401827646117877571",
+      "id": 45231839,
+      "sourceId": "401827646117877476",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -40152,16 +40153,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 39,
-      "homeWinProbability": 0.858,
+      "awayScore": 38,
+      "homeWinProbability": 0.89,
       "period": 1,
       "clock": "3:14",
       "secondsRemaining": 194,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:52:26.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-24T19:52:15.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -40246,8 +40247,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231839,
-      "sourceId": "401827646117877476",
+      "id": 45231840,
+      "sourceId": "401827646117877571",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -40259,16 +40260,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 38,
-      "homeWinProbability": 0.89,
+      "awayScore": 39,
+      "homeWinProbability": 0.858,
       "period": 1,
       "clock": "3:14",
       "secondsRemaining": 194,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:52:15.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-24T19:52:26.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -40785,8 +40786,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231864,
-      "sourceId": "401827646117878839",
+      "id": 45231865,
+      "sourceId": "401827646117878894",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -40803,11 +40804,11 @@
       "period": 1,
       "clock": "0:32",
       "secondsRemaining": 32,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:58:21.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-24T19:58:39.000Z",
+      "playText": "Kingston Flemings misses free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -40819,7 +40820,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -40892,8 +40893,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45231865,
-      "sourceId": "401827646117878894",
+      "id": 45231864,
+      "sourceId": "401827646117878839",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -40910,11 +40911,11 @@
       "period": 1,
       "clock": "0:32",
       "secondsRemaining": 32,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T19:58:39.000Z",
-      "playText": "Kingston Flemings misses free throw 2 of 2",
+      "wallclock": "2026-01-24T19:58:21.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -40926,7 +40927,7 @@
           "id": 199596,
           "name": "Kingston Flemings"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45210,8 +45211,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621667,
-      "sourceId": "401827650118053987",
+      "id": 45621670,
+      "sourceId": "401827650118053996",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -45223,16 +45224,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 55,
-      "homeWinProbability": 0.395,
+      "awayScore": 56,
+      "homeWinProbability": 0.315,
       "period": 2,
       "clock": "9:20",
       "secondsRemaining": 560,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T03:53:48.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-29T03:54:04.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -45317,8 +45318,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621670,
-      "sourceId": "401827650118053996",
+      "id": 45621667,
+      "sourceId": "401827650118053987",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -45330,16 +45331,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 56,
-      "homeWinProbability": 0.315,
+      "awayScore": 55,
+      "homeWinProbability": 0.395,
       "period": 2,
       "clock": "9:20",
       "secondsRemaining": 560,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T03:54:04.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-29T03:53:48.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -45535,8 +45536,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621682,
-      "sourceId": "401827650118054187",
+      "id": 45621679,
+      "sourceId": "401827650118054150",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -45548,16 +45549,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 61,
-      "homeWinProbability": 0.225,
+      "awayScore": 60,
+      "homeWinProbability": 0.241,
       "period": 2,
       "clock": "8:11",
       "secondsRemaining": 491,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T03:56:59.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-29T03:56:41.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -45642,8 +45643,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621679,
-      "sourceId": "401827650118054150",
+      "id": 45621682,
+      "sourceId": "401827650118054187",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -45655,16 +45656,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 60,
-      "homeWinProbability": 0.241,
+      "awayScore": 61,
+      "homeWinProbability": 0.225,
       "period": 2,
       "clock": "8:11",
       "secondsRemaining": 491,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T03:56:41.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-29T03:56:59.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -45856,8 +45857,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621716,
-      "sourceId": "401827650118054602",
+      "id": 45621717,
+      "sourceId": "401827650118054608",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -45869,16 +45870,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 63,
-      "homeWinProbability": 0.08,
+      "awayScore": 64,
+      "homeWinProbability": 0.043,
       "period": 2,
       "clock": "5:26",
       "secondsRemaining": 326,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T04:06:35.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-29T04:06:50.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -45963,8 +45964,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621717,
-      "sourceId": "401827650118054608",
+      "id": 45621716,
+      "sourceId": "401827650118054602",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -45976,16 +45977,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 54,
-      "awayScore": 64,
-      "homeWinProbability": 0.043,
+      "awayScore": 63,
+      "homeWinProbability": 0.08,
       "period": 2,
       "clock": "5:26",
       "secondsRemaining": 326,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T04:06:50.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-29T04:06:35.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -46288,8 +46289,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621791,
-      "sourceId": "401827650118055484",
+      "id": 45621794,
+      "sourceId": "401827650118055493",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -46301,16 +46302,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 76,
-      "homeWinProbability": 0.005,
+      "awayScore": 77,
+      "homeWinProbability": 0.003,
       "period": 2,
       "clock": "0:44",
       "secondsRemaining": 44,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T04:29:16.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-29T04:29:31.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -46395,8 +46396,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45621794,
-      "sourceId": "401827650118055493",
+      "id": 45621791,
+      "sourceId": "401827650118055484",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -46408,16 +46409,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 77,
-      "homeWinProbability": 0.003,
+      "awayScore": 76,
+      "homeWinProbability": 0.005,
       "period": 2,
       "clock": "0:44",
       "secondsRemaining": 44,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-29T04:29:31.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-29T04:29:16.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -47148,8 +47149,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45807625,
-      "sourceId": "401827654118160893",
+      "id": 45807626,
+      "sourceId": "401827654118160897",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -47160,17 +47161,17 @@
       "opponent": "Cincinnati",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 13,
+      "homeScore": 14,
       "awayScore": 8,
-      "homeWinProbability": 0.769,
+      "homeWinProbability": 0.787,
       "period": 1,
       "clock": "10:58",
       "secondsRemaining": 658,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T17:22:02.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-01-31T17:22:14.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -47255,8 +47256,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45807626,
-      "sourceId": "401827654118160897",
+      "id": 45807625,
+      "sourceId": "401827654118160893",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -47267,17 +47268,17 @@
       "opponent": "Cincinnati",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 13,
       "awayScore": 8,
-      "homeWinProbability": 0.787,
+      "homeWinProbability": 0.769,
       "period": 1,
       "clock": "10:58",
       "secondsRemaining": 658,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T17:22:14.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-01-31T17:22:02.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -51809,8 +51810,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46566584,
-      "sourceId": "401827666118674284",
+      "id": 46566587,
+      "sourceId": "401827666118674288",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -51822,16 +51823,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 34,
-      "homeWinProbability": 0.366,
+      "awayScore": 35,
+      "homeWinProbability": 0.339,
       "period": 1,
       "clock": "0:42",
       "secondsRemaining": 42,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T04:30:54.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-02-08T04:31:13.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -51916,8 +51917,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46566587,
-      "sourceId": "401827666118674288",
+      "id": 46566584,
+      "sourceId": "401827666118674284",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -51929,16 +51930,16 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 29,
-      "awayScore": 35,
-      "homeWinProbability": 0.339,
+      "awayScore": 34,
+      "homeWinProbability": 0.366,
       "period": 1,
       "clock": "0:42",
       "secondsRemaining": 42,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-08T04:31:13.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-02-08T04:30:54.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -57096,113 +57097,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47071301,
-      "sourceId": "401827681118986712",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 113,
-      "team": "Houston",
-      "conference": "Big 12",
-      "teamSeed": null,
-      "opponentId": 132,
-      "opponent": "Kansas State",
-      "opponentConference": "Big 12",
-      "opponentSeed": null,
-      "homeScore": 70,
-      "awayScore": 54,
-      "homeWinProbability": 0.999,
-      "period": 2,
-      "clock": "3:29",
-      "secondsRemaining": 209,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-14T22:58:16.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 199596,
-          "name": "Kingston Flemings"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 199596,
-          "name": "Kingston Flemings"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 199596,
-          "name": "Kingston Flemings",
-          "team": "Houston"
-        },
-        {
-          "id": 199595,
-          "name": "Chris Cenac Jr.",
-          "team": "Houston"
-        },
-        {
-          "id": 7615,
-          "name": "Taj Manning",
-          "team": "Kansas State"
-        },
-        {
-          "id": 7612,
-          "name": "C.J. Jones",
-          "team": "Kansas State"
-        },
-        {
-          "id": 199597,
-          "name": "Isiah Harwell",
-          "team": "Houston"
-        },
-        {
-          "id": 112,
-          "name": "Joseph Tugler",
-          "team": "Houston"
-        },
-        {
-          "id": 5514,
-          "name": "P.J. Haggerty",
-          "team": "Kansas State"
-        },
-        {
-          "id": 4966,
-          "name": "Nate Johnson",
-          "team": "Kansas State"
-        },
-        {
-          "id": 7618,
-          "name": "David Castillo",
-          "team": "Kansas State"
-        },
-        {
-          "id": 114,
-          "name": "Milos Uzan",
-          "team": "Houston"
-        }
-      ]
-    },
-    {
-      "gameId": 214906,
-      "gameSourceId": "401827681",
-      "gameStartDate": "2026-02-14T21:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47071306,
       "sourceId": "401827681118986758",
       "playType": "MadeFreeThrow",
@@ -57310,8 +57204,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47071325,
-      "sourceId": "401827681118987577",
+      "id": 47071301,
+      "sourceId": "401827681118986712",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -57322,7 +57216,114 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 70,
+      "awayScore": 54,
+      "homeWinProbability": 0.999,
+      "period": 2,
+      "clock": "3:29",
+      "secondsRemaining": 209,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-14T22:58:16.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 199596,
+          "name": "Kingston Flemings"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 199596,
+          "name": "Kingston Flemings"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 199596,
+          "name": "Kingston Flemings",
+          "team": "Houston"
+        },
+        {
+          "id": 199595,
+          "name": "Chris Cenac Jr.",
+          "team": "Houston"
+        },
+        {
+          "id": 7615,
+          "name": "Taj Manning",
+          "team": "Kansas State"
+        },
+        {
+          "id": 7612,
+          "name": "C.J. Jones",
+          "team": "Kansas State"
+        },
+        {
+          "id": 199597,
+          "name": "Isiah Harwell",
+          "team": "Houston"
+        },
+        {
+          "id": 112,
+          "name": "Joseph Tugler",
+          "team": "Houston"
+        },
+        {
+          "id": 5514,
+          "name": "P.J. Haggerty",
+          "team": "Kansas State"
+        },
+        {
+          "id": 4966,
+          "name": "Nate Johnson",
+          "team": "Kansas State"
+        },
+        {
+          "id": 7618,
+          "name": "David Castillo",
+          "team": "Kansas State"
+        },
+        {
+          "id": 114,
+          "name": "Milos Uzan",
+          "team": "Houston"
+        }
+      ]
+    },
+    {
+      "gameId": 214906,
+      "gameSourceId": "401827681",
+      "gameStartDate": "2026-02-14T21:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47071326,
+      "sourceId": "401827681118987662",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 113,
+      "team": "Houston",
+      "conference": "Big 12",
+      "teamSeed": null,
+      "opponentId": 132,
+      "opponent": "Kansas State",
+      "opponentConference": "Big 12",
+      "opponentSeed": null,
+      "homeScore": 73,
       "awayScore": 54,
       "homeWinProbability": 1,
       "period": 2,
@@ -57331,8 +57332,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T23:02:11.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-02-14T23:02:26.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -57417,8 +57418,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47071326,
-      "sourceId": "401827681118987662",
+      "id": 47071325,
+      "sourceId": "401827681118987577",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -57429,7 +57430,7 @@
       "opponent": "Kansas State",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 54,
       "homeWinProbability": 1,
       "period": 2,
@@ -57438,8 +57439,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T23:02:26.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-02-14T23:02:11.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -60128,9 +60129,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47783069,
-      "sourceId": "401827695119311186",
-      "playType": "MadeFreeThrow",
+      "id": 47783067,
+      "sourceId": "401827695119311020",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -60140,17 +60141,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 28,
       "awayScore": 34,
-      "homeWinProbability": 0.366,
+      "homeWinProbability": 0.363,
       "period": 1,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T21:01:27.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-21T21:00:51.000Z",
+      "playText": "Kingston Flemings makes driving layup",
       "participants": [
         {
           "id": 199596,
@@ -60163,15 +60164,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 245
         }
       },
       "onFloor": [
@@ -60235,9 +60236,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47783067,
-      "sourceId": "401827695119311020",
-      "playType": "LayUpShot",
+      "id": 47783069,
+      "sourceId": "401827695119311186",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -60247,17 +60248,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 29,
       "awayScore": 34,
-      "homeWinProbability": 0.363,
+      "homeWinProbability": 0.366,
       "period": 1,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-21T21:00:51.000Z",
-      "playText": "Kingston Flemings makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T21:01:27.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 1",
       "participants": [
         {
           "id": 199596,
@@ -60270,15 +60271,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 245
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -60774,9 +60775,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47783213,
-      "sourceId": "401827695119321768",
-      "playType": "MadeFreeThrow",
+      "id": 47783205,
+      "sourceId": "401827695119321623",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -60786,17 +60787,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 40,
-      "homeWinProbability": 0.54,
+      "homeWinProbability": 0.531,
       "period": 2,
       "clock": "16:35",
       "secondsRemaining": 995,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-21T21:28:18.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-21T21:27:48.000Z",
+      "playText": "Kingston Flemings makes 13-foot pullup jump shot",
       "participants": [
         {
           "id": 199596,
@@ -60809,15 +60810,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 761.4,
+          "y": 275
         }
       },
       "onFloor": [
@@ -60881,9 +60882,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47783205,
-      "sourceId": "401827695119321623",
-      "playType": "JumpShot",
+      "id": 47783213,
+      "sourceId": "401827695119321768",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
       "team": "Houston",
@@ -60893,17 +60894,17 @@
       "opponent": "Arizona",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 39,
       "awayScore": 40,
-      "homeWinProbability": 0.531,
+      "homeWinProbability": 0.54,
       "period": 2,
       "clock": "16:35",
       "secondsRemaining": 995,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-21T21:27:48.000Z",
-      "playText": "Kingston Flemings makes 13-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-02-21T21:28:18.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 1",
       "participants": [
         {
           "id": 199596,
@@ -60916,15 +60917,15 @@
           "name": "Kingston Flemings"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 761.4,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -62613,8 +62614,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47957639,
-      "sourceId": "401820820119434511",
+      "id": 47957646,
+      "sourceId": "401820820119434540",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -62626,7 +62627,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 12,
+      "awayScore": 13,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:27",
@@ -62634,8 +62635,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-24T02:26:25.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-02-24T02:26:49.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -62720,8 +62721,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47957646,
-      "sourceId": "401820820119434540",
+      "id": 47957639,
+      "sourceId": "401820820119434511",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -62733,7 +62734,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 13,
+      "awayScore": 12,
       "homeWinProbability": null,
       "period": 1,
       "clock": "12:27",
@@ -62741,8 +62742,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-24T02:26:49.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-02-24T02:26:25.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -66176,8 +66177,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48298683,
-      "sourceId": "401827711119626147",
+      "id": 48298684,
+      "sourceId": "401827711119626154",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -66188,7 +66189,7 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 50,
       "homeWinProbability": null,
       "period": 2,
@@ -66197,8 +66198,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T18:29:57.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-02-28T18:30:12.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -66283,8 +66284,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48298684,
-      "sourceId": "401827711119626154",
+      "id": 48298683,
+      "sourceId": "401827711119626147",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -66295,7 +66296,7 @@
       "opponent": "Colorado",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 50,
       "homeWinProbability": null,
       "period": 2,
@@ -66304,8 +66305,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-28T18:30:12.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-02-28T18:29:57.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -67476,8 +67477,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713129,
-      "sourceId": "401827721119885342",
+      "id": 48713128,
+      "sourceId": "401827721119885338",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -67488,7 +67489,7 @@
       "opponent": "Baylor",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 23,
+      "homeScore": 22,
       "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
@@ -67497,8 +67498,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T02:46:58.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-03-05T02:46:43.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -67583,8 +67584,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48713128,
-      "sourceId": "401827721119885338",
+      "id": 48713129,
+      "sourceId": "401827721119885342",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -67595,7 +67596,7 @@
       "opponent": "Baylor",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 23,
       "awayScore": 29,
       "homeWinProbability": null,
       "period": 1,
@@ -67604,8 +67605,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-05T02:46:43.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-03-05T02:46:58.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -75367,8 +75368,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49432829,
-      "sourceId": "401851305120257223",
+      "id": 49432827,
+      "sourceId": "401851305120257197",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -75379,7 +75380,7 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 32,
       "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
@@ -75388,8 +75389,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:36:02.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 3",
+      "wallclock": "2026-03-14T02:35:51.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 3",
       "participants": [
         {
           "id": 199596,
@@ -75581,8 +75582,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49432827,
-      "sourceId": "401851305120257197",
+      "id": 49432829,
+      "sourceId": "401851305120257223",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -75593,7 +75594,7 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 33,
       "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
@@ -75602,8 +75603,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T02:35:51.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 3",
+      "wallclock": "2026-03-14T02:36:02.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 3",
       "participants": [
         {
           "id": 199596,
@@ -75795,8 +75796,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49432945,
-      "sourceId": "401851305120258367",
+      "id": 49432942,
+      "sourceId": "401851305120258339",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -75807,7 +75808,7 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 25,
       "homeWinProbability": null,
       "period": 2,
@@ -75816,8 +75817,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T03:01:56.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-03-14T03:01:29.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -75902,8 +75903,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49432942,
-      "sourceId": "401851305120258339",
+      "id": 49432945,
+      "sourceId": "401851305120258367",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -75914,7 +75915,7 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 25,
       "homeWinProbability": null,
       "period": 2,
@@ -75923,8 +75924,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T03:01:29.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-03-14T03:01:56.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -77630,8 +77631,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459758,
-      "sourceId": "401851306120273385",
+      "id": 49459753,
+      "sourceId": "401851306120273366",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -77643,7 +77644,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 31,
+      "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:07",
@@ -77651,8 +77652,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T22:54:11.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-03-14T22:53:48.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -77737,8 +77738,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49459753,
-      "sourceId": "401851306120273366",
+      "id": 49459758,
+      "sourceId": "401851306120273385",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 113,
@@ -77750,7 +77751,7 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 30,
+      "awayScore": 31,
       "homeWinProbability": null,
       "period": 1,
       "clock": "4:07",
@@ -77758,8 +77759,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T22:53:48.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-03-14T22:54:11.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -79362,8 +79363,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49545837,
-      "sourceId": "401856493120315955",
+      "id": 49545836,
+      "sourceId": "401856493120315949",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -79374,7 +79375,7 @@
       "opponent": "Idaho",
       "opponentConference": "Big Sky",
       "opponentSeed": 15,
-      "homeScore": 9,
+      "homeScore": 8,
       "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
@@ -79383,8 +79384,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T02:26:33.000Z",
-      "playText": "Kingston Flemings makes free throw 2 of 2",
+      "wallclock": "2026-03-20T02:26:20.000Z",
+      "playText": "Kingston Flemings makes free throw 1 of 2",
       "participants": [
         {
           "id": 199596,
@@ -79469,8 +79470,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49545836,
-      "sourceId": "401856493120315949",
+      "id": 49545837,
+      "sourceId": "401856493120315955",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 113,
@@ -79481,7 +79482,7 @@
       "opponent": "Idaho",
       "opponentConference": "Big Sky",
       "opponentSeed": 15,
-      "homeScore": 8,
+      "homeScore": 9,
       "awayScore": 10,
       "homeWinProbability": null,
       "period": 1,
@@ -79490,8 +79491,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-20T02:26:20.000Z",
-      "playText": "Kingston Flemings makes free throw 1 of 2",
+      "wallclock": "2026-03-20T02:26:33.000Z",
+      "playText": "Kingston Flemings makes free throw 2 of 2",
       "participants": [
         {
           "id": 199596,
@@ -85726,70 +85727,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 0.96,
-        "percentile": 79.2,
-        "freqPer100": 27.2
-      },
-      "attackKick": {
-        "ppp": 1.02,
-        "percentile": 68.7,
-        "freqPer100": 19.8
-      },
-      "perimeterSniper": {
-        "ppp": 1.19,
-        "percentile": 91.8,
-        "freqPer100": 5
-      },
-      "dribbleJumper": {
-        "ppp": 1.09,
-        "percentile": 89.2,
-        "freqPer100": 4.2
-      },
-      "midRange": {
-        "ppp": 0.91,
-        "percentile": 84.4,
-        "freqPer100": 9.2
-      },
-      "hitsCutter": {
-        "ppp": 1.3,
-        "percentile": 98.9,
-        "freqPer100": 1.8
-      },
-      "perimeterCut": {
-        "ppp": 1.4,
-        "percentile": 89.6,
-        "freqPer100": 2.5
-      },
-      "pnrPasser": {
-        "ppp": 1.22,
-        "percentile": 96,
-        "freqPer100": 10.4
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 0.89,
-        "percentile": 69,
-        "freqPer100": 2.7
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.37,
-        "percentile": 79.9,
-        "freqPer100": 4
-      },
-      "transition": {
-        "ppp": 1.37,
-        "percentile": 79.1,
-        "freqPer100": 13.3
       }
     }
   }

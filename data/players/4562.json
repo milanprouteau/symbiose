@@ -243,7 +243,8 @@
     "jersey": "3",
     "position": "Guard",
     "height": 72,
-    "weight": 173,
+    "weight": 167,
+    "wingspan": null,
     "hometown": {
       "city": "Brentwood",
       "state": "TN"
@@ -1152,8 +1153,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37631986,
-      "sourceId": "401824946113671024",
+      "id": 37631982,
+      "sourceId": "401824946113670748",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -1164,7 +1165,7 @@
       "opponent": "Lipscomb",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 79,
+      "homeScore": 78,
       "awayScore": 42,
       "homeWinProbability": 1,
       "period": 2,
@@ -1173,7 +1174,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:25:57.000Z",
+      "wallclock": "2025-11-04T02:25:33.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -1259,8 +1260,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 37631982,
-      "sourceId": "401824946113670748",
+      "id": 37631986,
+      "sourceId": "401824946113671024",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -1271,7 +1272,7 @@
       "opponent": "Lipscomb",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 79,
       "awayScore": 42,
       "homeWinProbability": 1,
       "period": 2,
@@ -1280,7 +1281,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-04T02:25:33.000Z",
+      "wallclock": "2025-11-04T02:25:57.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -3228,8 +3229,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38378754,
-      "sourceId": "401824824113984205",
+      "id": 38378753,
+      "sourceId": "401824824113984128",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -3241,15 +3242,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 82,
-      "homeWinProbability": 0.004,
+      "awayScore": 81,
+      "homeWinProbability": 0.003,
       "period": 2,
       "clock": "7:53",
       "secondsRemaining": 473,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T22:44:41.000Z",
+      "wallclock": "2025-11-08T22:44:24.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -3335,8 +3336,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38378753,
-      "sourceId": "401824824113984128",
+      "id": 38378754,
+      "sourceId": "401824824113984205",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -3348,15 +3349,15 @@
       "opponentConference": "Big 12",
       "opponentSeed": null,
       "homeScore": 63,
-      "awayScore": 81,
-      "homeWinProbability": 0.003,
+      "awayScore": 82,
+      "homeWinProbability": 0.004,
       "period": 2,
       "clock": "7:53",
       "secondsRemaining": 473,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-08T22:44:24.000Z",
+      "wallclock": "2025-11-08T22:44:41.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -8115,9 +8116,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39654563,
-      "sourceId": "401827006114667942",
-      "playType": "LayUpShot",
+      "id": 39654565,
+      "sourceId": "401827006114668020",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -8133,11 +8134,11 @@
       "period": 1,
       "clock": "0:02",
       "secondsRemaining": 2,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-21T00:50:25.000Z",
-      "playText": "Tyler Tanner made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-21T00:50:59.000Z",
+      "playText": "Tyler Tanner missed Free Throw.",
       "participants": [
         {
           "id": 4562,
@@ -8149,16 +8150,16 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -8222,9 +8223,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39654565,
-      "sourceId": "401827006114668020",
-      "playType": "MadeFreeThrow",
+      "id": 39654563,
+      "sourceId": "401827006114667942",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -8240,11 +8241,11 @@
       "period": 1,
       "clock": "0:02",
       "secondsRemaining": 2,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-21T00:50:59.000Z",
-      "playText": "Tyler Tanner missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-21T00:50:25.000Z",
+      "playText": "Tyler Tanner made Layup.",
       "participants": [
         {
           "id": 4562,
@@ -8256,16 +8257,16 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 225
         }
       },
       "onFloor": [
@@ -9209,8 +9210,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39654756,
-      "sourceId": "401827006114683387",
+      "id": 39654760,
+      "sourceId": "401827006114683538",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -9221,7 +9222,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 94,
+      "homeScore": 96,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -9230,7 +9231,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T01:43:17.000Z",
+      "wallclock": "2025-11-21T01:43:56.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -9423,8 +9424,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39654760,
-      "sourceId": "401827006114683538",
+      "id": 39654756,
+      "sourceId": "401827006114683387",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -9435,7 +9436,7 @@
       "opponent": "Texas Southern",
       "opponentConference": "SWAC",
       "opponentSeed": null,
-      "homeScore": 96,
+      "homeScore": 94,
       "awayScore": 58,
       "homeWinProbability": 1,
       "period": 2,
@@ -9444,7 +9445,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-21T01:43:56.000Z",
+      "wallclock": "2025-11-21T01:43:17.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -10934,8 +10935,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40444613,
-      "sourceId": "401830752115085344",
+      "id": 40444612,
+      "sourceId": "401830752115085340",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -10952,11 +10953,11 @@
       "period": 2,
       "clock": "7:50",
       "secondsRemaining": 470,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T19:03:56.000Z",
-      "playText": "Tyler Tanner missed Free Throw.",
+      "wallclock": "2025-11-27T19:03:40.000Z",
+      "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
           "id": 4562,
@@ -10968,7 +10969,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11051,8 +11052,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 40444612,
-      "sourceId": "401830752115085340",
+      "id": 40444613,
+      "sourceId": "401830752115085344",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -11069,11 +11070,11 @@
       "period": 2,
       "clock": "7:50",
       "secondsRemaining": 470,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-27T19:03:40.000Z",
-      "playText": "Tyler Tanner made Free Throw.",
+      "wallclock": "2025-11-27T19:03:56.000Z",
+      "playText": "Tyler Tanner missed Free Throw.",
       "participants": [
         {
           "id": 4562,
@@ -11085,7 +11086,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -16197,8 +16198,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41742493,
-      "sourceId": "401824940115861008",
+      "id": 41742494,
+      "sourceId": "401824940115861018",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -16209,16 +16210,16 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 50,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "7:46",
       "secondsRemaining": 466,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T01:13:39.000Z",
+      "wallclock": "2025-12-14T01:13:56.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -16304,8 +16305,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41742494,
-      "sourceId": "401824940115861018",
+      "id": 41742493,
+      "sourceId": "401824940115861008",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -16316,16 +16317,16 @@
       "opponent": "Central Arkansas",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 50,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "7:46",
       "secondsRemaining": 466,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-14T01:13:56.000Z",
+      "wallclock": "2025-12-14T01:13:39.000Z",
       "playText": "Tyler Tanner made Free Throw.",
       "participants": [
         {
@@ -18361,113 +18362,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42011094,
-      "sourceId": "401826799116043811",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 336,
-      "team": "Vanderbilt",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 163,
-      "opponent": "Memphis",
-      "opponentConference": "American",
-      "opponentSeed": null,
-      "homeScore": 52,
-      "awayScore": 55,
-      "homeWinProbability": 0.317,
-      "period": 2,
-      "clock": "3:55",
-      "secondsRemaining": 235,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-18T02:01:43.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
-      "participants": [
-        {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7616,
-          "name": "Dug McDaniel",
-          "team": "Memphis"
-        },
-        {
-          "id": 5672,
-          "name": "Frankie Collins",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 418,
-          "name": "Aaron Bradshaw",
-          "team": "Memphis"
-        },
-        {
-          "id": 4555,
-          "name": "Devin McGlockton",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 1125,
-          "name": "Quante Berry",
-          "team": "Memphis"
-        },
-        {
-          "id": 1281,
-          "name": "Sincere Parker",
-          "team": "Memphis"
-        },
-        {
-          "id": 5562,
-          "name": "Hasan Abdul Hakim",
-          "team": "Memphis"
-        },
-        {
-          "id": 6235,
-          "name": "Duke Miles",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        }
-      ]
-    },
-    {
-      "gameId": 214013,
-      "gameSourceId": "401826799",
-      "gameStartDate": "2025-12-18T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 42011091,
       "sourceId": "401826799116042892",
       "playType": "LayUpShot",
@@ -18579,8 +18473,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42011133,
-      "sourceId": "401826799116046847",
+      "id": 42011094,
+      "sourceId": "401826799116043811",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -18591,17 +18485,17 @@
       "opponent": "Memphis",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 59,
-      "awayScore": 62,
-      "homeWinProbability": 0.088,
+      "homeScore": 52,
+      "awayScore": 55,
+      "homeWinProbability": 0.317,
       "period": 2,
-      "clock": "0:34",
-      "secondsRemaining": 34,
+      "clock": "3:55",
+      "secondsRemaining": 235,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T02:14:02.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2025-12-18T02:01:43.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -18793,8 +18687,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42011161,
-      "sourceId": "401826799116048706",
+      "id": 42011133,
+      "sourceId": "401826799116046847",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -18805,17 +18699,17 @@
       "opponent": "Memphis",
       "opponentConference": "American",
       "opponentSeed": null,
-      "homeScore": 66,
-      "awayScore": 65,
-      "homeWinProbability": 0.624,
-      "period": 3,
-      "clock": "3:41",
-      "secondsRemaining": 221,
-      "scoringPlay": false,
+      "homeScore": 59,
+      "awayScore": 62,
+      "homeWinProbability": 0.088,
+      "period": 2,
+      "clock": "0:34",
+      "secondsRemaining": 34,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T02:22:15.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 2",
+      "wallclock": "2025-12-18T02:14:02.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -18827,7 +18721,114 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7616,
+          "name": "Dug McDaniel",
+          "team": "Memphis"
+        },
+        {
+          "id": 5672,
+          "name": "Frankie Collins",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 418,
+          "name": "Aaron Bradshaw",
+          "team": "Memphis"
+        },
+        {
+          "id": 4555,
+          "name": "Devin McGlockton",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 1125,
+          "name": "Quante Berry",
+          "team": "Memphis"
+        },
+        {
+          "id": 1281,
+          "name": "Sincere Parker",
+          "team": "Memphis"
+        },
+        {
+          "id": 5562,
+          "name": "Hasan Abdul Hakim",
+          "team": "Memphis"
+        },
+        {
+          "id": 6235,
+          "name": "Duke Miles",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        }
+      ]
+    },
+    {
+      "gameId": 214013,
+      "gameSourceId": "401826799",
+      "gameStartDate": "2025-12-18T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 42011163,
+      "sourceId": "401826799116048731",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 336,
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 163,
+      "opponent": "Memphis",
+      "opponentConference": "American",
+      "opponentSeed": null,
+      "homeScore": 66,
+      "awayScore": 66,
+      "homeWinProbability": 0.542,
+      "period": 3,
+      "clock": "3:41",
+      "secondsRemaining": 221,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2025-12-18T02:22:32.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -18900,8 +18901,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42011163,
-      "sourceId": "401826799116048731",
+      "id": 42011161,
+      "sourceId": "401826799116048706",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -18913,16 +18914,16 @@
       "opponentConference": "American",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 66,
-      "homeWinProbability": 0.542,
+      "awayScore": 65,
+      "homeWinProbability": 0.624,
       "period": 3,
       "clock": "3:41",
       "secondsRemaining": 221,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-18T02:22:32.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2025-12-18T02:22:15.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -18934,7 +18935,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -26827,8 +26828,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43201717,
-      "sourceId": "401808148116751885",
+      "id": 43201716,
+      "sourceId": "401808148116751844",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -26840,16 +26841,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 83,
-      "homeWinProbability": null,
+      "awayScore": 82,
+      "homeWinProbability": 0.001,
       "period": 2,
       "clock": "0:33",
       "secondsRemaining": 33,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:58:14.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-03T20:58:01.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -26934,8 +26935,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43201716,
-      "sourceId": "401808148116751844",
+      "id": 43201717,
+      "sourceId": "401808148116751885",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -26947,16 +26948,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 71,
-      "awayScore": 82,
-      "homeWinProbability": 0.001,
+      "awayScore": 83,
+      "homeWinProbability": null,
       "period": 2,
       "clock": "0:33",
       "secondsRemaining": 33,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T20:58:01.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-03T20:58:14.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -28995,8 +28996,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43676967,
-      "sourceId": "401808155116962988",
+      "id": 43676963,
+      "sourceId": "401808155116962986",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -29007,17 +29008,17 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 63,
-      "homeWinProbability": 0.899,
+      "homeWinProbability": 0.843,
       "period": 2,
       "clock": "8:39",
       "secondsRemaining": 519,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:03:50.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-08T04:03:39.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -29102,8 +29103,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43676963,
-      "sourceId": "401808155116962986",
+      "id": 43676967,
+      "sourceId": "401808155116962988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -29114,17 +29115,17 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 63,
-      "homeWinProbability": 0.843,
+      "homeWinProbability": 0.899,
       "period": 2,
       "clock": "8:39",
       "secondsRemaining": 519,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:03:39.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-08T04:03:50.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -30180,8 +30181,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43677189,
-      "sourceId": "401808155116963782",
+      "id": 43677166,
+      "sourceId": "401808155116963774",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -30201,8 +30202,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:27:17.000Z",
-      "playText": "Tyler Tanner misses free throw 2 of 2",
+      "wallclock": "2026-01-08T04:26:57.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -30287,8 +30288,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43677166,
-      "sourceId": "401808155116963774",
+      "id": 43677189,
+      "sourceId": "401808155116963782",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -30308,8 +30309,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:26:57.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 2",
+      "wallclock": "2026-01-08T04:27:17.000Z",
+      "playText": "Tyler Tanner misses free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -30822,8 +30823,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43677359,
-      "sourceId": "401808155116964102",
+      "id": 43677346,
+      "sourceId": "401808155116964094",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -30834,17 +30835,17 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 96,
+      "homeScore": 95,
       "awayScore": 90,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.995,
       "period": 2,
       "clock": "0:28",
       "secondsRemaining": 28,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:44:55.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-08T04:44:34.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -30929,8 +30930,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43677346,
-      "sourceId": "401808155116964094",
+      "id": 43677359,
+      "sourceId": "401808155116964102",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -30941,17 +30942,17 @@
       "opponent": "Alabama",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 95,
+      "homeScore": 96,
       "awayScore": 90,
-      "homeWinProbability": 0.995,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "0:28",
       "secondsRemaining": 28,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T04:44:34.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-08T04:44:55.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -31143,9 +31144,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43858761,
-      "sourceId": "401808167117074182",
-      "playType": "MadeFreeThrow",
+      "id": 43858759,
+      "sourceId": "401808167117074083",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -31155,17 +31156,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 2,
-      "homeWinProbability": 0.785,
+      "homeWinProbability": 0.754,
       "period": 1,
       "clock": "17:41",
       "secondsRemaining": 1061,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-10T18:05:57.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-10T18:05:28.000Z",
+      "playText": "Tyler Tanner makes driving layup",
       "participants": [
         {
           "id": 4562,
@@ -31178,15 +31179,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 827.2,
+          "y": 255
         }
       },
       "onFloor": [
@@ -31250,9 +31251,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43858759,
-      "sourceId": "401808167117074083",
-      "playType": "LayUpShot",
+      "id": 43858761,
+      "sourceId": "401808167117074182",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -31262,17 +31263,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 2,
-      "homeWinProbability": 0.754,
+      "homeWinProbability": 0.785,
       "period": 1,
       "clock": "17:41",
       "secondsRemaining": 1061,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-10T18:05:28.000Z",
-      "playText": "Tyler Tanner makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-10T18:05:57.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -31285,15 +31286,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 827.2,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -33517,8 +33518,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859168,
-      "sourceId": "401808167117114351",
+      "id": 43859170,
+      "sourceId": "401808167117114382",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -33529,17 +33530,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 67,
-      "homeWinProbability": 0.979,
+      "homeWinProbability": 0.994,
       "period": 2,
       "clock": "3:52",
       "secondsRemaining": 232,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:51:52.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 2",
+      "wallclock": "2026-01-10T19:52:08.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -33551,7 +33552,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -33624,8 +33625,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43859170,
-      "sourceId": "401808167117114382",
+      "id": 43859168,
+      "sourceId": "401808167117114351",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -33636,17 +33637,17 @@
       "opponent": "LSU",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 67,
-      "homeWinProbability": 0.994,
+      "homeWinProbability": 0.979,
       "period": 2,
       "clock": "3:52",
       "secondsRemaining": 232,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T19:52:08.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-10T19:51:52.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -33658,7 +33659,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -35352,8 +35353,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44307409,
-      "sourceId": "401808176117346237",
+      "id": 44307412,
+      "sourceId": "401808176117346251",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -35365,16 +35366,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 46,
-      "homeWinProbability": 0.882,
+      "awayScore": 47,
+      "homeWinProbability": 0.856,
       "period": 2,
       "clock": "14:00",
       "secondsRemaining": 840,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:23:05.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-15T03:23:23.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -35459,8 +35460,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44307412,
-      "sourceId": "401808176117346251",
+      "id": 44307409,
+      "sourceId": "401808176117346237",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -35472,16 +35473,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 53,
-      "awayScore": 47,
-      "homeWinProbability": 0.856,
+      "awayScore": 46,
+      "homeWinProbability": 0.882,
       "period": 2,
       "clock": "14:00",
       "secondsRemaining": 840,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:23:23.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-15T03:23:05.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -35673,8 +35674,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44307475,
-      "sourceId": "401808176117347427",
+      "id": 44307482,
+      "sourceId": "401808176117347482",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -35686,16 +35687,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 54,
-      "homeWinProbability": 0.894,
+      "awayScore": 55,
+      "homeWinProbability": 0.874,
       "period": 2,
       "clock": "9:21",
       "secondsRemaining": 561,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:39:14.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-15T03:39:36.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -35780,8 +35781,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44307482,
-      "sourceId": "401808176117347482",
+      "id": 44307475,
+      "sourceId": "401808176117347427",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -35793,16 +35794,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 55,
-      "homeWinProbability": 0.874,
+      "awayScore": 54,
+      "homeWinProbability": 0.894,
       "period": 2,
       "clock": "9:21",
       "secondsRemaining": 561,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T03:39:36.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-15T03:39:14.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -36426,9 +36427,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567055,
-      "sourceId": "401808182117459323",
-      "playType": "MadeFreeThrow",
+      "id": 44567040,
+      "sourceId": "401808182117459037",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -36438,17 +36439,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 13,
-      "homeWinProbability": 0.742,
+      "homeWinProbability": 0.721,
       "period": 1,
       "clock": "13:21",
       "secondsRemaining": 801,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T19:25:03.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T19:24:28.000Z",
+      "playText": "Tyler Tanner makes layup",
       "participants": [
         {
           "id": 4562,
@@ -36461,15 +36462,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 260
         }
       },
       "onFloor": [
@@ -36533,9 +36534,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567040,
-      "sourceId": "401808182117459037",
-      "playType": "LayUpShot",
+      "id": 44567055,
+      "sourceId": "401808182117459323",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -36545,17 +36546,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 13,
-      "homeWinProbability": 0.721,
+      "homeWinProbability": 0.742,
       "period": 1,
       "clock": "13:21",
       "secondsRemaining": 801,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T19:24:28.000Z",
-      "playText": "Tyler Tanner makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T19:25:03.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -36568,15 +36569,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36747,9 +36748,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567161,
-      "sourceId": "401808182117466466",
-      "playType": "LayUpShot",
+      "id": 44567172,
+      "sourceId": "401808182117466751",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -36759,17 +36760,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 22,
       "awayScore": 30,
-      "homeWinProbability": 0.283,
+      "homeWinProbability": 0.332,
       "period": 1,
       "clock": "8:55",
       "secondsRemaining": 535,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-17T19:35:58.000Z",
-      "playText": "Tyler Tanner makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-17T19:36:29.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -36782,15 +36783,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 827.2,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -36854,9 +36855,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44567172,
-      "sourceId": "401808182117466751",
-      "playType": "MadeFreeThrow",
+      "id": 44567161,
+      "sourceId": "401808182117466466",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -36866,17 +36867,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 21,
       "awayScore": 30,
-      "homeWinProbability": 0.332,
+      "homeWinProbability": 0.283,
       "period": 1,
       "clock": "8:55",
       "secondsRemaining": 535,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-17T19:36:29.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-17T19:35:58.000Z",
+      "playText": "Tyler Tanner makes driving layup",
       "participants": [
         {
           "id": 4562,
@@ -36889,15 +36890,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 827.2,
+          "y": 255
         }
       },
       "onFloor": [
@@ -40112,8 +40113,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44914886,
-      "sourceId": "401808188117661693",
+      "id": 44914881,
+      "sourceId": "401808188117661658",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -40125,16 +40126,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 49,
-      "homeWinProbability": 0.993,
+      "awayScore": 48,
+      "homeWinProbability": 0.997,
       "period": 2,
       "clock": "11:00",
       "secondsRemaining": 660,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T03:36:55.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-21T03:36:33.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -40219,8 +40220,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44914881,
-      "sourceId": "401808188117661658",
+      "id": 44914886,
+      "sourceId": "401808188117661693",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -40232,16 +40233,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 48,
-      "homeWinProbability": 0.997,
+      "awayScore": 49,
+      "homeWinProbability": 0.993,
       "period": 2,
       "clock": "11:00",
       "secondsRemaining": 660,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-21T03:36:33.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-21T03:36:55.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -45003,8 +45004,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45503793,
-      "sourceId": "401808205117998514",
+      "id": 45503788,
+      "sourceId": "401808205117998505",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -45015,7 +45016,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 19,
       "homeWinProbability": 0.99,
       "period": 1,
@@ -45024,8 +45025,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T02:51:01.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-28T02:50:42.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -45110,8 +45111,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45503788,
-      "sourceId": "401808205117998505",
+      "id": 45503793,
+      "sourceId": "401808205117998514",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -45122,7 +45123,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 19,
       "homeWinProbability": 0.99,
       "period": 1,
@@ -45131,8 +45132,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T02:50:42.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-28T02:51:01.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -45431,8 +45432,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45503842,
-      "sourceId": "401808205117999660",
+      "id": 45503841,
+      "sourceId": "401808205117999595",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -45443,7 +45444,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 47,
+      "homeScore": 46,
       "awayScore": 23,
       "homeWinProbability": 0.998,
       "period": 2,
@@ -45452,8 +45453,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T03:16:03.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-28T03:15:50.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -45538,8 +45539,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45503841,
-      "sourceId": "401808205117999595",
+      "id": 45503842,
+      "sourceId": "401808205117999660",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -45550,7 +45551,7 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 46,
+      "homeScore": 47,
       "awayScore": 23,
       "homeWinProbability": 0.998,
       "period": 2,
@@ -45559,8 +45560,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T03:15:50.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-01-28T03:16:03.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -46180,8 +46181,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45503973,
-      "sourceId": "401808205118000928",
+      "id": 45503977,
+      "sourceId": "401808205118000937",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -46192,17 +46193,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 40,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "8:46",
       "secondsRemaining": 526,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T03:48:29.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 2",
+      "wallclock": "2026-01-28T03:48:50.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -46214,7 +46215,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46287,8 +46288,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45503977,
-      "sourceId": "401808205118000937",
+      "id": 45503973,
+      "sourceId": "401808205118000928",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -46299,17 +46300,17 @@
       "opponent": "Kentucky",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 40,
       "homeWinProbability": 1,
       "period": 2,
       "clock": "8:46",
       "secondsRemaining": 526,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-28T03:48:50.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-01-28T03:48:29.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -46321,7 +46322,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47262,9 +47263,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45868166,
-      "sourceId": "401808210118258671",
-      "playType": "JumpShot",
+      "id": 45868170,
+      "sourceId": "401808210118258845",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 145,
       "team": "Ole Miss",
@@ -47274,17 +47275,17 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 5,
-      "homeWinProbability": 0.863,
+      "homeWinProbability": 0.873,
       "period": 1,
       "clock": "12:08",
       "secondsRemaining": 728,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-31T23:18:22.000Z",
-      "playText": "Tyler Tanner makes 9-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-01-31T23:18:59.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -47297,7 +47298,7 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -47369,9 +47370,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45868170,
-      "sourceId": "401808210118258845",
-      "playType": "MadeFreeThrow",
+      "id": 45868166,
+      "sourceId": "401808210118258671",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 145,
       "team": "Ole Miss",
@@ -47381,17 +47382,17 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 5,
-      "homeWinProbability": 0.873,
+      "homeWinProbability": 0.863,
       "period": 1,
       "clock": "12:08",
       "secondsRemaining": 728,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-31T23:18:59.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-31T23:18:22.000Z",
+      "playText": "Tyler Tanner makes 9-foot pullup jump shot",
       "participants": [
         {
           "id": 4562,
@@ -47404,7 +47405,7 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -48015,9 +48016,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45868347,
-      "sourceId": "401808210118268435",
-      "playType": "LayUpShot",
+      "id": 45868355,
+      "sourceId": "401808210118268501",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 145,
       "team": "Ole Miss",
@@ -48033,11 +48034,11 @@
       "period": 2,
       "clock": "16:43",
       "secondsRemaining": 1003,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-01T00:10:31.000Z",
-      "playText": "Tyler Tanner makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T00:11:04.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -48049,8 +48050,8 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -48122,9 +48123,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45868355,
-      "sourceId": "401808210118268501",
-      "playType": "MadeFreeThrow",
+      "id": 45868347,
+      "sourceId": "401808210118268435",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 145,
       "team": "Ole Miss",
@@ -48140,11 +48141,11 @@
       "period": 2,
       "clock": "16:43",
       "secondsRemaining": 1003,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T00:11:04.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-01T00:10:31.000Z",
+      "playText": "Tyler Tanner makes driving layup",
       "participants": [
         {
           "id": 4562,
@@ -48156,8 +48157,8 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -48336,9 +48337,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45868369,
-      "sourceId": "401808210118268921",
-      "playType": "LayUpShot",
+      "id": 45868380,
+      "sourceId": "401808210118269406",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 145,
       "team": "Ole Miss",
@@ -48348,17 +48349,17 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 32,
-      "homeWinProbability": 0.848,
+      "homeWinProbability": 0.872,
       "period": 2,
       "clock": "15:30",
       "secondsRemaining": 930,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-01T00:13:48.000Z",
-      "playText": "Tyler Tanner makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T00:16:59.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -48371,7 +48372,7 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -48443,9 +48444,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45868380,
-      "sourceId": "401808210118269406",
-      "playType": "MadeFreeThrow",
+      "id": 45868369,
+      "sourceId": "401808210118268921",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 145,
       "team": "Ole Miss",
@@ -48455,17 +48456,17 @@
       "opponent": "Vanderbilt",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 32,
-      "homeWinProbability": 0.872,
+      "homeWinProbability": 0.848,
       "period": 2,
       "clock": "15:30",
       "secondsRemaining": 930,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T00:16:59.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-01T00:13:48.000Z",
+      "playText": "Tyler Tanner makes driving layup",
       "participants": [
         {
           "id": 4562,
@@ -48478,7 +48479,7 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
@@ -49525,8 +49526,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46558230,
-      "sourceId": "401808225118589739",
+      "id": 46558235,
+      "sourceId": "401808225118590089",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -49537,17 +49538,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 11,
-      "homeWinProbability": 0.314,
+      "homeWinProbability": 0.356,
       "period": 1,
       "clock": "16:52",
       "secondsRemaining": 1012,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T20:41:00.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 2",
+      "wallclock": "2026-02-07T20:41:22.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -49559,7 +49560,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -49632,8 +49633,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46558235,
-      "sourceId": "401808225118590089",
+      "id": 46558230,
+      "sourceId": "401808225118589739",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -49644,17 +49645,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 3,
+      "homeScore": 2,
       "awayScore": 11,
-      "homeWinProbability": 0.356,
+      "homeWinProbability": 0.314,
       "period": 1,
       "clock": "16:52",
       "secondsRemaining": 1012,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T20:41:22.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-07T20:41:00.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -49666,7 +49667,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50718,8 +50719,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46559345,
-      "sourceId": "401808225118601244",
+      "id": 46559347,
+      "sourceId": "401808225118601272",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -50736,11 +50737,11 @@
       "period": 1,
       "clock": "5:38",
       "secondsRemaining": 338,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:09:13.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-07T21:09:30.000Z",
+      "playText": "Tyler Tanner misses free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -50752,7 +50753,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50825,8 +50826,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46559347,
-      "sourceId": "401808225118601272",
+      "id": 46559345,
+      "sourceId": "401808225118601244",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -50843,11 +50844,11 @@
       "period": 1,
       "clock": "5:38",
       "secondsRemaining": 338,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:09:30.000Z",
-      "playText": "Tyler Tanner misses free throw 2 of 2",
+      "wallclock": "2026-02-07T21:09:13.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -50859,7 +50860,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -51471,113 +51472,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46559592,
-      "sourceId": "401808225118606180",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 336,
-      "team": "Vanderbilt",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 217,
-      "opponent": "Oklahoma",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 32,
-      "awayScore": 46,
-      "homeWinProbability": 0.141,
-      "period": 1,
-      "clock": "1:11",
-      "secondsRemaining": 71,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-07T21:22:37.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 4555,
-          "name": "Devin McGlockton",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 235,
-          "name": "Jalen Washington",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 6239,
-          "name": "Mohamed Wague",
-          "team": "Oklahoma"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 6242,
-          "name": "Dayton Forsythe",
-          "team": "Oklahoma"
-        },
-        {
-          "id": 203124,
-          "name": "Chandler Bing",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 82,
-          "name": "Derrion Reid",
-          "team": "Oklahoma"
-        },
-        {
-          "id": 3077,
-          "name": "Nijel Pack",
-          "team": "Oklahoma"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 6249,
-          "name": "Jadon Jones",
-          "team": "Oklahoma"
-        }
-      ]
-    },
-    {
-      "gameId": 211454,
-      "gameSourceId": "401808225",
-      "gameStartDate": "2026-02-07T20:30:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46559517,
       "sourceId": "401808225118606055",
       "playType": "MadeFreeThrow",
@@ -51685,8 +51579,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46559730,
-      "sourceId": "401808225118607188",
+      "id": 46559592,
+      "sourceId": "401808225118606180",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -51697,17 +51591,124 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 32,
       "awayScore": 46,
-      "homeWinProbability": 0.151,
+      "homeWinProbability": 0.141,
+      "period": 1,
+      "clock": "1:11",
+      "secondsRemaining": 71,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-07T21:22:37.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 4555,
+          "name": "Devin McGlockton",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 235,
+          "name": "Jalen Washington",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 6239,
+          "name": "Mohamed Wague",
+          "team": "Oklahoma"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 6242,
+          "name": "Dayton Forsythe",
+          "team": "Oklahoma"
+        },
+        {
+          "id": 203124,
+          "name": "Chandler Bing",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 82,
+          "name": "Derrion Reid",
+          "team": "Oklahoma"
+        },
+        {
+          "id": 3077,
+          "name": "Nijel Pack",
+          "team": "Oklahoma"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 6249,
+          "name": "Jadon Jones",
+          "team": "Oklahoma"
+        }
+      ]
+    },
+    {
+      "gameId": 211454,
+      "gameSourceId": "401808225",
+      "gameStartDate": "2026-02-07T20:30:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46559719,
+      "sourceId": "401808225118607051",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 336,
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 217,
+      "opponent": "Oklahoma",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 33,
+      "awayScore": 46,
+      "homeWinProbability": 0.124,
       "period": 1,
       "clock": "0:35",
       "secondsRemaining": 35,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:25:27.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-07T21:25:10.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -51792,8 +51793,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46559719,
-      "sourceId": "401808225118607051",
+      "id": 46559730,
+      "sourceId": "401808225118607188",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -51804,17 +51805,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 46,
-      "homeWinProbability": 0.124,
+      "homeWinProbability": 0.151,
       "period": 1,
       "clock": "0:35",
       "secondsRemaining": 35,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:25:10.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-07T21:25:27.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -52438,8 +52439,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46560087,
-      "sourceId": "401808225118615827",
+      "id": 46560095,
+      "sourceId": "401808225118615848",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -52450,17 +52451,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 42,
       "awayScore": 61,
-      "homeWinProbability": 0.028,
+      "homeWinProbability": 0.031,
       "period": 2,
       "clock": "15:01",
       "secondsRemaining": 901,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:56:15.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-07T21:56:33.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -52545,8 +52546,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46560095,
-      "sourceId": "401808225118615848",
+      "id": 46560087,
+      "sourceId": "401808225118615827",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -52557,17 +52558,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 41,
       "awayScore": 61,
-      "homeWinProbability": 0.031,
+      "homeWinProbability": 0.028,
       "period": 2,
       "clock": "15:01",
       "secondsRemaining": 901,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T21:56:33.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-07T21:56:15.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -54405,8 +54406,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46561215,
-      "sourceId": "401808225118632472",
+      "id": 46561225,
+      "sourceId": "401808225118632595",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -54417,17 +54418,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 84,
+      "homeScore": 85,
       "awayScore": 88,
-      "homeWinProbability": 0.049,
+      "homeWinProbability": 0.101,
       "period": 2,
       "clock": "0:29",
       "secondsRemaining": 29,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T22:50:33.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-07T22:51:03.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -54512,8 +54513,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46561225,
-      "sourceId": "401808225118632595",
+      "id": 46561215,
+      "sourceId": "401808225118632472",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -54524,17 +54525,17 @@
       "opponent": "Oklahoma",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 84,
       "awayScore": 88,
-      "homeWinProbability": 0.101,
+      "homeWinProbability": 0.049,
       "period": 2,
       "clock": "0:29",
       "secondsRemaining": 29,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-07T22:51:03.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-07T22:50:33.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -56026,9 +56027,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782266,
-      "sourceId": "401808229118724930",
-      "playType": "LayUpShot",
+      "id": 46782268,
+      "sourceId": "401808229118724937",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -56039,16 +56040,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 46,
+      "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:19",
       "secondsRemaining": 1099,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T01:11:41.000Z",
-      "playText": "Tyler Tanner makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T01:12:04.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -56061,15 +56062,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 230
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -56133,9 +56134,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782268,
-      "sourceId": "401808229118724937",
-      "playType": "MadeFreeThrow",
+      "id": 46782266,
+      "sourceId": "401808229118724930",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -56146,16 +56147,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 33,
-      "awayScore": 47,
+      "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "18:19",
       "secondsRemaining": 1099,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T01:12:04.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T01:11:41.000Z",
+      "playText": "Tyler Tanner makes driving layup",
       "participants": [
         {
           "id": 4562,
@@ -56168,15 +56169,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 230
         }
       },
       "onFloor": [
@@ -57421,8 +57422,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782439,
-      "sourceId": "401808229118730393",
+      "id": 46782440,
+      "sourceId": "401808229118730460",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -57434,7 +57435,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 71,
+      "awayScore": 72,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:32",
@@ -57442,8 +57443,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:01:11.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-11T02:01:28.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -57528,8 +57529,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782440,
-      "sourceId": "401808229118730460",
+      "id": 46782439,
+      "sourceId": "401808229118730393",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -57541,7 +57542,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 66,
-      "awayScore": 72,
+      "awayScore": 71,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:32",
@@ -57549,8 +57550,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:01:28.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-11T02:01:11.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -57746,113 +57747,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782447,
-      "sourceId": "401808229118730610",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 336,
-      "team": "Vanderbilt",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 16,
-      "opponent": "Auburn",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 66,
-      "awayScore": 77,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "1:42",
-      "secondsRemaining": 102,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T02:03:18.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198094,
-          "name": "Elyjah Freeman",
-          "team": "Auburn"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4154,
-          "name": "KeShawn Murphy",
-          "team": "Auburn"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 235,
-          "name": "Jalen Washington",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 7583,
-          "name": "Kevin Overton",
-          "team": "Auburn"
-        },
-        {
-          "id": 9,
-          "name": "Tahaad Pettiford",
-          "team": "Auburn"
-        },
-        {
-          "id": 198110,
-          "name": "Sebastian Williams-Adams",
-          "team": "Auburn"
-        },
-        {
-          "id": 203124,
-          "name": "Chandler Bing",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 2368,
-          "name": "AK Okereke",
-          "team": "Vanderbilt"
-        }
-      ]
-    },
-    {
-      "gameId": 211497,
-      "gameSourceId": "401808229",
-      "gameStartDate": "2026-02-11T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46782446,
       "sourceId": "401808229118730609",
       "playType": "MadeFreeThrow",
@@ -57960,8 +57854,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782450,
-      "sourceId": "401808229118730714",
+      "id": 46782447,
+      "sourceId": "401808229118730610",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -57972,17 +57866,17 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 69,
-      "awayScore": 78,
+      "homeScore": 66,
+      "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "1:09",
-      "secondsRemaining": 69,
+      "clock": "1:42",
+      "secondsRemaining": 102,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:04:25.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-11T02:03:18.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -58174,8 +58068,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46782462,
-      "sourceId": "401808229118730978",
+      "id": 46782450,
+      "sourceId": "401808229118730714",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -58186,16 +58080,16 @@
       "opponent": "Auburn",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 70,
-      "awayScore": 80,
+      "homeScore": 69,
+      "awayScore": 78,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "0:48",
-      "secondsRemaining": 48,
+      "clock": "1:09",
+      "secondsRemaining": 69,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-11T02:06:53.000Z",
+      "wallclock": "2026-02-11T02:04:25.000Z",
       "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
@@ -58242,8 +58136,8 @@
           "team": "Vanderbilt"
         },
         {
-          "id": 2866,
-          "name": "Mike James",
+          "id": 235,
+          "name": "Jalen Washington",
           "team": "Vanderbilt"
         },
         {
@@ -58316,6 +58210,113 @@
           "name": "Tyler Tanner"
         },
         "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198094,
+          "name": "Elyjah Freeman",
+          "team": "Auburn"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4154,
+          "name": "KeShawn Murphy",
+          "team": "Auburn"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 2866,
+          "name": "Mike James",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 7583,
+          "name": "Kevin Overton",
+          "team": "Auburn"
+        },
+        {
+          "id": 9,
+          "name": "Tahaad Pettiford",
+          "team": "Auburn"
+        },
+        {
+          "id": 198110,
+          "name": "Sebastian Williams-Adams",
+          "team": "Auburn"
+        },
+        {
+          "id": 203124,
+          "name": "Chandler Bing",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 2368,
+          "name": "AK Okereke",
+          "team": "Vanderbilt"
+        }
+      ]
+    },
+    {
+      "gameId": 211497,
+      "gameSourceId": "401808229",
+      "gameStartDate": "2026-02-11T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46782462,
+      "sourceId": "401808229118730978",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 336,
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 16,
+      "opponent": "Auburn",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 70,
+      "awayScore": 80,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:48",
+      "secondsRemaining": 48,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T02:06:53.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        },
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -61313,8 +61314,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47481391,
-      "sourceId": "401808246119151700",
+      "id": 47481390,
+      "sourceId": "401808246119151683",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -61326,16 +61327,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 28,
-      "homeWinProbability": 0.713,
+      "awayScore": 27,
+      "homeWinProbability": 0.735,
       "period": 1,
       "clock": "1:42",
       "secondsRemaining": 102,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:53:57.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-19T02:53:41.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -61420,8 +61421,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47481390,
-      "sourceId": "401808246119151683",
+      "id": 47481391,
+      "sourceId": "401808246119151700",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -61433,16 +61434,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 31,
-      "awayScore": 27,
-      "homeWinProbability": 0.735,
+      "awayScore": 28,
+      "homeWinProbability": 0.713,
       "period": 1,
       "clock": "1:42",
       "secondsRemaining": 102,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-19T02:53:41.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-19T02:53:57.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -63469,9 +63470,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47481632,
-      "sourceId": "401808246119157710",
-      "playType": "MadeFreeThrow",
+      "id": 47481630,
+      "sourceId": "401808246119157705",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -63482,16 +63483,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 75,
-      "homeWinProbability": 0.915,
+      "awayScore": 74,
+      "homeWinProbability": 0.939,
       "period": 2,
       "clock": "1:07",
       "secondsRemaining": 67,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-19T04:19:20.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-19T04:18:55.000Z",
+      "playText": "Tyler Tanner makes layup",
       "participants": [
         {
           "id": 4562,
@@ -63504,15 +63505,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 225
         }
       },
       "onFloor": [
@@ -63576,9 +63577,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47481630,
-      "sourceId": "401808246119157705",
-      "playType": "LayUpShot",
+      "id": 47481632,
+      "sourceId": "401808246119157710",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -63589,16 +63590,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 74,
-      "homeWinProbability": 0.939,
+      "awayScore": 75,
+      "homeWinProbability": 0.915,
       "period": 2,
       "clock": "1:07",
       "secondsRemaining": 67,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-19T04:18:55.000Z",
-      "playText": "Tyler Tanner makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-19T04:19:20.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -63611,15 +63612,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -65082,8 +65083,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47733133,
-      "sourceId": "401808255119312956",
+      "id": 47733145,
+      "sourceId": "401808255119313094",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -65094,17 +65095,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 64,
-      "homeWinProbability": 0.558,
+      "homeWinProbability": 0.759,
       "period": 2,
       "clock": "1:18",
       "secondsRemaining": 78,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:06:04.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-21T21:06:24.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -65189,8 +65190,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47733145,
-      "sourceId": "401808255119313094",
+      "id": 47733133,
+      "sourceId": "401808255119312956",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -65201,17 +65202,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 64,
-      "homeWinProbability": 0.759,
+      "homeWinProbability": 0.558,
       "period": 2,
       "clock": "1:18",
       "secondsRemaining": 78,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T21:06:24.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-21T21:06:04.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -65732,8 +65733,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48058503,
-      "sourceId": "401808261119473801",
+      "id": 48058502,
+      "sourceId": "401808261119473702",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -65744,7 +65745,7 @@
       "opponent": "Georgia",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 22,
+      "homeScore": 21,
       "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
@@ -65753,8 +65754,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T00:23:53.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-26T00:23:37.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -65839,8 +65840,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48058502,
-      "sourceId": "401808261119473702",
+      "id": 48058503,
+      "sourceId": "401808261119473801",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -65851,7 +65852,7 @@
       "opponent": "Georgia",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 21,
+      "homeScore": 22,
       "awayScore": 14,
       "homeWinProbability": null,
       "period": 1,
@@ -65860,8 +65861,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T00:23:37.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-26T00:23:53.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -67353,8 +67354,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48058852,
-      "sourceId": "401808261119502251",
+      "id": 48058853,
+      "sourceId": "401808261119502338",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -67365,7 +67366,7 @@
       "opponent": "Georgia",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 85,
+      "homeScore": 86,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -67374,8 +67375,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T02:03:29.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-02-26T02:03:45.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -67460,8 +67461,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48058853,
-      "sourceId": "401808261119502338",
+      "id": 48058852,
+      "sourceId": "401808261119502251",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -67472,7 +67473,7 @@
       "opponent": "Georgia",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 86,
+      "homeScore": 85,
       "awayScore": 77,
       "homeWinProbability": null,
       "period": 2,
@@ -67481,8 +67482,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-26T02:03:45.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-02-26T02:03:29.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -69085,9 +69086,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48278589,
-      "sourceId": "401808268119680179",
-      "playType": "JumpShot",
+      "id": 48278597,
+      "sourceId": "401808268119680406",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -69098,16 +69099,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 62,
+      "awayScore": 63,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:36",
       "secondsRemaining": 396,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-28T20:51:58.000Z",
-      "playText": "Tyler Tanner makes 12-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-02-28T20:52:42.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -69120,15 +69121,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 770.8,
-          "y": 290
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -69192,9 +69193,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48278597,
-      "sourceId": "401808268119680406",
-      "playType": "MadeFreeThrow",
+      "id": 48278589,
+      "sourceId": "401808268119680179",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -69205,16 +69206,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 78,
-      "awayScore": 63,
+      "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
       "clock": "6:36",
       "secondsRemaining": 396,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-28T20:52:42.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-28T20:51:58.000Z",
+      "playText": "Tyler Tanner makes 12-foot jumper",
       "participants": [
         {
           "id": 4562,
@@ -69227,15 +69228,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 770.8,
+          "y": 290
         }
       },
       "onFloor": [
@@ -73524,9 +73525,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48663501,
-      "sourceId": "401808279119845884",
-      "playType": "LayUpShot",
+      "id": 48663505,
+      "sourceId": "401808279119845896",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -73537,16 +73538,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 83,
+      "awayScore": 84,
       "homeWinProbability": null,
       "period": 3,
       "clock": "3:02",
       "secondsRemaining": 182,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-04T04:19:48.000Z",
-      "playText": "Tyler Tanner makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-04T04:20:18.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -73559,15 +73560,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 846,
-          "y": 275
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -73631,9 +73632,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48663505,
-      "sourceId": "401808279119845896",
-      "playType": "MadeFreeThrow",
+      "id": 48663501,
+      "sourceId": "401808279119845884",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -73644,16 +73645,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 79,
-      "awayScore": 84,
+      "awayScore": 83,
       "homeWinProbability": null,
       "period": 3,
       "clock": "3:02",
       "secondsRemaining": 182,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-04T04:20:18.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-04T04:19:48.000Z",
+      "playText": "Tyler Tanner makes layup",
       "participants": [
         {
           "id": 4562,
@@ -73666,15 +73667,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 275
         }
       },
       "onFloor": [
@@ -73849,8 +73850,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48663551,
-      "sourceId": "401808279119846456",
+      "id": 48663548,
+      "sourceId": "401808279119846453",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -73862,7 +73863,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 86,
-      "awayScore": 89,
+      "awayScore": 88,
       "homeWinProbability": null,
       "period": 3,
       "clock": "0:16",
@@ -73870,8 +73871,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T04:36:29.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-04T04:36:00.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -73956,8 +73957,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48663548,
-      "sourceId": "401808279119846453",
+      "id": 48663551,
+      "sourceId": "401808279119846456",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -73969,7 +73970,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 86,
-      "awayScore": 88,
+      "awayScore": 89,
       "homeWinProbability": null,
       "period": 3,
       "clock": "0:16",
@@ -73977,8 +73978,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-04T04:36:00.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-04T04:36:29.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -74388,8 +74389,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952051,
-      "sourceId": "401808286120020808",
+      "id": 48952041,
+      "sourceId": "401808286120020718",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -74401,7 +74402,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 13,
-      "awayScore": 26,
+      "awayScore": 25,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:24",
@@ -74409,8 +74410,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T19:39:08.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-07T19:38:47.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -74495,8 +74496,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952041,
-      "sourceId": "401808286120020718",
+      "id": 48952051,
+      "sourceId": "401808286120020808",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -74508,7 +74509,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 13,
-      "awayScore": 25,
+      "awayScore": 26,
       "homeWinProbability": null,
       "period": 1,
       "clock": "6:24",
@@ -74516,8 +74517,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T19:38:47.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-07T19:39:08.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -75363,113 +75364,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952447,
-      "sourceId": "401808286120030634",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 336,
-      "team": "Vanderbilt",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 292,
-      "opponent": "Tennessee",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 34,
-      "awayScore": 51,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "13:53",
-      "secondsRemaining": 833,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-07T20:25:54.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 202447,
-          "name": "DeWayne Brown II",
-          "team": "Tennessee"
-        },
-        {
-          "id": 6235,
-          "name": "Duke Miles",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 202448,
-          "name": "Ethan Burg",
-          "team": "Tennessee"
-        },
-        {
-          "id": 4561,
-          "name": "Jaylen Carey",
-          "team": "Tennessee"
-        },
-        {
-          "id": 203124,
-          "name": "Chandler Bing",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 235,
-          "name": "Jalen Washington",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 314,
-          "name": "Bishop Boswell",
-          "team": "Tennessee"
-        },
-        {
-          "id": 3290,
-          "name": "Ja'Kobi Gillespie",
-          "team": "Tennessee"
-        },
-        {
-          "id": 2368,
-          "name": "AK Okereke",
-          "team": "Vanderbilt"
-        }
-      ]
-    },
-    {
-      "gameId": 212091,
-      "gameSourceId": "401808286",
-      "gameStartDate": "2026-03-07T19:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 48952444,
       "sourceId": "401808286120030475",
       "playType": "MadeFreeThrow",
@@ -75577,8 +75471,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952527,
-      "sourceId": "401808286120033216",
+      "id": 48952447,
+      "sourceId": "401808286120030634",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -75589,17 +75483,17 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 44,
-      "awayScore": 56,
+      "homeScore": 34,
+      "awayScore": 51,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "11:24",
-      "secondsRemaining": 684,
-      "scoringPlay": false,
+      "clock": "13:53",
+      "secondsRemaining": 833,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T20:35:43.000Z",
-      "playText": "Tyler Tanner misses free throw 2 of 2",
+      "wallclock": "2026-03-07T20:25:54.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -75611,7 +75505,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -75625,6 +75519,16 @@
       },
       "onFloor": [
         {
+          "id": 202447,
+          "name": "DeWayne Brown II",
+          "team": "Tennessee"
+        },
+        {
+          "id": 6235,
+          "name": "Duke Miles",
+          "team": "Vanderbilt"
+        },
+        {
           "id": 202448,
           "name": "Ethan Burg",
           "team": "Tennessee"
@@ -75635,24 +75539,9 @@
           "team": "Tennessee"
         },
         {
-          "id": 307,
-          "name": "J.P. Estrella",
-          "team": "Tennessee"
-        },
-        {
           "id": 203124,
           "name": "Chandler Bing",
           "team": "Vanderbilt"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 202452,
-          "name": "Amari Evans",
-          "team": "Tennessee"
         },
         {
           "id": 4562,
@@ -75660,9 +75549,14 @@
           "team": "Vanderbilt"
         },
         {
-          "id": 203132,
-          "name": "Jayden Leverett",
+          "id": 235,
+          "name": "Jalen Washington",
           "team": "Vanderbilt"
+        },
+        {
+          "id": 314,
+          "name": "Bishop Boswell",
+          "team": "Tennessee"
         },
         {
           "id": 3290,
@@ -75791,8 +75685,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952544,
-      "sourceId": "401808286120033871",
+      "id": 48952527,
+      "sourceId": "401808286120033216",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 336,
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 292,
+      "opponent": "Tennessee",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 44,
+      "awayScore": 56,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "11:24",
+      "secondsRemaining": 684,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-07T20:35:43.000Z",
+      "playText": "Tyler Tanner misses free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 202448,
+          "name": "Ethan Burg",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4561,
+          "name": "Jaylen Carey",
+          "team": "Tennessee"
+        },
+        {
+          "id": 307,
+          "name": "J.P. Estrella",
+          "team": "Tennessee"
+        },
+        {
+          "id": 203124,
+          "name": "Chandler Bing",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 202452,
+          "name": "Amari Evans",
+          "team": "Tennessee"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 203132,
+          "name": "Jayden Leverett",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 3290,
+          "name": "Ja'Kobi Gillespie",
+          "team": "Tennessee"
+        },
+        {
+          "id": 2368,
+          "name": "AK Okereke",
+          "team": "Vanderbilt"
+        }
+      ]
+    },
+    {
+      "gameId": 212091,
+      "gameSourceId": "401808286",
+      "gameStartDate": "2026-03-07T19:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 48952549,
+      "sourceId": "401808286120033988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -75804,7 +75805,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 60,
+      "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "10:03",
@@ -75812,8 +75813,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T20:38:05.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-07T20:38:26.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -75898,8 +75899,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952549,
-      "sourceId": "401808286120033988",
+      "id": 48952544,
+      "sourceId": "401808286120033871",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -75911,7 +75912,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 49,
-      "awayScore": 61,
+      "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
       "clock": "10:03",
@@ -75919,8 +75920,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T20:38:26.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-07T20:38:05.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -76223,8 +76224,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952922,
-      "sourceId": "401808286120042442",
+      "id": 48952920,
+      "sourceId": "401808286120042413",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -76236,7 +76237,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 80,
-      "awayScore": 86,
+      "awayScore": 85,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:15",
@@ -76244,8 +76245,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T21:20:05.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-07T21:19:50.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -76330,8 +76331,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48952920,
-      "sourceId": "401808286120042413",
+      "id": 48952922,
+      "sourceId": "401808286120042442",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -76343,7 +76344,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 80,
-      "awayScore": 85,
+      "awayScore": 86,
       "homeWinProbability": null,
       "period": 2,
       "clock": "0:15",
@@ -76351,8 +76352,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T21:19:50.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-07T21:20:05.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -76976,9 +76977,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405462,
-      "sourceId": "401851566120239606",
-      "playType": "MadeFreeThrow",
+      "id": 49405447,
+      "sourceId": "401851566120239581",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -76988,7 +76989,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -76996,10 +76997,14 @@
       "secondsRemaining": 536,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-13T20:29:50.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-13T20:29:06.000Z",
+      "playText": "Tyler Tanner makes layup (Jalen Washington assists)",
       "participants": [
+        {
+          "id": 235,
+          "name": "Jalen Washington"
+        },
         {
           "id": 4562,
           "name": "Tyler Tanner"
@@ -77011,15 +77016,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 235,
+          "name": "Jalen Washington"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 817.8,
+          "y": 285
         }
       },
       "onFloor": [
@@ -77083,9 +77088,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405447,
-      "sourceId": "401851566120239581",
-      "playType": "LayUpShot",
+      "id": 49405462,
+      "sourceId": "401851566120239606",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -77095,7 +77100,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -77103,14 +77108,10 @@
       "secondsRemaining": 536,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-13T20:29:06.000Z",
-      "playText": "Tyler Tanner makes layup (Jalen Washington assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-03-13T20:29:50.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 235,
-          "name": "Jalen Washington"
-        },
         {
           "id": 4562,
           "name": "Tyler Tanner"
@@ -77122,15 +77123,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 235,
-          "name": "Jalen Washington"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 817.8,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -78716,8 +78717,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405932,
-      "sourceId": "401851566120243128",
+      "id": 49405930,
+      "sourceId": "401851566120243124",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -78728,7 +78729,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 64,
       "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
@@ -78737,8 +78738,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:04:56.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-13T22:04:40.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -78823,8 +78824,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49405930,
-      "sourceId": "401851566120243124",
+      "id": 49405932,
+      "sourceId": "401851566120243128",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -78835,7 +78836,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 65,
       "awayScore": 62,
       "homeWinProbability": null,
       "period": 2,
@@ -78844,8 +78845,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:04:40.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-13T22:04:56.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -79037,8 +79038,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49406086,
-      "sourceId": "401851566120244162",
+      "id": 49406085,
+      "sourceId": "401851566120244161",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -79049,7 +79050,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 75,
+      "homeScore": 74,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -79058,8 +79059,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:25:42.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-13T22:25:28.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -79144,8 +79145,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49406085,
-      "sourceId": "401851566120244161",
+      "id": 49406086,
+      "sourceId": "401851566120244162",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -79156,7 +79157,7 @@
       "opponent": "Tennessee",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 75,
       "awayScore": 68,
       "homeWinProbability": null,
       "period": 2,
@@ -79165,8 +79166,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-13T22:25:28.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-13T22:25:42.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -81225,113 +81226,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49452132,
-      "sourceId": "401851569120266670",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 336,
-      "team": "Vanderbilt",
-      "conference": "SEC",
-      "teamSeed": null,
-      "opponentId": 87,
-      "opponent": "Florida",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 72,
-      "awayScore": 89,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "1:06",
-      "secondsRemaining": 66,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-14T19:10:59.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 4562,
-          "name": "Tyler Tanner"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 502,
-          "name": "Thomas Haugh",
-          "team": "Florida"
-        },
-        {
-          "id": 3386,
-          "name": "Xaivian Lee",
-          "team": "Florida"
-        },
-        {
-          "id": 7822,
-          "name": "Boogie Fland",
-          "team": "Florida"
-        },
-        {
-          "id": 6235,
-          "name": "Duke Miles",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4562,
-          "name": "Tyler Tanner",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 235,
-          "name": "Jalen Washington",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 512,
-          "name": "Isaiah Brown",
-          "team": "Florida"
-        },
-        {
-          "id": 2368,
-          "name": "AK Okereke",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 4556,
-          "name": "Tyler Nickel",
-          "team": "Vanderbilt"
-        },
-        {
-          "id": 496,
-          "name": "Alex Condon",
-          "team": "Florida"
-        }
-      ]
-    },
-    {
-      "gameId": 372428,
-      "gameSourceId": "401851569",
-      "gameStartDate": "2026-03-14T17:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49452133,
       "sourceId": "401851569120266677",
       "playType": "MadeFreeThrow",
@@ -81439,8 +81333,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49452137,
-      "sourceId": "401851569120266726",
+      "id": 49452132,
+      "sourceId": "401851569120266670",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -81451,16 +81345,16 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 74,
-      "awayScore": 90,
+      "homeScore": 72,
+      "awayScore": 89,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "0:45",
-      "secondsRemaining": 45,
+      "clock": "1:06",
+      "secondsRemaining": 66,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T19:12:15.000Z",
+      "wallclock": "2026-03-14T19:10:59.000Z",
       "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
@@ -81569,6 +81463,113 @@
       "scoreValue": 1,
       "wallclock": "2026-03-14T19:12:29.000Z",
       "playText": "Tyler Tanner makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 4562,
+          "name": "Tyler Tanner"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 502,
+          "name": "Thomas Haugh",
+          "team": "Florida"
+        },
+        {
+          "id": 3386,
+          "name": "Xaivian Lee",
+          "team": "Florida"
+        },
+        {
+          "id": 7822,
+          "name": "Boogie Fland",
+          "team": "Florida"
+        },
+        {
+          "id": 6235,
+          "name": "Duke Miles",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4562,
+          "name": "Tyler Tanner",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 235,
+          "name": "Jalen Washington",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 512,
+          "name": "Isaiah Brown",
+          "team": "Florida"
+        },
+        {
+          "id": 2368,
+          "name": "AK Okereke",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 4556,
+          "name": "Tyler Nickel",
+          "team": "Vanderbilt"
+        },
+        {
+          "id": 496,
+          "name": "Alex Condon",
+          "team": "Florida"
+        }
+      ]
+    },
+    {
+      "gameId": 372428,
+      "gameSourceId": "401851569",
+      "gameStartDate": "2026-03-14T17:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49452137,
+      "sourceId": "401851569120266726",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 336,
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "teamSeed": null,
+      "opponentId": 87,
+      "opponent": "Florida",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 74,
+      "awayScore": 90,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "0:45",
+      "secondsRemaining": 45,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-14T19:12:15.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -83908,8 +83909,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489933,
-      "sourceId": "401851571120281619",
+      "id": 49489938,
+      "sourceId": "401851571120281624",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -83921,7 +83922,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 72,
-      "awayScore": 69,
+      "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:06",
@@ -83929,8 +83930,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T18:54:29.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-15T18:54:48.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -84015,8 +84016,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49489938,
-      "sourceId": "401851571120281624",
+      "id": 49489933,
+      "sourceId": "401851571120281619",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -84028,7 +84029,7 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 72,
-      "awayScore": 70,
+      "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:06",
@@ -84036,8 +84037,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T18:54:48.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-15T18:54:29.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -86290,9 +86291,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537453,
-      "sourceId": "401856488120298178",
-      "playType": "MadeFreeThrow",
+      "id": 49537449,
+      "sourceId": "401856488120298113",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -86302,7 +86303,7 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": 12,
-      "homeScore": 52,
+      "homeScore": 51,
       "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
@@ -86310,9 +86311,9 @@
       "secondsRemaining": 751,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-19T20:47:24.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-19T20:46:52.000Z",
+      "playText": "Tyler Tanner makes driving layup",
       "participants": [
         {
           "id": 4562,
@@ -86325,15 +86326,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 122.2,
+          "y": 225
         }
       },
       "onFloor": [
@@ -86397,9 +86398,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537449,
-      "sourceId": "401856488120298113",
-      "playType": "LayUpShot",
+      "id": 49537453,
+      "sourceId": "401856488120298178",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
       "team": "Vanderbilt",
@@ -86409,7 +86410,7 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": 12,
-      "homeScore": 51,
+      "homeScore": 52,
       "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
@@ -86417,9 +86418,9 @@
       "secondsRemaining": 751,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-19T20:46:52.000Z",
-      "playText": "Tyler Tanner makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-19T20:47:24.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 1",
       "participants": [
         {
           "id": 4562,
@@ -86432,15 +86433,15 @@
           "name": "Tyler Tanner"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 122.2,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -86611,8 +86612,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537493,
-      "sourceId": "401856488120298341",
+      "id": 49537488,
+      "sourceId": "401856488120298276",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -86623,7 +86624,7 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": 12,
-      "homeScore": 58,
+      "homeScore": 57,
       "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
@@ -86632,8 +86633,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T20:56:52.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-19T20:56:24.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -86718,8 +86719,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537488,
-      "sourceId": "401856488120298276",
+      "id": 49537493,
+      "sourceId": "401856488120298341",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -86730,7 +86731,7 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": 12,
-      "homeScore": 57,
+      "homeScore": 58,
       "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
@@ -86739,8 +86740,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T20:56:24.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-19T20:56:52.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -87360,8 +87361,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537565,
-      "sourceId": "401856488120298671",
+      "id": 49537566,
+      "sourceId": "401856488120298672",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -87372,7 +87373,7 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": 12,
-      "homeScore": 71,
+      "homeScore": 72,
       "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
@@ -87381,8 +87382,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T21:17:35.000Z",
-      "playText": "Tyler Tanner makes free throw 1 of 2",
+      "wallclock": "2026-03-19T21:18:02.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -87467,8 +87468,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49537566,
-      "sourceId": "401856488120298672",
+      "id": 49537565,
+      "sourceId": "401856488120298671",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 336,
@@ -87479,7 +87480,7 @@
       "opponent": "McNeese",
       "opponentConference": "Southland",
       "opponentSeed": 12,
-      "homeScore": 72,
+      "homeScore": 71,
       "awayScore": 60,
       "homeWinProbability": null,
       "period": 2,
@@ -87488,8 +87489,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T21:18:02.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-19T21:17:35.000Z",
+      "playText": "Tyler Tanner makes free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -90162,8 +90163,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49595575,
-      "sourceId": "401856534120352334",
+      "id": 49595573,
+      "sourceId": "401856534120352332",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -90175,16 +90176,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 4,
       "homeScore": 55,
-      "awayScore": 53,
+      "awayScore": 52,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:49",
       "secondsRemaining": 589,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T02:44:54.000Z",
-      "playText": "Tyler Tanner makes free throw 2 of 2",
+      "wallclock": "2026-03-22T02:44:37.000Z",
+      "playText": "Tyler Tanner misses free throw 1 of 2",
       "participants": [
         {
           "id": 4562,
@@ -90196,7 +90197,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -90269,8 +90270,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49595573,
-      "sourceId": "401856534120352332",
+      "id": 49595575,
+      "sourceId": "401856534120352334",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 336,
@@ -90282,16 +90283,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": 4,
       "homeScore": 55,
-      "awayScore": 52,
+      "awayScore": 53,
       "homeWinProbability": null,
       "period": 2,
       "clock": "9:49",
       "secondsRemaining": 589,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-22T02:44:37.000Z",
-      "playText": "Tyler Tanner misses free throw 1 of 2",
+      "wallclock": "2026-03-22T02:44:54.000Z",
+      "playText": "Tyler Tanner makes free throw 2 of 2",
       "participants": [
         {
           "id": 4562,
@@ -90303,7 +90304,7 @@
           "id": 4562,
           "name": "Tyler Tanner"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -92387,70 +92388,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.02,
-        "percentile": 89,
-        "freqPer100": 27.1
-      },
-      "attackKick": {
-        "ppp": 1.13,
-        "percentile": 94.7,
-        "freqPer100": 16.7
-      },
-      "perimeterSniper": {
-        "ppp": 1.22,
-        "percentile": 93.8,
-        "freqPer100": 9.8
-      },
-      "dribbleJumper": {
-        "ppp": 1.1,
-        "percentile": 90.7,
-        "freqPer100": 5.5
-      },
-      "midRange": {
-        "ppp": 0.78,
-        "percentile": 53.2,
-        "freqPer100": 5.2
-      },
-      "hitsCutter": {
-        "ppp": 1.28,
-        "percentile": 98.4,
-        "freqPer100": 3.9
-      },
-      "perimeterCut": {
-        "ppp": 1.53,
-        "percentile": 97.1,
-        "freqPer100": 3.2
-      },
-      "pnrPasser": {
-        "ppp": 1.16,
-        "percentile": 90.9,
-        "freqPer100": 11.4
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 1.06,
-        "percentile": 96.6,
-        "freqPer100": 1.1
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.66,
-        "percentile": 97.4,
-        "freqPer100": 3.1
-      },
-      "transition": {
-        "ppp": 1.55,
-        "percentile": 96,
-        "freqPer100": 13.1
       }
     }
   }

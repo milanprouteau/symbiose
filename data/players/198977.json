@@ -243,7 +243,8 @@
     "jersey": "12",
     "position": "Forward",
     "height": 81,
-    "weight": 250,
+    "weight": 253,
+    "wingspan": null,
     "hometown": {
       "city": "Miami",
       "state": "FL"
@@ -978,8 +979,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039021,
-      "sourceId": "401817228113752016",
+      "id": 38039020,
+      "sourceId": "401817228113751988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -990,16 +991,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 34,
+      "homeScore": 33,
       "awayScore": 33,
-      "homeWinProbability": 0.689,
+      "homeWinProbability": 0.616,
       "period": 2,
       "clock": "19:30",
       "secondsRemaining": 1170,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:12:29.000Z",
+      "wallclock": "2025-11-05T03:12:15.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -1090,8 +1091,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039020,
-      "sourceId": "401817228113751988",
+      "id": 38039021,
+      "sourceId": "401817228113752016",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1102,16 +1103,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 33,
+      "homeScore": 34,
       "awayScore": 33,
-      "homeWinProbability": 0.616,
+      "homeWinProbability": 0.689,
       "period": 2,
       "clock": "19:30",
       "secondsRemaining": 1170,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:12:15.000Z",
+      "wallclock": "2025-11-05T03:12:29.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -1434,8 +1435,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039071,
-      "sourceId": "401817228113753506",
+      "id": 38039070,
+      "sourceId": "401817228113753477",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1446,16 +1447,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 41,
       "awayScore": 33,
-      "homeWinProbability": 0.892,
+      "homeWinProbability": 0.88,
       "period": 2,
       "clock": "15:08",
       "secondsRemaining": 908,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:25:55.000Z",
+      "wallclock": "2025-11-05T03:25:39.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -1546,8 +1547,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039070,
-      "sourceId": "401817228113753477",
+      "id": 38039071,
+      "sourceId": "401817228113753506",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -1558,16 +1559,16 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 41,
+      "homeScore": 42,
       "awayScore": 33,
-      "homeWinProbability": 0.88,
+      "homeWinProbability": 0.892,
       "period": 2,
       "clock": "15:08",
       "secondsRemaining": 908,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:25:39.000Z",
+      "wallclock": "2025-11-05T03:25:55.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -2202,113 +2203,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039192,
-      "sourceId": "401817228113756279",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 295,
-      "opponent": "Texas",
-      "opponentConference": "SEC",
-      "opponentSeed": null,
-      "homeScore": 64,
-      "awayScore": 51,
-      "homeWinProbability": 0.993,
-      "period": 2,
-      "clock": "5:20",
-      "secondsRemaining": 320,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-05T03:56:27.000Z",
-      "playText": "Cameron Boozer made Layup.",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": 864.8,
-          "y": 280
-        }
-      },
-      "onFloor": [
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 4075,
-          "name": "Lassina Traore",
-          "team": "Texas"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 442,
-          "name": "Nic Codie",
-          "team": "Texas"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 1428,
-          "name": "Simeon Wilcher",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        }
-      ]
-    },
-    {
-      "gameId": 209788,
-      "gameSourceId": "401817228",
-      "gameStartDate": "2025-11-05T01:45:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 38039194,
       "sourceId": "401817228113756348",
       "playType": "MadeFreeThrow",
@@ -2416,8 +2310,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039203,
-      "sourceId": "401817228113756450",
+      "id": 38039192,
+      "sourceId": "401817228113756279",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 295,
+      "opponent": "Texas",
+      "opponentConference": "SEC",
+      "opponentSeed": null,
+      "homeScore": 64,
+      "awayScore": 51,
+      "homeWinProbability": 0.993,
+      "period": 2,
+      "clock": "5:20",
+      "secondsRemaining": 320,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2025-11-05T03:56:27.000Z",
+      "playText": "Cameron Boozer made Layup.",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 864.8,
+          "y": 280
+        }
+      },
+      "onFloor": [
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 4075,
+          "name": "Lassina Traore",
+          "team": "Texas"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 442,
+          "name": "Nic Codie",
+          "team": "Texas"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 1428,
+          "name": "Simeon Wilcher",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        }
+      ]
+    },
+    {
+      "gameId": 209788,
+      "gameSourceId": "401817228",
+      "gameStartDate": "2025-11-05T01:45:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 38039205,
+      "sourceId": "401817228113756464",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -2437,7 +2438,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:59:02.000Z",
+      "wallclock": "2025-11-05T03:59:20.000Z",
       "playText": "Cameron Boozer missed Free Throw.",
       "participants": [
         {
@@ -2523,8 +2524,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039205,
-      "sourceId": "401817228113756464",
+      "id": 38039203,
+      "sourceId": "401817228113756450",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -2544,7 +2545,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T03:59:20.000Z",
+      "wallclock": "2025-11-05T03:59:02.000Z",
       "playText": "Cameron Boozer missed Free Throw.",
       "participants": [
         {
@@ -2737,8 +2738,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039237,
-      "sourceId": "401817228113756830",
+      "id": 38039236,
+      "sourceId": "401817228113756824",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -2749,7 +2750,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 72,
       "awayScore": 56,
       "homeWinProbability": 1,
       "period": 2,
@@ -2758,7 +2759,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T04:09:33.000Z",
+      "wallclock": "2025-11-05T04:09:20.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -2844,8 +2845,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38039236,
-      "sourceId": "401817228113756824",
+      "id": 38039237,
+      "sourceId": "401817228113756830",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -2856,7 +2857,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 72,
+      "homeScore": 73,
       "awayScore": 56,
       "homeWinProbability": 1,
       "period": 2,
@@ -2865,7 +2866,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-05T04:09:20.000Z",
+      "wallclock": "2025-11-05T04:09:33.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -6326,8 +6327,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745491,
-      "sourceId": "401817230114139104",
+      "id": 38745560,
+      "sourceId": "401817230114139199",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -6339,15 +6340,15 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 28,
-      "awayScore": 44,
-      "homeWinProbability": 0.126,
+      "awayScore": 45,
+      "homeWinProbability": 0.07,
       "period": 1,
       "clock": "2:03",
       "secondsRemaining": 123,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:51:01.000Z",
+      "wallclock": "2025-11-12T00:51:29.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -6433,8 +6434,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38745560,
-      "sourceId": "401817230114139199",
+      "id": 38745491,
+      "sourceId": "401817230114139104",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -6446,15 +6447,15 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 28,
-      "awayScore": 45,
-      "homeWinProbability": 0.07,
+      "awayScore": 44,
+      "homeWinProbability": 0.126,
       "period": 1,
       "clock": "2:03",
       "secondsRemaining": 123,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T00:51:29.000Z",
+      "wallclock": "2025-11-12T00:51:01.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -7104,8 +7105,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38746179,
-      "sourceId": "401817230114162811",
+      "id": 38746184,
+      "sourceId": "401817230114162933",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -7117,7 +7118,7 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 86,
+      "awayScore": 87,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:11",
@@ -7125,7 +7126,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:50:58.000Z",
+      "wallclock": "2025-11-12T01:51:18.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -7216,8 +7217,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38746184,
-      "sourceId": "401817230114162933",
+      "id": 38746179,
+      "sourceId": "401817230114162811",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -7229,7 +7230,7 @@
       "opponentConference": "Patriot",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 87,
+      "awayScore": 86,
       "homeWinProbability": null,
       "period": 2,
       "clock": "7:11",
@@ -7237,7 +7238,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-12T01:51:18.000Z",
+      "wallclock": "2025-11-12T01:50:58.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -10702,8 +10703,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39006547,
-      "sourceId": "401817231114327428",
+      "id": 39006548,
+      "sourceId": "401817231114327431",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -10714,7 +10715,7 @@
       "opponent": "Indiana State",
       "opponentConference": "MVC",
       "opponentSeed": null,
-      "homeScore": 88,
+      "homeScore": 89,
       "awayScore": 51,
       "homeWinProbability": 1,
       "period": 2,
@@ -10723,7 +10724,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T01:48:44.000Z",
+      "wallclock": "2025-11-15T01:48:52.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -10809,8 +10810,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39006548,
-      "sourceId": "401817231114327431",
+      "id": 39006547,
+      "sourceId": "401817231114327428",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -10821,7 +10822,7 @@
       "opponent": "Indiana State",
       "opponentConference": "MVC",
       "opponentSeed": null,
-      "homeScore": 89,
+      "homeScore": 88,
       "awayScore": 51,
       "homeWinProbability": 1,
       "period": 2,
@@ -10830,7 +10831,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-15T01:48:52.000Z",
+      "wallclock": "2025-11-15T01:48:44.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -11887,8 +11888,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39441480,
-      "sourceId": "401817232114572663",
+      "id": 39441479,
+      "sourceId": "401817232114572607",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -11899,16 +11900,16 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 28,
-      "homeWinProbability": 0.612,
+      "homeWinProbability": 0.546,
       "period": 1,
       "clock": "4:42",
       "secondsRemaining": 282,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T02:45:46.000Z",
+      "wallclock": "2025-11-19T02:45:31.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -11994,8 +11995,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39441479,
-      "sourceId": "401817232114572607",
+      "id": 39441480,
+      "sourceId": "401817232114572663",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -12006,16 +12007,16 @@
       "opponent": "Kansas",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 28,
-      "homeWinProbability": 0.546,
+      "homeWinProbability": 0.612,
       "period": 1,
       "clock": "4:42",
       "secondsRemaining": 282,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-19T02:45:31.000Z",
+      "wallclock": "2025-11-19T02:45:46.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -15565,8 +15566,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39963832,
-      "sourceId": "401817233114851033",
+      "id": 39963831,
+      "sourceId": "401817233114851004",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -15583,11 +15584,11 @@
       "period": 1,
       "clock": "19:39",
       "secondsRemaining": 1179,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-23T21:02:13.000Z",
-      "playText": "Cameron Boozer missed Free Throw.",
+      "wallclock": "2025-11-23T21:01:56.000Z",
+      "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -15599,7 +15600,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -15672,8 +15673,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39963831,
-      "sourceId": "401817233114851004",
+      "id": 39963832,
+      "sourceId": "401817233114851033",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -15690,11 +15691,11 @@
       "period": 1,
       "clock": "19:39",
       "secondsRemaining": 1179,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-23T21:01:56.000Z",
-      "playText": "Cameron Boozer made Free Throw.",
+      "wallclock": "2025-11-23T21:02:13.000Z",
+      "playText": "Cameron Boozer missed Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -15706,7 +15707,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19370,8 +19371,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40406995,
-      "sourceId": "401817234115100069",
+      "id": 40406999,
+      "sourceId": "401817234115100078",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -19383,16 +19384,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 49,
-      "homeWinProbability": 0.622,
+      "awayScore": 50,
+      "homeWinProbability": 0.607,
       "period": 2,
       "clock": "14:47",
       "secondsRemaining": 887,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T02:39:26.000Z",
-      "playText": "Cameron Boozer missed Free Throw.",
+      "wallclock": "2025-11-28T02:39:46.000Z",
+      "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -19404,7 +19405,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -19477,8 +19478,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40406999,
-      "sourceId": "401817234115100078",
+      "id": 40406995,
+      "sourceId": "401817234115100069",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -19490,16 +19491,16 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 50,
-      "awayScore": 50,
-      "homeWinProbability": 0.607,
+      "awayScore": 49,
+      "homeWinProbability": 0.622,
       "period": 2,
       "clock": "14:47",
       "secondsRemaining": 887,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T02:39:46.000Z",
-      "playText": "Cameron Boozer made Free Throw.",
+      "wallclock": "2025-11-28T02:39:26.000Z",
+      "playText": "Cameron Boozer missed Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -19511,7 +19512,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -20658,9 +20659,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40407119,
-      "sourceId": "401817234115101005",
-      "playType": "MadeFreeThrow",
+      "id": 40407117,
+      "sourceId": "401817234115100999",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -20676,11 +20677,11 @@
       "period": 2,
       "clock": "3:25",
       "secondsRemaining": 205,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-28T03:15:01.000Z",
-      "playText": "Cameron Boozer missed Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-28T03:14:31.000Z",
+      "playText": "Cameron Boozer made Jumper.",
       "participants": [
         {
           "id": 198977,
@@ -20692,16 +20693,16 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 836.6,
+          "y": 270
         }
       },
       "onFloor": [
@@ -20765,9 +20766,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40407117,
-      "sourceId": "401817234115100999",
-      "playType": "JumpShot",
+      "id": 40407119,
+      "sourceId": "401817234115101005",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -20783,11 +20784,11 @@
       "period": 2,
       "clock": "3:25",
       "secondsRemaining": 205,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-28T03:14:31.000Z",
-      "playText": "Cameron Boozer made Jumper.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-28T03:15:01.000Z",
+      "playText": "Cameron Boozer missed Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -20799,16 +20800,16 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
-        "range": "jumper",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 836.6,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -21090,8 +21091,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40407131,
-      "sourceId": "401817234115101088",
+      "id": 40407132,
+      "sourceId": "401817234115101092",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -21103,15 +21104,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 76,
-      "homeWinProbability": 0.024,
+      "awayScore": 77,
+      "homeWinProbability": 0.009,
       "period": 2,
       "clock": "1:06",
       "secondsRemaining": 66,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T03:19:00.000Z",
+      "wallclock": "2025-11-28T03:19:16.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -21197,8 +21198,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40407132,
-      "sourceId": "401817234115101092",
+      "id": 40407131,
+      "sourceId": "401817234115101088",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -21210,15 +21211,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 69,
-      "awayScore": 77,
-      "homeWinProbability": 0.009,
+      "awayScore": 76,
+      "homeWinProbability": 0.024,
       "period": 2,
       "clock": "1:06",
       "secondsRemaining": 66,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-28T03:19:16.000Z",
+      "wallclock": "2025-11-28T03:19:00.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -22168,9 +22169,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40767598,
-      "sourceId": "401806364115339558",
-      "playType": "LayUpShot",
+      "id": 40767600,
+      "sourceId": "401806364115339713",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -22180,17 +22181,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 19,
-      "homeWinProbability": 0.82,
+      "homeWinProbability": 0.857,
       "period": 1,
       "clock": "5:00",
       "secondsRemaining": 300,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-03T01:10:53.000Z",
-      "playText": "Cameron Boozer made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-12-03T01:11:46.000Z",
+      "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -22203,15 +22204,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 285
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -22275,9 +22276,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40767600,
-      "sourceId": "401806364115339713",
-      "playType": "MadeFreeThrow",
+      "id": 40767598,
+      "sourceId": "401806364115339558",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -22287,17 +22288,17 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 19,
-      "homeWinProbability": 0.857,
+      "homeWinProbability": 0.82,
       "period": 1,
       "clock": "5:00",
       "secondsRemaining": 300,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-03T01:11:46.000Z",
-      "playText": "Cameron Boozer made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-12-03T01:10:53.000Z",
+      "playText": "Cameron Boozer made Layup.",
       "participants": [
         {
           "id": 198977,
@@ -22310,15 +22311,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 874.2,
+          "y": 285
         }
       },
       "onFloor": [
@@ -23028,8 +23029,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40767750,
-      "sourceId": "401806364115351674",
+      "id": 40767751,
+      "sourceId": "401806364115351747",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -23040,16 +23041,16 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 49,
+      "homeScore": 50,
       "awayScore": 45,
-      "homeWinProbability": 0.751,
+      "homeWinProbability": 0.784,
       "period": 2,
       "clock": "11:19",
       "secondsRemaining": 679,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T02:09:57.000Z",
+      "wallclock": "2025-12-03T02:10:12.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -23242,8 +23243,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 40767751,
-      "sourceId": "401806364115351747",
+      "id": 40767750,
+      "sourceId": "401806364115351674",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -23254,16 +23255,16 @@
       "opponent": "Florida",
       "opponentConference": "SEC",
       "opponentSeed": null,
-      "homeScore": 50,
+      "homeScore": 49,
       "awayScore": 45,
-      "homeWinProbability": 0.784,
+      "homeWinProbability": 0.751,
       "period": 2,
       "clock": "11:19",
       "secondsRemaining": 679,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-03T02:10:12.000Z",
+      "wallclock": "2025-12-03T02:09:57.000Z",
       "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
@@ -25402,8 +25403,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41080139,
-      "sourceId": "401817235115512067",
+      "id": 41080138,
+      "sourceId": "401817235115512058",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -25420,11 +25421,11 @@
       "period": 2,
       "clock": "18:40",
       "secondsRemaining": 1120,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T18:14:30.000Z",
-      "playText": "Cameron Boozer missed Free Throw.",
+      "wallclock": "2025-12-06T18:14:16.000Z",
+      "playText": "Cameron Boozer made Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -25436,7 +25437,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25509,8 +25510,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41080138,
-      "sourceId": "401817235115512058",
+      "id": 41080139,
+      "sourceId": "401817235115512067",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -25527,11 +25528,11 @@
       "period": 2,
       "clock": "18:40",
       "secondsRemaining": 1120,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-06T18:14:16.000Z",
-      "playText": "Cameron Boozer made Free Throw.",
+      "wallclock": "2025-12-06T18:14:30.000Z",
+      "playText": "Cameron Boozer missed Free Throw.",
       "participants": [
         {
           "id": 198977,
@@ -25543,7 +25544,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -28331,8 +28332,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41911289,
-      "sourceId": "401817236115966414",
+      "id": 41911290,
+      "sourceId": "401817236115966451",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -28343,17 +28344,17 @@
       "opponent": "Lipscomb",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 51,
+      "homeScore": 52,
       "awayScore": 49,
-      "homeWinProbability": 0.669,
+      "homeWinProbability": 0.679,
       "period": 2,
       "clock": "17:02",
       "secondsRemaining": 1022,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T00:20:18.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2025-12-17T00:20:32.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -28438,8 +28439,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41911290,
-      "sourceId": "401817236115966451",
+      "id": 41911289,
+      "sourceId": "401817236115966414",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -28450,17 +28451,17 @@
       "opponent": "Lipscomb",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 51,
       "awayScore": 49,
-      "homeWinProbability": 0.679,
+      "homeWinProbability": 0.669,
       "period": 2,
       "clock": "17:02",
       "secondsRemaining": 1022,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T00:20:32.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2025-12-17T00:20:18.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -29084,8 +29085,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41911393,
-      "sourceId": "401817236115970649",
+      "id": 41911394,
+      "sourceId": "401817236115970746",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -29096,17 +29097,17 @@
       "opponent": "Lipscomb",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 69,
       "awayScore": 57,
-      "homeWinProbability": 0.934,
+      "homeWinProbability": 0.962,
       "period": 2,
       "clock": "9:51",
       "secondsRemaining": 591,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T00:43:55.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2025-12-17T00:44:13.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -29191,8 +29192,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41911394,
-      "sourceId": "401817236115970746",
+      "id": 41911393,
+      "sourceId": "401817236115970649",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -29203,17 +29204,17 @@
       "opponent": "Lipscomb",
       "opponentConference": "ASUN",
       "opponentSeed": null,
-      "homeScore": 69,
+      "homeScore": 68,
       "awayScore": 57,
-      "homeWinProbability": 0.962,
+      "homeWinProbability": 0.934,
       "period": 2,
       "clock": "9:51",
       "secondsRemaining": 591,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-17T00:44:13.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2025-12-17T00:43:55.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -29849,8 +29850,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299241,
-      "sourceId": "401817237116223927",
+      "id": 42299242,
+      "sourceId": "401817237116223930",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -29861,17 +29862,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 6,
+      "homeScore": 7,
       "awayScore": 13,
-      "homeWinProbability": 0.393,
+      "homeWinProbability": 0.432,
       "period": 1,
       "clock": "14:37",
       "secondsRemaining": 877,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T01:22:28.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2025-12-21T01:22:43.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -29956,8 +29957,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299242,
-      "sourceId": "401817237116223930",
+      "id": 42299241,
+      "sourceId": "401817237116223927",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -29968,17 +29969,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 7,
+      "homeScore": 6,
       "awayScore": 13,
-      "homeWinProbability": 0.432,
+      "homeWinProbability": 0.393,
       "period": 1,
       "clock": "14:37",
       "secondsRemaining": 877,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T01:22:43.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2025-12-21T01:22:28.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -31141,8 +31142,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299375,
-      "sourceId": "401817237116226374",
+      "id": 42299376,
+      "sourceId": "401817237116226389",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -31153,17 +31154,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 32,
-      "homeWinProbability": 0.835,
+      "homeWinProbability": 0.858,
       "period": 1,
       "clock": "3:02",
       "secondsRemaining": 182,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T02:05:51.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2025-12-21T02:06:11.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -31248,8 +31249,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299376,
-      "sourceId": "401817237116226389",
+      "id": 42299375,
+      "sourceId": "401817237116226374",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -31260,17 +31261,17 @@
       "opponent": "Texas Tech",
       "opponentConference": "Big 12",
       "opponentSeed": null,
-      "homeScore": 40,
+      "homeScore": 39,
       "awayScore": 32,
-      "homeWinProbability": 0.858,
+      "homeWinProbability": 0.835,
       "period": 1,
       "clock": "3:02",
       "secondsRemaining": 182,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-21T02:06:11.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2025-12-21T02:05:51.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -31688,9 +31689,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299408,
-      "sourceId": "401817237116228202",
-      "playType": "LayUpShot",
+      "id": 42299410,
+      "sourceId": "401817237116228248",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -31706,11 +31707,11 @@
       "period": 2,
       "clock": "18:26",
       "secondsRemaining": 1106,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-21T02:29:07.000Z",
-      "playText": "Cameron Boozer makes layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-21T02:29:51.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 1",
       "participants": [
         {
           "id": 198977,
@@ -31722,16 +31723,16 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
-        "range": "rim",
+        "made": false,
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -31795,9 +31796,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299410,
-      "sourceId": "401817237116228248",
-      "playType": "MadeFreeThrow",
+      "id": 42299408,
+      "sourceId": "401817237116228202",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -31813,11 +31814,11 @@
       "period": 2,
       "clock": "18:26",
       "secondsRemaining": 1106,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-21T02:29:51.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-21T02:29:07.000Z",
+      "playText": "Cameron Boozer makes layup",
       "participants": [
         {
           "id": 198977,
@@ -31829,16 +31830,16 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
-        "range": "free_throw",
+        "made": true,
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 235
         }
       },
       "onFloor": [
@@ -32009,9 +32010,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299448,
-      "sourceId": "401817237116228889",
-      "playType": "MadeFreeThrow",
+      "id": 42299444,
+      "sourceId": "401817237116228834",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -32027,12 +32028,16 @@
       "period": 2,
       "clock": "15:09",
       "secondsRemaining": 909,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-21T02:40:02.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-21T02:39:15.000Z",
+      "playText": "Cameron Boozer makes layup (Cayden Boozer assists)",
       "participants": [
+        {
+          "id": 198978,
+          "name": "Cayden Boozer"
+        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -32043,16 +32048,16 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 198978,
+          "name": "Cayden Boozer"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 255
         }
       },
       "onFloor": [
@@ -32116,9 +32121,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42299444,
-      "sourceId": "401817237116228834",
-      "playType": "LayUpShot",
+      "id": 42299448,
+      "sourceId": "401817237116228889",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -32134,16 +32139,12 @@
       "period": 2,
       "clock": "15:09",
       "secondsRemaining": 909,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-21T02:39:15.000Z",
-      "playText": "Cameron Boozer makes layup (Cayden Boozer assists)",
+      "scoreValue": 1,
+      "wallclock": "2025-12-21T02:40:02.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 198978,
-          "name": "Cayden Boozer"
-        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -32154,16 +32155,16 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 198978,
-          "name": "Cayden Boozer"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 255
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -34914,9 +34915,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967712,
-      "sourceId": "401820636116578200",
-      "playType": "MadeFreeThrow",
+      "id": 42967706,
+      "sourceId": "401820636116578153",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -34926,17 +34927,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 59,
-      "homeWinProbability": 0.818,
+      "homeWinProbability": 0.786,
       "period": 2,
       "clock": "10:30",
       "secondsRemaining": 630,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-12-31T22:41:46.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2025-12-31T22:41:10.000Z",
+      "playText": "Cameron Boozer makes layup",
       "participants": [
         {
           "id": 198977,
@@ -34949,15 +34950,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 240
         }
       },
       "onFloor": [
@@ -35021,9 +35022,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 42967706,
-      "sourceId": "401820636116578153",
-      "playType": "LayUpShot",
+      "id": 42967712,
+      "sourceId": "401820636116578200",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -35033,17 +35034,17 @@
       "opponent": "Georgia Tech",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 59,
-      "homeWinProbability": 0.786,
+      "homeWinProbability": 0.818,
       "period": 2,
       "clock": "10:30",
       "secondsRemaining": 630,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-12-31T22:41:10.000Z",
-      "playText": "Cameron Boozer makes layup",
+      "scoreValue": 1,
+      "wallclock": "2025-12-31T22:41:46.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 1",
       "participants": [
         {
           "id": 198977,
@@ -35056,15 +35057,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 240
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -37744,8 +37745,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215624,
-      "sourceId": "401820644116775370",
+      "id": 43215625,
+      "sourceId": "401820644116775470",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -37757,16 +37758,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 56,
-      "homeWinProbability": 0.662,
+      "awayScore": 57,
+      "homeWinProbability": 0.605,
       "period": 2,
       "clock": "14:57",
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:12:40.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-03T22:12:54.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -37851,8 +37852,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215625,
-      "sourceId": "401820644116775470",
+      "id": 43215624,
+      "sourceId": "401820644116775370",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -37864,16 +37865,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 59,
-      "awayScore": 57,
-      "homeWinProbability": 0.605,
+      "awayScore": 56,
+      "homeWinProbability": 0.662,
       "period": 2,
       "clock": "14:57",
       "secondsRemaining": 897,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:12:54.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:12:40.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -38176,8 +38177,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215726,
-      "sourceId": "401820644116783525",
+      "id": 43215720,
+      "sourceId": "401820644116783340",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -38189,16 +38190,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 75,
-      "homeWinProbability": 0.145,
+      "awayScore": 74,
+      "homeWinProbability": 0.214,
       "period": 2,
       "clock": "6:23",
       "secondsRemaining": 383,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:36:14.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:35:45.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -38210,7 +38211,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38283,8 +38284,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215720,
-      "sourceId": "401820644116783340",
+      "id": 43215726,
+      "sourceId": "401820644116783525",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -38296,16 +38297,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 67,
-      "awayScore": 74,
-      "homeWinProbability": 0.214,
+      "awayScore": 75,
+      "homeWinProbability": 0.145,
       "period": 2,
       "clock": "6:23",
       "secondsRemaining": 383,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:35:45.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-01-03T22:36:14.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -38317,7 +38318,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -38612,8 +38613,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215775,
-      "sourceId": "401820644116788180",
+      "id": 43215780,
+      "sourceId": "401820644116788256",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -38625,16 +38626,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 82,
-      "awayScore": 86,
-      "homeWinProbability": 0.051,
+      "awayScore": 87,
+      "homeWinProbability": 0.022,
       "period": 2,
       "clock": "0:26",
       "secondsRemaining": 26,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:52:45.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-03T22:53:06.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -38719,8 +38720,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43215780,
-      "sourceId": "401820644116788256",
+      "id": 43215775,
+      "sourceId": "401820644116788180",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -38732,16 +38733,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 82,
-      "awayScore": 87,
-      "homeWinProbability": 0.022,
+      "awayScore": 86,
+      "homeWinProbability": 0.051,
       "period": 2,
       "clock": "0:26",
       "secondsRemaining": 26,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-03T22:53:06.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-03T22:52:45.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -40562,8 +40563,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554567,
-      "sourceId": "401820650116899642",
+      "id": 43554571,
+      "sourceId": "401820650116899688",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -40575,16 +40576,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 72,
-      "homeWinProbability": 0.143,
+      "awayScore": 73,
+      "homeWinProbability": 0.163,
       "period": 2,
       "clock": "6:20",
       "secondsRemaining": 380,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:55:47.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-01-07T01:56:37.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -40596,7 +40597,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -40669,8 +40670,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43554571,
-      "sourceId": "401820650116899688",
+      "id": 43554567,
+      "sourceId": "401820650116899642",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -40682,16 +40683,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 64,
-      "awayScore": 73,
-      "homeWinProbability": 0.163,
+      "awayScore": 72,
+      "homeWinProbability": 0.143,
       "period": 2,
       "clock": "6:20",
       "secondsRemaining": 380,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-07T01:56:37.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-07T01:55:47.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -40703,7 +40704,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -41212,8 +41213,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43869985,
-      "sourceId": "401820657117103124",
+      "id": 43869986,
+      "sourceId": "401820657117103126",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -41224,9 +41225,9 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 17,
-      "homeWinProbability": 0.511,
+      "homeWinProbability": 0.56,
       "period": 1,
       "clock": "11:41",
       "secondsRemaining": 701,
@@ -41234,7 +41235,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-10T19:30:29.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -41319,8 +41320,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43869986,
-      "sourceId": "401820657117103126",
+      "id": 43869985,
+      "sourceId": "401820657117103124",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -41331,9 +41332,9 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 17,
-      "homeWinProbability": 0.56,
+      "homeWinProbability": 0.511,
       "period": 1,
       "clock": "11:41",
       "secondsRemaining": 701,
@@ -41341,7 +41342,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-10T19:30:29.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -43059,8 +43060,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43870313,
-      "sourceId": "401820657117152445",
+      "id": 43870314,
+      "sourceId": "401820657117152555",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -43071,17 +43072,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 78,
       "awayScore": 70,
-      "homeWinProbability": 0.996,
+      "homeWinProbability": 0.998,
       "period": 2,
       "clock": "0:42",
       "secondsRemaining": 42,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T21:13:36.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-10T21:13:55.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -43166,8 +43167,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43870314,
-      "sourceId": "401820657117152555",
+      "id": 43870313,
+      "sourceId": "401820657117152445",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -43178,17 +43179,17 @@
       "opponent": "SMU",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 78,
+      "homeScore": 77,
       "awayScore": 70,
-      "homeWinProbability": 0.998,
+      "homeWinProbability": 0.996,
       "period": 2,
       "clock": "0:42",
       "secondsRemaining": 42,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-10T21:13:55.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-10T21:13:36.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -44133,8 +44134,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310715,
-      "sourceId": "401820666117351767",
+      "id": 44310710,
+      "sourceId": "401820666117351761",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -44146,16 +44147,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 43,
-      "homeWinProbability": 0.521,
+      "awayScore": 42,
+      "homeWinProbability": 0.543,
       "period": 2,
       "clock": "14:36",
       "secondsRemaining": 876,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T05:29:28.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-15T05:29:06.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -44240,8 +44241,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310710,
-      "sourceId": "401820666117351761",
+      "id": 44310715,
+      "sourceId": "401820666117351767",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -44253,16 +44254,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 42,
-      "homeWinProbability": 0.543,
+      "awayScore": 43,
+      "homeWinProbability": 0.521,
       "period": 2,
       "clock": "14:36",
       "secondsRemaining": 876,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T05:29:06.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-15T05:29:28.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -44569,8 +44570,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310776,
-      "sourceId": "401820666117352018",
+      "id": 44310780,
+      "sourceId": "401820666117352031",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -44582,16 +44583,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 50,
-      "homeWinProbability": 0.432,
+      "awayScore": 51,
+      "homeWinProbability": 0.339,
       "period": 2,
       "clock": "9:48",
       "secondsRemaining": 588,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T05:43:45.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-01-15T05:44:05.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -44603,7 +44604,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -44676,8 +44677,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310780,
-      "sourceId": "401820666117352031",
+      "id": 44310776,
+      "sourceId": "401820666117352018",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -44689,16 +44690,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 47,
-      "awayScore": 51,
-      "homeWinProbability": 0.339,
+      "awayScore": 50,
+      "homeWinProbability": 0.432,
       "period": 2,
       "clock": "9:48",
       "secondsRemaining": 588,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T05:44:05.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-15T05:43:45.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -44710,7 +44711,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -45322,9 +45323,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310819,
-      "sourceId": "401820666117352136",
-      "playType": "LayUpShot",
+      "id": 44310824,
+      "sourceId": "401820666117352197",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -45340,16 +45341,12 @@
       "period": 2,
       "clock": "5:55",
       "secondsRemaining": 355,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-15T05:53:35.000Z",
-      "playText": "Cameron Boozer makes layup (Caleb Foster assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-15T05:57:41.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 1",
       "participants": [
-        {
-          "id": 208,
-          "name": "Caleb Foster"
-        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -45360,12 +45357,12 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 208,
-          "name": "Caleb Foster"
+          "id": null,
+          "name": null
         },
         "location": {
           "x": null,
@@ -45433,9 +45430,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44310824,
-      "sourceId": "401820666117352197",
-      "playType": "MadeFreeThrow",
+      "id": 44310819,
+      "sourceId": "401820666117352136",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -45451,12 +45448,16 @@
       "period": 2,
       "clock": "5:55",
       "secondsRemaining": 355,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-15T05:57:41.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-15T05:53:35.000Z",
+      "playText": "Cameron Boozer makes layup (Caleb Foster assists)",
       "participants": [
+        {
+          "id": 208,
+          "name": "Caleb Foster"
+        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -45467,12 +45468,12 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
+        "made": true,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 208,
+          "name": "Caleb Foster"
         },
         "location": {
           "x": null,
@@ -46511,8 +46512,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44580054,
-      "sourceId": "401820681117546567",
+      "id": 44580048,
+      "sourceId": "401820681117546418",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -46524,16 +46525,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 13,
-      "homeWinProbability": 0.35,
+      "awayScore": 12,
+      "homeWinProbability": 0.374,
       "period": 1,
       "clock": "12:08",
       "secondsRemaining": 728,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:21:54.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-17T23:21:33.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -46545,7 +46546,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -46618,8 +46619,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44580048,
-      "sourceId": "401820681117546418",
+      "id": 44580054,
+      "sourceId": "401820681117546567",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -46631,16 +46632,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 4,
-      "awayScore": 12,
-      "homeWinProbability": 0.374,
+      "awayScore": 13,
+      "homeWinProbability": 0.35,
       "period": 1,
       "clock": "12:08",
       "secondsRemaining": 728,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:21:33.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-01-17T23:21:54.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -46652,7 +46653,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47593,8 +47594,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44580212,
-      "sourceId": "401820681117556196",
+      "id": 44580213,
+      "sourceId": "401820681117556197",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -47611,11 +47612,11 @@
       "period": 2,
       "clock": "18:07",
       "secondsRemaining": 1087,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-18T00:18:47.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "playText": "Cameron Boozer misses free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -47627,7 +47628,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -47700,8 +47701,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44580213,
-      "sourceId": "401820681117556197",
+      "id": 44580212,
+      "sourceId": "401820681117556196",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -47718,11 +47719,11 @@
       "period": 2,
       "clock": "18:07",
       "secondsRemaining": 1087,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-01-18T00:18:47.000Z",
-      "playText": "Cameron Boozer misses free throw 2 of 2",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -47734,7 +47735,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -50078,9 +50079,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208422,
-      "sourceId": "401820689117834916",
-      "playType": "MadeFreeThrow",
+      "id": 45208414,
+      "sourceId": "401820689117834768",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -50090,18 +50091,22 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 30,
+      "homeScore": 29,
       "awayScore": 25,
-      "homeWinProbability": 0.757,
+      "homeWinProbability": 0.729,
       "period": 1,
       "clock": "4:57",
       "secondsRemaining": 297,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T17:40:22.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-24T17:39:46.000Z",
+      "playText": "Cameron Boozer makes layup (Caleb Foster assists)",
       "participants": [
+        {
+          "id": 208,
+          "name": "Caleb Foster"
+        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -50113,15 +50118,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 208,
+          "name": "Caleb Foster"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 846,
+          "y": 280
         }
       },
       "onFloor": [
@@ -50185,9 +50190,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208414,
-      "sourceId": "401820689117834768",
-      "playType": "LayUpShot",
+      "id": 45208422,
+      "sourceId": "401820689117834916",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -50197,22 +50202,18 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 29,
+      "homeScore": 30,
       "awayScore": 25,
-      "homeWinProbability": 0.729,
+      "homeWinProbability": 0.757,
       "period": 1,
       "clock": "4:57",
       "secondsRemaining": 297,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-24T17:39:46.000Z",
-      "playText": "Cameron Boozer makes layup (Caleb Foster assists)",
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T17:40:22.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 1",
       "participants": [
-        {
-          "id": 208,
-          "name": "Caleb Foster"
-        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -50224,15 +50225,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "rim",
-        "assisted": true,
+        "range": "free_throw",
+        "assisted": false,
         "assistedBy": {
-          "id": 208,
-          "name": "Caleb Foster"
+          "id": null,
+          "name": null
         },
         "location": {
-          "x": 846,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -51275,9 +51276,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208575,
-      "sourceId": "401820689117847508",
-      "playType": "MadeFreeThrow",
+      "id": 45208573,
+      "sourceId": "401820689117847373",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -51287,17 +51288,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 68,
+      "homeScore": 67,
       "awayScore": 53,
-      "homeWinProbability": 0.979,
+      "homeWinProbability": 0.982,
       "period": 2,
       "clock": "9:36",
       "secondsRemaining": 576,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T18:30:07.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-24T18:29:38.000Z",
+      "playText": "Cameron Boozer makes layup",
       "participants": [
         {
           "id": 198977,
@@ -51310,15 +51311,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 235
         }
       },
       "onFloor": [
@@ -51382,9 +51383,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208573,
-      "sourceId": "401820689117847373",
-      "playType": "LayUpShot",
+      "id": 45208575,
+      "sourceId": "401820689117847508",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -51394,17 +51395,17 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 68,
       "awayScore": 53,
-      "homeWinProbability": 0.982,
+      "homeWinProbability": 0.979,
       "period": 2,
       "clock": "9:36",
       "secondsRemaining": 576,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-24T18:29:38.000Z",
-      "playText": "Cameron Boozer makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T18:30:07.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 1",
       "participants": [
         {
           "id": 198977,
@@ -51417,15 +51418,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 235
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -51596,8 +51597,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208621,
-      "sourceId": "401820689117851771",
+      "id": 45208620,
+      "sourceId": "401820689117851594",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -51608,7 +51609,7 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 77,
+      "homeScore": 76,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
@@ -51617,8 +51618,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T18:42:30.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-24T18:42:12.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -51703,8 +51704,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45208620,
-      "sourceId": "401820689117851594",
+      "id": 45208621,
+      "sourceId": "401820689117851771",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -51715,7 +51716,7 @@
       "opponent": "Wake Forest",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 76,
+      "homeScore": 77,
       "awayScore": 55,
       "homeWinProbability": 1,
       "period": 2,
@@ -51724,8 +51725,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-24T18:42:12.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-24T18:42:30.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -56364,8 +56365,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45806350,
-      "sourceId": "401820712118171292",
+      "id": 45806351,
+      "sourceId": "401820712118171309",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -56377,16 +56378,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 63,
-      "homeWinProbability": 0.077,
+      "awayScore": 64,
+      "homeWinProbability": 0.052,
       "period": 2,
       "clock": "3:59",
       "secondsRemaining": 239,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T18:45:34.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-31T18:45:46.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -56471,8 +56472,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45806351,
-      "sourceId": "401820712118171309",
+      "id": 45806350,
+      "sourceId": "401820712118171292",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -56484,16 +56485,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 56,
-      "awayScore": 64,
-      "homeWinProbability": 0.052,
+      "awayScore": 63,
+      "homeWinProbability": 0.077,
       "period": 2,
       "clock": "3:59",
       "secondsRemaining": 239,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T18:45:46.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-01-31T18:45:34.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -56903,8 +56904,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45806376,
-      "sourceId": "401820712118172318",
+      "id": 45806377,
+      "sourceId": "401820712118172347",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -56921,11 +56922,11 @@
       "period": 2,
       "clock": "0:23",
       "secondsRemaining": 23,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T18:55:13.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-01-31T18:55:27.000Z",
+      "playText": "Cameron Boozer misses free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -56937,7 +56938,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -57010,8 +57011,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45806377,
-      "sourceId": "401820712118172347",
+      "id": 45806376,
+      "sourceId": "401820712118172318",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -57028,11 +57029,11 @@
       "period": 2,
       "clock": "0:23",
       "secondsRemaining": 23,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-31T18:55:27.000Z",
-      "playText": "Cameron Boozer misses free throw 2 of 2",
+      "wallclock": "2026-01-31T18:55:13.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -57044,7 +57045,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -63307,118 +63308,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46800473,
-      "sourceId": "401820736118736430",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 229,
-      "opponent": "Pittsburgh",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 47,
-      "awayScore": 59,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "4:52",
-      "secondsRemaining": 292,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T03:49:55.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 1",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 6856,
-          "name": "Damarco Minor",
-          "team": "Pittsburgh"
-        },
-        {
-          "id": 201463,
-          "name": "Kieran Mullen",
-          "team": "Pittsburgh"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 3043,
-          "name": "Cameron Corhen",
-          "team": "Pittsburgh"
-        },
-        {
-          "id": 201467,
-          "name": "Omari Witherspoon",
-          "team": "Pittsburgh"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 201466,
-          "name": "Roman Siulepa",
-          "team": "Pittsburgh"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 4913,
-          "name": "Barry Dunning Jr.",
-          "team": "Pittsburgh"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 214873,
-      "gameSourceId": "401820736",
-      "gameStartDate": "2026-02-11T02:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 46800471,
       "sourceId": "401820736118736424",
       "playType": "LayUpShot",
@@ -63535,9 +63424,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46800497,
-      "sourceId": "401820736118736826",
-      "playType": "LayUpShot",
+      "id": 46800473,
+      "sourceId": "401820736118736430",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -63547,17 +63436,17 @@
       "opponent": "Pittsburgh",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 52,
-      "awayScore": 69,
+      "homeScore": 47,
+      "awayScore": 59,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "1:29",
-      "secondsRemaining": 89,
+      "clock": "4:52",
+      "secondsRemaining": 292,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-11T03:59:33.000Z",
-      "playText": "Cameron Boozer makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T03:49:55.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 1",
       "participants": [
         {
           "id": 198977,
@@ -63570,15 +63459,127 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 56.4,
-          "y": 205
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 6856,
+          "name": "Damarco Minor",
+          "team": "Pittsburgh"
+        },
+        {
+          "id": 201463,
+          "name": "Kieran Mullen",
+          "team": "Pittsburgh"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 3043,
+          "name": "Cameron Corhen",
+          "team": "Pittsburgh"
+        },
+        {
+          "id": 201467,
+          "name": "Omari Witherspoon",
+          "team": "Pittsburgh"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 201466,
+          "name": "Roman Siulepa",
+          "team": "Pittsburgh"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 4913,
+          "name": "Barry Dunning Jr.",
+          "team": "Pittsburgh"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 214873,
+      "gameSourceId": "401820736",
+      "gameStartDate": "2026-02-11T02:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 46800501,
+      "sourceId": "401820736118736846",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 229,
+      "opponent": "Pittsburgh",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 52,
+      "awayScore": 70,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "1:29",
+      "secondsRemaining": 89,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-11T04:00:11.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 1",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -63647,9 +63648,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46800501,
-      "sourceId": "401820736118736846",
-      "playType": "MadeFreeThrow",
+      "id": 46800497,
+      "sourceId": "401820736118736826",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 72,
       "team": "Duke",
@@ -63660,16 +63661,16 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 52,
-      "awayScore": 70,
+      "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
       "clock": "1:29",
       "secondsRemaining": 89,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-11T04:00:11.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-11T03:59:33.000Z",
+      "playText": "Cameron Boozer makes driving layup",
       "participants": [
         {
           "id": 198977,
@@ -63682,15 +63683,15 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 56.4,
+          "y": 205
         }
       },
       "onFloor": [
@@ -64088,8 +64089,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47047430,
-      "sourceId": "401820740118884892",
+      "id": 47047421,
+      "sourceId": "401820740118884884",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -64100,17 +64101,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 14,
-      "homeWinProbability": 0.721,
+      "homeWinProbability": 0.672,
       "period": 1,
       "clock": "10:51",
       "secondsRemaining": 651,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T17:21:54.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-14T17:21:34.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -64195,8 +64196,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47047421,
-      "sourceId": "401820740118884884",
+      "id": 47047430,
+      "sourceId": "401820740118884892",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -64207,17 +64208,17 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 14,
-      "homeWinProbability": 0.672,
+      "homeWinProbability": 0.721,
       "period": 1,
       "clock": "10:51",
       "secondsRemaining": 651,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-14T17:21:34.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-14T17:21:54.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -66692,8 +66693,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363799,
-      "sourceId": "401820747119068759",
+      "id": 47363797,
+      "sourceId": "401820747119068748",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -66710,11 +66711,11 @@
       "period": 1,
       "clock": "3:56",
       "secondsRemaining": 236,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T00:40:15.000Z",
-      "playText": "Cameron Boozer misses free throw 2 of 2",
+      "wallclock": "2026-02-17T00:40:03.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -66726,7 +66727,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -66799,8 +66800,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363797,
-      "sourceId": "401820747119068748",
+      "id": 47363799,
+      "sourceId": "401820747119068759",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -66817,11 +66818,11 @@
       "period": 1,
       "clock": "3:56",
       "secondsRemaining": 236,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T00:40:03.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-17T00:40:15.000Z",
+      "playText": "Cameron Boozer misses free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -66833,7 +66834,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -67342,8 +67343,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363972,
-      "sourceId": "401820747119070720",
+      "id": 47363974,
+      "sourceId": "401820747119070734",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -67354,7 +67355,7 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 51,
+      "homeScore": 52,
       "awayScore": 28,
       "homeWinProbability": 0.998,
       "period": 2,
@@ -67363,8 +67364,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T01:11:31.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-17T01:11:48.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -67449,8 +67450,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47363974,
-      "sourceId": "401820747119070734",
+      "id": 47363972,
+      "sourceId": "401820747119070720",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -67461,7 +67462,7 @@
       "opponent": "Syracuse",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 51,
       "awayScore": 28,
       "homeWinProbability": 0.998,
       "period": 2,
@@ -67470,8 +67471,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-17T01:11:48.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-17T01:11:31.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -68424,8 +68425,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47744911,
-      "sourceId": "401817238119365542",
+      "id": 47744906,
+      "sourceId": "401817238119365503",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -68436,17 +68437,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 19,
-      "homeWinProbability": 0.49,
+      "homeWinProbability": 0.444,
       "period": 1,
       "clock": "13:46",
       "secondsRemaining": 826,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:52:52.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-21T23:52:34.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -68531,8 +68532,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47744906,
-      "sourceId": "401817238119365503",
+      "id": 47744911,
+      "sourceId": "401817238119365542",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -68543,17 +68544,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 19,
-      "homeWinProbability": 0.444,
+      "homeWinProbability": 0.49,
       "period": 1,
       "clock": "13:46",
       "secondsRemaining": 826,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T23:52:34.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-21T23:52:52.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -70049,8 +70050,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47745233,
-      "sourceId": "401817238119380257",
+      "id": 47745234,
+      "sourceId": "401817238119380309",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -70061,17 +70062,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 61,
       "awayScore": 56,
-      "homeWinProbability": 0.854,
+      "homeWinProbability": 0.901,
       "period": 2,
       "clock": "2:30",
       "secondsRemaining": 150,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T01:36:37.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-22T01:36:58.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -70156,8 +70157,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47745234,
-      "sourceId": "401817238119380309",
+      "id": 47745233,
+      "sourceId": "401817238119380257",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -70168,17 +70169,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 61,
+      "homeScore": 60,
       "awayScore": 56,
-      "homeWinProbability": 0.901,
+      "homeWinProbability": 0.854,
       "period": 2,
       "clock": "2:30",
       "secondsRemaining": 150,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-22T01:36:58.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-22T01:36:37.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -70592,8 +70593,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967851,
-      "sourceId": "401820767119438461",
+      "id": 47967850,
+      "sourceId": "401820767119438452",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -70605,7 +70606,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 0,
-      "awayScore": 6,
+      "awayScore": 5,
       "homeWinProbability": null,
       "period": 1,
       "clock": "18:08",
@@ -70613,8 +70614,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:08:38.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-25T00:08:24.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -70699,8 +70700,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967850,
-      "sourceId": "401820767119438452",
+      "id": 47967851,
+      "sourceId": "401820767119438461",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -70712,7 +70713,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 0,
-      "awayScore": 5,
+      "awayScore": 6,
       "homeWinProbability": null,
       "period": 1,
       "clock": "18:08",
@@ -70720,8 +70721,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:08:24.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-25T00:08:38.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -71238,113 +71239,6 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967897,
-      "sourceId": "401820767119439852",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": false,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 213,
-      "opponent": "Notre Dame",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 4,
-      "awayScore": 19,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "13:44",
-      "secondsRemaining": 824,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-25T00:21:08.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 8164,
-          "name": "Sir Mohammed",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 5034,
-          "name": "Carson Towt",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 8165,
-          "name": "Logan Imes",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 8158,
-          "name": "Braeden Shrewsberry",
-          "team": "Notre Dame"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 8160,
-          "name": "Garrett Sundra",
-          "team": "Notre Dame"
-        }
-      ]
-    },
-    {
-      "gameId": 215079,
-      "gameSourceId": "401820767",
-      "gameStartDate": "2026-02-25T00:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
       "id": 47967902,
       "sourceId": "401820767119439917",
       "playType": "MadeFreeThrow",
@@ -71452,8 +71346,115 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967938,
-      "sourceId": "401820767119440843",
+      "id": 47967897,
+      "sourceId": "401820767119439852",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": false,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 213,
+      "opponent": "Notre Dame",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 4,
+      "awayScore": 19,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "13:44",
+      "secondsRemaining": 824,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-02-25T00:21:08.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 8164,
+          "name": "Sir Mohammed",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 5034,
+          "name": "Carson Towt",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 8165,
+          "name": "Logan Imes",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 8158,
+          "name": "Braeden Shrewsberry",
+          "team": "Notre Dame"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 8160,
+          "name": "Garrett Sundra",
+          "team": "Notre Dame"
+        }
+      ]
+    },
+    {
+      "gameId": 215079,
+      "gameSourceId": "401820767",
+      "gameStartDate": "2026-02-25T00:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
+      "id": 47967939,
+      "sourceId": "401820767119440887",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -71465,7 +71466,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 21,
+      "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
       "clock": "11:19",
@@ -71473,8 +71474,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:30:06.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-25T00:30:24.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -71559,8 +71560,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47967939,
-      "sourceId": "401820767119440887",
+      "id": 47967938,
+      "sourceId": "401820767119440843",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -71572,7 +71573,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 7,
-      "awayScore": 22,
+      "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
       "clock": "11:19",
@@ -71580,8 +71581,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:30:24.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-25T00:30:06.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -72102,8 +72103,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47968010,
-      "sourceId": "401820767119443197",
+      "id": 47968011,
+      "sourceId": "401820767119443213",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -72115,7 +72116,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 38,
+      "awayScore": 39,
       "homeWinProbability": null,
       "period": 1,
       "clock": "3:55",
@@ -72123,8 +72124,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:49:44.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-02-25T00:49:57.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -72209,8 +72210,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47968011,
-      "sourceId": "401820767119443213",
+      "id": 47968010,
+      "sourceId": "401820767119443197",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -72222,7 +72223,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 16,
-      "awayScore": 39,
+      "awayScore": 38,
       "homeWinProbability": null,
       "period": 1,
       "clock": "3:55",
@@ -72230,8 +72231,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-25T00:49:57.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-02-25T00:49:44.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -77290,8 +77291,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48572176,
-      "sourceId": "401820778119797877",
+      "id": 48572178,
+      "sourceId": "401820778119797942",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -77303,7 +77304,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 65,
+      "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:18",
@@ -77311,8 +77312,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-03T01:25:36.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-03T01:25:55.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -77397,8 +77398,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48572178,
-      "sourceId": "401820778119797942",
+      "id": 48572176,
+      "sourceId": "401820778119797877",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 72,
@@ -77410,7 +77411,7 @@
       "opponentConference": "ACC",
       "opponentSeed": null,
       "homeScore": 39,
-      "awayScore": 66,
+      "awayScore": 65,
       "homeWinProbability": null,
       "period": 2,
       "clock": "13:18",
@@ -77418,8 +77419,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-03T01:25:55.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-03T01:25:36.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -80746,8 +80747,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49015977,
-      "sourceId": "401820788120069766",
+      "id": 49015984,
+      "sourceId": "401820788120069838",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -80758,7 +80759,7 @@
       "opponent": "North Carolina",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 70,
+      "homeScore": 71,
       "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
@@ -80767,8 +80768,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T01:24:24.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-08T01:24:53.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -80853,8 +80854,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49015984,
-      "sourceId": "401820788120069838",
+      "id": 49015977,
+      "sourceId": "401820788120069766",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -80865,7 +80866,7 @@
       "opponent": "North Carolina",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 71,
+      "homeScore": 70,
       "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
@@ -80874,8 +80875,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T01:24:53.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-08T01:24:24.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -81067,8 +81068,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49016014,
-      "sourceId": "401820788120070727",
+      "id": 49016012,
+      "sourceId": "401820788120070696",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -81079,17 +81080,17 @@
       "opponent": "North Carolina",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 73,
       "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:10",
       "secondsRemaining": 130,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T01:34:28.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-08T01:34:10.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -81101,7 +81102,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -81174,8 +81175,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 49016012,
-      "sourceId": "401820788120070696",
+      "id": 49016014,
+      "sourceId": "401820788120070727",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -81186,17 +81187,17 @@
       "opponent": "North Carolina",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 74,
       "awayScore": 56,
       "homeWinProbability": null,
       "period": 2,
       "clock": "2:10",
       "secondsRemaining": 130,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-08T01:34:10.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-03-08T01:34:28.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -81208,7 +81209,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -81717,113 +81718,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343035,
-      "sourceId": "401851179120213316",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 90,
-      "opponent": "Florida State",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 23,
-      "awayScore": 19,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "9:57",
-      "secondsRemaining": 597,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-12T23:27:33.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 1",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 199260,
-          "name": "Alex Steen",
-          "team": "Florida State"
-        },
-        {
-          "id": 1215,
-          "name": "Kobe MaGee",
-          "team": "Florida State"
-        },
-        {
-          "id": 199249,
-          "name": "Thomas Bassong",
-          "team": "Florida State"
-        },
-        {
-          "id": 3446,
-          "name": "Chauncey Wiggins",
-          "team": "Florida State"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 2288,
-          "name": "Robert McCray V",
-          "team": "Florida State"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 372376,
-      "gameSourceId": "401851179",
-      "gameStartDate": "2026-03-12T23:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49343031,
       "sourceId": "401851179120213268",
       "playType": "LayUpShot",
@@ -81935,8 +81829,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343041,
-      "sourceId": "401851179120213527",
+      "id": 49343035,
+      "sourceId": "401851179120213316",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -81947,7 +81841,114 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 25,
+      "homeScore": 23,
+      "awayScore": 19,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "9:57",
+      "secondsRemaining": 597,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-12T23:27:33.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 1",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 199260,
+          "name": "Alex Steen",
+          "team": "Florida State"
+        },
+        {
+          "id": 1215,
+          "name": "Kobe MaGee",
+          "team": "Florida State"
+        },
+        {
+          "id": 199249,
+          "name": "Thomas Bassong",
+          "team": "Florida State"
+        },
+        {
+          "id": 3446,
+          "name": "Chauncey Wiggins",
+          "team": "Florida State"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 2288,
+          "name": "Robert McCray V",
+          "team": "Florida State"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372376,
+      "gameSourceId": "401851179",
+      "gameStartDate": "2026-03-12T23:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49343040,
+      "sourceId": "401851179120213510",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 90,
+      "opponent": "Florida State",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 24,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -81956,8 +81957,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:29:38.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-12T23:29:15.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -82042,8 +82043,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343040,
-      "sourceId": "401851179120213510",
+      "id": 49343041,
+      "sourceId": "401851179120213527",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -82054,7 +82055,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 24,
+      "homeScore": 25,
       "awayScore": 22,
       "homeWinProbability": null,
       "period": 1,
@@ -82063,8 +82064,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:29:15.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-12T23:29:38.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -82367,8 +82368,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343111,
-      "sourceId": "401851179120215067",
+      "id": 49343107,
+      "sourceId": "401851179120215027",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -82379,17 +82380,17 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 36,
+      "homeScore": 35,
       "awayScore": 35,
       "homeWinProbability": null,
       "period": 1,
       "clock": "3:43",
       "secondsRemaining": 223,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:47:32.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-12T23:47:12.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -82401,7 +82402,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -82474,8 +82475,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343107,
-      "sourceId": "401851179120215027",
+      "id": 49343111,
+      "sourceId": "401851179120215067",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -82486,17 +82487,17 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 35,
+      "homeScore": 36,
       "awayScore": 35,
       "homeWinProbability": null,
       "period": 1,
       "clock": "3:43",
       "secondsRemaining": 223,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:47:12.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-03-12T23:47:32.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -82508,7 +82509,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -82902,8 +82903,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343144,
-      "sourceId": "401851179120215608",
+      "id": 49343141,
+      "sourceId": "401851179120215601",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -82914,7 +82915,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 42,
       "homeWinProbability": null,
       "period": 1,
@@ -82923,8 +82924,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:56:24.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-12T23:56:02.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -83009,8 +83010,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49343141,
-      "sourceId": "401851179120215601",
+      "id": 49343144,
+      "sourceId": "401851179120215608",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -83021,7 +83022,7 @@
       "opponent": "Florida State",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 42,
       "homeWinProbability": null,
       "period": 1,
@@ -83030,8 +83031,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-12T23:56:02.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-12T23:56:24.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -85280,8 +85281,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49407918,
-      "sourceId": "401851182120254731",
+      "id": 49407915,
+      "sourceId": "401851182120254719",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -85292,7 +85293,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 15,
+      "homeScore": 14,
       "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
@@ -85301,8 +85302,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T01:51:03.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-14T01:50:45.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -85387,8 +85388,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49407915,
-      "sourceId": "401851182120254719",
+      "id": 49407918,
+      "sourceId": "401851182120254731",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -85399,7 +85400,7 @@
       "opponent": "Clemson",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 14,
+      "homeScore": 15,
       "awayScore": 11,
       "homeWinProbability": null,
       "period": 1,
@@ -85408,8 +85409,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-14T01:50:45.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-14T01:51:03.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -88526,8 +88527,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461449,
-      "sourceId": "401851183120276901",
+      "id": 49461457,
+      "sourceId": "401851183120276914",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -88538,17 +88539,17 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 44,
+      "homeScore": 45,
       "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:20",
       "secondsRemaining": 980,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T01:51:45.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-03-15T01:52:15.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -88560,7 +88561,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -88633,8 +88634,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461457,
-      "sourceId": "401851183120276914",
+      "id": 49461449,
+      "sourceId": "401851183120276901",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -88645,17 +88646,17 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 45,
+      "homeScore": 44,
       "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "16:20",
       "secondsRemaining": 980,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T01:52:15.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-15T01:51:45.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -88667,7 +88668,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -89929,113 +89930,6 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461599,
-      "sourceId": "401851183120277489",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": null,
-      "opponentId": 339,
-      "opponent": "Virginia",
-      "opponentConference": "ACC",
-      "opponentSeed": null,
-      "homeScore": 62,
-      "awayScore": 60,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "5:58",
-      "secondsRemaining": 358,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-15T02:23:37.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 203192,
-          "name": "Johann Grunloh",
-          "team": "Virginia"
-        },
-        {
-          "id": 203196,
-          "name": "Chance Mallory",
-          "team": "Virginia"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 7709,
-          "name": "Malik Thomas",
-          "team": "Virginia"
-        },
-        {
-          "id": 2519,
-          "name": "Sam Lewis",
-          "team": "Virginia"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 203190,
-          "name": "Thijs De Ridder",
-          "team": "Virginia"
-        }
-      ]
-    },
-    {
-      "gameId": 372441,
-      "gameSourceId": "401851183",
-      "gameStartDate": "2026-03-15T00:40:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "TRNMNT",
-      "tournament": null,
       "id": 49461600,
       "sourceId": "401851183120277490",
       "playType": "MadeFreeThrow",
@@ -90187,6 +90081,113 @@
         "location": {
           "x": 56.4,
           "y": 250
+        }
+      },
+      "onFloor": [
+        {
+          "id": 203192,
+          "name": "Johann Grunloh",
+          "team": "Virginia"
+        },
+        {
+          "id": 203196,
+          "name": "Chance Mallory",
+          "team": "Virginia"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 7709,
+          "name": "Malik Thomas",
+          "team": "Virginia"
+        },
+        {
+          "id": 2519,
+          "name": "Sam Lewis",
+          "team": "Virginia"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 203190,
+          "name": "Thijs De Ridder",
+          "team": "Virginia"
+        }
+      ]
+    },
+    {
+      "gameId": 372441,
+      "gameSourceId": "401851183",
+      "gameStartDate": "2026-03-15T00:40:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "TRNMNT",
+      "tournament": null,
+      "id": 49461599,
+      "sourceId": "401851183120277489",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": null,
+      "opponentId": 339,
+      "opponent": "Virginia",
+      "opponentConference": "ACC",
+      "opponentSeed": null,
+      "homeScore": 62,
+      "awayScore": 60,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "5:58",
+      "secondsRemaining": 358,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-15T02:23:37.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -90575,8 +90576,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461650,
-      "sourceId": "401851183120277800",
+      "id": 49461648,
+      "sourceId": "401851183120277798",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -90596,8 +90597,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T02:44:04.000Z",
-      "playText": "Cameron Boozer misses free throw 2 of 2",
+      "wallclock": "2026-03-15T02:43:47.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -90682,8 +90683,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461648,
-      "sourceId": "401851183120277798",
+      "id": 49461650,
+      "sourceId": "401851183120277800",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -90703,8 +90704,8 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T02:43:47.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-03-15T02:44:04.000Z",
+      "playText": "Cameron Boozer misses free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -90896,8 +90897,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461671,
-      "sourceId": "401851183120277951",
+      "id": 49461670,
+      "sourceId": "401851183120277948",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -90908,7 +90909,7 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 73,
       "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
@@ -90917,8 +90918,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T02:51:40.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-15T02:51:20.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -91003,8 +91004,8 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49461670,
-      "sourceId": "401851183120277948",
+      "id": 49461671,
+      "sourceId": "401851183120277951",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -91015,7 +91016,7 @@
       "opponent": "Virginia",
       "opponentConference": "ACC",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 74,
       "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
@@ -91024,8 +91025,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-15T02:51:20.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-15T02:51:40.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -91649,8 +91650,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539400,
-      "sourceId": "401856478120296989",
+      "id": 49539399,
+      "sourceId": "401856478120296988",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -91661,7 +91662,7 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 16,
+      "homeScore": 15,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -91670,8 +91671,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T19:15:30.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-19T19:15:14.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -91756,8 +91757,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539399,
-      "sourceId": "401856478120296988",
+      "id": 49539400,
+      "sourceId": "401856478120296989",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -91768,7 +91769,7 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 15,
+      "homeScore": 16,
       "awayScore": 16,
       "homeWinProbability": null,
       "period": 1,
@@ -91777,8 +91778,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T19:15:14.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-19T19:15:30.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -92731,8 +92732,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539676,
-      "sourceId": "401856478120297748",
+      "id": 49539678,
+      "sourceId": "401856478120297749",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -92743,7 +92744,7 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
@@ -92752,8 +92753,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T20:17:00.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-19T20:17:16.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -92838,8 +92839,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539678,
-      "sourceId": "401856478120297749",
+      "id": 49539676,
+      "sourceId": "401856478120297748",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -92850,7 +92851,7 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
@@ -92859,8 +92860,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T20:17:16.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-19T20:17:00.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -93377,8 +93378,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539845,
-      "sourceId": "401856478120298161",
+      "id": 49539841,
+      "sourceId": "401856478120298157",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -93389,17 +93390,17 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 61,
+      "homeScore": 60,
       "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:08",
       "secondsRemaining": 308,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T20:46:49.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-19T20:46:33.000Z",
+      "playText": "Cameron Boozer misses free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -93411,7 +93412,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -93484,8 +93485,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49539841,
-      "sourceId": "401856478120298157",
+      "id": 49539845,
+      "sourceId": "401856478120298161",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -93496,17 +93497,17 @@
       "opponent": "Siena",
       "opponentConference": "MAAC",
       "opponentSeed": 16,
-      "homeScore": 60,
+      "homeScore": 61,
       "awayScore": 61,
       "homeWinProbability": null,
       "period": 2,
       "clock": "5:08",
       "secondsRemaining": 308,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-19T20:46:33.000Z",
-      "playText": "Cameron Boozer misses free throw 1 of 2",
+      "wallclock": "2026-03-19T20:46:49.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -93518,7 +93519,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -94776,113 +94777,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49592337,
-      "sourceId": "401856530120347547",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": 1,
-      "opponentId": 287,
-      "opponent": "TCU",
-      "opponentConference": "Big 12",
-      "opponentSeed": 9,
-      "homeScore": 41,
-      "awayScore": 40,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "15:26",
-      "secondsRemaining": 926,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-21T23:00:40.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 4438,
-          "name": "Tanner Toolson",
-          "team": "TCU"
-        },
-        {
-          "id": 7405,
-          "name": "Vianney Salatchoum",
-          "team": "TCU"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 216,
-          "name": "Patrick Ngongba II",
-          "team": "Duke"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 5674,
-          "name": "David Punch",
-          "team": "TCU"
-        },
-        {
-          "id": 5675,
-          "name": "Micah Robinson",
-          "team": "TCU"
-        },
-        {
-          "id": 3136,
-          "name": "Jayden Pierre",
-          "team": "TCU"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 372564,
-      "gameSourceId": "401856530",
-      "gameStartDate": "2026-03-21T21:25:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49592338,
       "sourceId": "401856530120347548",
       "playType": "MadeFreeThrow",
@@ -94990,9 +94884,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49592367,
-      "sourceId": "401856530120347767",
-      "playType": "LayUpShot",
+      "id": 49592337,
+      "sourceId": "401856530120347547",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -95002,17 +94896,17 @@
       "opponent": "TCU",
       "opponentConference": "Big 12",
       "opponentSeed": 9,
-      "homeScore": 49,
-      "awayScore": 44,
+      "homeScore": 41,
+      "awayScore": 40,
       "homeWinProbability": null,
       "period": 2,
-      "clock": "13:12",
-      "secondsRemaining": 792,
+      "clock": "15:26",
+      "secondsRemaining": 926,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-21T23:05:37.000Z",
-      "playText": "Cameron Boozer makes layup",
+      "scoreValue": 1,
+      "wallclock": "2026-03-21T23:00:40.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -95025,22 +94919,32 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 874.2,
-          "y": 270
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
         {
-          "id": 6861,
-          "name": "Liutauras Lelevicius",
+          "id": 4438,
+          "name": "Tanner Toolson",
           "team": "TCU"
+        },
+        {
+          "id": 7405,
+          "name": "Vianney Salatchoum",
+          "team": "TCU"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
         },
         {
           "id": 216,
@@ -95058,18 +94962,8 @@
           "team": "TCU"
         },
         {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
           "id": 5675,
           "name": "Micah Robinson",
-          "team": "TCU"
-        },
-        {
-          "id": 5482,
-          "name": "Brock Harding",
           "team": "TCU"
         },
         {
@@ -95141,6 +95035,113 @@
         "location": {
           "x": null,
           "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 6861,
+          "name": "Liutauras Lelevicius",
+          "team": "TCU"
+        },
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 5674,
+          "name": "David Punch",
+          "team": "TCU"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 5675,
+          "name": "Micah Robinson",
+          "team": "TCU"
+        },
+        {
+          "id": 5482,
+          "name": "Brock Harding",
+          "team": "TCU"
+        },
+        {
+          "id": 3136,
+          "name": "Jayden Pierre",
+          "team": "TCU"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372564,
+      "gameSourceId": "401856530",
+      "gameStartDate": "2026-03-21T21:25:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49592367,
+      "sourceId": "401856530120347767",
+      "playType": "LayUpShot",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 287,
+      "opponent": "TCU",
+      "opponentConference": "Big 12",
+      "opponentSeed": 9,
+      "homeScore": 49,
+      "awayScore": 44,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "13:12",
+      "secondsRemaining": 792,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 2,
+      "wallclock": "2026-03-21T23:05:37.000Z",
+      "playText": "Cameron Boozer makes layup",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "rim",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": 874.2,
+          "y": 270
         }
       },
       "onFloor": [
@@ -96619,117 +96620,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49649933,
-      "sourceId": "401856570120393357",
-      "playType": "LayUpShot",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": 1,
-      "opponentId": 279,
-      "opponent": "St. John's",
-      "opponentConference": "Big East",
-      "opponentSeed": 5,
-      "homeScore": 32,
-      "awayScore": 28,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "4:43",
-      "secondsRemaining": 283,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-27T23:46:33.000Z",
-      "playText": "Cameron Boozer makes layup (Dame Sarr assists)",
-      "participants": [
-        {
-          "id": 198985,
-          "name": "Dame Sarr"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "rim",
-        "assisted": true,
-        "assistedBy": {
-          "id": 198985,
-          "name": "Dame Sarr"
-        },
-        "location": {
-          "x": 103.4,
-          "y": 260
-        }
-      },
-      "onFloor": [
-        {
-          "id": 465,
-          "name": "Dillon Mitchell",
-          "team": "St. John's"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 7641,
-          "name": "Joson Sanon",
-          "team": "St. John's"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 208,
-          "name": "Caleb Foster",
-          "team": "Duke"
-        },
-        {
-          "id": 7626,
-          "name": "Dylan Darling",
-          "team": "St. John's"
-        },
-        {
-          "id": 211,
-          "name": "Isaiah Evans",
-          "team": "Duke"
-        },
-        {
-          "id": 908,
-          "name": "Oziyah Sellers",
-          "team": "St. John's"
-        },
-        {
-          "id": 1424,
-          "name": "Zuby Ejiofor",
-          "team": "St. John's"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        }
-      ]
-    },
-    {
-      "gameId": 372589,
-      "gameSourceId": "401856570",
-      "gameStartDate": "2026-03-27T23:10:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49649939,
       "sourceId": "401856570120393448",
       "playType": "MadeFreeThrow",
@@ -96837,9 +96727,9 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49649944,
-      "sourceId": "401856570120393507",
-      "playType": "MadeFreeThrow",
+      "id": 49649933,
+      "sourceId": "401856570120393357",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 72,
       "team": "Duke",
@@ -96849,18 +96739,22 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": 5,
-      "homeScore": 34,
+      "homeScore": 32,
       "awayScore": 28,
       "homeWinProbability": null,
       "period": 1,
-      "clock": "4:20",
-      "secondsRemaining": 260,
+      "clock": "4:43",
+      "secondsRemaining": 283,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-27T23:48:09.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "scoreValue": 2,
+      "wallclock": "2026-03-27T23:46:33.000Z",
+      "playText": "Cameron Boozer makes layup (Dame Sarr assists)",
       "participants": [
+        {
+          "id": 198985,
+          "name": "Dame Sarr"
+        },
         {
           "id": 198977,
           "name": "Cameron Boozer"
@@ -96872,21 +96766,26 @@
           "name": "Cameron Boozer"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
+        "range": "rim",
+        "assisted": true,
         "assistedBy": {
-          "id": null,
-          "name": null
+          "id": 198985,
+          "name": "Dame Sarr"
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 260
         }
       },
       "onFloor": [
         {
-          "id": 216,
-          "name": "Patrick Ngongba II",
+          "id": 465,
+          "name": "Dillon Mitchell",
+          "team": "St. John's"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
           "team": "Duke"
         },
         {
@@ -96907,11 +96806,6 @@
         {
           "id": 7626,
           "name": "Dylan Darling",
-          "team": "St. John's"
-        },
-        {
-          "id": 1429,
-          "name": "Ruben Prey",
           "team": "St. John's"
         },
         {
@@ -97051,8 +96945,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49649970,
-      "sourceId": "401856570120393675",
+      "id": 49649944,
+      "sourceId": "401856570120393507",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -97063,7 +96957,114 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": 5,
-      "homeScore": 38,
+      "homeScore": 34,
+      "awayScore": 28,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "4:20",
+      "secondsRemaining": 260,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-27T23:48:09.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 216,
+          "name": "Patrick Ngongba II",
+          "team": "Duke"
+        },
+        {
+          "id": 7641,
+          "name": "Joson Sanon",
+          "team": "St. John's"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 208,
+          "name": "Caleb Foster",
+          "team": "Duke"
+        },
+        {
+          "id": 7626,
+          "name": "Dylan Darling",
+          "team": "St. John's"
+        },
+        {
+          "id": 1429,
+          "name": "Ruben Prey",
+          "team": "St. John's"
+        },
+        {
+          "id": 211,
+          "name": "Isaiah Evans",
+          "team": "Duke"
+        },
+        {
+          "id": 908,
+          "name": "Oziyah Sellers",
+          "team": "St. John's"
+        },
+        {
+          "id": 1424,
+          "name": "Zuby Ejiofor",
+          "team": "St. John's"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        }
+      ]
+    },
+    {
+      "gameId": 372589,
+      "gameSourceId": "401856570",
+      "gameStartDate": "2026-03-27T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49649971,
+      "sourceId": "401856570120393712",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 279,
+      "opponent": "St. John's",
+      "opponentConference": "Big East",
+      "opponentSeed": 5,
+      "homeScore": 39,
       "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
@@ -97072,8 +97073,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T23:56:39.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-27T23:57:28.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -97158,8 +97159,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49649971,
-      "sourceId": "401856570120393712",
+      "id": 49649970,
+      "sourceId": "401856570120393675",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -97170,7 +97171,7 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": 5,
-      "homeScore": 39,
+      "homeScore": 38,
       "awayScore": 34,
       "homeWinProbability": null,
       "period": 1,
@@ -97179,8 +97180,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T23:57:28.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-27T23:56:39.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -98771,8 +98772,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650221,
-      "sourceId": "401856570120395150",
+      "id": 49650222,
+      "sourceId": "401856570120395152",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -98783,7 +98784,7 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": 5,
-      "homeScore": 79,
+      "homeScore": 80,
       "awayScore": 75,
       "homeWinProbability": null,
       "period": 2,
@@ -98792,8 +98793,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T01:24:24.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-28T01:24:44.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -98878,8 +98879,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49650222,
-      "sourceId": "401856570120395152",
+      "id": 49650221,
+      "sourceId": "401856570120395150",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -98890,7 +98891,7 @@
       "opponent": "St. John's",
       "opponentConference": "Big East",
       "opponentSeed": 5,
-      "homeScore": 80,
+      "homeScore": 79,
       "awayScore": 75,
       "homeWinProbability": null,
       "period": 2,
@@ -98899,8 +98900,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-28T01:24:44.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-28T01:24:24.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -100071,8 +100072,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661601,
-      "sourceId": "401856577120402490",
+      "id": 49661600,
+      "sourceId": "401856577120402489",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -100089,11 +100090,11 @@
       "period": 1,
       "clock": "6:12",
       "secondsRemaining": 372,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T21:39:42.000Z",
-      "playText": "Cameron Boozer misses free throw 2 of 2",
+      "wallclock": "2026-03-29T21:39:27.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -100105,7 +100106,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -100178,8 +100179,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661600,
-      "sourceId": "401856577120402489",
+      "id": 49661601,
+      "sourceId": "401856577120402490",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -100196,11 +100197,11 @@
       "period": 1,
       "clock": "6:12",
       "secondsRemaining": 372,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T21:39:27.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-29T21:39:42.000Z",
+      "playText": "Cameron Boozer misses free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -100212,7 +100213,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -100392,113 +100393,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661614,
-      "sourceId": "401856577120402504",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 72,
-      "team": "Duke",
-      "conference": "ACC",
-      "teamSeed": 1,
-      "opponentId": 314,
-      "opponent": "UConn",
-      "opponentConference": "Big East",
-      "opponentSeed": 2,
-      "homeScore": 38,
-      "awayScore": 21,
-      "homeWinProbability": null,
-      "period": 1,
-      "clock": "5:27",
-      "secondsRemaining": 327,
-      "scoringPlay": true,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-29T21:41:22.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
-      "participants": [
-        {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 198977,
-          "name": "Cameron Boozer"
-        },
-        "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 7799,
-          "name": "Tarris Reed Jr.",
-          "team": "UConn"
-        },
-        {
-          "id": 22,
-          "name": "Silas Demary Jr.",
-          "team": "UConn"
-        },
-        {
-          "id": 202778,
-          "name": "Braylon Mullins",
-          "team": "UConn"
-        },
-        {
-          "id": 209,
-          "name": "Maliq Brown",
-          "team": "Duke"
-        },
-        {
-          "id": 198983,
-          "name": "Nikolas Khamenia",
-          "team": "Duke"
-        },
-        {
-          "id": 198978,
-          "name": "Cayden Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 198977,
-          "name": "Cameron Boozer",
-          "team": "Duke"
-        },
-        {
-          "id": 7802,
-          "name": "Jayden Ross",
-          "team": "UConn"
-        },
-        {
-          "id": 198985,
-          "name": "Dame Sarr",
-          "team": "Duke"
-        },
-        {
-          "id": 7792,
-          "name": "Alex Karaban",
-          "team": "UConn"
-        }
-      ]
-    },
-    {
-      "gameId": 372607,
-      "gameSourceId": "401856577",
-      "gameStartDate": "2026-03-29T21:05:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49661611,
       "sourceId": "401856577120402501",
       "playType": "MadeFreeThrow",
@@ -100606,8 +100500,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661623,
-      "sourceId": "401856577120402514",
+      "id": 49661614,
+      "sourceId": "401856577120402504",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -100618,7 +100512,114 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": 2,
-      "homeScore": 40,
+      "homeScore": 38,
+      "awayScore": 21,
+      "homeWinProbability": null,
+      "period": 1,
+      "clock": "5:27",
+      "secondsRemaining": 327,
+      "scoringPlay": true,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-29T21:41:22.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "participants": [
+        {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 198977,
+          "name": "Cameron Boozer"
+        },
+        "made": true,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 7799,
+          "name": "Tarris Reed Jr.",
+          "team": "UConn"
+        },
+        {
+          "id": 22,
+          "name": "Silas Demary Jr.",
+          "team": "UConn"
+        },
+        {
+          "id": 202778,
+          "name": "Braylon Mullins",
+          "team": "UConn"
+        },
+        {
+          "id": 209,
+          "name": "Maliq Brown",
+          "team": "Duke"
+        },
+        {
+          "id": 198983,
+          "name": "Nikolas Khamenia",
+          "team": "Duke"
+        },
+        {
+          "id": 198978,
+          "name": "Cayden Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 198977,
+          "name": "Cameron Boozer",
+          "team": "Duke"
+        },
+        {
+          "id": 7802,
+          "name": "Jayden Ross",
+          "team": "UConn"
+        },
+        {
+          "id": 198985,
+          "name": "Dame Sarr",
+          "team": "Duke"
+        },
+        {
+          "id": 7792,
+          "name": "Alex Karaban",
+          "team": "UConn"
+        }
+      ]
+    },
+    {
+      "gameId": 372607,
+      "gameSourceId": "401856577",
+      "gameStartDate": "2026-03-29T21:05:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49661620,
+      "sourceId": "401856577120402511",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 72,
+      "team": "Duke",
+      "conference": "ACC",
+      "teamSeed": 1,
+      "opponentId": 314,
+      "opponent": "UConn",
+      "opponentConference": "Big East",
+      "opponentSeed": 2,
+      "homeScore": 39,
       "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
@@ -100627,8 +100628,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T21:42:44.000Z",
-      "playText": "Cameron Boozer makes free throw 2 of 2",
+      "wallclock": "2026-03-29T21:42:24.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -100713,8 +100714,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661620,
-      "sourceId": "401856577120402511",
+      "id": 49661623,
+      "sourceId": "401856577120402514",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -100725,7 +100726,7 @@
       "opponent": "UConn",
       "opponentConference": "Big East",
       "opponentSeed": 2,
-      "homeScore": 39,
+      "homeScore": 40,
       "awayScore": 21,
       "homeWinProbability": null,
       "period": 1,
@@ -100734,8 +100735,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T21:42:24.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-29T21:42:44.000Z",
+      "playText": "Cameron Boozer makes free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -101577,8 +101578,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661768,
-      "sourceId": "401856577120402685",
+      "id": 49661763,
+      "sourceId": "401856577120402680",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -101595,11 +101596,11 @@
       "period": 2,
       "clock": "12:45",
       "secondsRemaining": 765,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T22:39:21.000Z",
-      "playText": "Cameron Boozer misses free throw 2 of 2",
+      "wallclock": "2026-03-29T22:39:01.000Z",
+      "playText": "Cameron Boozer makes free throw 1 of 2",
       "participants": [
         {
           "id": 198977,
@@ -101611,7 +101612,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -101684,8 +101685,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49661763,
-      "sourceId": "401856577120402680",
+      "id": 49661768,
+      "sourceId": "401856577120402685",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 72,
@@ -101702,11 +101703,11 @@
       "period": 2,
       "clock": "12:45",
       "secondsRemaining": 765,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-29T22:39:01.000Z",
-      "playText": "Cameron Boozer makes free throw 1 of 2",
+      "wallclock": "2026-03-29T22:39:21.000Z",
+      "playText": "Cameron Boozer misses free throw 2 of 2",
       "participants": [
         {
           "id": 198977,
@@ -101718,7 +101719,7 @@
           "id": 198977,
           "name": "Cameron Boozer"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -103630,86 +103631,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.09,
-        "percentile": 95.6,
-        "freqPer100": 11.6
-      },
-      "attackKick": {
-        "ppp": 1.06,
-        "percentile": 80.9,
-        "freqPer100": 6.3
-      },
-      "perimeterSniper": {
-        "ppp": 1.31,
-        "percentile": 97.6,
-        "freqPer100": 3.6
-      },
-      "dribbleJumper": {
-        "ppp": 1.19,
-        "percentile": 97.4,
-        "freqPer100": 3.2
-      },
-      "midRange": {
-        "ppp": 0.97,
-        "percentile": 92.3,
-        "freqPer100": 1.4
-      },
-      "hitsCutter": {
-        "ppp": 1.35,
-        "percentile": 99.6,
-        "freqPer100": 6.3
-      },
-      "perimeterCut": {
-        "ppp": 1.34,
-        "percentile": 83.1,
-        "freqPer100": 5.4
-      },
-      "pnrPasser": {
-        "ppp": 1.33,
-        "percentile": 99.8,
-        "freqPer100": 1.4
-      },
-      "bigCutRoll": {
-        "ppp": 1.39,
-        "percentile": 94.4,
-        "freqPer100": 7.4
-      },
-      "postUp": {
-        "ppp": 1.06,
-        "percentile": 96.6,
-        "freqPer100": 18.1
-      },
-      "insideOut": {
-        "ppp": 1.05,
-        "percentile": 84.4,
-        "freqPer100": 10.4
-      },
-      "pickAndPop": {
-        "ppp": 1.34,
-        "percentile": 98.4,
-        "freqPer100": 4.3
-      },
-      "highLow": {
-        "ppp": 1.29,
-        "percentile": 96.7,
-        "freqPer100": 2.5
-      },
-      "rebScramble": {
-        "ppp": 1.48,
-        "percentile": 90.6,
-        "freqPer100": 10
-      },
-      "transition": {
-        "ppp": 1.46,
-        "percentile": 89.7,
-        "freqPer100": 8
       }
     }
   }

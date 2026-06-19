@@ -243,7 +243,8 @@
     "jersey": "3",
     "position": "Guard",
     "height": 72,
-    "weight": 170,
+    "weight": 166,
+    "wingspan": null,
     "hometown": {
       "city": "Westfield",
       "state": "IN"
@@ -3075,9 +3076,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219250,
-      "sourceId": "401826869113896616",
-      "playType": "LayUpShot",
+      "id": 38219252,
+      "sourceId": "401826869113896804",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3087,17 +3088,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 42,
+      "homeScore": 43,
       "awayScore": 39,
-      "homeWinProbability": 0.719,
+      "homeWinProbability": 0.745,
       "period": 2,
       "clock": "18:06",
       "secondsRemaining": 1086,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T01:03:02.000Z",
-      "playText": "Braden Smith made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T01:03:30.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -3110,15 +3111,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 84.6,
-          "y": 290
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -3182,9 +3183,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219252,
-      "sourceId": "401826869113896804",
-      "playType": "MadeFreeThrow",
+      "id": 38219250,
+      "sourceId": "401826869113896616",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3194,17 +3195,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 43,
+      "homeScore": 42,
       "awayScore": 39,
-      "homeWinProbability": 0.745,
+      "homeWinProbability": 0.719,
       "period": 2,
       "clock": "18:06",
       "secondsRemaining": 1086,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T01:03:30.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T01:03:02.000Z",
+      "playText": "Braden Smith made Layup.",
       "participants": [
         {
           "id": 368,
@@ -3217,15 +3218,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 84.6,
+          "y": 290
         }
       },
       "onFloor": [
@@ -3507,9 +3508,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219275,
-      "sourceId": "401826869113898851",
-      "playType": "LayUpShot",
+      "id": 38219282,
+      "sourceId": "401826869113900202",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3519,17 +3520,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 52,
+      "homeScore": 53,
       "awayScore": 44,
-      "homeWinProbability": 0.882,
+      "homeWinProbability": 0.924,
       "period": 2,
       "clock": "15:37",
       "secondsRemaining": 937,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2025-11-08T01:08:07.000Z",
-      "playText": "Braden Smith made Layup.",
+      "scoreValue": 1,
+      "wallclock": "2025-11-08T01:11:15.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -3542,15 +3543,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 75.2,
-          "y": 225
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -3614,9 +3615,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38219282,
-      "sourceId": "401826869113900202",
-      "playType": "MadeFreeThrow",
+      "id": 38219275,
+      "sourceId": "401826869113898851",
+      "playType": "LayUpShot",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -3626,17 +3627,17 @@
       "opponent": "Oakland",
       "opponentConference": "Horizon",
       "opponentSeed": null,
-      "homeScore": 53,
+      "homeScore": 52,
       "awayScore": 44,
-      "homeWinProbability": 0.924,
+      "homeWinProbability": 0.882,
       "period": 2,
       "clock": "15:37",
       "secondsRemaining": 937,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2025-11-08T01:11:15.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "scoreValue": 2,
+      "wallclock": "2025-11-08T01:08:07.000Z",
+      "playText": "Braden Smith made Layup.",
       "participants": [
         {
           "id": 368,
@@ -3649,15 +3650,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 75.2,
+          "y": 225
         }
       },
       "onFloor": [
@@ -5354,8 +5355,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956040,
-      "sourceId": "401812262114266895",
+      "id": 38956042,
+      "sourceId": "401812262114266947",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -5375,7 +5376,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T00:08:25.000Z",
+      "wallclock": "2025-11-14T00:08:35.000Z",
       "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
@@ -5461,8 +5462,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956042,
-      "sourceId": "401812262114266947",
+      "id": 38956040,
+      "sourceId": "401812262114266895",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -5482,7 +5483,7 @@
       "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T00:08:35.000Z",
+      "wallclock": "2025-11-14T00:08:25.000Z",
       "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
@@ -6222,8 +6223,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956234,
-      "sourceId": "401812262114279113",
+      "id": 38956233,
+      "sourceId": "401812262114279063",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -6235,15 +6236,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 45,
-      "homeWinProbability": 0.446,
+      "awayScore": 44,
+      "homeWinProbability": 0.454,
       "period": 2,
       "clock": "19:40",
       "secondsRemaining": 1180,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:05:25.000Z",
+      "wallclock": "2025-11-14T01:05:15.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -6329,8 +6330,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956233,
-      "sourceId": "401812262114279063",
+      "id": 38956234,
+      "sourceId": "401812262114279113",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -6342,15 +6343,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 41,
-      "awayScore": 44,
-      "homeWinProbability": 0.454,
+      "awayScore": 45,
+      "homeWinProbability": 0.446,
       "period": 2,
       "clock": "19:40",
       "secondsRemaining": 1180,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:05:15.000Z",
+      "wallclock": "2025-11-14T01:05:25.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -6761,8 +6762,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956338,
-      "sourceId": "401812262114285725",
+      "id": 38956339,
+      "sourceId": "401812262114285818",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -6774,15 +6775,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 58,
-      "homeWinProbability": 0.715,
+      "awayScore": 59,
+      "homeWinProbability": 0.664,
       "period": 2,
       "clock": "11:26",
       "secondsRemaining": 686,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:33:40.000Z",
+      "wallclock": "2025-11-14T01:33:52.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -6868,8 +6869,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956339,
-      "sourceId": "401812262114285818",
+      "id": 38956338,
+      "sourceId": "401812262114285725",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -6881,15 +6882,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 61,
-      "awayScore": 59,
-      "homeWinProbability": 0.664,
+      "awayScore": 58,
+      "homeWinProbability": 0.715,
       "period": 2,
       "clock": "11:26",
       "secondsRemaining": 686,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:33:52.000Z",
+      "wallclock": "2025-11-14T01:33:40.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -7835,8 +7836,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956402,
-      "sourceId": "401812262114289069",
+      "id": 38956405,
+      "sourceId": "401812262114289133",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -7848,15 +7849,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 71,
-      "homeWinProbability": 0.412,
+      "awayScore": 72,
+      "homeWinProbability": 0.33,
       "period": 2,
       "clock": "6:50",
       "secondsRemaining": 410,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:46:37.000Z",
+      "wallclock": "2025-11-14T01:46:55.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -7942,8 +7943,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 38956405,
-      "sourceId": "401812262114289133",
+      "id": 38956402,
+      "sourceId": "401812262114289069",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -7955,15 +7956,15 @@
       "opponentConference": "SEC",
       "opponentSeed": null,
       "homeScore": 68,
-      "awayScore": 72,
-      "homeWinProbability": 0.33,
+      "awayScore": 71,
+      "homeWinProbability": 0.412,
       "period": 2,
       "clock": "6:50",
       "secondsRemaining": 410,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-14T01:46:55.000Z",
+      "wallclock": "2025-11-14T01:46:37.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -9016,8 +9017,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39324724,
-      "sourceId": "401820598114486560",
+      "id": 39324740,
+      "sourceId": "401820598114486565",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -9034,11 +9035,11 @@
       "period": 1,
       "clock": "15:32",
       "secondsRemaining": 932,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T00:51:59.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "wallclock": "2025-11-17T00:52:17.000Z",
+      "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -9050,7 +9051,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9123,8 +9124,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39324740,
-      "sourceId": "401820598114486565",
+      "id": 39324724,
+      "sourceId": "401820598114486560",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -9141,11 +9142,11 @@
       "period": 1,
       "clock": "15:32",
       "secondsRemaining": 932,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T00:52:17.000Z",
-      "playText": "Braden Smith missed Free Throw.",
+      "wallclock": "2025-11-17T00:51:59.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -9157,7 +9158,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -9773,8 +9774,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39324959,
-      "sourceId": "401820598114486808",
+      "id": 39324881,
+      "sourceId": "401820598114486795",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -9785,16 +9786,16 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 21,
-      "homeWinProbability": 0.792,
+      "homeWinProbability": 0.788,
       "period": 1,
       "clock": "9:50",
       "secondsRemaining": 590,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:06:03.000Z",
+      "wallclock": "2025-11-17T01:05:37.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -9880,8 +9881,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39324881,
-      "sourceId": "401820598114486795",
+      "id": 39324959,
+      "sourceId": "401820598114486808",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -9892,16 +9893,16 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 21,
-      "homeWinProbability": 0.788,
+      "homeWinProbability": 0.792,
       "period": 1,
       "clock": "9:50",
       "secondsRemaining": 590,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:05:37.000Z",
+      "wallclock": "2025-11-17T01:06:03.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -10756,8 +10757,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325339,
-      "sourceId": "401820598114488078",
+      "id": 39325336,
+      "sourceId": "401820598114488075",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -10768,17 +10769,17 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 60,
+      "homeScore": 58,
       "awayScore": 46,
-      "homeWinProbability": 0.946,
+      "homeWinProbability": 0.949,
       "period": 2,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:50:50.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "wallclock": "2025-11-17T01:50:26.000Z",
+      "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -10790,7 +10791,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -10863,8 +10864,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325336,
-      "sourceId": "401820598114488075",
+      "id": 39325339,
+      "sourceId": "401820598114488078",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -10875,17 +10876,17 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 58,
+      "homeScore": 60,
       "awayScore": 46,
-      "homeWinProbability": 0.949,
+      "homeWinProbability": 0.946,
       "period": 2,
       "clock": "17:08",
       "secondsRemaining": 1028,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T01:50:26.000Z",
-      "playText": "Braden Smith missed Free Throw.",
+      "wallclock": "2025-11-17T01:50:50.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -10897,7 +10898,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -11834,8 +11835,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325556,
-      "sourceId": "401820598114488984",
+      "id": 39325555,
+      "sourceId": "401820598114488972",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -11846,7 +11847,7 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 93,
+      "homeScore": 92,
       "awayScore": 70,
       "homeWinProbability": 1,
       "period": 2,
@@ -11855,7 +11856,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T02:27:34.000Z",
+      "wallclock": "2025-11-17T02:27:19.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -11941,8 +11942,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 39325555,
-      "sourceId": "401820598114488972",
+      "id": 39325556,
+      "sourceId": "401820598114488984",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -11953,7 +11954,7 @@
       "opponent": "Akron",
       "opponentConference": "MAC",
       "opponentSeed": null,
-      "homeScore": 92,
+      "homeScore": 93,
       "awayScore": 70,
       "homeWinProbability": 1,
       "period": 2,
@@ -11962,7 +11963,7 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-11-17T02:27:19.000Z",
+      "wallclock": "2025-11-17T02:27:34.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -23117,8 +23118,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41514889,
-      "sourceId": "401825406115732537",
+      "id": 41514890,
+      "sourceId": "401825406115732573",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -23129,16 +23130,16 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 26,
+      "homeScore": 27,
       "awayScore": 15,
-      "homeWinProbability": 0.917,
+      "homeWinProbability": 0.925,
       "period": 1,
       "clock": "6:04",
       "secondsRemaining": 364,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-11T00:36:15.000Z",
+      "wallclock": "2025-12-11T00:36:26.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -23224,8 +23225,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41514890,
-      "sourceId": "401825406115732573",
+      "id": 41514889,
+      "sourceId": "401825406115732537",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -23236,16 +23237,16 @@
       "opponent": "Minnesota",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 26,
       "awayScore": 15,
-      "homeWinProbability": 0.925,
+      "homeWinProbability": 0.917,
       "period": 1,
       "clock": "6:04",
       "secondsRemaining": 364,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-11T00:36:26.000Z",
+      "wallclock": "2025-12-11T00:36:15.000Z",
       "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
@@ -25523,8 +25524,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41629202,
-      "sourceId": "401823028115807825",
+      "id": 41629198,
+      "sourceId": "401823028115807779",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -25535,17 +25536,17 @@
       "opponent": "Marquette",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 28,
+      "homeScore": 27,
       "awayScore": 16,
-      "homeWinProbability": 0.918,
+      "homeWinProbability": 0.896,
       "period": 1,
       "clock": "4:39",
       "secondsRemaining": 279,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T19:39:48.000Z",
-      "playText": "Braden Smith made Free Throw.",
+      "wallclock": "2025-12-13T19:39:29.000Z",
+      "playText": "Braden Smith missed Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -25557,7 +25558,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -25630,8 +25631,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 41629198,
-      "sourceId": "401823028115807779",
+      "id": 41629202,
+      "sourceId": "401823028115807825",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -25642,17 +25643,17 @@
       "opponent": "Marquette",
       "opponentConference": "Big East",
       "opponentSeed": null,
-      "homeScore": 27,
+      "homeScore": 28,
       "awayScore": 16,
-      "homeWinProbability": 0.896,
+      "homeWinProbability": 0.918,
       "period": 1,
       "clock": "4:39",
       "secondsRemaining": 279,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2025-12-13T19:39:29.000Z",
-      "playText": "Braden Smith missed Free Throw.",
+      "wallclock": "2025-12-13T19:39:48.000Z",
+      "playText": "Braden Smith made Free Throw.",
       "participants": [
         {
           "id": 368,
@@ -25664,7 +25665,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -36316,8 +36317,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43626439,
-      "sourceId": "401825426116961138",
+      "id": 43626438,
+      "sourceId": "401825426116961119",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -36328,17 +36329,17 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 81,
+      "homeScore": 80,
       "awayScore": 71,
-      "homeWinProbability": 1,
+      "homeWinProbability": 0.999,
       "period": 2,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:36:48.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-01-08T03:36:32.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -36423,8 +36424,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 43626438,
-      "sourceId": "401825426116961119",
+      "id": 43626439,
+      "sourceId": "401825426116961138",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -36435,17 +36436,17 @@
       "opponent": "Washington",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 80,
+      "homeScore": 81,
       "awayScore": 71,
-      "homeWinProbability": 0.999,
+      "homeWinProbability": 1,
       "period": 2,
       "clock": "0:12",
       "secondsRemaining": 12,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-08T03:36:32.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-01-08T03:36:48.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -41984,8 +41985,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44286921,
-      "sourceId": "401825444117326064",
+      "id": 44286920,
+      "sourceId": "401825444117326016",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -41996,17 +41997,17 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 74,
+      "homeScore": 73,
       "awayScore": 69,
-      "homeWinProbability": 0.969,
+      "homeWinProbability": 0.893,
       "period": 2,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T01:23:59.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-01-15T01:23:46.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -42091,8 +42092,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44286920,
-      "sourceId": "401825444117326016",
+      "id": 44286921,
+      "sourceId": "401825444117326064",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -42103,17 +42104,17 @@
       "opponent": "Iowa",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 73,
+      "homeScore": 74,
       "awayScore": 69,
-      "homeWinProbability": 0.893,
+      "homeWinProbability": 0.969,
       "period": 2,
       "clock": "1:04",
       "secondsRemaining": 64,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-15T01:23:46.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-01-15T01:23:59.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -43177,8 +43178,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44579204,
-      "sourceId": "401825451117551804",
+      "id": 44579205,
+      "sourceId": "401825451117551869",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -43190,16 +43191,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 34,
-      "homeWinProbability": 0.55,
+      "awayScore": 35,
+      "homeWinProbability": 0.491,
       "period": 1,
       "clock": "0:46",
       "secondsRemaining": 46,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:46:14.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-01-17T23:46:27.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -43284,8 +43285,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 44579205,
-      "sourceId": "401825451117551869",
+      "id": 44579204,
+      "sourceId": "401825451117551804",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -43297,16 +43298,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 32,
-      "awayScore": 35,
-      "homeWinProbability": 0.491,
+      "awayScore": 34,
+      "homeWinProbability": 0.55,
       "period": 1,
       "clock": "0:46",
       "secondsRemaining": 46,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-01-17T23:46:27.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-01-17T23:46:14.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -48520,9 +48521,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237526,
-      "sourceId": "401825468117909562",
-      "playType": "MadeFreeThrow",
+      "id": 45237520,
+      "sourceId": "401825468117909362",
+      "playType": "JumpShot",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -48532,17 +48533,17 @@
       "opponent": "Illinois",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 65,
       "awayScore": 64,
-      "homeWinProbability": 0.677,
+      "homeWinProbability": 0.651,
       "period": 2,
       "clock": "8:29",
       "secondsRemaining": 509,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T21:37:21.000Z",
-      "playText": "Braden Smith makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-01-24T21:36:48.000Z",
+      "playText": "Braden Smith makes 7-foot jumper",
       "participants": [
         {
           "id": 368,
@@ -48555,15 +48556,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 112.8,
+          "y": 280
         }
       },
       "onFloor": [
@@ -48627,9 +48628,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 45237520,
-      "sourceId": "401825468117909362",
-      "playType": "JumpShot",
+      "id": 45237526,
+      "sourceId": "401825468117909562",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
       "team": "Purdue",
@@ -48639,17 +48640,17 @@
       "opponent": "Illinois",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 65,
+      "homeScore": 66,
       "awayScore": 64,
-      "homeWinProbability": 0.651,
+      "homeWinProbability": 0.677,
       "period": 2,
       "clock": "8:29",
       "secondsRemaining": 509,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-01-24T21:36:48.000Z",
-      "playText": "Braden Smith makes 7-foot jumper",
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T21:37:21.000Z",
+      "playText": "Braden Smith makes free throw 1 of 1",
       "participants": [
         {
           "id": 368,
@@ -48662,15 +48663,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 112.8,
-          "y": 280
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -49491,6 +49492,113 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
+      "id": 45237602,
+      "sourceId": "401825468117914694",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": null,
+      "opponentId": 118,
+      "opponent": "Illinois",
+      "opponentConference": "Big Ten",
+      "opponentSeed": null,
+      "homeScore": 80,
+      "awayScore": 84,
+      "homeWinProbability": 0.02,
+      "period": 2,
+      "clock": "0:10",
+      "secondsRemaining": 10,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-01-24T22:03:10.000Z",
+      "playText": "Braden Smith misses free throw 1 of 3",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 5640,
+          "name": "Tomislav Ivisic",
+          "team": "Illinois"
+        },
+        {
+          "id": 199686,
+          "name": "Keaton Wagler",
+          "team": "Illinois"
+        },
+        {
+          "id": 375,
+          "name": "C.J. Cox",
+          "team": "Purdue"
+        },
+        {
+          "id": 201569,
+          "name": "Omer Mayer",
+          "team": "Purdue"
+        },
+        {
+          "id": 5644,
+          "name": "Jake Davis",
+          "team": "Illinois"
+        },
+        {
+          "id": 199681,
+          "name": "David Mirkovic",
+          "team": "Illinois"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 7384,
+          "name": "Andrej Stojakovic",
+          "team": "Illinois"
+        }
+      ]
+    },
+    {
+      "gameId": 214611,
+      "gameSourceId": "401825468",
+      "gameStartDate": "2026-01-24T20:00:00.000Z",
+      "season": 2026,
+      "seasonType": "regular",
+      "gameType": "STD",
+      "tournament": null,
       "id": 45237605,
       "sourceId": "401825468117914840",
       "playType": "MadeFreeThrow",
@@ -49633,113 +49741,6 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 5640,
-          "name": "Tomislav Ivisic",
-          "team": "Illinois"
-        },
-        {
-          "id": 199686,
-          "name": "Keaton Wagler",
-          "team": "Illinois"
-        },
-        {
-          "id": 375,
-          "name": "C.J. Cox",
-          "team": "Purdue"
-        },
-        {
-          "id": 201569,
-          "name": "Omer Mayer",
-          "team": "Purdue"
-        },
-        {
-          "id": 5644,
-          "name": "Jake Davis",
-          "team": "Illinois"
-        },
-        {
-          "id": 199681,
-          "name": "David Mirkovic",
-          "team": "Illinois"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 7384,
-          "name": "Andrej Stojakovic",
-          "team": "Illinois"
-        }
-      ]
-    },
-    {
-      "gameId": 214611,
-      "gameSourceId": "401825468",
-      "gameStartDate": "2026-01-24T20:00:00.000Z",
-      "season": 2026,
-      "seasonType": "regular",
-      "gameType": "STD",
-      "tournament": null,
-      "id": 45237602,
-      "sourceId": "401825468117914694",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": null,
-      "opponentId": 118,
-      "opponent": "Illinois",
-      "opponentConference": "Big Ten",
-      "opponentSeed": null,
-      "homeScore": 80,
-      "awayScore": 84,
-      "homeWinProbability": 0.02,
-      "period": 2,
-      "clock": "0:10",
-      "secondsRemaining": 10,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-01-24T22:03:10.000Z",
-      "playText": "Braden Smith misses free throw 1 of 3",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -53185,9 +53186,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081733,
-      "sourceId": "401825486118300909",
-      "playType": "MadeFreeThrow",
+      "id": 46081703,
+      "sourceId": "401825486118300828",
+      "playType": "LayUpShot",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -53198,16 +53199,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 30,
-      "awayScore": 52,
-      "homeWinProbability": 0.01,
+      "awayScore": 51,
+      "homeWinProbability": 0.013,
       "period": 2,
       "clock": "19:09",
       "secondsRemaining": 1149,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-02-01T19:08:36.000Z",
-      "playText": "Braden Smith makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-02-01T19:08:10.000Z",
+      "playText": "Braden Smith makes driving layup",
       "participants": [
         {
           "id": 368,
@@ -53220,15 +53221,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "rim",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 28.2,
+          "y": 260
         }
       },
       "onFloor": [
@@ -53292,9 +53293,9 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081703,
-      "sourceId": "401825486118300828",
-      "playType": "LayUpShot",
+      "id": 46081733,
+      "sourceId": "401825486118300909",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -53305,16 +53306,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 30,
-      "awayScore": 51,
-      "homeWinProbability": 0.013,
+      "awayScore": 52,
+      "homeWinProbability": 0.01,
       "period": 2,
       "clock": "19:09",
       "secondsRemaining": 1149,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-02-01T19:08:10.000Z",
-      "playText": "Braden Smith makes driving layup",
+      "scoreValue": 1,
+      "wallclock": "2026-02-01T19:08:36.000Z",
+      "playText": "Braden Smith makes free throw 1 of 1",
       "participants": [
         {
           "id": 368,
@@ -53327,15 +53328,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "rim",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 28.2,
-          "y": 260
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -53617,8 +53618,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081797,
-      "sourceId": "401825486118303198",
+      "id": 46081796,
+      "sourceId": "401825486118303186",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -53630,16 +53631,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 61,
-      "homeWinProbability": 0.003,
+      "awayScore": 60,
+      "homeWinProbability": 0.004,
       "period": 2,
       "clock": "15:32",
       "secondsRemaining": 932,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T19:19:13.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-01T19:19:01.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -53724,8 +53725,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 46081796,
-      "sourceId": "401825486118303186",
+      "id": 46081797,
+      "sourceId": "401825486118303198",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -53737,16 +53738,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 36,
-      "awayScore": 60,
-      "homeWinProbability": 0.004,
+      "awayScore": 61,
+      "homeWinProbability": 0.003,
       "period": 2,
       "clock": "15:32",
       "secondsRemaining": 932,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-01T19:19:01.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-01T19:19:13.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -62107,8 +62108,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411474,
-      "sourceId": "401825524119084658",
+      "id": 47411477,
+      "sourceId": "401825524119084691",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -62119,17 +62120,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 37,
+      "homeScore": 38,
       "awayScore": 51,
-      "homeWinProbability": 0.085,
+      "homeWinProbability": 0.14,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T00:43:22.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-18T00:43:36.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -62214,8 +62215,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47411477,
-      "sourceId": "401825524119084691",
+      "id": 47411474,
+      "sourceId": "401825524119084658",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -62226,17 +62227,17 @@
       "opponent": "Michigan",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 38,
+      "homeScore": 37,
       "awayScore": 51,
-      "homeWinProbability": 0.14,
+      "homeWinProbability": 0.085,
       "period": 2,
       "clock": "17:10",
       "secondsRemaining": 1030,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-18T00:43:36.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-18T00:43:22.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -64802,8 +64803,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670607,
-      "sourceId": "401825528119241648",
+      "id": 47670610,
+      "sourceId": "401825528119241695",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -64814,17 +64815,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 16,
+      "homeScore": 17,
       "awayScore": 10,
-      "homeWinProbability": 0.791,
+      "homeWinProbability": 0.819,
       "period": 1,
       "clock": "9:54",
       "secondsRemaining": 594,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:30:27.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-21T01:30:46.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -64909,8 +64910,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670610,
-      "sourceId": "401825528119241695",
+      "id": 47670607,
+      "sourceId": "401825528119241648",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -64921,17 +64922,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 17,
+      "homeScore": 16,
       "awayScore": 10,
-      "homeWinProbability": 0.819,
+      "homeWinProbability": 0.791,
       "period": 1,
       "clock": "9:54",
       "secondsRemaining": 594,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:30:46.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-21T01:30:27.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -65123,8 +65124,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670665,
-      "sourceId": "401825528119242949",
+      "id": 47670666,
+      "sourceId": "401825528119242980",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -65135,17 +65136,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 31,
+      "homeScore": 32,
       "awayScore": 18,
-      "homeWinProbability": 0.941,
+      "homeWinProbability": 0.947,
       "period": 1,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:44:14.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-21T01:44:28.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -65230,8 +65231,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 47670666,
-      "sourceId": "401825528119242980",
+      "id": 47670665,
+      "sourceId": "401825528119242949",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -65242,17 +65243,17 @@
       "opponent": "Indiana",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 32,
+      "homeScore": 31,
       "awayScore": 18,
-      "homeWinProbability": 0.947,
+      "homeWinProbability": 0.941,
       "period": 1,
       "clock": "4:23",
       "secondsRemaining": 263,
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-21T01:44:28.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-21T01:44:14.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -68405,8 +68406,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48138594,
-      "sourceId": "401825543119576775",
+      "id": 48138593,
+      "sourceId": "401825543119576729",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -68417,7 +68418,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 64,
+      "homeScore": 63,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -68426,8 +68427,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-27T02:38:55.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-02-27T02:38:41.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -68512,8 +68513,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48138593,
-      "sourceId": "401825543119576729",
+      "id": 48138594,
+      "sourceId": "401825543119576775",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -68524,7 +68525,7 @@
       "opponent": "Michigan State",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 63,
+      "homeScore": 64,
       "awayScore": 66,
       "homeWinProbability": null,
       "period": 2,
@@ -68533,8 +68534,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-02-27T02:38:41.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-02-27T02:38:55.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -70355,8 +70356,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528313,
-      "sourceId": "401825552119768487",
+      "id": 48528319,
+      "sourceId": "401825552119768539",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -70368,16 +70369,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 30,
+      "awayScore": 31,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:40",
       "secondsRemaining": 40,
-      "scoringPlay": false,
+      "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T19:23:42.000Z",
-      "playText": "Braden Smith misses free throw 1 of 2",
+      "wallclock": "2026-03-01T19:24:07.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -70389,7 +70390,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": false,
+        "made": true,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -70462,8 +70463,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528319,
-      "sourceId": "401825552119768539",
+      "id": 48528313,
+      "sourceId": "401825552119768487",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -70475,16 +70476,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 34,
-      "awayScore": 31,
+      "awayScore": 30,
       "homeWinProbability": null,
       "period": 1,
       "clock": "0:40",
       "secondsRemaining": 40,
-      "scoringPlay": true,
+      "scoringPlay": false,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-01T19:24:07.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-01T19:23:42.000Z",
+      "playText": "Braden Smith misses free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -70496,7 +70497,7 @@
           "id": 368,
           "name": "Braden Smith"
         },
-        "made": true,
+        "made": false,
         "range": "free_throw",
         "assisted": false,
         "assistedBy": {
@@ -71005,8 +71006,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528416,
-      "sourceId": "401825552119773791",
+      "id": 48528415,
+      "sourceId": "401825552119773790",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -71018,7 +71019,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 47,
+      "awayScore": 46,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:44",
@@ -71027,7 +71028,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-03-01T20:09:38.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -71112,8 +71113,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48528415,
-      "sourceId": "401825552119773790",
+      "id": 48528416,
+      "sourceId": "401825552119773791",
       "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
@@ -71125,7 +71126,7 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 55,
-      "awayScore": 46,
+      "awayScore": 47,
       "homeWinProbability": null,
       "period": 2,
       "clock": "11:44",
@@ -71134,7 +71135,7 @@
       "shootingPlay": true,
       "scoreValue": 1,
       "wallclock": "2026-03-01T20:09:38.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -75674,8 +75675,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48935000,
-      "sourceId": "401825565120055373",
+      "id": 48934999,
+      "sourceId": "401825565120055368",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -75686,7 +75687,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 67,
+      "homeScore": 66,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
@@ -75695,8 +75696,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T22:46:11.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-07T22:45:54.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -75781,8 +75782,8 @@
       "seasonType": "regular",
       "gameType": "STD",
       "tournament": null,
-      "id": 48934999,
-      "sourceId": "401825565120055368",
+      "id": 48935000,
+      "sourceId": "401825565120055373",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -75793,7 +75794,7 @@
       "opponent": "Wisconsin",
       "opponentConference": "Big Ten",
       "opponentSeed": null,
-      "homeScore": 66,
+      "homeScore": 67,
       "awayScore": 69,
       "homeWinProbability": null,
       "period": 2,
@@ -75802,8 +75803,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-07T22:45:54.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-03-07T22:46:11.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -86579,9 +86580,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49491537,
-      "sourceId": "401851388120283020",
-      "playType": "MadeFreeThrow",
+      "id": 49491532,
+      "sourceId": "401851388120282994",
+      "playType": "JumpShot",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -86592,16 +86593,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 58,
+      "awayScore": 57,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:06",
       "secondsRemaining": 726,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-15T20:53:19.000Z",
-      "playText": "Braden Smith makes free throw 1 of 1",
+      "scoreValue": 2,
+      "wallclock": "2026-03-15T20:49:42.000Z",
+      "playText": "Braden Smith makes 10-foot pullup jump shot",
       "participants": [
         {
           "id": 368,
@@ -86614,15 +86615,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "free_throw",
+        "range": "jumper",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": null,
-          "y": null
+          "x": 103.4,
+          "y": 170
         }
       },
       "onFloor": [
@@ -86686,9 +86687,9 @@
       "seasonType": "regular",
       "gameType": "TRNMNT",
       "tournament": null,
-      "id": 49491532,
-      "sourceId": "401851388120282994",
-      "playType": "JumpShot",
+      "id": 49491537,
+      "sourceId": "401851388120283020",
+      "playType": "MadeFreeThrow",
       "isHomeTeam": false,
       "teamId": 236,
       "team": "Purdue",
@@ -86699,16 +86700,16 @@
       "opponentConference": "Big Ten",
       "opponentSeed": null,
       "homeScore": 46,
-      "awayScore": 57,
+      "awayScore": 58,
       "homeWinProbability": null,
       "period": 2,
       "clock": "12:06",
       "secondsRemaining": 726,
       "scoringPlay": true,
       "shootingPlay": true,
-      "scoreValue": 2,
-      "wallclock": "2026-03-15T20:49:42.000Z",
-      "playText": "Braden Smith makes 10-foot pullup jump shot",
+      "scoreValue": 1,
+      "wallclock": "2026-03-15T20:53:19.000Z",
+      "playText": "Braden Smith makes free throw 1 of 1",
       "participants": [
         {
           "id": 368,
@@ -86721,15 +86722,15 @@
           "name": "Braden Smith"
         },
         "made": true,
-        "range": "jumper",
+        "range": "free_throw",
         "assisted": false,
         "assistedBy": {
           "id": null,
           "name": null
         },
         "location": {
-          "x": 103.4,
-          "y": 170
+          "x": null,
+          "y": null
         }
       },
       "onFloor": [
@@ -88105,8 +88106,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49579947,
-      "sourceId": "401856519120332342",
+      "id": 49579954,
+      "sourceId": "401856519120332350",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -88117,7 +88118,7 @@
       "opponent": "Queens University",
       "opponentConference": "ASUN",
       "opponentSeed": 15,
-      "homeScore": 32,
+      "homeScore": 33,
       "awayScore": 26,
       "homeWinProbability": null,
       "period": 1,
@@ -88126,8 +88127,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T00:06:51.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-03-21T00:07:16.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -88212,8 +88213,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49579954,
-      "sourceId": "401856519120332350",
+      "id": 49579947,
+      "sourceId": "401856519120332342",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -88224,7 +88225,7 @@
       "opponent": "Queens University",
       "opponentConference": "ASUN",
       "opponentSeed": 15,
-      "homeScore": 33,
+      "homeScore": 32,
       "awayScore": 26,
       "homeWinProbability": null,
       "period": 1,
@@ -88233,8 +88234,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-21T00:07:16.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-21T00:06:51.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -94387,113 +94388,6 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645501,
-      "sourceId": "401856568120387010",
-      "playType": "MadeFreeThrow",
-      "isHomeTeam": true,
-      "teamId": 236,
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "teamSeed": 2,
-      "opponentId": 295,
-      "opponent": "Texas",
-      "opponentConference": "SEC",
-      "opponentSeed": 11,
-      "homeScore": 64,
-      "awayScore": 65,
-      "homeWinProbability": null,
-      "period": 2,
-      "clock": "7:39",
-      "secondsRemaining": 459,
-      "scoringPlay": false,
-      "shootingPlay": true,
-      "scoreValue": 1,
-      "wallclock": "2026-03-27T00:57:42.000Z",
-      "playText": "Braden Smith misses free throw 2 of 2",
-      "participants": [
-        {
-          "id": 368,
-          "name": "Braden Smith"
-        }
-      ],
-      "shotInfo": {
-        "shooter": {
-          "id": 368,
-          "name": "Braden Smith"
-        },
-        "made": false,
-        "range": "free_throw",
-        "assisted": false,
-        "assistedBy": {
-          "id": null,
-          "name": null
-        },
-        "location": {
-          "x": null,
-          "y": null
-        }
-      },
-      "onFloor": [
-        {
-          "id": 436,
-          "name": "Jordan Pope",
-          "team": "Texas"
-        },
-        {
-          "id": 366,
-          "name": "Trey Kaufman-Renn",
-          "team": "Purdue"
-        },
-        {
-          "id": 368,
-          "name": "Braden Smith",
-          "team": "Purdue"
-        },
-        {
-          "id": 371,
-          "name": "Camden Heide",
-          "team": "Texas"
-        },
-        {
-          "id": 4065,
-          "name": "Dailyn Swain",
-          "team": "Texas"
-        },
-        {
-          "id": 442,
-          "name": "Nic Codie",
-          "team": "Texas"
-        },
-        {
-          "id": 370,
-          "name": "Gicarri Harris",
-          "team": "Purdue"
-        },
-        {
-          "id": 369,
-          "name": "Fletcher Loyer",
-          "team": "Purdue"
-        },
-        {
-          "id": 448,
-          "name": "Tramon Mark",
-          "team": "Texas"
-        },
-        {
-          "id": 1291,
-          "name": "Oscar Cluff",
-          "team": "Purdue"
-        }
-      ]
-    },
-    {
-      "gameId": 372587,
-      "gameSourceId": "401856568",
-      "gameStartDate": "2026-03-26T23:10:00.000Z",
-      "season": 2026,
-      "seasonType": "postseason",
-      "gameType": "TRNMNT",
-      "tournament": "NCAA",
       "id": 49645499,
       "sourceId": "401856568120387009",
       "playType": "MadeFreeThrow",
@@ -94601,8 +94495,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645578,
-      "sourceId": "401856568120387321",
+      "id": 49645501,
+      "sourceId": "401856568120387010",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -94613,7 +94507,114 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 70,
+      "homeScore": 64,
+      "awayScore": 65,
+      "homeWinProbability": null,
+      "period": 2,
+      "clock": "7:39",
+      "secondsRemaining": 459,
+      "scoringPlay": false,
+      "shootingPlay": true,
+      "scoreValue": 1,
+      "wallclock": "2026-03-27T00:57:42.000Z",
+      "playText": "Braden Smith misses free throw 2 of 2",
+      "participants": [
+        {
+          "id": 368,
+          "name": "Braden Smith"
+        }
+      ],
+      "shotInfo": {
+        "shooter": {
+          "id": 368,
+          "name": "Braden Smith"
+        },
+        "made": false,
+        "range": "free_throw",
+        "assisted": false,
+        "assistedBy": {
+          "id": null,
+          "name": null
+        },
+        "location": {
+          "x": null,
+          "y": null
+        }
+      },
+      "onFloor": [
+        {
+          "id": 436,
+          "name": "Jordan Pope",
+          "team": "Texas"
+        },
+        {
+          "id": 366,
+          "name": "Trey Kaufman-Renn",
+          "team": "Purdue"
+        },
+        {
+          "id": 368,
+          "name": "Braden Smith",
+          "team": "Purdue"
+        },
+        {
+          "id": 371,
+          "name": "Camden Heide",
+          "team": "Texas"
+        },
+        {
+          "id": 4065,
+          "name": "Dailyn Swain",
+          "team": "Texas"
+        },
+        {
+          "id": 442,
+          "name": "Nic Codie",
+          "team": "Texas"
+        },
+        {
+          "id": 370,
+          "name": "Gicarri Harris",
+          "team": "Purdue"
+        },
+        {
+          "id": 369,
+          "name": "Fletcher Loyer",
+          "team": "Purdue"
+        },
+        {
+          "id": 448,
+          "name": "Tramon Mark",
+          "team": "Texas"
+        },
+        {
+          "id": 1291,
+          "name": "Oscar Cluff",
+          "team": "Purdue"
+        }
+      ]
+    },
+    {
+      "gameId": 372587,
+      "gameSourceId": "401856568",
+      "gameStartDate": "2026-03-26T23:10:00.000Z",
+      "season": 2026,
+      "seasonType": "postseason",
+      "gameType": "TRNMNT",
+      "tournament": "NCAA",
+      "id": 49645565,
+      "sourceId": "401856568120387303",
+      "playType": "MadeFreeThrow",
+      "isHomeTeam": true,
+      "teamId": 236,
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "teamSeed": 2,
+      "opponentId": 295,
+      "opponent": "Texas",
+      "opponentConference": "SEC",
+      "opponentSeed": 11,
+      "homeScore": 69,
       "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
@@ -94622,8 +94623,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T01:06:31.000Z",
-      "playText": "Braden Smith makes free throw 2 of 2",
+      "wallclock": "2026-03-27T01:06:07.000Z",
+      "playText": "Braden Smith makes free throw 1 of 2",
       "participants": [
         {
           "id": 368,
@@ -94708,8 +94709,8 @@
       "seasonType": "postseason",
       "gameType": "TRNMNT",
       "tournament": "NCAA",
-      "id": 49645565,
-      "sourceId": "401856568120387303",
+      "id": 49645578,
+      "sourceId": "401856568120387321",
       "playType": "MadeFreeThrow",
       "isHomeTeam": true,
       "teamId": 236,
@@ -94720,7 +94721,7 @@
       "opponent": "Texas",
       "opponentConference": "SEC",
       "opponentSeed": 11,
-      "homeScore": 69,
+      "homeScore": 70,
       "awayScore": 70,
       "homeWinProbability": null,
       "period": 2,
@@ -94729,8 +94730,8 @@
       "scoringPlay": true,
       "shootingPlay": true,
       "scoreValue": 1,
-      "wallclock": "2026-03-27T01:06:07.000Z",
-      "playText": "Braden Smith makes free throw 1 of 2",
+      "wallclock": "2026-03-27T01:06:31.000Z",
+      "playText": "Braden Smith makes free throw 2 of 2",
       "participants": [
         {
           "id": 368,
@@ -99165,70 +99166,6 @@
         "points": 0,
         "freqPer100": 0,
         "ppp": 0
-      }
-    }
-  },
-  "archetypesHE": {
-    "season": "2025+",
-    "items": {
-      "rimAttack": {
-        "ppp": 1.03,
-        "percentile": 90.6,
-        "freqPer100": 18.2
-      },
-      "attackKick": {
-        "ppp": 1.19,
-        "percentile": 99.1,
-        "freqPer100": 21.6
-      },
-      "perimeterSniper": {
-        "ppp": 1.06,
-        "percentile": 73,
-        "freqPer100": 7.6
-      },
-      "dribbleJumper": {
-        "ppp": 0.96,
-        "percentile": 65.4,
-        "freqPer100": 5.8
-      },
-      "midRange": {
-        "ppp": 0.93,
-        "percentile": 89.2,
-        "freqPer100": 8.4
-      },
-      "hitsCutter": {
-        "ppp": 1.27,
-        "percentile": 97.8,
-        "freqPer100": 3.9
-      },
-      "perimeterCut": {
-        "ppp": 0.79,
-        "percentile": 3.1,
-        "freqPer100": 1.9
-      },
-      "pnrPasser": {
-        "ppp": 1.24,
-        "percentile": 97.4,
-        "freqPer100": 15
-      },
-      "bigCutRoll": null,
-      "postUp": {
-        "ppp": 0.94,
-        "percentile": 82.6,
-        "freqPer100": 6.7
-      },
-      "insideOut": null,
-      "pickAndPop": null,
-      "highLow": null,
-      "rebScramble": {
-        "ppp": 1.73,
-        "percentile": 98.7,
-        "freqPer100": 2.5
-      },
-      "transition": {
-        "ppp": 1.27,
-        "percentile": 60.8,
-        "freqPer100": 8.4
       }
     }
   }
