@@ -80421,5 +80421,69 @@
         "ppp": 0
       }
     }
+  },
+  "archetypesHE": {
+    "season": "2025+",
+    "items": {
+      "rimAttack": {
+        "ppp": 1.07,
+        "percentile": 93.9,
+        "freqPer100": 17.8
+      },
+      "attackKick": {
+        "ppp": 1.14,
+        "percentile": 96.3,
+        "freqPer100": 9.7
+      },
+      "perimeterSniper": {
+        "ppp": 1.08,
+        "percentile": 76,
+        "freqPer100": 23.7
+      },
+      "dribbleJumper": {
+        "ppp": 0.97,
+        "percentile": 65.7,
+        "freqPer100": 8.9
+      },
+      "midRange": {
+        "ppp": 0.85,
+        "percentile": 72.8,
+        "freqPer100": 2.5
+      },
+      "hitsCutter": {
+        "ppp": 1.17,
+        "percentile": 87.5,
+        "freqPer100": 1.9
+      },
+      "perimeterCut": {
+        "ppp": 1.38,
+        "percentile": 88.5,
+        "freqPer100": 5.3
+      },
+      "pnrPasser": {
+        "ppp": 1.25,
+        "percentile": 97.4,
+        "freqPer100": 5.6
+      },
+      "bigCutRoll": null,
+      "postUp": {
+        "ppp": 0.79,
+        "percentile": 39.7,
+        "freqPer100": 0.5
+      },
+      "insideOut": null,
+      "pickAndPop": null,
+      "highLow": null,
+      "rebScramble": {
+        "ppp": 1.11,
+        "percentile": 36.2,
+        "freqPer100": 5
+      },
+      "transition": {
+        "ppp": 1.16,
+        "percentile": 36,
+        "freqPer100": 19
+      }
+    }
   }
 }

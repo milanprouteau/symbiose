@@ -85,7 +85,6 @@ const PLAYERS = [
   { name: "Milos Uzan", team: "Houston", id: 114 },
   { name: "Nate Bittle", team: "Oregon", id: 7241 },
   { name: "Keyshawn Hall", team: "Auburn", id: 334 },
-  { name: "Paul McNeil Jr.", team: "NC State", id: 2862 },
   { name: "Dillon Mitchell", team: "St. John's", id: 465 },
   { name: "Jeremy Fears Jr.", team: "Michigan State", id: 2474 },
 ];

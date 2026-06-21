@@ -14,6 +14,8 @@ ex pour Tugler 2025 (9 triplets) :
 | 53     | Bidunga, Flory       | 2025+  | 10       | 5         | 1, 2, 4, 5, 7        |
 | 85     | Philon, Labaron      | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 112    | Tugler, Joseph       | 2025+  | 9        | 6         | 1, 2, 3, 4, 5, 7     |
+| 114    | Uzan, Milos          | 2025+  | 11       | 4         | 9, 11, 12, 13        |
+| 115    | Sharp, Emanuel       | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 144    | Lipsey, Tamin        | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 211    | Evans, Isaiah        | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 269    | Bradley, Jaden       | 2025+  | 11       | 4         | 9, 11, 12, 13        |
@@ -22,9 +24,11 @@ ex pour Tugler 2025 (9 triplets) :
 | 334    | Hall, Keyshawn       | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 368    | Smith, Braden        | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 420    | Thornton, Bruce      | 2025+  | 11       | 4         | 9, 11, 12, 13        |
+| 465    | Mitchell, Dillon     | 2025+  | 14       | 1         | 4                    |
 | 497    | Chinyelu, Rueben     | 2025+  | 10       | 5         | 1, 2, 4, 5, 7        |
 | 535    | Mara, Aday           | 2025+  | 10       | 5         | 1, 2, 4, 5, 7        |
-| 2862   | McNeil, Jr., Paul    | 2025+  | 11       | 4         | 9, 11, 12, 13        |
+| 562    | Oweh, Otega          | 2025+  | 11       | 4         | 9, 11, 12, 13        |
+| 2474   | Fears Jr., Jeremy    | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 3596   | Stirtz, Bennett      | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 4066   | Conwell, Ryan        | 2025+  | 11       | 4         | 9, 11, 12, 13        |
 | 4562   | Tanner, Tyler        | 2025+  | 11       | 4         | 9, 11, 12, 13        |
