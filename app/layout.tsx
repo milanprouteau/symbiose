@@ -36,7 +36,7 @@ const alfabetSemiBold = localFont({
   weight: "600",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://stats.symbiosebb.fr";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://symbiosebbstats.fr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

@@ -3,7 +3,7 @@ import path from "path";
 import type { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://stats.symbiosebb.fr";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://symbiosebbstats.fr";
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: siteUrl, lastModified: new Date(), priority: 1 },
