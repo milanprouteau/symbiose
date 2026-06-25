@@ -3,9 +3,8 @@
 import React, { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import styles from "./PlayerTable.module.scss";
-import { getDraftOrder, type PickSlot } from "@/lib/draft2026";
+import { teamByPick } from "@/lib/draftResults2026";
 import { NBA_TEAMS, teamLogo, type TeamAbbr } from "@/lib/nbaTeams";
 
 export type PlayerEntry = {
@@ -20,19 +19,20 @@ export type PlayerEntry = {
   apg: number;
   mpg: number;
   fgPct: number;
-  threePct: number;
+  threePct: number | null;
   ftPct: number;
   usage: number;
   mockDraftPick?: number;
   sis?: number | null;
   sisPx?: number | null;
   nbaProfile?: { label: string; confidence: number } | null;
+  isIntl?: boolean;
 };
 
 type SortKey = keyof PlayerEntry;
 type SortDir = "asc" | "desc";
 
-const COLUMNS: { key: SortKey; label: string; w: string }[] = [
+const COLUMNS: { key: SortKey; label: string; w: string; tooltip?: string }[] = [
   { key: "name",     label: "Joueur",  w: "w44" },
   { key: "position", label: "Pos",     w: "w12" },
   { key: "team",     label: "Équipe",  w: "w28" },
@@ -45,19 +45,14 @@ const COLUMNS: { key: SortKey; label: string; w: string }[] = [
   { key: "threePct", label: "3P%",     w: "w14" },
   { key: "ftPct",    label: "FT%",     w: "w14" },
   { key: "usage",    label: "USG%",    w: "w14" },
-  { key: "sis",      label: "SIS",     w: "w14" },
-  { key: "sisPx",    label: "SIS-Px",  w: "w14" },
+  { key: "sis",      label: "SIS",     w: "w14", tooltip: "SIS — Symbiose Indice : impact actuel du joueur, sur 100." },
+  { key: "sisPx",    label: "SIS-Px",  w: "w14", tooltip: "SIS-Px — Symbiose Indice Potentiel : projection vers la NBA, sur 100." },
 ];
 
 export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("mockDraftPick");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
-
-  const ownerByPick = useMemo(() => {
-    const m = new Map<number, PickSlot>();
-    getDraftOrder().forEach((p) => m.set(p.pick, p));
-    return m;
-  }, []);
+  const [activeTip, setActiveTip] = useState<SortKey | null>(null);
 
   const sorted = useMemo(() => {
     return [...players].sort((a, b) => {
@@ -119,19 +114,38 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                 onClick={() => handleSort(col.key)}
                 className={`${styles.colHeader} ${styles[col.w]} ${col.key === sortKey ? styles.colHeaderActive : ""}`}
               >
-                {col.label}{arrow(col.key)}
+                <span className={col.tooltip ? styles.headerInner : undefined}>
+                  {col.label}{arrow(col.key)}
+                  {col.tooltip && (
+                    <span className={styles.infoWrap} onClick={(e) => e.stopPropagation()}>
+                      <button
+                        type="button"
+                        className={styles.infoBtn}
+                        onClick={() => {
+                          if (window.matchMedia("(hover: none)").matches)
+                            setActiveTip((t) => (t === col.key ? null : col.key));
+                        }}
+                        aria-label={`Définition ${col.label}`}
+                        aria-expanded={activeTip === col.key}
+                      >i</button>
+                      <span className={`${styles.headerTooltip} ${activeTip === col.key ? styles.headerTooltipOpen : ""}`}>
+                        {col.tooltip}
+                      </span>
+                    </span>
+                  )}
+                </span>
               </th>
             ))}
           </tr>
         </thead>
         <tbody>
           {sorted.map((p) => {
-            const slot = p.mockDraftPick ? ownerByPick.get(p.mockDraftPick) : undefined;
+            const teamAbbr = p.mockDraftPick ? teamByPick[p.mockDraftPick] : undefined;
             return (
             <tr key={p.id} className={styles.bodyRow}>
               <td className={styles.rankCell}>
                 <span className={styles.rankInner}>
-                  {slot ? <TeamBadge slot={slot} /> : null}
+                  {teamAbbr ? <TeamBadge team={teamAbbr} /> : null}
                   <span className={styles.pickNumber}>
                     {p.mockDraftPick ? `#${p.mockDraftPick}` : "—"}
                   </span>
@@ -142,9 +156,29 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
                 if (col.key === "name") {
                   return (
                     <td key={col.key} className={`${styles.cell} ${styles[col.w]}`}>
-                      <Link href={`/player/${p.id}`} className={styles.nameLink}>
-                        {val as string}
-                      </Link>
+                      {p.isIntl ? (
+                        <span className={styles.nameIntl}>{val as string}</span>
+                      ) : (
+                        <Link href={`/player/${p.id}`} className={styles.nameLink}>
+                          {val as string}
+                        </Link>
+                      )}
+                    </td>
+                  );
+                }
+                // Joueurs non-NCAA : stats pro de base affichées, le reste en "—"
+                if (p.isIntl) {
+                  let content: React.ReactNode;
+                  if (col.key === "usage" || col.key === "sis" || col.key === "sisPx") {
+                    content = "—";
+                  } else if (col.key === "threePct") {
+                    content = p.threePct == null ? "—" : p.threePct;
+                  } else {
+                    content = typeof val === "object" ? "" : (val as React.ReactNode);
+                  }
+                  return (
+                    <td key={col.key} className={`${styles.cell} ${styles[col.w]}`}>
+                      {content}
                     </td>
                   );
                 }
@@ -192,44 +226,17 @@ export default function PlayerTable({ players }: { players: PlayerEntry[] }) {
   );
 }
 
-function TeamBadge({ slot }: { slot: PickSlot }) {
-  const owner = NBA_TEAMS[slot.owner as TeamAbbr];
-  const origin = NBA_TEAMS[slot.origin as TeamAbbr];
-  const swapped = slot.owner !== slot.origin;
-
-  const tooltip = swapped
-    ? `${owner.city} ${owner.name} (via ${origin.city} ${origin.name})`
-    : `${owner.city} ${owner.name}`;
-
+function TeamBadge({ team }: { team: TeamAbbr }) {
+  const t = NBA_TEAMS[team];
   return (
-    <span className={styles.teamBadge} title={tooltip}>
-      {swapped ? (
-        <>
-          <Image
-            src={teamLogo(slot.origin as TeamAbbr)}
-            alt={origin.abbr}
-            width={16}
-            height={16}
-            className={`${styles.teamLogo} ${styles.logoOrigin}`}
-          />
-          <ArrowRight className={styles.swapArrow} aria-hidden="true" />
-          <Image
-            src={teamLogo(slot.owner as TeamAbbr)}
-            alt={owner.abbr}
-            width={20}
-            height={20}
-            className={styles.teamLogo}
-          />
-        </>
-      ) : (
-        <Image
-          src={teamLogo(slot.owner as TeamAbbr)}
-          alt={owner.abbr}
-          width={20}
-          height={20}
-          className={styles.teamLogo}
-        />
-      )}
+    <span className={styles.teamBadge} title={`${t.city} ${t.name}`}>
+      <Image
+        src={teamLogo(team)}
+        alt={t.abbr}
+        width={20}
+        height={20}
+        className={styles.teamLogo}
+      />
     </span>
   );
 }

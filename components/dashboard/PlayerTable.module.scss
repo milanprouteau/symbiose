@@ -53,6 +53,77 @@
   color: var(--color-primary-orange);
 }
 
+/* En-têtes avec infobulle (SIS / SIS-Px) — icône (i) + tooltip */
+.headerInner {
+  display: inline-flex;
+  align-items: center;
+}
+
+.infoWrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  line-height: 0;
+}
+
+.infoBtn {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 9px;
+  line-height: 1;
+  text-transform: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, border-color 0.15s;
+
+  &:hover {
+    color: var(--color-primary-orange);
+    border-color: var(--color-primary-orange);
+  }
+}
+
+.headerTooltip {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  width: 190px;
+  background: var(--color-surface-raised, #1c1c1c);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.5rem 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--color-text);
+  text-align: left;
+  white-space: normal;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.15s, visibility 0.15s;
+  z-index: 30;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.infoWrap:hover .headerTooltip,
+.headerTooltipOpen {
+  opacity: 1;
+  visibility: visible;
+}
+
 .bodyRow {
   border-bottom: 1px solid var(--color-border-subtle);
   transition: background-color 0.2s;
@@ -136,6 +207,14 @@
   &:hover {
     color: var(--color-primary-orange);
   }
+}
+
+.nameIntl {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  cursor: default;
 }
 
 /* Column widths */

@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { Metadata } from "next";
 import PlayerTable, { type PlayerEntry } from "@/components/dashboard/PlayerTable";
-import { mockDraftPredictions } from "@/lib/mockDraftPredictions";
+import { pickByPlayerId, internationalPicks } from "@/lib/draftResults2026";
 import { calculateSIS } from "@/lib/sisScore";
 import styles from "./page.module.scss";
 
@@ -85,18 +85,42 @@ export default async function HomePage() {
     const name = nameById.get(player.id) ?? "";
     return {
       ...player,
-      mockDraftPick: mockDraftPredictions[player.id],
+      mockDraftPick: pickByPlayerId[player.id],
       sis:           sisMap.get(player.id) ?? null,
       sisPx:         mlSisPxByName.get(name) ?? mlSisPxByName.get(normName(name)) ?? null,
       nbaProfile:    mlProfileByName.get(name) ?? mlProfileByName.get(normName(name)) ?? null,
     };
   });
 
+  // Internationaux / non-NCAA — lignes non-cliquables (n° + logo NBA + nom)
+  const intlEntries: PlayerEntry[] = internationalPicks.map((d) => ({
+    id: -d.pick,
+    name: d.name,
+    team: d.origin ?? "",
+    conference: "",
+    position: d.stats?.pos ?? "",
+    games:    d.stats?.games ?? 0,
+    ppg:      d.stats?.ppg ?? 0,
+    rpg:      d.stats?.rpg ?? 0,
+    apg:      d.stats?.apg ?? 0,
+    mpg:      d.stats?.mpg ?? 0,
+    fgPct:    d.stats?.fgPct ?? 0,
+    threePct: d.stats?.threePct ?? null,
+    ftPct:    d.stats?.ftPct ?? 0,
+    usage: 0,
+    mockDraftPick: d.pick,
+    sis: null,
+    sisPx: null,
+    isIntl: true,
+  }));
+
+  const allRows: PlayerEntry[] = [...enrichedPlayers, ...intlEntries];
+
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Top NCAA Prospects</h1>
+      <h1 className={styles.title}>Draft board</h1>
       <div className={styles.tableCard}>
-        <PlayerTable players={enrichedPlayers} />
+        <PlayerTable players={allRows} />
       </div>
     </div>
   );

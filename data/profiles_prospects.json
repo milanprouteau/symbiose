@@ -20,26 +20,6 @@
     "proba_role_player": 88.7
   },
   {
-    "name": "Keyshawn Hall",
-    "team": "Auburn",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 78.3,
-    "proba_nba_ready": 13.7,
-    "proba_late_bloomer": 8,
-    "proba_role_player": 78.3
-  },
-  {
-    "name": "Nate Bittle",
-    "team": "Oregon",
-    "position": "C",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 51.6,
-    "proba_nba_ready": 45.5,
-    "proba_late_bloomer": 2.9,
-    "proba_role_player": 51.6
-  },
-  {
     "name": "Mikel Brown Jr.",
     "team": "Louisville",
     "position": "G",
@@ -170,16 +150,6 @@
     "proba_role_player": 72.2
   },
   {
-    "name": "Tamin Lipsey",
-    "team": "Iowa State",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 44,
-    "proba_nba_ready": 18.7,
-    "proba_late_bloomer": 37.3,
-    "proba_role_player": 44
-  },
-  {
     "name": "Darius Acuff",
     "team": "Arkansas",
     "position": "G",
@@ -198,16 +168,6 @@
     "proba_nba_ready": 61.5,
     "proba_late_bloomer": 2.3,
     "proba_role_player": 36.2
-  },
-  {
-    "name": "Tyler Tanner",
-    "team": "Vanderbilt",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 81.1,
-    "proba_nba_ready": 13.2,
-    "proba_late_bloomer": 5.8,
-    "proba_role_player": 81.1
   },
   {
     "name": "Zuby Ejiofor",
@@ -260,16 +220,6 @@
     "proba_role_player": 47.2
   },
   {
-    "name": "Milan Momcilovic",
-    "team": "Iowa State",
-    "position": "F",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 62.7,
-    "proba_nba_ready": 28.3,
-    "proba_late_bloomer": 9,
-    "proba_role_player": 62.7
-  },
-  {
     "name": "Brayden Burries",
     "team": "Arizona",
     "position": "G",
@@ -298,26 +248,6 @@
     "proba_nba_ready": 8.5,
     "proba_late_bloomer": 13,
     "proba_role_player": 78.4
-  },
-  {
-    "name": "Flory Bidunga",
-    "team": "Kansas",
-    "position": "F",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 53.8,
-    "proba_nba_ready": 40.5,
-    "proba_late_bloomer": 5.7,
-    "proba_role_player": 53.8
-  },
-  {
-    "name": "Tounde Yessoufou",
-    "team": "Baylor",
-    "position": "G",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 97,
-    "proba_nba_ready": 1.3,
-    "proba_late_bloomer": 1.7,
-    "proba_role_player": 97
   },
   {
     "name": "Darryn Peterson",
@@ -390,16 +320,6 @@
     "proba_role_player": 86.7
   },
   {
-    "name": "Amari Allen",
-    "team": "Alabama",
-    "position": "F",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 81.9,
-    "proba_nba_ready": 13.6,
-    "proba_late_bloomer": 4.6,
-    "proba_role_player": 81.9
-  },
-  {
     "name": "Koa Peat",
     "team": "Arizona",
     "position": "F",
@@ -460,16 +380,6 @@
     "proba_role_player": 64
   },
   {
-    "name": "Milos Uzan",
-    "team": "Houston",
-    "position": "Guard",
-    "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 60,
-    "proba_nba_ready": 21,
-    "proba_late_bloomer": 18,
-    "proba_role_player": 60
-  },
-  {
     "name": "Allen Graves",
     "team": "Santa Clara",
     "position": "Forward",
@@ -500,13 +410,133 @@
     "proba_role_player": 46
   },
   {
-    "name": "Jeremy Fears Jr.",
-    "team": "Michigan State",
+    "name": "Maliq Brown",
+    "team": "Duke",
+    "position": "Forward",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 63,
+    "proba_nba_ready": 28,
+    "proba_late_bloomer": 15,
+    "proba_role_player": 57
+  },
+  {
+    "name": "Lajae Jones",
+    "team": "Florida State",
     "position": "Guard",
     "nba_profile": "ROLE_PLAYER",
-    "profile_confidence": 64,
-    "proba_nba_ready": 24,
-    "proba_late_bloomer": 15,
-    "proba_role_player": 61
+    "profile_confidence": 59,
+    "proba_nba_ready": 40,
+    "proba_late_bloomer": 12,
+    "proba_role_player": 48
+  },
+  {
+    "name": "Felix Okpara",
+    "team": "Tennessee",
+    "position": "Forward",
+    "nba_profile": "NBA_READY",
+    "profile_confidence": 72,
+    "proba_nba_ready": 49,
+    "proba_late_bloomer": 10,
+    "proba_role_player": 41
+  },
+  {
+    "name": "Bryce Hopkins",
+    "team": "St. John's",
+    "position": "Forward",
+    "nba_profile": "NBA_READY",
+    "profile_confidence": 63,
+    "proba_nba_ready": 51,
+    "proba_late_bloomer": 14,
+    "proba_role_player": 36
+  },
+  {
+    "name": "Ja'Kobi Gillespie",
+    "team": "Tennessee",
+    "position": "Guard",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 68,
+    "proba_nba_ready": 25,
+    "proba_late_bloomer": 16,
+    "proba_role_player": 59
+  },
+  {
+    "name": "Trey Kaufman-Renn",
+    "team": "Purdue",
+    "position": "Forward",
+    "nba_profile": "NBA_READY",
+    "profile_confidence": 69,
+    "proba_nba_ready": 62,
+    "proba_late_bloomer": 10,
+    "proba_role_player": 28
+  },
+  {
+    "name": "Tyler Nickel",
+    "team": "Vanderbilt",
+    "position": "Guard",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 63,
+    "proba_nba_ready": 29,
+    "proba_late_bloomer": 14,
+    "proba_role_player": 57
+  },
+  {
+    "name": "Izaiyah Nelson",
+    "team": "South Florida",
+    "position": "Forward",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 77,
+    "proba_nba_ready": 30,
+    "proba_late_bloomer": 6,
+    "proba_role_player": 64
+  },
+  {
+    "name": "Tyler Bilodeau",
+    "team": "UCLA",
+    "position": "Forward",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 61,
+    "proba_nba_ready": 35,
+    "proba_late_bloomer": 14,
+    "proba_role_player": 50
+  },
+  {
+    "name": "Nick Martinelli",
+    "team": "Northwestern",
+    "position": "Forward",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 60,
+    "proba_nba_ready": 37,
+    "proba_late_bloomer": 10,
+    "proba_role_player": 52
+  },
+  {
+    "name": "Tobi Lawal",
+    "team": "Virginia Tech",
+    "position": "Forward",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 63,
+    "proba_nba_ready": 34,
+    "proba_late_bloomer": 14,
+    "proba_role_player": 51
+  },
+  {
+    "name": "Ugonna Onyenso",
+    "team": "Virginia",
+    "position": "Center",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 70,
+    "proba_nba_ready": 42,
+    "proba_late_bloomer": 11,
+    "proba_role_player": 47
+  },
+  {
+    "name": "Jaron Pierre Jr.",
+    "team": "SMU",
+    "position": "Guard",
+    "nba_profile": "ROLE_PLAYER",
+    "profile_confidence": 72,
+    "proba_nba_ready": 40,
+    "proba_late_bloomer": 4,
+    "proba_role_player": 56
   }
 ]
